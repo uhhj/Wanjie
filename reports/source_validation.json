@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+  "sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "rgba": true,
+  "transparent_pixels": 861170,
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "timestamp": "2026-09-11T15:17:07.175763+00:00"
+}

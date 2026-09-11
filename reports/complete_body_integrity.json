@@ -1,0 +1,70 @@
+{
+  "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+  "candidate_sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+  "stages": [
+    {
+      "id": "001_remove_shield",
+      "input_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "output_sha256": "830e7e277d4536285d22422c4f9c24a59cc17827b0e28008d1be28f9ee848a7b",
+      "output_mode": "RGBA",
+      "output_canvas": [
+        1024,
+        1536
+      ],
+      "allowed_mask_pixels": 262813,
+      "changed_protected_pixels": 0,
+      "changed_editable_pixels": 178885
+    },
+    {
+      "id": "002_remove_sword",
+      "input_sha256": "830e7e277d4536285d22422c4f9c24a59cc17827b0e28008d1be28f9ee848a7b",
+      "output_sha256": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
+      "output_mode": "RGBA",
+      "output_canvas": [
+        1024,
+        1536
+      ],
+      "allowed_mask_pixels": 25940,
+      "changed_protected_pixels": 0,
+      "changed_editable_pixels": 25860
+    },
+    {
+      "id": "003_remove_cape",
+      "input_sha256": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
+      "output_sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+      "output_mode": "RGBA",
+      "output_canvas": [
+        1024,
+        1536
+      ],
+      "allowed_mask_pixels": 275321,
+      "changed_protected_pixels": 0,
+      "changed_editable_pixels": 121411
+    }
+  ],
+  "unchanged_region_changed_rgba_pixels": 0,
+  "identity_roi_checks": {
+    "helmet_crest_roi": {
+      "rect": [
+        350,
+        0,
+        700,
+        338
+      ],
+      "changed_rgba_pixels": 1356
+    },
+    "visible_face_roi": {
+      "rect": [
+        570,
+        265,
+        636,
+        360
+      ],
+      "changed_rgba_pixels": 0
+    }
+  },
+  "numerical_integrity_status": "PASS",
+  "complete_body_art_status": "FAIL",
+  "note": "Pixel protection does not establish plausible hidden anatomy or approve new collar design. All local visual defects are retained in art review.",
+  "timestamp": "2026-09-11T15:18:43.145646+00:00"
+}

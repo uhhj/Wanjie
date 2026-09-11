@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "prompt": "Use case: precise-object-edit. Image 1 is the only edit target: frozen Roman guard with shield already removed. Image 2 is a white=edit / black=protect region guide ONLY. Remove ONLY the entire gladius sword including blade, brass guard, visible pommel and handle pieces. Complete the existing skirt armor, red underlining, thigh and tiny knee armor edge that were hidden by it. Preserve the gripping left-of-image fist EXACTLY, at its original coordinates; do not open it or change fingers. Where the tip previously crossed empty space between legs, restore transparency. Keep the cloak intact. Never change any other visible pixel, face, helmet, crest, shoulder, armor design, colors, lighting, human proportions, stance, feet, other fist. Strict REMOVE / INPAINT / COMPLETE only, no redesign or restyle or full-character regeneration. Same full 1024x1536 canvas, no crop, translation or scaling. Return true RGBA transparency; do NOT paint a checkerboard pattern, solid black or any background. Output only the edited character, without the mask.",
+  "referenced_image_paths": [
+    "work/01_no_shield.png",
+    "work/masks/remove_sword.png"
+  ],
+  "started_utc": "2026-09-11T14:52:42.779Z",
+  "status": "RETURNED_REAL_IMAGE",
+  "output_file": "work/raw/002_remove_sword.png",
+  "output_sha256": "45603e438efd6ba0eae9a619944f1ee707bd65c3ae3b227e7e397dd05887f1f1",
+  "input_sha256": "830e7e277d4536285d22422c4f9c24a59cc17827b0e28008d1be28f9ee848a7b",
+  "finished_utc": "2026-09-11T14:54:40.019642+00:00",
+  "raw_mode": "RGB",
+  "guide_sha256": "86cbfa535e41bb029c5132afc3e35b3c4edbf4fe1cf6a699fc4d0e570396d652"
+}

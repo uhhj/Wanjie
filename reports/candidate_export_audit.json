@@ -1,0 +1,68 @@
+{
+  "required_core_parts": 19,
+  "candidate_count": 3,
+  "formal_count": 0,
+  "candidates": [
+    {
+      "part": "shield",
+      "file": "work/candidates/parts/shield.png",
+      "sha256": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+      "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nontransparent_pixels": 174358,
+      "source_rgb_identical_on_visible_pixels": true,
+      "formal": false,
+      "review_required": true
+    },
+    {
+      "part": "sword",
+      "file": "work/candidates/parts/sword.png",
+      "sha256": "97b24573e0084edf2e0ca0ceb98da2325b29abe592f1048891b586ac2b1ef9f5",
+      "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nontransparent_pixels": 21604,
+      "source_rgb_identical_on_visible_pixels": true,
+      "formal": false,
+      "review_required": true
+    },
+    {
+      "part": "cape",
+      "file": "work/candidates/parts/cape.png",
+      "sha256": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8",
+      "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nontransparent_pixels": 106588,
+      "source_rgb_identical_on_visible_pixels": true,
+      "formal": false,
+      "review_required": true
+    }
+  ],
+  "timestamp": "2026-09-11T15:18:43.656082+00:00"
+}

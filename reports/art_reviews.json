@@ -1,0 +1,32 @@
+{
+  "001_remove_shield": {
+    "status": "PASS",
+    "sha256": "830e7e277d4536285d22422c4f9c24a59cc17827b0e28008d1be28f9ee848a7b",
+    "reviewer": "Codex visual inspection",
+    "notes": "Full canvas and fist close-up reviewed after neutral checker-fringe cleanup; no shield remains, hand is continuous. Outside-mask pixels preserved exactly.",
+    "timestamp": "2026-09-11T14:52:44.391205+00:00"
+  },
+  "002_remove_sword": {
+    "status": "REVIEWED_INTERMEDIATE_WITH_ISSUES",
+    "sha256": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
+    "reviewer": "Codex visual inspection",
+    "notes": "Sword removed but diagonal skirt/cloth color and fold seams remain; cape has a pommel-area seam. Not production approved. Continue independent cape removal for final body review only, never formal extraction.",
+    "timestamp": "2026-09-11T14:56:19.218124+00:00"
+  },
+  "003_remove_cape": {
+    "status": "FAIL",
+    "file": "work/03_complete_body_base.png",
+    "sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+    "reviewer": "Codex visual inspection",
+    "notes": "Cape removal candidate reviewed at full canvas and neck/shoulder detail. AI introduced a raised collar whose design is not established by visible source armor; edge matte and source-to-completion continuity require correction. Not approved.",
+    "timestamp": "2026-09-11T15:07:45.105982+00:00"
+  },
+  "complete_body": {
+    "status": "FAIL",
+    "file": "work/03_complete_body_base.png",
+    "sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+    "reviewer": "Codex visual inspection",
+    "notes": "STOP_ART_PIPELINE. Double hands/legs exist and equipment is removed, but diagonal skirt folds/color seam and local matte artifacts remain. The added raised collar requires correction to conservative continuation of the visible source design. Do not split this body or use it in Godot.",
+    "timestamp": "2026-09-11T15:07:45.111498+00:00"
+  }
+}
