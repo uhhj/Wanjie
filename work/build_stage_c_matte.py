@@ -11,7 +11,11 @@ from PIL import ImageFilter
 source_rgb=np.array(check_source()).astype(int); yy,xx=np.indices(source_rgb.shape[:2])
 cape_red=(xx>280)&(xx<477)&(yy>325)&(yy<426)&(source_rgb[:,:,0]>1.5*source_rgb[:,:,1])&(source_rgb[:,:,0]>1.3*source_rgb[:,:,2])&(source_rgb[:,:,3]>0)
 extra=Image.fromarray(cape_red.astype(np.uint8)*255).filter(ImageFilter.MaxFilter(7))
-allowed=Image.fromarray(np.maximum(np.array(allowed),np.array(extra))); allowed.save(ROOT/'work/masks/remove_cape.png')
+allowed=Image.fromarray(np.maximum(np.array(allowed),np.array(extra)))
+# Audit found that red-biased pixels at the helmet/crest rear edge were falsely
+# included by the cape-color helper. Restore the frozen head/helmet region.
+ImageDraw.Draw(allowed).rectangle((0,0,1023,341),fill=0)
+allowed.save(ROOT/'work/masks/remove_cape.png')
 j=import_result(stage_for('003_remove_cape'),ROOT/'work/raw/003_remove_cape.png','work/masks/003_generated_body_matte.png','Actual generated neck/shoulder and outer body silhouette traced. Broad coordinates outside cape mask are irrelevant; only mask intersections sampled. RGB checkerboard is not treated as alpha.')
 print(j['output_sha256'])
 body=rgba('work/03_complete_body_base.png')

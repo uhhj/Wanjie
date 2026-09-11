@@ -1,6 +1,6 @@
 {
   "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
-  "candidate_sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+  "candidate_sha256": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf",
   "stages": [
     {
       "id": "001_remove_shield",
@@ -31,15 +31,15 @@
     {
       "id": "003_remove_cape",
       "input_sha256": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
-      "output_sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+      "output_sha256": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf",
       "output_mode": "RGBA",
       "output_canvas": [
         1024,
         1536
       ],
-      "allowed_mask_pixels": 275321,
+      "allowed_mask_pixels": 272747,
       "changed_protected_pixels": 0,
-      "changed_editable_pixels": 121411
+      "changed_editable_pixels": 119588
     }
   ],
   "unchanged_region_changed_rgba_pixels": 0,
@@ -49,9 +49,9 @@
         350,
         0,
         700,
-        338
+        342
       ],
-      "changed_rgba_pixels": 1356
+      "changed_rgba_pixels": 0
     },
     "visible_face_roi": {
       "rect": [
@@ -66,5 +66,5 @@
   "numerical_integrity_status": "PASS",
   "complete_body_art_status": "FAIL",
   "note": "Pixel protection does not establish plausible hidden anatomy or approve new collar design. All local visual defects are retained in art review.",
-  "timestamp": "2026-09-11T15:18:43.145646+00:00"
+  "timestamp": "2026-09-11T15:20:37.980304+00:00"
 }

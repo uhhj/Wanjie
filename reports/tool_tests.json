@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "test_count": 12,
+  "execution_timestamp": "2026-09-11T15:17:09.908258+00:00",
+  "record_recovered_from_commit": "7ae2cac",
+  "note": "Executed test evidence retained separately from later production-only validation runs. Tests used isolated synthetic fixtures, not real formal parts.",
+  "run": {
+    "script": "test_pipeline_safety.py",
+    "exit_code": 0,
+    "stdout": "FAIL\n",
+    "stderr": "test_contact_sheet_reports_all_eighteen_cases_and_descendants (__main__.SafetyTests.test_contact_sheet_reports_all_eighteen_cases_and_descendants) ... ok\ntest_crop_needs_measured_offset (__main__.SafetyTests.test_crop_needs_measured_offset) ... ok\ntest_hostile_global_edit_is_confined_to_mask (__main__.SafetyTests.test_hostile_global_edit_is_confined_to_mask) ... ok\ntest_mismatched_ai_canvas_rejected_without_stretch (__main__.SafetyTests.test_mismatched_ai_canvas_rejected_without_stretch) ... ok\ntest_normalization_cannot_clip (__main__.SafetyTests.test_normalization_cannot_clip) ... ok\ntest_normalization_retains_real_pixel_coordinates (__main__.SafetyTests.test_normalization_retains_real_pixel_coordinates) ... ok\ntest_rgb_return_cannot_claim_transparency (__main__.SafetyTests.test_rgb_return_cannot_claim_transparency) ... ok\ntest_socket_transform_moves_child_about_parent_pivot (__main__.SafetyTests.test_socket_transform_moves_child_about_parent_pivot) ... ok\ntest_source_mutation_is_rejected_without_repairing_source (__main__.SafetyTests.test_source_mutation_is_rejected_without_repairing_source) ... ok\ntest_stale_art_approval_cannot_unlock_pipeline (__main__.SafetyTests.test_stale_art_approval_cannot_unlock_pipeline) ... ok\ntest_unreviewed_matte_rejected (__main__.SafetyTests.test_unreviewed_matte_rejected) ... ok\ntest_zero_angle_keeps_source_pixels_and_canvas (__main__.SafetyTests.test_zero_angle_keeps_source_pixels_and_canvas) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.733s\n\nOK\n"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": null,
+  "prompt": "Use case: precise-object-edit. Image 1 is the sole edit target: the SAME FROZEN Roman guard after shield and sword removal. Image 2 is a white editable / black protected region guide, not output content. REMOVE the entire dark red cape, including draped red neck/shoulder cloak and its large round gold cape clasp at (517,423), and the long red fabric behind the left-of-image arm and leg. COMPLETE only the body/armor that was actually hidden underneath the cape: continue the existing gray and bronze cuirass, rear shoulder and back edges, neck-to-armor transition. The now-empty area left of the existing arm must be transparent; do not widen the torso or add a limb. PRESERVE the original visible metal shoulder plates and their red underlining, the red skirt underlining, original legs, hands, face, helmet, crest, stance, proportions, all armor design and colors. Cape red at neck and rear must disappear; red skirt and red shoulder-underpadding must stay. Both empty hands remain exactly as input. No shield, no sword. No redesign, no restyle, no new armor shapes beyond continuing existing layers in previously hidden regions. Keep every unmasked pixel and every visible landmark fixed. Full original 1024x1536 canvas, no crop or scale. Return true RGBA transparency, no painted checkerboard, no black/white background. One complete armored body candidate for rigging.",
+  "referenced_image_paths": [
+    "work/02_no_shield_no_sword.png",
+    "work/masks/003_tool_guide.png"
+  ],
+  "started_utc": "2026-09-11T14:57:00.410Z",
+  "status": "RETURNED_REAL_IMAGE",
+  "output_file": "work/raw/003_remove_cape.png",
+  "output_sha256": "ca802306511b3412c6c8f612cf1a66501710067f696e4060c40b5e999d9b37a3",
+  "input_sha256": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
+  "finished_utc": "2026-09-11T15:00:30.144472+00:00",
+  "raw_mode": "RGB",
+  "guide_sha256": "f02ade7553d616e91badeaadf734bb2869266ffe09d89575ae6f03a3c3bda0d5"
+}

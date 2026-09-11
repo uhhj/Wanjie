@@ -1,0 +1,96 @@
+{
+  "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
+  "verdict": "BLOCKED",
+  "art_pipeline": "STOP_ART_PIPELINE",
+  "repository_root": "D:\\Wanjie\\documents\\uhhj",
+  "source": {
+    "external_path": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+    "project_path": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+    "sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "rgba": true,
+    "read_only": true
+  },
+  "image_editing": {
+    "tool_detected": "YES",
+    "tool": "image_gen.imagegen",
+    "model": "not disclosed",
+    "actual_calls": 3,
+    "native_mask_parameter": false,
+    "raw_result_modes": [
+      "RGB",
+      "RGB",
+      "RGB"
+    ],
+    "api_key_configured": false
+  },
+  "ai_stages": {
+    "remove_shield": "EXECUTED_INTERMEDIATE_REVIEW_PASS",
+    "remove_sword": "EXECUTED_ART_FAIL",
+    "remove_cape": "EXECUTED_ART_FAIL"
+  },
+  "complete_body": {
+    "status": "FAIL",
+    "file": "work/03_complete_body_base.png",
+    "sha256": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf",
+    "blockers": [
+      "Diagonal skirt/cloth seams after sword removal",
+      "Raised metal collar not justified by frozen visible design",
+      "Local alpha edge quality still requires art correction"
+    ]
+  },
+  "parts": {
+    "required_count": 19,
+    "candidate_generated_extracted_count": 3,
+    "candidate_names": [
+      "shield",
+      "sword",
+      "cape"
+    ],
+    "formal_generated_extracted_count": 0,
+    "formal_missing_count": 19,
+    "body_masks_missing_count": 16
+  },
+  "recomposition": {
+    "gate": "FAIL",
+    "execution": "NOT_RUN",
+    "reason": "Formal parts not approved; no fabricated recomposed or diff PNG"
+  },
+  "joint_tests": {
+    "elbows": "NOT_RUN",
+    "knees": "NOT_RUN",
+    "shield": "NOT_RUN",
+    "sword": "NOT_RUN",
+    "reason": "Formal parts gate failed; synthetic tool tests are not character joint validation"
+  },
+  "godot_handoff": "NOT_READY",
+  "tools_tests": {
+    "status": "PASS",
+    "count": 12
+  },
+  "manual_review_images": [
+    "reports/complete_body_review.png",
+    "reports/complete_body_detail_review.png",
+    "reports/001_hand_matte_review.png",
+    "reports/equipment_extraction_review.png",
+    "reports/occlusion_mask_review.png",
+    "reports/helmet_edge_review.png"
+  ],
+  "manual_edit_resume_document": "docs/IMAGE_EDIT_MANUAL_HANDOFF.md",
+  "git": {
+    "repository": "uhhj",
+    "branch": "feature/roman-guard-ai-rig-assets-v1",
+    "commits_before_this_report": [
+      "7ae2cac art: record inpainting candidates and failed body review",
+      "621b600 feat: add guarded roman guard asset pipeline",
+      "391d630 chore: add frozen roman guard rig source"
+    ],
+    "final_report_commit_subject": "fix: preserve frozen helmet edge and document blocked handoff",
+    "remote": null,
+    "note": "Final delivery commit and clean-tree check are reported after committing this report; use git log / git status for current state."
+  },
+  "timestamp": "2026-09-11T15:23:13.433217+00:00"
+}

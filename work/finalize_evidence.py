@@ -12,7 +12,7 @@ for stage in config()['stages']:
     mask_items.append((stage['id']+' | final composite mask',Image.alpha_composite(inp,overlay)))
 sheet(mask_items,'reports/occlusion_mask_review.png',3,(341,512))
 body=np.array(rgba('work/03_complete_body_base.png'))
-identity={'helmet_crest_roi':[350,0,700,338],'visible_face_roi':[570,265,636,360]}
+identity={'helmet_crest_roi':[350,0,700,342],'visible_face_roi':[570,265,636,360]}
 identity_result={}
 for name,(x0,y0,x1,y1) in identity.items(): identity_result[name]={'rect':identity[name],'changed_rgba_pixels':int(np.any(src[y0:y1,x0:x1]!=body[y0:y1,x0:x1],axis=2).sum())}
 write('reports/complete_body_integrity.json',{'source_sha256':sha(config()['source']),'candidate_sha256':sha('work/03_complete_body_base.png'),'stages':rows,'unchanged_region_changed_rgba_pixels':int(np.any(src[~allowed]!=body[~allowed],axis=1).sum()),'identity_roi_checks':identity_result,'numerical_integrity_status':'PASS' if all(r['changed_protected_pixels']==0 for r in rows) else 'FAIL','complete_body_art_status':'FAIL','note':'Pixel protection does not establish plausible hidden anatomy or approve new collar design. All local visual defects are retained in art review.','timestamp':now()})

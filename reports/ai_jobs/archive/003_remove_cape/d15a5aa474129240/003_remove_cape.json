@@ -5,7 +5,7 @@
   "prompt": "work/prompts/003_remove_cape.txt",
   "output": "work/03_complete_body_base.png",
   "input_sha256": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
-  "mask_sha256": "60a29a7a1fa0bec88412fceb09ace323397aa21d009dbb2fe7184e0f13059c94",
+  "mask_sha256": "29f8db2ea34ceee96810d25839381b2878ba0710b43ab662a093ce1c507369bb",
   "prompt_text": "严格参考输入的冻结生产母图；同一张脸、同一头盔和红色冠饰、同一铁灰与青铜甲胄、同一罗马裙甲、同一材质配色、人体比例、姿态与朝右方向。仅允许 REMOVE / INPAINT / COMPLETE；严禁 REDESIGN / RESTYLE。透明背景，无新增对象，无文字，无投影。输出为原始 1024×1536 画布，人物每个原有地标坐标不变，不移动、不缩放、不裁切。输入二是区域参考：白色允许编辑，黑色必须保留。它不是输出内容。未遮挡像素必须尽可能逐像素保持。\n\n移除完整暗红披风，包括后方垂布以及肩颈处属于披风的红色围领/搭肩和披风圆形扣。只补全披风原本遮挡的背部甲胄、后肩、后侧上臂、腰背和必要的后腿结构；原轮廓外其余位置透明。延续现有甲胄结构，不增加新款式。保留裙甲红色内衬和肩甲下的红色甲片衬布，它们不是披风。保留原盔甲、裸露颈部、脸、冠饰、手脚、躯干比例和站姿。目标是完整穿甲人体底版，无盾无剑无披风，双手双腿完整。",
   "model_tool_identifier": "image_gen.imagegen",
   "model_identifier": null,
@@ -13,8 +13,8 @@
   "native_mask_parameter": false,
   "mask_enforcement": "Deterministic composite after reference-guided image edit; raw output retained.",
   "status": "IMPORTED_REVIEW_REQUIRED",
-  "output_sha256": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf",
-  "timestamp": "2026-09-11T15:20:33.529119+00:00",
+  "output_sha256": "d15a5aa47412924050661a589de8ec065a51ae2882026ce57537afe1c3e91371",
+  "timestamp": "2026-09-11T15:00:30.144472+00:00",
   "matte": "work/masks/003_generated_body_matte.png",
   "matte_sha256": "b378fbdc0d25458a49290eb9ed87642b7a2fb3b5c24b0bce4d089c89323bcb68",
   "matte_review_note": "Actual generated neck/shoulder and outer body silhouette traced. Broad coordinates outside cape mask are irrelevant; only mask intersections sampled. RGB checkerboard is not treated as alpha.",
@@ -22,9 +22,8 @@
   "raw_output_sha256": "ca802306511b3412c6c8f612cf1a66501710067f696e4060c40b5e999d9b37a3",
   "raw_mode": "RGB",
   "protected_changed_pixels": 0,
-  "raw_protected_rgb_mean_absolute_error": 166.30534482665792,
+  "raw_protected_rgb_mean_absolute_error": 166.41661946206534,
   "actual_tool_invocation": "reports/ai_jobs/003_tool_invocation.json",
   "actual_tool_prompt": "Use case: precise-object-edit. Image 1 is the sole edit target: the SAME FROZEN Roman guard after shield and sword removal. Image 2 is a white editable / black protected region guide, not output content. REMOVE the entire dark red cape, including draped red neck/shoulder cloak and its large round gold cape clasp at (517,423), and the long red fabric behind the left-of-image arm and leg. COMPLETE only the body/armor that was actually hidden underneath the cape: continue the existing gray and bronze cuirass, rear shoulder and back edges, neck-to-armor transition. The now-empty area left of the existing arm must be transparent; do not widen the torso or add a limb. PRESERVE the original visible metal shoulder plates and their red underlining, the red skirt underlining, original legs, hands, face, helmet, crest, stance, proportions, all armor design and colors. Cape red at neck and rear must disappear; red skirt and red shoulder-underpadding must stay. Both empty hands remain exactly as input. No shield, no sword. No redesign, no restyle, no new armor shapes beyond continuing existing layers in previously hidden regions. Keep every unmasked pixel and every visible landmark fixed. Full original 1024x1536 canvas, no crop or scale. Return true RGBA transparency, no painted checkerboard, no black/white background. One complete armored body candidate for rigging.",
-  "art_review_status": "FAIL",
-  "postprocess_correction": "Restored all frozen head/helmet pixels at y<=341 after mask audit found overbroad red-color selection."
+  "art_review_status": "FAIL"
 }
