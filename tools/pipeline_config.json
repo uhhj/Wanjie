@@ -1,0 +1,37 @@
+{
+  "unit_id": "OD_UNIT_01_ROMAN_GUARD",
+  "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+  "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "near_side": "viewer-left sword arm and viewer-left leg",
+  "far_side": "viewer-right shield arm and viewer-right leg",
+  "mask_convention": "8-bit L, white=editable/keep part, black=protected/exclude. Never assume API alpha mask convention.",
+  "review_policy": "Draft masks require visual review; body extraction requires hash-bound complete_body approval; official parts require hash-bound per-part approval.",
+  "overlap_target_fraction": 0.25,
+  "stages": [
+    {
+      "id": "001_remove_shield",
+      "input": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "mask": "work/masks/remove_shield.png",
+      "prompt": "work/prompts/001_remove_shield.txt",
+      "output": "work/01_no_shield.png"
+    },
+    {
+      "id": "002_remove_sword",
+      "input": "work/01_no_shield.png",
+      "mask": "work/masks/remove_sword.png",
+      "prompt": "work/prompts/002_remove_sword.txt",
+      "output": "work/02_no_shield_no_sword.png"
+    },
+    {
+      "id": "003_remove_cape",
+      "input": "work/02_no_shield_no_sword.png",
+      "mask": "work/masks/remove_cape.png",
+      "prompt": "work/prompts/003_remove_cape.txt",
+      "output": "work/03_complete_body_base.png"
+    }
+  ]
+}

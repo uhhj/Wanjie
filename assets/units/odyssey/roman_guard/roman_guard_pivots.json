@@ -1,0 +1,286 @@
+{
+  "unit_id": "OD_UNIT_01_ROMAN_GUARD",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "status": "INITIAL_HINTS_REVIEW_REQUIRED",
+  "coordinate_space": "pixels from top-left; near=viewer-left sword side, far=viewer-right shield side",
+  "parts": {
+    "head": {
+      "anchor": "neck",
+      "position": [
+        538,
+        373
+      ],
+      "review_required": true
+    },
+    "helmet": {
+      "anchor": "head",
+      "position": [
+        537,
+        290
+      ],
+      "review_required": true
+    },
+    "torso": {
+      "anchor": "waist",
+      "position": [
+        533,
+        695
+      ],
+      "review_required": true
+    },
+    "pelvis": {
+      "anchor": "pelvis",
+      "position": [
+        530,
+        967
+      ],
+      "review_required": true
+    },
+    "arm_near_upper": {
+      "anchor": "near_shoulder",
+      "position": [
+        388,
+        510
+      ],
+      "review_required": true
+    },
+    "arm_near_fore": {
+      "anchor": "near_elbow",
+      "position": [
+        333,
+        675
+      ],
+      "review_required": true
+    },
+    "hand_near": {
+      "anchor": "near_wrist",
+      "position": [
+        330,
+        832
+      ],
+      "review_required": true
+    },
+    "arm_far_upper": {
+      "anchor": "far_shoulder",
+      "position": [
+        630,
+        576
+      ],
+      "review_required": true
+    },
+    "arm_far_fore": {
+      "anchor": "far_elbow",
+      "position": [
+        675,
+        682
+      ],
+      "review_required": true
+    },
+    "hand_far": {
+      "anchor": "far_wrist",
+      "position": [
+        729,
+        784
+      ],
+      "review_required": true
+    },
+    "leg_near_thigh": {
+      "anchor": "near_hip",
+      "position": [
+        428,
+        977
+      ],
+      "review_required": true
+    },
+    "leg_near_shin": {
+      "anchor": "near_knee",
+      "position": [
+        405,
+        1101
+      ],
+      "review_required": true
+    },
+    "foot_near": {
+      "anchor": "near_ankle",
+      "position": [
+        333,
+        1340
+      ],
+      "review_required": true
+    },
+    "leg_far_thigh": {
+      "anchor": "far_hip",
+      "position": [
+        612,
+        975
+      ],
+      "review_required": true
+    },
+    "leg_far_shin": {
+      "anchor": "far_knee",
+      "position": [
+        672,
+        1100
+      ],
+      "review_required": true
+    },
+    "foot_far": {
+      "anchor": "far_ankle",
+      "position": [
+        656,
+        1338
+      ],
+      "review_required": true
+    },
+    "shield": {
+      "anchor": "shield_grip",
+      "position": [
+        744,
+        821
+      ],
+      "review_required": true
+    },
+    "sword": {
+      "anchor": "sword_grip",
+      "position": [
+        328,
+        867
+      ],
+      "review_required": true
+    },
+    "cape": {
+      "anchor": "cape_attachment",
+      "position": [
+        508,
+        415
+      ],
+      "review_required": true
+    }
+  },
+  "joints": {
+    "near_shoulder": {
+      "position": [
+        388,
+        510
+      ],
+      "diameter_hint_px": 120,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 30,
+      "review_required": true
+    },
+    "near_elbow": {
+      "position": [
+        333,
+        675
+      ],
+      "diameter_hint_px": 84,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 21,
+      "review_required": true
+    },
+    "near_wrist": {
+      "position": [
+        330,
+        832
+      ],
+      "diameter_hint_px": 62,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 16,
+      "review_required": true
+    },
+    "far_shoulder": {
+      "position": [
+        630,
+        576
+      ],
+      "diameter_hint_px": 100,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 25,
+      "review_required": true
+    },
+    "far_elbow": {
+      "position": [
+        675,
+        682
+      ],
+      "diameter_hint_px": 82,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 20,
+      "review_required": true
+    },
+    "far_wrist": {
+      "position": [
+        729,
+        784
+      ],
+      "diameter_hint_px": 66,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 16,
+      "review_required": true
+    },
+    "near_hip": {
+      "position": [
+        428,
+        977
+      ],
+      "diameter_hint_px": 112,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 28,
+      "review_required": true
+    },
+    "near_knee": {
+      "position": [
+        405,
+        1101
+      ],
+      "diameter_hint_px": 102,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 26,
+      "review_required": true
+    },
+    "near_ankle": {
+      "position": [
+        333,
+        1340
+      ],
+      "diameter_hint_px": 78,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 20,
+      "review_required": true
+    },
+    "far_hip": {
+      "position": [
+        612,
+        975
+      ],
+      "diameter_hint_px": 110,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 28,
+      "review_required": true
+    },
+    "far_knee": {
+      "position": [
+        672,
+        1100
+      ],
+      "diameter_hint_px": 100,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 25,
+      "review_required": true
+    },
+    "far_ankle": {
+      "position": [
+        656,
+        1338
+      ],
+      "diameter_hint_px": 80,
+      "overlap_target_fraction": 0.25,
+      "overlap_hint_px": 20,
+      "review_required": true
+    }
+  },
+  "warning": "Coordinates are source-derived initial suggestions, not measured skeletal centers. Adjust only after reviewing full-body masks and rotation contacts."
+}

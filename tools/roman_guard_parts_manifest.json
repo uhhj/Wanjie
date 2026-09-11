@@ -1,0 +1,560 @@
+{
+  "unit_id": "OD_UNIT_01_ROMAN_GUARD",
+  "version": "RIG_ASSET_V1",
+  "source_id": "OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1",
+  "canvas_width": 1024,
+  "canvas_height": 1536,
+  "alpha_required": true,
+  "required_count": 19,
+  "status": "BLOCKED_BODY_REVIEW",
+  "draw_passes_review_required": true,
+  "draw_passes": [
+    {
+      "part": "cape",
+      "clip_mask": "work/masks/cape_back_region.png"
+    },
+    {
+      "part": "leg_far_thigh"
+    },
+    {
+      "part": "leg_far_shin"
+    },
+    {
+      "part": "foot_far"
+    },
+    {
+      "part": "arm_far_upper"
+    },
+    {
+      "part": "arm_far_fore"
+    },
+    {
+      "part": "hand_far"
+    },
+    {
+      "part": "leg_near_thigh"
+    },
+    {
+      "part": "leg_near_shin"
+    },
+    {
+      "part": "foot_near"
+    },
+    {
+      "part": "pelvis"
+    },
+    {
+      "part": "torso"
+    },
+    {
+      "part": "cape",
+      "clip_mask": "work/masks/cape_front_region.png"
+    },
+    {
+      "part": "head"
+    },
+    {
+      "part": "helmet"
+    },
+    {
+      "part": "arm_near_upper"
+    },
+    {
+      "part": "arm_near_fore"
+    },
+    {
+      "part": "sword"
+    },
+    {
+      "part": "hand_near"
+    },
+    {
+      "part": "shield"
+    }
+  ],
+  "draw_order_note": "Cape is one core texture but two clipped native Sprite2D draws: back before torso, front collar after torso. Clip masks partition the texture without overlap. Sword is drawn before gripping near hand. No new unit or third-party plugin.",
+  "parts": [
+    {
+      "name": "head",
+      "file": "assets/units/odyssey/roman_guard/parts/head.png",
+      "candidate_file": "work/candidates/parts/head.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/head.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "neck",
+        "position": [
+          538,
+          373
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "helmet",
+      "file": "assets/units/odyssey/roman_guard/parts/helmet.png",
+      "candidate_file": "work/candidates/parts/helmet.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/helmet.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "head",
+        "position": [
+          537,
+          290
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "torso",
+      "file": "assets/units/odyssey/roman_guard/parts/torso.png",
+      "candidate_file": "work/candidates/parts/torso.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/torso.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "waist",
+        "position": [
+          533,
+          695
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "pelvis",
+      "file": "assets/units/odyssey/roman_guard/parts/pelvis.png",
+      "candidate_file": "work/candidates/parts/pelvis.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/pelvis.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "pelvis",
+        "position": [
+          530,
+          967
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "assets/units/odyssey/roman_guard/parts/arm_near_upper.png",
+      "candidate_file": "work/candidates/parts/arm_near_upper.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/arm_near_upper.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "near_shoulder",
+        "position": [
+          388,
+          510
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "assets/units/odyssey/roman_guard/parts/arm_near_fore.png",
+      "candidate_file": "work/candidates/parts/arm_near_fore.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/arm_near_fore.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "near_elbow",
+        "position": [
+          333,
+          675
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "hand_near",
+      "file": "assets/units/odyssey/roman_guard/parts/hand_near.png",
+      "candidate_file": "work/candidates/parts/hand_near.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/hand_near.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "near_wrist",
+        "position": [
+          330,
+          832
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "arm_far_upper",
+      "file": "assets/units/odyssey/roman_guard/parts/arm_far_upper.png",
+      "candidate_file": "work/candidates/parts/arm_far_upper.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/arm_far_upper.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "far_shoulder",
+        "position": [
+          630,
+          576
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "assets/units/odyssey/roman_guard/parts/arm_far_fore.png",
+      "candidate_file": "work/candidates/parts/arm_far_fore.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/arm_far_fore.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "far_elbow",
+        "position": [
+          675,
+          682
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "hand_far",
+      "file": "assets/units/odyssey/roman_guard/parts/hand_far.png",
+      "candidate_file": "work/candidates/parts/hand_far.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/hand_far.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "far_wrist",
+        "position": [
+          729,
+          784
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "assets/units/odyssey/roman_guard/parts/leg_near_thigh.png",
+      "candidate_file": "work/candidates/parts/leg_near_thigh.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/leg_near_thigh.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "near_hip",
+        "position": [
+          428,
+          977
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "assets/units/odyssey/roman_guard/parts/leg_near_shin.png",
+      "candidate_file": "work/candidates/parts/leg_near_shin.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/leg_near_shin.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "near_knee",
+        "position": [
+          405,
+          1101
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "foot_near",
+      "file": "assets/units/odyssey/roman_guard/parts/foot_near.png",
+      "candidate_file": "work/candidates/parts/foot_near.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/foot_near.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "near_ankle",
+        "position": [
+          333,
+          1340
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "assets/units/odyssey/roman_guard/parts/leg_far_thigh.png",
+      "candidate_file": "work/candidates/parts/leg_far_thigh.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/leg_far_thigh.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "far_hip",
+        "position": [
+          612,
+          975
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "assets/units/odyssey/roman_guard/parts/leg_far_shin.png",
+      "candidate_file": "work/candidates/parts/leg_far_shin.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/leg_far_shin.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "far_knee",
+        "position": [
+          672,
+          1100
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "foot_far",
+      "file": "assets/units/odyssey/roman_guard/parts/foot_far.png",
+      "candidate_file": "work/candidates/parts/foot_far.png",
+      "source": "work/03_complete_body_base.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "BLOCKED_BODY_REVIEW",
+      "mask": "work/masks/parts/foot_far.png",
+      "mask_sha256": null,
+      "mask_status": "NOT_CREATED_NO_RELIABLE_BOUNDARY",
+      "pivot_hint": {
+        "anchor": "far_ankle",
+        "position": [
+          656,
+          1338
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Evaluate only after complete body passes; anatomical hidden joint surfaces and 20-30% overlap not established."
+      ]
+    },
+    {
+      "name": "shield",
+      "file": "assets/units/odyssey/roman_guard/parts/shield.png",
+      "candidate_file": "work/candidates/parts/shield.png",
+      "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "mask": "work/masks/equipment/shield.png",
+      "mask_sha256": "7cd86c4b626641f6ea58f19a908f6b0374d498520a11edd604ca86aaa612a2ac",
+      "mask_status": "DRAFT",
+      "pivot_hint": {
+        "anchor": "shield_grip",
+        "position": [
+          744,
+          821
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [],
+      "candidate_sha256": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+      "candidate_source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "candidate_mask_sha256": "7cd86c4b626641f6ea58f19a908f6b0374d498520a11edd604ca86aaa612a2ac"
+    },
+    {
+      "name": "sword",
+      "file": "assets/units/odyssey/roman_guard/parts/sword.png",
+      "candidate_file": "work/candidates/parts/sword.png",
+      "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "mask": "work/masks/equipment/sword.png",
+      "mask_sha256": "496c5275820f32a792b749e0547aa815e1e3be687415fdd3b9605a99ad0418db",
+      "mask_status": "DRAFT",
+      "pivot_hint": {
+        "anchor": "sword_grip",
+        "position": [
+          328,
+          867
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Handle section hidden by gripping fingers; do not synthesize by cutting neighboring skin pixels."
+      ],
+      "candidate_sha256": "97b24573e0084edf2e0ca0ceb98da2325b29abe592f1048891b586ac2b1ef9f5",
+      "candidate_source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "candidate_mask_sha256": "496c5275820f32a792b749e0547aa815e1e3be687415fdd3b9605a99ad0418db"
+    },
+    {
+      "name": "cape",
+      "file": "assets/units/odyssey/roman_guard/parts/cape.png",
+      "candidate_file": "work/candidates/parts/cape.png",
+      "source": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "ai_completed": false,
+      "review_required": true,
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "mask": "work/masks/equipment/cape.png",
+      "mask_sha256": "010565883e94eb318eca3293b4be9075ddb535e28364fcf1d0d6fbda2604bbeb",
+      "mask_status": "DRAFT",
+      "pivot_hint": {
+        "anchor": "cape_attachment",
+        "position": [
+          508,
+          415
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "confidence": "initial_visual_hint_only",
+        "review_required": true
+      },
+      "missing_hidden_regions": [
+        "Cape behind torso/arm/leg; continuous rear silhouette and attachment need completion."
+      ],
+      "candidate_sha256": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8",
+      "candidate_source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "candidate_mask_sha256": "010565883e94eb318eca3293b4be9075ddb535e28364fcf1d0d6fbda2604bbeb"
+    }
+  ]
+}
