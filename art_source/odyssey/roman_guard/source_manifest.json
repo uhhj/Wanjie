@@ -1,0 +1,23 @@
+{
+  "source_id": "OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1",
+  "source_file": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+  "external_source": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+  "sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGBA",
+  "rgba": true,
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "transparent_pixels": 861170,
+  "note": "Alpha preserved exactly, including original maximum alpha 254. Source file is never overwritten.",
+  "frozen_ids": [
+    "OD_UNIT_01_ROMAN_GUARD_DESIGN_V1",
+    "OD_UNIT_01_ROMAN_GUARD_COMBAT_LOOK_V1",
+    "OD_UNIT_01_ROMAN_GUARD_CODEX_V1",
+    "OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1"
+  ],
+  "timestamp": "2026-09-11T14:45:03.866309+00:00"
+}
