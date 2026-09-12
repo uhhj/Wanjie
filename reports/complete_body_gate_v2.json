@@ -1,19 +1,16 @@
 {
   "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
-  "phase": "EXTERNAL_COMPLETE_BODY_V2_REVIEW",
+  "phase": "RGBA_BACKGROUND_CONVERSION_V1",
   "status": "FAIL",
-  "verdict": "BLOCKED",
-  "reason_code": "RGBA_TRANSPARENCY_REQUIRED",
-  "candidate_file": "work/05_complete_body_candidate_v2.png",
+  "verdict": "BLOCKED_ALPHA_MATTE_REVIEW",
+  "reason_code": "ALPHA_MATTE_VISUAL_REVIEW_FAILED",
+  "candidate_file": "work/05_complete_body_candidate_v2_rgba.png",
   "candidate_exists": true,
-  "candidate_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
-  "evaluation_status": "EVALUATED_VISUAL_PASS_TECHNICAL_FAIL",
-  "visual_checks_status": "PASS",
-  "skirt_seam_pass": true,
-  "collar_design_pass": true,
-  "body_completeness_pass": true,
-  "identity_consistency_pass": true,
-  "visual_checks": [
+  "candidate_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+  "visual_source_file": "work/05_complete_body_candidate_v2.png",
+  "visual_source_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "visual_source_checks_status": "PASS",
+  "visual_source_checks": [
     {
       "id": 1,
       "key": "no_shield",
@@ -85,48 +82,68 @@
       "observation": "朝向、脸、头盔、红冠、站姿和腿长未见明显漂移；不要求像素完全一致。"
     }
   ],
-  "technical_requirements_pass": false,
+  "evaluation_status": "FULL_15_CHECK_GATE_NOT_RUN_ALPHA_REVIEW_FAILED",
+  "visual_checks_status": "NOT_RUN",
+  "skirt_seam_pass": null,
+  "collar_design_pass": null,
+  "body_completeness_pass": null,
+  "identity_consistency_pass": null,
+  "source_art_note": "Ten original RGB visual checks remain PASS; no RGB changes. New Alpha is not approved.",
+  "technical_requirements_pass": true,
   "technical_checks": {
+    "status": "PASS",
+    "errors": [],
+    "output_exists": true,
     "png": true,
-    "same_canvas": true,
+    "mode": "RGBA",
     "dimensions": [
       1024,
       1536
     ],
-    "rgba": false,
-    "mode": "RGB",
-    "has_alpha_channel": false,
-    "transparent_background": false,
-    "existing_loader_error": "work/05_complete_body_candidate_v2.png: must be RGBA; conversion alone cannot establish transparency"
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1142490,
+    "opaque_pixel_count": 430374,
+    "minimum_each_count": 15728,
+    "foreground_bbox": [
+      258,
+      29,
+      848,
+      1465
+    ],
+    "rgb_changed_pixel_count": 0,
+    "disconnected_dark_pixels_preserved": 10521,
+    "edge_connected_mask_matches": true,
+    "limitation": "Format/connectivity PASS is not visual approval; connected dark outlines may still be damaged.",
+    "input_file": "work/05_complete_body_candidate_v2.png",
+    "output_file": "work/05_complete_body_candidate_v2_rgba.png",
+    "timestamp": "2026-09-12T10:14:32.200172+00:00",
+    "input_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+    "output_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11"
   },
+  "alpha_review_status": "FAIL",
+  "no_obvious_background_residue_pass": false,
+  "no_incorrect_internal_transparency_pass": null,
   "remaining_issues": [
-    "外部候选为RGB黑底PNG，无Alpha通道，未满足现有底版透明RGBA要求。"
+    "Visible irregular black fringe and speckles on crest, shoulder and soles",
+    "Background versus connected dark outline classification is not visually approved"
   ],
-  "nonblocking_observations": [
-    "修复区域之外也有RGB像素差异；并未据此认定身份漂移或推断外部编辑方法。"
-  ],
-  "reviewer": "Codex visual inspection of full image, matched-coordinate details and frozen references",
-  "reference_priority": [
-    "DESIGN_V1",
-    "RIG_MASTER_V1",
-    "COMBAT_LOOK_V1"
-  ],
-  "codex_reference_used": false,
   "review_images": {
-    "reports/complete_body_review_v2.png": "50788edecfc522ed3c3aab1aa1c877e42e3f6136463f62cd9394820e28df6e30",
-    "reports/complete_body_detail_review_v2.png": "de78cf03210bb5edf6d5e8926f83cbe96a241c2b4f24d3486a70ae0396cc8ccb"
+    "reports/rgba_background_review.png": "ef4e55067cb9c71ca4506012f4cb5b9f494523efa09c28edfe544bd2f293bedd",
+    "reports/rgba_edge_review.png": "97aeb972b8fa7d8b90600801ef756ca2e483359750696f8fa3227a8e3c1cb697",
+    "reports/rgba_critical_edge_detail.png": "12d45e6ff425c4328c21d9e3d3a5dc1c7158245b063855f2121d282f7323d69d"
   },
-  "read_only_evidence": "reports/external_complete_body_v2_intake.json",
   "ai_calls_this_continuation": 0,
   "stages_001_through_005_executed": false,
   "formal_parts": {
     "required": 19,
     "passed": 0,
-    "missing": 19
+    "missing": 19,
+    "status": "NOT_STARTED"
   },
   "recomposition": "NOT_RUN",
   "joint_rotation": "NOT_RUN",
   "godot_handoff": "NOT_READY",
   "production_body_source_switched": false,
-  "timestamp": "2026-09-12T09:22:39.057998+00:00"
+  "timestamp": "2026-09-12T10:20:31.787399+00:00"
 }

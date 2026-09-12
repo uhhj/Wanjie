@@ -1,6 +1,6 @@
 {
   "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
-  "verdict": "BLOCKED",
+  "verdict": "BLOCKED_ALPHA_MATTE_REVIEW",
   "art_pipeline": "STOP_ART_PIPELINE",
   "repository_root": "D:\\Wanjie\\documents\\Wanjie",
   "source": {
@@ -34,21 +34,22 @@
   },
   "complete_body": {
     "status": "FAIL",
-    "visual_checks_status": "PASS",
-    "visual_checks_passed": 10,
-    "technical_status": "FAIL",
-    "reason_code": "RGBA_TRANSPARENCY_REQUIRED",
-    "file": "work/05_complete_body_candidate_v2.png",
-    "sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
-    "mode": "RGB",
+    "reason_code": "ALPHA_MATTE_VISUAL_REVIEW_FAILED",
+    "file": "work/05_complete_body_candidate_v2_rgba.png",
+    "sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+    "mode": "RGBA",
     "dimensions": [
       1024,
       1536
     ],
+    "source_visual_checks_status": "PASS",
+    "technical_status": "PASS",
+    "alpha_visual_status": "FAIL",
+    "full_gate_execution": "NOT_RUN_ALPHA_REVIEW_FAILED",
     "blockers": [
-      "外部候选为RGB黑底PNG，无Alpha通道，未满足现有底版透明RGBA要求。"
-    ],
-    "report": "reports/complete_body_gate_v2.json"
+      "Visible irregular black fringe and speckles on crest, shoulder and soles",
+      "Background versus connected dark outline classification is not visually approved"
+    ]
   },
   "parts": {
     "required_count": 19,
@@ -81,28 +82,31 @@
     "scope": "Historical test result; not rerun in this read-only review."
   },
   "manual_review_images": [
-    "reports/complete_body_review_v2.png",
-    "reports/complete_body_detail_review_v2.png"
+    "reports/rgba_background_review.png",
+    "reports/rgba_edge_review.png",
+    "reports/rgba_critical_edge_detail.png"
   ],
   "manual_edit_resume_document": "docs/IMAGE_EDIT_MANUAL_HANDOFF.md",
   "git": {
     "repository": "Wanjie",
     "branch": "feature/roman-guard-ai-rig-assets-v1",
     "commits_before_this_report": [
-      "b0a39f6 chore: prepare local body fixes and record blocked inpainting gate"
+      "a6cc7e1 test: review external body v2 and record missing transparency"
     ],
-    "final_report_commit_subject": "test: review external body v2 and record missing transparency",
+    "final_report_commit_subject": "fix: add edge-connected RGBA candidate and record matte review failure",
     "remote": "https://github.com/uhhj/Wanjie.git",
-    "note": "New external candidate reviewed without modification; commit/push/clean-tree outcome is reported after this report is committed."
+    "note": "Commit/push and clean-tree state are verified after committing these reports."
   },
-  "timestamp": "2026-09-12T09:22:39.063035+00:00",
-  "phase": "EXTERNAL_COMPLETE_BODY_V2_REVIEW",
+  "timestamp": "2026-09-12T10:20:31.859116+00:00",
+  "phase": "RGBA_BACKGROUND_CONVERSION_V1",
   "current_continuation": {
-    "external_candidate_supplied": true,
-    "candidate_unchanged": true,
+    "task": "ROMAN_GUARD_RGBA_BACKGROUND_CONVERSION_V1",
     "ai_calls": 0,
     "stages_001_through_005_executed": false,
-    "historical_ai_job_records_rewritten": false,
-    "provenance": "User supplied external repair; external model/tool and intermediate 04 unknown."
+    "input_unchanged": true,
+    "rgb_changed_pixel_count": 0,
+    "background_method": "4-connected scanline flood fill from entire image border",
+    "tolerance": 2,
+    "conversion_record": "reports/rgba_conversion.json"
   }
 }

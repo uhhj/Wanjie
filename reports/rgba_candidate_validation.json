@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "output_exists": true,
+  "png": true,
+  "mode": "RGBA",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "transparent_pixel_count": 1142490,
+  "opaque_pixel_count": 430374,
+  "minimum_each_count": 15728,
+  "foreground_bbox": [
+    258,
+    29,
+    848,
+    1465
+  ],
+  "rgb_changed_pixel_count": 0,
+  "disconnected_dark_pixels_preserved": 10521,
+  "edge_connected_mask_matches": true,
+  "limitation": "Format/connectivity PASS is not visual approval; connected dark outlines may still be damaged.",
+  "input_file": "work/05_complete_body_candidate_v2.png",
+  "output_file": "work/05_complete_body_candidate_v2_rgba.png",
+  "timestamp": "2026-09-12T10:14:32.200172+00:00",
+  "input_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "output_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11"
+}

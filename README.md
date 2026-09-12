@@ -1,16 +1,17 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**当前 Verdict：BLOCKED。Complete Body V2：视觉 10/10 PASS，透明 RGBA 条件 FAIL。Godot handoff：NOT_READY。**
+**当前 Verdict：BLOCKED_ALPHA_MATTE_REVIEW。RGBA 格式验证 PASS，Alpha 边缘视觉审查 FAIL。Godot handoff：NOT_READY。**
 
-已只读验收外部修复的 `work/05_complete_body_candidate_v2.png`：原裙甲接缝和高领甲已解决，未见明显身份漂移。但该文件为 1024×1536 RGB 黑底 PNG，没有 Alpha 通道，现有底版读取器拒绝其作为透明 RGBA 生产来源。本轮没有修改图片、调用 AI 或重跑 001–005，也没有放行正式部件。详见 [V2 完整审查](reports/complete_body_review_v2.md) 与 [V2 门禁 JSON](reports/complete_body_gate_v2.json)。
+已用确定性的四邻域边界连通 flood fill 生成 `work/05_complete_body_candidate_v2_rgba.png`：1024×1536，Alpha 0/255，阈值 `max(R,G,B)<=2`，RGB 改动为 0。原 RGB 文件保持不变，其十项视觉 PASS 保留。但新 Alpha 在冠饰、肩甲及鞋底仍有黑色边缘残留/散点，未通过视觉审查；提高阈值会误删相连暗色描边，因此按 STOP 规则停止。未调用 AI、未重跑 001–005、未开始 19 parts。详见 [本轮 Alpha 转换报告](reports/RGBA_BACKGROUND_CONVERSION_V1.md) 与 [当前门禁 JSON](reports/complete_body_gate_v2.json)。
 
 冻结母图与历史 001–003 保持原哈希。此前三次 AI 编辑和三个装备提取候选保留为历史产物；外部 V2 有独立的输入哈希和只读接收记录。正式 parts 仍为 0/19。旧版局部修复的阻塞原因与计划仅供历史追溯，不应再次执行。
 
 项目位置：`D:\Wanjie\documents\Wanjie`。远端仓库：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
 
 - [当前状态](reports/FINAL_VERDICT.md)
-- [V2 全身对照](reports/complete_body_review_v2.png)
-- [V2 局部对照](reports/complete_body_detail_review_v2.png)
+- [RGBA 四背景对照](reports/rgba_background_review.png)
+- [RGBA 边缘对照](reports/rgba_edge_review.png)
+- [RGB 源图视觉审查（已通过，历史）](reports/complete_body_review_v2.md)
 - [上一轮修复门禁（历史）](reports/FIX_COMPLETE_BODY_GATE_V1.md)
 - [局部编辑交接与续跑](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
 - [16 件人体 mask 与装备隐藏区待办](docs/TODO_PART_MASK_REVIEW.md)
@@ -37,6 +38,10 @@ python tools/test_pipeline_safety.py
 
 | 脚本 | 作用 |
 |---|---|
+| convert_roman_guard_rgba.py | 从全部边缘做四邻域近黑连通分离，仅写独立输出 Alpha，RGB 不变 |
+| validate_rgba_candidate.py | 检查 PNG/RGBA、画布、有效透明/不透明像素、边界、RGB 与连通性；不代替视觉审查 |
+| generate_rgba_review.py | 生成黑/白/灰/棋盘效果和关键边缘放大图 |
+| test_rgba_candidate.py | 对照独立 BFS，验证假 RGBA、内部误删、RGB 改动等被拒绝 |
 | review_external_complete_body_v2.py | 只读生成外部候选全身/局部审查图和格式证据；不执行 AI 或自动授予美术 PASS |
 | validate_source_asset.py | 检查源图存在性、SHA256、RGBA 与画布；不覆盖源图 |
 | generate_or_manage_masks.py | 从真实 polygon 或导入 mask 管理拆件边界；底版失败时拒绝人体拆件 |

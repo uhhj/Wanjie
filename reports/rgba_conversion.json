@@ -1,0 +1,99 @@
+{
+  "task": "ROMAN_GUARD_RGBA_BACKGROUND_CONVERSION_V1",
+  "timestamp": "2026-09-12T10:13:13.599838+00:00",
+  "input": {
+    "file": "work/05_complete_body_candidate_v2.png",
+    "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\work\\05_complete_body_candidate_v2.png",
+    "sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+    "mode": "RGB",
+    "dimensions": [
+      1024,
+      1536
+    ]
+  },
+  "output": {
+    "file": "work/05_complete_body_candidate_v2_rgba.png",
+    "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\work\\05_complete_body_candidate_v2_rgba.png",
+    "sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+    "mode": "RGBA",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1142490,
+    "opaque_pixel_count": 430374,
+    "partial_alpha_pixel_count": 0,
+    "foreground_bbox": [
+      258,
+      29,
+      848,
+      1465
+    ]
+  },
+  "background_sampling": {
+    "border_channel_max": 2,
+    "border_max_rgb_percentiles": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      2.0
+    ],
+    "corner_sample_size": [
+      32,
+      32
+    ],
+    "corners": {
+      "top_left": {
+        "median_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "channel_max": 1
+      },
+      "top_right": {
+        "median_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "channel_max": 1
+      },
+      "bottom_left": {
+        "median_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "channel_max": 2
+      },
+      "bottom_right": {
+        "median_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "channel_max": 1
+      }
+    }
+  },
+  "method": "4-connected scanline flood fill from entire image border",
+  "candidate_rule": "max(R,G,B) <= 2",
+  "tolerance": 2,
+  "connectivity": 4,
+  "feather_radius_px": 0,
+  "rgb_changed_pixel_count": 0,
+  "disconnected_near_black_pixels_preserved": 10521,
+  "background_mask": "work/masks/rgba_background_connected.png",
+  "background_mask_sha256": "9dc2923c611d25c6811ae8f68b915e93179aa3365dedf2f82cfff9cec39d12a2",
+  "input_unchanged": true,
+  "ai_calls": 0,
+  "stages_001_through_005_rerun": false,
+  "visual_status": "FAIL",
+  "limitation": "Connectivity alone cannot distinguish background from a dark character region joined to that background. Visual review is mandatory.",
+  "visual_review": "reports/rgba_visual_review.json"
+}

@@ -1,0 +1,29 @@
+{
+  "task": "ROMAN_GUARD_RGBA_BACKGROUND_CONVERSION_V1",
+  "status": "FAIL",
+  "verdict": "BLOCKED_ALPHA_MATTE_REVIEW",
+  "input_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "output_file": "work/05_complete_body_candidate_v2_rgba.png",
+  "output_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+  "reviewer": "Codex visual inspection of white/grey/checker composites and eight edge regions",
+  "halo": "FAIL: irregular near-black fringe/speckles visible around crest, shoulder and soles",
+  "outline_preservation": "REVIEW_REQUIRED: final tolerance 2 retains main dark rims but clean boundaries are not established",
+  "internal_dark_pixels": {
+    "disconnected_preserved": 10521,
+    "numeric_preservation": "PASS",
+    "observation": "Finger, skirt and armor shadows remain visible; this does not approve the full matte."
+  },
+  "higher_tolerance_observation": "Trials 6/10 damage helmet rear shadow; 14/18 create visible transparent cracks in dark outlines. Not selected.",
+  "review_images": {
+    "reports/rgba_background_review.png": "ef4e55067cb9c71ca4506012f4cb5b9f494523efa09c28edfe544bd2f293bedd",
+    "reports/rgba_edge_review.png": "97aeb972b8fa7d8b90600801ef756ca2e483359750696f8fa3227a8e3c1cb697",
+    "reports/rgba_critical_edge_detail.png": "12d45e6ff425c4328c21d9e3d3a5dc1c7158245b063855f2121d282f7323d69d"
+  },
+  "format_validation_status": "PASS",
+  "remaining_issues": [
+    "Visible irregular black fringe and speckles on crest, shoulder and soles",
+    "Background versus connected dark outline classification is not visually approved"
+  ],
+  "stop_rule_applied": true,
+  "timestamp": "2026-09-12T10:20:31.727939+00:00"
+}

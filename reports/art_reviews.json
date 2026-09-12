@@ -36,5 +36,13 @@
     "reviewer": "Codex visual and technical inspection",
     "notes": "Ten visual checks pass: skirt seam and raised collar resolved, no obvious identity drift. Production gate FAIL because the supplied 1024x1536 PNG is RGB with an opaque black background and no alpha channel. Candidate bytes preserved; no AI or downstream stages run.",
     "timestamp": "2026-09-12T09:22:44.543327+00:00"
+  },
+  "complete_body_v2_rgba": {
+    "status": "FAIL",
+    "file": "work/05_complete_body_candidate_v2_rgba.png",
+    "sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+    "reviewer": "Codex visual inspection of white/grey/checker composites and eight edge regions",
+    "notes": "Format and exact RGB preservation pass. Alpha matte fails visual review: irregular black fringe and speckles remain around crest, shoulder and soles. No full Body gate or parts allowed. Original RGB visual approval is preserved.",
+    "timestamp": "2026-09-12T10:20:31.793451+00:00"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "method": "Pillow 4-connected floodfill on copied writable binary near-black mask, seeded through an eligible 1px outer frame",
+  "input_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "review_file": "reports/alpha_tolerance_review.png",
+  "review_sha256": "d7e6d04c07424c4de257921f4caf30da9bfc3c89ee83ea75b9b16e6d36a1fe7c",
+  "trials": [
+    {
+      "tolerance": 6,
+      "transparent_pixels": 1149474,
+      "disconnected_dark_preserved": 15153,
+      "selected": false
+    },
+    {
+      "tolerance": 10,
+      "transparent_pixels": 1152831,
+      "disconnected_dark_preserved": 19656,
+      "selected": false
+    },
+    {
+      "tolerance": 14,
+      "transparent_pixels": 1159685,
+      "disconnected_dark_preserved": 19053,
+      "selected": false
+    },
+    {
+      "tolerance": 18,
+      "transparent_pixels": 1173617,
+      "disconnected_dark_preserved": 10281,
+      "selected": false
+    }
+  ],
+  "final_tolerance": 2,
+  "final_output_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+  "final_status": "FAILED_VISUAL_REVIEW",
+  "note": "Diagnostic composites only for higher tolerances. No high-tolerance image promoted to formal output."
+}
