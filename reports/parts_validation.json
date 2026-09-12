@@ -25,7 +25,6 @@
     "cape"
   ],
   "errors": [
-    "Complete body art review FAIL or missing/stale",
     "Missing formal parts: head, helmet, torso, pelvis, arm_near_upper, arm_near_fore, hand_near, arm_far_upper, arm_far_fore, hand_far, leg_near_thigh, leg_near_shin, foot_near, leg_far_thigh, leg_far_shin, foot_far, shield, sword, cape"
   ],
   "parts": [
@@ -125,5 +124,5 @@
       "status": "MISSING"
     }
   ],
-  "timestamp": "2026-09-11T15:20:40.557320+00:00"
+  "timestamp": "2026-09-12T11:59:26.728594+00:00"
 }

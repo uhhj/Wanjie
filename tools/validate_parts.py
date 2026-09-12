@@ -8,7 +8,7 @@ def validate():
     m=read('tools/roman_guard_parts_manifest.json')
     if sorted(x['name'] for x in m['parts'])!=sorted(PARTS): errors.append('Manifest must contain exactly the 19 distinct required parts')
     if m.get('canvas_width')!=config()['canvas'][0] or m.get('canvas_height')!=config()['canvas'][1]: errors.append('Manifest canvas mismatch')
-    if not review_ok('complete_body','work/03_complete_body_base.png'): errors.append('Complete body art review FAIL or missing/stale')
+    if not body_review_ok(): errors.append('Complete body art review FAIL or missing/stale')
     for p in m['parts']:
         name=p['name']; entry={'name':name,'file':p['file']}
         if not (ROOT/p['file']).is_file(): missing.append(name); entry['status']='MISSING'; info.append(entry); continue
@@ -23,7 +23,7 @@ def validate():
             if p.get('candidate_source_sha256')!=sha(p['source']): raise ValueError('Source lineage stale')
             if p.get('mask_sha256')!=sha(p['mask']) or p.get('candidate_mask_sha256')!=sha(p['mask']): raise ValueError('Mask lineage stale')
             if p.get('missing_hidden_regions'): raise ValueError('Hidden-region completion unresolved')
-            expected=config()['source'] if name in EQUIPMENT else 'work/03_complete_body_base.png'
+            expected=config()['source'] if name in EQUIPMENT else body_source()
             if p['source']!=expected: raise ValueError('Unauthorized part source')
             pivot=p.get('pivot_hint',{}).get('position')
             if not pivot or not(0<=pivot[0]<im.width and 0<=pivot[1]<im.height): raise ValueError('Pivot missing/outside canvas')

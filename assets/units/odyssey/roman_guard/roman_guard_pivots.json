@@ -10,8 +10,8 @@
     "head": {
       "anchor": "neck",
       "position": [
-        538,
-        373
+        526,
+        395
       ],
       "review_required": true
     },
@@ -35,14 +35,14 @@
       "anchor": "pelvis",
       "position": [
         530,
-        967
+        701
       ],
       "review_required": true
     },
     "arm_near_upper": {
       "anchor": "near_shoulder",
       "position": [
-        388,
+        457,
         510
       ],
       "review_required": true
@@ -51,47 +51,47 @@
       "anchor": "near_elbow",
       "position": [
         333,
-        675
+        681
       ],
       "review_required": true
     },
     "hand_near": {
       "anchor": "near_wrist",
       "position": [
-        330,
-        832
+        329,
+        835
       ],
       "review_required": true
     },
     "arm_far_upper": {
       "anchor": "far_shoulder",
       "position": [
-        630,
-        576
+        641,
+        601
       ],
       "review_required": true
     },
     "arm_far_fore": {
       "anchor": "far_elbow",
       "position": [
-        675,
-        682
+        682,
+        704
       ],
       "review_required": true
     },
     "hand_far": {
       "anchor": "far_wrist",
       "position": [
-        729,
-        784
+        740,
+        782
       ],
       "review_required": true
     },
     "leg_near_thigh": {
       "anchor": "near_hip",
       "position": [
-        428,
-        977
+        421,
+        995
       ],
       "review_required": true
     },
@@ -99,39 +99,39 @@
       "anchor": "near_knee",
       "position": [
         405,
-        1101
+        1088
       ],
       "review_required": true
     },
     "foot_near": {
       "anchor": "near_ankle",
       "position": [
-        333,
-        1340
+        332,
+        1331
       ],
       "review_required": true
     },
     "leg_far_thigh": {
       "anchor": "far_hip",
       "position": [
-        612,
-        975
+        619,
+        1003
       ],
       "review_required": true
     },
     "leg_far_shin": {
       "anchor": "far_knee",
       "position": [
-        672,
-        1100
+        671,
+        1092
       ],
       "review_required": true
     },
     "foot_far": {
       "anchor": "far_ankle",
       "position": [
-        656,
-        1338
+        658,
+        1334
       ],
       "review_required": true
     },
@@ -163,7 +163,7 @@
   "joints": {
     "near_shoulder": {
       "position": [
-        388,
+        457,
         510
       ],
       "diameter_hint_px": 120,
@@ -174,7 +174,7 @@
     "near_elbow": {
       "position": [
         333,
-        675
+        681
       ],
       "diameter_hint_px": 84,
       "overlap_target_fraction": 0.25,
@@ -183,8 +183,8 @@
     },
     "near_wrist": {
       "position": [
-        330,
-        832
+        329,
+        835
       ],
       "diameter_hint_px": 62,
       "overlap_target_fraction": 0.25,
@@ -193,8 +193,8 @@
     },
     "far_shoulder": {
       "position": [
-        630,
-        576
+        641,
+        601
       ],
       "diameter_hint_px": 100,
       "overlap_target_fraction": 0.25,
@@ -203,8 +203,8 @@
     },
     "far_elbow": {
       "position": [
-        675,
-        682
+        682,
+        704
       ],
       "diameter_hint_px": 82,
       "overlap_target_fraction": 0.25,
@@ -213,8 +213,8 @@
     },
     "far_wrist": {
       "position": [
-        729,
-        784
+        740,
+        782
       ],
       "diameter_hint_px": 66,
       "overlap_target_fraction": 0.25,
@@ -223,8 +223,8 @@
     },
     "near_hip": {
       "position": [
-        428,
-        977
+        421,
+        995
       ],
       "diameter_hint_px": 112,
       "overlap_target_fraction": 0.25,
@@ -234,7 +234,7 @@
     "near_knee": {
       "position": [
         405,
-        1101
+        1088
       ],
       "diameter_hint_px": 102,
       "overlap_target_fraction": 0.25,
@@ -243,8 +243,8 @@
     },
     "near_ankle": {
       "position": [
-        333,
-        1340
+        332,
+        1331
       ],
       "diameter_hint_px": 78,
       "overlap_target_fraction": 0.25,
@@ -253,8 +253,8 @@
     },
     "far_hip": {
       "position": [
-        612,
-        975
+        619,
+        1003
       ],
       "diameter_hint_px": 110,
       "overlap_target_fraction": 0.25,
@@ -263,8 +263,8 @@
     },
     "far_knee": {
       "position": [
-        672,
-        1100
+        671,
+        1092
       ],
       "diameter_hint_px": 100,
       "overlap_target_fraction": 0.25,
@@ -273,8 +273,8 @@
     },
     "far_ankle": {
       "position": [
-        656,
-        1338
+        658,
+        1334
       ],
       "diameter_hint_px": 80,
       "overlap_target_fraction": 0.25,
@@ -282,5 +282,7 @@
       "review_required": true
     }
   },
-  "warning": "Coordinates are source-derived initial suggestions, not measured skeletal centers. Adjust only after reviewing full-body masks and rotation contacts."
+  "warning": "Coordinates are source-derived initial suggestions, not measured skeletal centers. Adjust only after reviewing full-body masks and rotation contacts.",
+  "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd"
 }

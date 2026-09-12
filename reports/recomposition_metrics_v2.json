@@ -1,0 +1,64 @@
+{
+  "status": "FAIL",
+  "scope": "CANDIDATES_ONLY_NOT_FORMAL",
+  "automatic_checks_passed": false,
+  "metrics": {
+    "silhouette_iou": 0.9739171003465106,
+    "source_bbox": [
+      72,
+      38,
+      992,
+      1465
+    ],
+    "result_bbox": [
+      72,
+      30,
+      992,
+      1465
+    ],
+    "max_bbox_deviation_px": 8,
+    "centroid_deviation_px": 5.9204890832828525,
+    "source_outline_within_3px_fraction": 0.9466573082997017,
+    "premultiplied_rgb_mae_union": 7.796670475056969,
+    "protected_visible_rgb_mae": 10.1476343405959,
+    "changed_alpha_pixels": 18058,
+    "note": "No registration/resizing. AI regions still count in silhouette and total error; only protected-region diagnostic excludes them."
+  },
+  "thresholds": {
+    "silhouette_iou_min": 0.985,
+    "bbox_deviation_px_max": 8,
+    "centroid_deviation_px_max": 5,
+    "outline_recall_min": 0.99,
+    "protected_rgb_mae_max": 12
+  },
+  "body_reassembly_changed_rgba_pixels_including_invisible_rgb": 219042,
+  "body_reassembly_alpha_changed_pixels": 0,
+  "body_reassembly_visible_rgb_changed_pixels": 0,
+  "transparent_rgb_note": "Part extraction zeros RGB where alpha=0; these invisible RGB differences are not appearance drift.",
+  "output_sha256": "0686eff408b15e6a8d1b3ac7154f33e1278705add0e23275cedf26124b77288f",
+  "part_hashes": {
+    "head": "326a5bb15ace6a75a1257fdfc7676a810688bea52aa6966de6b47e5b0c5e2dc3",
+    "helmet": "4834636606cb008d0e577f0936be12fb1b15e6cd3fa223f397f2fbdf812e6444",
+    "torso": "946ccc174da85ca62ab326fd41f3555b708e0018058967bd39e180468df3b834",
+    "pelvis": "24580b8025eddb1ecd416d1e2f06b7a1104c66dd92f41b3f8e52314f95099de8",
+    "arm_near_upper": "8c90e52f80094c69163f70ce2f75bed317f9af6a0c05727066931a9a7e927ff3",
+    "arm_near_fore": "946db480e2d74b9f42d9f3a4fc181684925da61ec45fcd3952b58f452a78ea79",
+    "hand_near": "255899b6750f126222ba9e2af0785d90e4aa8edf6c4403a12d19592334c86a57",
+    "arm_far_upper": "8a5ee8a55f2aefe3431296271519a524ac15d0f4c5333db157df8b3f67d95a49",
+    "arm_far_fore": "23edb29d56863e4c9bbd94546dec84970a9caaf9b5b908bec9f231310f487cd3",
+    "hand_far": "e9060ac5007d764c94c0baba4a842d19ffb3b34d3dba52f978d7f9f0238eeec0",
+    "leg_near_thigh": "53c7abf0600876afe9d9cbba209081a5ff2ed24437334fc3dbe6ed3056df0b36",
+    "leg_near_shin": "c5c5a970e3c04576ceeaa63f76e5c8db0b42bbe2e344f807d4e04b4c7d10c1fe",
+    "foot_near": "e3c1408132297bf7cb3f504ab6c7ad4e0f456e8ae9e49974d949b7440d4fdb8a",
+    "leg_far_thigh": "b636378734cb070555af543bdd42e86993a327ea18819795087003d4dd3c6a37",
+    "leg_far_shin": "c6c265bdbbd9f8b25d2a91c8a3a3bcf4de9b38fefa9f64974e0dfb5a7eceb0f9",
+    "foot_far": "28162975e45b69cfe4a0426cb68cb6391e4b3cd0f485f4fa2a71fed1ff50902a",
+    "shield": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+    "sword": "97b24573e0084edf2e0ca0ceb98da2325b29abe592f1048891b586ac2b1ef9f5",
+    "cape": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8"
+  },
+  "render_config_sha256": "b7ed3f3fd33968a1a482dc16b72c85b56cee14222acbf40f83a5697dd69c7e9b",
+  "timestamp": "2026-09-12T11:58:23.164891+00:00",
+  "visual_combat_review": "IDENTITY_AND_EQUIPMENT_LAYOUT_RECOGNIZABLE",
+  "visual_note": "Existing geometric gate fails. Body partitions reproduce accepted body alpha and visible RGB exactly; no new pixel-identity requirement was introduced."
+}

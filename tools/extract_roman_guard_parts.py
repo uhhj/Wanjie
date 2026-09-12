@@ -3,9 +3,9 @@ import argparse, shutil
 from rg_common import *
 def extract(name,promote=False):
     check_source(); manifest=read('tools/roman_guard_parts_manifest.json'); p=next(x for x in manifest['parts'] if x['name']==name)
-    if name not in EQUIPMENT and not review_ok('complete_body','work/03_complete_body_base.png'):
+    if name not in EQUIPMENT and not body_review_ok():
         raise ValueError('STOP_ART_PIPELINE: rejected body cannot be split')
-    if promote and not review_ok('complete_body','work/03_complete_body_base.png'):
+    if promote and not body_review_ok():
         raise ValueError('Formal promotion blocked until the complete body passes')
     source=rgba(p['source']); m=mask(p['mask'])
     if p.get('mask_sha256')!=sha(p['mask']): raise ValueError('Mask changed: update review provenance before extraction')

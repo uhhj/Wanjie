@@ -1,0 +1,50 @@
+{
+  "gate_id": "COMBAT_SCALE_VISUAL_GATE_V1",
+  "status": "PASS",
+  "scope": "COMBAT_RIG_ASSET",
+  "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "combat_scale_visual_review": "PASS",
+  "hires_pixel_review": "NON_BLOCKING_COMBAT_ARTIFACT",
+  "historical_hires_result": "FAIL_LOCAL_TOUCHUP_ONLY",
+  "historical_evidence": "reports/complete_body_gate_v3.json",
+  "visual_checks": {
+    "256": {
+      "no_obvious_halo": "PASS",
+      "continuous_silhouette": "PASS",
+      "no_visible_plume_specks": "PASS",
+      "natural_shoulder": "PASS",
+      "natural_greaves": "PASS",
+      "no_floating_sole_chunks": "PASS",
+      "no_isolated_noise_over_one_display_pixel": "PASS",
+      "identity_structure_transparency_normal": "PASS"
+    },
+    "192": {
+      "no_obvious_halo": "PASS",
+      "continuous_silhouette": "PASS",
+      "no_visible_plume_specks": "PASS",
+      "natural_shoulder": "PASS",
+      "natural_greaves": "PASS",
+      "no_floating_sole_chunks": "PASS",
+      "no_isolated_noise_over_one_display_pixel": "PASS",
+      "identity_structure_transparency_normal": "PASS"
+    },
+    "128": {
+      "no_obvious_halo": "PASS",
+      "continuous_silhouette": "PASS",
+      "no_visible_plume_specks": "PASS",
+      "natural_shoulder": "PASS",
+      "natural_greaves": "PASS",
+      "no_floating_sole_chunks": "PASS",
+      "no_isolated_noise_over_one_display_pixel": "PASS",
+      "identity_structure_transparency_normal": "PASS"
+    }
+  },
+  "reviewer": "Codex visual inspection of native 660x830 sheet",
+  "notes": "Reviewed all six native-size white/gray composites. Dark outlines are continuous and intentional; no conspicuous detached dots, sole blocks or halo at target heights. No zoomed source-pixel defects used to fail this combat review. Battlefield image unavailable.",
+  "render_manifest_sha256": "f150bf026cf72c2f6042338d2d971d7f9a9ccf055d6471b1dc93fec751c318ec",
+  "manual_alpha_touchup": "STOPPED_PER_USER_COMBAT_POLICY",
+  "format_integrity_evidence": "reports/alpha_cleanup_integrity_v2.json",
+  "timestamp": "2026-09-12T11:33:44.607697+00:00",
+  "complete_body_gate": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS"
+}

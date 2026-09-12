@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "read_only_files": {
+    "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+    "D:/Wanjie/documents/pictures/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+    "work/05_complete_body_candidate_v2.png": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+    "work/05_complete_body_candidate_v2_rgba.png": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+    "work/05_complete_body_candidate_v2_rgba_clean.png": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd"
+  },
+  "body_alpha_and_visible_rgb_reassembly_exact": true,
+  "ai_calls": 0,
+  "timestamp": "2026-09-12T12:13:02.986963+00:00"
+}

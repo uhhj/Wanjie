@@ -1,0 +1,510 @@
+{
+  "status": "FORMAT_PASS_ART_FAIL",
+  "required": 19,
+  "generated": 19,
+  "missing": 0,
+  "formal_approved": 0,
+  "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "parts": [
+    {
+      "name": "head",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/head_v3.png",
+      "sha256": "326a5bb15ace6a75a1257fdfc7676a810688bea52aa6966de6b47e5b0c5e2dc3",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        442,
+        268,
+        639,
+        451
+      ],
+      "nonzero_alpha_pixels": 13898,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        10194,
+        3604
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "helmet",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/helmet_v3.png",
+      "sha256": "4834636606cb008d0e577f0936be12fb1b15e6cd3fa223f397f2fbdf812e6444",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        351,
+        30,
+        683,
+        382
+      ],
+      "nonzero_alpha_pixels": 69472,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        68858,
+        1,
+        1
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "torso",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/torso_v3.png",
+      "sha256": "946ccc174da85ca62ab326fd41f3555b708e0018058967bd39e180468df3b834",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        381,
+        376,
+        681,
+        765
+      ],
+      "nonzero_alpha_pixels": 47476,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        41127,
+        4653,
+        1670,
+        12
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "pelvis",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/pelvis_v3.png",
+      "sha256": "24580b8025eddb1ecd416d1e2f06b7a1104c66dd92f41b3f8e52314f95099de8",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        314,
+        638,
+        707,
+        1031
+      ],
+      "nonzero_alpha_pixels": 100013,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        99744
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "arm_near_upper",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/arm_near_upper_v3.png",
+      "sha256": "8c90e52f80094c69163f70ce2f75bed317f9af6a0c05727066931a9a7e927ff3",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        287,
+        377,
+        546,
+        721
+      ],
+      "nonzero_alpha_pixels": 51074,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        50859
+      ],
+      "missing_hidden_regions": [
+        "Elbow rotation exposes a flat skin cut and an outward skin flap."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "arm_near_fore",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/arm_near_fore_v3.png",
+      "sha256": "946db480e2d74b9f42d9f3a4fc181684925da61ec45fcd3952b58f452a78ea79",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        272,
+        642,
+        392,
+        844
+      ],
+      "nonzero_alpha_pixels": 16936,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        16869
+      ],
+      "missing_hidden_regions": [
+        "Elbow rotation exposes a flat skin cut and an outward skin flap."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "hand_near",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/hand_near_v3.png",
+      "sha256": "255899b6750f126222ba9e2af0785d90e4aa8edf6c4403a12d19592334c86a57",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        281,
+        827,
+        393,
+        937
+      ],
+      "nonzero_alpha_pixels": 9177,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        9101
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "arm_far_upper",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/arm_far_upper_v3.png",
+      "sha256": "8a5ee8a55f2aefe3431296271519a524ac15d0f4c5333db157df8b3f67d95a49",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        587,
+        409,
+        725,
+        739
+      ],
+      "nonzero_alpha_pixels": 15490,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        15321
+      ],
+      "missing_hidden_regions": [
+        "Rotated forearm reveals a straight proximal cut and wedge at the brace transition."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "arm_far_fore",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/arm_far_fore_v3.png",
+      "sha256": "23edb29d56863e4c9bbd94546dec84970a9caaf9b5b908bec9f231310f487cd3",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        630,
+        667,
+        761,
+        812
+      ],
+      "nonzero_alpha_pixels": 8485,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        8384,
+        1,
+        1
+      ],
+      "missing_hidden_regions": [
+        "Rotated forearm reveals a straight proximal cut and wedge at the brace transition."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "hand_far",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/hand_far_v3.png",
+      "sha256": "e9060ac5007d764c94c0baba4a842d19ffb3b34d3dba52f978d7f9f0238eeec0",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        709,
+        762,
+        784,
+        866
+      ],
+      "nonzero_alpha_pixels": 5330,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        5196
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "leg_near_thigh",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/leg_near_thigh_v3.png",
+      "sha256": "53c7abf0600876afe9d9cbba209081a5ff2ed24437334fc3dbe6ed3056df0b36",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        339,
+        958,
+        493,
+        1108
+      ],
+      "nonzero_alpha_pixels": 10238,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        7409,
+        2794
+      ],
+      "missing_hidden_regions": [
+        "Both knee rotations expose a seam above the knee plate; hole-growth heuristic fails."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "leg_near_shin",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/leg_near_shin_v3.png",
+      "sha256": "c5c5a970e3c04576ceeaa63f76e5c8db0b42bbe2e344f807d4e04b4c7d10c1fe",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        276,
+        1025,
+        453,
+        1355
+      ],
+      "nonzero_alpha_pixels": 35384,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        35108,
+        4
+      ],
+      "missing_hidden_regions": [
+        "Both knee rotations expose a seam above the knee plate; hole-growth heuristic fails."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "foot_near",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/foot_near_v3.png",
+      "sha256": "e3c1408132297bf7cb3f504ab6c7ad4e0f456e8ae9e49974d949b7440d4fdb8a",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        258,
+        1309,
+        444,
+        1465
+      ],
+      "nonzero_alpha_pixels": 18429,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        18183,
+        1
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "leg_far_thigh",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/leg_far_thigh_v3.png",
+      "sha256": "b636378734cb070555af543bdd42e86993a327ea18819795087003d4dd3c6a37",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        548,
+        971,
+        714,
+        1135
+      ],
+      "nonzero_alpha_pixels": 12554,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        9786,
+        2716,
+        1
+      ],
+      "missing_hidden_regions": [
+        "Far knee +20 degrees exposes an open horizontal wedge visible at 256px character height."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "leg_far_shin",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/leg_far_shin_v3.png",
+      "sha256": "c6c265bdbbd9f8b25d2a91c8a3a3bcf4de9b38fefa9f64974e0dfb5a7eceb0f9",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        557,
+        1029,
+        715,
+        1347
+      ],
+      "nonzero_alpha_pixels": 34210,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        33910
+      ],
+      "missing_hidden_regions": [
+        "Far knee +20 degrees exposes an open horizontal wedge visible at 256px character height."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "foot_far",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/foot_far_v3.png",
+      "sha256": "28162975e45b69cfe4a0426cb68cb6391e4b3cd0f485f4fa2a71fed1ff50902a",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        592,
+        1322,
+        847,
+        1448
+      ],
+      "nonzero_alpha_pixels": 21425,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        21114,
+        1
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "shield",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/shield.png",
+      "sha256": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        700,
+        416,
+        994,
+        1281
+      ],
+      "nonzero_alpha_pixels": 174358,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        169631
+      ],
+      "missing_hidden_regions": [],
+      "art_status": "REVIEW_REQUIRED"
+    },
+    {
+      "name": "sword",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/sword.png",
+      "sha256": "97b24573e0084edf2e0ca0ceb98da2325b29abe592f1048891b586ac2b1ef9f5",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        233,
+        799,
+        633,
+        1116
+      ],
+      "nonzero_alpha_pixels": 21604,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        19102,
+        2485
+      ],
+      "missing_hidden_regions": [
+        "Pommel and blade/guard are disconnected; handle hidden by the original fist is absent."
+      ],
+      "art_status": "FAIL"
+    },
+    {
+      "name": "cape",
+      "status": "FORMAT_PASS_ART_REVIEW_REQUIRED",
+      "file": "work/candidates/parts/cape.png",
+      "sha256": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        71,
+        340,
+        639,
+        1130
+      ],
+      "nonzero_alpha_pixels": 106588,
+      "exact_source_mask_extraction": true,
+      "connected_component_areas_gt_32_alpha": [
+        102907,
+        144,
+        53,
+        4,
+        2,
+        1,
+        1
+      ],
+      "missing_hidden_regions": [
+        "Visible-only cape retains body/arm-shaped cutouts; hidden cloth is incomplete."
+      ],
+      "art_status": "FAIL"
+    }
+  ],
+  "timestamp": "2026-09-12T11:58:13.978880+00:00",
+  "art_review": "reports/part_art_review_v2.json"
+}

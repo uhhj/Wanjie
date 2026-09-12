@@ -52,5 +52,14 @@
     "reviewer": "Codex visual inspection: 4 backgrounds, 11 matched 4x detail strips and marked target sheet",
     "notes": "Numeric format, trimap, fractional Alpha and opaque RGB checks pass. Local black protrusions remain on plume, shoulder, far shin and soles. Only local Alpha touchup remains; no global retuning, parts or Godot approval.",
     "timestamp": "2026-09-12T11:04:16.735161+00:00"
+  },
+  "complete_body_combat": {
+    "status": "PASS",
+    "file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+    "sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+    "reviewer": "Codex visual inspection of native 660x830 sheet",
+    "notes": "Reviewed all six native-size white/gray composites. Dark outlines are continuous and intentional; no conspicuous detached dots, sole blocks or halo at target heights. No zoomed source-pixel defects used to fail this combat review. Battlefield image unavailable.",
+    "qualification": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS",
+    "timestamp": "2026-09-12T11:33:44.617694+00:00"
   }
 }

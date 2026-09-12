@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_REVIEW_REQUIRED",
+  "status": "NON_BLOCKING_COMBAT_ARTIFACT",
   "output_file": "work/05_complete_body_candidate_v2_rgba_clean.png",
   "output_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
   "targets": [
@@ -17,7 +17,9 @@
       "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
       "sure_foreground_pixels_in_review_box": 3261,
       "unknown_pixels_in_review_box": 1192,
-      "bbox_is_edit_mask": false
+      "bbox_is_edit_mask": false,
+      "combat_classification": "NON_BLOCKING_COMBAT_ARTIFACT",
+      "current_action": "NO_TOUCHUP"
     },
     {
       "id": "region_002",
@@ -33,7 +35,9 @@
       "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
       "sure_foreground_pixels_in_review_box": 2488,
       "unknown_pixels_in_review_box": 387,
-      "bbox_is_edit_mask": false
+      "bbox_is_edit_mask": false,
+      "combat_classification": "NON_BLOCKING_COMBAT_ARTIFACT",
+      "current_action": "NO_TOUCHUP"
     },
     {
       "id": "region_003",
@@ -49,7 +53,9 @@
       "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
       "sure_foreground_pixels_in_review_box": 1418,
       "unknown_pixels_in_review_box": 573,
-      "bbox_is_edit_mask": false
+      "bbox_is_edit_mask": false,
+      "combat_classification": "NON_BLOCKING_COMBAT_ARTIFACT",
+      "current_action": "NO_TOUCHUP"
     },
     {
       "id": "region_004",
@@ -65,7 +71,9 @@
       "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
       "sure_foreground_pixels_in_review_box": 1198,
       "unknown_pixels_in_review_box": 695,
-      "bbox_is_edit_mask": false
+      "bbox_is_edit_mask": false,
+      "combat_classification": "NON_BLOCKING_COMBAT_ARTIFACT",
+      "current_action": "NO_TOUCHUP"
     },
     {
       "id": "region_005",
@@ -81,10 +89,14 @@
       "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
       "sure_foreground_pixels_in_review_box": 1074,
       "unknown_pixels_in_review_box": 877,
-      "bbox_is_edit_mask": false
+      "bbox_is_edit_mask": false,
+      "combat_classification": "NON_BLOCKING_COMBAT_ARTIFACT",
+      "current_action": "NO_TOUCHUP"
     }
   ],
   "timestamp": "2026-09-12T10:59:09.031011+00:00",
   "global_algorithm_frozen": true,
-  "automatic_correction_executed": false
+  "automatic_correction_executed": false,
+  "historical_status": "LOCAL_REVIEW_REQUIRED",
+  "superseding_acceptance": "reports/combat_scale_visual_gate_v1.json"
 }

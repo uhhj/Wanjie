@@ -15,7 +15,6 @@
   ],
   "third_party_skeleton_plugins": false,
   "errors": [
-    "Complete body art review FAIL or missing/stale",
     "Missing formal parts: head, helmet, torso, pelvis, arm_near_upper, arm_near_fore, hand_near, arm_far_upper, arm_far_fore, hand_far, leg_near_thigh, leg_near_shin, foot_near, leg_far_thigh, leg_far_shin, foot_far, shield, sword, cape",
     "reports/recomposition_metrics.json is not PASS",
     "reports/recomposition_metrics.json does not match current part hashes",
@@ -27,5 +26,5 @@
     "reports/joint_rotation_test.png absent or stale",
     "Joint test pivot configuration changed"
   ],
-  "timestamp": "2026-09-11T15:20:42.516742+00:00"
+  "timestamp": "2026-09-12T11:59:30.202192+00:00"
 }

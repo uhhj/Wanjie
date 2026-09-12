@@ -1,0 +1,98 @@
+{
+  "status": "FAIL",
+  "scope": "PART_ART_AND_ARTICULATION_NOT_BODY_ALPHA",
+  "body_gate": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS",
+  "problems": [
+    {
+      "parts": [
+        "arm_near_upper",
+        "arm_near_fore"
+      ],
+      "bbox": [
+        273,
+        620,
+        398,
+        735
+      ],
+      "observed": "Elbow rotation exposes a flat skin cut and an outward skin flap.",
+      "action": "Refine the pair boundary and locally complete only missing elbow surface."
+    },
+    {
+      "parts": [
+        "arm_far_upper",
+        "arm_far_fore"
+      ],
+      "bbox": [
+        630,
+        653,
+        741,
+        761
+      ],
+      "observed": "Rotated forearm reveals a straight proximal cut and wedge at the brace transition.",
+      "action": "Review elbow cap ownership and local hidden surface."
+    },
+    {
+      "parts": [
+        "leg_near_thigh",
+        "leg_near_shin"
+      ],
+      "bbox": [
+        328,
+        1020,
+        458,
+        1148
+      ],
+      "observed": "Both knee rotations expose a seam above the knee plate; hole-growth heuristic fails.",
+      "action": "Complete hidden knee skin locally without duplicating the knee plate."
+    },
+    {
+      "parts": [
+        "leg_far_thigh",
+        "leg_far_shin"
+      ],
+      "bbox": [
+        578,
+        1030,
+        719,
+        1150
+      ],
+      "observed": "Far knee +20 degrees exposes an open horizontal wedge visible at 256px character height.",
+      "action": "Reconstruct local hidden knee surface and retest at combat scale."
+    },
+    {
+      "parts": [
+        "sword"
+      ],
+      "bbox": [
+        260,
+        807,
+        409,
+        941
+      ],
+      "observed": "Pommel and blade/guard are disconnected; handle hidden by the original fist is absent.",
+      "action": "Complete only missing grip and validate the hand socket."
+    },
+    {
+      "parts": [
+        "cape"
+      ],
+      "bbox": [
+        173,
+        388,
+        449,
+        1050
+      ],
+      "observed": "Visible-only cape retains body/arm-shaped cutouts; hidden cloth is incomplete.",
+      "action": "Review rear cape where moving limbs uncover it; preserve front/back draw passes."
+    }
+  ],
+  "reviewer": "Codex visual review of candidates and native 256px motion sheet",
+  "images": {
+    "reports/joint_rotation_test_v2.png": "63de05a512fabf6948c902a496f41c4a633534fca7673b7823b6f72229c30ad8",
+    "reports/joint_rotation_detail_v2.png": "c44f60b39bfb157aa5dad09eee7f10b41007e61a07776b9417ddcab4d44112c5",
+    "reports/parts_candidate_review_v2.png": "c49998076bafdb790e6c27de2da278d6f6ae05fb5cc8cc892e5b238712713827",
+    "reports/recomposition_combat_review_v2.png": "f6e898c19fd3c296f488c3fd3edfa47ceabe23ae431c2a6c6f9f4b720f67c9bb"
+  },
+  "no_alpha_touchup_requested": true,
+  "timestamp": "2026-09-12T12:13:02.784019+00:00"
+}

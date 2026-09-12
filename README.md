@@ -1,21 +1,20 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**当前 Verdict：BLOCKED_LOCAL_ALPHA_TOUCHUP_ONLY。Body Gate V3：FAIL；Godot handoff：NOT_READY。**
+**Combat Body Gate：PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS。整体Verdict：BLOCKED（部件关节与隐藏区域）。Godot Handoff：NOT_READY。**
 
-当前独立候选为 `work/05_complete_body_candidate_v2_rgba_clean.png`。trimap 窄带内完成局部 Alpha 估计和黑底 RGB 去污染：opaque RGB 改动为 0，边缘 RGB 改动 5,892 个像素，fractional alpha 5,964 个；同一规则检测的疑似 halo 从 3,345 降至 651。但红冠顶部、肩甲、远侧护胫和两侧鞋底仍有五处局部问题，已停止全局调整并标出修补目标。详见 [本轮清理报告](reports/ALPHA_MATTE_CLEANUP_V2.md) 和 [Body Gate V3](reports/complete_body_gate_v3.json)。
+已按256/192/128px实际角色高度通过白底和50%灰底验收。五处高分辨率Alpha问题保留并标为NON_BLOCKING_COMBAT_ARTIFACT，停止局部Alpha修补。当前身体候选与冻结源文件均未修改。
 
-冻结母图与历史 001–003 保持原哈希。此前三次 AI 编辑和三个装备提取候选保留为历史产物；外部 V2 有独立的输入哈希和只读接收记录。正式 parts 仍为 0/19。旧版局部修复的阻塞原因与计划仅供历史追溯，不应再次执行。
+已继续生成19个真实像素部件候选和masks，完成重组与18种运动预览。全部候选为同画布RGBA，但膝肘隐藏面和握柄等尚未通过美术/旋转门禁，正式批准仍为0/19。详细结果与续跑边界见以下材料。
 
-项目位置：`D:\Wanjie\documents\Wanjie`。远端仓库：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
+- [当前完整报告](reports/COMBAT_SCALE_VISUAL_GATE_V1.md)
+- [100%实际尺寸审查](reports/combat_scale_visual_review.png)
+- [重组对照](reports/recomposition_combat_review_v2.png)
+- [真实候选运动测试](reports/joint_rotation_test_v2.png)
+- [部件局部问题](reports/part_art_review_v2.json)
+- [当前交接](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
+- [历史高分辨率Alpha报告](reports/ALPHA_MATTE_CLEANUP_V2.md)
 
-- [当前状态](reports/FINAL_VERDICT.md)
-- [本轮四背景对照](reports/rgba_background_review_v2.png)
-- [本轮 4x 边缘对照](reports/rgba_edge_review_v2.png)
-- [五处局部修补目标](reports/alpha_manual_touchup_targets_v2.png)
-- [RGB 源图视觉审查（已通过，历史）](reports/complete_body_review_v2.md)
-- [上一轮修复门禁（历史）](reports/FIX_COMPLETE_BODY_GATE_V1.md)
-- [局部编辑交接与续跑](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
-- [16 件人体 mask 与装备隐藏区待办](docs/TODO_PART_MASK_REVIEW.md)
+项目：`D:\Wanjie\documents\Wanjie`。远端：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。当前完整人体来源由 `tools/pipeline_config.json` 的 `complete_body_source` 指定。001–005历史保持不变，不能用历史失败底版覆盖当前通过候选。
 
 ## 运行
 
@@ -39,6 +38,10 @@ python tools/test_pipeline_safety.py
 
 | 脚本 | 作用 |
 |---|---|
+| review_combat_scale.py | 只读生成256/192/128px角色高度的白/灰底审查，不再修补Alpha |
+| build_body_part_candidates.py | 从已通过的身体生成可审查可见像素边界与真实关节重叠，拒绝覆盖候选 |
+| review_part_candidates.py | 在正式审批之前运行真实候选的格式、重组和18种运动诊断，不授予正式PASS |
+| test_combat_gate.py | 验证审批哈希失效、显示尺寸证据与Combat/Artwork范围隔离 |
 | cleanup_roman_guard_alpha_v2.py | trimap、保守组件清理、局部距离/颜色 Alpha 估计和半透明 RGB 去污染；拒绝覆盖本轮候选 |
 | review_alpha_cleanup_v2.py | 四背景、trimap、11 个精确 4x 局部条带和 halo debug |
 | mark_alpha_touchup_targets_v2.py | 标注已观察到的五处局部问题，不修图 |
@@ -59,7 +62,7 @@ python tools/test_pipeline_safety.py
 | record_art_review.py | 用当前文件 SHA256 记录实际 PASS/FAIL，防止旧审查被复用 |
 | check_godot_handoff.py | 检查全部当下结果与绘制配置，再决定 READY/NOT_READY |
 
-19 个 core part 和初始 pivot 已登记，但人体边界尚不可靠。未创建任何空白部件 mask 去填数。完整底版必须通过之后才能沿正确来源拆分。
+19个真实像素候选、masks与pivot已建立；关节旋转暴露的局部缺口尚未通过。未创建空白部件填数，候选与正式发布保持分离。
 
 一个 cape PNG 同时包含后摆与前领，重组使用两次互斥 mask 绘制同一核心纹理；它仍是 19 个核心部件之一。这个 draw order 提案也必须在实际重组时审查。没有新增兵种、第三方骨骼插件或自动安装 Godot。
 

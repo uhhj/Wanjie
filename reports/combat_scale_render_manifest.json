@@ -1,0 +1,105 @@
+{
+  "gate_id": "COMBAT_SCALE_VISUAL_GATE_V1",
+  "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "source_canvas": [
+    1024,
+    1536
+  ],
+  "source_unchanged": true,
+  "resampling": "premultiplied RGBA LANCZOS; no enlargement after rendering",
+  "battlefield_background": {
+    "status": "NOT_AVAILABLE",
+    "searched": [
+      "repository filename inventory",
+      "D:/Wanjie/documents/pictures"
+    ],
+    "note": "No artwork was repurposed as a battlefield."
+  },
+  "rows": [
+    {
+      "character_height_px": 256,
+      "sprite_size": [
+        105,
+        256
+      ],
+      "source_alpha_bbox": [
+        258,
+        30,
+        847,
+        1465
+      ],
+      "composites": [
+        {
+          "file": "reports/combat_scale/body_256_white.png",
+          "sha256": "cf852f057c3efa357a61b6b9e83a11768b497ea055982db3d5cba2a423794df3",
+          "background": "white",
+          "display_scale": 1
+        },
+        {
+          "file": "reports/combat_scale/body_256_gray_50.png",
+          "sha256": "ad660e950d58ef2e0384fe2d24e86215d22bf20ed7f298c2afe5f1a71c672118",
+          "background": "gray_50",
+          "display_scale": 1
+        }
+      ]
+    },
+    {
+      "character_height_px": 192,
+      "sprite_size": [
+        79,
+        192
+      ],
+      "source_alpha_bbox": [
+        258,
+        30,
+        847,
+        1465
+      ],
+      "composites": [
+        {
+          "file": "reports/combat_scale/body_192_white.png",
+          "sha256": "39cc56e4e72ab9d3de4a2effbe57d864c1a30c5ed9c6b72f0f7797cfa6384cbf",
+          "background": "white",
+          "display_scale": 1
+        },
+        {
+          "file": "reports/combat_scale/body_192_gray_50.png",
+          "sha256": "683bde9835bed350ac615288a94727cca3ba9131d861c0f8ccdb51164ca3074a",
+          "background": "gray_50",
+          "display_scale": 1
+        }
+      ]
+    },
+    {
+      "character_height_px": 128,
+      "sprite_size": [
+        53,
+        128
+      ],
+      "source_alpha_bbox": [
+        258,
+        30,
+        847,
+        1465
+      ],
+      "composites": [
+        {
+          "file": "reports/combat_scale/body_128_white.png",
+          "sha256": "edb5d40ad6b6f2e0565e0e6e00d09d2654490813effff025897b8857ccfc32d2",
+          "background": "white",
+          "display_scale": 1
+        },
+        {
+          "file": "reports/combat_scale/body_128_gray_50.png",
+          "sha256": "ed783f5d5f64c5913ecfea889065cdd9af5fb8030f8fc528e8455474ef956f9a",
+          "background": "gray_50",
+          "display_scale": 1
+        }
+      ]
+    }
+  ],
+  "review_image": "reports/combat_scale_visual_review.png",
+  "review_image_sha256": "db331f77fb4fc6df4bc1554a4dce1225cc8a8f7a4d45166380dca7dbeeeba0cb",
+  "timestamp": "2026-09-12T11:29:48.745717+00:00"
+}

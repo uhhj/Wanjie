@@ -1,7 +1,7 @@
 {
   "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
-  "verdict": "BLOCKED_LOCAL_ALPHA_TOUCHUP_ONLY",
-  "art_pipeline": "STOP_ART_PIPELINE",
+  "verdict": "BLOCKED",
+  "art_pipeline": "BLOCKED_PART_ART_AND_JOINT_REVIEW",
   "repository_root": "D:\\Wanjie\\documents\\Wanjie",
   "source": {
     "external_path": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
@@ -33,81 +33,77 @@
     "remove_cape": "EXECUTED_ART_FAIL"
   },
   "complete_body": {
-    "status": "FAIL",
-    "gate": "reports/complete_body_gate_v3.json",
+    "status": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS",
+    "gate": "reports/complete_body_gate_combat_v1.json",
     "file": "work/05_complete_body_candidate_v2_rgba_clean.png",
     "sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
     "format_integrity": "PASS",
-    "visual_status": "FAIL_LOCAL_TOUCHUP_ONLY",
-    "blockers": [
-      "region_001 plume top",
-      "region_002 shoulder upper edge",
-      "region_003 far shin outer edge",
-      "region_004 near sole",
-      "region_005 far sole"
-    ]
+    "visual_status": "COMBAT_SCALE_PASS",
+    "blockers": []
   },
   "parts": {
     "required_count": 19,
-    "candidate_generated_extracted_count": 3,
-    "candidate_names": [
-      "shield",
-      "sword",
-      "cape"
-    ],
+    "candidate_generated_extracted_count": 19,
+    "candidate_missing_count": 0,
+    "candidate_format_pass_count": 19,
     "formal_generated_extracted_count": 0,
     "formal_missing_count": 19,
-    "body_masks_missing_count": 16
+    "body_masks_missing_count": 0,
+    "art_review": "FAIL"
   },
   "recomposition": {
+    "execution": "CANDIDATE_TEST_EXECUTED",
     "gate": "FAIL",
-    "execution": "NOT_RUN",
-    "reason": "Formal parts not approved; no fabricated recomposed or diff PNG"
+    "metrics": "reports/recomposition_metrics_v2.json",
+    "visible_body_reassembly": "EXACT"
   },
   "joint_tests": {
-    "elbows": "NOT_RUN",
-    "knees": "NOT_RUN",
-    "shield": "NOT_RUN",
-    "sword": "NOT_RUN",
-    "reason": "Formal parts gate failed; synthetic tool tests are not character joint validation"
+    "execution": "18_REAL_CANDIDATE_CASES",
+    "elbows": "FAIL_VISUAL_SEAM",
+    "knees": "FAIL_VISIBLE_GAPS",
+    "shield": "PREVIEW_CLIPPING_AT_PLUS_7",
+    "sword": "FAIL_INCOMPLETE_GRIP",
+    "metrics": "reports/joint_rotation_metrics_v2.json"
   },
   "godot_handoff": "NOT_READY",
   "tools_tests": {
     "status": "PASS",
-    "count": 12,
-    "scope": "Historical test result; not rerun in this read-only review."
+    "pipeline_safety_tests": 12,
+    "combat_gate_tests": 6,
+    "evidence": [
+      "reports/validation_run.json",
+      "reports/combat_gate_tool_tests.json"
+    ]
   },
   "manual_review_images": [
-    "reports/rgba_background_review_v2.png",
-    "reports/rgba_edge_review_v2.png",
-    "reports/alpha_trimap_review_v2.png",
-    "reports/suspected_halo_overlay_v2.png",
-    "reports/alpha_manual_touchup_targets_v2.png"
+    "reports/combat_scale_visual_review.png",
+    "reports/joint_rotation_test_v2.png",
+    "reports/joint_rotation_detail_v2.png",
+    "reports/parts_candidate_review_v2.png",
+    "reports/recomposition_combat_review_v2.png"
   ],
   "manual_edit_resume_document": "docs/IMAGE_EDIT_MANUAL_HANDOFF.md",
   "git": {
     "repository": "Wanjie",
     "branch": "feature/roman-guard-ai-rig-assets-v1",
     "commits_before_this_report": [
-      "2a82fb2 fix: add edge-connected RGBA candidate and record matte review failure"
+      "1bf9e592b044aaecbadd50d10eb887fd363e4a9c"
     ],
-    "final_report_commit_subject": "fix: decontaminate matte edges and isolate local alpha touchups",
+    "final_report_commit_subject": "feat: accept combat-scale body and review articulated part candidates",
     "remote": "https://github.com/uhhj/Wanjie.git",
     "note": "Commit/push and clean-tree state are verified after committing these reports."
   },
-  "timestamp": "2026-09-12T11:04:16.777469+00:00",
-  "phase": "ALPHA_MATTE_CLEANUP_V2",
+  "timestamp": "2026-09-12T12:13:02.916347+00:00",
+  "phase": "COMBAT_SCALE_VISUAL_GATE_V1_AND_PART_CANDIDATES",
   "current_continuation": {
-    "task": "ROMAN_GUARD_ALPHA_MATTE_CLEANUP_V2",
+    "task": "COMBAT_SCALE_VISUAL_GATE_V1",
     "ai_calls": 0,
     "stages_001_through_005_executed": false,
-    "input_unchanged": true,
-    "initial_alpha_unchanged": true,
-    "opaque_rgb_changes": 0,
-    "edge_rgb_changes": 5892,
-    "fractional_alpha_count": 5964,
-    "halo_previous": 3345,
-    "halo_current": 651,
-    "global_algorithm_frozen": true
-  }
+    "clean_candidate_unchanged": true,
+    "rgb_and_initial_alpha_unchanged": true,
+    "region_001_through_005_touchup": "STOPPED",
+    "new_character_or_animation_created": false
+  },
+  "hires_pixel_review": "NON_BLOCKING_COMBAT_ARTIFACT",
+  "combat_scale_visual_review": "PASS"
 }

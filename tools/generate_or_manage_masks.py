@@ -10,7 +10,7 @@ def render_polygons(polygons):
         d.polygon([(round(x*4),round(y*4)) for x,y in poly],fill=255)
     return im.resize((w,h),Image.Resampling.LANCZOS)
 def overlay(name,path):
-    src=check_source() if name in EQUIPMENT else rgba('work/03_complete_body_base.png')
+    src=check_source() if name in EQUIPMENT else rgba(body_source())
     m=mask(path); color=Image.new('RGBA',src.size,(0,160,255)); color.putalpha(m.point(lambda x:round(x*.5)))
     sheet([(name+' mask - REVIEW',Image.alpha_composite(src,color))],f'reports/masks/{name}.png',1)
 def main():
@@ -21,7 +21,7 @@ def main():
         check_source(); manifest=read('tools/roman_guard_parts_manifest.json')
         part=next(x for x in manifest['parts'] if x['name']==a.part); path=part['mask']
         if a.action!='overlay':
-            if a.part not in EQUIPMENT and not review_ok('complete_body','work/03_complete_body_base.png'):
+            if a.part not in EQUIPMENT and not body_review_ok():
                 raise ValueError('STOP_ART_PIPELINE: complete body has not passed hash-bound art review. See docs/TODO_PART_MASK_REVIEW.md')
             if a.action=='render':
                 spec=read(a.input)
@@ -39,4 +39,3 @@ def main():
         overlay(a.part,path); print(path); return 0
     except (ValueError,FileNotFoundError) as e: print(str(e)); return 2
 if __name__=='__main__': raise SystemExit(main())
-

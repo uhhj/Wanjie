@@ -1,34 +1,20 @@
-# 部件 mask 待办
+# 19部件审查待办
 
-底版审查为 FAIL，已停止人体拆分。`work/masks/parts/` 目前没有伪造或随机生成的空 mask。以下 16 件都没有正式 PNG。边界必须基于修正后、已通过审查的 `work/03_complete_body_base.png`。
+Complete Body的Combat Gate已通过。人体16个masks已生成，装备3个masks沿用真实像素提取。有效路径、SHA和pivot见 `tools/roman_guard_parts_manifest.json`。19个候选格式通过，正式审批未完成。
 
-near = 画面左侧、持剑侧；far = 画面右侧、持盾侧。这是本项目约定，不能仅凭左右文件名互换。
-
-| Part | 必须确认的边界和隐藏区域 |
+| 部位 | 当前问题 / 待验证项 |
 |---|---|
-| head | 脸/颈和头盔边界；头盔下隐藏头部只在需要的活动范围内补全 |
-| helmet | 冠饰、盔体、护颊归同一装备；与 head 分层，不夹带皮肤 |
-| torso | 原肩胸甲边缘；先纠正未经确认的高领甲；与上臂交叠 |
-| pelvis | 腰带/裙甲归属；修复斜接缝；胯部与双大腿重叠 |
-| arm_near_upper | 肩甲归属、腋下遮挡、肩与肘重叠 |
-| arm_near_fore | 肘至护腕；肘上方真实隐藏皮肤/甲胄，不得直接扩张 mask 吃入邻件 |
-| hand_near | 完整握剑手，腕部重叠；不能带走剑柄像素 |
-| arm_far_upper | 胸甲后上臂和肩关节结构 |
-| arm_far_fore | 护腕两端结构，肘重叠 |
-| hand_far | 阶段 A 补全拳头的描边/透明边缘及握盾中心 |
-| leg_near_thigh | 裙甲下大腿，髋与膝的重叠 |
-| leg_near_shin | 膝盖圆甲与胫甲归属，膝/踝连续性 |
-| foot_near | 凉鞋与脚踝连接，不能沿鞋口硬切 |
-| leg_far_thigh | 裙甲遮挡的大腿和髋部；剑下修复区域 |
-| leg_far_shin | 膝甲与皮革绑带连贯性 |
-| foot_far | 脚踝至凉鞋，远侧脚趾轮廓 |
+| near upper / fore arm | 旋转后直切皮肤及外翻片；需局部肘面和边界处理 |
+| far upper / fore arm | 护具上缘开放楔形接缝 |
+| near thigh / shin | 膝盖上方开缝，±20°洞增长检查失败 |
+| far thigh / shin | +20°水平透明缺口在256px仍可见 |
+| sword | 剑首与刃/护手之间缺少原手掌遮挡的握柄 |
+| cape | 可见布料保留身体/手臂遮挡形状，后侧未完整 |
+| head / helmet | 脸部开口、耳部、颊护片所有权需审批；未测相对转动 |
+| torso / pelvis | 肩、腰、髋边界与运动隐藏重叠需审批 |
+| hands / feet | 腕、踝接缝及活动范围需审批 |
+| shield | 独立运动已执行；+7°固定画布预览裁切需处理，区别于纹理缺陷 |
 
-每个肩/肘/腕/髋/膝/踝应有约关节直径 20%–30% 的真实像素重叠，初始建议取 25%。`roman_guard_pivots.json` 已给出直径与位置建议，均待审。简单 dilation 只会吃入相邻零件，不能据此宣称隐藏面已完成。
+查看 [局部问题](../reports/part_art_review_v2.json)、[候选图](../reports/parts_candidate_review_v2.png)、[运动图](../reports/joint_rotation_test_v2.png)。四个肘膝静止轴向重叠约26%，不能据此宣称隐藏关节完整。
 
-三个装备已有**可见像素候选**，位于 `work/candidates/parts/`，未正式发布：
-
-- shield：核对左缘、金色外框及手指接触处，确认没有截掉原图描边或带出皮肤。
-- sword：剑柄被拳头挡住，当前提取自然分成柄尾与剑身；补缺失柄段后才可作为完整独立运动装备。
-- cape：当前只有原图可见区域；补出身体后方的连续布面，并审查前领与后摆的两次绘制区域。
-
-完成底版审查后，使用 `generate_or_manage_masks.py` 导入实际 L mask 或由可审查 polygon JSON 渲染；逐件审查 mask 与提取候选。不要用空图填满 19 件清单。
+只处理相应part，不重画角色。五处静态Alpha高分辨率问题已非阻塞，不在本待办范围。源图与当前Complete Body只读。

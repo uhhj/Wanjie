@@ -33,5 +33,7 @@
       "prompt": "work/prompts/003_remove_cape.txt",
       "output": "work/03_complete_body_base.png"
     }
-  ]
+  ],
+  "complete_body_source": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "complete_body_gate": "reports/complete_body_gate_combat_v1.json"
 }

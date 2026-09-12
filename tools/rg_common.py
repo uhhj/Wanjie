@@ -60,3 +60,31 @@ def review_ok(key,file):
     if not p.exists() or not (ROOT/file).exists(): return False
     r=read('reports/art_reviews.json').get(key,{})
     return r.get('status')=='PASS' and r.get('sha256')==sha(file) and bool(r.get('reviewer')) and bool(r.get('notes'))
+
+def body_source():
+    return config().get('complete_body_source','work/03_complete_body_base.png')
+
+def body_review_ok():
+    """Combat acceptance is scoped and hash-bound; never relax per-part art gates."""
+    if 'complete_body_source' not in config():
+        return review_ok('complete_body','work/03_complete_body_base.png')
+    try:
+        source=body_source(); gate=read(config()['complete_body_gate'])
+        render=read('reports/combat_scale_render_manifest.json')
+        if gate.get('status')!='PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS': return False
+        if gate.get('combat_scale_visual_review')!='PASS' or gate.get('scope')!='COMBAT_RIG_ASSET': return False
+        if gate.get('source')!=source or gate.get('source_sha256')!=sha(source): return False
+        if not review_ok('complete_body_combat',source): return False
+        if gate.get('render_manifest_sha256')!=sha('reports/combat_scale_render_manifest.json'): return False
+        if render['source_sha256']!=sha(source) or render['source']!=source: return False
+        if sha(render['review_image'])!=render['review_image_sha256']: return False
+        if sorted(r['character_height_px'] for r in render['rows'])!=[128,192,256]: return False
+        required={'no_obvious_halo','continuous_silhouette','no_visible_plume_specks','natural_shoulder','natural_greaves','no_floating_sole_chunks','no_isolated_noise_over_one_display_pixel','identity_structure_transparency_normal'}
+        if set(gate['visual_checks'])!={'128','192','256'}: return False
+        if any(set(row)!=required or any(v!='PASS' for v in row.values()) for row in gate['visual_checks'].values()): return False
+        for row in render['rows']:
+            if {x['background'] for x in row['composites']}!={'white','gray_50'}: return False
+            if any(x['sha256']!=sha(x['file']) for x in row['composites']): return False
+        a=np.array(rgba(source))[:,:,3]
+        return bool(a.min()==0 and a.max()==255 and ((a>0)&(a<255)).any())
+    except (KeyError,ValueError,FileNotFoundError): return False

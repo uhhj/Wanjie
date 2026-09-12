@@ -1,0 +1,216 @@
+{
+  "status": "MEASURED_VISIBLE_OVERLAP_REVIEW_REQUIRED",
+  "joints": [
+    {
+      "joint": "neck",
+      "pivot": [
+        526,
+        395
+      ],
+      "diameter": 80,
+      "band_axis": [
+        -0.023326984073978124,
+        -0.9997278888847767
+      ],
+      "band_span_px": 20.994557777695533,
+      "shared_real_pixels": 1670,
+      "hidden_completion": false
+    },
+    {
+      "joint": "waist",
+      "pivot": [
+        530,
+        701
+      ],
+      "diameter": 160,
+      "band_axis": [
+        -0.4472135954999579,
+        0.8944271909999159
+      ],
+      "band_span_px": 40.3547964039963,
+      "shared_real_pixels": 8227,
+      "hidden_completion": false
+    },
+    {
+      "joint": "near_shoulder",
+      "pivot": [
+        457,
+        510
+      ],
+      "diameter": 120,
+      "band_axis": [
+        -0.37999525008906065,
+        -0.9249884377167924
+      ],
+      "band_span_px": 30.999625007031106,
+      "shared_real_pixels": 4653,
+      "hidden_completion": false
+    },
+    {
+      "joint": "far_shoulder",
+      "pivot": [
+        641,
+        601
+      ],
+      "diameter": 100,
+      "band_axis": [
+        0.7543047194311445,
+        -0.6565244780234035
+      ],
+      "band_span_px": 25.975867376720117,
+      "shared_real_pixels": 2666,
+      "hidden_completion": false
+    },
+    {
+      "joint": "near_elbow",
+      "pivot": [
+        333,
+        681
+      ],
+      "diameter": 84,
+      "band_axis": [
+        -0.5870451473824938,
+        0.809554195180697
+      ],
+      "band_span_px": 21.972661313745547,
+      "shared_real_pixels": 2225,
+      "hidden_completion": false
+    },
+    {
+      "joint": "near_wrist",
+      "pivot": [
+        329,
+        835
+      ],
+      "diameter": 62,
+      "band_axis": [
+        -0.02596526871619985,
+        0.9996628455736941
+      ],
+      "band_span_px": 16.47530015485511,
+      "shared_real_pixels": 1144,
+      "hidden_completion": false
+    },
+    {
+      "joint": "far_elbow",
+      "pivot": [
+        682,
+        704
+      ],
+      "diameter": 82,
+      "band_axis": [
+        0.36983492018131103,
+        0.9290974824067081
+      ],
+      "band_span_px": 21.494266796388743,
+      "shared_real_pixels": 1983,
+      "hidden_completion": false
+    },
+    {
+      "joint": "far_wrist",
+      "pivot": [
+        740,
+        782
+      ],
+      "diameter": 66,
+      "band_axis": [
+        0.5967027663445608,
+        0.8024623409461334
+      ],
+      "band_span_px": 17.460765968125813,
+      "shared_real_pixels": 880,
+      "hidden_completion": false
+    },
+    {
+      "joint": "near_hip",
+      "pivot": [
+        421,
+        995
+      ],
+      "diameter": 112,
+      "band_axis": [
+        -0.34762595008680564,
+        0.9376332965644115
+      ],
+      "band_span_px": 28.982294367537918,
+      "shared_real_pixels": 3585,
+      "hidden_completion": false
+    },
+    {
+      "joint": "far_hip",
+      "pivot": [
+        619,
+        1003
+      ],
+      "diameter": 110,
+      "band_axis": [
+        0.2826821634779064,
+        0.9592136333744691
+      ],
+      "band_span_px": 28.49957495945746,
+      "shared_real_pixels": 3649,
+      "hidden_completion": false
+    },
+    {
+      "joint": "near_knee",
+      "pivot": [
+        405,
+        1088
+      ],
+      "diameter": 102,
+      "band_axis": [
+        -0.16955204051065,
+        0.9855212354681531
+      ],
+      "band_span_px": 26.49638809178899,
+      "shared_real_pixels": 2794,
+      "hidden_completion": false
+    },
+    {
+      "joint": "near_ankle",
+      "pivot": [
+        332,
+        1331
+      ],
+      "diameter": 78,
+      "band_axis": [
+        -0.28770944539266835,
+        0.9577177428824439
+      ],
+      "band_span_px": 20.37506347329257,
+      "shared_real_pixels": 1783,
+      "hidden_completion": false
+    },
+    {
+      "joint": "far_knee",
+      "pivot": [
+        671,
+        1092
+      ],
+      "diameter": 100,
+      "band_axis": [
+        0.5044741000755726,
+        0.8634268251293453
+      ],
+      "band_span_px": 25.99087080374375,
+      "shared_real_pixels": 2716,
+      "hidden_completion": false
+    },
+    {
+      "joint": "far_ankle",
+      "pivot": [
+        658,
+        1334
+      ],
+      "diameter": 80,
+      "band_axis": [
+        -0.05364166628889805,
+        0.9985602493779483
+      ],
+      "band_span_px": 20.9959626796923,
+      "shared_real_pixels": 2036,
+      "hidden_completion": false
+    }
+  ],
+  "source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd"
+}
