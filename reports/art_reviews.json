@@ -44,5 +44,13 @@
     "reviewer": "Codex visual inspection of white/grey/checker composites and eight edge regions",
     "notes": "Format and exact RGB preservation pass. Alpha matte fails visual review: irregular black fringe and speckles remain around crest, shoulder and soles. No full Body gate or parts allowed. Original RGB visual approval is preserved.",
     "timestamp": "2026-09-12T10:20:31.793451+00:00"
+  },
+  "complete_body_v3": {
+    "status": "FAIL",
+    "file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+    "sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+    "reviewer": "Codex visual inspection: 4 backgrounds, 11 matched 4x detail strips and marked target sheet",
+    "notes": "Numeric format, trimap, fractional Alpha and opaque RGB checks pass. Local black protrusions remain on plume, shoulder, far shin and soles. Only local Alpha touchup remains; no global retuning, parts or Godot approval.",
+    "timestamp": "2026-09-12T11:04:16.735161+00:00"
   }
 }

@@ -1,0 +1,67 @@
+{
+  "task": "ROMAN_GUARD_ALPHA_MATTE_CLEANUP_V2",
+  "input_file": "work/05_complete_body_candidate_v2.png",
+  "input_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "initial_alpha_file": "work/05_complete_body_candidate_v2_rgba.png",
+  "initial_alpha_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+  "output_file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "output_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "canvas_width": 1024,
+  "canvas_height": 1536,
+  "alpha_zero_count": 1143284,
+  "alpha_255_count": 423616,
+  "fractional_alpha_count": 5964,
+  "rgb_changed_total_pixels": 5892,
+  "rgb_changed_opaque_pixels": 0,
+  "rgb_changed_edge_pixels": 5892,
+  "rgb_changed_sure_foreground_pixels": 0,
+  "rgb_changed_outside_unknown_pixels": 0,
+  "max_rgb_difference_opaque": 0,
+  "max_rgb_difference_edge": 212,
+  "alpha_changed_outside_unknown_pixels": 0,
+  "sure_foreground_pixels": 418001,
+  "unknown_band_pixels": 31182,
+  "previous_suspected_halo_pixels": 3345,
+  "suspected_halo_pixels": 651,
+  "suspected_halo_reduction_fraction": 0.8053811659192825,
+  "mask_files": {
+    "trimap": {
+      "file": "work/masks/alpha_trimap_v2.png",
+      "sha256": "facbbd10ba6b9297b7023626832cbdbbfbd837a25eaf442e675106c4101ecddc"
+    },
+    "specks": {
+      "file": "work/masks/alpha_removed_specks_v2.png",
+      "sha256": "2e561379e945ad3c0fdcf373f19b545f99bcc76b23432e61f4b9f729e8d1df50"
+    },
+    "protected_rim": {
+      "file": "work/masks/alpha_protected_rim_v2.png",
+      "sha256": "be6420062edc0d546218ba115d9952cd24294e5da6b2a8ad7b28e4e76eb46846"
+    },
+    "halo_before": {
+      "file": "work/masks/suspected_halo_before_v2.png",
+      "sha256": "dd51a1260807eefb99aee99080869db3c55760bc3e26237723e7bdd5793dda22"
+    },
+    "halo_after": {
+      "file": "work/masks/suspected_halo_after_v2.png",
+      "sha256": "ac07edf278a98e2dd4edc927f4ba70c328957f2c45a4ae36da164773f51b40a0"
+    }
+  },
+  "algorithm": {
+    "trimap_erosion_radius": 2,
+    "trimap_dilation_radius": 3,
+    "morphology_kernel": "Euclidean disk",
+    "distance_transform": "Exact Euclidean nearest-site query restricted to unknown band, radius 12px; unresolved sites retain original Alpha for review unless explicitly classified as removable specks",
+    "alpha": "one-pixel geometric coverage * local RGB projection; preserve original connected background and inward rim",
+    "edge_rgb": "bounded C/alpha blended with nearest sure-foreground reference; weight alpha squared; local gain cap 4; RGB clamp 0..255",
+    "halo_detector": "fixed original main-component ring [-3,+1]px; RGB max<=32, local SF max>=48 and at least 24 brighter; alpha>0",
+    "halo_detector_warning": "Heuristic debug only; real dark outlines may be flagged. Identical detector parameters before/after.",
+    "global_blur": false,
+    "global_threshold_changed": false
+  },
+  "input_unchanged": true,
+  "initial_alpha_unchanged": true,
+  "ai_calls": 0,
+  "visual_review": "FAIL_LOCAL_TOUCHUP_ONLY",
+  "timestamp": "2026-09-12T10:47:48.839804+00:00",
+  "implementation_reproducibility": "7 tests PASS, including byte-equivalent pixel reconstruction of actual clean candidate; no subsequent global retuning."
+}

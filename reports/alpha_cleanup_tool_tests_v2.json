@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "count": 7,
+  "failures": 0,
+  "errors": 0,
+  "timestamp": "2026-09-12T11:01:32.513524+00:00",
+  "scope": "Geometry, speck safeguards, locked RGB/Alpha and exact reproducibility; not visual approval."
+}

@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-09-12T10:50:22.847695+00:00",
+  "output_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "files": {
+    "reports/rgba_background_review_v2.png": "3399371a122a8b8630afd191f6056d7149af195cc8f034084d99159fc2671e08",
+    "reports/rgba_edge_review_v2.png": "98a2404f99b166f59d821bac8c3c215177f84eb8c0b5eb663bc459eeb8820013",
+    "reports/alpha_trimap_review_v2.png": "d41b958d228a6080e6929e217898ca5b2337a8ff220d78197c417aa790e4ce4d",
+    "reports/suspected_halo_overlay_v2.png": "22117c910b7baa0883afa2d9b734f2141b82405a4e0a2ce37e5e19fc65b4a406"
+  },
+  "details": [
+    {
+      "region": "plume_top",
+      "label": "红冠顶部",
+      "bbox": [
+        429,
+        26,
+        603,
+        70
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/plume_top.png",
+      "sha256": "32f86b66abeb315ce8fae020c967a35f605f6390bb0fe6d0005be64180611828"
+    },
+    {
+      "region": "plume_tail",
+      "label": "红冠尾部",
+      "bbox": [
+        347,
+        256,
+        400,
+        347
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/plume_tail.png",
+      "sha256": "945bee51eadbbf428d6e4978e1cb5d1bc425ad6c0fbe945fec54b7410ee06c1d"
+    },
+    {
+      "region": "helmet",
+      "label": "头盔后缘",
+      "bbox": [
+        410,
+        314,
+        546,
+        375
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/helmet.png",
+      "sha256": "59aa39c2e06692e010b6132457978e03fa1348f26d37f6600026a5169cf66307"
+    },
+    {
+      "region": "shoulder",
+      "label": "肩甲外缘",
+      "bbox": [
+        310,
+        380,
+        491,
+        432
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/shoulder.png",
+      "sha256": "7effdc015dc41808878921357433a0919a9cbc5929023d9fd3e4e4b9ab1649ce"
+    },
+    {
+      "region": "hand_near",
+      "label": "近侧手",
+      "bbox": [
+        276,
+        822,
+        386,
+        929
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/hand_near.png",
+      "sha256": "e7f670095df7263aa7c8876764e859c8e610206949a20f0961f92a85d25e681d"
+    },
+    {
+      "region": "hand_far",
+      "label": "远侧手",
+      "bbox": [
+        708,
+        766,
+        792,
+        870
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/hand_far.png",
+      "sha256": "916e061d472cc7a49e2f4882b3fff883858616825217cf134b6505c3836747ce"
+    },
+    {
+      "region": "skirt",
+      "label": "裙甲下摆",
+      "bbox": [
+        318,
+        954,
+        510,
+        1020
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/skirt.png",
+      "sha256": "69c6662cc8e87869cd3f4be657340c86b16710e496359d0a7ae5d3a317c5a9f0"
+    },
+    {
+      "region": "leg_near",
+      "label": "近侧腿外缘",
+      "bbox": [
+        269,
+        1120,
+        323,
+        1295
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/leg_near.png",
+      "sha256": "95bc9faf9bf068641aecadd4b57b7bc29be9c0ff980e1c207b4dda3eec2fd798"
+    },
+    {
+      "region": "leg_far",
+      "label": "远侧腿外缘",
+      "bbox": [
+        673,
+        1150,
+        716,
+        1325
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/leg_far.png",
+      "sha256": "2d025a053dba15a600f4839e09191aefc4c53b52bfe02504757dc874e40e5c6c"
+    },
+    {
+      "region": "sole_near",
+      "label": "近侧鞋底",
+      "bbox": [
+        254,
+        1420,
+        447,
+        1469
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/sole_near.png",
+      "sha256": "1b102e7a5714a269cc7464d3d03e09f297c18807b9ed20c9a08e486432abba0b"
+    },
+    {
+      "region": "sole_far",
+      "label": "远侧鞋底",
+      "bbox": [
+        659,
+        1408,
+        852,
+        1465
+      ],
+      "magnification": 4,
+      "file": "reports/alpha_edge_details_v2/sole_far.png",
+      "sha256": "4e9c164f13cf4d999499c6c9520ab0537eb34ef8075d589b04e1e963b89611cb"
+    }
+  ],
+  "input_images_unchanged": true
+}

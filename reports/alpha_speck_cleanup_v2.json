@@ -1,0 +1,509 @@
+{
+  "components_removed": 5,
+  "pixels_removed": 14,
+  "components_preserved_near_foreground": 33,
+  "components_preserved_color_or_sure_foreground": 0,
+  "main_component_area": 430230,
+  "connectivity": 8,
+  "maximum_removed_area": 16,
+  "near_distance_px": 2,
+  "component_records": [
+    {
+      "id": 1,
+      "area": 10,
+      "bbox": [
+        572,
+        29,
+        575,
+        33
+      ],
+      "near_main": true,
+      "peak_channel": 7,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 56,
+      "area": 5,
+      "bbox": [
+        496,
+        45,
+        500,
+        47
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 94,
+      "area": 1,
+      "bbox": [
+        451,
+        70,
+        452,
+        71
+      ],
+      "near_main": false,
+      "peak_channel": 3,
+      "action": "REMOVE_DISTANT_DARK_SPECK"
+    },
+    {
+      "id": 134,
+      "area": 2,
+      "bbox": [
+        672,
+        100,
+        673,
+        102
+      ],
+      "near_main": false,
+      "peak_channel": 3,
+      "action": "REMOVE_DISTANT_DARK_SPECK"
+    },
+    {
+      "id": 192,
+      "area": 3,
+      "bbox": [
+        379,
+        150,
+        380,
+        153
+      ],
+      "near_main": true,
+      "peak_channel": 4,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 212,
+      "area": 3,
+      "bbox": [
+        619,
+        163,
+        621,
+        165
+      ],
+      "near_main": true,
+      "peak_channel": 4,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 224,
+      "area": 4,
+      "bbox": [
+        364,
+        174,
+        366,
+        176
+      ],
+      "near_main": true,
+      "peak_channel": 4,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 230,
+      "area": 2,
+      "bbox": [
+        607,
+        176,
+        609,
+        177
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 307,
+      "area": 1,
+      "bbox": [
+        461,
+        227,
+        462,
+        228
+      ],
+      "near_main": false,
+      "peak_channel": 3,
+      "action": "REMOVE_DISTANT_DARK_SPECK"
+    },
+    {
+      "id": 310,
+      "area": 2,
+      "bbox": [
+        351,
+        228,
+        352,
+        230
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 350,
+      "area": 3,
+      "bbox": [
+        447,
+        245,
+        448,
+        248
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 445,
+      "area": 2,
+      "bbox": [
+        419,
+        283,
+        420,
+        285
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 618,
+      "area": 1,
+      "bbox": [
+        621,
+        373,
+        622,
+        374
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 866,
+      "area": 6,
+      "bbox": [
+        294,
+        574,
+        296,
+        577
+      ],
+      "near_main": true,
+      "peak_channel": 4,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 1086,
+      "area": 1,
+      "bbox": [
+        651,
+        755,
+        652,
+        756
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 1217,
+      "area": 6,
+      "bbox": [
+        785,
+        813,
+        787,
+        817
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 1348,
+      "area": 1,
+      "bbox": [
+        751,
+        866,
+        752,
+        867
+      ],
+      "near_main": false,
+      "peak_channel": 3,
+      "action": "REMOVE_DISTANT_DARK_SPECK"
+    },
+    {
+      "id": 1443,
+      "area": 1,
+      "bbox": [
+        320,
+        960,
+        321,
+        961
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 1458,
+      "area": 1,
+      "bbox": [
+        315,
+        974,
+        316,
+        975
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 1472,
+      "area": 3,
+      "bbox": [
+        318,
+        986,
+        320,
+        988
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 1675,
+      "area": 5,
+      "bbox": [
+        451,
+        1079,
+        452,
+        1084
+      ],
+      "near_main": true,
+      "peak_channel": 4,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2163,
+      "area": 1,
+      "bbox": [
+        379,
+        1276,
+        380,
+        1277
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2304,
+      "area": 1,
+      "bbox": [
+        373,
+        1335,
+        374,
+        1336
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2465,
+      "area": 1,
+      "bbox": [
+        261,
+        1408,
+        262,
+        1409
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2470,
+      "area": 1,
+      "bbox": [
+        261,
+        1410,
+        262,
+        1411
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2476,
+      "area": 1,
+      "bbox": [
+        261,
+        1412,
+        262,
+        1413
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2545,
+      "area": 26,
+      "bbox": [
+        693,
+        1433,
+        707,
+        1437
+      ],
+      "near_main": true,
+      "peak_channel": 5,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2543,
+      "area": 9,
+      "bbox": [
+        684,
+        1434,
+        689,
+        1436
+      ],
+      "near_main": false,
+      "peak_channel": 3,
+      "action": "REMOVE_DISTANT_DARK_SPECK"
+    },
+    {
+      "id": 2555,
+      "area": 1,
+      "bbox": [
+        709,
+        1436,
+        710,
+        1437
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2568,
+      "area": 1,
+      "bbox": [
+        608,
+        1439,
+        609,
+        1440
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2575,
+      "area": 12,
+      "bbox": [
+        626,
+        1440,
+        632,
+        1442
+      ],
+      "near_main": true,
+      "peak_channel": 9,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2580,
+      "area": 2,
+      "bbox": [
+        721,
+        1441,
+        723,
+        1442
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2611,
+      "area": 1,
+      "bbox": [
+        752,
+        1446,
+        753,
+        1447
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2614,
+      "area": 7,
+      "bbox": [
+        811,
+        1446,
+        817,
+        1448
+      ],
+      "near_main": true,
+      "peak_channel": 4,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2619,
+      "area": 1,
+      "bbox": [
+        792,
+        1447,
+        793,
+        1448
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2651,
+      "area": 5,
+      "bbox": [
+        414,
+        1460,
+        419,
+        1461
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2655,
+      "area": 1,
+      "bbox": [
+        412,
+        1461,
+        413,
+        1462
+      ],
+      "near_main": true,
+      "peak_channel": 3,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    },
+    {
+      "id": 2657,
+      "area": 10,
+      "bbox": [
+        348,
+        1462,
+        353,
+        1464
+      ],
+      "near_main": true,
+      "peak_channel": 7,
+      "action": "PRESERVE_NEAR_FOR_UNKNOWN_BAND"
+    }
+  ],
+  "input_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+  "output_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "timestamp": "2026-09-12T10:47:48.850925+00:00"
+}

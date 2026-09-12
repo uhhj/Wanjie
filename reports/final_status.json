@@ -1,6 +1,6 @@
 {
   "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
-  "verdict": "BLOCKED_ALPHA_MATTE_REVIEW",
+  "verdict": "BLOCKED_LOCAL_ALPHA_TOUCHUP_ONLY",
   "art_pipeline": "STOP_ART_PIPELINE",
   "repository_root": "D:\\Wanjie\\documents\\Wanjie",
   "source": {
@@ -34,21 +34,17 @@
   },
   "complete_body": {
     "status": "FAIL",
-    "reason_code": "ALPHA_MATTE_VISUAL_REVIEW_FAILED",
-    "file": "work/05_complete_body_candidate_v2_rgba.png",
-    "sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
-    "mode": "RGBA",
-    "dimensions": [
-      1024,
-      1536
-    ],
-    "source_visual_checks_status": "PASS",
-    "technical_status": "PASS",
-    "alpha_visual_status": "FAIL",
-    "full_gate_execution": "NOT_RUN_ALPHA_REVIEW_FAILED",
+    "gate": "reports/complete_body_gate_v3.json",
+    "file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+    "sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+    "format_integrity": "PASS",
+    "visual_status": "FAIL_LOCAL_TOUCHUP_ONLY",
     "blockers": [
-      "Visible irregular black fringe and speckles on crest, shoulder and soles",
-      "Background versus connected dark outline classification is not visually approved"
+      "region_001 plume top",
+      "region_002 shoulder upper edge",
+      "region_003 far shin outer edge",
+      "region_004 near sole",
+      "region_005 far sole"
     ]
   },
   "parts": {
@@ -82,31 +78,36 @@
     "scope": "Historical test result; not rerun in this read-only review."
   },
   "manual_review_images": [
-    "reports/rgba_background_review.png",
-    "reports/rgba_edge_review.png",
-    "reports/rgba_critical_edge_detail.png"
+    "reports/rgba_background_review_v2.png",
+    "reports/rgba_edge_review_v2.png",
+    "reports/alpha_trimap_review_v2.png",
+    "reports/suspected_halo_overlay_v2.png",
+    "reports/alpha_manual_touchup_targets_v2.png"
   ],
   "manual_edit_resume_document": "docs/IMAGE_EDIT_MANUAL_HANDOFF.md",
   "git": {
     "repository": "Wanjie",
     "branch": "feature/roman-guard-ai-rig-assets-v1",
     "commits_before_this_report": [
-      "a6cc7e1 test: review external body v2 and record missing transparency"
+      "2a82fb2 fix: add edge-connected RGBA candidate and record matte review failure"
     ],
-    "final_report_commit_subject": "fix: add edge-connected RGBA candidate and record matte review failure",
+    "final_report_commit_subject": "fix: decontaminate matte edges and isolate local alpha touchups",
     "remote": "https://github.com/uhhj/Wanjie.git",
     "note": "Commit/push and clean-tree state are verified after committing these reports."
   },
-  "timestamp": "2026-09-12T10:20:31.859116+00:00",
-  "phase": "RGBA_BACKGROUND_CONVERSION_V1",
+  "timestamp": "2026-09-12T11:04:16.777469+00:00",
+  "phase": "ALPHA_MATTE_CLEANUP_V2",
   "current_continuation": {
-    "task": "ROMAN_GUARD_RGBA_BACKGROUND_CONVERSION_V1",
+    "task": "ROMAN_GUARD_ALPHA_MATTE_CLEANUP_V2",
     "ai_calls": 0,
     "stages_001_through_005_executed": false,
     "input_unchanged": true,
-    "rgb_changed_pixel_count": 0,
-    "background_method": "4-connected scanline flood fill from entire image border",
-    "tolerance": 2,
-    "conversion_record": "reports/rgba_conversion.json"
+    "initial_alpha_unchanged": true,
+    "opaque_rgb_changes": 0,
+    "edge_rgb_changes": 5892,
+    "fractional_alpha_count": 5964,
+    "halo_previous": 3345,
+    "halo_current": 651,
+    "global_algorithm_frozen": true
   }
 }

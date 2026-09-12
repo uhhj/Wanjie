@@ -1,0 +1,151 @@
+{
+  "task": "ROMAN_GUARD_ALPHA_MATTE_CLEANUP_V2",
+  "gate_id": "COMPLETE_BODY_GATE_V3",
+  "status": "FAIL",
+  "verdict": "BLOCKED_LOCAL_ALPHA_TOUCHUP_ONLY",
+  "candidate_file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "candidate_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "visual_source_file": "work/05_complete_body_candidate_v2.png",
+  "visual_source_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "initial_alpha_file": "work/05_complete_body_candidate_v2_rgba.png",
+  "initial_alpha_sha256": "5939747ad6f41a2b372f8f4bcf912d76875a8d2548226d54738f1513d00f6a11",
+  "checks": [
+    {
+      "id": 1,
+      "key": "identity_consistent",
+      "status": "PASS",
+      "evidence": "面部身份、头盔、冠饰形态、站姿及人体比例一致；内部RGB未变。"
+    },
+    {
+      "id": 2,
+      "key": "skirt_still_pass",
+      "status": "PASS",
+      "evidence": "裙甲原拼接问题保持解决，原布褶和甲片设计未改。"
+    },
+    {
+      "id": 3,
+      "key": "collar_still_resolved",
+      "status": "PASS",
+      "evidence": "未经批准高领甲未重新出现。"
+    },
+    {
+      "id": 4,
+      "key": "plume_no_obvious_halo",
+      "status": "FAIL",
+      "evidence": "红冠顶部仍有局部黑色凸点，region_001。"
+    },
+    {
+      "id": 5,
+      "key": "shoulder_no_obvious_halo",
+      "status": "FAIL",
+      "evidence": "肩甲上缘仍有局部黑色凸点，region_002。"
+    },
+    {
+      "id": 6,
+      "key": "soles_no_irregular_halo",
+      "status": "FAIL",
+      "evidence": "两侧鞋底外缘仍有小块或短段残留，region_004/005。"
+    },
+    {
+      "id": 7,
+      "key": "no_obvious_background_specks",
+      "status": "FAIL",
+      "evidence": "近轮廓黑色点状残留尚未全部通过审查；远离主体的5个小component已清除。"
+    },
+    {
+      "id": 8,
+      "key": "true_black_outlines_preserved",
+      "status": "PASS",
+      "evidence": "头盔后缘、手指、甲片和裙甲深色描边保留，无明显内部透明破洞。"
+    },
+    {
+      "id": 9,
+      "key": "no_obvious_bright_fringe",
+      "status": "PASS",
+      "evidence": "白、灰、蓝及棋盘预览未见明显新增白边或爆亮边缘。"
+    },
+    {
+      "id": 10,
+      "key": "natural_on_white_gray_blue",
+      "status": "FAIL",
+      "evidence": "总体效果改善，但上述局部残留在白灰蓝背景仍可见。"
+    },
+    {
+      "id": 11,
+      "key": "rgba",
+      "status": "PASS",
+      "evidence": "PNG RGBA。"
+    },
+    {
+      "id": 12,
+      "key": "alpha_min_zero",
+      "status": "PASS",
+      "evidence": "Alpha min=0。"
+    },
+    {
+      "id": 13,
+      "key": "alpha_max_255",
+      "status": "PASS",
+      "evidence": "Alpha max=255。"
+    },
+    {
+      "id": 14,
+      "key": "fractional_alpha_present",
+      "status": "PASS",
+      "evidence": "5964个半透明像素。"
+    },
+    {
+      "id": 15,
+      "key": "same_canvas",
+      "status": "PASS",
+      "evidence": "1024x1536，画布和主体位置未变。"
+    },
+    {
+      "id": 16,
+      "key": "opaque_rgb_unchanged",
+      "status": "PASS",
+      "evidence": "opaque RGB changed=0，max difference=0；sure foreground也完全不变。"
+    }
+  ],
+  "format_integrity_status": "PASS",
+  "visual_status": "FAIL_LOCAL_TOUCHUP_ONLY",
+  "reviewer": "Codex visual inspection: 4 backgrounds, 11 matched 4x detail strips and marked target sheet",
+  "visual_regions": {
+    "plume": "LOCAL_TOUCHUP_TOP; tail retained",
+    "helmet": "PASS",
+    "shoulder": "LOCAL_TOUCHUP",
+    "hands": "PASS",
+    "skirt": "PASS",
+    "legs": "LOCAL_TOUCHUP_FAR_OUTER_SHIN; near straps retained",
+    "boots": "LOCAL_TOUCHUP"
+  },
+  "remaining_issues": [
+    "region_001 plume top",
+    "region_002 shoulder upper edge",
+    "region_003 far shin outer edge",
+    "region_004 near sole",
+    "region_005 far sole"
+  ],
+  "manual_touchup_targets": "reports/alpha_manual_touchup_targets_v2.json",
+  "manual_touchup_image": "reports/alpha_manual_touchup_targets_v2.png",
+  "review_images": {
+    "reports/rgba_background_review_v2.png": "3399371a122a8b8630afd191f6056d7149af195cc8f034084d99159fc2671e08",
+    "reports/rgba_edge_review_v2.png": "98a2404f99b166f59d821bac8c3c215177f84eb8c0b5eb663bc459eeb8820013",
+    "reports/alpha_trimap_review_v2.png": "d41b958d228a6080e6929e217898ca5b2337a8ff220d78197c417aa790e4ce4d",
+    "reports/suspected_halo_overlay_v2.png": "22117c910b7baa0883afa2d9b734f2141b82405a4e0a2ce37e5e19fc65b4a406"
+  },
+  "numeric_integrity_report": "reports/alpha_cleanup_integrity_v2.json",
+  "global_algorithm_frozen": true,
+  "ai_calls": 0,
+  "stages_001_through_005_executed": false,
+  "formal_parts": {
+    "required": 19,
+    "passed": 0,
+    "status": "NOT_STARTED"
+  },
+  "recomposition": "NOT_RUN",
+  "joint_tests": "NOT_RUN",
+  "godot_handoff": "NOT_READY",
+  "production_body_source_switched": false,
+  "timestamp": "2026-09-12T11:04:16.721765+00:00"
+}

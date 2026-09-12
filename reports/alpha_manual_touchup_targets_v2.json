@@ -1,0 +1,90 @@
+{
+  "status": "LOCAL_REVIEW_REQUIRED",
+  "output_file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "output_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "targets": [
+    {
+      "id": "region_001",
+      "region": "plume_top",
+      "bbox": [
+        483,
+        27,
+        638,
+        63
+      ],
+      "problem_type": "红冠顶部不规则黑色凸点",
+      "recommended_correction": "逐点核对红色羽毛轮廓，只处理其外侧残留 Alpha；保留真正细羽毛，不按小面积统一删除。",
+      "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
+      "sure_foreground_pixels_in_review_box": 3261,
+      "unknown_pixels_in_review_box": 1192,
+      "bbox_is_edit_mask": false
+    },
+    {
+      "id": "region_002",
+      "region": "shoulder",
+      "bbox": [
+        326,
+        381,
+        445,
+        415
+      ],
+      "problem_type": "肩甲弧线上缘黑色凸点",
+      "recommended_correction": "沿现有金属外轮廓处理外侧残留，保留原暗描边；仅修窄带 Alpha/半透明 RGB。",
+      "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
+      "sure_foreground_pixels_in_review_box": 2488,
+      "unknown_pixels_in_review_box": 387,
+      "bbox_is_edit_mask": false
+    },
+    {
+      "id": "region_003",
+      "region": "leg_far",
+      "bbox": [
+        682,
+        1169,
+        709,
+        1282
+      ],
+      "problem_type": "远侧护胫外缘不规则黑色阶梯/凸点",
+      "recommended_correction": "逐段区分真实甲边与轮廓外的近黑残留；不得削薄整条护胫或改变腿形。",
+      "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
+      "sure_foreground_pixels_in_review_box": 1418,
+      "unknown_pixels_in_review_box": 573,
+      "bbox_is_edit_mask": false
+    },
+    {
+      "id": "region_004",
+      "region": "sole_near",
+      "bbox": [
+        330,
+        1448,
+        442,
+        1468
+      ],
+      "problem_type": "近侧鞋底下方扁块状黑色残留",
+      "recommended_correction": "按真实鞋底轮廓审查下方小块，保留鞋底厚度和原阴影；不统一侵蚀整只鞋。",
+      "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
+      "sure_foreground_pixels_in_review_box": 1198,
+      "unknown_pixels_in_review_box": 695,
+      "bbox_is_edit_mask": false
+    },
+    {
+      "id": "region_005",
+      "region": "sole_far",
+      "bbox": [
+        686,
+        1434,
+        838,
+        1459
+      ],
+      "problem_type": "远侧鞋底下方离散黑色凸点",
+      "recommended_correction": "仅修鞋底外侧的离散点/短段，保留真实深色鞋底，不提高全局颜色阈值。",
+      "constraint": "Unknown-band edits only. If the target requires changing locked sure foreground, stop and flag it; do not alter it automatically.",
+      "sure_foreground_pixels_in_review_box": 1074,
+      "unknown_pixels_in_review_box": 877,
+      "bbox_is_edit_mask": false
+    }
+  ],
+  "timestamp": "2026-09-12T10:59:09.031011+00:00",
+  "global_algorithm_frozen": true,
+  "automatic_correction_executed": false
+}

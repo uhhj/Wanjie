@@ -1,16 +1,17 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**当前 Verdict：BLOCKED_ALPHA_MATTE_REVIEW。RGBA 格式验证 PASS，Alpha 边缘视觉审查 FAIL。Godot handoff：NOT_READY。**
+**当前 Verdict：BLOCKED_LOCAL_ALPHA_TOUCHUP_ONLY。Body Gate V3：FAIL；Godot handoff：NOT_READY。**
 
-已用确定性的四邻域边界连通 flood fill 生成 `work/05_complete_body_candidate_v2_rgba.png`：1024×1536，Alpha 0/255，阈值 `max(R,G,B)<=2`，RGB 改动为 0。原 RGB 文件保持不变，其十项视觉 PASS 保留。但新 Alpha 在冠饰、肩甲及鞋底仍有黑色边缘残留/散点，未通过视觉审查；提高阈值会误删相连暗色描边，因此按 STOP 规则停止。未调用 AI、未重跑 001–005、未开始 19 parts。详见 [本轮 Alpha 转换报告](reports/RGBA_BACKGROUND_CONVERSION_V1.md) 与 [当前门禁 JSON](reports/complete_body_gate_v2.json)。
+当前独立候选为 `work/05_complete_body_candidate_v2_rgba_clean.png`。trimap 窄带内完成局部 Alpha 估计和黑底 RGB 去污染：opaque RGB 改动为 0，边缘 RGB 改动 5,892 个像素，fractional alpha 5,964 个；同一规则检测的疑似 halo 从 3,345 降至 651。但红冠顶部、肩甲、远侧护胫和两侧鞋底仍有五处局部问题，已停止全局调整并标出修补目标。详见 [本轮清理报告](reports/ALPHA_MATTE_CLEANUP_V2.md) 和 [Body Gate V3](reports/complete_body_gate_v3.json)。
 
 冻结母图与历史 001–003 保持原哈希。此前三次 AI 编辑和三个装备提取候选保留为历史产物；外部 V2 有独立的输入哈希和只读接收记录。正式 parts 仍为 0/19。旧版局部修复的阻塞原因与计划仅供历史追溯，不应再次执行。
 
 项目位置：`D:\Wanjie\documents\Wanjie`。远端仓库：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
 
 - [当前状态](reports/FINAL_VERDICT.md)
-- [RGBA 四背景对照](reports/rgba_background_review.png)
-- [RGBA 边缘对照](reports/rgba_edge_review.png)
+- [本轮四背景对照](reports/rgba_background_review_v2.png)
+- [本轮 4x 边缘对照](reports/rgba_edge_review_v2.png)
+- [五处局部修补目标](reports/alpha_manual_touchup_targets_v2.png)
 - [RGB 源图视觉审查（已通过，历史）](reports/complete_body_review_v2.md)
 - [上一轮修复门禁（历史）](reports/FIX_COMPLETE_BODY_GATE_V1.md)
 - [局部编辑交接与续跑](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
@@ -38,6 +39,10 @@ python tools/test_pipeline_safety.py
 
 | 脚本 | 作用 |
 |---|---|
+| cleanup_roman_guard_alpha_v2.py | trimap、保守组件清理、局部距离/颜色 Alpha 估计和半透明 RGB 去污染；拒绝覆盖本轮候选 |
+| review_alpha_cleanup_v2.py | 四背景、trimap、11 个精确 4x 局部条带和 halo debug |
+| mark_alpha_touchup_targets_v2.py | 标注已观察到的五处局部问题，不修图 |
+| test_alpha_cleanup_v2.py | 距离/组件、固定内部、细羽毛保护和实际输出复现检查 |
 | convert_roman_guard_rgba.py | 从全部边缘做四邻域近黑连通分离，仅写独立输出 Alpha，RGB 不变 |
 | validate_rgba_candidate.py | 检查 PNG/RGBA、画布、有效透明/不透明像素、边界、RGB 与连通性；不代替视觉审查 |
 | generate_rgba_review.py | 生成黑/白/灰/棋盘效果和关键边缘放大图 |

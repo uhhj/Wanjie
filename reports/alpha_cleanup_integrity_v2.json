@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "png": true,
+    "rgba": true,
+    "same_canvas": true,
+    "alpha_min_zero": true,
+    "alpha_max_255": true,
+    "fractional_alpha_present": true,
+    "trimap_matches_erode2_dilate3": true,
+    "sure_foreground_alpha_255": true,
+    "sure_background_alpha_0": true,
+    "sure_foreground_rgb_unchanged": true,
+    "opaque_rgb_unchanged": true,
+    "rgb_changes_only_fractional_unknown": true,
+    "alpha_unchanged_outside_unknown": true,
+    "source_unchanged": true,
+    "initial_alpha_unchanged": true,
+    "output_hash_matches": true,
+    "foreground_off_canvas_border": true
+  },
+  "input_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "output_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "opaque_rgb_changed_pixels": 0,
+  "max_opaque_rgb_difference": 0,
+  "edge_rgb_changed_pixels": 5892,
+  "fractional_alpha_pixels": 5964,
+  "timestamp": "2026-09-12T11:04:16.678263+00:00",
+  "scope": "Numeric format, trimap and preservation constraints only; visual gate is separate."
+}

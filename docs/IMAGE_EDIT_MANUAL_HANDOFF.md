@@ -1,25 +1,19 @@
-# 当前交接：RGBA_BACKGROUND_CONVERSION_V1
+# 当前交接：ALPHA_MATTE_CLEANUP_V2
 
-**Verdict：BLOCKED_ALPHA_MATTE_REVIEW。格式 PASS，Alpha 边缘视觉 FAIL。**
+**Verdict：BLOCKED_LOCAL_ALPHA_TOUCHUP_ONLY。Body Gate V3：FAIL；Godot Handoff：NOT_READY。**
 
-已在用户授权下，仅用确定性四邻域边界连通背景分离生成：
+当前候选：`D:\Wanjie\documents\Wanjie\work\05_complete_body_candidate_v2_rgba_clean.png`
 
-`D:\Wanjie\documents\Wanjie\work\05_complete_body_candidate_v2_rgba.png`
+SHA256：`df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd`
 
-输出为同画布 1024×1536 RGBA，真实 Alpha 0/255，原人物 RGB 逐像素不变。只读 RGB 源仍为 `work/05_complete_body_candidate_v2.png`，其十项视觉 PASS 保留。
+本轮已按用户授权，仅在 trimap unknown band 的半透明像素中做黑底 RGB 去污染；所有最终 opaque RGB、sure foreground RGB，以及 unknown band 外的 Alpha/RGB 完全保持。旧 RGB 和初始 RGBA 不变。未调用 AI、未重跑 001–005。
 
-当前问题已经不是缺少 Alpha 通道。阈值 2 的白底/灰底审查显示，冠饰、肩甲外缘和鞋底仍有不规则黑色残留和散点；提高阈值又会穿入与背景相连的暗色描边。本轮已按用户 STOP 规则结束进一步修改；不得把格式 PASS 当作 Alpha 美术 PASS。
+当前全局算法和候选已冻结，不再修改全局阈值、羽化范围或侵蚀强度。只剩 region_001–region_005：红冠顶部、肩甲上缘、远侧护胫外缘、近侧鞋底、远侧鞋底。每处 bbox、问题、建议见 [局部目标 JSON](../reports/alpha_manual_touchup_targets_v2.json)，图见 [局部修补目标](../reports/alpha_manual_touchup_targets_v2.png)。
 
-下一步只审查/修正 Alpha 边缘分类。继续保留当前 RGB、现有 RGBA 失败证据和角色设计，不能重新生成角色、重跑 001–005、覆盖原图或盲目提高阈值。完整十五项 Body Gate 必须等待 Alpha 审查通过；当前 19 parts、重组、关节测试和 Godot 均未解锁。
+这些框是审查范围，不能当作整体编辑 mask。修补仅限已有 unknown band；保留真实黑色描边和 opaque RGB。若需要改变锁定 sure foreground，先明确标记冲突，不自动修改。当前并未执行局部修补。
 
-查看：
+查看 [本轮报告](../reports/ALPHA_MATTE_CLEANUP_V2.md)、[四背景](../reports/rgba_background_review_v2.png)、[4x 局部](../reports/rgba_edge_review_v2.png)、[trimap](../reports/alpha_trimap_review_v2.png)、[Body Gate V3](../reports/complete_body_gate_v3.json)。逐区域 4x 文件在 `reports/alpha_edge_details_v2/`，避免只看缩小总览。
 
-- [本轮完整报告](../reports/RGBA_BACKGROUND_CONVERSION_V1.md)
-- [白/灰/棋盘对照](../reports/rgba_background_review.png)
-- [边缘审查](../reports/rgba_edge_review.png)
-- [头盔与鞋底细节](../reports/rgba_critical_edge_detail.png)
-- [容差风险对照](../reports/alpha_tolerance_review.png)
-- [格式验证](../reports/rgba_candidate_validation.json)
-- [Alpha 视觉判定](../reports/rgba_visual_review.json)
+数值检测：疑似 halo 3345→651，下降约80.54%，只是 debug，不能据此直接 PASS。7 项测试通过和 opaque RGB=0 也不能替代局部美术审查。
 
-本轮不使用生成式 AI。外部 RGB 原件、冻结源图和历史 AI 记录不变。转换脚本拒绝覆盖像素不同的已有输出；需要任何后续修正时，应先明确新的独立候选路径并保留失败证据。
+全部16项 Body Gate V3 通过之后才能开始 19 parts。当前正式人体来源、manifest、pivot 未切换；重组、关节测试、Godot Rig 与动画均未开始，不创建第二兵种。
