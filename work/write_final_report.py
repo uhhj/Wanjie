@@ -9,6 +9,7 @@ assert test_run['exit_code']==0 and 'Ran 12 tests' in test_run['stderr']
 write('reports/tool_tests.json',{'status':'PASS','test_count':12,'execution_timestamp':original_validation['timestamp'],'record_recovered_from_commit':'7ae2cac','note':'Executed test evidence retained separately from later production-only validation runs. Tests used isolated synthetic fixtures, not real formal parts.','run':test_run})
 source=read('art_source/odyssey/roman_guard/source_manifest.json'); parts=read('reports/parts_validation.json'); integrity=read('reports/complete_body_integrity.json')
 commits=subprocess.check_output(['git','log','--format=%h %s'],cwd=ROOT,text=True,encoding='utf-8').strip().splitlines()
+remote_url=subprocess.check_output(['git','remote','get-url','origin'],cwd=ROOT,text=True,encoding='utf-8').strip()
 manual=['reports/complete_body_review.png','reports/complete_body_detail_review.png','reports/001_hand_matte_review.png','reports/equipment_extraction_review.png','reports/occlusion_mask_review.png','reports/helmet_edge_review.png']
 for p in manual: assert (ROOT/p).is_file()
 status={
@@ -22,7 +23,7 @@ status={
  'joint_tests':{'elbows':'NOT_RUN','knees':'NOT_RUN','shield':'NOT_RUN','sword':'NOT_RUN','reason':'Formal parts gate failed; synthetic tool tests are not character joint validation'},
  'godot_handoff':'NOT_READY','tools_tests':{'status':'PASS','count':12},
  'manual_review_images':manual,'manual_edit_resume_document':'docs/IMAGE_EDIT_MANUAL_HANDOFF.md',
- 'git':{'repository':'uhhj','branch':'feature/roman-guard-ai-rig-assets-v1','commits_before_this_report':commits,'final_report_commit_subject':'fix: preserve frozen helmet edge and document blocked handoff','remote':None,'note':'Final delivery commit and clean-tree check are reported after committing this report; use git log / git status for current state.'},
+ 'git':{'repository':ROOT.name,'branch':'feature/roman-guard-ai-rig-assets-v1','commits_before_this_report':commits,'final_report_commit_subject':'chore: rename local repository to Wanjie and configure origin','remote':remote_url,'note':'Repository renamed to Wanjie on user request. Push and clean-tree verification are reported after committing this report; use git log / git status for current state.'},
  'timestamp':now()}
 write('reports/final_status.json',status)
 text=f'''# 最终验收：ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
@@ -32,7 +33,7 @@ text=f'''# 最终验收：ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
 工程准备和真实 AI 尝试已完成；美术结果没有被伪标为通过。当前候选底版有裙甲接缝与未经确认的高领甲，正式人体拆分已停止。没有创建第二兵种。
 
-项目仓库：`D:\\Wanjie\\documents\\uhhj`。代码、资产、报告都在此目录。原始 PNG 保持只读，未覆盖。
+项目仓库：`{ROOT}`。远端：`{remote_url}`。代码、资产、报告都在此目录。原始 PNG 保持只读，未覆盖。
 
 ## Source
 
@@ -90,11 +91,11 @@ Complete body：**FAIL**。双手双腿均存在，盾剑披风已移除，但�
 
 ## Git 与 Godot
 
-仓库名称：`uhhj`；本地分支：`feature/roman-guard-ai-rig-assets-v1`。本报告写入前已有提交：
+仓库名称：`{ROOT.name}`；GitHub 所有者：`uhhj`；本地分支：`feature/roman-guard-ai-rig-assets-v1`。本报告写入前已有提交：
 
 '''+''.join(f'- `{c}`\n' for c in commits)+'''
 
-本报告及头盔保护区修正另随 `fix: preserve frozen helmet edge and document blocked handoff` 提交。最终提交 SHA 与工作区检查见交付消息，也可运行 `git log --oneline` / `git status --short`。无 remote，未推送。
+头盔保护区修正已提交为 `dcced3e`。用户随后确认将本地仓库改名为 `Wanjie`，并推送到 `https://github.com/uhhj/Wanjie.git`。本报告的路径更正随 `chore: rename local repository to Wanjie and configure origin` 提交。推送后的提交 SHA 与工作区检查见交付消息，也可运行 `git log --oneline` / `git status --short`。
 
 用户确认从零建立仓库，因此没有既有原生 rig 可调用。按照素材门禁，没有开始创建 Godot 4.7.2 的 Skeleton2D/Bone2D 正式场景、HUMAN_MEDIUM_RIG_V1 或五个动画；没有安装第三方插件。只有完整素材和实际重组/关节验收都通过之后才能开始。
 '''

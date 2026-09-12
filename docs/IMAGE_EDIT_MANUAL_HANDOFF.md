@@ -1,6 +1,6 @@
 # 局部图像编辑交接与续跑
 
-仓库根目录：`D:\Wanjie\documents\uhhj`。不需要重新创建工程，也不需要重新生成母图。
+仓库根目录：`D:\Wanjie\documents\Wanjie`。远端为 `https://github.com/uhhj/Wanjie`。不需要重新创建工程，也不需要重新生成母图。
 
 已真实调用工具 `image_gen.imagegen` 三次。后端模型名未公开，不能宣称它是 Image 2.5；没有独立 mask 参数。结果都是带棋盘格的 RGB。没有发现配置好的图像 API key，也没有虚构 endpoint。Python 管理脚本不会调用不存在的本地图像 API。
 

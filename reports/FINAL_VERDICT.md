@@ -5,7 +5,7 @@
 
 工程准备和真实 AI 尝试已完成；美术结果没有被伪标为通过。当前候选底版有裙甲接缝与未经确认的高领甲，正式人体拆分已停止。没有创建第二兵种。
 
-项目仓库：`D:\Wanjie\documents\uhhj`。代码、资产、报告都在此目录。原始 PNG 保持只读，未覆盖。
+项目仓库：`D:\Wanjie\documents\Wanjie`。远端：`https://github.com/uhhj/Wanjie.git`。代码、资产、报告都在此目录。原始 PNG 保持只读，未覆盖。
 
 ## Source
 
@@ -69,13 +69,14 @@ Complete body：**FAIL**。双手双腿均存在，盾剑披风已移除，但�
 
 ## Git 与 Godot
 
-仓库名称：`uhhj`；本地分支：`feature/roman-guard-ai-rig-assets-v1`。本报告写入前已有提交：
+仓库名称：`Wanjie`；GitHub 所有者：`uhhj`；本地分支：`feature/roman-guard-ai-rig-assets-v1`。本报告写入前已有提交：
 
+- `dcced3e fix: preserve frozen helmet edge and document blocked handoff`
 - `7ae2cac art: record inpainting candidates and failed body review`
 - `621b600 feat: add guarded roman guard asset pipeline`
 - `391d630 chore: add frozen roman guard rig source`
 
 
-本报告及头盔保护区修正另随 `fix: preserve frozen helmet edge and document blocked handoff` 提交。最终提交 SHA 与工作区检查见交付消息，也可运行 `git log --oneline` / `git status --short`。无 remote，未推送。
+头盔保护区修正已提交为 `dcced3e`。用户随后确认将本地仓库改名为 `Wanjie`，并推送到 `https://github.com/uhhj/Wanjie.git`。本报告的路径更正随 `chore: rename local repository to Wanjie and configure origin` 提交。推送后的提交 SHA 与工作区检查见交付消息，也可运行 `git log --oneline` / `git status --short`。
 
 用户确认从零建立仓库，因此没有既有原生 rig 可调用。按照素材门禁，没有开始创建 Godot 4.7.2 的 Skeleton2D/Bone2D 正式场景、HUMAN_MEDIUM_RIG_V1 或五个动画；没有安装第三方插件。只有完整素材和实际重组/关节验收都通过之后才能开始。

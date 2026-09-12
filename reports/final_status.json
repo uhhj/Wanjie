@@ -2,7 +2,7 @@
   "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
   "verdict": "BLOCKED",
   "art_pipeline": "STOP_ART_PIPELINE",
-  "repository_root": "D:\\Wanjie\\documents\\uhhj",
+  "repository_root": "D:\\Wanjie\\documents\\Wanjie",
   "source": {
     "external_path": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
     "project_path": "art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
@@ -81,16 +81,17 @@
   ],
   "manual_edit_resume_document": "docs/IMAGE_EDIT_MANUAL_HANDOFF.md",
   "git": {
-    "repository": "uhhj",
+    "repository": "Wanjie",
     "branch": "feature/roman-guard-ai-rig-assets-v1",
     "commits_before_this_report": [
+      "dcced3e fix: preserve frozen helmet edge and document blocked handoff",
       "7ae2cac art: record inpainting candidates and failed body review",
       "621b600 feat: add guarded roman guard asset pipeline",
       "391d630 chore: add frozen roman guard rig source"
     ],
-    "final_report_commit_subject": "fix: preserve frozen helmet edge and document blocked handoff",
-    "remote": null,
-    "note": "Final delivery commit and clean-tree check are reported after committing this report; use git log / git status for current state."
+    "final_report_commit_subject": "chore: rename local repository to Wanjie and configure origin",
+    "remote": "https://github.com/uhhj/Wanjie.git",
+    "note": "Repository renamed to Wanjie on user request. Push and clean-tree verification are reported after committing this report; use git log / git status for current state."
   },
-  "timestamp": "2026-09-11T15:23:13.433217+00:00"
+  "timestamp": "2026-09-12T04:03:33.593920+00:00"
 }

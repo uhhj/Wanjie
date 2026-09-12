@@ -4,7 +4,7 @@
 
 冻结母图已导入，只读 SHA256 校验通过。已完成三次真实 AI 编辑、受 mask 约束的候选底版、三个原像素装备提取候选，以及可恢复执行的工程工具。底版存在裙甲拼接瑕疵和未经确认的颈甲结构，未被标记为正式素材。没有生成假的 19 件 PNG，也没有把失败素材接入 Godot。
 
-项目位置：`D:\Wanjie\documents\uhhj`。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
+项目位置：`D:\Wanjie\documents\Wanjie`。远端仓库：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
 
 - [最终状态](reports/FINAL_VERDICT.md)
 - [完整底版审查](reports/complete_body_review.md)
@@ -50,6 +50,6 @@ python tools/test_pipeline_safety.py
 
 ## Godot 后续
 
-用户已确认从零建立 `uhhj` 仓库；原有 `ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V1` 和 `HUMAN_MEDIUM_RIG_V1` 工程文件不在本机任务中。只有素材 READY 后，才创建 Godot 4.7.2 Stable 原生 Skeleton2D/Bone2D 场景和 idle、walk、attack_01、hit、death。当前没有创建占位骨骼、动画或伪称已经接入。
+用户已确认从零建立仓库，并将仓库名称更正为 `Wanjie`（GitHub 所有者为 `uhhj`）；原有 `ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V1` 和 `HUMAN_MEDIUM_RIG_V1` 工程文件不在本机任务中。只有素材 READY 后，才创建 Godot 4.7.2 Stable 原生 Skeleton2D/Bone2D 场景和 idle、walk、attack_01、hit、death。当前没有创建占位骨骼、动画或伪称已经接入。
 
-API key 不在工程内。`.env`、密钥文件和运行缓存被忽略。没有 GitHub remote，也没有向远端推送。
+API key 不在工程内。`.env`、密钥文件和运行缓存被忽略。`origin` 为 `https://github.com/uhhj/Wanjie.git`，工作分支为 `feature/roman-guard-ai-rig-assets-v1`。AI 调用记录中的旧本地路径保留为调用时的真实历史，不因仓库改名而改写。
