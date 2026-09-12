@@ -1,0 +1,27 @@
+{
+  "files": {
+    "assets/units/odyssey/roman_guard/parts/head.png": "326a5bb15ace6a75a1257fdfc7676a810688bea52aa6966de6b47e5b0c5e2dc3",
+    "assets/units/odyssey/roman_guard/parts/helmet.png": "4834636606cb008d0e577f0936be12fb1b15e6cd3fa223f397f2fbdf812e6444",
+    "assets/units/odyssey/roman_guard/parts/torso.png": "946ccc174da85ca62ab326fd41f3555b708e0018058967bd39e180468df3b834",
+    "assets/units/odyssey/roman_guard/parts/pelvis.png": "24580b8025eddb1ecd416d1e2f06b7a1104c66dd92f41b3f8e52314f95099de8",
+    "assets/units/odyssey/roman_guard/parts/arm_near_upper.png": "7f7752cdc69db70243e04f843afaba54a676634d8f2742034789f41d4e056fd9",
+    "assets/units/odyssey/roman_guard/parts/arm_near_fore.png": "cdd215aa37f894c7763f67626629b0f104a59a05d3e53fb39197b70c080c171f",
+    "assets/units/odyssey/roman_guard/parts/hand_near.png": "255899b6750f126222ba9e2af0785d90e4aa8edf6c4403a12d19592334c86a57",
+    "assets/units/odyssey/roman_guard/parts/arm_far_upper.png": "e355b1f3fc698f2be7657f9049f0ce3859a3483bf3aabf4307970373beb4b607",
+    "assets/units/odyssey/roman_guard/parts/arm_far_fore.png": "9ebde9e9f0af76275163d976bf5b83db8fd27f3797666b88a3ab8431a16749d9",
+    "assets/units/odyssey/roman_guard/parts/hand_far.png": "e9060ac5007d764c94c0baba4a842d19ffb3b34d3dba52f978d7f9f0238eeec0",
+    "assets/units/odyssey/roman_guard/parts/leg_near_thigh.png": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8",
+    "assets/units/odyssey/roman_guard/parts/leg_near_shin.png": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b",
+    "assets/units/odyssey/roman_guard/parts/foot_near.png": "e3c1408132297bf7cb3f504ab6c7ad4e0f456e8ae9e49974d949b7440d4fdb8a",
+    "assets/units/odyssey/roman_guard/parts/leg_far_thigh.png": "9482db4787522b983900f6fec140a06c5374bb23febd338b0c27bfd0e5e807e2",
+    "assets/units/odyssey/roman_guard/parts/leg_far_shin.png": "196453f8d6a0ea0a9f5df33798cb9f1c36d1742027b5bb89eab19bb3de33fb02",
+    "assets/units/odyssey/roman_guard/parts/foot_far.png": "28162975e45b69cfe4a0426cb68cb6391e4b3cd0f485f4fa2a71fed1ff50902a",
+    "assets/units/odyssey/roman_guard/parts/shield.png": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+    "assets/units/odyssey/roman_guard/parts/sword.png": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+    "assets/units/odyssey/roman_guard/parts/cape.png": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8",
+    "assets/units/odyssey/roman_guard/parts/knee_near.png": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68"
+  },
+  "body_file": "work/05_complete_body_candidate_v2_rgba_clean.png",
+  "body_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "near_knee_mesh_sha256": "d04a397b6c6b8aff211edc51d9aff2708235bae926cd90df172f2dd423f08480"
+}

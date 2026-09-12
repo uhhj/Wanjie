@@ -1,0 +1,336 @@
+{
+  "id": "HUMAN_MEDIUM_RIG_V1",
+  "bones": {
+    "pelvis": {
+      "parent": "",
+      "path": "pelvis",
+      "pivot": [
+        530,
+        701
+      ],
+      "local_position": [
+        530,
+        701
+      ],
+      "length": 8,
+      "bone_angle": -1.1071487177940904
+    },
+    "torso": {
+      "parent": "pelvis",
+      "path": "pelvis/torso",
+      "pivot": [
+        533,
+        695
+      ],
+      "local_position": [
+        3,
+        -6
+      ],
+      "length": 300.08165555395084,
+      "bone_angle": -1.5941254269430831
+    },
+    "neck": {
+      "parent": "torso",
+      "path": "pelvis/torso/neck",
+      "pivot": [
+        526,
+        395
+      ],
+      "local_position": [
+        -7,
+        -300
+      ],
+      "length": 105.57461816175325,
+      "bone_angle": -1.4664151738445663
+    },
+    "head": {
+      "parent": "neck",
+      "path": "pelvis/torso/neck/head",
+      "pivot": [
+        537,
+        290
+      ],
+      "local_position": [
+        11,
+        -105
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "arm_near_upper": {
+      "parent": "torso",
+      "path": "pelvis/torso/arm_near_upper",
+      "pivot": [
+        457,
+        510
+      ],
+      "local_position": [
+        -76,
+        -185
+      ],
+      "length": 203.82835916525454,
+      "bone_angle": 2.2309789106601006
+    },
+    "arm_near_fore": {
+      "parent": "arm_near_upper",
+      "path": "pelvis/torso/arm_near_upper/arm_near_fore",
+      "pivot": [
+        332,
+        671
+      ],
+      "local_position": [
+        -125,
+        161
+      ],
+      "length": 164.02743672934722,
+      "bone_angle": 1.589086969751717
+    },
+    "hand_near": {
+      "parent": "arm_near_fore",
+      "path": "pelvis/torso/arm_near_upper/arm_near_fore/hand_near",
+      "pivot": [
+        329,
+        835
+      ],
+      "local_position": [
+        -3,
+        164
+      ],
+      "length": 32.01562118716424,
+      "bone_angle": 1.602036160225165
+    },
+    "sword_socket": {
+      "parent": "hand_near",
+      "path": "pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket",
+      "pivot": [
+        328,
+        867
+      ],
+      "local_position": [
+        -1,
+        32
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "arm_far_upper": {
+      "parent": "torso",
+      "path": "pelvis/torso/arm_far_upper",
+      "pivot": [
+        641,
+        601
+      ],
+      "local_position": [
+        108,
+        -94
+      ],
+      "length": 101.76934705499491,
+      "bone_angle": 1.1775169217409998
+    },
+    "arm_far_fore": {
+      "parent": "arm_far_upper",
+      "path": "pelvis/torso/arm_far_upper/arm_far_fore",
+      "pivot": [
+        680,
+        695
+      ],
+      "local_position": [
+        39,
+        94
+      ],
+      "length": 105.68348972285122,
+      "bone_angle": 0.9670469933974603
+    },
+    "hand_far": {
+      "parent": "arm_far_fore",
+      "path": "pelvis/torso/arm_far_upper/arm_far_fore/hand_far",
+      "pivot": [
+        740,
+        782
+      ],
+      "local_position": [
+        60,
+        87
+      ],
+      "length": 39.20459156782532,
+      "bone_angle": 1.468589608687643
+    },
+    "shield_socket": {
+      "parent": "hand_far",
+      "path": "pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket",
+      "pivot": [
+        744,
+        821
+      ],
+      "local_position": [
+        4,
+        39
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "cape_root": {
+      "parent": "torso",
+      "path": "pelvis/torso/cape_root",
+      "pivot": [
+        508,
+        415
+      ],
+      "local_position": [
+        -25,
+        -280
+      ],
+      "length": 430.80041782709543,
+      "bone_angle": 2.212904678828558
+    },
+    "cape_mid": {
+      "parent": "cape_root",
+      "path": "pelvis/torso/cape_root/cape_mid",
+      "pivot": [
+        250,
+        760
+      ],
+      "local_position": [
+        -258,
+        345
+      ],
+      "length": 297.3213749463701,
+      "bone_angle": 1.9138202672156
+    },
+    "cape_tip": {
+      "parent": "cape_mid",
+      "path": "pelvis/torso/cape_root/cape_mid/cape_tip",
+      "pivot": [
+        150,
+        1040
+      ],
+      "local_position": [
+        -100,
+        280
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "leg_near_thigh": {
+      "parent": "pelvis",
+      "path": "pelvis/leg_near_thigh",
+      "pivot": [
+        421,
+        995
+      ],
+      "local_position": [
+        -109,
+        294
+      ],
+      "length": 93.98404119849285,
+      "bone_angle": 1.9295669970654687
+    },
+    "knee_near": {
+      "parent": "leg_near_thigh",
+      "path": "pelvis/leg_near_thigh/knee_near",
+      "pivot": [
+        388,
+        1083
+      ],
+      "local_position": [
+        -33,
+        88
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "leg_near_shin": {
+      "parent": "knee_near",
+      "path": "pelvis/leg_near_thigh/knee_near/leg_near_shin",
+      "pivot": [
+        388,
+        1083
+      ],
+      "local_position": [
+        0,
+        0
+      ],
+      "length": 254.24397731313127,
+      "bone_angle": 1.7928782287003768
+    },
+    "foot_near": {
+      "parent": "leg_near_shin",
+      "path": "pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near",
+      "pivot": [
+        332,
+        1331
+      ],
+      "local_position": [
+        -56,
+        248
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "leg_far_thigh": {
+      "parent": "pelvis",
+      "path": "pelvis/leg_far_thigh",
+      "pivot": [
+        619,
+        1003
+      ],
+      "local_position": [
+        89,
+        302
+      ],
+      "length": 82.71033792700887,
+      "bone_angle": 1.3140879963615109
+    },
+    "knee_far": {
+      "parent": "leg_far_thigh",
+      "path": "pelvis/leg_far_thigh/knee_far",
+      "pivot": [
+        640,
+        1083
+      ],
+      "local_position": [
+        21,
+        80
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    },
+    "leg_far_shin": {
+      "parent": "knee_far",
+      "path": "pelvis/leg_far_thigh/knee_far/leg_far_shin",
+      "pivot": [
+        640,
+        1083
+      ],
+      "local_position": [
+        0,
+        0
+      ],
+      "length": 251.6445906432324,
+      "bone_angle": 1.4992057363093572
+    },
+    "foot_far": {
+      "parent": "leg_far_shin",
+      "path": "pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far",
+      "pivot": [
+        658,
+        1334
+      ],
+      "local_position": [
+        18,
+        251
+      ],
+      "length": 25.0,
+      "bone_angle": 1.5707963267948966
+    }
+  },
+  "origin": [
+    530,
+    1460
+  ],
+  "body_height": 1435,
+  "near_knee_pivot": [
+    388,
+    1083
+  ]
+}

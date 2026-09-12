@@ -1,0 +1,2111 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/rig/roman_guard_rig.gd" id="1_cy81p"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/head.png" id="2_uc4md"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/helmet.png" id="3_mdxie"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/sword.png" id="4_su16u"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/hand_near.png" id="5_rf4wc"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/arm_near_fore.png" id="6_rmtk4"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/arm_near_upper.png" id="7_gnitk"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/shield.png" id="8_5e0sr"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/hand_far.png" id="9_scowj"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/arm_far_fore.png" id="10_ne2ph"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/arm_far_upper.png" id="11_6kgqr"]
+[ext_resource type="Shader" path="res://scripts/rig/mask_clip.gdshader" id="12_cfflq"]
+[ext_resource type="Texture2D" path="res://resources/masks/cape_back_region.png" id="13_56dld"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/cape.png" id="14_5ovf0"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/torso.png" id="15_4n0hc"]
+[ext_resource type="Texture2D" path="res://resources/masks/cape_front_region.png" id="16_7octe"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/foot_near.png" id="17_x31qt"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/knee_near.png" id="18_0a0mn"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/leg_near_thigh.png" id="19_rf7eq"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/foot_far.png" id="20_m57y3"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/leg_far_shin.png" id="21_uv3cq"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/leg_far_thigh.png" id="22_xeq3a"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/pelvis.png" id="23_ad8wl"]
+[ext_resource type="Texture2D" path="res://assets/units/odyssey/roman_guard/parts/leg_near_shin.png" id="24_hldaq"]
+[ext_resource type="Script" path="res://scripts/rig/rig_event_relay.gd" id="25_fmswl"]
+[ext_resource type="Script" path="res://scripts/rig/rig_debug.gd" id="26_jj7pe"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iimde"]
+shader = ExtResource("12_cfflq")
+shader_parameter/clip_mask = ExtResource("13_56dld")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_w0vt0"]
+shader = ExtResource("12_cfflq")
+shader_parameter/clip_mask = ExtResource("16_7octe")
+
+[sub_resource type="Animation" id="Animation_yinss"]
+resource_name = "attack_01"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VisualRoot/Skeleton2D/pelvis:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.0041887902047863905, 0.016755160819145562, 0.04188790204786391, 0.049741883681838385, 0.05235987755982989, 0.025132741228718343, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0013962634015954637, -0.005585053606381855, -0.013962634015954637, -0.01658062789394613, -0.017453292519943295, -0.008377580409572781, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.041887902047863905, -0.16755160819145562, -0.4188790204786391, -0.49741883681838395, -0.5235987755982988, -0.25132741228718347, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.016755160819145562, -0.06702064327658225, -0.16755160819145562, -0.19896753472735357, -0.20943951023931956, -0.10053096491487337, 0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.0013962634015954637, 0.005585053606381855, 0.013962634015954637, 0.01658062789394613, 0.017453292519943295, 0.008377580409572781, 0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0020943951023931952, -0.008377580409572781, -0.020943951023931956, -0.024870941840919192, -0.026179938779914945, -0.012566370614359171, 0.0]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.017453292519943295, -0.24434609527920614, -0.4188790204786391, -0.4188790204786391, -0.4188790204786391, -0.3490658503988659, 0.0]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid/cape_tip:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near:rotation")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:rotation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far:rotation")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin:rotation")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far:rotation")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("VisualRoot/Skeleton2D/pelvis:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(530, 701), Vector2(529.76, 701), Vector2(530.96, 701), Vector2(532.4, 701), Vector2(532.85, 701), Vector2(533, 701), Vector2(531.44, 701), Vector2(530, 701)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("VisualRoot:rotation")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("VisualRoot:position")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head/Art_helmet:rotation")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.15, 0.28, 0.36, 0.4, 0.5, 0.62, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/29/type = "method"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("RigEventRelay")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(0.4),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"_event_attack_hit"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_5eefq"]
+resource_name = "death"
+length = 1.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VisualRoot/Skeleton2D/pelvis:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.021702286737199514, -0.0577103471620152, -0.0861920676347216, -0.026966819982298156, -1.06870594095655e-17]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.008377580409572781, -0.024085543677521744, -0.05759586531581288, -0.0942477796076938, -0.10471975511965978]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.01117010721276371, 0.032114058236695664, 0.07679448708775051, 0.12566370614359174, 0.13962634015954636]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid/cape_tip:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.01117010721276371, 0.032114058236695664, 0.07679448708775051, 0.12566370614359174, 0.13962634015954636]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near:rotation")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:rotation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far:rotation")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin:rotation")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.008377580409572781, -0.024085543677521744, -0.05759586531581288, -0.0942477796076938, -0.10471975511965978]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far:rotation")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("VisualRoot/Skeleton2D/pelvis:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(530, 701), Vector2(530, 703.8), Vector2(530, 709.05), Vector2(530, 720.25), Vector2(530, 732.5), Vector2(530, 736)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("VisualRoot:rotation")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.11588986233242349, -0.3331833542057175, -0.7967428035354115, -1.3037609512397643, -1.4486232791552935]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("VisualRoot:position")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(-1.28, -25.105818), Vector2(-3.68, -74.7619), Vector2(-8.8, -201.25609), Vector2(-14.4, -311.39905), Vector2(-16, -394.50455)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head/Art_helmet:rotation")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.22, 0.44, 0.66, 0.88, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_gp7v4"]
+resource_name = "hit"
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VisualRoot/Skeleton2D/pelvis:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.05235987755982989, 0.010471975511965978, -0.007853981633974483, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.017453292519943295, 0.003490658503988659, -0.002617993877991494, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.03490658503988659, -0.006981317007977318, 0.005235987755982988, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid/cape_tip:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near:rotation")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:rotation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far:rotation")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin:rotation")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far:rotation")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("VisualRoot/Skeleton2D/pelvis:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(530, 701), Vector2(530, 701), Vector2(530, 701), Vector2(530, 701), Vector2(530, 701)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("VisualRoot:rotation")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("VisualRoot:position")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head/Art_helmet:rotation")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.16, 0.24, 0.32),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_uyin1"]
+resource_name = "idle"
+length = 1.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VisualRoot/Skeleton2D/pelvis:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0020943951023931952, 2.5648942582957193e-19, -0.0020943951023931952, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.0013962634015954637, -1.70992950553048e-19, 0.0013962634015954637, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.006108652381980153, -7.480941586695849e-19, 0.006108652381980153, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.005235987755982988, 6.412235645739298e-19, -0.005235987755982988, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.001087461158551086, 0.0025720875131267345, 0.001087461158551086, -0.002572087513126734, -0.001087461158551086]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid/cape_tip:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near:rotation")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:rotation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far:rotation")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin:rotation")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far:rotation")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("VisualRoot/Skeleton2D/pelvis:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(530, 701), Vector2(530, 702.5), Vector2(530, 701), Vector2(530, 699.5), Vector2(530, 701)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("VisualRoot:rotation")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("VisualRoot:position")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head/Art_helmet:rotation")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.2, 1.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0013962634015954637, 1.70992950553048e-19, -0.0013962634015954637, 0.0]
+}
+
+[sub_resource type="Animation" id="Animation_s1eid"]
+resource_name = "walk"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VisualRoot/Skeleton2D/pelvis:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.003926990816987242, 0.006801747615878317, 0.007853981633974483, 0.0068017476158783174, 0.003926990816987242, 9.61835346860895e-19, -0.003926990816987243, -0.006801747615878316, -0.007853981633974483, -0.006801747615878317, -0.003926990816987245, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.013089969389957469, -0.022672492052927724, -0.026179938779914945, -0.022672492052927724, -0.013089969389957469, -3.206117822869649e-18, 0.013089969389957476, 0.02267249205292772, 0.026179938779914945, 0.022672492052927724, 0.013089969389957483, 0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.008726646259971646, 0.015114994701951814, 0.017453292519943295, 0.015114994701951816, 0.008726646259971646, 2.1374118819130998e-18, -0.00872664625997165, -0.015114994701951812, -0.017453292519943295, -0.015114994701951814, -0.008726646259971655, 0.0]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.003765399375055735, 0.00018532714749931484, 0.00408639541054636, 0.006892517323383262, 0.007851794785602094, 0.006707190175883948, 0.003765399375055736, -0.0001853271474993166, -0.004086395410546357, -0.006892517323383262, -0.007851794785602094, -0.00670719017588395, -0.003765399375055735]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid/cape_tip:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [2.4424907e-15, 0.05920417878126738, 0.13782850354770382, 0.16905707274589155, 0.13782850354770382, 0.05920417878126738, 2.4424907e-15, 0.03933703868920624, 0.10907187403610319, 0.13739168691890313, 0.10907187403610319, 0.03933703868920624, 2.4424907e-15]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin:rotation")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-3.552713678800502e-15, -0.07991973897462157, -0.18508430789275931, -0.22652163897899683, -0.18508430789275931, -0.07991973897462157, -3.552713678800502e-15, -0.06521287477297276, -0.16750743124722292, -0.20842031553847273, -0.16750743124722292, -0.06521287477297276, -3.552713678800502e-15]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near:rotation")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [1.110223024625157e-15, 0.02071556019335418, 0.04725580434505548, 0.05746456623310525, 0.04725580434505548, 0.02071556019335418, 1.110223024625157e-15, 0.025875836083766535, 0.0584355572111197, 0.0710286286195696, 0.0584355572111197, 0.025875836083766535, 1.110223024625157e-15]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:rotation")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-2.220446e-16, 0.017451934836562266, -0.051453364580336114, -0.08404232194251415, -0.051453364580336114, 0.017451934836562266, -2.220446e-16, -0.05498061825361322, -0.1343433965089602, -0.16673341385064136, -0.1343433965089602, -0.05498061825361322, -2.220446e-16]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far:rotation")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin:rotation")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [4.440892e-16, -0.03499088296273834, 0.04703236503685626, 0.08659728924418553, 0.04703236503685626, -0.03499088296273834, 4.440892e-16, 0.07235911706262854, 0.17622880731301271, 0.21839669252122332, 0.17622880731301271, 0.07235911706262854, 4.440892e-16]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far:rotation")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-2.220446e-16, 0.01753894812617608, 0.004420999543479853, -0.002554967301671368, 0.004420999543479853, 0.01753894812617608, -2.220446e-16, -0.017378498809015326, -0.0418854108040525, -0.051663278670581965, -0.0418854108040525, -0.017378498809015326, -2.220446e-16]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("VisualRoot/Skeleton2D/pelvis:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(530, 701), Vector2(530, 702), Vector2(530, 704), Vector2(530, 705), Vector2(530, 704), Vector2(530, 702), Vector2(530, 701), Vector2(530, 702), Vector2(530, 704), Vector2(530, 705), Vector2(530, 704), Vector2(530, 702), Vector2(530, 701)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_near_thigh:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-109, 294), Vector2(-94, 282), Vector2(-83.01924, 273.2154), Vector2(-79, 270), Vector2(-83.01924, 273.2154), Vector2(-94, 282), Vector2(-109, 294)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("VisualRoot/Skeleton2D/pelvis/leg_far_thigh:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(89, 302), Vector2(104, 290), Vector2(114.98076, 281.2154), Vector2(119, 278), Vector2(114.98076, 281.2154), Vector2(104, 290), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302), Vector2(89, 302)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("VisualRoot:rotation")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("VisualRoot:position")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0), Vector2(0, 0)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("VisualRoot/Skeleton2D/pelvis/torso/neck/head/Art_helmet:rotation")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 0.083333336, 0.16666667, 0.25, 0.33333334, 0.41666666, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0mxry"]
+_data = {
+&"attack_01": SubResource("Animation_yinss"),
+&"death": SubResource("Animation_5eefq"),
+&"hit": SubResource("Animation_gp7v4"),
+&"idle": SubResource("Animation_uyin1"),
+&"walk": SubResource("Animation_s1eid")
+}
+
+[node name="RomanGuard" type="Node2D" unique_id=1136277099]
+script = ExtResource("1_cy81p")
+
+[node name="VisualRoot" type="Node2D" parent="." unique_id=2124731151]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="VisualRoot" unique_id=1522811212]
+position = Vector2(-530, -1460)
+
+[node name="pelvis" type="Bone2D" parent="VisualRoot/Skeleton2D" unique_id=2012049135]
+position = Vector2(530, 701)
+rest = Transform2D(1, 0, 0, 1, 530, 701)
+auto_calculate_length_and_angle = false
+length = 8.0
+bone_angle = -1.1071488
+
+[node name="torso" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis" unique_id=406725971]
+position = Vector2(3, -6)
+rest = Transform2D(1, 0, 0, 1, 3, -6)
+auto_calculate_length_and_angle = false
+length = 300.08167
+bone_angle = -1.5941253
+
+[node name="neck" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso" unique_id=600783482]
+position = Vector2(-7, -300)
+rest = Transform2D(1, 0, 0, 1, -7, -300)
+auto_calculate_length_and_angle = false
+length = 105.574615
+bone_angle = -1.466415
+
+[node name="head" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/neck" unique_id=907721095]
+position = Vector2(11, -105)
+rest = Transform2D(1, 0, 0, 1, 11, -105)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="Art_head" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/neck/head" unique_id=251539792]
+position = Vector2(-537, -290)
+texture = ExtResource("2_uc4md")
+centered = false
+
+[node name="Art_helmet" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/neck/head" unique_id=131158885]
+position = Vector2(-537, -290)
+texture = ExtResource("3_mdxie")
+centered = false
+
+[node name="arm_near_upper" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso" unique_id=1640968977]
+position = Vector2(-76, -185)
+rest = Transform2D(1, 0, 0, 1, -76, -185)
+auto_calculate_length_and_angle = false
+length = 203.82835
+bone_angle = 2.230979
+
+[node name="arm_near_fore" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper" unique_id=60602270]
+position = Vector2(-125, 161)
+rest = Transform2D(1, 0, 0, 1, -125, 161)
+auto_calculate_length_and_angle = false
+length = 164.02744
+bone_angle = 1.5890869
+
+[node name="hand_near" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore" unique_id=2080296996]
+position = Vector2(-3, 164)
+rest = Transform2D(1, 0, 0, 1, -3, 164)
+auto_calculate_length_and_angle = false
+length = 32.01562
+bone_angle = 1.602036
+
+[node name="sword_socket" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near" unique_id=764628540]
+position = Vector2(-1, 32)
+rest = Transform2D(1, 0, 0, 1, -1, 32)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="Art_sword" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near/sword_socket" unique_id=1743155537]
+position = Vector2(-328, -867)
+texture = ExtResource("4_su16u")
+centered = false
+
+[node name="Art_hand_near" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore/hand_near" unique_id=247786781]
+position = Vector2(-329, -835)
+texture = ExtResource("5_rf4wc")
+centered = false
+
+[node name="Art_arm_near_fore" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper/arm_near_fore" unique_id=312384141]
+position = Vector2(-332, -671)
+texture = ExtResource("6_rmtk4")
+centered = false
+
+[node name="Art_arm_near_upper" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_near_upper" unique_id=1594288440]
+position = Vector2(-457, -510)
+texture = ExtResource("7_gnitk")
+centered = false
+
+[node name="arm_far_upper" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso" unique_id=574677371]
+position = Vector2(108, -94)
+rest = Transform2D(1, 0, 0, 1, 108, -94)
+auto_calculate_length_and_angle = false
+length = 101.76935
+bone_angle = 1.1775168
+
+[node name="arm_far_fore" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper" unique_id=2006981557]
+position = Vector2(39, 94)
+rest = Transform2D(1, 0, 0, 1, 39, 94)
+auto_calculate_length_and_angle = false
+length = 105.68349
+bone_angle = 0.9670469
+
+[node name="hand_far" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore" unique_id=60913929]
+position = Vector2(60, 87)
+rest = Transform2D(1, 0, 0, 1, 60, 87)
+auto_calculate_length_and_angle = false
+length = 39.20459
+bone_angle = 1.4685895
+
+[node name="shield_socket" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far" unique_id=658175642]
+position = Vector2(4, 39)
+rest = Transform2D(1, 0, 0, 1, 4, 39)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="Art_shield" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far/shield_socket" unique_id=1012172195]
+position = Vector2(-744, -821)
+texture = ExtResource("8_5e0sr")
+centered = false
+
+[node name="Art_hand_far" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore/hand_far" unique_id=903859490]
+position = Vector2(-740, -782)
+texture = ExtResource("9_scowj")
+centered = false
+
+[node name="Art_arm_far_fore" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper/arm_far_fore" unique_id=469791922]
+position = Vector2(-680, -695)
+texture = ExtResource("10_ne2ph")
+centered = false
+
+[node name="Art_arm_far_upper" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/arm_far_upper" unique_id=2110401561]
+position = Vector2(-641, -601)
+texture = ExtResource("11_6kgqr")
+centered = false
+
+[node name="cape_root" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso" unique_id=1310327622]
+position = Vector2(-25, -280)
+rest = Transform2D(1, 0, 0, 1, -25, -280)
+auto_calculate_length_and_angle = false
+length = 430.8004
+bone_angle = 2.2129045
+
+[node name="cape_mid" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/cape_root" unique_id=2144339352]
+position = Vector2(-258, 345)
+rest = Transform2D(1, 0, 0, 1, -258, 345)
+auto_calculate_length_and_angle = false
+length = 297.32138
+bone_angle = 1.9138201
+
+[node name="cape_tip" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/torso/cape_root/cape_mid" unique_id=583001992]
+position = Vector2(-100, 280)
+rest = Transform2D(1, 0, 0, 1, -100, 280)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="Art_cape_back" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso/cape_root" unique_id=840792761]
+material = SubResource("ShaderMaterial_iimde")
+position = Vector2(-508, -415)
+texture = ExtResource("14_5ovf0")
+centered = false
+
+[node name="Art_torso" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso" unique_id=1532731430]
+position = Vector2(-533, -695)
+texture = ExtResource("15_4n0hc")
+centered = false
+
+[node name="Art_cape_front" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/torso" unique_id=1605447075]
+material = SubResource("ShaderMaterial_w0vt0")
+position = Vector2(-533, -695)
+texture = ExtResource("14_5ovf0")
+centered = false
+
+[node name="leg_near_thigh" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis" unique_id=1391797393]
+position = Vector2(-109, 294)
+rest = Transform2D(1, 0, 0, 1, -109, 294)
+auto_calculate_length_and_angle = false
+length = 93.98404
+bone_angle = 1.9295667
+
+[node name="knee_near" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/leg_near_thigh" unique_id=118960650]
+position = Vector2(-33, 88)
+rest = Transform2D(1, 0, 0, 1, -33, 88)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="leg_near_shin" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near" unique_id=802968466]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+auto_calculate_length_and_angle = false
+length = 254.24397
+bone_angle = 1.7928783
+
+[node name="foot_near" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin" unique_id=710809073]
+position = Vector2(-56, 248)
+rest = Transform2D(1, 0, 0, 1, -56, 248)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="Art_foot_near" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near/leg_near_shin/foot_near" unique_id=1410231330]
+position = Vector2(-332, -1331)
+texture = ExtResource("17_x31qt")
+centered = false
+
+[node name="Art_knee_near" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/leg_near_thigh/knee_near" unique_id=249493240]
+position = Vector2(-388, -1083)
+texture = ExtResource("18_0a0mn")
+centered = false
+
+[node name="Art_leg_near_thigh" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/leg_near_thigh" unique_id=949822396]
+position = Vector2(-421, -995)
+texture = ExtResource("19_rf7eq")
+centered = false
+
+[node name="leg_far_thigh" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis" unique_id=44509615]
+position = Vector2(89, 302)
+rest = Transform2D(1, 0, 0, 1, 89, 302)
+auto_calculate_length_and_angle = false
+length = 82.710335
+bone_angle = 1.3140879
+
+[node name="knee_far" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/leg_far_thigh" unique_id=1270852405]
+position = Vector2(21, 80)
+rest = Transform2D(1, 0, 0, 1, 21, 80)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="leg_far_shin" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far" unique_id=749682995]
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+auto_calculate_length_and_angle = false
+length = 251.64459
+bone_angle = 1.4992056
+
+[node name="foot_far" type="Bone2D" parent="VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin" unique_id=735221834]
+position = Vector2(18, 251)
+rest = Transform2D(1, 0, 0, 1, 18, 251)
+auto_calculate_length_and_angle = false
+length = 25.0
+bone_angle = 1.5707963
+
+[node name="Art_foot_far" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin/foot_far" unique_id=1579690536]
+position = Vector2(-658, -1334)
+texture = ExtResource("20_m57y3")
+centered = false
+
+[node name="Art_leg_far_shin" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/leg_far_thigh/knee_far/leg_far_shin" unique_id=909111427]
+position = Vector2(-640, -1083)
+texture = ExtResource("21_uv3cq")
+centered = false
+
+[node name="Art_leg_far_thigh" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis/leg_far_thigh" unique_id=43734045]
+position = Vector2(-619, -1003)
+texture = ExtResource("22_xeq3a")
+centered = false
+
+[node name="Art_pelvis" type="Sprite2D" parent="VisualRoot/Skeleton2D/pelvis" unique_id=1110238023]
+position = Vector2(-530, -701)
+texture = ExtResource("23_ad8wl")
+centered = false
+
+[node name="Art_leg_near_shin" type="Polygon2D" parent="VisualRoot" unique_id=78928758]
+position = Vector2(-530, -1460)
+texture = ExtResource("24_hldaq")
+skeleton = NodePath("../Skeleton2D")
+polygon = PackedVector2Array(274, 1048, 282, 1048, 290, 1048, 298, 1048, 306, 1048, 314, 1048, 322, 1048, 330, 1048, 338, 1048, 346, 1048, 354, 1048, 362, 1048, 370, 1048, 378, 1048, 386, 1048, 394, 1048, 402, 1048, 410, 1048, 418, 1048, 426, 1048, 434, 1048, 274, 1056, 282, 1056, 290, 1056, 298, 1056, 306, 1056, 314, 1056, 322, 1056, 330, 1056, 338, 1056, 346, 1056, 354, 1056, 362, 1056, 370, 1056, 378, 1056, 386, 1056, 394, 1056, 402, 1056, 410, 1056, 418, 1056, 426, 1056, 434, 1056, 274, 1064, 282, 1064, 290, 1064, 298, 1064, 306, 1064, 314, 1064, 322, 1064, 330, 1064, 338, 1064, 346, 1064, 354, 1064, 362, 1064, 370, 1064, 378, 1064, 386, 1064, 394, 1064, 402, 1064, 410, 1064, 418, 1064, 426, 1064, 434, 1064, 274, 1072, 282, 1072, 290, 1072, 298, 1072, 306, 1072, 314, 1072, 322, 1072, 330, 1072, 338, 1072, 346, 1072, 354, 1072, 362, 1072, 370, 1072, 378, 1072, 386, 1072, 394, 1072, 402, 1072, 410, 1072, 418, 1072, 426, 1072, 434, 1072, 274, 1080, 282, 1080, 290, 1080, 298, 1080, 306, 1080, 314, 1080, 322, 1080, 330, 1080, 338, 1080, 346, 1080, 354, 1080, 362, 1080, 370, 1080, 378, 1080, 386, 1080, 394, 1080, 402, 1080, 410, 1080, 418, 1080, 426, 1080, 434, 1080, 274, 1088, 282, 1088, 290, 1088, 298, 1088, 306, 1088, 314, 1088, 322, 1088, 330, 1088, 338, 1088, 346, 1088, 354, 1088, 362, 1088, 370, 1088, 378, 1088, 386, 1088, 394, 1088, 402, 1088, 410, 1088, 418, 1088, 426, 1088, 434, 1088, 274, 1096, 282, 1096, 290, 1096, 298, 1096, 306, 1096, 314, 1096, 322, 1096, 330, 1096, 338, 1096, 346, 1096, 354, 1096, 362, 1096, 370, 1096, 378, 1096, 386, 1096, 394, 1096, 402, 1096, 410, 1096, 418, 1096, 426, 1096, 434, 1096, 274, 1104, 282, 1104, 290, 1104, 298, 1104, 306, 1104, 314, 1104, 322, 1104, 330, 1104, 338, 1104, 346, 1104, 354, 1104, 362, 1104, 370, 1104, 378, 1104, 386, 1104, 394, 1104, 402, 1104, 410, 1104, 418, 1104, 426, 1104, 434, 1104, 274, 1112, 282, 1112, 290, 1112, 298, 1112, 306, 1112, 314, 1112, 322, 1112, 330, 1112, 338, 1112, 346, 1112, 354, 1112, 362, 1112, 370, 1112, 378, 1112, 386, 1112, 394, 1112, 402, 1112, 410, 1112, 418, 1112, 426, 1112, 434, 1112, 274, 1120, 282, 1120, 290, 1120, 298, 1120, 306, 1120, 314, 1120, 322, 1120, 330, 1120, 338, 1120, 346, 1120, 354, 1120, 362, 1120, 370, 1120, 378, 1120, 386, 1120, 394, 1120, 402, 1120, 410, 1120, 418, 1120, 426, 1120, 434, 1120, 274, 1128, 282, 1128, 290, 1128, 298, 1128, 306, 1128, 314, 1128, 322, 1128, 330, 1128, 338, 1128, 346, 1128, 354, 1128, 362, 1128, 370, 1128, 378, 1128, 386, 1128, 394, 1128, 402, 1128, 410, 1128, 418, 1128, 426, 1128, 434, 1128, 274, 1136, 282, 1136, 290, 1136, 298, 1136, 306, 1136, 314, 1136, 322, 1136, 330, 1136, 338, 1136, 346, 1136, 354, 1136, 362, 1136, 370, 1136, 378, 1136, 386, 1136, 394, 1136, 402, 1136, 410, 1136, 418, 1136, 426, 1136, 434, 1136, 274, 1144, 282, 1144, 290, 1144, 298, 1144, 306, 1144, 314, 1144, 322, 1144, 330, 1144, 338, 1144, 346, 1144, 354, 1144, 362, 1144, 370, 1144, 378, 1144, 386, 1144, 394, 1144, 402, 1144, 410, 1144, 418, 1144, 426, 1144, 434, 1144, 274, 1152, 282, 1152, 290, 1152, 298, 1152, 306, 1152, 314, 1152, 322, 1152, 330, 1152, 338, 1152, 346, 1152, 354, 1152, 362, 1152, 370, 1152, 378, 1152, 386, 1152, 394, 1152, 402, 1152, 410, 1152, 418, 1152, 426, 1152, 434, 1152, 274, 1160, 282, 1160, 290, 1160, 298, 1160, 306, 1160, 314, 1160, 322, 1160, 330, 1160, 338, 1160, 346, 1160, 354, 1160, 362, 1160, 370, 1160, 378, 1160, 386, 1160, 394, 1160, 402, 1160, 410, 1160, 418, 1160, 426, 1160, 434, 1160, 274, 1168, 282, 1168, 290, 1168, 298, 1168, 306, 1168, 314, 1168, 322, 1168, 330, 1168, 338, 1168, 346, 1168, 354, 1168, 362, 1168, 370, 1168, 378, 1168, 386, 1168, 394, 1168, 402, 1168, 410, 1168, 418, 1168, 426, 1168, 434, 1168, 274, 1176, 282, 1176, 290, 1176, 298, 1176, 306, 1176, 314, 1176, 322, 1176, 330, 1176, 338, 1176, 346, 1176, 354, 1176, 362, 1176, 370, 1176, 378, 1176, 386, 1176, 394, 1176, 402, 1176, 410, 1176, 418, 1176, 426, 1176, 434, 1176, 274, 1184, 282, 1184, 290, 1184, 298, 1184, 306, 1184, 314, 1184, 322, 1184, 330, 1184, 338, 1184, 346, 1184, 354, 1184, 362, 1184, 370, 1184, 378, 1184, 386, 1184, 394, 1184, 402, 1184, 410, 1184, 418, 1184, 426, 1184, 434, 1184, 274, 1192, 282, 1192, 290, 1192, 298, 1192, 306, 1192, 314, 1192, 322, 1192, 330, 1192, 338, 1192, 346, 1192, 354, 1192, 362, 1192, 370, 1192, 378, 1192, 386, 1192, 394, 1192, 402, 1192, 410, 1192, 418, 1192, 426, 1192, 434, 1192, 274, 1200, 282, 1200, 290, 1200, 298, 1200, 306, 1200, 314, 1200, 322, 1200, 330, 1200, 338, 1200, 346, 1200, 354, 1200, 362, 1200, 370, 1200, 378, 1200, 386, 1200, 394, 1200, 402, 1200, 410, 1200, 418, 1200, 426, 1200, 434, 1200, 274, 1208, 282, 1208, 290, 1208, 298, 1208, 306, 1208, 314, 1208, 322, 1208, 330, 1208, 338, 1208, 346, 1208, 354, 1208, 362, 1208, 370, 1208, 378, 1208, 386, 1208, 394, 1208, 402, 1208, 410, 1208, 418, 1208, 426, 1208, 434, 1208, 274, 1216, 282, 1216, 290, 1216, 298, 1216, 306, 1216, 314, 1216, 322, 1216, 330, 1216, 338, 1216, 346, 1216, 354, 1216, 362, 1216, 370, 1216, 378, 1216, 386, 1216, 394, 1216, 402, 1216, 410, 1216, 418, 1216, 426, 1216, 434, 1216, 274, 1224, 282, 1224, 290, 1224, 298, 1224, 306, 1224, 314, 1224, 322, 1224, 330, 1224, 338, 1224, 346, 1224, 354, 1224, 362, 1224, 370, 1224, 378, 1224, 386, 1224, 394, 1224, 402, 1224, 410, 1224, 418, 1224, 426, 1224, 434, 1224, 274, 1232, 282, 1232, 290, 1232, 298, 1232, 306, 1232, 314, 1232, 322, 1232, 330, 1232, 338, 1232, 346, 1232, 354, 1232, 362, 1232, 370, 1232, 378, 1232, 386, 1232, 394, 1232, 402, 1232, 410, 1232, 418, 1232, 426, 1232, 434, 1232, 274, 1240, 282, 1240, 290, 1240, 298, 1240, 306, 1240, 314, 1240, 322, 1240, 330, 1240, 338, 1240, 346, 1240, 354, 1240, 362, 1240, 370, 1240, 378, 1240, 386, 1240, 394, 1240, 402, 1240, 410, 1240, 418, 1240, 426, 1240, 434, 1240, 274, 1248, 282, 1248, 290, 1248, 298, 1248, 306, 1248, 314, 1248, 322, 1248, 330, 1248, 338, 1248, 346, 1248, 354, 1248, 362, 1248, 370, 1248, 378, 1248, 386, 1248, 394, 1248, 402, 1248, 410, 1248, 418, 1248, 426, 1248, 434, 1248, 274, 1256, 282, 1256, 290, 1256, 298, 1256, 306, 1256, 314, 1256, 322, 1256, 330, 1256, 338, 1256, 346, 1256, 354, 1256, 362, 1256, 370, 1256, 378, 1256, 386, 1256, 394, 1256, 402, 1256, 410, 1256, 418, 1256, 426, 1256, 434, 1256, 274, 1264, 282, 1264, 290, 1264, 298, 1264, 306, 1264, 314, 1264, 322, 1264, 330, 1264, 338, 1264, 346, 1264, 354, 1264, 362, 1264, 370, 1264, 378, 1264, 386, 1264, 394, 1264, 402, 1264, 410, 1264, 418, 1264, 426, 1264, 434, 1264, 274, 1272, 282, 1272, 290, 1272, 298, 1272, 306, 1272, 314, 1272, 322, 1272, 330, 1272, 338, 1272, 346, 1272, 354, 1272, 362, 1272, 370, 1272, 378, 1272, 386, 1272, 394, 1272, 402, 1272, 410, 1272, 418, 1272, 426, 1272, 434, 1272, 274, 1280, 282, 1280, 290, 1280, 298, 1280, 306, 1280, 314, 1280, 322, 1280, 330, 1280, 338, 1280, 346, 1280, 354, 1280, 362, 1280, 370, 1280, 378, 1280, 386, 1280, 394, 1280, 402, 1280, 410, 1280, 418, 1280, 426, 1280, 434, 1280, 274, 1288, 282, 1288, 290, 1288, 298, 1288, 306, 1288, 314, 1288, 322, 1288, 330, 1288, 338, 1288, 346, 1288, 354, 1288, 362, 1288, 370, 1288, 378, 1288, 386, 1288, 394, 1288, 402, 1288, 410, 1288, 418, 1288, 426, 1288, 434, 1288, 274, 1296, 282, 1296, 290, 1296, 298, 1296, 306, 1296, 314, 1296, 322, 1296, 330, 1296, 338, 1296, 346, 1296, 354, 1296, 362, 1296, 370, 1296, 378, 1296, 386, 1296, 394, 1296, 402, 1296, 410, 1296, 418, 1296, 426, 1296, 434, 1296, 274, 1304, 282, 1304, 290, 1304, 298, 1304, 306, 1304, 314, 1304, 322, 1304, 330, 1304, 338, 1304, 346, 1304, 354, 1304, 362, 1304, 370, 1304, 378, 1304, 386, 1304, 394, 1304, 402, 1304, 410, 1304, 418, 1304, 426, 1304, 434, 1304, 274, 1312, 282, 1312, 290, 1312, 298, 1312, 306, 1312, 314, 1312, 322, 1312, 330, 1312, 338, 1312, 346, 1312, 354, 1312, 362, 1312, 370, 1312, 378, 1312, 386, 1312, 394, 1312, 402, 1312, 410, 1312, 418, 1312, 426, 1312, 434, 1312, 274, 1320, 282, 1320, 290, 1320, 298, 1320, 306, 1320, 314, 1320, 322, 1320, 330, 1320, 338, 1320, 346, 1320, 354, 1320, 362, 1320, 370, 1320, 378, 1320, 386, 1320, 394, 1320, 402, 1320, 410, 1320, 418, 1320, 426, 1320, 434, 1320, 274, 1328, 282, 1328, 290, 1328, 298, 1328, 306, 1328, 314, 1328, 322, 1328, 330, 1328, 338, 1328, 346, 1328, 354, 1328, 362, 1328, 370, 1328, 378, 1328, 386, 1328, 394, 1328, 402, 1328, 410, 1328, 418, 1328, 426, 1328, 434, 1328, 274, 1336, 282, 1336, 290, 1336, 298, 1336, 306, 1336, 314, 1336, 322, 1336, 330, 1336, 338, 1336, 346, 1336, 354, 1336, 362, 1336, 370, 1336, 378, 1336, 386, 1336, 394, 1336, 402, 1336, 410, 1336, 418, 1336, 426, 1336, 434, 1336, 274, 1344, 282, 1344, 290, 1344, 298, 1344, 306, 1344, 314, 1344, 322, 1344, 330, 1344, 338, 1344, 346, 1344, 354, 1344, 362, 1344, 370, 1344, 378, 1344, 386, 1344, 394, 1344, 402, 1344, 410, 1344, 418, 1344, 426, 1344, 434, 1344, 274, 1352, 282, 1352, 290, 1352, 298, 1352, 306, 1352, 314, 1352, 322, 1352, 330, 1352, 338, 1352, 346, 1352, 354, 1352, 362, 1352, 370, 1352, 378, 1352, 386, 1352, 394, 1352, 402, 1352, 410, 1352, 418, 1352, 426, 1352, 434, 1352, 274, 1360, 282, 1360, 290, 1360, 298, 1360, 306, 1360, 314, 1360, 322, 1360, 330, 1360, 338, 1360, 346, 1360, 354, 1360, 362, 1360, 370, 1360, 378, 1360, 386, 1360, 394, 1360, 402, 1360, 410, 1360, 418, 1360, 426, 1360, 434, 1360)
+uv = PackedVector2Array(274, 1048, 282, 1048, 290, 1048, 298, 1048, 306, 1048, 314, 1048, 322, 1048, 330, 1048, 338, 1048, 346, 1048, 354, 1048, 362, 1048, 370, 1048, 378, 1048, 386, 1048, 394, 1048, 402, 1048, 410, 1048, 418, 1048, 426, 1048, 434, 1048, 274, 1056, 282, 1056, 290, 1056, 298, 1056, 306, 1056, 314, 1056, 322, 1056, 330, 1056, 338, 1056, 346, 1056, 354, 1056, 362, 1056, 370, 1056, 378, 1056, 386, 1056, 394, 1056, 402, 1056, 410, 1056, 418, 1056, 426, 1056, 434, 1056, 274, 1064, 282, 1064, 290, 1064, 298, 1064, 306, 1064, 314, 1064, 322, 1064, 330, 1064, 338, 1064, 346, 1064, 354, 1064, 362, 1064, 370, 1064, 378, 1064, 386, 1064, 394, 1064, 402, 1064, 410, 1064, 418, 1064, 426, 1064, 434, 1064, 274, 1072, 282, 1072, 290, 1072, 298, 1072, 306, 1072, 314, 1072, 322, 1072, 330, 1072, 338, 1072, 346, 1072, 354, 1072, 362, 1072, 370, 1072, 378, 1072, 386, 1072, 394, 1072, 402, 1072, 410, 1072, 418, 1072, 426, 1072, 434, 1072, 274, 1080, 282, 1080, 290, 1080, 298, 1080, 306, 1080, 314, 1080, 322, 1080, 330, 1080, 338, 1080, 346, 1080, 354, 1080, 362, 1080, 370, 1080, 378, 1080, 386, 1080, 394, 1080, 402, 1080, 410, 1080, 418, 1080, 426, 1080, 434, 1080, 274, 1088, 282, 1088, 290, 1088, 298, 1088, 306, 1088, 314, 1088, 322, 1088, 330, 1088, 338, 1088, 346, 1088, 354, 1088, 362, 1088, 370, 1088, 378, 1088, 386, 1088, 394, 1088, 402, 1088, 410, 1088, 418, 1088, 426, 1088, 434, 1088, 274, 1096, 282, 1096, 290, 1096, 298, 1096, 306, 1096, 314, 1096, 322, 1096, 330, 1096, 338, 1096, 346, 1096, 354, 1096, 362, 1096, 370, 1096, 378, 1096, 386, 1096, 394, 1096, 402, 1096, 410, 1096, 418, 1096, 426, 1096, 434, 1096, 274, 1104, 282, 1104, 290, 1104, 298, 1104, 306, 1104, 314, 1104, 322, 1104, 330, 1104, 338, 1104, 346, 1104, 354, 1104, 362, 1104, 370, 1104, 378, 1104, 386, 1104, 394, 1104, 402, 1104, 410, 1104, 418, 1104, 426, 1104, 434, 1104, 274, 1112, 282, 1112, 290, 1112, 298, 1112, 306, 1112, 314, 1112, 322, 1112, 330, 1112, 338, 1112, 346, 1112, 354, 1112, 362, 1112, 370, 1112, 378, 1112, 386, 1112, 394, 1112, 402, 1112, 410, 1112, 418, 1112, 426, 1112, 434, 1112, 274, 1120, 282, 1120, 290, 1120, 298, 1120, 306, 1120, 314, 1120, 322, 1120, 330, 1120, 338, 1120, 346, 1120, 354, 1120, 362, 1120, 370, 1120, 378, 1120, 386, 1120, 394, 1120, 402, 1120, 410, 1120, 418, 1120, 426, 1120, 434, 1120, 274, 1128, 282, 1128, 290, 1128, 298, 1128, 306, 1128, 314, 1128, 322, 1128, 330, 1128, 338, 1128, 346, 1128, 354, 1128, 362, 1128, 370, 1128, 378, 1128, 386, 1128, 394, 1128, 402, 1128, 410, 1128, 418, 1128, 426, 1128, 434, 1128, 274, 1136, 282, 1136, 290, 1136, 298, 1136, 306, 1136, 314, 1136, 322, 1136, 330, 1136, 338, 1136, 346, 1136, 354, 1136, 362, 1136, 370, 1136, 378, 1136, 386, 1136, 394, 1136, 402, 1136, 410, 1136, 418, 1136, 426, 1136, 434, 1136, 274, 1144, 282, 1144, 290, 1144, 298, 1144, 306, 1144, 314, 1144, 322, 1144, 330, 1144, 338, 1144, 346, 1144, 354, 1144, 362, 1144, 370, 1144, 378, 1144, 386, 1144, 394, 1144, 402, 1144, 410, 1144, 418, 1144, 426, 1144, 434, 1144, 274, 1152, 282, 1152, 290, 1152, 298, 1152, 306, 1152, 314, 1152, 322, 1152, 330, 1152, 338, 1152, 346, 1152, 354, 1152, 362, 1152, 370, 1152, 378, 1152, 386, 1152, 394, 1152, 402, 1152, 410, 1152, 418, 1152, 426, 1152, 434, 1152, 274, 1160, 282, 1160, 290, 1160, 298, 1160, 306, 1160, 314, 1160, 322, 1160, 330, 1160, 338, 1160, 346, 1160, 354, 1160, 362, 1160, 370, 1160, 378, 1160, 386, 1160, 394, 1160, 402, 1160, 410, 1160, 418, 1160, 426, 1160, 434, 1160, 274, 1168, 282, 1168, 290, 1168, 298, 1168, 306, 1168, 314, 1168, 322, 1168, 330, 1168, 338, 1168, 346, 1168, 354, 1168, 362, 1168, 370, 1168, 378, 1168, 386, 1168, 394, 1168, 402, 1168, 410, 1168, 418, 1168, 426, 1168, 434, 1168, 274, 1176, 282, 1176, 290, 1176, 298, 1176, 306, 1176, 314, 1176, 322, 1176, 330, 1176, 338, 1176, 346, 1176, 354, 1176, 362, 1176, 370, 1176, 378, 1176, 386, 1176, 394, 1176, 402, 1176, 410, 1176, 418, 1176, 426, 1176, 434, 1176, 274, 1184, 282, 1184, 290, 1184, 298, 1184, 306, 1184, 314, 1184, 322, 1184, 330, 1184, 338, 1184, 346, 1184, 354, 1184, 362, 1184, 370, 1184, 378, 1184, 386, 1184, 394, 1184, 402, 1184, 410, 1184, 418, 1184, 426, 1184, 434, 1184, 274, 1192, 282, 1192, 290, 1192, 298, 1192, 306, 1192, 314, 1192, 322, 1192, 330, 1192, 338, 1192, 346, 1192, 354, 1192, 362, 1192, 370, 1192, 378, 1192, 386, 1192, 394, 1192, 402, 1192, 410, 1192, 418, 1192, 426, 1192, 434, 1192, 274, 1200, 282, 1200, 290, 1200, 298, 1200, 306, 1200, 314, 1200, 322, 1200, 330, 1200, 338, 1200, 346, 1200, 354, 1200, 362, 1200, 370, 1200, 378, 1200, 386, 1200, 394, 1200, 402, 1200, 410, 1200, 418, 1200, 426, 1200, 434, 1200, 274, 1208, 282, 1208, 290, 1208, 298, 1208, 306, 1208, 314, 1208, 322, 1208, 330, 1208, 338, 1208, 346, 1208, 354, 1208, 362, 1208, 370, 1208, 378, 1208, 386, 1208, 394, 1208, 402, 1208, 410, 1208, 418, 1208, 426, 1208, 434, 1208, 274, 1216, 282, 1216, 290, 1216, 298, 1216, 306, 1216, 314, 1216, 322, 1216, 330, 1216, 338, 1216, 346, 1216, 354, 1216, 362, 1216, 370, 1216, 378, 1216, 386, 1216, 394, 1216, 402, 1216, 410, 1216, 418, 1216, 426, 1216, 434, 1216, 274, 1224, 282, 1224, 290, 1224, 298, 1224, 306, 1224, 314, 1224, 322, 1224, 330, 1224, 338, 1224, 346, 1224, 354, 1224, 362, 1224, 370, 1224, 378, 1224, 386, 1224, 394, 1224, 402, 1224, 410, 1224, 418, 1224, 426, 1224, 434, 1224, 274, 1232, 282, 1232, 290, 1232, 298, 1232, 306, 1232, 314, 1232, 322, 1232, 330, 1232, 338, 1232, 346, 1232, 354, 1232, 362, 1232, 370, 1232, 378, 1232, 386, 1232, 394, 1232, 402, 1232, 410, 1232, 418, 1232, 426, 1232, 434, 1232, 274, 1240, 282, 1240, 290, 1240, 298, 1240, 306, 1240, 314, 1240, 322, 1240, 330, 1240, 338, 1240, 346, 1240, 354, 1240, 362, 1240, 370, 1240, 378, 1240, 386, 1240, 394, 1240, 402, 1240, 410, 1240, 418, 1240, 426, 1240, 434, 1240, 274, 1248, 282, 1248, 290, 1248, 298, 1248, 306, 1248, 314, 1248, 322, 1248, 330, 1248, 338, 1248, 346, 1248, 354, 1248, 362, 1248, 370, 1248, 378, 1248, 386, 1248, 394, 1248, 402, 1248, 410, 1248, 418, 1248, 426, 1248, 434, 1248, 274, 1256, 282, 1256, 290, 1256, 298, 1256, 306, 1256, 314, 1256, 322, 1256, 330, 1256, 338, 1256, 346, 1256, 354, 1256, 362, 1256, 370, 1256, 378, 1256, 386, 1256, 394, 1256, 402, 1256, 410, 1256, 418, 1256, 426, 1256, 434, 1256, 274, 1264, 282, 1264, 290, 1264, 298, 1264, 306, 1264, 314, 1264, 322, 1264, 330, 1264, 338, 1264, 346, 1264, 354, 1264, 362, 1264, 370, 1264, 378, 1264, 386, 1264, 394, 1264, 402, 1264, 410, 1264, 418, 1264, 426, 1264, 434, 1264, 274, 1272, 282, 1272, 290, 1272, 298, 1272, 306, 1272, 314, 1272, 322, 1272, 330, 1272, 338, 1272, 346, 1272, 354, 1272, 362, 1272, 370, 1272, 378, 1272, 386, 1272, 394, 1272, 402, 1272, 410, 1272, 418, 1272, 426, 1272, 434, 1272, 274, 1280, 282, 1280, 290, 1280, 298, 1280, 306, 1280, 314, 1280, 322, 1280, 330, 1280, 338, 1280, 346, 1280, 354, 1280, 362, 1280, 370, 1280, 378, 1280, 386, 1280, 394, 1280, 402, 1280, 410, 1280, 418, 1280, 426, 1280, 434, 1280, 274, 1288, 282, 1288, 290, 1288, 298, 1288, 306, 1288, 314, 1288, 322, 1288, 330, 1288, 338, 1288, 346, 1288, 354, 1288, 362, 1288, 370, 1288, 378, 1288, 386, 1288, 394, 1288, 402, 1288, 410, 1288, 418, 1288, 426, 1288, 434, 1288, 274, 1296, 282, 1296, 290, 1296, 298, 1296, 306, 1296, 314, 1296, 322, 1296, 330, 1296, 338, 1296, 346, 1296, 354, 1296, 362, 1296, 370, 1296, 378, 1296, 386, 1296, 394, 1296, 402, 1296, 410, 1296, 418, 1296, 426, 1296, 434, 1296, 274, 1304, 282, 1304, 290, 1304, 298, 1304, 306, 1304, 314, 1304, 322, 1304, 330, 1304, 338, 1304, 346, 1304, 354, 1304, 362, 1304, 370, 1304, 378, 1304, 386, 1304, 394, 1304, 402, 1304, 410, 1304, 418, 1304, 426, 1304, 434, 1304, 274, 1312, 282, 1312, 290, 1312, 298, 1312, 306, 1312, 314, 1312, 322, 1312, 330, 1312, 338, 1312, 346, 1312, 354, 1312, 362, 1312, 370, 1312, 378, 1312, 386, 1312, 394, 1312, 402, 1312, 410, 1312, 418, 1312, 426, 1312, 434, 1312, 274, 1320, 282, 1320, 290, 1320, 298, 1320, 306, 1320, 314, 1320, 322, 1320, 330, 1320, 338, 1320, 346, 1320, 354, 1320, 362, 1320, 370, 1320, 378, 1320, 386, 1320, 394, 1320, 402, 1320, 410, 1320, 418, 1320, 426, 1320, 434, 1320, 274, 1328, 282, 1328, 290, 1328, 298, 1328, 306, 1328, 314, 1328, 322, 1328, 330, 1328, 338, 1328, 346, 1328, 354, 1328, 362, 1328, 370, 1328, 378, 1328, 386, 1328, 394, 1328, 402, 1328, 410, 1328, 418, 1328, 426, 1328, 434, 1328, 274, 1336, 282, 1336, 290, 1336, 298, 1336, 306, 1336, 314, 1336, 322, 1336, 330, 1336, 338, 1336, 346, 1336, 354, 1336, 362, 1336, 370, 1336, 378, 1336, 386, 1336, 394, 1336, 402, 1336, 410, 1336, 418, 1336, 426, 1336, 434, 1336, 274, 1344, 282, 1344, 290, 1344, 298, 1344, 306, 1344, 314, 1344, 322, 1344, 330, 1344, 338, 1344, 346, 1344, 354, 1344, 362, 1344, 370, 1344, 378, 1344, 386, 1344, 394, 1344, 402, 1344, 410, 1344, 418, 1344, 426, 1344, 434, 1344, 274, 1352, 282, 1352, 290, 1352, 298, 1352, 306, 1352, 314, 1352, 322, 1352, 330, 1352, 338, 1352, 346, 1352, 354, 1352, 362, 1352, 370, 1352, 378, 1352, 386, 1352, 394, 1352, 402, 1352, 410, 1352, 418, 1352, 426, 1352, 434, 1352, 274, 1360, 282, 1360, 290, 1360, 298, 1360, 306, 1360, 314, 1360, 322, 1360, 330, 1360, 338, 1360, 346, 1360, 354, 1360, 362, 1360, 370, 1360, 378, 1360, 386, 1360, 394, 1360, 402, 1360, 410, 1360, 418, 1360, 426, 1360, 434, 1360)
+polygons = [PackedInt32Array(0, 1, 21), PackedInt32Array(1, 22, 21), PackedInt32Array(1, 2, 22), PackedInt32Array(2, 23, 22), PackedInt32Array(2, 3, 23), PackedInt32Array(3, 24, 23), PackedInt32Array(3, 4, 24), PackedInt32Array(4, 25, 24), PackedInt32Array(4, 5, 25), PackedInt32Array(5, 26, 25), PackedInt32Array(5, 6, 26), PackedInt32Array(6, 27, 26), PackedInt32Array(6, 7, 27), PackedInt32Array(7, 28, 27), PackedInt32Array(7, 8, 28), PackedInt32Array(8, 29, 28), PackedInt32Array(8, 9, 29), PackedInt32Array(9, 30, 29), PackedInt32Array(9, 10, 30), PackedInt32Array(10, 31, 30), PackedInt32Array(10, 11, 31), PackedInt32Array(11, 32, 31), PackedInt32Array(11, 12, 32), PackedInt32Array(12, 33, 32), PackedInt32Array(12, 13, 33), PackedInt32Array(13, 34, 33), PackedInt32Array(13, 14, 34), PackedInt32Array(14, 35, 34), PackedInt32Array(14, 15, 35), PackedInt32Array(15, 36, 35), PackedInt32Array(15, 16, 36), PackedInt32Array(16, 37, 36), PackedInt32Array(16, 17, 37), PackedInt32Array(17, 38, 37), PackedInt32Array(17, 18, 38), PackedInt32Array(18, 39, 38), PackedInt32Array(18, 19, 39), PackedInt32Array(19, 40, 39), PackedInt32Array(19, 20, 40), PackedInt32Array(20, 41, 40), PackedInt32Array(21, 22, 42), PackedInt32Array(22, 43, 42), PackedInt32Array(22, 23, 43), PackedInt32Array(23, 44, 43), PackedInt32Array(23, 24, 44), PackedInt32Array(24, 45, 44), PackedInt32Array(24, 25, 45), PackedInt32Array(25, 46, 45), PackedInt32Array(25, 26, 46), PackedInt32Array(26, 47, 46), PackedInt32Array(26, 27, 47), PackedInt32Array(27, 48, 47), PackedInt32Array(27, 28, 48), PackedInt32Array(28, 49, 48), PackedInt32Array(28, 29, 49), PackedInt32Array(29, 50, 49), PackedInt32Array(29, 30, 50), PackedInt32Array(30, 51, 50), PackedInt32Array(30, 31, 51), PackedInt32Array(31, 52, 51), PackedInt32Array(31, 32, 52), PackedInt32Array(32, 53, 52), PackedInt32Array(32, 33, 53), PackedInt32Array(33, 54, 53), PackedInt32Array(33, 34, 54), PackedInt32Array(34, 55, 54), PackedInt32Array(34, 35, 55), PackedInt32Array(35, 56, 55), PackedInt32Array(35, 36, 56), PackedInt32Array(36, 57, 56), PackedInt32Array(36, 37, 57), PackedInt32Array(37, 58, 57), PackedInt32Array(37, 38, 58), PackedInt32Array(38, 59, 58), PackedInt32Array(38, 39, 59), PackedInt32Array(39, 60, 59), PackedInt32Array(39, 40, 60), PackedInt32Array(40, 61, 60), PackedInt32Array(40, 41, 61), PackedInt32Array(41, 62, 61), PackedInt32Array(42, 43, 63), PackedInt32Array(43, 64, 63), PackedInt32Array(43, 44, 64), PackedInt32Array(44, 65, 64), PackedInt32Array(44, 45, 65), PackedInt32Array(45, 66, 65), PackedInt32Array(45, 46, 66), PackedInt32Array(46, 67, 66), PackedInt32Array(46, 47, 67), PackedInt32Array(47, 68, 67), PackedInt32Array(47, 48, 68), PackedInt32Array(48, 69, 68), PackedInt32Array(48, 49, 69), PackedInt32Array(49, 70, 69), PackedInt32Array(49, 50, 70), PackedInt32Array(50, 71, 70), PackedInt32Array(50, 51, 71), PackedInt32Array(51, 72, 71), PackedInt32Array(51, 52, 72), PackedInt32Array(52, 73, 72), PackedInt32Array(52, 53, 73), PackedInt32Array(53, 74, 73), PackedInt32Array(53, 54, 74), PackedInt32Array(54, 75, 74), PackedInt32Array(54, 55, 75), PackedInt32Array(55, 76, 75), PackedInt32Array(55, 56, 76), PackedInt32Array(56, 77, 76), PackedInt32Array(56, 57, 77), PackedInt32Array(57, 78, 77), PackedInt32Array(57, 58, 78), PackedInt32Array(58, 79, 78), PackedInt32Array(58, 59, 79), PackedInt32Array(59, 80, 79), PackedInt32Array(59, 60, 80), PackedInt32Array(60, 81, 80), PackedInt32Array(60, 61, 81), PackedInt32Array(61, 82, 81), PackedInt32Array(61, 62, 82), PackedInt32Array(62, 83, 82), PackedInt32Array(63, 64, 84), PackedInt32Array(64, 85, 84), PackedInt32Array(64, 65, 85), PackedInt32Array(65, 86, 85), PackedInt32Array(65, 66, 86), PackedInt32Array(66, 87, 86), PackedInt32Array(66, 67, 87), PackedInt32Array(67, 88, 87), PackedInt32Array(67, 68, 88), PackedInt32Array(68, 89, 88), PackedInt32Array(68, 69, 89), PackedInt32Array(69, 90, 89), PackedInt32Array(69, 70, 90), PackedInt32Array(70, 91, 90), PackedInt32Array(70, 71, 91), PackedInt32Array(71, 92, 91), PackedInt32Array(71, 72, 92), PackedInt32Array(72, 93, 92), PackedInt32Array(72, 73, 93), PackedInt32Array(73, 94, 93), PackedInt32Array(73, 74, 94), PackedInt32Array(74, 95, 94), PackedInt32Array(74, 75, 95), PackedInt32Array(75, 96, 95), PackedInt32Array(75, 76, 96), PackedInt32Array(76, 97, 96), PackedInt32Array(76, 77, 97), PackedInt32Array(77, 98, 97), PackedInt32Array(77, 78, 98), PackedInt32Array(78, 99, 98), PackedInt32Array(78, 79, 99), PackedInt32Array(79, 100, 99), PackedInt32Array(79, 80, 100), PackedInt32Array(80, 101, 100), PackedInt32Array(80, 81, 101), PackedInt32Array(81, 102, 101), PackedInt32Array(81, 82, 102), PackedInt32Array(82, 103, 102), PackedInt32Array(82, 83, 103), PackedInt32Array(83, 104, 103), PackedInt32Array(84, 85, 105), PackedInt32Array(85, 106, 105), PackedInt32Array(85, 86, 106), PackedInt32Array(86, 107, 106), PackedInt32Array(86, 87, 107), PackedInt32Array(87, 108, 107), PackedInt32Array(87, 88, 108), PackedInt32Array(88, 109, 108), PackedInt32Array(88, 89, 109), PackedInt32Array(89, 110, 109), PackedInt32Array(89, 90, 110), PackedInt32Array(90, 111, 110), PackedInt32Array(90, 91, 111), PackedInt32Array(91, 112, 111), PackedInt32Array(91, 92, 112), PackedInt32Array(92, 113, 112), PackedInt32Array(92, 93, 113), PackedInt32Array(93, 114, 113), PackedInt32Array(93, 94, 114), PackedInt32Array(94, 115, 114), PackedInt32Array(94, 95, 115), PackedInt32Array(95, 116, 115), PackedInt32Array(95, 96, 116), PackedInt32Array(96, 117, 116), PackedInt32Array(96, 97, 117), PackedInt32Array(97, 118, 117), PackedInt32Array(97, 98, 118), PackedInt32Array(98, 119, 118), PackedInt32Array(98, 99, 119), PackedInt32Array(99, 120, 119), PackedInt32Array(99, 100, 120), PackedInt32Array(100, 121, 120), PackedInt32Array(100, 101, 121), PackedInt32Array(101, 122, 121), PackedInt32Array(101, 102, 122), PackedInt32Array(102, 123, 122), PackedInt32Array(102, 103, 123), PackedInt32Array(103, 124, 123), PackedInt32Array(103, 104, 124), PackedInt32Array(104, 125, 124), PackedInt32Array(105, 106, 126), PackedInt32Array(106, 127, 126), PackedInt32Array(106, 107, 127), PackedInt32Array(107, 128, 127), PackedInt32Array(107, 108, 128), PackedInt32Array(108, 129, 128), PackedInt32Array(108, 109, 129), PackedInt32Array(109, 130, 129), PackedInt32Array(109, 110, 130), PackedInt32Array(110, 131, 130), PackedInt32Array(110, 111, 131), PackedInt32Array(111, 132, 131), PackedInt32Array(111, 112, 132), PackedInt32Array(112, 133, 132), PackedInt32Array(112, 113, 133), PackedInt32Array(113, 134, 133), PackedInt32Array(113, 114, 134), PackedInt32Array(114, 135, 134), PackedInt32Array(114, 115, 135), PackedInt32Array(115, 136, 135), PackedInt32Array(115, 116, 136), PackedInt32Array(116, 137, 136), PackedInt32Array(116, 117, 137), PackedInt32Array(117, 138, 137), PackedInt32Array(117, 118, 138), PackedInt32Array(118, 139, 138), PackedInt32Array(118, 119, 139), PackedInt32Array(119, 140, 139), PackedInt32Array(119, 120, 140), PackedInt32Array(120, 141, 140), PackedInt32Array(120, 121, 141), PackedInt32Array(121, 142, 141), PackedInt32Array(121, 122, 142), PackedInt32Array(122, 143, 142), PackedInt32Array(122, 123, 143), PackedInt32Array(123, 144, 143), PackedInt32Array(123, 124, 144), PackedInt32Array(124, 145, 144), PackedInt32Array(124, 125, 145), PackedInt32Array(125, 146, 145), PackedInt32Array(126, 127, 147), PackedInt32Array(127, 148, 147), PackedInt32Array(127, 128, 148), PackedInt32Array(128, 149, 148), PackedInt32Array(128, 129, 149), PackedInt32Array(129, 150, 149), PackedInt32Array(129, 130, 150), PackedInt32Array(130, 151, 150), PackedInt32Array(130, 131, 151), PackedInt32Array(131, 152, 151), PackedInt32Array(131, 132, 152), PackedInt32Array(132, 153, 152), PackedInt32Array(132, 133, 153), PackedInt32Array(133, 154, 153), PackedInt32Array(133, 134, 154), PackedInt32Array(134, 155, 154), PackedInt32Array(134, 135, 155), PackedInt32Array(135, 156, 155), PackedInt32Array(135, 136, 156), PackedInt32Array(136, 157, 156), PackedInt32Array(136, 137, 157), PackedInt32Array(137, 158, 157), PackedInt32Array(137, 138, 158), PackedInt32Array(138, 159, 158), PackedInt32Array(138, 139, 159), PackedInt32Array(139, 160, 159), PackedInt32Array(139, 140, 160), PackedInt32Array(140, 161, 160), PackedInt32Array(140, 141, 161), PackedInt32Array(141, 162, 161), PackedInt32Array(141, 142, 162), PackedInt32Array(142, 163, 162), PackedInt32Array(142, 143, 163), PackedInt32Array(143, 164, 163), PackedInt32Array(143, 144, 164), PackedInt32Array(144, 165, 164), PackedInt32Array(144, 145, 165), PackedInt32Array(145, 166, 165), PackedInt32Array(145, 146, 166), PackedInt32Array(146, 167, 166), PackedInt32Array(147, 148, 168), PackedInt32Array(148, 169, 168), PackedInt32Array(148, 149, 169), PackedInt32Array(149, 170, 169), PackedInt32Array(149, 150, 170), PackedInt32Array(150, 171, 170), PackedInt32Array(150, 151, 171), PackedInt32Array(151, 172, 171), PackedInt32Array(151, 152, 172), PackedInt32Array(152, 173, 172), PackedInt32Array(152, 153, 173), PackedInt32Array(153, 174, 173), PackedInt32Array(153, 154, 174), PackedInt32Array(154, 175, 174), PackedInt32Array(154, 155, 175), PackedInt32Array(155, 176, 175), PackedInt32Array(155, 156, 176), PackedInt32Array(156, 177, 176), PackedInt32Array(156, 157, 177), PackedInt32Array(157, 178, 177), PackedInt32Array(157, 158, 178), PackedInt32Array(158, 179, 178), PackedInt32Array(158, 159, 179), PackedInt32Array(159, 180, 179), PackedInt32Array(159, 160, 180), PackedInt32Array(160, 181, 180), PackedInt32Array(160, 161, 181), PackedInt32Array(161, 182, 181), PackedInt32Array(161, 162, 182), PackedInt32Array(162, 183, 182), PackedInt32Array(162, 163, 183), PackedInt32Array(163, 184, 183), PackedInt32Array(163, 164, 184), PackedInt32Array(164, 185, 184), PackedInt32Array(164, 165, 185), PackedInt32Array(165, 186, 185), PackedInt32Array(165, 166, 186), PackedInt32Array(166, 187, 186), PackedInt32Array(166, 167, 187), PackedInt32Array(167, 188, 187), PackedInt32Array(168, 169, 189), PackedInt32Array(169, 190, 189), PackedInt32Array(169, 170, 190), PackedInt32Array(170, 191, 190), PackedInt32Array(170, 171, 191), PackedInt32Array(171, 192, 191), PackedInt32Array(171, 172, 192), PackedInt32Array(172, 193, 192), PackedInt32Array(172, 173, 193), PackedInt32Array(173, 194, 193), PackedInt32Array(173, 174, 194), PackedInt32Array(174, 195, 194), PackedInt32Array(174, 175, 195), PackedInt32Array(175, 196, 195), PackedInt32Array(175, 176, 196), PackedInt32Array(176, 197, 196), PackedInt32Array(176, 177, 197), PackedInt32Array(177, 198, 197), PackedInt32Array(177, 178, 198), PackedInt32Array(178, 199, 198), PackedInt32Array(178, 179, 199), PackedInt32Array(179, 200, 199), PackedInt32Array(179, 180, 200), PackedInt32Array(180, 201, 200), PackedInt32Array(180, 181, 201), PackedInt32Array(181, 202, 201), PackedInt32Array(181, 182, 202), PackedInt32Array(182, 203, 202), PackedInt32Array(182, 183, 203), PackedInt32Array(183, 204, 203), PackedInt32Array(183, 184, 204), PackedInt32Array(184, 205, 204), PackedInt32Array(184, 185, 205), PackedInt32Array(185, 206, 205), PackedInt32Array(185, 186, 206), PackedInt32Array(186, 207, 206), PackedInt32Array(186, 187, 207), PackedInt32Array(187, 208, 207), PackedInt32Array(187, 188, 208), PackedInt32Array(188, 209, 208), PackedInt32Array(189, 190, 210), PackedInt32Array(190, 211, 210), PackedInt32Array(190, 191, 211), PackedInt32Array(191, 212, 211), PackedInt32Array(191, 192, 212), PackedInt32Array(192, 213, 212), PackedInt32Array(192, 193, 213), PackedInt32Array(193, 214, 213), PackedInt32Array(193, 194, 214), PackedInt32Array(194, 215, 214), PackedInt32Array(194, 195, 215), PackedInt32Array(195, 216, 215), PackedInt32Array(195, 196, 216), PackedInt32Array(196, 217, 216), PackedInt32Array(196, 197, 217), PackedInt32Array(197, 218, 217), PackedInt32Array(197, 198, 218), PackedInt32Array(198, 219, 218), PackedInt32Array(198, 199, 219), PackedInt32Array(199, 220, 219), PackedInt32Array(199, 200, 220), PackedInt32Array(200, 221, 220), PackedInt32Array(200, 201, 221), PackedInt32Array(201, 222, 221), PackedInt32Array(201, 202, 222), PackedInt32Array(202, 223, 222), PackedInt32Array(202, 203, 223), PackedInt32Array(203, 224, 223), PackedInt32Array(203, 204, 224), PackedInt32Array(204, 225, 224), PackedInt32Array(204, 205, 225), PackedInt32Array(205, 226, 225), PackedInt32Array(205, 206, 226), PackedInt32Array(206, 227, 226), PackedInt32Array(206, 207, 227), PackedInt32Array(207, 228, 227), PackedInt32Array(207, 208, 228), PackedInt32Array(208, 229, 228), PackedInt32Array(208, 209, 229), PackedInt32Array(209, 230, 229), PackedInt32Array(210, 211, 231), PackedInt32Array(211, 232, 231), PackedInt32Array(211, 212, 232), PackedInt32Array(212, 233, 232), PackedInt32Array(212, 213, 233), PackedInt32Array(213, 234, 233), PackedInt32Array(213, 214, 234), PackedInt32Array(214, 235, 234), PackedInt32Array(214, 215, 235), PackedInt32Array(215, 236, 235), PackedInt32Array(215, 216, 236), PackedInt32Array(216, 237, 236), PackedInt32Array(216, 217, 237), PackedInt32Array(217, 238, 237), PackedInt32Array(217, 218, 238), PackedInt32Array(218, 239, 238), PackedInt32Array(218, 219, 239), PackedInt32Array(219, 240, 239), PackedInt32Array(219, 220, 240), PackedInt32Array(220, 241, 240), PackedInt32Array(220, 221, 241), PackedInt32Array(221, 242, 241), PackedInt32Array(221, 222, 242), PackedInt32Array(222, 243, 242), PackedInt32Array(222, 223, 243), PackedInt32Array(223, 244, 243), PackedInt32Array(223, 224, 244), PackedInt32Array(224, 245, 244), PackedInt32Array(224, 225, 245), PackedInt32Array(225, 246, 245), PackedInt32Array(225, 226, 246), PackedInt32Array(226, 247, 246), PackedInt32Array(226, 227, 247), PackedInt32Array(227, 248, 247), PackedInt32Array(227, 228, 248), PackedInt32Array(228, 249, 248), PackedInt32Array(228, 229, 249), PackedInt32Array(229, 250, 249), PackedInt32Array(229, 230, 250), PackedInt32Array(230, 251, 250), PackedInt32Array(231, 232, 252), PackedInt32Array(232, 253, 252), PackedInt32Array(232, 233, 253), PackedInt32Array(233, 254, 253), PackedInt32Array(233, 234, 254), PackedInt32Array(234, 255, 254), PackedInt32Array(234, 235, 255), PackedInt32Array(235, 256, 255), PackedInt32Array(235, 236, 256), PackedInt32Array(236, 257, 256), PackedInt32Array(236, 237, 257), PackedInt32Array(237, 258, 257), PackedInt32Array(237, 238, 258), PackedInt32Array(238, 259, 258), PackedInt32Array(238, 239, 259), PackedInt32Array(239, 260, 259), PackedInt32Array(239, 240, 260), PackedInt32Array(240, 261, 260), PackedInt32Array(240, 241, 261), PackedInt32Array(241, 262, 261), PackedInt32Array(241, 242, 262), PackedInt32Array(242, 263, 262), PackedInt32Array(242, 243, 263), PackedInt32Array(243, 264, 263), PackedInt32Array(243, 244, 264), PackedInt32Array(244, 265, 264), PackedInt32Array(244, 245, 265), PackedInt32Array(245, 266, 265), PackedInt32Array(245, 246, 266), PackedInt32Array(246, 267, 266), PackedInt32Array(246, 247, 267), PackedInt32Array(247, 268, 267), PackedInt32Array(247, 248, 268), PackedInt32Array(248, 269, 268), PackedInt32Array(248, 249, 269), PackedInt32Array(249, 270, 269), PackedInt32Array(249, 250, 270), PackedInt32Array(250, 271, 270), PackedInt32Array(250, 251, 271), PackedInt32Array(251, 272, 271), PackedInt32Array(252, 253, 273), PackedInt32Array(253, 274, 273), PackedInt32Array(253, 254, 274), PackedInt32Array(254, 275, 274), PackedInt32Array(254, 255, 275), PackedInt32Array(255, 276, 275), PackedInt32Array(255, 256, 276), PackedInt32Array(256, 277, 276), PackedInt32Array(256, 257, 277), PackedInt32Array(257, 278, 277), PackedInt32Array(257, 258, 278), PackedInt32Array(258, 279, 278), PackedInt32Array(258, 259, 279), PackedInt32Array(259, 280, 279), PackedInt32Array(259, 260, 280), PackedInt32Array(260, 281, 280), PackedInt32Array(260, 261, 281), PackedInt32Array(261, 282, 281), PackedInt32Array(261, 262, 282), PackedInt32Array(262, 283, 282), PackedInt32Array(262, 263, 283), PackedInt32Array(263, 284, 283), PackedInt32Array(263, 264, 284), PackedInt32Array(264, 285, 284), PackedInt32Array(264, 265, 285), PackedInt32Array(265, 286, 285), PackedInt32Array(265, 266, 286), PackedInt32Array(266, 287, 286), PackedInt32Array(266, 267, 287), PackedInt32Array(267, 288, 287), PackedInt32Array(267, 268, 288), PackedInt32Array(268, 289, 288), PackedInt32Array(268, 269, 289), PackedInt32Array(269, 290, 289), PackedInt32Array(269, 270, 290), PackedInt32Array(270, 291, 290), PackedInt32Array(270, 271, 291), PackedInt32Array(271, 292, 291), PackedInt32Array(271, 272, 292), PackedInt32Array(272, 293, 292), PackedInt32Array(273, 274, 294), PackedInt32Array(274, 295, 294), PackedInt32Array(274, 275, 295), PackedInt32Array(275, 296, 295), PackedInt32Array(275, 276, 296), PackedInt32Array(276, 297, 296), PackedInt32Array(276, 277, 297), PackedInt32Array(277, 298, 297), PackedInt32Array(277, 278, 298), PackedInt32Array(278, 299, 298), PackedInt32Array(278, 279, 299), PackedInt32Array(279, 300, 299), PackedInt32Array(279, 280, 300), PackedInt32Array(280, 301, 300), PackedInt32Array(280, 281, 301), PackedInt32Array(281, 302, 301), PackedInt32Array(281, 282, 302), PackedInt32Array(282, 303, 302), PackedInt32Array(282, 283, 303), PackedInt32Array(283, 304, 303), PackedInt32Array(283, 284, 304), PackedInt32Array(284, 305, 304), PackedInt32Array(284, 285, 305), PackedInt32Array(285, 306, 305), PackedInt32Array(285, 286, 306), PackedInt32Array(286, 307, 306), PackedInt32Array(286, 287, 307), PackedInt32Array(287, 308, 307), PackedInt32Array(287, 288, 308), PackedInt32Array(288, 309, 308), PackedInt32Array(288, 289, 309), PackedInt32Array(289, 310, 309), PackedInt32Array(289, 290, 310), PackedInt32Array(290, 311, 310), PackedInt32Array(290, 291, 311), PackedInt32Array(291, 312, 311), PackedInt32Array(291, 292, 312), PackedInt32Array(292, 313, 312), PackedInt32Array(292, 293, 313), PackedInt32Array(293, 314, 313), PackedInt32Array(294, 295, 315), PackedInt32Array(295, 316, 315), PackedInt32Array(295, 296, 316), PackedInt32Array(296, 317, 316), PackedInt32Array(296, 297, 317), PackedInt32Array(297, 318, 317), PackedInt32Array(297, 298, 318), PackedInt32Array(298, 319, 318), PackedInt32Array(298, 299, 319), PackedInt32Array(299, 320, 319), PackedInt32Array(299, 300, 320), PackedInt32Array(300, 321, 320), PackedInt32Array(300, 301, 321), PackedInt32Array(301, 322, 321), PackedInt32Array(301, 302, 322), PackedInt32Array(302, 323, 322), PackedInt32Array(302, 303, 323), PackedInt32Array(303, 324, 323), PackedInt32Array(303, 304, 324), PackedInt32Array(304, 325, 324), PackedInt32Array(304, 305, 325), PackedInt32Array(305, 326, 325), PackedInt32Array(305, 306, 326), PackedInt32Array(306, 327, 326), PackedInt32Array(306, 307, 327), PackedInt32Array(307, 328, 327), PackedInt32Array(307, 308, 328), PackedInt32Array(308, 329, 328), PackedInt32Array(308, 309, 329), PackedInt32Array(309, 330, 329), PackedInt32Array(309, 310, 330), PackedInt32Array(310, 331, 330), PackedInt32Array(310, 311, 331), PackedInt32Array(311, 332, 331), PackedInt32Array(311, 312, 332), PackedInt32Array(312, 333, 332), PackedInt32Array(312, 313, 333), PackedInt32Array(313, 334, 333), PackedInt32Array(313, 314, 334), PackedInt32Array(314, 335, 334), PackedInt32Array(315, 316, 336), PackedInt32Array(316, 337, 336), PackedInt32Array(316, 317, 337), PackedInt32Array(317, 338, 337), PackedInt32Array(317, 318, 338), PackedInt32Array(318, 339, 338), PackedInt32Array(318, 319, 339), PackedInt32Array(319, 340, 339), PackedInt32Array(319, 320, 340), PackedInt32Array(320, 341, 340), PackedInt32Array(320, 321, 341), PackedInt32Array(321, 342, 341), PackedInt32Array(321, 322, 342), PackedInt32Array(322, 343, 342), PackedInt32Array(322, 323, 343), PackedInt32Array(323, 344, 343), PackedInt32Array(323, 324, 344), PackedInt32Array(324, 345, 344), PackedInt32Array(324, 325, 345), PackedInt32Array(325, 346, 345), PackedInt32Array(325, 326, 346), PackedInt32Array(326, 347, 346), PackedInt32Array(326, 327, 347), PackedInt32Array(327, 348, 347), PackedInt32Array(327, 328, 348), PackedInt32Array(328, 349, 348), PackedInt32Array(328, 329, 349), PackedInt32Array(329, 350, 349), PackedInt32Array(329, 330, 350), PackedInt32Array(330, 351, 350), PackedInt32Array(330, 331, 351), PackedInt32Array(331, 352, 351), PackedInt32Array(331, 332, 352), PackedInt32Array(332, 353, 352), PackedInt32Array(332, 333, 353), PackedInt32Array(333, 354, 353), PackedInt32Array(333, 334, 354), PackedInt32Array(334, 355, 354), PackedInt32Array(334, 335, 355), PackedInt32Array(335, 356, 355), PackedInt32Array(336, 337, 357), PackedInt32Array(337, 358, 357), PackedInt32Array(337, 338, 358), PackedInt32Array(338, 359, 358), PackedInt32Array(338, 339, 359), PackedInt32Array(339, 360, 359), PackedInt32Array(339, 340, 360), PackedInt32Array(340, 361, 360), PackedInt32Array(340, 341, 361), PackedInt32Array(341, 362, 361), PackedInt32Array(341, 342, 362), PackedInt32Array(342, 363, 362), PackedInt32Array(342, 343, 363), PackedInt32Array(343, 364, 363), PackedInt32Array(343, 344, 364), PackedInt32Array(344, 365, 364), PackedInt32Array(344, 345, 365), PackedInt32Array(345, 366, 365), PackedInt32Array(345, 346, 366), PackedInt32Array(346, 367, 366), PackedInt32Array(346, 347, 367), PackedInt32Array(347, 368, 367), PackedInt32Array(347, 348, 368), PackedInt32Array(348, 369, 368), PackedInt32Array(348, 349, 369), PackedInt32Array(349, 370, 369), PackedInt32Array(349, 350, 370), PackedInt32Array(350, 371, 370), PackedInt32Array(350, 351, 371), PackedInt32Array(351, 372, 371), PackedInt32Array(351, 352, 372), PackedInt32Array(352, 373, 372), PackedInt32Array(352, 353, 373), PackedInt32Array(353, 374, 373), PackedInt32Array(353, 354, 374), PackedInt32Array(354, 375, 374), PackedInt32Array(354, 355, 375), PackedInt32Array(355, 376, 375), PackedInt32Array(355, 356, 376), PackedInt32Array(356, 377, 376), PackedInt32Array(357, 358, 378), PackedInt32Array(358, 379, 378), PackedInt32Array(358, 359, 379), PackedInt32Array(359, 380, 379), PackedInt32Array(359, 360, 380), PackedInt32Array(360, 381, 380), PackedInt32Array(360, 361, 381), PackedInt32Array(361, 382, 381), PackedInt32Array(361, 362, 382), PackedInt32Array(362, 383, 382), PackedInt32Array(362, 363, 383), PackedInt32Array(363, 384, 383), PackedInt32Array(363, 364, 384), PackedInt32Array(364, 385, 384), PackedInt32Array(364, 365, 385), PackedInt32Array(365, 386, 385), PackedInt32Array(365, 366, 386), PackedInt32Array(366, 387, 386), PackedInt32Array(366, 367, 387), PackedInt32Array(367, 388, 387), PackedInt32Array(367, 368, 388), PackedInt32Array(368, 389, 388), PackedInt32Array(368, 369, 389), PackedInt32Array(369, 390, 389), PackedInt32Array(369, 370, 390), PackedInt32Array(370, 391, 390), PackedInt32Array(370, 371, 391), PackedInt32Array(371, 392, 391), PackedInt32Array(371, 372, 392), PackedInt32Array(372, 393, 392), PackedInt32Array(372, 373, 393), PackedInt32Array(373, 394, 393), PackedInt32Array(373, 374, 394), PackedInt32Array(374, 395, 394), PackedInt32Array(374, 375, 395), PackedInt32Array(375, 396, 395), PackedInt32Array(375, 376, 396), PackedInt32Array(376, 397, 396), PackedInt32Array(376, 377, 397), PackedInt32Array(377, 398, 397), PackedInt32Array(378, 379, 399), PackedInt32Array(379, 400, 399), PackedInt32Array(379, 380, 400), PackedInt32Array(380, 401, 400), PackedInt32Array(380, 381, 401), PackedInt32Array(381, 402, 401), PackedInt32Array(381, 382, 402), PackedInt32Array(382, 403, 402), PackedInt32Array(382, 383, 403), PackedInt32Array(383, 404, 403), PackedInt32Array(383, 384, 404), PackedInt32Array(384, 405, 404), PackedInt32Array(384, 385, 405), PackedInt32Array(385, 406, 405), PackedInt32Array(385, 386, 406), PackedInt32Array(386, 407, 406), PackedInt32Array(386, 387, 407), PackedInt32Array(387, 408, 407), PackedInt32Array(387, 388, 408), PackedInt32Array(388, 409, 408), PackedInt32Array(388, 389, 409), PackedInt32Array(389, 410, 409), PackedInt32Array(389, 390, 410), PackedInt32Array(390, 411, 410), PackedInt32Array(390, 391, 411), PackedInt32Array(391, 412, 411), PackedInt32Array(391, 392, 412), PackedInt32Array(392, 413, 412), PackedInt32Array(392, 393, 413), PackedInt32Array(393, 414, 413), PackedInt32Array(393, 394, 414), PackedInt32Array(394, 415, 414), PackedInt32Array(394, 395, 415), PackedInt32Array(395, 416, 415), PackedInt32Array(395, 396, 416), PackedInt32Array(396, 417, 416), PackedInt32Array(396, 397, 417), PackedInt32Array(397, 418, 417), PackedInt32Array(397, 398, 418), PackedInt32Array(398, 419, 418), PackedInt32Array(399, 400, 420), PackedInt32Array(400, 421, 420), PackedInt32Array(400, 401, 421), PackedInt32Array(401, 422, 421), PackedInt32Array(401, 402, 422), PackedInt32Array(402, 423, 422), PackedInt32Array(402, 403, 423), PackedInt32Array(403, 424, 423), PackedInt32Array(403, 404, 424), PackedInt32Array(404, 425, 424), PackedInt32Array(404, 405, 425), PackedInt32Array(405, 426, 425), PackedInt32Array(405, 406, 426), PackedInt32Array(406, 427, 426), PackedInt32Array(406, 407, 427), PackedInt32Array(407, 428, 427), PackedInt32Array(407, 408, 428), PackedInt32Array(408, 429, 428), PackedInt32Array(408, 409, 429), PackedInt32Array(409, 430, 429), PackedInt32Array(409, 410, 430), PackedInt32Array(410, 431, 430), PackedInt32Array(410, 411, 431), PackedInt32Array(411, 432, 431), PackedInt32Array(411, 412, 432), PackedInt32Array(412, 433, 432), PackedInt32Array(412, 413, 433), PackedInt32Array(413, 434, 433), PackedInt32Array(413, 414, 434), PackedInt32Array(414, 435, 434), PackedInt32Array(414, 415, 435), PackedInt32Array(415, 436, 435), PackedInt32Array(415, 416, 436), PackedInt32Array(416, 437, 436), PackedInt32Array(416, 417, 437), PackedInt32Array(417, 438, 437), PackedInt32Array(417, 418, 438), PackedInt32Array(418, 439, 438), PackedInt32Array(418, 419, 439), PackedInt32Array(419, 440, 439), PackedInt32Array(420, 421, 441), PackedInt32Array(421, 442, 441), PackedInt32Array(421, 422, 442), PackedInt32Array(422, 443, 442), PackedInt32Array(422, 423, 443), PackedInt32Array(423, 444, 443), PackedInt32Array(423, 424, 444), PackedInt32Array(424, 445, 444), PackedInt32Array(424, 425, 445), PackedInt32Array(425, 446, 445), PackedInt32Array(425, 426, 446), PackedInt32Array(426, 447, 446), PackedInt32Array(426, 427, 447), PackedInt32Array(427, 448, 447), PackedInt32Array(427, 428, 448), PackedInt32Array(428, 449, 448), PackedInt32Array(428, 429, 449), PackedInt32Array(429, 450, 449), PackedInt32Array(429, 430, 450), PackedInt32Array(430, 451, 450), PackedInt32Array(430, 431, 451), PackedInt32Array(431, 452, 451), PackedInt32Array(431, 432, 452), PackedInt32Array(432, 453, 452), PackedInt32Array(432, 433, 453), PackedInt32Array(433, 454, 453), PackedInt32Array(433, 434, 454), PackedInt32Array(434, 455, 454), PackedInt32Array(434, 435, 455), PackedInt32Array(435, 456, 455), PackedInt32Array(435, 436, 456), PackedInt32Array(436, 457, 456), PackedInt32Array(436, 437, 457), PackedInt32Array(437, 458, 457), PackedInt32Array(437, 438, 458), PackedInt32Array(438, 459, 458), PackedInt32Array(438, 439, 459), PackedInt32Array(439, 460, 459), PackedInt32Array(439, 440, 460), PackedInt32Array(440, 461, 460), PackedInt32Array(441, 442, 462), PackedInt32Array(442, 463, 462), PackedInt32Array(442, 443, 463), PackedInt32Array(443, 464, 463), PackedInt32Array(443, 444, 464), PackedInt32Array(444, 465, 464), PackedInt32Array(444, 445, 465), PackedInt32Array(445, 466, 465), PackedInt32Array(445, 446, 466), PackedInt32Array(446, 467, 466), PackedInt32Array(446, 447, 467), PackedInt32Array(447, 468, 467), PackedInt32Array(447, 448, 468), PackedInt32Array(448, 469, 468), PackedInt32Array(448, 449, 469), PackedInt32Array(449, 470, 469), PackedInt32Array(449, 450, 470), PackedInt32Array(450, 471, 470), PackedInt32Array(450, 451, 471), PackedInt32Array(451, 472, 471), PackedInt32Array(451, 452, 472), PackedInt32Array(452, 473, 472), PackedInt32Array(452, 453, 473), PackedInt32Array(453, 474, 473), PackedInt32Array(453, 454, 474), PackedInt32Array(454, 475, 474), PackedInt32Array(454, 455, 475), PackedInt32Array(455, 476, 475), PackedInt32Array(455, 456, 476), PackedInt32Array(456, 477, 476), PackedInt32Array(456, 457, 477), PackedInt32Array(457, 478, 477), PackedInt32Array(457, 458, 478), PackedInt32Array(458, 479, 478), PackedInt32Array(458, 459, 479), PackedInt32Array(459, 480, 479), PackedInt32Array(459, 460, 480), PackedInt32Array(460, 481, 480), PackedInt32Array(460, 461, 481), PackedInt32Array(461, 482, 481), PackedInt32Array(462, 463, 483), PackedInt32Array(463, 484, 483), PackedInt32Array(463, 464, 484), PackedInt32Array(464, 485, 484), PackedInt32Array(464, 465, 485), PackedInt32Array(465, 486, 485), PackedInt32Array(465, 466, 486), PackedInt32Array(466, 487, 486), PackedInt32Array(466, 467, 487), PackedInt32Array(467, 488, 487), PackedInt32Array(467, 468, 488), PackedInt32Array(468, 489, 488), PackedInt32Array(468, 469, 489), PackedInt32Array(469, 490, 489), PackedInt32Array(469, 470, 490), PackedInt32Array(470, 491, 490), PackedInt32Array(470, 471, 491), PackedInt32Array(471, 492, 491), PackedInt32Array(471, 472, 492), PackedInt32Array(472, 493, 492), PackedInt32Array(472, 473, 493), PackedInt32Array(473, 494, 493), PackedInt32Array(473, 474, 494), PackedInt32Array(474, 495, 494), PackedInt32Array(474, 475, 495), PackedInt32Array(475, 496, 495), PackedInt32Array(475, 476, 496), PackedInt32Array(476, 497, 496), PackedInt32Array(476, 477, 497), PackedInt32Array(477, 498, 497), PackedInt32Array(477, 478, 498), PackedInt32Array(478, 499, 498), PackedInt32Array(478, 479, 499), PackedInt32Array(479, 500, 499), PackedInt32Array(479, 480, 500), PackedInt32Array(480, 501, 500), PackedInt32Array(480, 481, 501), PackedInt32Array(481, 502, 501), PackedInt32Array(481, 482, 502), PackedInt32Array(482, 503, 502), PackedInt32Array(483, 484, 504), PackedInt32Array(484, 505, 504), PackedInt32Array(484, 485, 505), PackedInt32Array(485, 506, 505), PackedInt32Array(485, 486, 506), PackedInt32Array(486, 507, 506), PackedInt32Array(486, 487, 507), PackedInt32Array(487, 508, 507), PackedInt32Array(487, 488, 508), PackedInt32Array(488, 509, 508), PackedInt32Array(488, 489, 509), PackedInt32Array(489, 510, 509), PackedInt32Array(489, 490, 510), PackedInt32Array(490, 511, 510), PackedInt32Array(490, 491, 511), PackedInt32Array(491, 512, 511), PackedInt32Array(491, 492, 512), PackedInt32Array(492, 513, 512), PackedInt32Array(492, 493, 513), PackedInt32Array(493, 514, 513), PackedInt32Array(493, 494, 514), PackedInt32Array(494, 515, 514), PackedInt32Array(494, 495, 515), PackedInt32Array(495, 516, 515), PackedInt32Array(495, 496, 516), PackedInt32Array(496, 517, 516), PackedInt32Array(496, 497, 517), PackedInt32Array(497, 518, 517), PackedInt32Array(497, 498, 518), PackedInt32Array(498, 519, 518), PackedInt32Array(498, 499, 519), PackedInt32Array(499, 520, 519), PackedInt32Array(499, 500, 520), PackedInt32Array(500, 521, 520), PackedInt32Array(500, 501, 521), PackedInt32Array(501, 522, 521), PackedInt32Array(501, 502, 522), PackedInt32Array(502, 523, 522), PackedInt32Array(502, 503, 523), PackedInt32Array(503, 524, 523), PackedInt32Array(504, 505, 525), PackedInt32Array(505, 526, 525), PackedInt32Array(505, 506, 526), PackedInt32Array(506, 527, 526), PackedInt32Array(506, 507, 527), PackedInt32Array(507, 528, 527), PackedInt32Array(507, 508, 528), PackedInt32Array(508, 529, 528), PackedInt32Array(508, 509, 529), PackedInt32Array(509, 530, 529), PackedInt32Array(509, 510, 530), PackedInt32Array(510, 531, 530), PackedInt32Array(510, 511, 531), PackedInt32Array(511, 532, 531), PackedInt32Array(511, 512, 532), PackedInt32Array(512, 533, 532), PackedInt32Array(512, 513, 533), PackedInt32Array(513, 534, 533), PackedInt32Array(513, 514, 534), PackedInt32Array(514, 535, 534), PackedInt32Array(514, 515, 535), PackedInt32Array(515, 536, 535), PackedInt32Array(515, 516, 536), PackedInt32Array(516, 537, 536), PackedInt32Array(516, 517, 537), PackedInt32Array(517, 538, 537), PackedInt32Array(517, 518, 538), PackedInt32Array(518, 539, 538), PackedInt32Array(518, 519, 539), PackedInt32Array(519, 540, 539), PackedInt32Array(519, 520, 540), PackedInt32Array(520, 541, 540), PackedInt32Array(520, 521, 541), PackedInt32Array(521, 542, 541), PackedInt32Array(521, 522, 542), PackedInt32Array(522, 543, 542), PackedInt32Array(522, 523, 543), PackedInt32Array(523, 544, 543), PackedInt32Array(523, 524, 544), PackedInt32Array(524, 545, 544), PackedInt32Array(525, 526, 546), PackedInt32Array(526, 547, 546), PackedInt32Array(526, 527, 547), PackedInt32Array(527, 548, 547), PackedInt32Array(527, 528, 548), PackedInt32Array(528, 549, 548), PackedInt32Array(528, 529, 549), PackedInt32Array(529, 550, 549), PackedInt32Array(529, 530, 550), PackedInt32Array(530, 551, 550), PackedInt32Array(530, 531, 551), PackedInt32Array(531, 552, 551), PackedInt32Array(531, 532, 552), PackedInt32Array(532, 553, 552), PackedInt32Array(532, 533, 553), PackedInt32Array(533, 554, 553), PackedInt32Array(533, 534, 554), PackedInt32Array(534, 555, 554), PackedInt32Array(534, 535, 555), PackedInt32Array(535, 556, 555), PackedInt32Array(535, 536, 556), PackedInt32Array(536, 557, 556), PackedInt32Array(536, 537, 557), PackedInt32Array(537, 558, 557), PackedInt32Array(537, 538, 558), PackedInt32Array(538, 559, 558), PackedInt32Array(538, 539, 559), PackedInt32Array(539, 560, 559), PackedInt32Array(539, 540, 560), PackedInt32Array(540, 561, 560), PackedInt32Array(540, 541, 561), PackedInt32Array(541, 562, 561), PackedInt32Array(541, 542, 562), PackedInt32Array(542, 563, 562), PackedInt32Array(542, 543, 563), PackedInt32Array(543, 564, 563), PackedInt32Array(543, 544, 564), PackedInt32Array(544, 565, 564), PackedInt32Array(544, 545, 565), PackedInt32Array(545, 566, 565), PackedInt32Array(546, 547, 567), PackedInt32Array(547, 568, 567), PackedInt32Array(547, 548, 568), PackedInt32Array(548, 569, 568), PackedInt32Array(548, 549, 569), PackedInt32Array(549, 570, 569), PackedInt32Array(549, 550, 570), PackedInt32Array(550, 571, 570), PackedInt32Array(550, 551, 571), PackedInt32Array(551, 572, 571), PackedInt32Array(551, 552, 572), PackedInt32Array(552, 573, 572), PackedInt32Array(552, 553, 573), PackedInt32Array(553, 574, 573), PackedInt32Array(553, 554, 574), PackedInt32Array(554, 575, 574), PackedInt32Array(554, 555, 575), PackedInt32Array(555, 576, 575), PackedInt32Array(555, 556, 576), PackedInt32Array(556, 577, 576), PackedInt32Array(556, 557, 577), PackedInt32Array(557, 578, 577), PackedInt32Array(557, 558, 578), PackedInt32Array(558, 579, 578), PackedInt32Array(558, 559, 579), PackedInt32Array(559, 580, 579), PackedInt32Array(559, 560, 580), PackedInt32Array(560, 581, 580), PackedInt32Array(560, 561, 581), PackedInt32Array(561, 582, 581), PackedInt32Array(561, 562, 582), PackedInt32Array(562, 583, 582), PackedInt32Array(562, 563, 583), PackedInt32Array(563, 584, 583), PackedInt32Array(563, 564, 584), PackedInt32Array(564, 585, 584), PackedInt32Array(564, 565, 585), PackedInt32Array(565, 586, 585), PackedInt32Array(565, 566, 586), PackedInt32Array(566, 587, 586), PackedInt32Array(567, 568, 588), PackedInt32Array(568, 589, 588), PackedInt32Array(568, 569, 589), PackedInt32Array(569, 590, 589), PackedInt32Array(569, 570, 590), PackedInt32Array(570, 591, 590), PackedInt32Array(570, 571, 591), PackedInt32Array(571, 592, 591), PackedInt32Array(571, 572, 592), PackedInt32Array(572, 593, 592), PackedInt32Array(572, 573, 593), PackedInt32Array(573, 594, 593), PackedInt32Array(573, 574, 594), PackedInt32Array(574, 595, 594), PackedInt32Array(574, 575, 595), PackedInt32Array(575, 596, 595), PackedInt32Array(575, 576, 596), PackedInt32Array(576, 597, 596), PackedInt32Array(576, 577, 597), PackedInt32Array(577, 598, 597), PackedInt32Array(577, 578, 598), PackedInt32Array(578, 599, 598), PackedInt32Array(578, 579, 599), PackedInt32Array(579, 600, 599), PackedInt32Array(579, 580, 600), PackedInt32Array(580, 601, 600), PackedInt32Array(580, 581, 601), PackedInt32Array(581, 602, 601), PackedInt32Array(581, 582, 602), PackedInt32Array(582, 603, 602), PackedInt32Array(582, 583, 603), PackedInt32Array(583, 604, 603), PackedInt32Array(583, 584, 604), PackedInt32Array(584, 605, 604), PackedInt32Array(584, 585, 605), PackedInt32Array(585, 606, 605), PackedInt32Array(585, 586, 606), PackedInt32Array(586, 607, 606), PackedInt32Array(586, 587, 607), PackedInt32Array(587, 608, 607), PackedInt32Array(588, 589, 609), PackedInt32Array(589, 610, 609), PackedInt32Array(589, 590, 610), PackedInt32Array(590, 611, 610), PackedInt32Array(590, 591, 611), PackedInt32Array(591, 612, 611), PackedInt32Array(591, 592, 612), PackedInt32Array(592, 613, 612), PackedInt32Array(592, 593, 613), PackedInt32Array(593, 614, 613), PackedInt32Array(593, 594, 614), PackedInt32Array(594, 615, 614), PackedInt32Array(594, 595, 615), PackedInt32Array(595, 616, 615), PackedInt32Array(595, 596, 616), PackedInt32Array(596, 617, 616), PackedInt32Array(596, 597, 617), PackedInt32Array(597, 618, 617), PackedInt32Array(597, 598, 618), PackedInt32Array(598, 619, 618), PackedInt32Array(598, 599, 619), PackedInt32Array(599, 620, 619), PackedInt32Array(599, 600, 620), PackedInt32Array(600, 621, 620), PackedInt32Array(600, 601, 621), PackedInt32Array(601, 622, 621), PackedInt32Array(601, 602, 622), PackedInt32Array(602, 623, 622), PackedInt32Array(602, 603, 623), PackedInt32Array(603, 624, 623), PackedInt32Array(603, 604, 624), PackedInt32Array(604, 625, 624), PackedInt32Array(604, 605, 625), PackedInt32Array(605, 626, 625), PackedInt32Array(605, 606, 626), PackedInt32Array(606, 627, 626), PackedInt32Array(606, 607, 627), PackedInt32Array(607, 628, 627), PackedInt32Array(607, 608, 628), PackedInt32Array(608, 629, 628), PackedInt32Array(609, 610, 630), PackedInt32Array(610, 631, 630), PackedInt32Array(610, 611, 631), PackedInt32Array(611, 632, 631), PackedInt32Array(611, 612, 632), PackedInt32Array(612, 633, 632), PackedInt32Array(612, 613, 633), PackedInt32Array(613, 634, 633), PackedInt32Array(613, 614, 634), PackedInt32Array(614, 635, 634), PackedInt32Array(614, 615, 635), PackedInt32Array(615, 636, 635), PackedInt32Array(615, 616, 636), PackedInt32Array(616, 637, 636), PackedInt32Array(616, 617, 637), PackedInt32Array(617, 638, 637), PackedInt32Array(617, 618, 638), PackedInt32Array(618, 639, 638), PackedInt32Array(618, 619, 639), PackedInt32Array(619, 640, 639), PackedInt32Array(619, 620, 640), PackedInt32Array(620, 641, 640), PackedInt32Array(620, 621, 641), PackedInt32Array(621, 642, 641), PackedInt32Array(621, 622, 642), PackedInt32Array(622, 643, 642), PackedInt32Array(622, 623, 643), PackedInt32Array(623, 644, 643), PackedInt32Array(623, 624, 644), PackedInt32Array(624, 645, 644), PackedInt32Array(624, 625, 645), PackedInt32Array(625, 646, 645), PackedInt32Array(625, 626, 646), PackedInt32Array(626, 647, 646), PackedInt32Array(626, 627, 647), PackedInt32Array(627, 648, 647), PackedInt32Array(627, 628, 648), PackedInt32Array(628, 649, 648), PackedInt32Array(628, 629, 649), PackedInt32Array(629, 650, 649), PackedInt32Array(630, 631, 651), PackedInt32Array(631, 652, 651), PackedInt32Array(631, 632, 652), PackedInt32Array(632, 653, 652), PackedInt32Array(632, 633, 653), PackedInt32Array(633, 654, 653), PackedInt32Array(633, 634, 654), PackedInt32Array(634, 655, 654), PackedInt32Array(634, 635, 655), PackedInt32Array(635, 656, 655), PackedInt32Array(635, 636, 656), PackedInt32Array(636, 657, 656), PackedInt32Array(636, 637, 657), PackedInt32Array(637, 658, 657), PackedInt32Array(637, 638, 658), PackedInt32Array(638, 659, 658), PackedInt32Array(638, 639, 659), PackedInt32Array(639, 660, 659), PackedInt32Array(639, 640, 660), PackedInt32Array(640, 661, 660), PackedInt32Array(640, 641, 661), PackedInt32Array(641, 662, 661), PackedInt32Array(641, 642, 662), PackedInt32Array(642, 663, 662), PackedInt32Array(642, 643, 663), PackedInt32Array(643, 664, 663), PackedInt32Array(643, 644, 664), PackedInt32Array(644, 665, 664), PackedInt32Array(644, 645, 665), PackedInt32Array(645, 666, 665), PackedInt32Array(645, 646, 666), PackedInt32Array(646, 667, 666), PackedInt32Array(646, 647, 667), PackedInt32Array(647, 668, 667), PackedInt32Array(647, 648, 668), PackedInt32Array(648, 669, 668), PackedInt32Array(648, 649, 669), PackedInt32Array(649, 670, 669), PackedInt32Array(649, 650, 670), PackedInt32Array(650, 671, 670), PackedInt32Array(651, 652, 672), PackedInt32Array(652, 673, 672), PackedInt32Array(652, 653, 673), PackedInt32Array(653, 674, 673), PackedInt32Array(653, 654, 674), PackedInt32Array(654, 675, 674), PackedInt32Array(654, 655, 675), PackedInt32Array(655, 676, 675), PackedInt32Array(655, 656, 676), PackedInt32Array(656, 677, 676), PackedInt32Array(656, 657, 677), PackedInt32Array(657, 678, 677), PackedInt32Array(657, 658, 678), PackedInt32Array(658, 679, 678), PackedInt32Array(658, 659, 679), PackedInt32Array(659, 680, 679), PackedInt32Array(659, 660, 680), PackedInt32Array(660, 681, 680), PackedInt32Array(660, 661, 681), PackedInt32Array(661, 682, 681), PackedInt32Array(661, 662, 682), PackedInt32Array(662, 683, 682), PackedInt32Array(662, 663, 683), PackedInt32Array(663, 684, 683), PackedInt32Array(663, 664, 684), PackedInt32Array(664, 685, 684), PackedInt32Array(664, 665, 685), PackedInt32Array(665, 686, 685), PackedInt32Array(665, 666, 686), PackedInt32Array(666, 687, 686), PackedInt32Array(666, 667, 687), PackedInt32Array(667, 688, 687), PackedInt32Array(667, 668, 688), PackedInt32Array(668, 689, 688), PackedInt32Array(668, 669, 689), PackedInt32Array(669, 690, 689), PackedInt32Array(669, 670, 690), PackedInt32Array(670, 691, 690), PackedInt32Array(670, 671, 691), PackedInt32Array(671, 692, 691), PackedInt32Array(672, 673, 693), PackedInt32Array(673, 694, 693), PackedInt32Array(673, 674, 694), PackedInt32Array(674, 695, 694), PackedInt32Array(674, 675, 695), PackedInt32Array(675, 696, 695), PackedInt32Array(675, 676, 696), PackedInt32Array(676, 697, 696), PackedInt32Array(676, 677, 697), PackedInt32Array(677, 698, 697), PackedInt32Array(677, 678, 698), PackedInt32Array(678, 699, 698), PackedInt32Array(678, 679, 699), PackedInt32Array(679, 700, 699), PackedInt32Array(679, 680, 700), PackedInt32Array(680, 701, 700), PackedInt32Array(680, 681, 701), PackedInt32Array(681, 702, 701), PackedInt32Array(681, 682, 702), PackedInt32Array(682, 703, 702), PackedInt32Array(682, 683, 703), PackedInt32Array(683, 704, 703), PackedInt32Array(683, 684, 704), PackedInt32Array(684, 705, 704), PackedInt32Array(684, 685, 705), PackedInt32Array(685, 706, 705), PackedInt32Array(685, 686, 706), PackedInt32Array(686, 707, 706), PackedInt32Array(686, 687, 707), PackedInt32Array(687, 708, 707), PackedInt32Array(687, 688, 708), PackedInt32Array(688, 709, 708), PackedInt32Array(688, 689, 709), PackedInt32Array(689, 710, 709), PackedInt32Array(689, 690, 710), PackedInt32Array(690, 711, 710), PackedInt32Array(690, 691, 711), PackedInt32Array(691, 712, 711), PackedInt32Array(691, 692, 712), PackedInt32Array(692, 713, 712), PackedInt32Array(693, 694, 714), PackedInt32Array(694, 715, 714), PackedInt32Array(694, 695, 715), PackedInt32Array(695, 716, 715), PackedInt32Array(695, 696, 716), PackedInt32Array(696, 717, 716), PackedInt32Array(696, 697, 717), PackedInt32Array(697, 718, 717), PackedInt32Array(697, 698, 718), PackedInt32Array(698, 719, 718), PackedInt32Array(698, 699, 719), PackedInt32Array(699, 720, 719), PackedInt32Array(699, 700, 720), PackedInt32Array(700, 721, 720), PackedInt32Array(700, 701, 721), PackedInt32Array(701, 722, 721), PackedInt32Array(701, 702, 722), PackedInt32Array(702, 723, 722), PackedInt32Array(702, 703, 723), PackedInt32Array(703, 724, 723), PackedInt32Array(703, 704, 724), PackedInt32Array(704, 725, 724), PackedInt32Array(704, 705, 725), PackedInt32Array(705, 726, 725), PackedInt32Array(705, 706, 726), PackedInt32Array(706, 727, 726), PackedInt32Array(706, 707, 727), PackedInt32Array(707, 728, 727), PackedInt32Array(707, 708, 728), PackedInt32Array(708, 729, 728), PackedInt32Array(708, 709, 729), PackedInt32Array(709, 730, 729), PackedInt32Array(709, 710, 730), PackedInt32Array(710, 731, 730), PackedInt32Array(710, 711, 731), PackedInt32Array(711, 732, 731), PackedInt32Array(711, 712, 732), PackedInt32Array(712, 733, 732), PackedInt32Array(712, 713, 733), PackedInt32Array(713, 734, 733), PackedInt32Array(714, 715, 735), PackedInt32Array(715, 736, 735), PackedInt32Array(715, 716, 736), PackedInt32Array(716, 737, 736), PackedInt32Array(716, 717, 737), PackedInt32Array(717, 738, 737), PackedInt32Array(717, 718, 738), PackedInt32Array(718, 739, 738), PackedInt32Array(718, 719, 739), PackedInt32Array(719, 740, 739), PackedInt32Array(719, 720, 740), PackedInt32Array(720, 741, 740), PackedInt32Array(720, 721, 741), PackedInt32Array(721, 742, 741), PackedInt32Array(721, 722, 742), PackedInt32Array(722, 743, 742), PackedInt32Array(722, 723, 743), PackedInt32Array(723, 744, 743), PackedInt32Array(723, 724, 744), PackedInt32Array(724, 745, 744), PackedInt32Array(724, 725, 745), PackedInt32Array(725, 746, 745), PackedInt32Array(725, 726, 746), PackedInt32Array(726, 747, 746), PackedInt32Array(726, 727, 747), PackedInt32Array(727, 748, 747), PackedInt32Array(727, 728, 748), PackedInt32Array(728, 749, 748), PackedInt32Array(728, 729, 749), PackedInt32Array(729, 750, 749), PackedInt32Array(729, 730, 750), PackedInt32Array(730, 751, 750), PackedInt32Array(730, 731, 751), PackedInt32Array(731, 752, 751), PackedInt32Array(731, 732, 752), PackedInt32Array(732, 753, 752), PackedInt32Array(732, 733, 753), PackedInt32Array(733, 754, 753), PackedInt32Array(733, 734, 754), PackedInt32Array(734, 755, 754), PackedInt32Array(735, 736, 756), PackedInt32Array(736, 757, 756), PackedInt32Array(736, 737, 757), PackedInt32Array(737, 758, 757), PackedInt32Array(737, 738, 758), PackedInt32Array(738, 759, 758), PackedInt32Array(738, 739, 759), PackedInt32Array(739, 760, 759), PackedInt32Array(739, 740, 760), PackedInt32Array(740, 761, 760), PackedInt32Array(740, 741, 761), PackedInt32Array(741, 762, 761), PackedInt32Array(741, 742, 762), PackedInt32Array(742, 763, 762), PackedInt32Array(742, 743, 763), PackedInt32Array(743, 764, 763), PackedInt32Array(743, 744, 764), PackedInt32Array(744, 765, 764), PackedInt32Array(744, 745, 765), PackedInt32Array(745, 766, 765), PackedInt32Array(745, 746, 766), PackedInt32Array(746, 767, 766), PackedInt32Array(746, 747, 767), PackedInt32Array(747, 768, 767), PackedInt32Array(747, 748, 768), PackedInt32Array(748, 769, 768), PackedInt32Array(748, 749, 769), PackedInt32Array(749, 770, 769), PackedInt32Array(749, 750, 770), PackedInt32Array(750, 771, 770), PackedInt32Array(750, 751, 771), PackedInt32Array(751, 772, 771), PackedInt32Array(751, 752, 772), PackedInt32Array(752, 773, 772), PackedInt32Array(752, 753, 773), PackedInt32Array(753, 774, 773), PackedInt32Array(753, 754, 774), PackedInt32Array(754, 775, 774), PackedInt32Array(754, 755, 775), PackedInt32Array(755, 776, 775), PackedInt32Array(756, 757, 777), PackedInt32Array(757, 778, 777), PackedInt32Array(757, 758, 778), PackedInt32Array(758, 779, 778), PackedInt32Array(758, 759, 779), PackedInt32Array(759, 780, 779), PackedInt32Array(759, 760, 780), PackedInt32Array(760, 781, 780), PackedInt32Array(760, 761, 781), PackedInt32Array(761, 782, 781), PackedInt32Array(761, 762, 782), PackedInt32Array(762, 783, 782), PackedInt32Array(762, 763, 783), PackedInt32Array(763, 784, 783), PackedInt32Array(763, 764, 784), PackedInt32Array(764, 785, 784), PackedInt32Array(764, 765, 785), PackedInt32Array(765, 786, 785), PackedInt32Array(765, 766, 786), PackedInt32Array(766, 787, 786), PackedInt32Array(766, 767, 787), PackedInt32Array(767, 788, 787), PackedInt32Array(767, 768, 788), PackedInt32Array(768, 789, 788), PackedInt32Array(768, 769, 789), PackedInt32Array(769, 790, 789), PackedInt32Array(769, 770, 790), PackedInt32Array(770, 791, 790), PackedInt32Array(770, 771, 791), PackedInt32Array(771, 792, 791), PackedInt32Array(771, 772, 792), PackedInt32Array(772, 793, 792), PackedInt32Array(772, 773, 793), PackedInt32Array(773, 794, 793), PackedInt32Array(773, 774, 794), PackedInt32Array(774, 795, 794), PackedInt32Array(774, 775, 795), PackedInt32Array(775, 796, 795), PackedInt32Array(775, 776, 796), PackedInt32Array(776, 797, 796), PackedInt32Array(777, 778, 798), PackedInt32Array(778, 799, 798), PackedInt32Array(778, 779, 799), PackedInt32Array(779, 800, 799), PackedInt32Array(779, 780, 800), PackedInt32Array(780, 801, 800), PackedInt32Array(780, 781, 801), PackedInt32Array(781, 802, 801), PackedInt32Array(781, 782, 802), PackedInt32Array(782, 803, 802), PackedInt32Array(782, 783, 803), PackedInt32Array(783, 804, 803), PackedInt32Array(783, 784, 804), PackedInt32Array(784, 805, 804), PackedInt32Array(784, 785, 805), PackedInt32Array(785, 806, 805), PackedInt32Array(785, 786, 806), PackedInt32Array(786, 807, 806), PackedInt32Array(786, 787, 807), PackedInt32Array(787, 808, 807), PackedInt32Array(787, 788, 808), PackedInt32Array(788, 809, 808), PackedInt32Array(788, 789, 809), PackedInt32Array(789, 810, 809), PackedInt32Array(789, 790, 810), PackedInt32Array(790, 811, 810), PackedInt32Array(790, 791, 811), PackedInt32Array(791, 812, 811), PackedInt32Array(791, 792, 812), PackedInt32Array(792, 813, 812), PackedInt32Array(792, 793, 813), PackedInt32Array(793, 814, 813), PackedInt32Array(793, 794, 814), PackedInt32Array(794, 815, 814), PackedInt32Array(794, 795, 815), PackedInt32Array(795, 816, 815), PackedInt32Array(795, 796, 816), PackedInt32Array(796, 817, 816), PackedInt32Array(796, 797, 817), PackedInt32Array(797, 818, 817), PackedInt32Array(798, 799, 819), PackedInt32Array(799, 820, 819), PackedInt32Array(799, 800, 820), PackedInt32Array(800, 821, 820), PackedInt32Array(800, 801, 821), PackedInt32Array(801, 822, 821), PackedInt32Array(801, 802, 822), PackedInt32Array(802, 823, 822), PackedInt32Array(802, 803, 823), PackedInt32Array(803, 824, 823), PackedInt32Array(803, 804, 824), PackedInt32Array(804, 825, 824), PackedInt32Array(804, 805, 825), PackedInt32Array(805, 826, 825), PackedInt32Array(805, 806, 826), PackedInt32Array(806, 827, 826), PackedInt32Array(806, 807, 827), PackedInt32Array(807, 828, 827), PackedInt32Array(807, 808, 828), PackedInt32Array(808, 829, 828), PackedInt32Array(808, 809, 829), PackedInt32Array(809, 830, 829), PackedInt32Array(809, 810, 830), PackedInt32Array(810, 831, 830), PackedInt32Array(810, 811, 831), PackedInt32Array(811, 832, 831), PackedInt32Array(811, 812, 832), PackedInt32Array(812, 833, 832), PackedInt32Array(812, 813, 833), PackedInt32Array(813, 834, 833), PackedInt32Array(813, 814, 834), PackedInt32Array(814, 835, 834), PackedInt32Array(814, 815, 835), PackedInt32Array(815, 836, 835), PackedInt32Array(815, 816, 836), PackedInt32Array(816, 837, 836), PackedInt32Array(816, 817, 837), PackedInt32Array(817, 838, 837), PackedInt32Array(817, 818, 838), PackedInt32Array(818, 839, 838)]
+bones = ["pelvis/leg_near_thigh/knee_near", PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0.08529234, 0.2842281, 0.5183162, 0.7576233, 0.9366993, 0.9999605, 0.94547063, 0.80689055, 0.6479687, 0.49009052, 0.36545563, 0.33011442, 0.37972784, 0.5654575, 0, 0, 0, 0, 0, 0, 0.01857991, 0.23468955, 0.54681396, 0.788914, 0.9504403, 0.9968963, 0.89623, 0.72490287, 0.51436865, 0.32325882, 0.16919231, 0.08018309, 0.04993156, 0.09825952, 0.376578, 0, 0, 0, 0, 0, 0, 0.042603355, 0.31530875, 0.6817646, 0.95447344, 0.9909381, 0.8777978, 0.6686286, 0.42741346, 0.22378998, 0.06928468, 0.004956663, 0, 0, 0.02904138, 0.28039297, 0, 0, 0, 0, 0, 0, 0.030548224, 0.28543344, 0.64909863, 0.93835413, 0.97364974, 0.72509074, 0.39361715, 0.16921073, 0.029482942, 0, 0, 0, 0, 0.017084204, 0.24895766, 0, 0, 0, 0, 0, 0, 0.0154598765, 0.24386705, 0.60395294, 0.91252786, 0.9875464, 0.7660545, 0.4196835, 0.25644702, 0.06515588, 0, 0, 0, 0, 0.03276237, 0.29075608, 0, 0, 0, 0, 0, 0, 0.029563027, 0.2822219, 0.6448768, 0.9356243, 0.9757589, 0.82491416, 0.75606304, 0.50884074, 0.19862676, 0.00826007, 0, 0, 0, 0.0737553, 0.36474526, 0, 0, 0, 0, 0, 0, 0.042603355, 0.31530875, 0.6817646, 0.95447344, 0.99937916, 0.9989766, 0.93383074, 0.6624046, 0.31928584, 0.056268815, 0, 0, 0.0027580403, 0.15709792, 0.45635554, 0, 0, 0, 0, 0, 0, 0.01857991, 0.23468955, 0.54681396, 0.77412957, 0.82973295, 0.92593104, 0.9873807, 0.78482884, 0.45155326, 0.13934825, 0.0013557671, 0, 0.08692382, 0.31276688, 0.6326647, 0, 0, 0, 0, 0, 0, 0, 0.08529234, 0.281381, 0.43155494, 0.51458824, 0.8354903, 0.99826133, 0.8874831, 0.6164392, 0.30290866, 0.06262612, 0.11143849, 0.27230385, 0.5507631, 0.81440824, 0, 0, 0, 0, 0, 0, 0, 0, 0.048646428, 0.112599105, 0.37973106, 0.7190883, 0.9501624, 0.98278517, 0.7955999, 0.50119895, 0.2381568, 0.37800717, 0.57938606, 0.77815276, 0.964112, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.023633223, 0.22619109, 0.5313949, 0.8252064, 0.99180174, 0.940304, 0.7226454, 0.57189316, 0.71034545, 0.85857093, 0.9712436, 0.993388, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.082899384, 0.33754474, 0.64782333, 0.894105, 0.99995655, 0.9013706, 0.89066714, 0.95703125, 0.9979633, 0.9670038, 0.85034376, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.006147775, 0.15545608, 0.42146468, 0.71223444, 0.9343964, 1, 0.9950713, 0.96880513, 0.8941472, 0.75938344, 0.56823033, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.02633124, 0.20975763, 0.48693162, 0.71825, 0.84375, 0.7993149, 0.73641104, 0.6003517, 0.45318604, 0.26191047, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.051826164, 0.216, 0.41188562, 0.5, 0.4486356, 0.38655335, 0.26354298, 0.14557315, 0.042984616, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.027255205, 0.113211766, 0.15625, 0.12298366, 0.08377694, 0.031194882, 0.00027558889, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), "pelvis/leg_near_thigh/knee_near/leg_near_shin", PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 0.91470766, 0.7157719, 0.48168382, 0.24237666, 0.063300736, 3.949449e-05, 0.05452939, 0.19310944, 0.3520313, 0.50990945, 0.6345444, 0.6698856, 0.62027216, 0.43454248, 1, 1, 1, 1, 1, 1, 0.9814201, 0.76531047, 0.45318604, 0.21108598, 0.049559683, 0.0031037019, 0.103769995, 0.27509713, 0.48563135, 0.6767412, 0.8308077, 0.9198169, 0.9500684, 0.9017405, 0.62342197, 1, 1, 1, 1, 1, 1, 0.9573966, 0.68469125, 0.3182354, 0.045526564, 0.009061886, 0.122202225, 0.33137143, 0.57258654, 0.77621, 0.9307153, 0.99504334, 1, 1, 0.9709586, 0.71960706, 1, 1, 1, 1, 1, 1, 0.9694518, 0.7145666, 0.35090134, 0.06164587, 0.026350245, 0.27490926, 0.60638285, 0.83078927, 0.97051704, 1, 1, 1, 1, 0.9829158, 0.7510423, 1, 1, 1, 1, 1, 1, 0.9845401, 0.75613296, 0.39604703, 0.08747215, 0.01245363, 0.23394547, 0.58031654, 0.743553, 0.93484414, 1, 1, 1, 1, 0.96723765, 0.70924395, 1, 1, 1, 1, 1, 1, 0.970437, 0.7177781, 0.35512325, 0.06437568, 0.024241084, 0.17508583, 0.24393696, 0.49115923, 0.80137324, 0.9917399, 1, 1, 1, 0.9262447, 0.63525474, 1, 1, 1, 1, 1, 1, 0.9573966, 0.68469125, 0.3182354, 0.045526564, 0.00062083517, 0.0010234254, 0.06616924, 0.3375954, 0.6807142, 0.9437312, 1, 1, 0.997242, 0.84290206, 0.5436445, 1, 1, 1, 1, 1, 1, 0.9814201, 0.76531047, 0.45318604, 0.22587042, 0.17026705, 0.074068986, 0.01261929, 0.21517116, 0.5484468, 0.86065173, 0.99864423, 1, 0.91307616, 0.68723315, 0.3673353, 1, 1, 1, 1, 1, 1, 1, 0.91470766, 0.718619, 0.5684451, 0.48541176, 0.1645097, 0.0017386427, 0.112516865, 0.3835608, 0.69709134, 0.9373739, 0.8885615, 0.7276961, 0.44923696, 0.18559174, 1, 1, 1, 1, 1, 1, 1, 1, 0.95135355, 0.88740087, 0.62026894, 0.2809117, 0.049837567, 0.017214851, 0.20440012, 0.49880102, 0.7618432, 0.6219928, 0.42061394, 0.22184724, 0.03588802, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.97636676, 0.7738089, 0.46860507, 0.17479362, 0.008198242, 0.059696026, 0.27735457, 0.42810687, 0.28965458, 0.14142905, 0.028756352, 0.006611981, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.9171006, 0.66245526, 0.35217667, 0.10589497, 4.3453452e-05, 0.09862941, 0.109332874, 0.04296875, 0.0020366637, 0.032996193, 0.14965624, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.9938522, 0.84454393, 0.5785353, 0.28776553, 0.06560361, 0, 0.004928717, 0.031194882, 0.1058528, 0.24061655, 0.4317697, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.97366875, 0.7902424, 0.5130684, 0.28175, 0.15625, 0.20068508, 0.26358896, 0.3996483, 0.54681396, 0.73808956, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.9481738, 0.784, 0.5881144, 0.5, 0.55136436, 0.61344665, 0.73645705, 0.85442686, 0.9570154, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.9727448, 0.88678825, 0.84375, 0.87701637, 0.91622305, 0.96880513, 0.9997244, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=176328263]
+callback_mode_method = 1
+libraries/ = SubResource("AnimationLibrary_0mxry")
+
+[node name="RigEventRelay" type="Node" parent="." unique_id=140858356]
+script = ExtResource("25_fmswl")
+
+[node name="GroundMarker" type="Marker2D" parent="." unique_id=2008860356]
+
+[node name="DebugRoot" type="Node2D" parent="." unique_id=312560440]
+visible = false
+script = ExtResource("26_jj7pe")

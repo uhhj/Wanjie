@@ -1,0 +1,236 @@
+[
+  {
+    "time": 0.0,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 0.0,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      658.0,
+      1334.0
+    ]
+  },
+  {
+    "time": 0.08333333333333333,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 0.08333333333333333,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      676.0,
+      1323.0
+    ]
+  },
+  {
+    "time": 0.16666666666666666,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 0.16666666666666666,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      689.1769145362398,
+      1314.9474411167423
+    ]
+  },
+  {
+    "time": 0.25,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 0.25,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      694.0,
+      1312.0
+    ]
+  },
+  {
+    "time": 0.3333333333333333,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 0.3333333333333333,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      689.1769145362398,
+      1314.9474411167423
+    ]
+  },
+  {
+    "time": 0.4166666666666667,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 0.4166666666666667,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      676.0,
+      1323.0
+    ]
+  },
+  {
+    "time": 0.5,
+    "side": "near",
+    "support": false,
+    "target_ankle": [
+      332.0,
+      1331.0
+    ]
+  },
+  {
+    "time": 0.5,
+    "side": "far",
+    "support": true,
+    "target_ankle": [
+      658,
+      1334
+    ]
+  },
+  {
+    "time": 0.5833333333333334,
+    "side": "near",
+    "support": false,
+    "target_ankle": [
+      350.0,
+      1320.0
+    ]
+  },
+  {
+    "time": 0.5833333333333334,
+    "side": "far",
+    "support": true,
+    "target_ankle": [
+      658,
+      1334
+    ]
+  },
+  {
+    "time": 0.6666666666666666,
+    "side": "near",
+    "support": false,
+    "target_ankle": [
+      363.1769145362398,
+      1311.9474411167423
+    ]
+  },
+  {
+    "time": 0.6666666666666666,
+    "side": "far",
+    "support": true,
+    "target_ankle": [
+      658,
+      1334
+    ]
+  },
+  {
+    "time": 0.75,
+    "side": "near",
+    "support": false,
+    "target_ankle": [
+      368.0,
+      1309.0
+    ]
+  },
+  {
+    "time": 0.75,
+    "side": "far",
+    "support": true,
+    "target_ankle": [
+      658,
+      1334
+    ]
+  },
+  {
+    "time": 0.8333333333333334,
+    "side": "near",
+    "support": false,
+    "target_ankle": [
+      363.1769145362398,
+      1311.9474411167423
+    ]
+  },
+  {
+    "time": 0.8333333333333334,
+    "side": "far",
+    "support": true,
+    "target_ankle": [
+      658,
+      1334
+    ]
+  },
+  {
+    "time": 0.9166666666666666,
+    "side": "near",
+    "support": false,
+    "target_ankle": [
+      350.0,
+      1320.0
+    ]
+  },
+  {
+    "time": 0.9166666666666666,
+    "side": "far",
+    "support": true,
+    "target_ankle": [
+      658,
+      1334
+    ]
+  },
+  {
+    "time": 1.0,
+    "side": "near",
+    "support": true,
+    "target_ankle": [
+      332,
+      1331
+    ]
+  },
+  {
+    "time": 1.0,
+    "side": "far",
+    "support": false,
+    "target_ankle": [
+      658.0,
+      1334.0
+    ]
+  }
+]
