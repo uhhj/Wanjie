@@ -1,0 +1,174 @@
+{
+  "status": "PASS_PREPARATION_ONLY",
+  "timestamp": "2026-09-12T06:32:19.027548+00:00",
+  "frozen_source_unchanged": true,
+  "prior_stage_hashes_unchanged": {
+    "work/01_no_shield.png": "830e7e277d4536285d22422c4f9c24a59cc17827b0e28008d1be28f9ee848a7b",
+    "work/02_no_shield_no_sword.png": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
+    "work/03_complete_body_base.png": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf"
+  },
+  "mask_mode_and_canvas_valid": true,
+  "mask_coverage": [
+    {
+      "file": "work/masks/fix_skirt_seam_v2.png",
+      "sha256": "35ff4d08386d4379f2311858849f8e74be3439a7f9b0d6d227cb2612dc46a758",
+      "mode": "L",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "editable_pixels": 6781,
+      "editable_canvas_percent": 0.4311,
+      "bbox_exclusive": [
+        322,
+        936,
+        609,
+        1066
+      ],
+      "review_status": "DRAFT_REVIEW_REQUIRED",
+      "semantics": "255 edit; 0 protect; convert only per verified editor contract",
+      "geometry_source": "visually inspected seams / collar on current 03",
+      "geometry": [
+        [
+          [
+            331,
+            949
+          ],
+          [
+            345,
+            954
+          ],
+          [
+            365,
+            958
+          ],
+          [
+            386,
+            945
+          ],
+          [
+            409,
+            966
+          ],
+          [
+            440,
+            991
+          ],
+          [
+            468,
+            1014
+          ],
+          [
+            480,
+            1023
+          ]
+        ],
+        [
+          [
+            478,
+            945
+          ],
+          [
+            500,
+            957
+          ],
+          [
+            527,
+            976
+          ],
+          [
+            547,
+            994
+          ],
+          [
+            568,
+            1012
+          ],
+          [
+            586,
+            1034
+          ],
+          [
+            599,
+            1056
+          ]
+        ]
+      ]
+    },
+    {
+      "file": "work/masks/remove_unapproved_collar_v2.png",
+      "sha256": "13346d68ce3a7cde54fbb7d5cd2d57c9a17289f884fb547b0decb357030719a0",
+      "mode": "L",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "editable_pixels": 4451,
+      "editable_canvas_percent": 0.283,
+      "bbox_exclusive": [
+        439,
+        350,
+        565,
+        432
+      ],
+      "review_status": "DRAFT_REVIEW_REQUIRED",
+      "semantics": "255 edit; 0 protect; convert only per verified editor contract",
+      "geometry_source": "visually inspected seams / collar on current 03",
+      "geometry": [
+        [
+          460,
+          350
+        ],
+        [
+          478,
+          356
+        ],
+        [
+          512,
+          375
+        ],
+        [
+          556,
+          397
+        ],
+        [
+          563,
+          405
+        ],
+        [
+          564,
+          430
+        ],
+        [
+          550,
+          431
+        ],
+        [
+          511,
+          414
+        ],
+        [
+          472,
+          394
+        ],
+        [
+          442,
+          385
+        ],
+        [
+          439,
+          377
+        ],
+        [
+          453,
+          368
+        ]
+      ]
+    }
+  ],
+  "ai_calls_this_continuation": 0,
+  "no_004_or_005_output": true,
+  "formal_part_png_count": 0,
+  "art_gate_passed": false,
+  "note": "Checks preparation integrity only, not repair quality or editor mask fidelity."
+}

@@ -1,12 +1,14 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**当前 Verdict：BLOCKED — STOP_ART_PIPELINE。Godot handoff：NOT_READY。**
+**当前 Verdict：BLOCKED_LOCAL_INPAINT_UNAVAILABLE。Godot handoff：NOT_READY。**
+
+本轮 `FIX_COMPLETE_BODY_GATE_V1` 已复核裙甲拼接与未经批准的高领甲，并准备两个局部 mask 草案。未验证到可靠局部 inpainting 接口，因此 004/005 均未调用。继续点是现有 `work/03_complete_body_base.png`，不能重新执行已通过的去盾阶段。当前结果见 [本轮修复门禁报告](reports/FIX_COMPLETE_BODY_GATE_V1.md) 与 [修复计划](reports/complete_body_fix_plan.md)。
 
 冻结母图已导入，只读 SHA256 校验通过。已完成三次真实 AI 编辑、受 mask 约束的候选底版、三个原像素装备提取候选，以及可恢复执行的工程工具。底版存在裙甲拼接瑕疵和未经确认的颈甲结构，未被标记为正式素材。没有生成假的 19 件 PNG，也没有把失败素材接入 Godot。
 
 项目位置：`D:\Wanjie\documents\Wanjie`。远端仓库：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
 
-- [最终状态](reports/FINAL_VERDICT.md)
+- [上一轮状态（历史记录）](reports/FINAL_VERDICT.md)
 - [完整底版审查](reports/complete_body_review.md)
 - [局部编辑交接与续跑](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
 - [16 件人体 mask 与装备隐藏区待办](docs/TODO_PART_MASK_REVIEW.md)

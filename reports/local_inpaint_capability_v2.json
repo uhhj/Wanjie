@@ -1,0 +1,31 @@
+{
+  "task": "FIX_COMPLETE_BODY_GATE_V1",
+  "checked_on": "2026-09-12",
+  "verdict": "BLOCKED_LOCAL_INPAINT_UNAVAILABLE",
+  "reliable_callable_local_mask_interface_verified": false,
+  "available_reference_image_editor": {
+    "tool": "image_gen.imagegen",
+    "parameters": ["prompt", "referenced_image_paths", "num_last_images_to_include"],
+    "dedicated_mask_parameter": false,
+    "backend_model_identifier": "not exposed",
+    "called_in_this_continuation": false,
+    "reason_not_called": "No verifiable dedicated local-mask operation; user forbids a full-image edit workaround."
+  },
+  "actual_environment_checks": [
+    {"scope": "repository files, including hidden/ignored configuration candidates", "result": "No configured image-edit endpoint or new native mask client found."},
+    {"scope": "tools/ai_inpaint_roman_guard.py", "result": "prepare/import/archive and post-compositing only; does not invoke a native inpainting model."},
+    {"scope": "Process, User, Machine environment-variable scopes", "result": "No configured values found among the inspected OpenAI/Azure/IMAGE/Stability/Replicate/FAL/ComfyUI/SDWebUI/Automatic1111 key and endpoint candidates. Values were not logged."},
+    {"scope": "PATH command discovery", "result": "No openai/imagegen/comfy/comfyui/invokeai/stable-diffusion command candidates found."},
+    {"scope": "system Python and bundled Codex Python module discovery", "result": "openai, diffusers, transformers, torch, comfy, invokeai, replicate, fal_client not found in either inspected interpreter."},
+    {"scope": "Codex config.toml relevant provider/MCP configuration", "result": "node_repl MCP found; no configured image/inpaint/mask provider found."},
+    {"scope": "running processes", "result": "No inspected image service process candidates found."},
+    {"scope": "historical raw stage 001/002/003 images", "result": "RGB 1024x1536 outputs with baked checkerboard; historical wrapper composition does not establish native local-mask support."}
+  ],
+  "scope_limit": "This is an audit of currently exposed tools and inspected environment/project configuration, not an exhaustive search of all drives, other virtual environments or browser accounts.",
+  "independent_review": "Read-only subagent capability audit and subsequent fix-plan review agreed with the stop decision.",
+  "network_api_probes": 0,
+  "new_ai_calls": 0,
+  "secrets_logged": false,
+  "job_004_status": "NOT_RUN",
+  "job_005_status": "NOT_RUN"
+}

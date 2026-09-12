@@ -1,0 +1,34 @@
+{
+  "task": "FIX_COMPLETE_BODY_GATE_V1",
+  "status": "BLOCKED_LOCAL_INPAINT_UNAVAILABLE",
+  "candidate_file": "work/05_complete_body_candidate_v2.png",
+  "candidate_exists": false,
+  "candidate_sha256": null,
+  "skirt_seam_pass": null,
+  "collar_design_pass": null,
+  "body_completeness_pass": null,
+  "identity_consistency_pass": null,
+  "evaluation_status": "NOT_EVALUATED_MISSING_V2_CANDIDATE",
+  "baseline_file": "work/03_complete_body_base.png",
+  "baseline_sha256": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf",
+  "baseline_observations": {
+    "skirt_seam": "FAIL",
+    "collar_design": "FAIL",
+    "body_completeness": "Both hands, legs and feet visible; shield/sword/cape absent",
+    "identity": "Face/helmet/crest protected; collar design drift remains"
+  },
+  "remaining_issues": [
+    "Visible diagonal skirt/hem/thigh splice remains on current 03",
+    "Unsupported raised metal collar remains on current 03",
+    "No verified reliable native local-mask inpainting interface; jobs 004/005 not run"
+  ],
+  "formal_parts": {
+    "required": 19,
+    "passed": 0,
+    "missing": 19
+  },
+  "recomposition": "NOT_RUN",
+  "joint_rotation": "NOT_RUN",
+  "godot_handoff": "NOT_READY",
+  "timestamp": "2026-09-12T06:32:17.493689+00:00"
+}

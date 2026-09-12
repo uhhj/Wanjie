@@ -1,0 +1,24 @@
+{
+  "references": [
+    {
+      "priority": 1,
+      "path": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_DESIGN_V1.png",
+      "sha256": "e51470290606b2167f723fb84d5178bdb2af4acf298c519d73143e5cb6aa826d",
+      "visually_reviewed": true
+    },
+    {
+      "priority": 2,
+      "path": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+      "visually_reviewed": true
+    },
+    {
+      "priority": 3,
+      "path": "D:\\Wanjie\\documents\\pictures\\OD_UNIT_01_ROMAN_GUARD_COMBAT_LOOK_V1.png",
+      "sha256": "e681b196e3a2865bd5866803557952346cbc53d7b2870976d6296a15a3c75a1c",
+      "visually_reviewed": true
+    }
+  ],
+  "codex_reference_used": false,
+  "limitation": "Cloth obscures neck/shoulder; hidden armor is not an approved known design."
+}
