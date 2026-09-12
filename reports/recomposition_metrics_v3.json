@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "policy": "COMBAT_RIG_V3",
+  "visual": {
+    "status": "PASS",
+    "hires": "REVIEWED_NON_BLOCKING_APPROVED_DIFFERENCES",
+    "combat_checks": {
+      "256": {
+        "character_identity": "PASS",
+        "foot_ground_line": "PASS",
+        "head_anchor": "PASS",
+        "hip_anchors": "PASS",
+        "knee_anchors": "PASS",
+        "overall_proportions": "PASS",
+        "overall_silhouette": "PASS",
+        "shield_default_position": "PASS",
+        "shoulder_anchors": "PASS",
+        "sword_default_position": "PASS"
+      },
+      "192": {
+        "character_identity": "PASS",
+        "foot_ground_line": "PASS",
+        "head_anchor": "PASS",
+        "hip_anchors": "PASS",
+        "knee_anchors": "PASS",
+        "overall_proportions": "PASS",
+        "overall_silhouette": "PASS",
+        "shield_default_position": "PASS",
+        "shoulder_anchors": "PASS",
+        "sword_default_position": "PASS"
+      }
+    },
+    "legacy_numeric_thresholds_blocking": false
+  },
+  "legacy_diagnostic": {
+    "metrics": {
+      "silhouette_iou": 0.9740600955323393,
+      "source_bbox": [
+        72,
+        38,
+        992,
+        1465
+      ],
+      "result_bbox": [
+        72,
+        30,
+        992,
+        1465
+      ],
+      "max_bbox_deviation_px": 8,
+      "centroid_deviation_px": 5.905955363763933,
+      "source_outline_within_3px_fraction": 0.9466573082997017,
+      "premultiplied_rgb_mae_union": 7.800411835953302,
+      "protected_visible_rgb_mae": 10.147508690059482,
+      "changed_alpha_pixels": 17959,
+      "note": "No registration/resizing. AI regions still count in silhouette and total error; only protected-region diagnostic excludes them."
+    },
+    "old_thresholds": {
+      "silhouette_iou_min": 0.985,
+      "bbox_deviation_px_max": 8,
+      "centroid_deviation_px_max": 5,
+      "outline_recall_min": 0.99,
+      "protected_rgb_mae_max": 12
+    },
+    "old_result": false,
+    "blocking": false
+  },
+  "render_manifest_sha256": "efd0fcf4ed14ed54959a58cc9e5376c377aa76b881f3b305a1de8b4a4c7547cf",
+  "timestamp": "2026-09-12T13:17:08.113784+00:00"
+}

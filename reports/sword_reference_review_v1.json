@@ -1,0 +1,25 @@
+{
+  "reference_priority": [
+    "DESIGN_V1",
+    "RIG_MASTER_V1",
+    "COMBAT_LOOK_V1"
+  ],
+  "references": {
+    "DESIGN_V1": {
+      "path": "D:/Wanjie/documents/pictures/OD_UNIT_01_ROMAN_GUARD_DESIGN_V1.png",
+      "sha256": "e51470290606b2167f723fb84d5178bdb2af4acf298c519d73143e5cb6aa826d"
+    },
+    "RIG_MASTER_V1": {
+      "path": "D:/Wanjie/documents/pictures/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png",
+      "sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563"
+    },
+    "COMBAT_LOOK_V1": {
+      "path": "D:/Wanjie/documents/pictures/OD_UNIT_01_ROMAN_GUARD_COMBAT_LOOK_V1.png",
+      "sha256": "e681b196e3a2865bd5866803557952346cbc53d7b2870976d6296a15a3c75a1c"
+    }
+  },
+  "finding": "Design inset has a much shorter visible grip; Rig Master and Combat Look hide current grip under a fist. Exact full current handle cannot be extracted from these references. Used one isolated sword AI completion and retained original visible metal pixels.",
+  "codex_artwork_used": false,
+  "result": "COMPLETE",
+  "timestamp": "2026-09-12T13:17:08.148809+00:00"
+}

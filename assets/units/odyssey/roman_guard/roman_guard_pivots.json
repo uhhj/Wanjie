@@ -50,8 +50,8 @@
     "arm_near_fore": {
       "anchor": "near_elbow",
       "position": [
-        333,
-        681
+        332,
+        671
       ],
       "review_required": true
     },
@@ -74,8 +74,8 @@
     "arm_far_fore": {
       "anchor": "far_elbow",
       "position": [
-        682,
-        704
+        680,
+        695
       ],
       "review_required": true
     },
@@ -98,8 +98,8 @@
     "leg_near_shin": {
       "anchor": "near_knee",
       "position": [
-        405,
-        1088
+        389,
+        1079
       ],
       "review_required": true
     },
@@ -122,8 +122,8 @@
     "leg_far_shin": {
       "anchor": "far_knee",
       "position": [
-        671,
-        1092
+        640,
+        1083
       ],
       "review_required": true
     },
@@ -173,13 +173,17 @@
     },
     "near_elbow": {
       "position": [
-        333,
-        681
+        332,
+        671
       ],
       "diameter_hint_px": 84,
-      "overlap_target_fraction": 0.25,
-      "overlap_hint_px": 21,
-      "review_required": true
+      "overlap_target_fraction": 0.32,
+      "overlap_hint_px": 27,
+      "review_required": true,
+      "axis": [
+        0.0,
+        1.0
+      ]
     },
     "near_wrist": {
       "position": [
@@ -203,13 +207,17 @@
     },
     "far_elbow": {
       "position": [
-        682,
-        704
+        680,
+        695
       ],
       "diameter_hint_px": 82,
-      "overlap_target_fraction": 0.25,
-      "overlap_hint_px": 20,
-      "review_required": true
+      "overlap_target_fraction": 0.32,
+      "overlap_hint_px": 26,
+      "review_required": true,
+      "axis": [
+        0.5500756406012316,
+        0.8351148361855061
+      ]
     },
     "far_wrist": {
       "position": [
@@ -233,13 +241,17 @@
     },
     "near_knee": {
       "position": [
-        405,
-        1088
+        389,
+        1079
       ],
-      "diameter_hint_px": 102,
-      "overlap_target_fraction": 0.25,
-      "overlap_hint_px": 26,
-      "review_required": true
+      "diameter_hint_px": 110,
+      "overlap_target_fraction": 0.32,
+      "overlap_hint_px": 35,
+      "review_required": true,
+      "axis": [
+        -0.2500595212499293,
+        0.9682304662797262
+      ]
     },
     "near_ankle": {
       "position": [
@@ -263,13 +275,17 @@
     },
     "far_knee": {
       "position": [
-        671,
-        1092
+        640,
+        1083
       ],
-      "diameter_hint_px": 100,
-      "overlap_target_fraction": 0.25,
-      "overlap_hint_px": 25,
-      "review_required": true
+      "diameter_hint_px": 112,
+      "overlap_target_fraction": 0.32,
+      "overlap_hint_px": 36,
+      "review_required": true,
+      "axis": [
+        0.09999875002343701,
+        0.9949875627331982
+      ]
     },
     "far_ankle": {
       "position": [

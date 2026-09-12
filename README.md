@@ -1,20 +1,20 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**Combat Body Gate：PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS。整体Verdict：BLOCKED（部件关节与隐藏区域）。Godot Handoff：NOT_READY。**
+**Verdict：PASS。19/19正式部件通过；Godot Handoff：READY。**
 
-已按256/192/128px实际角色高度通过白底和50%灰底验收。五处高分辨率Alpha问题保留并标为NON_BLOCKING_COMBAT_ARTIFACT，停止局部Alpha修补。当前身体候选与冻结源文件均未修改。
+Complete Body保持PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS，五处Alpha问题非阻塞。只重分了指定八个肘膝部件，建立约32%–33%真实像素重叠并校准四个pivot；256px和192px运动检查通过。
 
-已继续生成19个真实像素部件候选和masks，完成重组与18种运动预览。全部候选为同画布RGBA，但膝肘隐藏面和握柄等尚未通过美术/旋转门禁，正式批准仍为0/19。详细结果与续跑边界见以下材料。
+完整短剑已用独立握柄补全结果制作成真实RGBA，保留原剑刃及金属件像素；盾牌与其余纹理未重做。正式19件全部为1024×1536 RGBA，位于 `assets/units/odyssey/roman_guard/parts/`。
 
-- [当前完整报告](reports/COMBAT_SCALE_VISUAL_GATE_V1.md)
-- [100%实际尺寸审查](reports/combat_scale_visual_review.png)
-- [重组对照](reports/recomposition_combat_review_v2.png)
-- [真实候选运动测试](reports/joint_rotation_test_v2.png)
-- [部件局部问题](reports/part_art_review_v2.json)
+- [完整修复与验收报告](reports/ARTICULATED_PART_FIX_V1.md)
+- [Pivot与重叠](reports/joint_pivot_review_v3.png)
+- [256/192px关节审查](reports/joint_rotation_combat_scale_v3.png)
+- [完整短剑](reports/full_sword_review_v1.png)
+- [256px重组](reports/recomposition_256px_v3.png)
+- [192px重组](reports/recomposition_192px_v3.png)
 - [当前交接](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
-- [历史高分辨率Alpha报告](reports/ALPHA_MATTE_CLEANUP_V2.md)
 
-项目：`D:\Wanjie\documents\Wanjie`。远端：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。当前完整人体来源由 `tools/pipeline_config.json` 的 `complete_body_source` 指定。001–005历史保持不变，不能用历史失败底版覆盖当前通过候选。
+项目为 `D:\Wanjie\documents\Wanjie`，远端：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。新COMBAT_RIG_V3门禁按战斗尺寸视觉、结构审批和哈希证据计算；历史像素级指标保留诊断，不再阻塞。旧失败报告保留历史，当前状态以 `reports/final_status.json` 为准。
 
 ## 运行
 
@@ -32,7 +32,7 @@ python tools/test_pipeline_safety.py
 & 'C:\Users\Lenovo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' tools/run_validation.py
 ```
 
-当前源图验证返回 0；素材/重组/关节/Godot 门禁返回 2，表示预期的美术阻断，不是工具崩溃。测试夹具隔离在 `work/test_runs/`，不属于正式资产且被 Git 忽略。
+当前源图、正式部件、重组、关节和Godot交接门禁均返回0。测试夹具隔离在 `work/test_runs/`，不属于正式资产且被 Git 忽略。
 
 ## 工具与真实行为
 
@@ -42,6 +42,8 @@ python tools/test_pipeline_safety.py
 | build_body_part_candidates.py | 从已通过的身体生成可审查可见像素边界与真实关节重叠，拒绝覆盖候选 |
 | review_part_candidates.py | 在正式审批之前运行真实候选的格式、重组和18种运动诊断，不授予正式PASS |
 | test_combat_gate.py | 验证审批哈希失效、显示尺寸证据与Combat/Artwork范围隔离 |
+| review_articulated_v3.py | 渲染原分辨率、256/192px肘膝、盾剑与重组证据；扩大预览视口而不改PNG画布 |
+| sword_completion.py | 验证原金属件与局部生成握柄的精确装配来源，阻止改剑刃冒充补全 |
 | cleanup_roman_guard_alpha_v2.py | trimap、保守组件清理、局部距离/颜色 Alpha 估计和半透明 RGB 去污染；拒绝覆盖本轮候选 |
 | review_alpha_cleanup_v2.py | 四背景、trimap、11 个精确 4x 局部条带和 halo debug |
 | mark_alpha_touchup_targets_v2.py | 标注已观察到的五处局部问题，不修图 |
@@ -57,17 +59,17 @@ python tools/test_pipeline_safety.py
 | normalize_part_canvas.py | 以明确 offset 补齐同画布 RGBA，禁止自动拉伸和猜测位置 |
 | extract_roman_guard_parts.py | 优先提取真实源像素，分别管理候选和正式发布 |
 | validate_parts.py | 19 件、来源、hash、透明通道、画布和美术审查门禁 |
-| recompose_roman_guard.py | 实际 draw passes 重组、轮廓/位置/RGB 对比、diff 图；缺件时 NOT_RUN |
-| generate_joint_rotation_test.py | 肘膝 ±20° 与 0°；前臂连带手和武器旋转；膝连带小腿与脚；盾 socket、剑 20°/30°；启发式连续性检查加视觉审查 |
+| recompose_roman_guard.py | V3模式核验正式部件与战斗尺寸重组证据；旧模式保留历史渲染路径 |
+| generate_joint_rotation_test.py | V3模式核验已渲染的关节动作证据及当前pivot/part哈希；旧模式保留原测试路径 |
 | record_art_review.py | 用当前文件 SHA256 记录实际 PASS/FAIL，防止旧审查被复用 |
 | check_godot_handoff.py | 检查全部当下结果与绘制配置，再决定 READY/NOT_READY |
 
-19个真实像素候选、masks与pivot已建立；关节旋转暴露的局部缺口尚未通过。未创建空白部件填数，候选与正式发布保持分离。
+19个正式部件、masks与pivot均通过当前Combat范围审批；候选和历史版本仍独立保留。
 
 一个 cape PNG 同时包含后摆与前领，重组使用两次互斥 mask 绘制同一核心纹理；它仍是 19 个核心部件之一。这个 draw order 提案也必须在实际重组时审查。没有新增兵种、第三方骨骼插件或自动安装 Godot。
 
 ## Godot 后续
 
-用户已确认从零建立仓库，并将仓库名称更正为 `Wanjie`（GitHub 所有者为 `uhhj`）；原有 `ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V1` 和 `HUMAN_MEDIUM_RIG_V1` 工程文件不在本机任务中。只有素材 READY 后，才创建 Godot 4.7.2 Stable 原生 Skeleton2D/Bone2D 场景和 idle、walk、attack_01、hit、death。当前没有创建占位骨骼、动画或伪称已经接入。
+用户已确认从零建立仓库，并将仓库名称更正为 `Wanjie`（GitHub 所有者为 `uhhj`）；原有 `ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V1` 和 `HUMAN_MEDIUM_RIG_V1` 工程文件不在本机任务中。只有素材 READY 后，才创建 Godot 4.7.2 Stable 原生 Skeleton2D/Bone2D 场景和 idle、walk、attack_01、hit、death。当前完成资产READY交接，Godot场景和动画尚未创建。
 
 API key 不在工程内。`.env`、密钥文件和运行缓存被忽略。`origin` 为 `https://github.com/uhhj/Wanjie.git`，工作分支为 `feature/roman-guard-ai-rig-assets-v1`。AI 调用记录中的旧本地路径保留为调用时的真实历史，不因仓库改名而改写。

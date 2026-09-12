@@ -1,10 +1,7 @@
 {
-  "status": "NOT_RUN",
-  "reason": "Formal parts gate failed",
-  "elbows": "NOT_RUN",
-  "knees": "NOT_RUN",
-  "shield": "NOT_RUN",
-  "sword": "NOT_RUN",
-  "images_generated": false,
-  "timestamp": "2026-09-12T11:59:28.938661+00:00"
+  "status": "PASS",
+  "policy": "COMBAT_RIG_V3",
+  "section": "joints",
+  "errors": [],
+  "timestamp": "2026-09-12T13:06:35.442614+00:00"
 }

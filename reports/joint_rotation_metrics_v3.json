@@ -1,0 +1,274 @@
+{
+  "status": "PASS_WITH_NON_BLOCKING_HIRES_JOINT_ARTIFACT",
+  "visual": {
+    "status": "PASS_WITH_NON_BLOCKING_HIRES_JOINT_ARTIFACT",
+    "hires": "REVIEWED_NON_BLOCKING_SEAMS",
+    "combat_checks": {
+      "near_elbow": {
+        "256": "PASS",
+        "192": "PASS"
+      },
+      "far_elbow": {
+        "256": "PASS",
+        "192": "PASS"
+      },
+      "near_knee": {
+        "256": "PASS",
+        "192": "PASS"
+      },
+      "far_knee": {
+        "256": "PASS",
+        "192": "PASS"
+      }
+    }
+  },
+  "overlap": {
+    "status": "PASS",
+    "joints": [
+      {
+        "joint": "near_elbow",
+        "parent": "arm_near_upper",
+        "child": "arm_near_fore",
+        "pivot": [
+          332,
+          671
+        ],
+        "diameter_px": 84,
+        "overlap_pixel_area": 2708,
+        "overlap_axis_span_px": 27.0,
+        "approximate_overlap_percent": 32.142857142857146,
+        "changed_mask_region": [
+          284,
+          642,
+          391,
+          721
+        ],
+        "source_pixels_only": true
+      },
+      {
+        "joint": "far_elbow",
+        "parent": "arm_far_upper",
+        "child": "arm_far_fore",
+        "pivot": [
+          680,
+          695
+        ],
+        "diameter_px": 82,
+        "overlap_pixel_area": 2539,
+        "overlap_axis_span_px": 27.233607369036918,
+        "approximate_overlap_percent": 33.21171630370356,
+        "changed_mask_region": [
+          623,
+          667,
+          725,
+          739
+        ],
+        "source_pixels_only": true
+      },
+      {
+        "joint": "near_knee",
+        "parent": "leg_near_thigh",
+        "child": "leg_near_shin",
+        "pivot": [
+          389,
+          1079
+        ],
+        "diameter_px": 110,
+        "overlap_pixel_area": 4271,
+        "overlap_axis_span_px": 36.18837583029005,
+        "approximate_overlap_percent": 32.89852348208186,
+        "changed_mask_region": [
+          321,
+          1025,
+          453,
+          1111
+        ],
+        "source_pixels_only": true
+      },
+      {
+        "joint": "far_knee",
+        "parent": "leg_far_thigh",
+        "child": "leg_far_shin",
+        "pivot": [
+          640,
+          1083
+        ],
+        "diameter_px": 112,
+        "overlap_pixel_area": 4693,
+        "overlap_axis_span_px": 36.83955200839982,
+        "approximate_overlap_percent": 32.89245715035698,
+        "changed_mask_region": [
+          574,
+          1029,
+          714,
+          1135
+        ],
+        "source_pixels_only": true
+      }
+    ],
+    "body_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+    "only_eight_parts_changed": true,
+    "timestamp": "2026-09-12T13:04:15.726934+00:00",
+    "pivot_review_status": "PASS"
+  },
+  "tests": [
+    {
+      "joint": "near_elbow",
+      "angle": -20,
+      "pivot": [
+        332,
+        671
+      ],
+      "frame": "reports/joints_v3/near_elbow_-20.png",
+      "moved_parts": [
+        "arm_near_fore",
+        "hand_near"
+      ]
+    },
+    {
+      "joint": "near_elbow",
+      "angle": 0,
+      "pivot": [
+        332,
+        671
+      ],
+      "frame": "reports/joints_v3/near_elbow_+0.png",
+      "moved_parts": [
+        "arm_near_fore",
+        "hand_near"
+      ]
+    },
+    {
+      "joint": "near_elbow",
+      "angle": 20,
+      "pivot": [
+        332,
+        671
+      ],
+      "frame": "reports/joints_v3/near_elbow_+20.png",
+      "moved_parts": [
+        "arm_near_fore",
+        "hand_near"
+      ]
+    },
+    {
+      "joint": "far_elbow",
+      "angle": -20,
+      "pivot": [
+        680,
+        695
+      ],
+      "frame": "reports/joints_v3/far_elbow_-20.png",
+      "moved_parts": [
+        "arm_far_fore",
+        "hand_far"
+      ]
+    },
+    {
+      "joint": "far_elbow",
+      "angle": 0,
+      "pivot": [
+        680,
+        695
+      ],
+      "frame": "reports/joints_v3/far_elbow_+0.png",
+      "moved_parts": [
+        "arm_far_fore",
+        "hand_far"
+      ]
+    },
+    {
+      "joint": "far_elbow",
+      "angle": 20,
+      "pivot": [
+        680,
+        695
+      ],
+      "frame": "reports/joints_v3/far_elbow_+20.png",
+      "moved_parts": [
+        "arm_far_fore",
+        "hand_far"
+      ]
+    },
+    {
+      "joint": "near_knee",
+      "angle": -20,
+      "pivot": [
+        389,
+        1079
+      ],
+      "frame": "reports/joints_v3/near_knee_-20.png",
+      "moved_parts": [
+        "leg_near_shin",
+        "foot_near"
+      ]
+    },
+    {
+      "joint": "near_knee",
+      "angle": 0,
+      "pivot": [
+        389,
+        1079
+      ],
+      "frame": "reports/joints_v3/near_knee_+0.png",
+      "moved_parts": [
+        "leg_near_shin",
+        "foot_near"
+      ]
+    },
+    {
+      "joint": "near_knee",
+      "angle": 20,
+      "pivot": [
+        389,
+        1079
+      ],
+      "frame": "reports/joints_v3/near_knee_+20.png",
+      "moved_parts": [
+        "leg_near_shin",
+        "foot_near"
+      ]
+    },
+    {
+      "joint": "far_knee",
+      "angle": -20,
+      "pivot": [
+        640,
+        1083
+      ],
+      "frame": "reports/joints_v3/far_knee_-20.png",
+      "moved_parts": [
+        "leg_far_shin",
+        "foot_far"
+      ]
+    },
+    {
+      "joint": "far_knee",
+      "angle": 0,
+      "pivot": [
+        640,
+        1083
+      ],
+      "frame": "reports/joints_v3/far_knee_+0.png",
+      "moved_parts": [
+        "leg_far_shin",
+        "foot_far"
+      ]
+    },
+    {
+      "joint": "far_knee",
+      "angle": 20,
+      "pivot": [
+        640,
+        1083
+      ],
+      "frame": "reports/joints_v3/far_knee_+20.png",
+      "moved_parts": [
+        "leg_far_shin",
+        "foot_far"
+      ]
+    }
+  ],
+  "render_manifest_sha256": "efd0fcf4ed14ed54959a58cc9e5376c377aa76b881f3b305a1de8b4a4c7547cf",
+  "timestamp": "2026-09-12T13:17:08.117796+00:00"
+}

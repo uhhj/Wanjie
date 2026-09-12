@@ -1,0 +1,123 @@
+{
+  "policy": "COMBAT_RIG_V3",
+  "status": "PASS",
+  "reviewer": "Codex visual review of native 256px / 192px sheets and full-resolution context",
+  "notes": "No visible transparent joint disconnection at either combat height. Identity, all requested anchors, ground line, equipment default placement and proportions are acceptable. High-resolution joint seams and five historical alpha edge artifacts remain nonblocking. Only the tested motion range is approved.",
+  "render_manifest_sha256": "efd0fcf4ed14ed54959a58cc9e5376c377aa76b881f3b305a1de8b4a4c7547cf",
+  "mask_hashes": {
+    "head": "1ddf100900c24eb12c9b5b8f23f52a91852dfab514fc5ac274ebd73a4e414d64",
+    "helmet": "4b10586f9b620b9d1436a72fa5a6c5a7fc0d55898b321a53df99bc68b1700b68",
+    "torso": "0b8dc4d598461e6ffafa359028b10cc7bf4a1a80e6c51decc7ad51fb7a409997",
+    "pelvis": "00264418142be10730406b450fb8bcc34fb89efac3e3f22e0f2c814cf83a3606",
+    "arm_near_upper": "c40235147ecbeea602e9449b0598c3a7384435a002533bf6fb988562ad42410e",
+    "arm_near_fore": "65b26d5c5c9656f097597aa77320dfd3f5cf80d41796a1f092610070f83ebf09",
+    "hand_near": "a77a3e75715e050e20e7065be985f09412ace202383c1726aa421d0ea7e5bb6f",
+    "arm_far_upper": "55f4fc749d51596316db24545f310978b16a1b53d30ac4352e57e88e222f35fd",
+    "arm_far_fore": "90001ea806286fd8445014aba4677e1e5d95e898f2a0f725ff3994c8a0cdb33a",
+    "hand_far": "f0843ae55670a68754b4dae26328a4b30a669bac748b246a507bd1161cc718d4",
+    "leg_near_thigh": "588fdb03c4378f3133a52c50ebfaa03433c55fb7153604e712bf8adb89bb51e6",
+    "leg_near_shin": "4100e893628dbd7d06139198c91c9c1554540158c374ec2c9a6d18d73f38af12",
+    "foot_near": "bf78cef81ef5808ce7a411c838a9c5aa32acb3b7daab4b4d450688fb9cd11845",
+    "leg_far_thigh": "cfd8eff2bb11b9f7c6c9bf5b77e6d9ac8d3256411005c5695e308d48a0e26d8c",
+    "leg_far_shin": "82d4966a14934e5d0c3e4abfab6212501bb1e04a17977bbb6ae322e2ca78abe9",
+    "foot_far": "844b286fc41658282c8dc98814606755c4d6b3184e241b7424f868fe84c387c4",
+    "shield": "7cd86c4b626641f6ea58f19a908f6b0374d498520a11edd604ca86aaa612a2ac",
+    "sword": "e32823268ceb5fe6f62500a98445c6b8a4a3ddf042585cc2108997b864bc7e57",
+    "cape": "010565883e94eb318eca3293b4be9075ddb535e28364fcf1d0d6fbda2604bbeb"
+  },
+  "extra_evidence": {
+    "reports/full_sword_review_v1.png": "76e9e03fb0057b20e7d6612cd05e9cf7a060dd580ac82df9d1a9da3bb0d9650e",
+    "reports/full_sword_grip_review_v1.png": "c1cba5c6715cb95bd09a4bece05180c5cd4b8be3fab8a403ae378449901bd2c0",
+    "reports/full_sword_assembly_v1.json": "6a5374952391fe392bf951914d0762b52048e98aba00f7da4fbaf2c9bd72b0ef",
+    "reports/joint_overlap_metrics_v3.json": "c2aff8dc2af1d9529a5e24a657af2cfb8025f2ffcba562e07247ad3da3583f71"
+  },
+  "joints": {
+    "status": "PASS_WITH_NON_BLOCKING_HIRES_JOINT_ARTIFACT",
+    "hires": "REVIEWED_NON_BLOCKING_SEAMS",
+    "combat_checks": {
+      "near_elbow": {
+        "256": "PASS",
+        "192": "PASS"
+      },
+      "far_elbow": {
+        "256": "PASS",
+        "192": "PASS"
+      },
+      "near_knee": {
+        "256": "PASS",
+        "192": "PASS"
+      },
+      "far_knee": {
+        "256": "PASS",
+        "192": "PASS"
+      }
+    }
+  },
+  "recomposition": {
+    "status": "PASS",
+    "hires": "REVIEWED_NON_BLOCKING_APPROVED_DIFFERENCES",
+    "combat_checks": {
+      "256": {
+        "character_identity": "PASS",
+        "foot_ground_line": "PASS",
+        "head_anchor": "PASS",
+        "hip_anchors": "PASS",
+        "knee_anchors": "PASS",
+        "overall_proportions": "PASS",
+        "overall_silhouette": "PASS",
+        "shield_default_position": "PASS",
+        "shoulder_anchors": "PASS",
+        "sword_default_position": "PASS"
+      },
+      "192": {
+        "character_identity": "PASS",
+        "foot_ground_line": "PASS",
+        "head_anchor": "PASS",
+        "hip_anchors": "PASS",
+        "knee_anchors": "PASS",
+        "overall_proportions": "PASS",
+        "overall_silhouette": "PASS",
+        "shield_default_position": "PASS",
+        "shoulder_anchors": "PASS",
+        "sword_default_position": "PASS"
+      }
+    },
+    "legacy_numeric_thresholds_blocking": false
+  },
+  "shield": {
+    "status": "PASS",
+    "256": "PASS",
+    "192": "PASS",
+    "texture_unchanged": true
+  },
+  "full_sword": {
+    "status": "PASS",
+    "asset": "FULL_SWORD_V1",
+    "file": "assets/units/odyssey/roman_guard/parts/sword.png",
+    "sha256": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+    "actual_rgba": true,
+    "connected_main_component": true
+  },
+  "parts_structural": {
+    "head": "PASS",
+    "helmet": "PASS",
+    "torso": "PASS",
+    "pelvis": "PASS",
+    "arm_near_upper": "PASS",
+    "arm_near_fore": "PASS",
+    "hand_near": "PASS",
+    "arm_far_upper": "PASS",
+    "arm_far_fore": "PASS",
+    "hand_far": "PASS",
+    "leg_near_thigh": "PASS",
+    "leg_near_shin": "PASS",
+    "foot_near": "PASS",
+    "leg_far_thigh": "PASS",
+    "leg_far_shin": "PASS",
+    "foot_far": "PASS",
+    "shield": "PASS",
+    "sword": "PASS",
+    "cape": "PASS"
+  },
+  "timestamp": "2026-09-12T13:04:17.322839+00:00"
+}

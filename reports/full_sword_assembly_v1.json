@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "original": "work/candidates/parts/sword.png",
+  "original_sha256": "97b24573e0084edf2e0ca0ceb98da2325b29abe592f1048891b586ac2b1ef9f5",
+  "generated_reference": "work/candidates/full_sword_v1_raw.png",
+  "generated_reference_sha256": "a7e48318d8625ade4d5b76992f0d5d050c0013d82579643738ed8d48c780be95",
+  "generated_reference_mode": "RGB_EMBEDDED_CHECKER_NOT_TRANSPARENT",
+  "output": "work/candidates/parts/full_sword_v1.png",
+  "output_sha256": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "grip_source": "AI generated isolated grip; original visible metallic pixels retained",
+  "grip_pixels": 5088,
+  "removed_skin_remnant_pixels": 648,
+  "protected_original_changed_pixels": 0,
+  "components_over_32_alpha": [
+    24726
+  ],
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "timestamp": "2026-09-12T12:57:34.810461+00:00",
+  "grip_mask": "work/masks/full_sword_grip_v1.png",
+  "remove_mask": "work/masks/full_sword_remove_skin_v1.png",
+  "grip_mask_sha256": "99883275eb5f8c506e10e560beb6484165fc40d975ae34d3aec32b5ab8ade09e",
+  "remove_mask_sha256": "3122c1e9e4d5409e77312874e75e2b4828814234c8e8287beefb0cc28c998637",
+  "visual_review": "Complete blade, guard, leather grip and pommel; no hand, character or embedded checker in final RGBA. Original retained metallic pixels unchanged."
+}

@@ -1,0 +1,25 @@
+{
+  "task": "FULL_SWORD_V1",
+  "tool": "image_gen.imagegen",
+  "model": "not disclosed by tool",
+  "input_file": "work/candidates/parts/sword.png",
+  "input_sha256": "97b24573e0084edf2e0ca0ceb98da2325b29abe592f1048891b586ac2b1ef9f5",
+  "prompt_file": "work/prompts/FULL_SWORD_V1.txt",
+  "output_file": "work/candidates/full_sword_v1_raw.png",
+  "output_sha256": "a7e48318d8625ade4d5b76992f0d5d050c0013d82579643738ed8d48c780be95",
+  "actual_output_mode": "RGB with embedded checkerboard",
+  "native_alpha_returned": false,
+  "final_extracted_candidate": "work/candidates/parts/full_sword_v1.png",
+  "final_sha256": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+  "completion_scope": "Independent missing grip only; no body input or body editing",
+  "timestamp": "2026-09-12T12:57:35.698863+00:00",
+  "prompt": "Use case: precise-object-edit. Edit target is this isolated Roman sword asset on a 1024x1536 transparent canvas. It has a gap in its brown leather grip between the existing gold pommel (near x260 y832) and the existing gold guard (near x381 y908). COMPLETE ONLY THE MISSING LEATHER HANDLE to connect those existing pieces into exactly one intact sword. Preserve the existing steel blade, full sharp tip, blade facets and scratches, gold guard and pommel design, positions, angle and scale. The blade runs diagonally down-right to about x630 y1110. Do not shorten the handle or move its endpoints. Remove any tiny skin/red cloth remnants at the guard; no hand, no person, no other equipment. Same 2D hand-painted semi-realistic cartoon game style. Actual transparent RGBA background, no checkerboard painted into image, no shadow, no labels. Entire canvas stays 1024x1536, sword at the same coordinates. Only supply the missing brown leather grip and its natural shading; no redesign and no new decorations.\n",
+  "mask": null,
+  "native_mask_argument_supported": false,
+  "local_extraction_masks": [
+    "work/masks/full_sword_grip_v1.png",
+    "work/masks/full_sword_remove_skin_v1.png"
+  ],
+  "formal_output": "assets/units/odyssey/roman_guard/parts/sword.png",
+  "formal_output_sha256": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295"
+}

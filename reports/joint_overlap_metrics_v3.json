@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "joints": [
+    {
+      "joint": "near_elbow",
+      "parent": "arm_near_upper",
+      "child": "arm_near_fore",
+      "pivot": [
+        332,
+        671
+      ],
+      "diameter_px": 84,
+      "overlap_pixel_area": 2708,
+      "overlap_axis_span_px": 27.0,
+      "approximate_overlap_percent": 32.142857142857146,
+      "changed_mask_region": [
+        284,
+        642,
+        391,
+        721
+      ],
+      "source_pixels_only": true
+    },
+    {
+      "joint": "far_elbow",
+      "parent": "arm_far_upper",
+      "child": "arm_far_fore",
+      "pivot": [
+        680,
+        695
+      ],
+      "diameter_px": 82,
+      "overlap_pixel_area": 2539,
+      "overlap_axis_span_px": 27.233607369036918,
+      "approximate_overlap_percent": 33.21171630370356,
+      "changed_mask_region": [
+        623,
+        667,
+        725,
+        739
+      ],
+      "source_pixels_only": true
+    },
+    {
+      "joint": "near_knee",
+      "parent": "leg_near_thigh",
+      "child": "leg_near_shin",
+      "pivot": [
+        389,
+        1079
+      ],
+      "diameter_px": 110,
+      "overlap_pixel_area": 4271,
+      "overlap_axis_span_px": 36.18837583029005,
+      "approximate_overlap_percent": 32.89852348208186,
+      "changed_mask_region": [
+        321,
+        1025,
+        453,
+        1111
+      ],
+      "source_pixels_only": true
+    },
+    {
+      "joint": "far_knee",
+      "parent": "leg_far_thigh",
+      "child": "leg_far_shin",
+      "pivot": [
+        640,
+        1083
+      ],
+      "diameter_px": 112,
+      "overlap_pixel_area": 4693,
+      "overlap_axis_span_px": 36.83955200839982,
+      "approximate_overlap_percent": 32.89245715035698,
+      "changed_mask_region": [
+        574,
+        1029,
+        714,
+        1135
+      ],
+      "source_pixels_only": true
+    }
+  ],
+  "body_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "only_eight_parts_changed": true,
+  "timestamp": "2026-09-12T13:04:15.726934+00:00",
+  "pivot_review_status": "PASS"
+}

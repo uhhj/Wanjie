@@ -3,6 +3,11 @@ from rg_common import *
 from validate_parts import validate
 from recompose_roman_guard import render_config_digest
 def main():
+    if config().get('asset_gate_policy')=='COMBAT_RIG_V3':
+        from combat_rig_gate import audit
+        parts=validate();review=audit();errors=parts['errors']+review['errors']
+        result={'status':'READY' if not errors else 'NOT_READY','policy':'COMBAT_RIG_V3','required_engine':'Godot 4.7.2 Stable','rig_id':'HUMAN_MEDIUM_RIG_V1','native_nodes':['Skeleton2D','Bone2D'],'third_party_skeleton_plugins':False,'parts_structurally_approved':parts['generated_formal_count'] if parts['status']=='PASS' else 0,'errors':errors,'scope':'Asset handoff approval, not a claim that Godot scenes or animations have been built','timestamp':now()}
+        write('reports/godot_handoff.json',result);print(result['status']);return 0 if not errors else 2
     parts=validate(); errors=list(parts['errors']); m=read('tools/roman_guard_parts_manifest.json')
     hashes={p['name']:sha(p['file']) for p in m['parts'] if (ROOT/p['file']).exists()}
     for report,path in [('reports/recomposition_metrics.json','reports/roman_guard_recomposed.png'),('reports/joint_rotation_metrics.json','reports/joint_rotation_test.png')]:

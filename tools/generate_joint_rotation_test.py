@@ -41,6 +41,10 @@ def joint_diagnostic(fixed,rest,moving,pivot,diameter,axis=None,check_rest_overl
     if check_rest_overlap: passed=passed and projection_fraction is not None and .20<=projection_fraction<=.30
     return {'automatic_status':'PASS' if passed else 'FAIL','overlap_pixels':inter,'overlap_axis_span_fraction_of_joint_diameter':projection_fraction,'rest_overlap_requirement_checked':check_rest_overlap,'local_coverage_loss_fraction':fraction,'enclosed_hole_growth_pixels':hole_growth,'note':'Heuristic only; open wedges and armor continuity require the contact-sheet visual review.'}
 def main():
+    if config().get('asset_gate_policy')=='COMBAT_RIG_V3':
+        from combat_rig_gate import audit
+        report=audit('joints');write('reports/joint_rotation_metrics.json',report)
+        print(report['status']);return 0 if report['status']=='PASS' else 2
     argparse.ArgumentParser(description=__doc__).parse_args(); validation=validate()
     if validation['status']!='PASS':
         write('reports/joint_rotation_metrics.json',{'status':'NOT_RUN','reason':'Formal parts gate failed','elbows':'NOT_RUN','knees':'NOT_RUN','shield':'NOT_RUN','sword':'NOT_RUN','images_generated':False,'timestamp':now()}); print('NOT_RUN: formal parts gate failed'); return 2

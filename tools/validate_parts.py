@@ -1,6 +1,7 @@
 """Gate formal parts by names, provenance, canvas, alpha, mask and art reviews."""
 import argparse,json
 from rg_common import *
+from sword_completion import validate_completion
 def validate():
     errors=[]; generated=[]; missing=[]; info=[]
     try: check_source()
@@ -25,6 +26,10 @@ def validate():
             if p.get('missing_hidden_regions'): raise ValueError('Hidden-region completion unresolved')
             expected=config()['source'] if name in EQUIPMENT else body_source()
             if p['source']!=expected: raise ValueError('Unauthorized part source')
+            if p.get('production_method')=='FROZEN_SWORD_WITH_AI_GRIP_COMPLETION':
+                validate_completion(p,p['file'])
+            elif not np.array_equal(np.array(im),np.array(alpha_extract(rgba(p['source']),mask(p['mask'])))):
+                raise ValueError('Formal part contains pixels outside approved source/mask extraction')
             pivot=p.get('pivot_hint',{}).get('position')
             if not pivot or not(0<=pivot[0]<im.width and 0<=pivot[1]<im.height): raise ValueError('Pivot missing/outside canvas')
             entry.update(status='PASS',bbox=list(im.getchannel('A').getbbox()),sha256=sha(p['file']))

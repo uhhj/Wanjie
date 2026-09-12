@@ -61,5 +61,309 @@
     "notes": "Reviewed all six native-size white/gray composites. Dark outlines are continuous and intentional; no conspicuous detached dots, sole blocks or halo at target heights. No zoomed source-pixel defects used to fail this combat review. Battlefield image unavailable.",
     "qualification": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS",
     "timestamp": "2026-09-12T11:33:44.617694+00:00"
+  },
+  "part:head": {
+    "status": "PASS",
+    "file": "work/candidates/parts/head_v3.png",
+    "sha256": "326a5bb15ace6a75a1257fdfc7676a810688bea52aa6966de6b47e5b0c5e2dc3",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Helmet follows head as an attached piece; no relative helmet movement required.",
+    "timestamp": "2026-09-12T13:04:17.260513+00:00"
+  },
+  "mask:head": {
+    "status": "PASS",
+    "file": "work/masks/parts/head_v3.png",
+    "sha256": "1ddf100900c24eb12c9b5b8f23f52a91852dfab514fc5ac274ebd73a4e414d64",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Helmet follows head as an attached piece; no relative helmet movement required.",
+    "timestamp": "2026-09-12T13:04:17.261516+00:00"
+  },
+  "part:helmet": {
+    "status": "PASS",
+    "file": "work/candidates/parts/helmet_v3.png",
+    "sha256": "4834636606cb008d0e577f0936be12fb1b15e6cd3fa223f397f2fbdf812e6444",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Helmet follows head as an attached piece; no relative helmet movement required.",
+    "timestamp": "2026-09-12T13:04:17.262518+00:00"
+  },
+  "mask:helmet": {
+    "status": "PASS",
+    "file": "work/masks/parts/helmet_v3.png",
+    "sha256": "4b10586f9b620b9d1436a72fa5a6c5a7fc0d55898b321a53df99bc68b1700b68",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Helmet follows head as an attached piece; no relative helmet movement required.",
+    "timestamp": "2026-09-12T13:04:17.262518+00:00"
+  },
+  "part:torso": {
+    "status": "PASS",
+    "file": "work/candidates/parts/torso_v3.png",
+    "sha256": "946ccc174da85ca62ab326fd41f3555b708e0018058967bd39e180468df3b834",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.262518+00:00"
+  },
+  "mask:torso": {
+    "status": "PASS",
+    "file": "work/masks/parts/torso_v3.png",
+    "sha256": "0b8dc4d598461e6ffafa359028b10cc7bf4a1a80e6c51decc7ad51fb7a409997",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.263516+00:00"
+  },
+  "part:pelvis": {
+    "status": "PASS",
+    "file": "work/candidates/parts/pelvis_v3.png",
+    "sha256": "24580b8025eddb1ecd416d1e2f06b7a1104c66dd92f41b3f8e52314f95099de8",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.264516+00:00"
+  },
+  "mask:pelvis": {
+    "status": "PASS",
+    "file": "work/masks/parts/pelvis_v3.png",
+    "sha256": "00264418142be10730406b450fb8bcc34fb89efac3e3f22e0f2c814cf83a3606",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.265029+00:00"
+  },
+  "part:arm_near_upper": {
+    "status": "PASS",
+    "file": "work/candidates/parts/arm_near_upper_jointfix_v1.png",
+    "sha256": "7f7752cdc69db70243e04f843afaba54a676634d8f2742034789f41d4e056fd9",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.265029+00:00"
+  },
+  "mask:arm_near_upper": {
+    "status": "PASS",
+    "file": "work/masks/parts/arm_near_upper_jointfix_v1.png",
+    "sha256": "c40235147ecbeea602e9449b0598c3a7384435a002533bf6fb988562ad42410e",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.266034+00:00"
+  },
+  "part:arm_near_fore": {
+    "status": "PASS",
+    "file": "work/candidates/parts/arm_near_fore_jointfix_v1.png",
+    "sha256": "cdd215aa37f894c7763f67626629b0f104a59a05d3e53fb39197b70c080c171f",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.266034+00:00"
+  },
+  "mask:arm_near_fore": {
+    "status": "PASS",
+    "file": "work/masks/parts/arm_near_fore_jointfix_v1.png",
+    "sha256": "65b26d5c5c9656f097597aa77320dfd3f5cf80d41796a1f092610070f83ebf09",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.266034+00:00"
+  },
+  "part:hand_near": {
+    "status": "PASS",
+    "file": "work/candidates/parts/hand_near_v3.png",
+    "sha256": "255899b6750f126222ba9e2af0785d90e4aa8edf6c4403a12d19592334c86a57",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.267031+00:00"
+  },
+  "mask:hand_near": {
+    "status": "PASS",
+    "file": "work/masks/parts/hand_near_v3.png",
+    "sha256": "a77a3e75715e050e20e7065be985f09412ace202383c1726aa421d0ea7e5bb6f",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.267031+00:00"
+  },
+  "part:arm_far_upper": {
+    "status": "PASS",
+    "file": "work/candidates/parts/arm_far_upper_jointfix_v1.png",
+    "sha256": "e355b1f3fc698f2be7657f9049f0ce3859a3483bf3aabf4307970373beb4b607",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.267031+00:00"
+  },
+  "mask:arm_far_upper": {
+    "status": "PASS",
+    "file": "work/masks/parts/arm_far_upper_jointfix_v1.png",
+    "sha256": "55f4fc749d51596316db24545f310978b16a1b53d30ac4352e57e88e222f35fd",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.268034+00:00"
+  },
+  "part:arm_far_fore": {
+    "status": "PASS",
+    "file": "work/candidates/parts/arm_far_fore_jointfix_v1.png",
+    "sha256": "9ebde9e9f0af76275163d976bf5b83db8fd27f3797666b88a3ab8431a16749d9",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.268034+00:00"
+  },
+  "mask:arm_far_fore": {
+    "status": "PASS",
+    "file": "work/masks/parts/arm_far_fore_jointfix_v1.png",
+    "sha256": "90001ea806286fd8445014aba4677e1e5d95e898f2a0f725ff3994c8a0cdb33a",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.268034+00:00"
+  },
+  "part:hand_far": {
+    "status": "PASS",
+    "file": "work/candidates/parts/hand_far_v3.png",
+    "sha256": "e9060ac5007d764c94c0baba4a842d19ffb3b34d3dba52f978d7f9f0238eeec0",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.269031+00:00"
+  },
+  "mask:hand_far": {
+    "status": "PASS",
+    "file": "work/masks/parts/hand_far_v3.png",
+    "sha256": "f0843ae55670a68754b4dae26328a4b30a669bac748b246a507bd1161cc718d4",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.269031+00:00"
+  },
+  "part:leg_near_thigh": {
+    "status": "PASS",
+    "file": "work/candidates/parts/leg_near_thigh_jointfix_v1.png",
+    "sha256": "d370f25a83690f398c9c22a200f926a522024c89e234f23677a382e0a70e3246",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.269031+00:00"
+  },
+  "mask:leg_near_thigh": {
+    "status": "PASS",
+    "file": "work/masks/parts/leg_near_thigh_jointfix_v1.png",
+    "sha256": "588fdb03c4378f3133a52c50ebfaa03433c55fb7153604e712bf8adb89bb51e6",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.269031+00:00"
+  },
+  "part:leg_near_shin": {
+    "status": "PASS",
+    "file": "work/candidates/parts/leg_near_shin_jointfix_v1.png",
+    "sha256": "33fd03e564d20b49395727bedcbca0eb0f7335988e48cdc639dc208bf57931a6",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.271037+00:00"
+  },
+  "mask:leg_near_shin": {
+    "status": "PASS",
+    "file": "work/masks/parts/leg_near_shin_jointfix_v1.png",
+    "sha256": "4100e893628dbd7d06139198c91c9c1554540158c374ec2c9a6d18d73f38af12",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.271037+00:00"
+  },
+  "part:foot_near": {
+    "status": "PASS",
+    "file": "work/candidates/parts/foot_near_v3.png",
+    "sha256": "e3c1408132297bf7cb3f504ab6c7ad4e0f456e8ae9e49974d949b7440d4fdb8a",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.272548+00:00"
+  },
+  "mask:foot_near": {
+    "status": "PASS",
+    "file": "work/masks/parts/foot_near_v3.png",
+    "sha256": "bf78cef81ef5808ce7a411c838a9c5aa32acb3b7daab4b4d450688fb9cd11845",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.272548+00:00"
+  },
+  "part:leg_far_thigh": {
+    "status": "PASS",
+    "file": "work/candidates/parts/leg_far_thigh_jointfix_v1.png",
+    "sha256": "9482db4787522b983900f6fec140a06c5374bb23febd338b0c27bfd0e5e807e2",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.273285+00:00"
+  },
+  "mask:leg_far_thigh": {
+    "status": "PASS",
+    "file": "work/masks/parts/leg_far_thigh_jointfix_v1.png",
+    "sha256": "cfd8eff2bb11b9f7c6c9bf5b77e6d9ac8d3256411005c5695e308d48a0e26d8c",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.273980+00:00"
+  },
+  "part:leg_far_shin": {
+    "status": "PASS",
+    "file": "work/candidates/parts/leg_far_shin_jointfix_v1.png",
+    "sha256": "196453f8d6a0ea0a9f5df33798cb9f1c36d1742027b5bb89eab19bb3de33fb02",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.275117+00:00"
+  },
+  "mask:leg_far_shin": {
+    "status": "PASS",
+    "file": "work/masks/parts/leg_far_shin_jointfix_v1.png",
+    "sha256": "82d4966a14934e5d0c3e4abfab6212501bb1e04a17977bbb6ae322e2ca78abe9",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.275117+00:00"
+  },
+  "part:foot_far": {
+    "status": "PASS",
+    "file": "work/candidates/parts/foot_far_v3.png",
+    "sha256": "28162975e45b69cfe4a0426cb68cb6391e4b3cd0f485f4fa2a71fed1ff50902a",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.275777+00:00"
+  },
+  "mask:foot_far": {
+    "status": "PASS",
+    "file": "work/masks/parts/foot_far_v3.png",
+    "sha256": "844b286fc41658282c8dc98814606755c4d6b3184e241b7424f868fe84c387c4",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.276339+00:00"
+  },
+  "part:shield": {
+    "status": "PASS",
+    "file": "work/candidates/parts/shield.png",
+    "sha256": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.277975+00:00"
+  },
+  "mask:shield": {
+    "status": "PASS",
+    "file": "work/masks/equipment/shield.png",
+    "sha256": "7cd86c4b626641f6ea58f19a908f6b0374d498520a11edd604ca86aaa612a2ac",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
+    "timestamp": "2026-09-12T13:04:17.277975+00:00"
+  },
+  "part:sword": {
+    "status": "PASS",
+    "file": "work/candidates/parts/full_sword_v1.png",
+    "sha256": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+    "reviewer": "Codex visual review",
+    "notes": "Complete blade, guard, leather grip and pommel; no hand, character or embedded checker in final RGBA. Original retained metallic pixels unchanged. Independent 20/30-degree motion reviewed.",
+    "timestamp": "2026-09-12T13:04:17.278533+00:00"
+  },
+  "mask:sword": {
+    "status": "PASS",
+    "file": "work/masks/parts/sword_full_v1.png",
+    "sha256": "e32823268ceb5fe6f62500a98445c6b8a4a3ddf042585cc2108997b864bc7e57",
+    "reviewer": "Codex visual review",
+    "notes": "Complete blade, guard, leather grip and pommel; no hand, character or embedded checker in final RGBA. Original retained metallic pixels unchanged. Independent 20/30-degree motion reviewed.",
+    "timestamp": "2026-09-12T13:04:17.279896+00:00"
+  },
+  "part:cape": {
+    "status": "PASS",
+    "file": "work/candidates/parts/cape.png",
+    "sha256": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Existing two-pass cape accepted in tested range; texture unchanged. Greater cape motion needs fresh review.",
+    "timestamp": "2026-09-12T13:04:17.281000+00:00"
+  },
+  "mask:cape": {
+    "status": "PASS",
+    "file": "work/masks/equipment/cape.png",
+    "sha256": "010565883e94eb318eca3293b4be9075ddb535e28364fcf1d0d6fbda2604bbeb",
+    "reviewer": "Codex visual review",
+    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Existing two-pass cape accepted in tested range; texture unchanged. Greater cape motion needs fresh review.",
+    "timestamp": "2026-09-12T13:04:17.281000+00:00"
   }
 }

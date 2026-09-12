@@ -1,0 +1,243 @@
+{
+  "status": "VISUAL_REVIEW_REQUIRED",
+  "body_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+  "part_hashes": {
+    "head": "326a5bb15ace6a75a1257fdfc7676a810688bea52aa6966de6b47e5b0c5e2dc3",
+    "helmet": "4834636606cb008d0e577f0936be12fb1b15e6cd3fa223f397f2fbdf812e6444",
+    "torso": "946ccc174da85ca62ab326fd41f3555b708e0018058967bd39e180468df3b834",
+    "pelvis": "24580b8025eddb1ecd416d1e2f06b7a1104c66dd92f41b3f8e52314f95099de8",
+    "arm_near_upper": "7f7752cdc69db70243e04f843afaba54a676634d8f2742034789f41d4e056fd9",
+    "arm_near_fore": "cdd215aa37f894c7763f67626629b0f104a59a05d3e53fb39197b70c080c171f",
+    "hand_near": "255899b6750f126222ba9e2af0785d90e4aa8edf6c4403a12d19592334c86a57",
+    "arm_far_upper": "e355b1f3fc698f2be7657f9049f0ce3859a3483bf3aabf4307970373beb4b607",
+    "arm_far_fore": "9ebde9e9f0af76275163d976bf5b83db8fd27f3797666b88a3ab8431a16749d9",
+    "hand_far": "e9060ac5007d764c94c0baba4a842d19ffb3b34d3dba52f978d7f9f0238eeec0",
+    "leg_near_thigh": "d370f25a83690f398c9c22a200f926a522024c89e234f23677a382e0a70e3246",
+    "leg_near_shin": "33fd03e564d20b49395727bedcbca0eb0f7335988e48cdc639dc208bf57931a6",
+    "foot_near": "e3c1408132297bf7cb3f504ab6c7ad4e0f456e8ae9e49974d949b7440d4fdb8a",
+    "leg_far_thigh": "9482db4787522b983900f6fec140a06c5374bb23febd338b0c27bfd0e5e807e2",
+    "leg_far_shin": "196453f8d6a0ea0a9f5df33798cb9f1c36d1742027b5bb89eab19bb3de33fb02",
+    "foot_far": "28162975e45b69cfe4a0426cb68cb6391e4b3cd0f485f4fa2a71fed1ff50902a",
+    "shield": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+    "sword": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+    "cape": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8"
+  },
+  "pivot_sha256": "8b675177b439d098ab4a53bf3a9c732c367d8d6b654a9a2dd5725ad6f0d04150",
+  "render_config_sha256": "b7ed3f3fd33968a1a482dc16b72c85b56cee14222acbf40f83a5697dd69c7e9b",
+  "tests": [
+    {
+      "joint": "near_elbow",
+      "angle": -20,
+      "pivot": [
+        332,
+        671
+      ],
+      "frame": "reports/joints_v3/near_elbow_-20.png",
+      "moved_parts": [
+        "arm_near_fore",
+        "hand_near"
+      ]
+    },
+    {
+      "joint": "near_elbow",
+      "angle": 0,
+      "pivot": [
+        332,
+        671
+      ],
+      "frame": "reports/joints_v3/near_elbow_+0.png",
+      "moved_parts": [
+        "arm_near_fore",
+        "hand_near"
+      ]
+    },
+    {
+      "joint": "near_elbow",
+      "angle": 20,
+      "pivot": [
+        332,
+        671
+      ],
+      "frame": "reports/joints_v3/near_elbow_+20.png",
+      "moved_parts": [
+        "arm_near_fore",
+        "hand_near"
+      ]
+    },
+    {
+      "joint": "far_elbow",
+      "angle": -20,
+      "pivot": [
+        680,
+        695
+      ],
+      "frame": "reports/joints_v3/far_elbow_-20.png",
+      "moved_parts": [
+        "arm_far_fore",
+        "hand_far"
+      ]
+    },
+    {
+      "joint": "far_elbow",
+      "angle": 0,
+      "pivot": [
+        680,
+        695
+      ],
+      "frame": "reports/joints_v3/far_elbow_+0.png",
+      "moved_parts": [
+        "arm_far_fore",
+        "hand_far"
+      ]
+    },
+    {
+      "joint": "far_elbow",
+      "angle": 20,
+      "pivot": [
+        680,
+        695
+      ],
+      "frame": "reports/joints_v3/far_elbow_+20.png",
+      "moved_parts": [
+        "arm_far_fore",
+        "hand_far"
+      ]
+    },
+    {
+      "joint": "near_knee",
+      "angle": -20,
+      "pivot": [
+        389,
+        1079
+      ],
+      "frame": "reports/joints_v3/near_knee_-20.png",
+      "moved_parts": [
+        "leg_near_shin",
+        "foot_near"
+      ]
+    },
+    {
+      "joint": "near_knee",
+      "angle": 0,
+      "pivot": [
+        389,
+        1079
+      ],
+      "frame": "reports/joints_v3/near_knee_+0.png",
+      "moved_parts": [
+        "leg_near_shin",
+        "foot_near"
+      ]
+    },
+    {
+      "joint": "near_knee",
+      "angle": 20,
+      "pivot": [
+        389,
+        1079
+      ],
+      "frame": "reports/joints_v3/near_knee_+20.png",
+      "moved_parts": [
+        "leg_near_shin",
+        "foot_near"
+      ]
+    },
+    {
+      "joint": "far_knee",
+      "angle": -20,
+      "pivot": [
+        640,
+        1083
+      ],
+      "frame": "reports/joints_v3/far_knee_-20.png",
+      "moved_parts": [
+        "leg_far_shin",
+        "foot_far"
+      ]
+    },
+    {
+      "joint": "far_knee",
+      "angle": 0,
+      "pivot": [
+        640,
+        1083
+      ],
+      "frame": "reports/joints_v3/far_knee_+0.png",
+      "moved_parts": [
+        "leg_far_shin",
+        "foot_far"
+      ]
+    },
+    {
+      "joint": "far_knee",
+      "angle": 20,
+      "pivot": [
+        640,
+        1083
+      ],
+      "frame": "reports/joints_v3/far_knee_+20.png",
+      "moved_parts": [
+        "leg_far_shin",
+        "foot_far"
+      ]
+    }
+  ],
+  "full_frames": {
+    "reports/joints_v3/near_elbow_-20.png": "cd6f568fa16f409b8259da47ae2a1d8dfd911958be38a8f56a6992eea9edfdbf",
+    "reports/joints_v3/near_elbow_+0.png": "973572f4a00a28d8ad8349222dd0242aa1bdc675eb2524da8a76df2138f2834e",
+    "reports/joints_v3/near_elbow_+20.png": "b0cebedef79a5d91444a8b3c002aabe2b84c56db34648ba3f595b4e21d5da49b",
+    "reports/joints_v3/far_elbow_-20.png": "590b959cfb45ecf0fffb81d339ab8b44e2dc40791a860c2e7a1df53871514cd3",
+    "reports/joints_v3/far_elbow_+0.png": "973572f4a00a28d8ad8349222dd0242aa1bdc675eb2524da8a76df2138f2834e",
+    "reports/joints_v3/far_elbow_+20.png": "e4cf20aa83317e0edfd2f80a5c62cc835b35add2ab6709bd505cc0be0477162b",
+    "reports/joints_v3/near_knee_-20.png": "3aa9388903df54293142ed57318a26479549b92888b891292ae5253ac3bc2317",
+    "reports/joints_v3/near_knee_+0.png": "973572f4a00a28d8ad8349222dd0242aa1bdc675eb2524da8a76df2138f2834e",
+    "reports/joints_v3/near_knee_+20.png": "7f03d2f9f380fac619045cfed8adf3286cda9094bc227321c743bd32826a476e",
+    "reports/joints_v3/far_knee_-20.png": "25d3bee901b470419e54defd15f204a1b48c9fc3fbca92c43df172cab15c300b",
+    "reports/joints_v3/far_knee_+0.png": "973572f4a00a28d8ad8349222dd0242aa1bdc675eb2524da8a76df2138f2834e",
+    "reports/joints_v3/far_knee_+20.png": "6fe7f6917e97fa09485d9222d82dd53b3bf84a356e9eca3ac50443ac1d077a8f"
+  },
+  "review_images": {
+    "reports/joint_pivot_review_v3.png": "caaa43aa2cd510e7babeac7657c46017537aedf7aa374ee613e99d0aca5fdf32",
+    "reports/joint_rotation_test_v3.png": "749a57ae8f03f8f428bf73a1dba4900e5010edca6de6155faa04b12b52e4f7e7",
+    "reports/joint_rotation_combat_scale_v3.png": "4a5db19ae23988b275d93c1cae5494bdc15334b5fca41cb6016e9304aa4446cf",
+    "reports/joint_equipped_combat_scale_v3.png": "0b263ae0f0364f2495238050ab3c8782372e5fc043e7c6c410df4eded2fcd743",
+    "reports/equipment_combat_scale_v3.png": "2dd49c12dd3c285d565b8b0fd53b0f131bd2f4f34bb8b68935543a9d9e5a25a7",
+    "reports/recomposition_full_resolution_v3.png": "71db79e153e61d57a3c0f1ff588121a7570da4bbac3f7a4177cd56bed7e248d5",
+    "reports/recomposition_256px_v3.png": "17983ecece7ab9e780f3f7620d4722f3eb0e8077ca4cabf4b0194ab624c5dce4",
+    "reports/recomposition_192px_v3.png": "246d6cbc87cce22243616d226f4f0adb57fe054f129691173cb4112780da41ef"
+  },
+  "legacy_geometry_diagnostic_only": {
+    "metrics": {
+      "silhouette_iou": 0.9740600955323393,
+      "source_bbox": [
+        72,
+        38,
+        992,
+        1465
+      ],
+      "result_bbox": [
+        72,
+        30,
+        992,
+        1465
+      ],
+      "max_bbox_deviation_px": 8,
+      "centroid_deviation_px": 5.905955363763933,
+      "source_outline_within_3px_fraction": 0.9466573082997017,
+      "premultiplied_rgb_mae_union": 7.800411835953302,
+      "protected_visible_rgb_mae": 10.147508690059482,
+      "changed_alpha_pixels": 17959,
+      "note": "No registration/resizing. AI regions still count in silhouette and total error; only protected-region diagnostic excludes them."
+    },
+    "old_thresholds": {
+      "silhouette_iou_min": 0.985,
+      "bbox_deviation_px_max": 8,
+      "centroid_deviation_px_max": 5,
+      "outline_recall_min": 0.99,
+      "protected_rgb_mae_max": 12
+    },
+    "old_result": false,
+    "blocking": false
+  },
+  "timestamp": "2026-09-12T12:58:35.709933+00:00"
+}

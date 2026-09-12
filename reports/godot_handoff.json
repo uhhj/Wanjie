@@ -1,30 +1,15 @@
 {
-  "status": "NOT_READY",
+  "status": "READY",
+  "policy": "COMBAT_RIG_V3",
   "required_engine": "Godot 4.7.2 Stable",
   "rig_id": "HUMAN_MEDIUM_RIG_V1",
   "native_nodes": [
     "Skeleton2D",
     "Bone2D"
   ],
-  "animations": [
-    "idle",
-    "walk",
-    "attack_01",
-    "hit",
-    "death"
-  ],
   "third_party_skeleton_plugins": false,
-  "errors": [
-    "Missing formal parts: head, helmet, torso, pelvis, arm_near_upper, arm_near_fore, hand_near, arm_far_upper, arm_far_fore, hand_far, leg_near_thigh, leg_near_shin, foot_near, leg_far_thigh, leg_far_shin, foot_far, shield, sword, cape",
-    "reports/recomposition_metrics.json is not PASS",
-    "reports/recomposition_metrics.json does not match current part hashes",
-    "reports/recomposition_metrics.json draw order / clip masks changed",
-    "reports/roman_guard_recomposed.png absent or stale",
-    "reports/joint_rotation_metrics.json is not PASS",
-    "reports/joint_rotation_metrics.json does not match current part hashes",
-    "reports/joint_rotation_metrics.json draw order / clip masks changed",
-    "reports/joint_rotation_test.png absent or stale",
-    "Joint test pivot configuration changed"
-  ],
-  "timestamp": "2026-09-12T11:59:30.202192+00:00"
+  "parts_structurally_approved": 19,
+  "errors": [],
+  "scope": "Asset handoff approval, not a claim that Godot scenes or animations have been built",
+  "timestamp": "2026-09-12T13:06:42.253310+00:00"
 }

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "body_unchanged": true,
+  "original_assets_unchanged": true,
+  "body_parts_repartitioned": [
+    "arm_far_fore",
+    "arm_far_upper",
+    "arm_near_fore",
+    "arm_near_upper",
+    "leg_far_shin",
+    "leg_far_thigh",
+    "leg_near_shin",
+    "leg_near_thigh"
+  ],
+  "other_ten_candidate_textures_unchanged": true,
+  "ai_body_or_joint_calls": 0,
+  "independent_sword_ai_calls": 1,
+  "source_pixel_only_joint_parts": true,
+  "formal_parts_published": 19,
+  "timestamp": "2026-09-12T13:04:29.868159+00:00"
+}

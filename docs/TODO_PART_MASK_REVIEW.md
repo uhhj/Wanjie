@@ -1,20 +1,17 @@
-# 19部件审查待办
+# 部件审查：本轮已关闭
 
-Complete Body的Combat Gate已通过。人体16个masks已生成，装备3个masks沿用真实像素提取。有效路径、SHA和pivot见 `tools/roman_guard_parts_manifest.json`。19个候选格式通过，正式审批未完成。
+19/19正式RGBA同画布部件结构审批通过，Godot Handoff READY。当前有效清单为 `tools/roman_guard_parts_manifest.json`。
 
-| 部位 | 当前问题 / 待验证项 |
+| 部位 | 当前结果 |
 |---|---|
-| near upper / fore arm | 旋转后直切皮肤及外翻片；需局部肘面和边界处理 |
-| far upper / fore arm | 护具上缘开放楔形接缝 |
-| near thigh / shin | 膝盖上方开缝，±20°洞增长检查失败 |
-| far thigh / shin | +20°水平透明缺口在256px仍可见 |
-| sword | 剑首与刃/护手之间缺少原手掌遮挡的握柄 |
-| cape | 可见布料保留身体/手臂遮挡形状，后侧未完整 |
-| head / helmet | 脸部开口、耳部、颊护片所有权需审批；未测相对转动 |
-| torso / pelvis | 肩、腰、髋边界与运动隐藏重叠需审批 |
-| hands / feet | 腕、踝接缝及活动范围需审批 |
-| shield | 独立运动已执行；+7°固定画布预览裁切需处理，区别于纹理缺陷 |
+| near elbow | 27px连续重叠，32.14%，256/192px PASS |
+| far elbow | 27.23px连续重叠，33.21%，256/192px PASS |
+| near knee | 36.19px连续重叠，32.90%，256/192px PASS |
+| far knee | 36.84px连续重叠，32.89%，256/192px PASS；+20°透明缺口消失 |
+| sword | COMPLETE；独立握柄补全、真实RGBA、原保留金属件像素不变 |
+| shield | PASS；纹理未修改，扩展预览视口解决裁切 |
+| 其他部件 | 纹理未重做，按已测试Combat范围结构审批通过 |
 
-查看 [局部问题](../reports/part_art_review_v2.json)、[候选图](../reports/parts_candidate_review_v2.png)、[运动图](../reports/joint_rotation_test_v2.png)。四个肘膝静止轴向重叠约26%，不能据此宣称隐藏关节完整。
+原问题和修复证据见 [ARTICULATED_PART_FIX_V1](../reports/ARTICULATED_PART_FIX_V1.md)。高分辨率接缝与五处Alpha边缘继续非阻塞，不为当前范围追求像素完美。
 
-只处理相应part，不重画角色。五处静态Alpha高分辨率问题已非阻塞，不在本待办范围。源图与当前Complete Body只读。
+头盔作为头部附件共同运动；现有披风前/后绘制在已测试范围内接受。未来扩大动作范围时审查新暴露部位，不重新生成角色。

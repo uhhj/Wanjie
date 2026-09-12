@@ -36,6 +36,10 @@ def comparison(source,result):
     heat=np.clip(difference*4,0,255).astype(np.uint8); heat[sa&~ra]=[255,40,150]; heat[ra&~sa]=[20,210,255]
     return metrics,thresholds,passed,Image.fromarray(heat)
 def main():
+    if config().get('asset_gate_policy')=='COMBAT_RIG_V3':
+        from combat_rig_gate import audit
+        report=audit('recomposition');write('reports/recomposition_metrics.json',report)
+        print(report['status']);return 0 if report['status']=='PASS' else 2
     argparse.ArgumentParser(description=__doc__).parse_args(); v=validate()
     if v['status']!='PASS':
         write('reports/recomposition_metrics.json',{'status':'NOT_RUN','reason':'Formal parts gate failed','parts_validation':v,'images_generated':False,'godot_handoff':'NOT_READY','timestamp':now()}); print('NOT_RUN: formal parts gate failed'); return 2

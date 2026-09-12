@@ -35,5 +35,6 @@
     }
   ],
   "complete_body_source": "work/05_complete_body_candidate_v2_rgba_clean.png",
-  "complete_body_gate": "reports/complete_body_gate_combat_v1.json"
+  "complete_body_gate": "reports/complete_body_gate_combat_v1.json",
+  "asset_gate_policy": "COMBAT_RIG_V3"
 }

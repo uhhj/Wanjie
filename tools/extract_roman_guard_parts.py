@@ -3,6 +3,10 @@ import argparse, shutil
 from rg_common import *
 def extract(name,promote=False):
     check_source(); manifest=read('tools/roman_guard_parts_manifest.json'); p=next(x for x in manifest['parts'] if x['name']==name)
+    if p.get('production_method')=='FROZEN_SWORD_WITH_AI_GRIP_COMPLETION':
+        if not promote: raise ValueError('Use recorded sword completion recipe; visible-only extraction would discard the grip')
+        from sword_completion import validate_completion
+        validate_completion(p,p['candidate_file'])
     if name not in EQUIPMENT and not body_review_ok():
         raise ValueError('STOP_ART_PIPELINE: rejected body cannot be split')
     if promote and not body_review_ok():
