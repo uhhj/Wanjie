@@ -1,0 +1,110 @@
+{
+  "kind": "EXTERNAL_CANDIDATE_READ_ONLY_INTAKE",
+  "timestamp": "2026-09-12T09:20:34.798806+00:00",
+  "provenance": "User supplied externally repaired image; external editor/model and intermediate 04 not supplied.",
+  "candidate": {
+    "file": "work/05_complete_body_candidate_v2.png",
+    "sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "has_alpha_channel": false,
+    "alpha_extrema": null,
+    "fully_transparent_pixels": 0,
+    "corners": {
+      "top_left": [
+        0,
+        0,
+        0
+      ],
+      "top_right": [
+        0,
+        0,
+        0
+      ],
+      "bottom_left": [
+        1,
+        2,
+        1
+      ],
+      "bottom_right": [
+        0,
+        1,
+        0
+      ]
+    }
+  },
+  "source_sha256": "98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563",
+  "prior_stage_hashes": {
+    "work/01_no_shield.png": "830e7e277d4536285d22422c4f9c24a59cc17827b0e28008d1be28f9ee848a7b",
+    "work/02_no_shield_no_sword.png": "2fb867592d48fc664261c814e75e0d1384488e0f73a51ce8d6edd80a81a2df42",
+    "work/03_complete_body_base.png": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf"
+  },
+  "ai_calls_this_continuation": 0,
+  "stages_001_through_005_executed": false,
+  "candidate_sha256_before": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "candidate_sha256_after": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "candidate_unchanged": true,
+  "prior_stages_unchanged": true,
+  "rgba_same_canvas_transparency_check": "FAIL",
+  "existing_rgba_loader_error": "work/05_complete_body_candidate_v2.png: must be RGBA; conversion alone cannot establish transparency",
+  "roi_rgb_comparison": [
+    {
+      "region": "helmet_crest",
+      "rect": [
+        350,
+        0,
+        700,
+        342
+      ],
+      "source_interior_pixels": 65623,
+      "mean_absolute_rgb_difference": 11.198710817853497,
+      "changed_rgb_pixels": 65327
+    },
+    {
+      "region": "visible_face",
+      "rect": [
+        570,
+        265,
+        636,
+        360
+      ],
+      "source_interior_pixels": 5200,
+      "mean_absolute_rgb_difference": 12.669615384615385,
+      "changed_rgb_pixels": 5166
+    },
+    {
+      "region": "near_hand",
+      "rect": [
+        287,
+        839,
+        375,
+        909
+      ],
+      "source_interior_pixels": 6160,
+      "mean_absolute_rgb_difference": 10.821536796536796,
+      "changed_rgb_pixels": 6138
+    },
+    {
+      "region": "near_greave",
+      "rect": [
+        295,
+        1140,
+        365,
+        1290
+      ],
+      "source_interior_pixels": 10500,
+      "mean_absolute_rgb_difference": 7.155968253968254,
+      "changed_rgb_pixels": 10460
+    }
+  ],
+  "comparison_limit": "RGB pixel differences are evidence of changed pixels, not proof of identity drift, full redraw or a particular external editing process.",
+  "art_review_status": "RECORDED_SEPARATELY_AFTER_VISUAL_INSPECTION",
+  "review_images": {
+    "reports/complete_body_review_v2.png": "50788edecfc522ed3c3aab1aa1c877e42e3f6136463f62cd9394820e28df6e30",
+    "reports/complete_body_detail_review_v2.png": "de78cf03210bb5edf6d5e8926f83cbe96a241c2b4f24d3486a70ae0396cc8ccb"
+  }
+}

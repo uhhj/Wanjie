@@ -1,15 +1,17 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**当前 Verdict：BLOCKED_LOCAL_INPAINT_UNAVAILABLE。Godot handoff：NOT_READY。**
+**当前 Verdict：BLOCKED。Complete Body V2：视觉 10/10 PASS，透明 RGBA 条件 FAIL。Godot handoff：NOT_READY。**
 
-本轮 `FIX_COMPLETE_BODY_GATE_V1` 已复核裙甲拼接与未经批准的高领甲，并准备两个局部 mask 草案。未验证到可靠局部 inpainting 接口，因此 004/005 均未调用。继续点是现有 `work/03_complete_body_base.png`，不能重新执行已通过的去盾阶段。当前结果见 [本轮修复门禁报告](reports/FIX_COMPLETE_BODY_GATE_V1.md) 与 [修复计划](reports/complete_body_fix_plan.md)。
+已只读验收外部修复的 `work/05_complete_body_candidate_v2.png`：原裙甲接缝和高领甲已解决，未见明显身份漂移。但该文件为 1024×1536 RGB 黑底 PNG，没有 Alpha 通道，现有底版读取器拒绝其作为透明 RGBA 生产来源。本轮没有修改图片、调用 AI 或重跑 001–005，也没有放行正式部件。详见 [V2 完整审查](reports/complete_body_review_v2.md) 与 [V2 门禁 JSON](reports/complete_body_gate_v2.json)。
 
-冻结母图已导入，只读 SHA256 校验通过。已完成三次真实 AI 编辑、受 mask 约束的候选底版、三个原像素装备提取候选，以及可恢复执行的工程工具。底版存在裙甲拼接瑕疵和未经确认的颈甲结构，未被标记为正式素材。没有生成假的 19 件 PNG，也没有把失败素材接入 Godot。
+冻结母图与历史 001–003 保持原哈希。此前三次 AI 编辑和三个装备提取候选保留为历史产物；外部 V2 有独立的输入哈希和只读接收记录。正式 parts 仍为 0/19。旧版局部修复的阻塞原因与计划仅供历史追溯，不应再次执行。
 
 项目位置：`D:\Wanjie\documents\Wanjie`。远端仓库：[uhhj/Wanjie](https://github.com/uhhj/Wanjie)。原始源文件：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`。所有后续工程文件与资产均在 D:\Wanjie\documents 内。
 
-- [上一轮状态（历史记录）](reports/FINAL_VERDICT.md)
-- [完整底版审查](reports/complete_body_review.md)
+- [当前状态](reports/FINAL_VERDICT.md)
+- [V2 全身对照](reports/complete_body_review_v2.png)
+- [V2 局部对照](reports/complete_body_detail_review_v2.png)
+- [上一轮修复门禁（历史）](reports/FIX_COMPLETE_BODY_GATE_V1.md)
 - [局部编辑交接与续跑](docs/IMAGE_EDIT_MANUAL_HANDOFF.md)
 - [16 件人体 mask 与装备隐藏区待办](docs/TODO_PART_MASK_REVIEW.md)
 
@@ -35,6 +37,7 @@ python tools/test_pipeline_safety.py
 
 | 脚本 | 作用 |
 |---|---|
+| review_external_complete_body_v2.py | 只读生成外部候选全身/局部审查图和格式证据；不执行 AI 或自动授予美术 PASS |
 | validate_source_asset.py | 检查源图存在性、SHA256、RGBA 与画布；不覆盖源图 |
 | generate_or_manage_masks.py | 从真实 polygon 或导入 mask 管理拆件边界；底版失败时拒绝人体拆件 |
 | ai_inpaint_roman_guard.py | 准备真实工具输入、导入真实返回图、保护 mask 外像素、归档阶段和恢复流水线；不是虚构的图像 API |

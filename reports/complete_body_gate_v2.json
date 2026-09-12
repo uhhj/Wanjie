@@ -1,27 +1,124 @@
 {
-  "task": "FIX_COMPLETE_BODY_GATE_V1",
-  "status": "BLOCKED_LOCAL_INPAINT_UNAVAILABLE",
+  "task": "ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1",
+  "phase": "EXTERNAL_COMPLETE_BODY_V2_REVIEW",
+  "status": "FAIL",
+  "verdict": "BLOCKED",
+  "reason_code": "RGBA_TRANSPARENCY_REQUIRED",
   "candidate_file": "work/05_complete_body_candidate_v2.png",
-  "candidate_exists": false,
-  "candidate_sha256": null,
-  "skirt_seam_pass": null,
-  "collar_design_pass": null,
-  "body_completeness_pass": null,
-  "identity_consistency_pass": null,
-  "evaluation_status": "NOT_EVALUATED_MISSING_V2_CANDIDATE",
-  "baseline_file": "work/03_complete_body_base.png",
-  "baseline_sha256": "492adab57065964962b6a7ef635cbb8990a4e774bdb5ec2ee30989049624c5bf",
-  "baseline_observations": {
-    "skirt_seam": "FAIL",
-    "collar_design": "FAIL",
-    "body_completeness": "Both hands, legs and feet visible; shield/sword/cape absent",
-    "identity": "Face/helmet/crest protected; collar design drift remains"
+  "candidate_exists": true,
+  "candidate_sha256": "042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da",
+  "evaluation_status": "EVALUATED_VISUAL_PASS_TECHNICAL_FAIL",
+  "visual_checks_status": "PASS",
+  "skirt_seam_pass": true,
+  "collar_design_pass": true,
+  "body_completeness_pass": true,
+  "identity_consistency_pass": true,
+  "visual_checks": [
+    {
+      "id": 1,
+      "key": "no_shield",
+      "label": "无盾牌",
+      "status": "PASS",
+      "observation": "手臂与拳头可见，无盾牌主体或边框。"
+    },
+    {
+      "id": 2,
+      "key": "no_sword",
+      "label": "无短剑",
+      "status": "PASS",
+      "observation": "无剑刃、护手或柄尾。"
+    },
+    {
+      "id": 3,
+      "key": "no_cape",
+      "label": "无披风",
+      "status": "PASS",
+      "observation": "后摆、颈肩红布与披风扣已移除。"
+    },
+    {
+      "id": 4,
+      "key": "hands_complete",
+      "label": "双手完整",
+      "status": "PASS",
+      "observation": "两侧拳头、手腕和前臂连续。"
+    },
+    {
+      "id": 5,
+      "key": "legs_complete",
+      "label": "双腿完整",
+      "status": "PASS",
+      "observation": "双大腿、护胫、踝部和双脚完整。"
+    },
+    {
+      "id": 6,
+      "key": "skirt_continuity",
+      "label": "裙甲连续",
+      "status": "PASS",
+      "observation": "原斜向贴片接缝消失，布褶、下摆和上大腿连续。"
+    },
+    {
+      "id": 7,
+      "key": "neck_shoulder_chest_consistency",
+      "label": "颈肩与胸甲一致",
+      "status": "PASS",
+      "observation": "裸颈到低胸甲上缘过渡合理，保留可见原肩胸甲主体。"
+    },
+    {
+      "id": 8,
+      "key": "unapproved_high_collar_absent",
+      "label": "未经批准高领甲已移除",
+      "status": "PASS",
+      "observation": "不再存在原03的竖起金边铁灰领圈。"
+    },
+    {
+      "id": 9,
+      "key": "no_new_equipment",
+      "label": "无新装备幻觉",
+      "status": "PASS",
+      "observation": "未见新增武器、独立颈甲、肩甲或其他装备类别。"
+    },
+    {
+      "id": 10,
+      "key": "identity_proportions_consistent",
+      "label": "身份与比例一致",
+      "status": "PASS",
+      "observation": "朝向、脸、头盔、红冠、站姿和腿长未见明显漂移；不要求像素完全一致。"
+    }
+  ],
+  "technical_requirements_pass": false,
+  "technical_checks": {
+    "png": true,
+    "same_canvas": true,
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "rgba": false,
+    "mode": "RGB",
+    "has_alpha_channel": false,
+    "transparent_background": false,
+    "existing_loader_error": "work/05_complete_body_candidate_v2.png: must be RGBA; conversion alone cannot establish transparency"
   },
   "remaining_issues": [
-    "Visible diagonal skirt/hem/thigh splice remains on current 03",
-    "Unsupported raised metal collar remains on current 03",
-    "No verified reliable native local-mask inpainting interface; jobs 004/005 not run"
+    "外部候选为RGB黑底PNG，无Alpha通道，未满足现有底版透明RGBA要求。"
   ],
+  "nonblocking_observations": [
+    "修复区域之外也有RGB像素差异；并未据此认定身份漂移或推断外部编辑方法。"
+  ],
+  "reviewer": "Codex visual inspection of full image, matched-coordinate details and frozen references",
+  "reference_priority": [
+    "DESIGN_V1",
+    "RIG_MASTER_V1",
+    "COMBAT_LOOK_V1"
+  ],
+  "codex_reference_used": false,
+  "review_images": {
+    "reports/complete_body_review_v2.png": "50788edecfc522ed3c3aab1aa1c877e42e3f6136463f62cd9394820e28df6e30",
+    "reports/complete_body_detail_review_v2.png": "de78cf03210bb5edf6d5e8926f83cbe96a241c2b4f24d3486a70ae0396cc8ccb"
+  },
+  "read_only_evidence": "reports/external_complete_body_v2_intake.json",
+  "ai_calls_this_continuation": 0,
+  "stages_001_through_005_executed": false,
   "formal_parts": {
     "required": 19,
     "passed": 0,
@@ -30,5 +127,6 @@
   "recomposition": "NOT_RUN",
   "joint_rotation": "NOT_RUN",
   "godot_handoff": "NOT_READY",
-  "timestamp": "2026-09-12T06:32:17.493689+00:00"
+  "production_body_source_switched": false,
+  "timestamp": "2026-09-12T09:22:39.057998+00:00"
 }

@@ -1,82 +1,25 @@
-# 最终验收：ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
+# 当前验收：ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**Verdict: BLOCKED**  
-**STOP_ART_PIPELINE — Godot handoff: NOT_READY**
+**Verdict：BLOCKED。Godot Handoff：NOT_READY。**
 
-工程准备和真实 AI 尝试已完成；美术结果没有被伪标为通过。当前候选底版有裙甲接缝与未经确认的高领甲，正式人体拆分已停止。没有创建第二兵种。
+外部 Complete Body V2 的十项视觉检查均通过；裙甲斜向拼接和未经批准的高领甲已修复。生产门禁仍为 FAIL：候选是 1024×1536 RGB 黑底 PNG，没有 Alpha 通道，现有透明 RGBA 底版条件不满足。
 
-项目仓库：`D:\Wanjie\documents\Wanjie`。远端：`https://github.com/uhhj/Wanjie.git`。代码、资产、报告都在此目录。原始 PNG 保持只读，未覆盖。
-
-## Source
-
-- 外部原图：`D:\Wanjie\documents\pictures\OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`
-- 仓库副本：`art_source/odyssey/roman_guard/OD_UNIT_01_ROMAN_GUARD_RIG_MASTER_V1.png`
-- SHA256：`98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563`
-- Dimensions：1024 × 1536
-- RGBA：YES；原始 alpha 范围 0–254，原值完整保留。
-- 两份源文件的最终 SHA256 相同。
-
-## Image editing 与 AI 阶段
-
-工具检测：**YES — image_gen.imagegen**，实际调用三次。后端模型标识未公开，不冒称 Image 2.5。环境变量未发现已配置图像 API key，项目没有已存在的图像 endpoint。工具没有独立 mask 参数。
-
-三份原始返回图都是 RGB，棋盘格被绘入背景；没有直接作为透明素材使用。已记录原始结果、实际输入/输出 SHA256、实际提示词、区域参考、工具、时间、后处理 mask 和透明轮廓。受约束合成后的三张候选均是同画布 RGBA。
-
-| 阶段 | 产物 | 状态 |
-|---|---|---|
-| remove shield | `work/01_no_shield.png` | 实际完成；通过中间图审查；补全持盾拳头 |
-| remove sword | `work/02_no_shield_no_sword.png` | 实际完成；美术 FAIL，裙甲/红布斜向拼接痕迹明显 |
-| remove cape | `work/03_complete_body_base.png` | 实际完成；美术 FAIL，高领甲结构待纠正、局部 alpha 边缘待修 |
-
-Complete body：**FAIL**。双手双腿均存在，盾剑披风已移除，但结构与原设计连续性未达到生产标准。
-
-三阶段 mask 外改动像素均为 **0**。最终已检查的冠饰/头盔区域及可见脸区域改动像素为 **0**。去披风 mask 曾误触头盔后缘，已缩小范围并恢复原像素；旧候选及记录已归档。数值证据：`complete_body_integrity.json`。这些检查不替代美术验收。
-
-## Parts 与验证
-
-| 项目 | 实际状态 |
+| 项目 | 当前结果 |
 |---|---|
-| 必需 core parts | 19 |
-| 已生成/提取候选 | 3：shield、sword、cape；均直接使用母图可见像素 |
-| 正式部件 | **0 / 19** |
-| 正式缺件 | **19** |
-| 人体 mask | 16 件待正确底版与边界审查；未生成随机切线或空 mask |
-| 同画布、RGBA | 3 张阶段候选和 3 张装备候选均满足；不代表正式通过 |
-| Recomposition | 验收门禁 FAIL；实际 NOT_RUN，缺正式部件 |
-| elbows / knees | NOT_RUN |
-| shield socket / sword thrust | NOT_RUN |
-| Godot handoff | **NOT_READY** |
+| Complete Body Gate | FAIL：视觉 10/10 PASS，RGBA/透明背景 FAIL |
+| 19 Parts | required 19 / passed 0 / missing 19；未开始正式拆件 |
+| Recomposition | NOT_RUN |
+| Joint Tests | 肘、膝 ±20°、盾独立运动、剑 20–30° 刺击均 NOT_RUN |
+| Godot Handoff | NOT_READY |
+| AI / 001–005 | 本轮未执行 |
+| 候选图片与冻结源图 | 均未修改；读取前后哈希一致 |
 
-正式 parts 目录只有 `.gitkeep`，没有假 PNG。剑柄在拳头后方仍有缺失，披风在身体后方的连续布面仍需补全；这些候选没有被冒充为可独立动画的完整装备。
+候选：`D:\Wanjie\documents\Wanjie\work\05_complete_body_candidate_v2.png`
 
-没有生成虚假的 `roman_guard_recomposed.png`、`recomposition_diff.png` 或 `joint_rotation_test.png`。相应 JSON 清楚记录 NOT_RUN。脚本在真实 19 件通过后才生成这些图。
+候选 SHA256：`042a00a27dac704b23ac0337ecdb27892edf7d490744ec9426ea4f3b44b647da`
 
-六个要求的基础脚本均已建立，另有真实结果导入/归档、部件提取、hash 审查和 Godot 门禁工具。已执行 **12 项隔离脚本测试，全通过**，包括错误源 SHA、RGB 假透明、画布不符、保护区约束、旧审查失效以及 18 个旋转预览用例的报告输出。测试是脚本验证，**不是**罗马盾兵的关节验收。详见 `tool_tests.json`。
+冻结源图 SHA256：`98642eef9516a371af2e23aea63fbb7156ba506281bc6b245b60c159b7bfc563`
 
-## 人工需要看的图片
+查看 [详细审查](complete_body_review_v2.md)、[全身对照](complete_body_review_v2.png)、[局部对照](complete_body_detail_review_v2.png)、[门禁 JSON](complete_body_gate_v2.json) 和 [只读接收证据](external_complete_body_v2_intake.json)。恢复条件见 [当前交接说明](../docs/IMAGE_EDIT_MANUAL_HANDOFF.md)。
 
-以下六张是当前需要检查的图，路径均相对仓库根目录：
-
-- `reports/complete_body_review.png`
-- `reports/complete_body_detail_review.png`
-- `reports/001_hand_matte_review.png`
-- `reports/equipment_extraction_review.png`
-- `reports/occlusion_mask_review.png`
-- `reports/helmet_edge_review.png`
-
-
-修正顺序：先处理 B 的接缝，再以通过的 B 作为 C 输入，保守补全颈肩甲；不能整体重画人物。每张所需 input + mask + prompt、归档/导入命令和续跑条件已经列在 `docs/IMAGE_EDIT_MANUAL_HANDOFF.md`。返回合格图片后可从同一流水线继续，无须重建工程。
-
-## Git 与 Godot
-
-仓库名称：`Wanjie`；GitHub 所有者：`uhhj`；本地分支：`feature/roman-guard-ai-rig-assets-v1`。本报告写入前已有提交：
-
-- `dcced3e fix: preserve frozen helmet edge and document blocked handoff`
-- `7ae2cac art: record inpainting candidates and failed body review`
-- `621b600 feat: add guarded roman guard asset pipeline`
-- `391d630 chore: add frozen roman guard rig source`
-
-
-头盔保护区修正已提交为 `dcced3e`。用户随后确认将本地仓库改名为 `Wanjie`，并推送到 `https://github.com/uhhj/Wanjie.git`。本报告的路径更正随 `chore: rename local repository to Wanjie and configure origin` 提交。推送后的提交 SHA 与工作区检查见交付消息，也可运行 `git log --oneline` / `git status --short`。
-
-用户确认从零建立仓库，因此没有既有原生 rig 可调用。按照素材门禁，没有开始创建 Godot 4.7.2 的 Skeleton2D/Bone2D 正式场景、HUMAN_MEDIUM_RIG_V1 或五个动画；没有安装第三方插件。只有完整素材和实际重组/关节验收都通过之后才能开始。
+本轮在 `feature/roman-guard-ai-rig-assets-v1` 提交并 push；准确 Commit SHA 与最终 Working Tree 状态见任务最终回复或 Git。历史审查保留在原文件和 Git 历史中，不重写已有提交。
