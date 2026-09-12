@@ -8,8 +8,23 @@
     "Bone2D"
   ],
   "third_party_skeleton_plugins": false,
-  "parts_structurally_approved": 19,
+  "parts_structurally_approved": 20,
   "errors": [],
   "scope": "Asset handoff approval, not a claim that Godot scenes or animations have been built",
-  "timestamp": "2026-09-12T13:06:42.253310+00:00"
+  "timestamp": "2026-09-12T14:46:01.482507+00:00",
+  "near_knee_requirement": {
+    "independent_plate": "knee_near",
+    "plate_inherits_shin_rotation": false,
+    "plate_default_rotation_deg": 0,
+    "skin_mesh": "assets/units/odyssey/roman_guard/near_knee_skinning_v1.json",
+    "native_mesh_node": "Polygon2D bound to Skeleton2D/Bone2D",
+    "rigid_shin_sprite_rotation_approved": false,
+    "reviewed_angles_deg": [
+      -20,
+      -10,
+      0,
+      10,
+      20
+    ]
+  }
 }

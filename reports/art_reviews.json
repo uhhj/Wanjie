@@ -224,35 +224,39 @@
   },
   "part:leg_near_thigh": {
     "status": "PASS",
-    "file": "work/candidates/parts/leg_near_thigh_jointfix_v1.png",
-    "sha256": "d370f25a83690f398c9c22a200f926a522024c89e234f23677a382e0a70e3246",
+    "sha256": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8",
     "reviewer": "Codex visual review",
-    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
-    "timestamp": "2026-09-12T13:04:17.269031+00:00"
+    "notes": [
+      "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+    ],
+    "timestamp": "2026-09-12T14:10:02.623440+00:00"
   },
   "mask:leg_near_thigh": {
     "status": "PASS",
-    "file": "work/masks/parts/leg_near_thigh_jointfix_v1.png",
-    "sha256": "588fdb03c4378f3133a52c50ebfaa03433c55fb7153604e712bf8adb89bb51e6",
+    "sha256": "48101c788ec9fc79f421344890b161cd21befc7581a892c1e21e212f226e5b6b",
     "reviewer": "Codex visual review",
-    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
-    "timestamp": "2026-09-12T13:04:17.269031+00:00"
+    "notes": [
+      "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+    ],
+    "timestamp": "2026-09-12T14:10:02.639527+00:00"
   },
   "part:leg_near_shin": {
     "status": "PASS",
-    "file": "work/candidates/parts/leg_near_shin_jointfix_v1.png",
-    "sha256": "33fd03e564d20b49395727bedcbca0eb0f7335988e48cdc639dc208bf57931a6",
+    "sha256": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b",
     "reviewer": "Codex visual review",
-    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
-    "timestamp": "2026-09-12T13:04:17.271037+00:00"
+    "notes": [
+      "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+    ],
+    "timestamp": "2026-09-12T14:10:02.714654+00:00"
   },
   "mask:leg_near_shin": {
     "status": "PASS",
-    "file": "work/masks/parts/leg_near_shin_jointfix_v1.png",
-    "sha256": "4100e893628dbd7d06139198c91c9c1554540158c374ec2c9a6d18d73f38af12",
+    "sha256": "34e298b5be3b373ac5128c7d3635d7f3620e308d28108bc88b324f1141da7769",
     "reviewer": "Codex visual review",
-    "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved.",
-    "timestamp": "2026-09-12T13:04:17.271037+00:00"
+    "notes": [
+      "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+    ],
+    "timestamp": "2026-09-12T14:10:02.716296+00:00"
   },
   "part:foot_near": {
     "status": "PASS",
@@ -365,5 +369,23 @@
     "reviewer": "Codex visual review",
     "notes": "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved. Existing two-pass cape accepted in tested range; texture unchanged. Greater cape motion needs fresh review.",
     "timestamp": "2026-09-12T13:04:17.281000+00:00"
+  },
+  "part:knee_near": {
+    "status": "PASS",
+    "sha256": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68",
+    "reviewer": "Codex visual review",
+    "notes": [
+      "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+    ],
+    "timestamp": "2026-09-12T14:10:02.809421+00:00"
+  },
+  "mask:knee_near": {
+    "status": "PASS",
+    "sha256": "24066472a7250038274ba24dcd04e27381b85cd9bbbece2792eb839d5eb70bc7",
+    "reviewer": "Codex visual review",
+    "notes": [
+      "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+    ],
+    "timestamp": "2026-09-12T14:10:02.811391+00:00"
   }
 }

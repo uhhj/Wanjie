@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "required_count": 19,
-  "generated_formal_count": 19,
+  "required_count": 20,
+  "generated_formal_count": 20,
   "missing_count": 0,
   "missing": [],
   "errors": [],
@@ -134,9 +134,9 @@
         321,
         958,
         493,
-        1111
+        1088
       ],
-      "sha256": "d370f25a83690f398c9c22a200f926a522024c89e234f23677a382e0a70e3246"
+      "sha256": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8"
     },
     {
       "name": "leg_near_shin",
@@ -145,10 +145,10 @@
       "bbox": [
         276,
         1050,
-        451,
+        430,
         1355
       ],
-      "sha256": "33fd03e564d20b49395727bedcbca0eb0f7335988e48cdc639dc208bf57931a6"
+      "sha256": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b"
     },
     {
       "name": "foot_near",
@@ -233,7 +233,19 @@
         1130
       ],
       "sha256": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8"
+    },
+    {
+      "name": "knee_near",
+      "file": "assets/units/odyssey/roman_guard/parts/knee_near.png",
+      "status": "PASS",
+      "bbox": [
+        350,
+        1028,
+        453,
+        1145
+      ],
+      "sha256": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68"
     }
   ],
-  "timestamp": "2026-09-12T13:06:33.544584+00:00"
+  "timestamp": "2026-09-12T14:45:44.186153+00:00"
 }

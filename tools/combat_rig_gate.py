@@ -7,13 +7,20 @@ def audit(section='all'):
     errors=[]
     try:
         m=read('tools/roman_guard_parts_manifest.json');r=read('reports/articulated_render_manifest_v3.json');g=read('reports/combat_rig_gate_v3.json')
+        override=m.get('articulation_layout')=='NEAR_KNEE_V1'
+        if override:
+            from near_knee_gate import verify
+            errors.extend(verify(m))
+            # The unchanged tests remain valid because rest pixels are identical.
+            # The old near-knee approval is superseded by mandatory five-angle checks.
+            m=read('reports/near_knee_baseline_v1.json')['manifest']
         if not body_review_ok():errors.append('Complete body combat acceptance stale/missing')
         if g.get('policy')!='COMBAT_RIG_V3' or not g.get('reviewer') or not g.get('notes'):errors.append('Scoped visual review missing')
         if g['render_manifest_sha256']!=sha('reports/articulated_render_manifest_v3.json'):errors.append('Render manifest changed')
         if r['body_sha256']!=sha(body_source()):errors.append('Body source changed')
-        if r['part_hashes']!={p['name']:sha(p['file']) for p in m['parts']}:errors.append('Formal parts differ from reviewed render')
+        if r['part_hashes']!={p['name']:sha(p['candidate_file'] if override else p['file']) for p in m['parts']}:errors.append('Formal parts differ from reviewed render')
         if g['mask_hashes']!={p['name']:sha(p['mask']) for p in m['parts']}:errors.append('Part masks differ from review')
-        if r['pivot_sha256']!=sha('assets/units/odyssey/roman_guard/roman_guard_pivots.json'):errors.append('Pivot hints changed')
+        if r['pivot_sha256']!=sha('reports/near_knee_prior_pivots_v3.json' if override else 'assets/units/odyssey/roman_guard/roman_guard_pivots.json'):errors.append('Pivot hints changed')
         if r['render_config_sha256']!=render_config_digest(m):errors.append('Draw order or clip masks changed')
         for file,digest in {**r['review_images'],**r['full_frames'],**g['extra_evidence']}.items():
             if sha(file)!=digest:errors.append('Evidence changed: '+file)

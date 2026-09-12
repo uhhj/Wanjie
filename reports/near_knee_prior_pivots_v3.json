@@ -98,8 +98,8 @@
     "leg_near_shin": {
       "anchor": "near_knee",
       "position": [
-        388,
-        1083
+        389,
+        1079
       ],
       "review_required": true
     },
@@ -158,21 +158,6 @@
         415
       ],
       "review_required": true
-    },
-    "knee_near": {
-      "anchor": "near_knee_socket",
-      "position": [
-        388,
-        1083
-      ],
-      "review_required": false,
-      "parent": "near_knee_socket",
-      "inherits_shin_rotation": false,
-      "default_relative_rotation_deg": 0,
-      "independent_rotation_limit_hint_deg": [
-        -3,
-        3
-      ]
     }
   },
   "joints": {
@@ -256,8 +241,8 @@
     },
     "near_knee": {
       "position": [
-        388,
-        1083
+        389,
+        1079
       ],
       "diameter_hint_px": 110,
       "overlap_target_fraction": 0.32,

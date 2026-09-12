@@ -1,6 +1,8 @@
 # 当前资产交接：READY
 
-ROMAN_GUARD_ARTICULATED_PART_FIX_V1：**PASS**。19个正式部件已通过，Godot Handoff：**READY**。
+当前近侧膝关节局部修复：**PASS**。19核心件+独立knee_near，共20件，Godot Handoff：**READY**。
+
+近侧膝甲不继承shin旋转；必须使用 `assets/units/odyssey/roman_guard/near_knee_skinning_v1.json` 的局部蒙皮权重，通过原生Polygon2D绑定Skeleton2D/Bone2D。旧near knee刚性旋转审批已经被五档局部审查取代。参见 [当前局部报告](../reports/NEAR_KNEE_ARTICULATION_V1.md)、[256px](../reports/near_knee_motion_256px_v1.png)、[192px](../reports/near_knee_motion_192px_v1.png)。其余资产和V3证据冻结；本轮没有AI调用。
 
 当前完整人体继续冻结为 `work/05_complete_body_candidate_v2_rgba_clean.png`，SHA256为 `df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd`。五处HIRES Alpha问题仍为NON_BLOCKING_COMBAT_ARTIFACT，不再修补。
 

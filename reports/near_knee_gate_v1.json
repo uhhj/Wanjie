@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex visual review",
+  "notes": [
+    "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+  ],
+  "combat_checks": {
+    "256": {
+      "plate_stable": "PASS",
+      "anatomical_connection": "PASS",
+      "plus20_no_dislocation": "PASS",
+      "continuous_five_angles": "PASS"
+    },
+    "192": {
+      "plate_stable": "PASS",
+      "anatomical_connection": "PASS",
+      "plus20_no_dislocation": "PASS",
+      "continuous_five_angles": "PASS"
+    }
+  },
+  "supersedes": "Only the near_knee approval in combat_rig_gate_v3. Other approved motions inherit unchanged evidence through exact rest recomposition.",
+  "evidence": {
+    "reports/near_knee_baseline_v1.json": "e51480b9dd235ed79276cc8cafc12dc43a28f372f76cfd2a3b4c571540539d0b",
+    "reports/near_knee_articulation_v1.json": "78c4e379f1d4ba3ff7f7d6c76d282ed5d477bdacd686c75456de1a3904b316d4",
+    "assets/units/odyssey/roman_guard/near_knee_skinning_v1.json": "d04a397b6c6b8aff211edc51d9aff2708235bae926cd90df172f2dd423f08480",
+    "reports/near_knee_pivot_review_v1.png": "7e0cf71d9f4e391a7eff6b6157446dec5826da01a1c691542a77fcbf00fe6dff",
+    "reports/near_knee_motion_256px_v1.png": "ad38d51b0c2d9dc0f267f5620252839b9cf0feb4a340df618a583d80c97b47d7",
+    "reports/near_knee_motion_192px_v1.png": "877ebdb9e935d62187676de17c29742ab6b479fbd5719731495c1d6297e5d510",
+    "reports/near_knee_motion_detail_v1.png": "050a25da65aa42ab7dee5d843768b5252a8d3eacc1966dbe91a24ac1195f1d5f",
+    "reports/near_knee_rest_recomposition_v1.png": "d9e3b5373d2d952eb2ce1b5b4bc406e584ce776baf9b8e4f96823932f3b6fb9a",
+    "reports/near_knee_prior_pivots_v3.json": "8b675177b439d098ab4a53bf3a9c732c367d8d6b654a9a2dd5725ad6f0d04150",
+    "assets/units/odyssey/roman_guard/roman_guard_pivots.json": "8962f10c6e3ebbb3df628ed44c550559d8b94831957ffde95251d40ce27a00dc",
+    "work/masks/parts/leg_near_thigh_articulation_v1.png": "48101c788ec9fc79f421344890b161cd21befc7581a892c1e21e212f226e5b6b",
+    "work/candidates/parts/leg_near_thigh_articulation_v1.png": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8",
+    "work/masks/parts/leg_near_shin_articulation_v1.png": "34e298b5be3b373ac5128c7d3635d7f3620e308d28108bc88b324f1141da7769",
+    "work/candidates/parts/leg_near_shin_articulation_v1.png": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b",
+    "work/masks/parts/knee_near_articulation_v1.png": "24066472a7250038274ba24dcd04e27381b85cd9bbbece2792eb839d5eb70bc7",
+    "work/candidates/parts/knee_near_articulation_v1.png": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68"
+  },
+  "part_hashes": {
+    "head": "326a5bb15ace6a75a1257fdfc7676a810688bea52aa6966de6b47e5b0c5e2dc3",
+    "helmet": "4834636606cb008d0e577f0936be12fb1b15e6cd3fa223f397f2fbdf812e6444",
+    "torso": "946ccc174da85ca62ab326fd41f3555b708e0018058967bd39e180468df3b834",
+    "pelvis": "24580b8025eddb1ecd416d1e2f06b7a1104c66dd92f41b3f8e52314f95099de8",
+    "arm_near_upper": "7f7752cdc69db70243e04f843afaba54a676634d8f2742034789f41d4e056fd9",
+    "arm_near_fore": "cdd215aa37f894c7763f67626629b0f104a59a05d3e53fb39197b70c080c171f",
+    "hand_near": "255899b6750f126222ba9e2af0785d90e4aa8edf6c4403a12d19592334c86a57",
+    "arm_far_upper": "e355b1f3fc698f2be7657f9049f0ce3859a3483bf3aabf4307970373beb4b607",
+    "arm_far_fore": "9ebde9e9f0af76275163d976bf5b83db8fd27f3797666b88a3ab8431a16749d9",
+    "hand_far": "e9060ac5007d764c94c0baba4a842d19ffb3b34d3dba52f978d7f9f0238eeec0",
+    "leg_near_thigh": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8",
+    "leg_near_shin": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b",
+    "foot_near": "e3c1408132297bf7cb3f504ab6c7ad4e0f456e8ae9e49974d949b7440d4fdb8a",
+    "leg_far_thigh": "9482db4787522b983900f6fec140a06c5374bb23febd338b0c27bfd0e5e807e2",
+    "leg_far_shin": "196453f8d6a0ea0a9f5df33798cb9f1c36d1742027b5bb89eab19bb3de33fb02",
+    "foot_far": "28162975e45b69cfe4a0426cb68cb6391e4b3cd0f485f4fa2a71fed1ff50902a",
+    "shield": "d8d868f27eb8ead1a279a7549cfba084d7f9e74207473376a5cb1c576d671a5c",
+    "sword": "ac8b63fb8097e0757fca0555c10ce22b17a5e8ca84953b443f38d95eb608d295",
+    "cape": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8",
+    "knee_near": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68"
+  },
+  "timestamp": "2026-09-12T14:10:03.068308+00:00"
+}

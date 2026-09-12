@@ -1,6 +1,10 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
-**Verdict：PASS。19/19正式部件通过；Godot Handoff：READY。**
+**当前：近侧膝关节五档运动PASS。19个核心件+独立knee_near，共20件；资产交接READY。**
+
+近侧膝甲固定在独立socket，小腿使用随附的局部双骨权重。thigh/shin重叠仍约32.9%，0°重组逐像素不变；其余关节和装备冻结。当前近膝结果以 [局部修复报告](reports/NEAR_KNEE_ARTICULATION_V1.md)、[256px五档](reports/near_knee_motion_256px_v1.png)、[192px五档](reports/near_knee_motion_192px_v1.png) 为准。旧V3近膝刚性旋转审批已被替代，不得复用于新布局。
+
+本轮局部生产脚本为 `refine_near_knee_v1.py`，蒙皮数据为 `assets/units/odyssey/roman_guard/near_knee_skinning_v1.json`。接入时必须使用这些权重；不接受重新让膝甲随shin大幅旋转。复验使用 `run_validation.py` 与 `test_near_knee_v1.py`，无需重跑其他已通过资产的渲染。以下保留原19核心件流水线说明。
 
 Complete Body保持PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS，五处Alpha问题非阻塞。只重分了指定八个肘膝部件，建立约32%–33%真实像素重叠并校准四个pivot；256px和192px运动检查通过。
 
@@ -58,7 +62,7 @@ python tools/test_pipeline_safety.py
 | ai_inpaint_roman_guard.py | 准备真实工具输入、导入真实返回图、保护 mask 外像素、归档阶段和恢复流水线；不是虚构的图像 API |
 | normalize_part_canvas.py | 以明确 offset 补齐同画布 RGBA，禁止自动拉伸和猜测位置 |
 | extract_roman_guard_parts.py | 优先提取真实源像素，分别管理候选和正式发布 |
-| validate_parts.py | 19 件、来源、hash、透明通道、画布和美术审查门禁 |
+| validate_parts.py | 19核心件及显式新增膝甲、来源、hash、透明通道、画布和美术审查门禁 |
 | recompose_roman_guard.py | V3模式核验正式部件与战斗尺寸重组证据；旧模式保留历史渲染路径 |
 | generate_joint_rotation_test.py | V3模式核验已渲染的关节动作证据及当前pivot/part哈希；旧模式保留原测试路径 |
 | record_art_review.py | 用当前文件 SHA256 记录实际 PASS/FAIL，防止旧审查被复用 |

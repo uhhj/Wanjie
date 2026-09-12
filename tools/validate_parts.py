@@ -7,7 +7,9 @@ def validate():
     try: check_source()
     except (ValueError,FileNotFoundError) as e: errors.append(str(e))
     m=read('tools/roman_guard_parts_manifest.json')
-    if sorted(x['name'] for x in m['parts'])!=sorted(PARTS): errors.append('Manifest must contain exactly the 19 distinct required parts')
+    required=PARTS+(['knee_near'] if m.get('articulation_layout')=='NEAR_KNEE_V1' else [])
+    if sorted(x['name'] for x in m['parts'])!=sorted(required): errors.append('Manifest must contain the core parts and explicitly configured knee attachment')
+    if m.get('required_count')!=len(required):errors.append('Required part count mismatch')
     if m.get('canvas_width')!=config()['canvas'][0] or m.get('canvas_height')!=config()['canvas'][1]: errors.append('Manifest canvas mismatch')
     if not body_review_ok(): errors.append('Complete body art review FAIL or missing/stale')
     for p in m['parts']:
@@ -36,7 +38,7 @@ def validate():
         except (ValueError,FileNotFoundError) as e: entry.update(status='FAIL',reason=str(e)); errors.append(name+': '+str(e))
         info.append(entry)
     if missing: errors.append('Missing formal parts: '+', '.join(missing))
-    return {'status':'PASS' if not errors else 'FAIL','required_count':19,'generated_formal_count':len(generated),'missing_count':len(missing),'missing':missing,'errors':errors,'parts':info,'timestamp':now()}
+    return {'status':'PASS' if not errors else 'FAIL','required_count':len(required),'generated_formal_count':len(generated),'missing_count':len(missing),'missing':missing,'errors':errors,'parts':info,'timestamp':now()}
 def main():
     argparse.ArgumentParser(description=__doc__).parse_args(); r=validate(); write('reports/parts_validation.json',r); print(json.dumps(r,indent=2)); return 0 if r['status']=='PASS' else 2
 if __name__=='__main__': raise SystemExit(main())

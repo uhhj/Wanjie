@@ -5,7 +5,7 @@
   "canvas_width": 1024,
   "canvas_height": 1536,
   "alpha_required": true,
-  "required_count": 19,
+  "required_count": 20,
   "status": "STRUCTURALLY_APPROVED",
   "draw_passes_review_required": false,
   "draw_passes": [
@@ -39,6 +39,9 @@
     },
     {
       "part": "foot_near"
+    },
+    {
+      "part": "knee_near"
     },
     {
       "part": "pelvis"
@@ -435,13 +438,13 @@
     {
       "name": "leg_near_thigh",
       "file": "assets/units/odyssey/roman_guard/parts/leg_near_thigh.png",
-      "candidate_file": "work/candidates/parts/leg_near_thigh_jointfix_v1.png",
+      "candidate_file": "work/candidates/parts/leg_near_thigh_articulation_v1.png",
       "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
       "ai_completed": true,
       "review_required": false,
       "status": "ART_APPROVED",
-      "mask": "work/masks/parts/leg_near_thigh_jointfix_v1.png",
-      "mask_sha256": "588fdb03c4378f3133a52c50ebfaa03433c55fb7153604e712bf8adb89bb51e6",
+      "mask": "work/masks/parts/leg_near_thigh_articulation_v1.png",
+      "mask_sha256": "48101c788ec9fc79f421344890b161cd21befc7581a892c1e21e212f226e5b6b",
       "mask_status": "ART_APPROVED",
       "pivot_hint": {
         "anchor": "near_hip",
@@ -454,57 +457,61 @@
         "review_required": true
       },
       "missing_hidden_regions": [],
-      "candidate_sha256": "d370f25a83690f398c9c22a200f926a522024c89e234f23677a382e0a70e3246",
+      "candidate_sha256": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8",
       "candidate_source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
-      "candidate_mask_sha256": "588fdb03c4378f3133a52c50ebfaa03433c55fb7153604e712bf8adb89bb51e6",
+      "candidate_mask_sha256": "48101c788ec9fc79f421344890b161cd21befc7581a892c1e21e212f226e5b6b",
       "art_review_status": "PASS",
       "art_review_notes": [
-        "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved."
+        "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
       ],
       "historical_unresolved_notes": [
         "Both knee rotations expose a seam above the knee plate; hole-growth heuristic fails."
       ],
       "structural_status": "PASS",
-      "review_scope": "COMBAT_RIG_TESTED_RANGE_V3",
+      "review_scope": "NEAR_KNEE_FIVE_ANGLES_V1",
       "qualification": "PASS_WITH_NON_BLOCKING_HIRES_JOINT_ARTIFACT",
-      "sha256": "d370f25a83690f398c9c22a200f926a522024c89e234f23677a382e0a70e3246"
+      "sha256": "614571a87d66b44c106fb0787cf4102a297b9e148bf71cf8853eb02a096746f8",
+      "ai_completed_note": "Inherited body-source completion only; no AI or painting performed in this articulation change."
     },
     {
       "name": "leg_near_shin",
       "file": "assets/units/odyssey/roman_guard/parts/leg_near_shin.png",
-      "candidate_file": "work/candidates/parts/leg_near_shin_jointfix_v1.png",
+      "candidate_file": "work/candidates/parts/leg_near_shin_articulation_v1.png",
       "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
       "ai_completed": true,
       "review_required": false,
       "status": "ART_APPROVED",
-      "mask": "work/masks/parts/leg_near_shin_jointfix_v1.png",
-      "mask_sha256": "4100e893628dbd7d06139198c91c9c1554540158c374ec2c9a6d18d73f38af12",
+      "mask": "work/masks/parts/leg_near_shin_articulation_v1.png",
+      "mask_sha256": "34e298b5be3b373ac5128c7d3635d7f3620e308d28108bc88b324f1141da7769",
       "mask_status": "ART_APPROVED",
       "pivot_hint": {
         "anchor": "near_knee",
         "position": [
-          389,
-          1079
+          388,
+          1083
         ],
         "coordinate_space": "source canvas pixels, top-left origin",
         "confidence": "initial_visual_hint_only",
         "review_required": true
       },
       "missing_hidden_regions": [],
-      "candidate_sha256": "33fd03e564d20b49395727bedcbca0eb0f7335988e48cdc639dc208bf57931a6",
+      "candidate_sha256": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b",
       "candidate_source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
-      "candidate_mask_sha256": "4100e893628dbd7d06139198c91c9c1554540158c374ec2c9a6d18d73f38af12",
+      "candidate_mask_sha256": "34e298b5be3b373ac5128c7d3635d7f3620e308d28108bc88b324f1141da7769",
       "art_review_status": "PASS",
       "art_review_notes": [
-        "Structurally accepted at 256px and 192px in tested rest pose and +/-20-degree elbow/knee range, with equipment motion. Visible source pixels preserved."
+        "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
       ],
       "historical_unresolved_notes": [
         "Both knee rotations expose a seam above the knee plate; hole-growth heuristic fails."
       ],
       "structural_status": "PASS",
-      "review_scope": "COMBAT_RIG_TESTED_RANGE_V3",
+      "review_scope": "NEAR_KNEE_FIVE_ANGLES_V1",
       "qualification": "PASS_WITH_NON_BLOCKING_HIRES_JOINT_ARTIFACT",
-      "sha256": "33fd03e564d20b49395727bedcbca0eb0f7335988e48cdc639dc208bf57931a6"
+      "sha256": "ef04ba807709844e9d92230e16be5e7a7adf7515939f22fbf3d9a6d9f5b4825b",
+      "ai_completed_note": "Inherited body-source completion only; no AI or painting performed in this articulation change.",
+      "articulation_mesh": "assets/units/odyssey/roman_guard/near_knee_skinning_v1.json",
+      "rigid_sprite_rotation_approved": false
     },
     {
       "name": "foot_near",
@@ -758,7 +765,52 @@
       "structural_status": "PASS",
       "review_scope": "COMBAT_RIG_TESTED_RANGE_V3",
       "sha256": "897cdd2ea46d8ec90a870bf536c3c3f112f2aff0f367d4f7d7cf14a3998afcd8"
+    },
+    {
+      "name": "knee_near",
+      "file": "assets/units/odyssey/roman_guard/parts/knee_near.png",
+      "source": "work/05_complete_body_candidate_v2_rgba_clean.png",
+      "ai_completed": true,
+      "pivot_hint": {
+        "anchor": "near_knee_socket",
+        "position": [
+          388,
+          1083
+        ],
+        "coordinate_space": "source canvas pixels, top-left origin",
+        "review_required": false
+      },
+      "missing_hidden_regions": [],
+      "mask": "work/masks/parts/knee_near_articulation_v1.png",
+      "candidate_file": "work/candidates/parts/knee_near_articulation_v1.png",
+      "sha256": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68",
+      "mask_sha256": "24066472a7250038274ba24dcd04e27381b85cd9bbbece2792eb839d5eb70bc7",
+      "candidate_sha256": "5f960ea343daf5667300fa1ddf07c8837ba87719f003ebd8fb4d21ed74590b68",
+      "candidate_mask_sha256": "24066472a7250038274ba24dcd04e27381b85cd9bbbece2792eb839d5eb70bc7",
+      "candidate_source_sha256": "df706ed02285e40b2532085d76e9936bba073eec0180e40bf63e94b35de26dfd",
+      "review_required": false,
+      "status": "ART_APPROVED",
+      "mask_status": "ART_APPROVED",
+      "art_review_status": "PASS",
+      "art_review_notes": [
+        "Near-knee-only source pixel partition. Fixed independent patellar plate; local two-bone shin weights. Five continuous angles reviewed at 256px and 192px. No source/mask expansion; rest composition exactly unchanged."
+      ],
+      "structural_status": "PASS",
+      "review_scope": "NEAR_KNEE_FIVE_ANGLES_V1",
+      "ai_completed_note": "Inherited body-source completion only; no AI or painting performed in this articulation change.",
+      "binding": {
+        "parent": "near_knee_socket",
+        "inherits_shin_rotation": false,
+        "default_relative_rotation_deg": 0,
+        "independent_rotation_limit_hint_deg": [
+          -3,
+          3
+        ]
+      }
     }
   ],
-  "complete_body_gate": "reports/complete_body_gate_combat_v1.json"
+  "complete_body_gate": "reports/complete_body_gate_combat_v1.json",
+  "core_required_count": 19,
+  "attachment_count": 1,
+  "articulation_layout": "NEAR_KNEE_V1"
 }

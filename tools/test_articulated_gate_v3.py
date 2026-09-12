@@ -15,6 +15,9 @@ class ArticulatedGateTests(unittest.TestCase):
         files.update(r['review_images']);files.update(r['full_frames']);files.update(g['extra_evidence'])
         for row in cr['rows']:files.update(x['file'] for x in row['composites'])
         for p in m['parts']:files.update([p['file'],p['mask']])
+        if m.get('articulation_layout')=='NEAR_KNEE_V1':
+            local=c.read('reports/near_knee_gate_v1.json');nr=c.read('reports/near_knee_articulation_v1.json');base=c.read('reports/near_knee_baseline_v1.json')
+            files.add('reports/near_knee_gate_v1.json');files.update(local['evidence']);files.update(nr['frames']);files.update(base['file_hashes'])
         files.update(d['clip_mask'] for d in m['draw_passes'] if d.get('clip_mask'))
         sp=next(p for p in m['parts'] if p['name']=='sword');recipe=c.read(sp['completion_recipe'])
         files.update(recipe[k] for k in ['original','generated_reference','grip_mask','remove_mask'])

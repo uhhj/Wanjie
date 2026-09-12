@@ -7,6 +7,8 @@ def main():
         from combat_rig_gate import audit
         parts=validate();review=audit();errors=parts['errors']+review['errors']
         result={'status':'READY' if not errors else 'NOT_READY','policy':'COMBAT_RIG_V3','required_engine':'Godot 4.7.2 Stable','rig_id':'HUMAN_MEDIUM_RIG_V1','native_nodes':['Skeleton2D','Bone2D'],'third_party_skeleton_plugins':False,'parts_structurally_approved':parts['generated_formal_count'] if parts['status']=='PASS' else 0,'errors':errors,'scope':'Asset handoff approval, not a claim that Godot scenes or animations have been built','timestamp':now()}
+        if read('tools/roman_guard_parts_manifest.json').get('articulation_layout')=='NEAR_KNEE_V1':
+            result['near_knee_requirement']={'independent_plate':'knee_near','plate_inherits_shin_rotation':False,'plate_default_rotation_deg':0,'skin_mesh':'assets/units/odyssey/roman_guard/near_knee_skinning_v1.json','native_mesh_node':'Polygon2D bound to Skeleton2D/Bone2D','rigid_shin_sprite_rotation_approved':False,'reviewed_angles_deg':[-20,-10,0,10,20]}
         write('reports/godot_handoff.json',result);print(result['status']);return 0 if not errors else 2
     parts=validate(); errors=list(parts['errors']); m=read('tools/roman_guard_parts_manifest.json')
     hashes={p['name']:sha(p['file']) for p in m['parts'] if (ROOT/p['file']).exists()}
