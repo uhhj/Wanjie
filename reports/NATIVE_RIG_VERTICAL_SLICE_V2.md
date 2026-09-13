@@ -22,9 +22,9 @@ Verdict: **ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_SUPPORTED**
 | hit | PASS | [contact sheet](animations/hit_combat_review.png) |
 | death | PASS | [contact sheet](animations/death_combat_review.png) |
 
-**视觉质量保留：用户最后反馈“将就了吧”。本轮据此按可用战斗原型收口；SUPPORTED 表示原生方案可运行并完成这套动作，不代表动画已达到精修成品质量。**
+**当前 Walk 已获用户明确确认：“确定为这版，将不合格的删除”。其他动作维持各自既有审批；Attack 仍保留此前的原型质量意见。**
 
-当前 Walk 修正了小腿与脚掌联动：屈膝提前到蹬地阶段，收小踝部单独折动。自然度仍待用户观看新版确认。[16帧跟随视角](walk_chain_v2/walk_reference_follow_256.gif) / [本次报告](WALK_CHAIN_COUPLING_V2.md)。
+当前 Walk 修正了小腿与脚掌联动：屈膝提前到蹬地阶段，收小踝部单独折动。用户已确认采用此版。[16帧跟随视角](walk_chain_v2/walk_reference_follow_256.gif) / [本次报告](WALK_CHAIN_COUPLING_V2.md)。
 
 - Attack：先举盾，再抬高手臂大幅前刺；用户认可动作方向，肩部连接修复按最新视觉审批记录判定。
 - Walk：真实向前位移、左右脚交替、近臂摆动、盾手稳定；双膝朝前屈。右鞋采用已批准左鞋像素的前向视图，只在 Walk 启用。
@@ -76,7 +76,7 @@ python tools/validate_native_delivery.py
 ## Git 与限制
 
 - 分支：`feature/roman-guard-native-rig-v2`
-- 本报告依据的代码提交：`e349198d825c8810a35850463c6fec269a5c50e8`；报告本身由后续 evidence commit 保存。
+- 本报告依据的代码提交：`840726e64c5d858f3869f53c3d5931e2010ea563`；报告本身由后续 evidence commit 保存。
 - 已先提交并推送近膝修复 d0e56ed，再建立 native 分支；未 reset/rebase/force push。
 - 五处 HIRES Alpha 问题仍为 NON_BLOCKING_COMBAT_ARTIFACT。
 - 当前披风为原刚性后摆与前领，cape_mid/tip预留；没有虚构复杂布料蒙皮。

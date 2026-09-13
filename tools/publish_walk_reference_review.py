@@ -4,12 +4,12 @@ from rg_common import *
 import sys
 
 def main():
-    folder=(sys.argv[1].rstrip('/')+'/' if len(sys.argv)>1 else 'reports/walk_reference_v1/')
+    folder=(sys.argv[1].rstrip('/')+'/' if len(sys.argv)>1 else 'reports/walk_chain_v2/')
     metrics=read(folder+'walk_reference_metrics.json')
     review=read(folder+'visual_review.json')
     assert review['animation_source_sha256']==sha('resources/roman_guard_animations_v1.json')
     assert review['256px']=='PASS' and review['192px']=='PASS'
-    metrics.update(status='PASS_WITH_QUALITY_RESERVATIONS',visual_review=review)
+    metrics.update(status='PASS' if review.get('naturalness_acceptance')=='USER_APPROVED' else 'PASS_WITH_QUALITY_RESERVATIONS',visual_review=review)
     if (ROOT/folder/'leg_chain_key_audit.json').exists():
         audit=read(folder+'leg_chain_key_audit.json')
         metrics['leg_chain_audit']={k:v for k,v in audit.items() if k!='samples'}
@@ -29,7 +29,9 @@ def main():
         shutil.copy2(ROOT/folder/name,ROOT/'reports/native_rig_v2'/name)
     approval=read('reports/native_rig_v2/visual_approval.json')
     approval['animation_source_sha256']=sha('resources/roman_guard_animations_v1.json')
-    approval['animations']['walk']={'status':'PASS','sheet_sha256':sha('reports/animations/walk_combat_review.png'),'note':review['scope']+' Naturalness remains subject to user review; no new user approval implied.','additional_192px_sheet':metrics['outputs']['192']['sheet']}
+    approval['animations']['walk']={'status':'PASS','sheet_sha256':sha('reports/animations/walk_combat_review.png'),'note':review['scope'],'additional_192px_sheet':metrics['outputs']['192']['sheet']}
+    if review.get('naturalness_acceptance')=='USER_APPROVED':
+        approval['animations']['walk'].update(acceptance='USER_APPROVED',approved_baseline=folder+'approved_baseline.json')
     write('reports/native_rig_v2/visual_approval.json',approval)
     manifest=read('reports/native_rig_v2/animation_review_manifest.json')
     manifest['animations']['walk']['sha256']=sha('reports/animations/walk_combat_review.png')

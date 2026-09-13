@@ -1,4 +1,0 @@
-Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
-
-BLOOD phase=0.33962267637253 z=21
-NATIVE_TESTS PASS event=1 foot={ "near": { "source_pixels": 0.02064061537385, "at_256px": 0.00368222824788 }, "far": { "source_pixels": 0.02180600166321, "at_256px": 0.00389012991344 } }

@@ -1,21 +1,19 @@
 {
-  "purpose": "Current Walk calf/foot coupling V2. Technical and combat-continuity review completed; new naturalness awaits user review. Rig and other animations frozen. FPS is prior baseline.",
+  "purpose": "User-approved Walk calf/foot coupling V2 retained; rejected Walk candidates removed. Rig/assets/other animations unchanged; FPS remains prior baseline.",
   "sha256": {
     "resources/roman_guard_animations_v1.json": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
     "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "21067a8b73781161ca604cf69bcba2f0e8bbb79df0a53e4060d4424c66c85cd3",
     "reports/native_rig_v2/capture_manifest.json": "e8c43ea9855e3b16bfb2fbb9035b92a4aab89be87ab36fe65701ed4b7cc67512",
     "reports/native_rig_v2/stress_results.json": "fffb5c49c3204225a8fe97919953c8a4ceed9264ac2e75ccdd9a1ade5d18bee4",
     "reports/native_rig_v2/headless_tests.json": "de09830f684791b1769c41936f0283cba8db4f355bf4fe0c3422c3c66911e360",
-    "reports/native_rig_v2/visual_approval.json": "2d38932158362518be33b1b063938a6883101e8bdd250cf3c97ac7cdc2ab1e19",
-    "reports/walk_reference_v1/walk_reference_metrics.json": "eb9750790f4abb9b9991c29ce512cc6121380a28c2185d8bbe5d623ebe1fb63f",
-    "reports/walk_reference_v1/visual_review.json": "d6948a8088f6f6c3045ac370704748fb015f74f89b7fee540eed16dad7f72642",
-    "reports/walk_reference_v1/capture_manifest.json": "b71f93a4ec0de35e72723e5717fe74443454858aebc05980538c7374033dcbe1",
-    "reports/walk_reference_v1/follow/capture_manifest.json": "932402a235973a7114541f5ed770eba9e4f77098b6f30527ae5dbd94eeb2ed87",
-    "reports/walk_chain_v2/walk_reference_metrics.json": "1209d5874fa86fc787f31f8d5691416201d7ac7e368e6bf99750387b48ca6726",
-    "reports/walk_chain_v2/visual_review.json": "893d00a6d277d70ffde05084a471ebd36485e32779d18cbf2ffcd2434a578a9f",
+    "reports/native_rig_v2/visual_approval.json": "054488575677a074347ce021884a5986fc7fdf33f39214f416d33d15d25cdc80",
+    "reports/walk_chain_v2/walk_reference_metrics.json": "53a05af26bf711d74673b19ad7f35d1c1a10863df37b48d0b4b38b1c341494cc",
+    "reports/walk_chain_v2/visual_review.json": "8610ca49dd1bdd0f37ac98289046b8f5c1718aec007e457b9d6e1174d78f6249",
     "reports/walk_chain_v2/capture_manifest.json": "455c6573d5915344d096e707d56c6a932ab19a362c312fb8174631aeaa91b956",
     "reports/walk_chain_v2/follow/capture_manifest.json": "0f7e1ae837ceee55d1669f4480aac4c3e92dd1f84b6ed110b56f6f10be111388",
-    "reports/walk_chain_v2/leg_chain_key_audit.json": "c927ef430daa7b5ae0fa30e30bd66550f01e5fd76a7193ab483327fb7f6f88c8"
+    "reports/walk_chain_v2/leg_chain_key_audit.json": "e6648fd5d6734d9bb693a3d2d684d79372c85fa6c970e2feec9194da69fe142c",
+    "reports/walk_chain_v2/approved_baseline.json": "2fbd4edaa2fce54ff70f783a9259329cff601532fbaa3548756b30146dc50f7a",
+    "reports/walk_cleanup_manifest.json": "83cac72cccf8ca234df20f9c7fd97597c2fe5b0b89368f52fbc297ca4b451b2d"
   },
   "implementation_commit": "e349198d825c8810a35850463c6fec269a5c50e8"
 }

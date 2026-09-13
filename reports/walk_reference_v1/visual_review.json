@@ -1,9 +1,0 @@
-{
-  "reviewer": "assistant",
-  "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
-  "256px": "PASS",
-  "192px": "PASS",
-  "scope": "Combat continuity: toe-off visible, alternating support, no newly observed joint break; shield/upper body stable. Actual GPU contact sheets and follow-camera frames inspected.",
-  "naturalness_acceptance": "USER_REVIEW_PENDING",
-  "limitations": "Reference is a mostly side-view pose strip; frozen 3/4-view art and existing knee deformation range retained. Not a new user approval or a claim of exact pose matching."
-}

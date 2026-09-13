@@ -179,20 +179,19 @@
   },
   "source_animation_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
   "flags": [
-    "PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation",
     "NON_BLOCKING_COMBAT_ARTIFACT: five frozen HIRES alpha findings",
     "Small rigid cape motion; cape_mid/tip reserved, not simulated cloth",
     "Death stress measurement represents held corpses after warm-up",
     "Desktop baseline only; GPU GeForce GTX 1650",
-    "Walk calf/foot coupling revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline"
+    "Walk calf/foot coupling V2 user-approved; FPS remains prior desktop baseline"
   ],
   "visual_approval_file": "reports/native_rig_v2/visual_approval.json",
-  "visual_acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS",
+  "visual_acceptance_level": "WALK_USER_APPROVED_OTHER_ANIMATIONS_UNCHANGED",
   "walk_chain_review": {
-    "status": "PASS_WITH_QUALITY_RESERVATIONS",
+    "status": "PASS",
     "other_animations_unchanged": true,
     "rig_outside_walk_resource_unchanged": true,
-    "frozen_files_verified": 39,
+    "frozen_files_verified": 49,
     "near_knee_unchanged": true,
     "gait_structure_unchanged": true,
     "stride_source_px": 387,
@@ -228,27 +227,19 @@
     },
     "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
     "visual_review": {
-      "reviewer": "assistant",
+      "reviewer": "user",
       "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
       "256px": "PASS",
       "192px": "PASS",
-      "scope": "Assistant inspected 16 native GPU frames per scale and before/after push-off/recovery comparison: calf now inclines during pre-swing knee flexion; reduced ankle-only folding; no new obvious combat-scale joint opening observed. Upper-body keys, knee-plate keys, rig and formal assets verified unchanged.",
-      "naturalness_acceptance": "USER_REVIEW_PENDING",
-      "limitations": "Current frozen 3/4-view art and approved knee deformation range retained; technical/continuity review is not user acceptance of final gait quality."
+      "scope": "User approved the current Walk calf/foot coupling V2. Prior technical and combat-scale checks retained; current exact animation/rig/assets pinned in approved_baseline.json.",
+      "naturalness_acceptance": "USER_APPROVED",
+      "limitations": "Frozen 3/4-view assets and approved knee deformation retained.",
+      "user_feedback": "确定为这版，将不合格的删除"
     },
     "leg_chain_audit": {
       "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
       "measurement": "Animation key values and bind-axis geometry; images are separate real Godot GPU captures",
       "upper_body_and_knee_plate_keys_unchanged": true,
-      "near_toeoff_before": {
-        "version": "before",
-        "time": 0.5,
-        "side": "near",
-        "shin_axis_from_down_degrees": -1.469483928128902,
-        "foot_world_degrees": 28.0,
-        "ankle_local_degrees": 42.19383961355127,
-        "knee_local_degrees": 3.201643439283748
-      },
       "near_toeoff_after": {
         "version": "after",
         "time": 0.5,

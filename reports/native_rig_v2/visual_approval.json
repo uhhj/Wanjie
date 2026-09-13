@@ -9,8 +9,10 @@
     "walk": {
       "status": "PASS",
       "sheet_sha256": "7b1f7952bcba6e69a5553f0fdfe52e2d52942f05edd3ddab68997a8e6619c592",
-      "note": "Assistant inspected 16 native GPU frames per scale and before/after push-off/recovery comparison: calf now inclines during pre-swing knee flexion; reduced ankle-only folding; no new obvious combat-scale joint opening observed. Upper-body keys, knee-plate keys, rig and formal assets verified unchanged. Naturalness remains subject to user review; no new user approval implied.",
-      "additional_192px_sheet": "reports/walk_chain_v2/walk_reference_192_review.png"
+      "note": "User approved the current Walk calf/foot coupling V2. Prior technical and combat-scale checks retained; current exact animation/rig/assets pinned in approved_baseline.json.",
+      "additional_192px_sheet": "reports/walk_chain_v2/walk_reference_192_review.png",
+      "acceptance": "USER_APPROVED",
+      "approved_baseline": "reports/walk_chain_v2/approved_baseline.json"
     },
     "attack_01": {
       "status": "PASS",
@@ -28,6 +30,6 @@
       "note": "User accepted: 死亡姿态尚可. Accepted pose retained by bind compensation; actual final captures reviewed."
     }
   },
-  "acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS",
-  "user_final_feedback": "将就了吧"
+  "acceptance_level": "WALK_USER_APPROVED_OTHER_ANIMATIONS_UNCHANGED",
+  "user_final_feedback": "确定为这版，将不合格的删除"
 }

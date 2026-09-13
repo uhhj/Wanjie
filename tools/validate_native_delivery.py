@@ -47,6 +47,9 @@ def main():
     statuses={}
     for name in ['idle','walk','attack_01','hit','death']:
         entry=review['animations'].get(name,{})
+        if name=='walk' and entry.get('acceptance')=='USER_APPROVED':
+            approved=read(entry['approved_baseline'])
+            for p,digest in approved['files'].items():check(sha(p)==digest,'User-approved Walk baseline changed: '+p)
         sheet=f'reports/animations/{name}_combat_review.png'
         valid=entry.get('status')=='PASS' and entry.get('sheet_sha256')==sha(sheet) and review.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json')
         statuses[name]='PASS' if valid else 'VISUAL_REVIEW_REQUIRED'
@@ -54,26 +57,12 @@ def main():
     all_pass=technical=='PASS' and all(s=='PASS' for s in statuses.values())
     gate={'task':'ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V2','verdict':'ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_SUPPORTED' if all_pass else ('PENDING_VISUAL_REVIEW' if not errors else 'BLOCKED_TECHNICAL_VALIDATION'),'native_rig_pipeline':'SUPPORTED' if all_pass else 'NOT_YET_APPROVED','technical_status':technical,'errors':errors,'assets':{'core':19,'attachment':1,'unchanged':not any('changed' in e.lower() for e in errors)},'rig':{'bones':23,'sprite_nodes':20,'polygon_nodes':4,'active_art_draws':21},'animations':statuses,'attack_hit_count':headless['attack_hit_count'],'walk_support_drift_256px':headless['runtime_support_drift_at_256px'],'rest':rest,'stress':stress['results'],'godot':read('reports/native_rig_v2/engine_manifest.json'),'source_animation_sha256':sha('resources/roman_guard_animations_v1.json'),'flags':['NON_BLOCKING_COMBAT_ARTIFACT: five frozen HIRES alpha findings','Small rigid cape motion; cape_mid/tip reserved, not simulated cloth','Death stress measurement represents held corpses after warm-up','Desktop baseline only; GPU GeForce GTX 1650'],'visual_approval_file':'reports/native_rig_v2/visual_approval.json'}
     gate['visual_acceptance_level']=review.get('acceptance_level','UNSPECIFIED')
-    polish_path=ROOT/'reports/walk_polish_v1/walk_polish_metrics.json'
-    if polish_path.exists():
-        polish=read(str(polish_path))
-        if polish.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json'):
-            gate['walk_keyframe_polish']=polish
-            gate['flags'].append('Walk-only keyframe polish verified; FPS table is the prior desktop baseline, not remeasured for this keyframe update')
-    if review.get('acceptance_level')=='PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS':
-        gate['flags'].insert(0,'PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation')
-    reference_path=ROOT/'reports/walk_reference_v1/walk_reference_metrics.json'
-    if reference_path.exists():
-        reference=read(str(reference_path))
-        if reference.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json'):
-            gate['walk_reference_review']=reference
-            gate['flags'].append('Walk reference revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline')
     chain_path=ROOT/'reports/walk_chain_v2/walk_reference_metrics.json'
     if chain_path.exists():
         chain=read(str(chain_path))
         if chain.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json'):
             gate['walk_chain_review']=chain
-            gate['flags'].append('Walk calf/foot coupling revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline')
+            gate['flags'].append('Walk calf/foot coupling V2 user-approved; FPS remains prior desktop baseline')
     write('reports/native_rig_v2/native_gate_v2.json',gate)
     print(gate['verdict'],technical,statuses)
     for e in errors:print('ERROR',e)

@@ -4,7 +4,7 @@ from pathlib import Path
 from rg_common import ROOT
 
 def main():
-    folder=sys.argv[1] if len(sys.argv)>1 else 'reports/walk_reference_v1'
+    folder=sys.argv[1] if len(sys.argv)>1 else 'reports/walk_chain_v2'
     source=(ROOT/folder/'walk_animation.tres').read_text(encoding='utf-8')
     body=source.split('[resource]\n',1)[1].strip()
     pattern=r'\[sub_resource type="Animation" id="[^"]+"\]\r?\nresource_name = "walk".*?(?=\r?\n\[)'
