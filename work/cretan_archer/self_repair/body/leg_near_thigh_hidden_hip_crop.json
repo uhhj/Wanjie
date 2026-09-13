@@ -1,0 +1,14 @@
+{
+  "job": "leg_near_thigh_hidden_hip",
+  "part": "leg_near_thigh",
+  "crop": [
+    259,
+    737,
+    643,
+    1121
+  ],
+  "input": "work\\cretan_archer\\self_repair\\body\\leg_near_thigh_hidden_hip_input.png",
+  "reference": "work\\cretan_archer\\self_repair\\body\\leg_near_thigh_hidden_hip_reference.png",
+  "mask": "work\\cretan_archer\\self_repair\\body\\leg_near_thigh_hidden_hip_mask.png",
+  "body_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8"
+}

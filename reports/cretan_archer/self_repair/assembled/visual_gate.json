@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "approved_body_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "part_sha256": {
+    "torso": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
+    "pelvis": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
+    "head": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+    "leg_far_thigh": "0d01615bea4db1fd59cf1533e2d9900e932ae625ef64c088eda0837da19a94e0",
+    "leg_near_thigh": "da1e55e50832f4a1b5924c44a9989a2ca5d440c2f16a8fab915f3d5fda9cd419",
+    "leg_far_shin": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+    "leg_near_shin": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+    "foot_far": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+    "foot_near": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+    "arm_far_upper": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+    "arm_far_fore": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+    "hand_far": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+    "arm_near_upper": "80373ce5152625f821ef7ec7bde7247c6cbd5632bee0423e786e553e0ffce7ea",
+    "arm_near_fore": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+    "hand_near": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+    "bow": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+    "arrow_single": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+    "quiver": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
+    "cloak": "d4efc7be6abeac20741e2edd6757136bcc90ec17513e8c065999d49dd18809ed",
+    "bow_string": "24d99fd06099b09ced3c51120769bd829c6c43b4313327544e13d3a31e42bb5c"
+  },
+  "checks": {
+    "identity_matches_accepted_body": true,
+    "rest_silhouette_and_anchors": true,
+    "equipment_positions": true,
+    "all_twenty_independent_parts_present": true,
+    "true_rgba_same_canvas": true,
+    "elbows_knees_256_192": true,
+    "hips_shoulders_local_256_192": true,
+    "bow_grip_full": true,
+    "complete_arrow": true,
+    "quiver_cloak_small_motion": true,
+    "no_visible_baked_checker_fringe_at_combat_scale": true
+  },
+  "notes": "Actual white/gray/blue 256/192 reviews inspected. Accepted Body identity, head, torso, garment silhouette and source anchors retained; original Master equipment positions retained. Eight actual isolated-part model calls filled hidden cloth/torso/thighs and equipment. Native large-angle animation remains a separate gate; this local-articulation pass does not claim five animation approval. Small hires generated-patch sampling seams are NON_BLOCKING_COMBAT_ARTIFACT.",
+  "reviewer": "Codex visual review with independent part audit",
+  "timestamp": "2026-09-13T15:26:18.394344+00:00"
+}

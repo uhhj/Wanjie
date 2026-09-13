@@ -1,0 +1,91 @@
+{
+  "quiver": {
+    "output": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_quiver_cloak\\quiver_completed_same_canvas.png",
+    "sha256": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
+    "mode": "RGBA",
+    "canvas": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "foreground_bbox": [
+      240,
+      186,
+      425,
+      618
+    ],
+    "source_visible_pixel_count": 23772,
+    "source_visible_rgba_changed_count": 0,
+    "ai_completed_pixel_count": 15583,
+    "fractional_alpha_count": 25323,
+    "raw_tool_output_mode": "RGB",
+    "raw_tool_output_dimensions": [
+      839,
+      1875
+    ],
+    "native_mask_parameter_used": false,
+    "review_status": "COMBAT_SCALE_CANDIDATE_REVIEW_PASS",
+    "formal_promotion": false,
+    "full_resolution_review": "NON_BLOCKING_HIDDEN_COMPLETION_SEAMS",
+    "combat_scale_review": {
+      "256px": "PASS_DEFAULT_COMPOSITE",
+      "192px": "PASS_DEFAULT_COMPOSITE",
+      "backgrounds": [
+        "white",
+        "gray",
+        "blue"
+      ],
+      "animation_gate": "NOT_CLAIMED"
+    }
+  },
+  "cloak": {
+    "output": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_quiver_cloak\\cloak_completed_same_canvas.png",
+    "sha256": "d4efc7be6abeac20741e2edd6757136bcc90ec17513e8c065999d49dd18809ed",
+    "mode": "RGBA",
+    "canvas": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "foreground_bbox": [
+      319,
+      306,
+      645,
+      554
+    ],
+    "source_visible_pixel_count": 23664,
+    "source_visible_rgba_changed_count": 0,
+    "ai_completed_pixel_count": 3113,
+    "fractional_alpha_count": 23993,
+    "raw_tool_output_mode": "RGB",
+    "raw_tool_output_dimensions": [
+      1426,
+      1103
+    ],
+    "native_mask_parameter_used": false,
+    "review_status": "COMBAT_SCALE_CANDIDATE_REVIEW_PASS",
+    "formal_promotion": false,
+    "full_resolution_review": "NON_BLOCKING_HIDDEN_COMPLETION_SEAMS",
+    "combat_scale_review": {
+      "256px": "PASS_DEFAULT_COMPOSITE",
+      "192px": "PASS_DEFAULT_COMPOSITE",
+      "backgrounds": [
+        "white",
+        "gray",
+        "blue"
+      ],
+      "animation_gate": "NOT_CLAIMED"
+    }
+  },
+  "notes": [
+    "Cloak hidden upper border retains patch texture transitions at full resolution; no visible artifact in reviewed default combat composition.",
+    "Quiver hidden left join has a small 1-3 source-pixel edge mismatch; not visible in 256/192px default composite.",
+    "Both raw model outputs were RGB with painted checkerboard; true RGBA was created deterministically from connected background, never falsely attributed to native model output."
+  ]
+}

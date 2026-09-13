@@ -1,5 +1,7 @@
 # 获批 Body 后的局部部件补全交接
 
+> 历史待补全记录，已被本次实际自修复取代。当前 20 个正式部件已通过；八次真实独立部件编辑及源像素锁定合成见 `reports/cretan_archer/self_repair/`。以下缺失描述保留为修复前证据，不再要求用户执行手动美术步骤。现状以 `CRETAN_ARCHER_ASSET_PIPELINE_V1.md` 和当前 SHA 绑定的 gate 为准。
+
 用户已明确“接受”候选 003。**Complete Body PASS，保持冻结，不再修脸、服装或整个人。** 新身体记录在 `reports/cretan_archer/approved_body_baseline.json`，原 Rig Master 仍用于装备可见像素。
 
 本轮已提取 15 个身体候选、4 个可见装备候选，共 19 个同画布 RGBA 候选。文件在 `work/cretan_archer/candidates/parts/`；正式目录仍未批准。不能将“19 个文件存在”混同于 20 个完整可动画部件通过。

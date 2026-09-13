@@ -1,20 +1,15 @@
 {
-  "verdict": "PASS_WITH_LOCAL_PART_COMPLETION_REQUIRED",
+  "verdict": "PART_REPAIR_PASS_NATIVE_VALIDATION_PENDING",
   "complete_body": "PASS",
   "parts": {
     "required": 20,
-    "candidates": 19,
-    "body_candidates": 15,
-    "visible_equipment_candidates": 4,
-    "generated": 0,
-    "approved": 0,
-    "missing_candidate": [
-      "arrow_single"
-    ],
-    "status": "STRUCTURAL_COMPLETION_REQUIRED"
+    "generated": 20,
+    "approved": 20,
+    "missing": 0,
+    "status": "PASS"
   },
-  "recomposition": "BODY_REST_PASS_FULL_EQUIPMENT_PENDING",
-  "joint_tests": "NEAR_ELBOW_REVEALS_PELVIS_HOLE_OTHER_THREE_LIMITED_TEST_PASS",
+  "recomposition": "PASS_COMBAT_SCALE",
+  "joint_tests": "PASS_LOCAL_ARTICULATION_256_192",
   "animations": {
     "idle": "NOT_RUN",
     "walk": "NOT_RUN",
@@ -25,6 +20,6 @@
   "attack_release": "NOT_RUN",
   "twenty_unit_smoke": "NOT_RUN",
   "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
-  "godot_handoff": "NOT_READY",
-  "note": "User-approved new body is frozen and passed. Continue only local part completion; do not restart body editing."
+  "godot_handoff": "READY",
+  "note": "Twenty repaired assets passed combat-scale review. Native scenes/animation/event/stress require their separate tests; not yet declared supported."
 }

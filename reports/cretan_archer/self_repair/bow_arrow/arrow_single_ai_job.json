@@ -1,0 +1,23 @@
+{
+  "job_id": "arrow_single",
+  "executed": true,
+  "tool_identifier": "image_gen.imagegen",
+  "model_identifier": "not exposed by tool",
+  "native_mask_parameter": false,
+  "input_file": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\arrow_feather_reference.png",
+  "input_sha256": "ff874997a23e58f9835a4b37bef2adf61c7a769369aa88211a4ab257f85b15b8",
+  "prompt": "Use case: precise-object-edit / missing asset completion. Create exactly ONE complete isolated arrow for the provided Cretan Archer game asset. The image is a material/design reference ONLY for the arrow feathers: cream ivory feathers with muted dark-red tips, dark brown slender wooden shaft, painted dark outlines. Complete the hidden rest of one arrow as an ordinary straight narrow wooden shaft with a small simple pointed iron arrowhead, consistent with these plain arrows. Horizontal side view, nock and feathers at LEFT, iron point at RIGHT. Show the entire arrow from nock to sharp point with clear padding, length about 12 times its maximum feather width. Exactly one arrow, not a bundle. Maintain the reference's 2D hand-painted semi-realistic game-art style and brown/ivory/red palette, restrained metal highlights. No fantasy glow, new decorations, quiver, bow, hands, characters, text, panels or ground shadow. Genuine transparent RGBA background, no checkerboard, no black backdrop. This is the missing complete arrow part, not a character design.\n",
+  "prompt_sha256": "add7bb5dc1b9a20a766fff98e2fadc012788a1912dcfbc352af19e8fd90be87d",
+  "tool_raw_output": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\arrow_raw.png",
+  "tool_raw_output_sha256": "7147912658eca0b34b46d14aee349779bb6a7af8b417e8a4c38385c2ef367257",
+  "tool_raw_mode": "RGB",
+  "tool_original_output": "C:/Users/Lenovo/.codex/generated_images/01a09ad1-e7cb-7292-9611-26edf456daf8/exec-ab124b2b-daca-4ace-b43f-7f6db4bc4ccc.png",
+  "output_file": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\arrow_single_candidate.png",
+  "output_sha256": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+  "output_mode": "RGBA",
+  "timestamp_recorded": "2026-09-13T14:12:19.166754+00:00",
+  "postprocessing_script": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\process_assets.py",
+  "mask": null,
+  "scope": "independent weapon only",
+  "notes": "Actual model result had baked checker and RGB. Source geometry and edge-connected neutral checker removal derive real RGBA; no native alpha or masked-edit guarantee claimed."
+}

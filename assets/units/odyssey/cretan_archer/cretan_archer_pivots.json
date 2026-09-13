@@ -1,169 +1,116 @@
 {
-  "status": "BODY_APPROVED_PART_PIVOTS_PENDING_STRUCTURAL_REVIEW",
-  "coordinate_space": "source canvas pixels; observed from Rig Master",
   "canvas": [
     1024,
     1536
   ],
-  "source_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "coordinate_space": "source_canvas_pixels",
   "pivots": {
-    "head": {
-      "xy": [
-        539,
-        356
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "torso": {
-      "xy": [
-        523,
-        620
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "pelvis": {
-      "xy": [
-        524,
-        638
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "arm_near_upper": {
-      "xy": [
-        440,
-        425
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "arm_near_fore": {
-      "xy": [
-        382,
-        653
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "hand_near": {
-      "xy": [
-        388,
-        789
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "arm_far_upper": {
-      "xy": [
-        631,
-        473
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "arm_far_fore": {
-      "xy": [
-        704,
-        645
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "hand_far": {
-      "xy": [
-        797,
-        708
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "leg_near_thigh": {
-      "xy": [
-        455,
-        839
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "leg_near_shin": {
-      "xy": [
-        399,
-        1102
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "foot_near": {
-      "xy": [
-        368,
-        1347
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "leg_far_thigh": {
-      "xy": [
-        563,
-        839
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "leg_far_shin": {
-      "xy": [
-        568,
-        1110
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "foot_far": {
-      "xy": [
-        576,
-        1347
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "bow": {
-      "xy": [
-        844,
-        725
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "bow_string": {
-      "xy": [
-        801,
-        142
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "quiver": {
-      "xy": [
-        325,
-        337
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "cloak": {
-      "xy": [
-        505,
-        367
-      ],
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    },
-    "arrow_single": {
-      "xy": null,
-      "review_required": true,
-      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
-    }
+    "pelvis": [
+      524,
+      638
+    ],
+    "torso": [
+      523,
+      620
+    ],
+    "head": [
+      539,
+      356
+    ],
+    "arm_near_upper": [
+      440,
+      425
+    ],
+    "arm_near_fore": [
+      382,
+      653
+    ],
+    "hand_near": [
+      388,
+      789
+    ],
+    "arm_far_upper": [
+      631,
+      473
+    ],
+    "arm_far_fore": [
+      704,
+      645
+    ],
+    "hand_far": [
+      797,
+      708
+    ],
+    "leg_near_thigh": [
+      455,
+      839
+    ],
+    "leg_near_shin": [
+      399,
+      1102
+    ],
+    "foot_near": [
+      368,
+      1347
+    ],
+    "leg_far_thigh": [
+      563,
+      839
+    ],
+    "leg_far_shin": [
+      568,
+      1110
+    ],
+    "foot_far": [
+      576,
+      1347
+    ],
+    "bow": [
+      844,
+      725
+    ],
+    "bow_string": [
+      844,
+      725
+    ],
+    "quiver": [
+      325,
+      337
+    ],
+    "cloak": [
+      505,
+      367
+    ],
+    "arrow_single": [
+      282,
+      725
+    ]
   },
-  "source": "work/cretan_archer/04_complete_body_rgba.png"
+  "bow_string_attachment_points": [
+    [
+      790,
+      150
+    ],
+    [
+      719,
+      1240
+    ]
+  ],
+  "bow_grip": [
+    844,
+    725
+  ],
+  "arrow_nock": [
+    282,
+    725
+  ],
+  "arrow_tip": [
+    958,
+    725
+  ],
+  "rest_ground_origin": [
+    524,
+    1460
+  ],
+  "note": "Source anchors reviewed in combat-scale part tests; unit bone offsets are stored separately for native animation."
 }

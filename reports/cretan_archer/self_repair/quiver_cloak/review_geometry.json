@@ -1,0 +1,28 @@
+{
+  "approved_body_visible_height_at_alpha_128": 1344,
+  "sizes": [
+    256,
+    192
+  ],
+  "source_canvas": [
+    1024,
+    1536
+  ],
+  "quiver_origin": [
+    216,
+    168
+  ],
+  "cloak_origin": [
+    270,
+    275
+  ],
+  "quiver_pivot_hint": [
+    325,
+    333
+  ],
+  "cloak_pivot_hint": [
+    500,
+    360
+  ],
+  "placement_note": "Original Master canvas alignment; no Body transform applied. Root must review alongside other completed parts."
+}

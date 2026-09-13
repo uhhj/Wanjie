@@ -1,0 +1,14 @@
+{
+  "job": "torso_under_near_arm",
+  "part": "torso",
+  "crop": [
+    284,
+    276,
+    796,
+    788
+  ],
+  "input": "work\\cretan_archer\\self_repair\\body\\torso_under_near_arm_input.png",
+  "reference": "work\\cretan_archer\\self_repair\\body\\torso_under_near_arm_reference.png",
+  "mask": "work\\cretan_archer\\self_repair\\body\\torso_under_near_arm_mask.png",
+  "body_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8"
+}

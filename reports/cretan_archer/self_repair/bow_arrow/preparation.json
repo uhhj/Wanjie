@@ -1,0 +1,11 @@
+{
+  "bow_grip_crop": [
+    738,
+    536,
+    994,
+    920
+  ],
+  "scale": 4,
+  "target": "bow_grip_edit_target.png",
+  "role": "actual visible source pixels; missing hand-covered grip only"
+}

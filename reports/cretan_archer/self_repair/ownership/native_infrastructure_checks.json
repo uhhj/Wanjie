@@ -1,0 +1,22 @@
+{
+  "status": "PASS_CODE_SYNTAX_ONLY",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "checked_with": "Godot --headless --path D:/Wanjie/documents/Wanjie --script <file> --check-only",
+  "scripts": [
+    "scripts/build/build_cretan_archer_scenes.gd",
+    "scripts/rig/cretan_archer_rig.gd",
+    "scripts/rig/cretan_archer_event_relay.gd",
+    "scripts/rig/cretan_archer_bow_string.gd",
+    "scripts/tests/cretan_archer_rig_lab.gd"
+  ],
+  "scene_builder_executed": false,
+  "required_manifest_status_before_build": "PASS",
+  "expected_native_bones": 26,
+  "expected_sprite_count": 19,
+  "expected_dynamic_bow_string_line_count": 1,
+  "expected_animation_count": 5,
+  "expected_attack_release_method_keys": 1,
+  "asset_gate": "OWNED_BY_ROOT_PENDING",
+  "native_runtime_tests": "NOT_RUN",
+  "combat_animation_review": "NOT_RUN"
+}

@@ -1,0 +1,23 @@
+{
+  "job_id": "bow_grip",
+  "executed": true,
+  "tool_identifier": "image_gen.imagegen",
+  "model_identifier": "not exposed by tool",
+  "native_mask_parameter": false,
+  "input_file": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\bow_grip_edit_target.png",
+  "input_sha256": "173586efd18f824e26fbbb1fce4a06666a890e37c9191d406193927d824e577b",
+  "prompt": "Use case: precise-object-edit. Edit the attached isolated bow-grip crop only. It contains upper and lower parts of one brown leather-wrapped wooden bow handle with a missing central section formerly hidden by a hand. Complete ONLY the missing middle handle, smoothly continuing the same narrow curved bow axis and the same overlapping brown leather winding from the visible upper part to the visible lower part. Eliminate the tiny residual skin triangles at the gap boundaries. Keep both existing gold ferrules, the wood, original width, tilt, lighting, 2D hand-painted game-art material and position unchanged. Do not redesign, add a hand, add a character, add a string, add ornament or change the canvas. Output one repaired crop on genuine transparent RGBA, no checkerboard or opaque black background. Target canvas 1024x1536. This is a localized independent weapon repair, not a character.\n",
+  "prompt_sha256": "ee841be05f09164043f6b1a5cd745c31d729f4e0dcb5f552aea3d283edf83b96",
+  "tool_raw_output": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\bow_grip_raw.png",
+  "tool_raw_output_sha256": "c2af397d6d60544fb099f037e1f39424a45f3d45f31271ef6c597f560b9c6b54",
+  "tool_raw_mode": "RGB",
+  "tool_original_output": "C:/Users/Lenovo/.codex/generated_images/01a09ad1-e7cb-7292-9611-26edf456daf8/exec-fce3f4da-5268-4586-9cc2-bf211dc81ea0.png",
+  "output_file": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\bow_full_candidate.png",
+  "output_sha256": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+  "output_mode": "RGBA",
+  "timestamp_recorded": "2026-09-13T14:12:19.143294+00:00",
+  "postprocessing_script": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\process_assets.py",
+  "mask": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\bow_grip_completion_mask.png",
+  "scope": "independent weapon only",
+  "notes": "Actual model result had baked checker and RGB. Source geometry and edge-connected neutral checker removal derive real RGBA; no native alpha or masked-edit guarantee claimed."
+}

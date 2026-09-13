@@ -1,0 +1,46 @@
+[
+  {
+    "part": "pelvis",
+    "prompt": "Use case: precise-object-edit. Edit target IMAGE 1 is a 512x512 isolated skirt/pelvis game rig part with a hand-shaped missing area on its LEFT edge. IMAGE 2 is only matching anatomical/context reference showing the hand that originally occluded the cloth. IMAGE 3 is visual guidance: white marks the narrow missing area to complete, black means preserve. Produce ONLY the isolated skirt/pelvis garment of IMAGE 1, at the SAME placement, scale and 512x512 canvas, true transparent RGBA background. Fill the hand-shaped notch with the natural continuation of the surrounding ivory linen folds and red lower hem; restore a continuous left garment contour from upper skirt to lower hem. NO hand, forearm, skin, legs, person, or new accessories. Preserve all existing belt, red drape, green front panel, gold border motifs, ivory fabric, hem design and their alignment. This is hidden-cloth completion for a rotating hand, not redesign. No recentering/cropping, no black background, no drawn checkerboard, no text. Existing pixels outside the white guide should remain as close as possible; only the missing left notch needs painting.",
+    "tool": "image_gen.imagegen",
+    "model_identifier": "not exposed by builtin",
+    "native_mask_parameter": false,
+    "native_alpha_output": false,
+    "raw_format": "RGB",
+    "edit_scope": "Isolated part crop only; original full Body not an edit target",
+    "method": "Generate missing-region appearance, then explicitly source-lock visible pixels using deterministic patch composition"
+  },
+  {
+    "part": "near_thigh",
+    "prompt": "Use case: precise-object-edit. IMAGE 1 is an isolated near upper-leg part, cropped to a 384x384 canvas. It is missing the upper thigh that was behind clothing. IMAGE 2 shows the approved body only for skin tone and position, never output the character. IMAGE 3 white area is missing upper-thigh patch guidance. Complete one continuous anatomical thigh upward to the hidden hip center near x196,y102 in this crop, blending into existing lower thigh below y245. Keep the existing knee and lower skin in their current position; never move or resize them. The thigh tapers naturally into the existing knee toward lower-left. No clothing, skirt hem, red strips, armor additions, hands, body, or second leg in the completed upper region. Existing top-edge scraps of skirt on the upper thigh should be replaced by continuous skin. Preserve illustrated skin tones/brush texture of the approved part. Output ONLY one isolated connected thigh part, same 384x384 composition, transparent background; no text, no checkerboard or painted background. This is hidden geometry completion, not full character drawing.",
+    "tool": "image_gen.imagegen",
+    "model_identifier": "not exposed by builtin",
+    "native_mask_parameter": false,
+    "native_alpha_output": false,
+    "raw_format": "RGB",
+    "edit_scope": "Isolated part crop only; original full Body not an edit target",
+    "method": "Generate missing-region appearance, then explicitly source-lock visible pixels using deterministic patch composition"
+  },
+  {
+    "part": "far_thigh",
+    "prompt": "Use case: precise-object-edit. Edit IMAGE 1, an isolated FAR thigh part on 384x384 canvas. IMAGE 2 is matching body crop for skin tone and alignment only. IMAGE 3 white guide identifies upper-thigh missing because clothing occluded it. Extend existing single far thigh upward to hidden hip center near x194,y102, making a connected skin segment through y210 into the currently visible thigh. Retain original near-vertical leg axis, current knee and lower leather strap position near y355. Remove any red/ivory skirt hem scraps from this isolated thigh; replace only the hidden upper region with skin. No pelvis, second leg, garment, head, person or new armor. Draw anatomical light musculature, same hand-painted warm skin texture and dark outline. Output only the single isolated thigh at matching placement and 384x384 framing, transparent background, no checkerboard/text. Preserve the existing lower thigh and knee as reference; this patch is for hidden joint continuity, not a redesign.",
+    "tool": "image_gen.imagegen",
+    "model_identifier": "not exposed by builtin",
+    "native_mask_parameter": false,
+    "native_alpha_output": false,
+    "raw_format": "RGB",
+    "edit_scope": "Isolated part crop only; original full Body not an edit target",
+    "method": "Generate missing-region appearance, then explicitly source-lock visible pixels using deterministic patch composition"
+  },
+  {
+    "part": "torso",
+    "prompt": "Use case: precise-object-edit. IMAGE 1 is a cropped isolated TORSO rig part on 512x512, with a large left-side missing area where the upper arm and sleeve were removed. IMAGE 2 is the approved clothed body crop for structure only. IMAGE 3 white area guides left hidden torso completion. Output ONLY an isolated connected sleeveless torso core matching IMAGE 1: leather chest armor with existing diagonal straps and waist belt, plus only necessary ivory undershirt under the missing shoulder/armpit. Restore its continuous left chest/flank and shoulder anchor beneath the arm, from shoulder near x155,y145 down to waist near x160,y340. Remove disconnected floating sleeve strips. NO arms, hands, head, complete person, new shoulder armor, high collar, new buckles or decorations. Keep all visible original chest panel/strap/belt design in the same positions. Do not generate an entire character. Same 512x512 framing and scale, transparent background, no text or checkerboard. Complete occluded torso material rather than covering the gap with a floating strip.",
+    "tool": "image_gen.imagegen",
+    "model_identifier": "not exposed by builtin",
+    "native_mask_parameter": false,
+    "native_alpha_output": false,
+    "raw_format": "RGB",
+    "edit_scope": "Isolated part crop only; original full Body not an edit target",
+    "method": "Generate missing-region appearance, then explicitly source-lock visible pixels using deterministic patch composition"
+  }
+]

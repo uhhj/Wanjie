@@ -1,3 +1,3 @@
-# 正式部件尚未生成
+# 正式部件：20/20
 
-20 个目标见 `tools/cretan_archer_parts_manifest.json`。Complete Body 已通过，19 个可见像素候选位于 `work/cretan_archer/candidates/parts/`。隐藏区域、完整装备与单支箭仍待补全及结构审查；此目录不放占位 PNG。正式批准当前 0/20，不可交给 Godot 正式 Rig。
+本目录为已审查的 1024×1536 RGBA 部件，完整 SHA、来源、pivot 和 draw order 见 `tools/cretan_archer_parts_manifest.json`。15 件身体加弓、弦、箭袋、披肩、单箭，共 20 件。单箭默认隐藏，原生 Rig 使用可控制的 Line2D 表现弓弦。资产通过不代表动画与性能已通过，后者以 `reports/cretan_archer/native/` 的独立检查为准。

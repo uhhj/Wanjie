@@ -1,0 +1,351 @@
+{
+  "status": "SOURCE_PIXEL_OWNERSHIP_FIXED_HIDDEN_COMPLETION_PENDING",
+  "body_source": "work/cretan_archer/04_complete_body_rgba.png",
+  "body_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "input_candidates_unchanged": true,
+  "approved_body_unchanged": true,
+  "canvas_width": 1024,
+  "canvas_height": 1536,
+  "part_count": 15,
+  "source_rgb_changed_pixels": 0,
+  "source_alpha_changed_for_retained_pixels": 0,
+  "union_coverage_before": 355449,
+  "union_coverage_after": 355449,
+  "union_lost_pixels": 0,
+  "union_added_pixels": 0,
+  "previous_unassigned_source_pixels": 502,
+  "rest_vs_previous_changed_pixels": 4116,
+  "rest_vs_previous_max_rgba_difference": 64,
+  "rest_vs_source_max_rgba_difference": 253,
+  "rest_alpha_overlap_note": "Ordinary source-over may increase fractional alpha at duplicate joint pixels; no compensation or forged exact-match image applied.",
+  "operations": [
+    {
+      "operation": "transfer_source_ownership",
+      "from": "leg_near_thigh",
+      "to": "pelvis",
+      "reason": "visible hem and central cloth must not rotate with a thigh",
+      "pixels": 2162,
+      "bbox": [
+        388,
+        936,
+        528,
+        1006
+      ]
+    },
+    {
+      "operation": "transfer_source_ownership",
+      "from": "leg_near_thigh",
+      "to": "pelvis",
+      "reason": "small isolated source fragments along traced garment edge",
+      "pixels": 3,
+      "bbox": [
+        405,
+        938,
+        516,
+        1003
+      ]
+    },
+    {
+      "operation": "transfer_source_ownership",
+      "from": "leg_far_thigh",
+      "to": "pelvis",
+      "reason": "visible hem and central cloth must not rotate with a thigh",
+      "pixels": 4537,
+      "bbox": [
+        522,
+        927,
+        658,
+        1004
+      ]
+    },
+    {
+      "operation": "transfer_source_ownership",
+      "from": "leg_far_thigh",
+      "to": "pelvis",
+      "reason": "small isolated source fragments along traced garment edge",
+      "pixels": 26,
+      "bbox": [
+        549,
+        950,
+        655,
+        970
+      ]
+    },
+    {
+      "operation": "transfer_source_ownership",
+      "from": "torso",
+      "to": "arm_near_upper",
+      "reason": "white near sleeve follows arm; torso completion remains separately required",
+      "pixels": 3022,
+      "bbox": [
+        376,
+        399,
+        480,
+        548
+      ]
+    },
+    {
+      "operation": "transfer_source_ownership",
+      "from": "torso",
+      "to": "arm_far_upper",
+      "reason": "white far sleeve follows arm; keep chest and shoulder strap in torso",
+      "pixels": 715,
+      "bbox": [
+        623,
+        455,
+        661,
+        508
+      ]
+    },
+    {
+      "operation": "duplicate_source_for_connected_overlap",
+      "from": "leg_far_shin",
+      "to": "leg_far_thigh",
+      "reason": "bridge three-row gap plus slanted first cap row using each column's existing source pixels",
+      "pixels": 473,
+      "bbox": [
+        513,
+        1092,
+        623,
+        1102
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "name": "arm_far_upper",
+      "file": "work/cretan_archer/self_repair/ownership/arm_far_upper.png",
+      "sha256": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "work/cretan_archer/self_repair/ownership/arm_far_fore.png",
+      "sha256": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "hand_far",
+      "file": "work/cretan_archer/self_repair/ownership/hand_far.png",
+      "sha256": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "work/cretan_archer/self_repair/ownership/leg_far_thigh.png",
+      "sha256": "07ab0df266fad22fd0728a661d341b1c7ea6ceda2b112305378e69db0f1dfdbd",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "work/cretan_archer/self_repair/ownership/leg_far_shin.png",
+      "sha256": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "foot_far",
+      "file": "work/cretan_archer/self_repair/ownership/foot_far.png",
+      "sha256": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "work/cretan_archer/self_repair/ownership/leg_near_thigh.png",
+      "sha256": "4b58220166e8ba6978ffdc8dca2cc544d3638a8702122a8bb05f5d38a55bca5f",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "work/cretan_archer/self_repair/ownership/leg_near_shin.png",
+      "sha256": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "foot_near",
+      "file": "work/cretan_archer/self_repair/ownership/foot_near.png",
+      "sha256": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "pelvis",
+      "file": "work/cretan_archer/self_repair/ownership/pelvis.png",
+      "sha256": "ac418e770cb9cba0f647d05d14869d0f8ca6cbf3bc5a22009abfb95e283d08bd",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "torso",
+      "file": "work/cretan_archer/self_repair/ownership/torso.png",
+      "sha256": "42f32980f8aa6b001aa5d54a3d6fdf47f46e06d543e2292c4ff2f49a4c1545ba",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "head",
+      "file": "work/cretan_archer/self_repair/ownership/head.png",
+      "sha256": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "work/cretan_archer/self_repair/ownership/arm_near_upper.png",
+      "sha256": "80373ce5152625f821ef7ec7bde7247c6cbd5632bee0423e786e553e0ffce7ea",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "work/cretan_archer/self_repair/ownership/arm_near_fore.png",
+      "sha256": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "name": "hand_near",
+      "file": "work/cretan_archer/self_repair/ownership/hand_near.png",
+      "sha256": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+      "source_rgb_changed_pixels": 0,
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "unresolved_regions": [
+    {
+      "id": "under_hand_garment",
+      "bbox": [
+        350,
+        768,
+        455,
+        926
+      ],
+      "status": "LOCAL_COMPLETION_REQUIRED",
+      "note": "Real skirt pixels hidden by hand cannot be restored by changing ownership."
+    },
+    {
+      "id": "hidden_near_hip",
+      "bbox": [
+        392,
+        807,
+        523,
+        994
+      ],
+      "status": "LOCAL_COMPLETION_REQUIRED",
+      "note": "Thigh needs continuous skin cap beneath garment; no cloth cap retained."
+    },
+    {
+      "id": "hidden_far_hip",
+      "bbox": [
+        514,
+        807,
+        642,
+        994
+      ],
+      "status": "LOCAL_COMPLETION_REQUIRED",
+      "note": "Thigh needs continuous skin cap beneath garment."
+    },
+    {
+      "id": "torso_under_near_sleeve",
+      "bbox": [
+        389,
+        354,
+        496,
+        592
+      ],
+      "status": "LOCAL_COMPLETION_REQUIRED",
+      "note": "Visible sleeve was transferred to upper arm; underlying torso remains intentionally incomplete."
+    },
+    {
+      "id": "hem_trace_dark_edge",
+      "bbox": [
+        399,
+        927,
+        659,
+        1001
+      ],
+      "status": "COMBAT_SCALE_MOTION_REVIEW_REQUIRED",
+      "note": "Hand-traced dark garment edge may have approximately 1 px source uncertainty; do not globally erode or recolor."
+    },
+    {
+      "id": "far_shoulder_backfill",
+      "bbox": [
+        590,
+        395,
+        661,
+        545
+      ],
+      "status": "MOTION_REVIEW_REQUIRED",
+      "note": "Far upper arm renders behind torso. Confirm actual shoulder excursion before requesting hidden torso fill."
+    }
+  ],
+  "formal_approval": false,
+  "godot_handoff": "NOT_READY"
+}

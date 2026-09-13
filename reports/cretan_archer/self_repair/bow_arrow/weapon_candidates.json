@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-09-13T14:05:44.190897+00:00",
+  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "bow": {
+    "file": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\bow_full_candidate.png",
+    "sha256": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+    "canvas": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "bow_grip": [
+      844,
+      725
+    ],
+    "source_pixels_preserved": 46055,
+    "source_pixels_changed_outside_completion": 0,
+    "generated_pixel_count": 3560,
+    "completion_bbox": [
+      820,
+      673,
+      870,
+      762
+    ],
+    "native_tool_alpha": false,
+    "alpha_method": "inspected source row components; edge-connected gray-checker removal on generated crop; horizontal per-row alignment restricted to hand-covered grip",
+    "tool_output_scope": "grip crop only; no person; original visible bow restored in final composite",
+    "tip_bbox": [
+      711,
+      30,
+      897,
+      1410
+    ],
+    "string_included": false
+  },
+  "arrow": {
+    "file": "D:\\Wanjie\\documents\\Wanjie\\work\\cretan_archer\\self_repair\\equipment_bow_arrow\\arrow_single_candidate.png",
+    "sha256": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+    "canvas": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "native_tool_alpha": false,
+    "raw_size": [
+      1374,
+      1145
+    ],
+    "raw_object_bbox": [
+      30,
+      490,
+      1347,
+      656
+    ],
+    "scale": 0.5163249810174639,
+    "placement": [
+      280,
+      682
+    ],
+    "nock_pivot": [
+      282,
+      725
+    ],
+    "tip_approx": [
+      958,
+      725
+    ],
+    "length_source_pixels": 680,
+    "ai_completed": true,
+    "source_pixels_preserved": 0,
+    "design_reference": "Rig Master cream feather with muted dark-red tips and brown shaft; simple iron head completion",
+    "alpha_method": "edge-connected neutral-checker flood only; retain largest outlined arrow component; RGBA downscale with Lanczos",
+    "pending_rig_calibration": "length, nock/socket and bow/string draw position verified during actual attack rig review"
+  },
+  "status": "VISUAL_REVIEW_REQUIRED_CANDIDATES_ONLY",
+  "formal_assets_modified": false
+}

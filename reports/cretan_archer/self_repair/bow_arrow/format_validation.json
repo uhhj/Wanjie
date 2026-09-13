@@ -1,0 +1,42 @@
+{
+  "bow_full_candidate.png": {
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixels": 1523249,
+    "opaque_pixels": 3516,
+    "fractional_pixels": 46099,
+    "bbox": [
+      711,
+      30,
+      897,
+      1410
+    ],
+    "sha256": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d"
+  },
+  "arrow_single_candidate.png": {
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixels": 1551106,
+    "opaque_pixels": 17226,
+    "fractional_pixels": 4532,
+    "bbox": [
+      280,
+      682,
+      960,
+      768
+    ],
+    "sha256": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501"
+  },
+  "body_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "body_unchanged": true
+}

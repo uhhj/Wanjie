@@ -1,0 +1,269 @@
+{
+  "status": "PASS",
+  "required": 20,
+  "approved": 20,
+  "missing": 0,
+  "review": "reports/cretan_archer/self_repair/assembled/visual_gate.json",
+  "parts": [
+    {
+      "name": "head",
+      "sha256": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1528135,
+      "foreground_pixels": 41566,
+      "bbox": [
+        380,
+        111,
+        638,
+        383
+      ]
+    },
+    {
+      "name": "torso",
+      "sha256": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1504601,
+      "foreground_pixels": 66841,
+      "bbox": [
+        386,
+        333,
+        658,
+        665
+      ]
+    },
+    {
+      "name": "pelvis",
+      "sha256": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1486163,
+      "foreground_pixels": 84309,
+      "bbox": [
+        355,
+        612,
+        672,
+        1006
+      ]
+    },
+    {
+      "name": "arm_near_upper",
+      "sha256": "80373ce5152625f821ef7ec7bde7247c6cbd5632bee0423e786e553e0ffce7ea",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1539354,
+      "foreground_pixels": 32460,
+      "bbox": [
+        335,
+        351,
+        505,
+        675
+      ]
+    },
+    {
+      "name": "arm_near_fore",
+      "sha256": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1559721,
+      "foreground_pixels": 12259,
+      "bbox": [
+        331,
+        630,
+        427,
+        800
+      ]
+    },
+    {
+      "name": "hand_near",
+      "sha256": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1564441,
+      "foreground_pixels": 8204,
+      "bbox": [
+        350,
+        778,
+        446,
+        901
+      ]
+    },
+    {
+      "name": "arm_far_upper",
+      "sha256": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1557894,
+      "foreground_pixels": 14291,
+      "bbox": [
+        590,
+        394,
+        745,
+        672
+      ]
+    },
+    {
+      "name": "arm_far_fore",
+      "sha256": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1562239,
+      "foreground_pixels": 9988,
+      "bbox": [
+        655,
+        606,
+        826,
+        737
+      ]
+    },
+    {
+      "name": "hand_far",
+      "sha256": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1564653,
+      "foreground_pixels": 7398,
+      "bbox": [
+        773,
+        671,
+        890,
+        771
+      ]
+    },
+    {
+      "name": "leg_near_thigh",
+      "sha256": "da1e55e50832f4a1b5924c44a9989a2ca5d440c2f16a8fab915f3d5fda9cd419",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1539423,
+      "foreground_pixels": 32574,
+      "bbox": [
+        342,
+        805,
+        528,
+        1129
+      ]
+    },
+    {
+      "name": "leg_near_shin",
+      "sha256": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1547200,
+      "foreground_pixels": 24256,
+      "bbox": [
+        319,
+        1078,
+        458,
+        1365
+      ]
+    },
+    {
+      "name": "foot_near",
+      "sha256": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1558420,
+      "foreground_pixels": 13400,
+      "bbox": [
+        306,
+        1328,
+        453,
+        1461
+      ]
+    },
+    {
+      "name": "leg_far_thigh",
+      "sha256": "0d01615bea4db1fd59cf1533e2d9900e932ae625ef64c088eda0837da19a94e0",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1538006,
+      "foreground_pixels": 33945,
+      "bbox": [
+        510,
+        805,
+        658,
+        1126
+      ]
+    },
+    {
+      "name": "leg_far_shin",
+      "sha256": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1546168,
+      "foreground_pixels": 25441,
+      "bbox": [
+        500,
+        1092,
+        634,
+        1361
+      ]
+    },
+    {
+      "name": "foot_far",
+      "sha256": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1553632,
+      "foreground_pixels": 17768,
+      "bbox": [
+        515,
+        1327,
+        762,
+        1442
+      ]
+    },
+    {
+      "name": "bow",
+      "sha256": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1523249,
+      "foreground_pixels": 46569,
+      "bbox": [
+        711,
+        30,
+        897,
+        1410
+      ]
+    },
+    {
+      "name": "bow_string",
+      "sha256": "24d99fd06099b09ced3c51120769bd829c6c43b4313327544e13d3a31e42bb5c",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1566969,
+      "foreground_pixels": 1961,
+      "bbox": [
+        716,
+        147,
+        794,
+        1243
+      ]
+    },
+    {
+      "name": "quiver",
+      "sha256": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1533509,
+      "foreground_pixels": 36270,
+      "bbox": [
+        240,
+        186,
+        425,
+        618
+      ]
+    },
+    {
+      "name": "cloak",
+      "sha256": "d4efc7be6abeac20741e2edd6757136bcc90ec17513e8c065999d49dd18809ed",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1546087,
+      "foreground_pixels": 25966,
+      "bbox": [
+        319,
+        306,
+        645,
+        554
+      ]
+    },
+    {
+      "name": "arrow_single",
+      "sha256": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+      "rgba_same_canvas": true,
+      "transparent_pixels": 1551106,
+      "foreground_pixels": 19441,
+      "bbox": [
+        280,
+        682,
+        960,
+        768
+      ]
+    }
+  ]
+}
