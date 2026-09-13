@@ -1,21 +1,21 @@
 {
-  "status": "AUTHORING_PLAN_NOT_ANIMATION_PASS",
-  "reference_file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V1.png",
-  "reference_sha256": "61adb8187023f3c37dcc5987cc0ce9501d4c49c5eae1185941495fc90de92d06",
+  "status": "MOTION_REFERENCE_V2_INGESTED_NATIVE_REVIEW_PENDING",
+  "reference_file": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V2.png",
+  "reference_sha256": "4fb4acf618ca26332045cad0187e0346462a3714d5a7def01f1c8d5587bfa9a4",
   "role": "MOTION_ONLY",
   "pixels_in_formal_assets_allowed": false,
   "observed_strip_frames": 8,
-  "observed_limit": "Strip mainly shows similar leg arrangements and contact/lift cues. A clear passing pose and full opposite-leg support cycle are not supplied; these must be authored and verified.",
-  "phase_assignment": "Reference crops are approximate pose cues; full alternation and timing inferred from walk logic, then tested on real rig.",
-  "cycle_seconds_proposed": 1.0,
-  "stride_character_heights_proposed": 0.3,
+  "observed_limit": "Eight visible pose cues show heel-leading placement, loaded support, trailing heel/foot lift and controlled bow. They are not a labeled biomechanical cycle; exact passing crossings and opposite-leg identities are authored, not asserted from the strip.",
+  "phase_assignment": "Use observed contact/lift/upper-body cues; infer true near/far alternation and key timing in the native rig. Never copy frames as sprites.",
+  "cycle_seconds_proposed": 1.05,
+  "stride_character_heights_proposed": 0.31343283582089554,
   "roman_guard_stride_character_heights": 0.2696864111498258,
-  "stride_increase_normalized_percent": 11.240310077519378,
-  "pelvis_bob_character_height_proposed": 0.0065,
+  "stride_increase_normalized_percent": 16.22121948397548,
+  "pelvis_bob_character_height_proposed": 0.006716417910447761,
   "roman_guard_bob_character_height": 0.004878048780487805,
   "support_phase_per_leg": [
     0,
-    0.58
+    0.55
   ],
   "far_phase_offset": 0.5,
   "double_support": true,
@@ -25,76 +25,139 @@
   "phases": [
     {
       "name": "contact_near",
-      "normalized_time": 0,
+      "normalized_time": 0.0,
+      "time_seconds": 0.0,
       "approx_reference_crop_index": 1,
       "support_leg": "near",
-      "intent": "Heel approaches/contacts; trailing far forefoot finishes support",
-      "reference_match": "approximate cue, not exact frame correspondence"
+      "intent": "Heel approaches/contacts while other forefoot finishes support",
+      "observed_cue": "Forward foot approaches ground with raised toe; trailing heel is raised",
+      "reference_match": "Approximate motion cue, not exact sprite/frame correspondence",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "down_near",
-      "normalized_time": 0.1,
+      "normalized_time": 0.12,
+      "time_seconds": 0.126,
       "approx_reference_crop_index": 2,
       "support_leg": "near",
-      "intent": "Near knee accepts load; pelvis slightly descends",
-      "reference_match": "approximate cue, not exact frame correspondence"
+      "intent": "Supporting knee accepts load and pelvis descends slightly",
+      "observed_cue": "Forward sole is flatter while trailing heel remains elevated",
+      "reference_match": "Approximate motion cue, not exact sprite/frame correspondence",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "passing_near",
-      "normalized_time": 0.27,
-      "approx_reference_crop_index": null,
+      "normalized_time": 0.275,
+      "time_seconds": 0.28875000000000006,
+      "approx_reference_crop_index": 3,
       "support_leg": "near",
-      "intent": "Far leg swings clear of floor and passes the supporting leg",
-      "reference_match": "Not clearly shown in supplied strip; authored passing pose, not observed extraction"
+      "intent": "Opposite leg passes clear of the planted leg",
+      "observed_cue": "Trailing foot clears the ground; full passing crossing is not directly shown",
+      "reference_match": "Lift cue only: passing crossing is authored and tested, not directly extracted",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "up_near",
       "normalized_time": 0.4,
+      "time_seconds": 0.42000000000000004,
       "approx_reference_crop_index": 6,
       "support_leg": "near",
-      "intent": "Near heel begins lifting; swing leg prepares next placement",
-      "reference_match": "approximate cue, not exact frame correspondence"
+      "intent": "Support heel rises as the other foot prepares forward placement",
+      "observed_cue": "Trailing heel/foot lifted while torso and bow stay controlled",
+      "reference_match": "Approximate motion cue, not exact sprite/frame correspondence",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "contact_far",
       "normalized_time": 0.5,
+      "time_seconds": 0.525,
       "approx_reference_crop_index": 1,
       "support_leg": "far",
-      "intent": "Opposite-leg contact; inferred half-cycle, not a literal duplicate sprite",
-      "reference_match": "approximate cue; opposite half cycle inferred"
+      "intent": "Heel approaches/contacts while other forefoot finishes support",
+      "observed_cue": "Forward foot approaches ground with raised toe; trailing heel is raised",
+      "reference_match": "Opposite support half-cycle is inferred; Approximate motion cue, not exact sprite/frame correspondence",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "down_far",
-      "normalized_time": 0.6,
+      "normalized_time": 0.62,
+      "time_seconds": 0.651,
       "approx_reference_crop_index": 2,
       "support_leg": "far",
-      "intent": "Far knee accepts load; pelvis slightly descends",
-      "reference_match": "approximate cue; opposite half cycle inferred"
+      "intent": "Supporting knee accepts load and pelvis descends slightly",
+      "observed_cue": "Forward sole is flatter while trailing heel remains elevated",
+      "reference_match": "Opposite support half-cycle is inferred; Approximate motion cue, not exact sprite/frame correspondence",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "passing_far",
-      "normalized_time": 0.77,
-      "approx_reference_crop_index": null,
+      "normalized_time": 0.775,
+      "time_seconds": 0.8137500000000001,
+      "approx_reference_crop_index": 3,
       "support_leg": "far",
-      "intent": "Near leg swings clear and passes",
-      "reference_match": "Not clearly shown in supplied strip; authored passing pose, not observed extraction"
+      "intent": "Opposite leg passes clear of the planted leg",
+      "observed_cue": "Trailing foot clears the ground; full passing crossing is not directly shown",
+      "reference_match": "Opposite support half-cycle is inferred; Lift cue only: passing crossing is authored and tested, not directly extracted",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     },
     {
       "name": "up_far",
       "normalized_time": 0.9,
+      "time_seconds": 0.9450000000000001,
       "approx_reference_crop_index": 6,
       "support_leg": "far",
-      "intent": "Far heel lifts; prepare near contact",
-      "reference_match": "approximate cue; opposite half cycle inferred"
+      "intent": "Support heel rises as the other foot prepares forward placement",
+      "observed_cue": "Trailing heel/foot lifted while torso and bow stay controlled",
+      "reference_match": "Opposite support half-cycle is inferred; Approximate motion cue, not exact sprite/frame correspondence",
+      "phase_origin": "AUTHORED_FROM_REFERENCE_CUES",
+      "near_far_identity_from_reference": false
     }
   ],
   "native_comparison_file": "reports/cretan_archer_walk_reference_comparison.png",
-  "native_comparison_status": "NOT_GENERATED_COMPLETE_BODY_GATE_PENDING",
+  "native_comparison_status": "REGENERATION_REQUIRED_FOR_MOTION_REFERENCE_V2",
   "pass_basis": [
     "Actual 256/192px Godot renders",
     "Thigh/calf/foot chain coupling",
     "World-space planted material-point trajectory",
     "No perceptible foot sliding"
   ],
-  "pixel_similarity_is_gate": false
+  "pixel_similarity_is_gate": false,
+  "superseded_reference": {
+    "reference_file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V1.png",
+    "reference_sha256": "61adb8187023f3c37dcc5987cc0ce9501d4c49c5eae1185941495fc90de92d06"
+  },
+  "cycle_seconds_authored": 1.05,
+  "stride_source_pixels_authored": 420.0,
+  "double_support_fraction_per_exchange": 0.05,
+  "authoring_module": "tools/cretan_archer_walk_v2.py",
+  "observed_cues": [
+    {
+      "crop_index": 1,
+      "observation": "Forward foot approaches ground with raised toe; trailing heel is raised"
+    },
+    {
+      "crop_index": 2,
+      "observation": "Forward sole is flatter while trailing heel remains elevated"
+    },
+    {
+      "crop_index": 3,
+      "observation": "Trailing foot clears the ground; full passing crossing is not directly shown"
+    },
+    {
+      "crop_index": 6,
+      "observation": "Trailing heel/foot lifted while torso and bow stay controlled"
+    }
+  ],
+  "motion_only_rules": [
+    "Do not modify identity, art, costume, bow or quiver from this sheet",
+    "Do not extract production pixels or use image cells as sprite animation",
+    "World material-point contact and256/192px native motion take priority over image similarity"
+  ]
 }

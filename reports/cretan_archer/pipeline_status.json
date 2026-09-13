@@ -1,5 +1,5 @@
 {
-  "verdict": "PART_REPAIR_PASS_NATIVE_VALIDATION_PENDING",
+  "verdict": "CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED",
   "complete_body": "PASS",
   "parts": {
     "required": 20,
@@ -11,15 +11,16 @@
   "recomposition": "PASS_COMBAT_SCALE",
   "joint_tests": "PASS_LOCAL_ARTICULATION_256_192",
   "animations": {
-    "idle": "NOT_RUN",
-    "walk": "NOT_RUN",
-    "attack_01": "NOT_RUN",
-    "hit": "NOT_RUN",
-    "death": "NOT_RUN"
+    "idle": "PASS",
+    "walk": "PASS",
+    "attack_01": "PASS",
+    "hit": "PASS",
+    "death": "PASS"
   },
-  "attack_release": "NOT_RUN",
-  "twenty_unit_smoke": "NOT_RUN",
-  "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
+  "attack_release": "PASS_EXACTLY_ONCE",
+  "twenty_unit_smoke": "COMPLETED",
+  "human_medium_rig_reuse": "SUPPORTED",
   "godot_handoff": "READY",
-  "note": "Twenty repaired assets passed combat-scale review. Native scenes/animation/event/stress require their separate tests; not yet declared supported."
+  "note": "Art and native evidence checked independently against current SHA; desktop-only smoke; no third unit or combat system.",
+  "native_gate": "PASS"
 }

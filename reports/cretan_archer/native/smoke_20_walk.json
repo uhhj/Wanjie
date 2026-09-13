@@ -1,0 +1,219 @@
+{
+	"artifact_inputs": {
+		"res://assets/units/odyssey/cretan_archer/parts/arm_far_fore.png": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+		"res://assets/units/odyssey/cretan_archer/parts/arm_far_upper.png": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+		"res://assets/units/odyssey/cretan_archer/parts/arm_near_fore.png": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+		"res://assets/units/odyssey/cretan_archer/parts/arm_near_upper.png": "80373ce5152625f821ef7ec7bde7247c6cbd5632bee0423e786e553e0ffce7ea",
+		"res://assets/units/odyssey/cretan_archer/parts/arrow_single.png": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+		"res://assets/units/odyssey/cretan_archer/parts/bow.png": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+		"res://assets/units/odyssey/cretan_archer/parts/bow_string.png": "24d99fd06099b09ced3c51120769bd829c6c43b4313327544e13d3a31e42bb5c",
+		"res://assets/units/odyssey/cretan_archer/parts/cloak.png": "d4efc7be6abeac20741e2edd6757136bcc90ec17513e8c065999d49dd18809ed",
+		"res://assets/units/odyssey/cretan_archer/parts/foot_far.png": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+		"res://assets/units/odyssey/cretan_archer/parts/foot_near.png": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+		"res://assets/units/odyssey/cretan_archer/parts/hand_far.png": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+		"res://assets/units/odyssey/cretan_archer/parts/hand_near.png": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+		"res://assets/units/odyssey/cretan_archer/parts/head.png": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_far_shin.png": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_far_thigh.png": "0d01615bea4db1fd59cf1533e2d9900e932ae625ef64c088eda0837da19a94e0",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_near_shin.png": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_near_thigh.png": "da1e55e50832f4a1b5924c44a9989a2ca5d440c2f16a8fab915f3d5fda9cd419",
+		"res://assets/units/odyssey/cretan_archer/parts/pelvis.png": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
+		"res://assets/units/odyssey/cretan_archer/parts/quiver.png": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
+		"res://assets/units/odyssey/cretan_archer/parts/torso.png": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
+		"res://resources/cretan_archer_animations_v1.json": "4c0fb246743b597ad82a70d4e30fbc10e6654358cc60e65168224e6d4d9449a5",
+		"res://resources/cretan_archer_animations_v1.tres": "209aed57ff0f4c8a0bd6130bd642fea8dc5a712cf46b1360b3d2f33a6c1a304a",
+		"res://resources/cretan_archer_local_skinning.json": "ef1ae3fd97f8fac41727d2c0cc4db3036a341d354927fcbd0695799691cf9c45",
+		"res://resources/cretan_archer_rig_v1.json": "f08ca89fe13f5a4af6b621ad8cdacec488e9a70147ba713486272a0ca7b7d59e",
+		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "e11dd96c17ca991523712100f701e62ce700484bd1b84a9ec40a772574754d66",
+		"res://scripts/rig/cretan_archer_bow_string.gd": "e3e637b4349a2477ac137510e791912e106c84d84cfd46f96de08b4c47df65db",
+		"res://scripts/rig/cretan_archer_event_relay.gd": "8d4f0f65bb88fca783b122d9e9ad375c08c514d315444db5a50a7da652af2615",
+		"res://scripts/rig/cretan_archer_rig.gd": "547a06582bab36d3810460ab59bea69575955c2da3a5bce443cbacdbef457e12",
+		"res://tools/cretan_archer_parts_manifest.json": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d"
+	},
+	"desktop_only": true,
+	"display_server": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fps": 80.5251459137137,
+	"inputs_unchanged_during_smoke": true,
+	"measured_seconds": 20.006173,
+	"mobile_performance_claimed": false,
+	"mode": "walk",
+	"node_count": 1224,
+	"observed_attack_release_events": 0,
+	"rendered_frames": 1611,
+	"renderer": "GeForce GTX 1650",
+	"samples": [
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.004982,
+			"fps": 71.6430742043141,
+			"node_count": 1224,
+			"rendered_frames": 72,
+			"time_seconds": 1.004982
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.003154,
+			"fps": 74.7641937329662,
+			"node_count": 1224,
+			"rendered_frames": 75,
+			"time_seconds": 2.008136
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.009607,
+			"fps": 68.3434247187272,
+			"node_count": 1224,
+			"rendered_frames": 69,
+			"time_seconds": 3.017743
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.004204,
+			"fps": 77.6734607709191,
+			"node_count": 1224,
+			"rendered_frames": 78,
+			"time_seconds": 4.021947
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.01191,
+			"fps": 84.9877953572946,
+			"node_count": 1224,
+			"rendered_frames": 86,
+			"time_seconds": 5.033857
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.001978,
+			"fps": 92.8164091427157,
+			"node_count": 1224,
+			"rendered_frames": 93,
+			"time_seconds": 6.035835
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.005143,
+			"fps": 85.5599650994933,
+			"node_count": 1224,
+			"rendered_frames": 86,
+			"time_seconds": 7.040978
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.005304,
+			"fps": 92.5093305109698,
+			"node_count": 1224,
+			"rendered_frames": 93,
+			"time_seconds": 8.046282
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.003951,
+			"fps": 96.618261249802,
+			"node_count": 1224,
+			"rendered_frames": 97,
+			"time_seconds": 9.050233
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.218532,
+			"fps": 78.7833228836009,
+			"node_count": 1224,
+			"rendered_frames": 96,
+			"time_seconds": 10.268765
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.012446,
+			"fps": 87.9059228837884,
+			"node_count": 1224,
+			"rendered_frames": 89,
+			"time_seconds": 11.281211
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.006367,
+			"fps": 71.5444763192752,
+			"node_count": 1224,
+			"rendered_frames": 72,
+			"time_seconds": 12.287578
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.002203,
+			"fps": 83.8153547734341,
+			"node_count": 1224,
+			"rendered_frames": 84,
+			"time_seconds": 13.289781
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.003434,
+			"fps": 92.6817309359659,
+			"node_count": 1224,
+			"rendered_frames": 93,
+			"time_seconds": 14.293215
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.014876,
+			"fps": 91.636810802502,
+			"node_count": 1224,
+			"rendered_frames": 93,
+			"time_seconds": 15.308091
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.008517,
+			"fps": 70.4003997949464,
+			"node_count": 1224,
+			"rendered_frames": 71,
+			"time_seconds": 16.316608
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.003037,
+			"fps": 72.7789702672982,
+			"node_count": 1224,
+			"rendered_frames": 73,
+			"time_seconds": 17.319645
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.002582,
+			"fps": 68.8223008192846,
+			"node_count": 1224,
+			"rendered_frames": 69,
+			"time_seconds": 18.322227
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.007072,
+			"fps": 65.5365256903181,
+			"node_count": 1224,
+			"rendered_frames": 66,
+			"time_seconds": 19.329299
+		}
+	],
+	"status": "COMPLETED",
+	"unit_height_px": 192,
+	"units": 20,
+	"viewport": [
+		1920.0,
+		1080.0
+	],
+	"vsync": false,
+	"walk_spatial_wrap": "Benchmark only: units wrap after leaving the right viewport boundary; foot validation is tested separately without wraps.",
+	"warmup_seconds": 2.0
+}

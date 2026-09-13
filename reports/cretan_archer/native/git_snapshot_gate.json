@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checked_staged_blobs": 252,
+  "method": "git cat-file --batch, raw staged bytes SHA256; no filesystem rewrites",
+  "frozen_roman_files": 49,
+  "failures": [],
+  "timestamp": "2026-09-13T19:14:04.069776+00:00"
+}

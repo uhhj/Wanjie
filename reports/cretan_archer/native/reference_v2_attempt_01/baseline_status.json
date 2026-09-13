@@ -1,0 +1,12 @@
+{
+  "status": "SUPERSEDED_REFERENCE_V2_ATTEMPT_01_VISUAL_FAIL",
+  "capture_scene_sha256": "81ca6bee0216a31a572da44c4b446c39fd604311ce7c181515d85275d4cd24b0",
+  "headless": "PASS",
+  "capture": "PASS_162_FRAMES_NO_CLIPPING",
+  "walk_combat_scale": "NO_OBVIOUS_STRUCTURAL_DEFECT_OBSERVED",
+  "attack_combat_scale": "READABLE_FACE_AIM_BUT_STRING_DASHED",
+  "death_combat_scale": "FAIL_TORSO_HEAD_HOVER_AND_FOREARM_DISCONTINUITY",
+  "final_supported": false,
+  "stress_not_run": true,
+  "source_snapshot": "Captured frames and SHA-bound reports retained. Current project inputs are being corrected; no later inputs falsely copied as old snapshot."
+}

@@ -1,0 +1,186 @@
+{
+  "unit_id": "OD_UNIT_02_CRETAN_ARCHER",
+  "status": "MOTION_REFERENCES_INGESTED_NATIVE_REVIEW_PENDING",
+  "manifest": "art_source/odyssey/cretan_archer/motion_reference/source_manifest.json",
+  "references": [
+    {
+      "role": "WALK_REFERENCE_V2",
+      "usage": "MOTION_ONLY",
+      "file": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V2.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\motion_reference\\OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V2.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-d75e8bfa-e11d-48ac-af81-e4e45ecdda12.png",
+      "sha256": "4fb4acf618ca26332045cad0187e0346462a3714d5a7def01f1c8d5587bfa9a4",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "read_only_source": true,
+      "identity_reference_allowed": false,
+      "pixels_in_formal_assets_allowed": false,
+      "sprite_animation_frames_allowed": false
+    },
+    {
+      "role": "ATTACK_REFERENCE_V1",
+      "usage": "MOTION_ONLY",
+      "file": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_ATTACK_REFERENCE_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\motion_reference\\OD_UNIT_02_CRETAN_ARCHER_ATTACK_REFERENCE_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-dbe3e150-1bb0-43a6-8273-a611f95738c3.png",
+      "sha256": "81d16e28d1b9d3115bcfea5e78862a6353d9cacd5a63d610dedd3a6cb2576784",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "read_only_source": true,
+      "identity_reference_allowed": false,
+      "pixels_in_formal_assets_allowed": false,
+      "sprite_animation_frames_allowed": false
+    },
+    {
+      "role": "DEATH_REFERENCE_V1",
+      "usage": "MOTION_ONLY",
+      "file": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_DEATH_REFERENCE_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\motion_reference\\OD_UNIT_02_CRETAN_ARCHER_DEATH_REFERENCE_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-f4fdcbd5-ccdb-4811-ae97-3e1c4543e155.png",
+      "sha256": "722bf2bfd49bd5f8f8ac0f5faa912c9d62cc02c38c2e91d460bff604bb30724f",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "format": "PNG",
+      "read_only_source": true,
+      "identity_reference_allowed": false,
+      "pixels_in_formal_assets_allowed": false,
+      "sprite_animation_frames_allowed": false
+    }
+  ],
+  "identity_and_production_pixels": "Remain the existing approved Body and20 formal part assets; motion sheets confer no identity/art change approval",
+  "timing_policy": "Pose order and movement logic guide authored key times; illustration cell widths do not determine time. No pixel similarity gate.",
+  "sequences": {
+    "walk": {
+      "reference": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V2.png",
+      "observed_cells": 8,
+      "observed_cues": [
+        "Heel-led placement and flatter weight-bearing sole",
+        "Trailing heel/toe-off and rear-foot clearance",
+        "Relatively steady torso/head and controlled bow",
+        "Small near-arm swing and slight cloth lag"
+      ],
+      "authored_inferences": [
+        "Near/far support identities alternate everyhalfcycle",
+        "A complete passing pose and all intermediate transitions",
+        "1.05second loop with420sourcepixel root travel and materialfoot contacts"
+      ],
+      "phase_plan": "reports/cretan_archer/walk_phase_plan.json",
+      "key_times_seconds": {
+        "contact_near": 0.0,
+        "down_near": 0.126,
+        "passing_near": 0.28875000000000006,
+        "up_near": 0.42000000000000004,
+        "contact_far": 0.525,
+        "down_far": 0.651,
+        "passing_far": 0.8137500000000001,
+        "up_far": 0.9450000000000001
+      }
+    },
+    "attack_01": {
+      "reference": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_ATTACK_REFERENCE_V1.png",
+      "observed_cells": 9,
+      "observed_sequence": [
+        {
+          "cells": [
+            1
+          ],
+          "cue": "Ready stance with bow low"
+        },
+        {
+          "cells": [
+            2
+          ],
+          "cue": "Drawing hand reaches toward the quiver/arrow"
+        },
+        {
+          "cells": [
+            3,
+            4
+          ],
+          "cue": "Bring arrow forward, nock, and raise the bow"
+        },
+        {
+          "cells": [
+            5,
+            6
+          ],
+          "cue": "Bow arm extends; drawing hand reaches cheek-height anchor; arrow points forward"
+        },
+        {
+          "cells": [
+            7
+          ],
+          "cue": "Release and short drawing-hand follow-through"
+        },
+        {
+          "cells": [
+            8,
+            9
+          ],
+          "cue": "Lower/recover and return to ready stance"
+        }
+      ],
+      "authored_inferences": [
+        "Exact key timing, elbow paths and socket alignment",
+        "Exactlyone attack_release event on the native method track",
+        "Arrow visibility and bowstring recovery represented by native rig controls; no projectile logic"
+      ]
+    },
+    "death": {
+      "reference": "art_source/odyssey/cretan_archer/motion_reference/OD_UNIT_02_CRETAN_ARCHER_DEATH_REFERENCE_V1.png",
+      "observed_cells": 8,
+      "observed_sequence": [
+        {
+          "cells": [
+            1,
+            2
+          ],
+          "cue": "Hand near chest; head/torso recoil then fold forward"
+        },
+        {
+          "cells": [
+            3,
+            4
+          ],
+          "cue": "Knees buckle; body lowers to one knee; hand reaches toward ground"
+        },
+        {
+          "cells": [
+            5
+          ],
+          "cue": "Forward support on knees and hand; bow hand sinks"
+        },
+        {
+          "cells": [
+            6
+          ],
+          "cue": "Body collapses forward/sideward; bow settles on the ground"
+        },
+        {
+          "cells": [
+            7,
+            8
+          ],
+          "cue": "Folded prone/side resting posture holds"
+        }
+      ],
+      "authored_inferences": [
+        "Exact nonlooping duration and interpolation",
+        "Ground contact clearance measured with actual rig geometry",
+        "Intentional bow release offset authored without physics or new equipment art",
+        "No identity/costume replacement from reference cells"
+      ]
+    }
+  }
+}

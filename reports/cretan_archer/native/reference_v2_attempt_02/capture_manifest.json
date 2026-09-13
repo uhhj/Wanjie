@@ -1,0 +1,3957 @@
+{
+	"animation_lengths": {
+		"attack_01": 1.2,
+		"death": 1.55,
+		"hit": 0.3,
+		"idle": 1.6,
+		"rest_pose": 0.0,
+		"walk": 1.05
+	},
+	"artifact_inputs": {
+		"res://assets/units/odyssey/cretan_archer/parts/arm_far_fore.png": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+		"res://assets/units/odyssey/cretan_archer/parts/arm_far_upper.png": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+		"res://assets/units/odyssey/cretan_archer/parts/arm_near_fore.png": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+		"res://assets/units/odyssey/cretan_archer/parts/arm_near_upper.png": "80373ce5152625f821ef7ec7bde7247c6cbd5632bee0423e786e553e0ffce7ea",
+		"res://assets/units/odyssey/cretan_archer/parts/arrow_single.png": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+		"res://assets/units/odyssey/cretan_archer/parts/bow.png": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+		"res://assets/units/odyssey/cretan_archer/parts/bow_string.png": "24d99fd06099b09ced3c51120769bd829c6c43b4313327544e13d3a31e42bb5c",
+		"res://assets/units/odyssey/cretan_archer/parts/cloak.png": "d4efc7be6abeac20741e2edd6757136bcc90ec17513e8c065999d49dd18809ed",
+		"res://assets/units/odyssey/cretan_archer/parts/foot_far.png": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+		"res://assets/units/odyssey/cretan_archer/parts/foot_near.png": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+		"res://assets/units/odyssey/cretan_archer/parts/hand_far.png": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+		"res://assets/units/odyssey/cretan_archer/parts/hand_near.png": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+		"res://assets/units/odyssey/cretan_archer/parts/head.png": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_far_shin.png": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_far_thigh.png": "0d01615bea4db1fd59cf1533e2d9900e932ae625ef64c088eda0837da19a94e0",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_near_shin.png": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+		"res://assets/units/odyssey/cretan_archer/parts/leg_near_thigh.png": "da1e55e50832f4a1b5924c44a9989a2ca5d440c2f16a8fab915f3d5fda9cd419",
+		"res://assets/units/odyssey/cretan_archer/parts/pelvis.png": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
+		"res://assets/units/odyssey/cretan_archer/parts/quiver.png": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
+		"res://assets/units/odyssey/cretan_archer/parts/torso.png": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
+		"res://resources/cretan_archer_animations_v1.json": "475a1e60ebc717ee864d45b145b97c566373a93e17f8453467f9bd6cefedd19b",
+		"res://resources/cretan_archer_animations_v1.tres": "c65f2e887392f1b5cb60ba75c8781b5c2cce8f76f3c32c43ba34257b7dc738aa",
+		"res://resources/cretan_archer_local_skinning.json": "86f5e475457828227028914156797efedc3336d4ea261d99d751422a118e9606",
+		"res://resources/cretan_archer_rig_v1.json": "f08ca89fe13f5a4af6b621ad8cdacec488e9a70147ba713486272a0ca7b7d59e",
+		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "4c0898f0210ad675a4d599e040894d5a22574d6c622a4c91c10f92d92d6f1a26",
+		"res://scripts/rig/cretan_archer_bow_string.gd": "e3e637b4349a2477ac137510e791912e106c84d84cfd46f96de08b4c47df65db",
+		"res://scripts/rig/cretan_archer_event_relay.gd": "8d4f0f65bb88fca783b122d9e9ad375c08c514d315444db5a50a7da652af2615",
+		"res://scripts/rig/cretan_archer_rig.gd": "547a06582bab36d3810460ab59bea69575955c2da3a5bce443cbacdbef457e12",
+		"res://tools/cretan_archer_parts_manifest.json": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d"
+	},
+	"body_height_source": 1340.0,
+	"clipped_frames": [],
+	"display_server": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"floor_y": 470.0,
+	"frames": [
+		{
+			"animation": "rest_pose",
+			"clipped": false,
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/rest_pose_256_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4e193b485fd54b2570e0f61050fe5e042dd630baa0bc96bb89fa16e59fce8968",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "rest_pose",
+			"clipped": false,
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/rest_pose_192_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9b034f39b506b43baa0883e766c6820ac40cfe9eb3adad1743e4ca0899b1fe4e",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "063c1563159a401b476d6a47f41236ed70446198b505b984a2f53e3da49f9170",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "5ba8c34ef63dbbdfc8be508c2d59c2e3fa5cc8a85bd6bcb2222cc3a14ad11865",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "1719db9b9ee2e5dbf2779a3e7fc0a46dcc0a30c3b41241c0a822a02b9c6dde55",
+			"time": 0.1,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "49ecc99a1685f49ae723b4c5a4a83e354c3331bf2aa3036c8f7c1cab28181151",
+			"time": 0.1,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "981d7c7da35980c3f9b5320419d799bd43f1af44e26b9fa8e32b53d0938572b9",
+			"time": 0.2,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "22e0c044e04cd4e811bb7224b3823af74ac192bba2f17868b2b9f1a6b149155d",
+			"time": 0.2,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "0930725724ae56626915ee89ed5550f0f8c66fffc2ea34d598df8a0325f7323d",
+			"time": 0.3,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "de9ae6fb16d0d79d03f6afbccf3e071d985a591ee85685dbc832f97092585eb9",
+			"time": 0.3,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "402b739867eed0bd52eba3694c710c160400edc900a3b290565cd467e7f4c8bd",
+			"time": 0.4,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "2d12d683f36688924f2c37358a131f9c170c645d1cb9dc01a35ee0281dcee796",
+			"time": 0.4,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9c8264c3635342b5bba82de703f872025b77cf840b375d1980122285db680752",
+			"time": 0.5,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "48900c66ff35a7a4b2e9100cef3ba9dedcaa0a748feadf25e086d844f5be9b06",
+			"time": 0.5,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "3e2e53aacbf726319ce9346b815ad8b6f63dd81e7f889ed6ba19ea293bc7b92a",
+			"time": 0.6,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "f92e8d3da81a913f74feabf94c4e420e267917353221ab29823c91cab3492101",
+			"time": 0.6,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "43eb9c3b981d9dd4e0a5e902e3ef7da5f14c1840d4b4a3992c754df7b6baf871",
+			"time": 0.7,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "1c66b1ff92a01280b16c10ce7a894c120c250f16e23c5a8be6adb797281929ac",
+			"time": 0.7,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "d5a1f84b4ae924555fb457235a5cea1d0a97a2bc8368de96e7b54adac6b2e0f3",
+			"time": 0.8,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9fd5265ce473b1c77224ceaf388567a46e716e240bd5f8f389d5058c196982c7",
+			"time": 0.8,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "a5a6489815cbf4137692a3c11cf5ad69d93418cacdb670a74567e23928aa01c2",
+			"time": 0.9,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "c1485975601aea594b713ca9d2f82e2c779db64f66c9d31fd5692a1cdd45372e",
+			"time": 0.9,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "939cf35bce3f9ddd0f7c6616c769acebf32195ac897b55cff258a4a9cc89257c",
+			"time": 1.0,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "5c510a455d3958877b67a4d667ef174a92bdc344032460d4448bdc3e1db8a9eb",
+			"time": 1.0,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "aab47c14a374a094c14f790db4ffe3e7a7b34ad99c0c9c230a393729538cb4e7",
+			"time": 1.1,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9efdc5951e7f4a33591b81130f7720b2b5f6c790eabf0246ec8a514268eacb62",
+			"time": 1.1,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "37c76a8e11c678da384c6bb7ea2ed51b393c8e2fd7527228de4d0b85f17eed35",
+			"time": 1.2,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "6348daa35e3117e1a8b59f0340a3536f3b0c917f6f3d3e126ab146dc7f044481",
+			"time": 1.2,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "1ec6ea353b0ca8eeb5fd64f4ec1c5f3c87f9035d84a49680db42cbc184acae27",
+			"time": 1.3,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "cbf8b9becc6ad8c718a7e450a5c84ebda8bb78415764446e2c73d657ef3c3d6c",
+			"time": 1.3,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "b1c837517db377dab8f8c3d51b2a6ddd1b4477e05204ac8d6197bfec2c387e72",
+			"time": 1.4,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "0c90ed090a9f40f1520c14ba212b094dd0398396a6508deeeb6b60d3735599b8",
+			"time": 1.4,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/idle_256_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "5778bbec3cf1f001271ec5a20c5262e1dd67ac6b0dab21ade0ba92404601ec27",
+			"time": 1.5,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "idle",
+			"clipped": false,
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/idle_192_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "67be1d5a1d4cfb1d8ca1746ac188ad728300ec06356549fc6cef55c1ddcc80ba",
+			"time": 1.5,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "961acef353288a34bb55b833843320e40c43b79ad895db06fa492153bc65e0f0",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "14cdd4fefc968d4ce3656a6d37fe77e1ba7eeff77d9ed3c2bea2d1f2e8618598",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_001.png",
+			"root_motion_source_px": 26.25,
+			"root_position": [
+				355.014923095703,
+				470.0
+			],
+			"sha256": "36455502820e866712b971d94591605255e7ea6953a21110bd77dbf1702707ad",
+			"time": 0.065625,
+			"used_rect": [
+				24,
+				199,
+				752,
+				278
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_001.png",
+			"root_motion_source_px": 26.25,
+			"root_position": [
+				353.761199951172,
+				470.0
+			],
+			"sha256": "ee13ac5baa16b07dc7b1821fa2b8794f7ec18e10f9ad5b596429cfc3caedbce7",
+			"time": 0.065625,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_002.png",
+			"root_motion_source_px": 52.5,
+			"root_position": [
+				360.029846191406,
+				470.0
+			],
+			"sha256": "2c47532fee34d8c2f533aa50b4ff974fd75bee4d0f9a63c1ded7db76f4507a00",
+			"time": 0.13125,
+			"used_rect": [
+				24,
+				199,
+				752,
+				278
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_002.png",
+			"root_motion_source_px": 52.5,
+			"root_position": [
+				357.522399902344,
+				470.0
+			],
+			"sha256": "3e2191187569c181d47e01fa3c7148e61cecb4345afab132af98bdf9ac0c3955",
+			"time": 0.13125,
+			"used_rect": [
+				24,
+				267,
+				752,
+				210
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_003.png",
+			"root_motion_source_px": 78.75,
+			"root_position": [
+				365.044769287109,
+				470.0
+			],
+			"sha256": "41f39e423d8d04f4b04fe440e67b5df10f0fed0e7fd4f4d1fb2d2e2166627ecf",
+			"time": 0.196875,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_003.png",
+			"root_motion_source_px": 78.75,
+			"root_position": [
+				361.283569335938,
+				470.0
+			],
+			"sha256": "ad91256b14af8caa4c8a27a0f332366573e795a0a0f28ea2821bb9bbd04de6e8",
+			"time": 0.196875,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_004.png",
+			"root_motion_source_px": 105.0,
+			"root_position": [
+				370.059692382813,
+				470.0
+			],
+			"sha256": "00137adad1c78dc4948e9a3e40c25bf6c96330502b28b3fbc6cafdfafbcb569b",
+			"time": 0.2625,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_004.png",
+			"root_motion_source_px": 105.0,
+			"root_position": [
+				365.044769287109,
+				470.0
+			],
+			"sha256": "655f3ca435c88ed4896092f6903d11fc320a48a8c4a75206c54f2a35eec7945e",
+			"time": 0.2625,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_005.png",
+			"root_motion_source_px": 131.25,
+			"root_position": [
+				375.074615478516,
+				470.0
+			],
+			"sha256": "0f3f72e52721320659e54f45610bd7b6ad66cbab157d08339f51542ac58dde71",
+			"time": 0.328125,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_005.png",
+			"root_motion_source_px": 131.25,
+			"root_position": [
+				368.805969238281,
+				470.0
+			],
+			"sha256": "21328324f3d7c8d936b9d1cdc58f6095159b3abfd025f33a3d530f58ff4b98c1",
+			"time": 0.328125,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_006.png",
+			"root_motion_source_px": 157.5,
+			"root_position": [
+				380.089538574219,
+				470.0
+			],
+			"sha256": "6ea5ae6b68ef9fb4484f7dcc7e5341605db02ce1975577cc1912f2204e183a50",
+			"time": 0.39375,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_006.png",
+			"root_motion_source_px": 157.5,
+			"root_position": [
+				372.567169189453,
+				470.0
+			],
+			"sha256": "5aaf13632e3a43dde68ecbf93faee138204713d44d9ff7bcd57652bb4edc192d",
+			"time": 0.39375,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_007.png",
+			"root_motion_source_px": 183.75,
+			"root_position": [
+				385.1044921875,
+				470.0
+			],
+			"sha256": "ee817edea15c236e865b194f387167ffb25120d3b6c7d2d376aa9adbc948a881",
+			"time": 0.459375,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_007.png",
+			"root_motion_source_px": 183.75,
+			"root_position": [
+				376.328369140625,
+				470.0
+			],
+			"sha256": "6405506ab17c5c2309636dbb8127623cac68318c81429ab35ccafffc8bd815f1",
+			"time": 0.459375,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_008.png",
+			"root_motion_source_px": 210.0,
+			"root_position": [
+				390.119415283203,
+				470.0
+			],
+			"sha256": "5120585e9035a4cb85304afd777f980acca242ce93f466feaa88b58d665caebe",
+			"time": 0.525,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_008.png",
+			"root_motion_source_px": 210.0,
+			"root_position": [
+				380.089538574219,
+				470.0
+			],
+			"sha256": "8f4772cc94118d89a98f0d6846a20fe082c0a83785ba76841c186843f1ec629f",
+			"time": 0.525,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_009.png",
+			"root_motion_source_px": 236.25,
+			"root_position": [
+				395.134338378906,
+				470.0
+			],
+			"sha256": "94b7aef490cc668a5688d45205376a259e295f50a65655c58e757a516970ab91",
+			"time": 0.590625,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_009.png",
+			"root_motion_source_px": 236.25,
+			"root_position": [
+				383.850738525391,
+				470.0
+			],
+			"sha256": "b086527f95219a9ced6c006598e67a5e205fa76c125eab2dc95fd29fbbb30eb4",
+			"time": 0.590625,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_010.png",
+			"root_motion_source_px": 262.5,
+			"root_position": [
+				400.149261474609,
+				470.0
+			],
+			"sha256": "41feab804201cbcbc4a70e89cbb063fadedc1707cf08a3a67a7bde6b5183a6fd",
+			"time": 0.65625,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_010.png",
+			"root_motion_source_px": 262.5,
+			"root_position": [
+				387.611938476563,
+				470.0
+			],
+			"sha256": "83115b77f48b8ff59e0e67dd56d34e4aa4fdabbe1699cc65852062fce46c08cc",
+			"time": 0.65625,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_011.png",
+			"root_motion_source_px": 288.75,
+			"root_position": [
+				405.164184570313,
+				470.0
+			],
+			"sha256": "1995a12474d7c44e1dc99a3747fedf3c955a626b98906cf44022c365aea62345",
+			"time": 0.721875,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_011.png",
+			"root_motion_source_px": 288.75,
+			"root_position": [
+				391.373138427734,
+				470.0
+			],
+			"sha256": "f73c9f032552792351b9c4a4dc39988a72808d623429dbbfc2be763d7dad54c9",
+			"time": 0.721875,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_012.png",
+			"root_motion_source_px": 315.0,
+			"root_position": [
+				410.179107666016,
+				470.0
+			],
+			"sha256": "19b85fbd4cc95489e5b632de8ae0837e8709e0bfd02bfb18a7a5d7f587f64f5a",
+			"time": 0.7875,
+			"used_rect": [
+				24,
+				198,
+				752,
+				279
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_012.png",
+			"root_motion_source_px": 315.0,
+			"root_position": [
+				395.134338378906,
+				470.0
+			],
+			"sha256": "3ee3373a23222d204e3c306c36098397b63cbc6d60d8dd56e03b5c126e0216bc",
+			"time": 0.7875,
+			"used_rect": [
+				24,
+				266,
+				752,
+				211
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_013.png",
+			"root_motion_source_px": 341.25,
+			"root_position": [
+				415.194030761719,
+				470.0
+			],
+			"sha256": "94fb162fec5b16dbf8d92becc8d4095c53514caf75ce093e9fed7179e8403e38",
+			"time": 0.853125,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_013.png",
+			"root_motion_source_px": 341.25,
+			"root_position": [
+				398.8955078125,
+				470.0
+			],
+			"sha256": "f9a31d7a7efc7597c768774a7d860a85f788e63edd816e7d053ed820c7ced566",
+			"time": 0.853125,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_014.png",
+			"root_motion_source_px": 367.5,
+			"root_position": [
+				420.208953857422,
+				470.0
+			],
+			"sha256": "f8fde2bbde7ce726efefbc6a19176de265878814d9f521ed0242def18e5485c5",
+			"time": 0.91875,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_014.png",
+			"root_motion_source_px": 367.5,
+			"root_position": [
+				402.656707763672,
+				470.0
+			],
+			"sha256": "de600f6ee55b0027047a97cd72dfabd2af5e48c4bd4465b550d4934a2de62770",
+			"time": 0.91875,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/walk_256_015.png",
+			"root_motion_source_px": 393.75,
+			"root_position": [
+				425.223876953125,
+				470.0
+			],
+			"sha256": "19ab78d7c5027970c5675a39eabecfb08c2dfcd205100eb8b9126724f9c8adb2",
+			"time": 0.984375,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "walk",
+			"clipped": false,
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/walk_192_015.png",
+			"root_motion_source_px": 393.75,
+			"root_position": [
+				406.417907714844,
+				470.0
+			],
+			"sha256": "16f4565950dd0d25dc302e405018b68bcaafaa9f7cbc3cc59b1ffef54618e9f9",
+			"time": 0.984375,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4e193b485fd54b2570e0f61050fe5e042dd630baa0bc96bb89fa16e59fce8968",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9b034f39b506b43baa0883e766c6820ac40cfe9eb3adad1743e4ca0899b1fe4e",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "2931423e0bbe81e9eac0c75013a2f89176f8529bd32df371e4974f5d98fa5a03",
+			"time": 0.08,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "692401ad884ceece895fe58a7e33dd4ed27ecc37bdaaffeff1b4cdbaf4b02b5d",
+			"time": 0.08,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "63cc4b9b08f373c51a5de7814f4727bb034e46c8d02ae373ab62bbe816c29f6b",
+			"time": 0.16,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "d82669b6a35ed7f80880cbca13a5a8f97a4f430a4b231aa0a6115b000f320bc0",
+			"time": 0.16,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "917ee2da2e238b62a89312f32e12c502d4afde4c56913fea9b405390d9b582d1",
+			"time": 0.24,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "388ba2b84d3b1dd962d5620a36a069d25912836f51c671d3af38c7765f999c06",
+			"time": 0.24,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "8664feebcb4db27a60d8788c06f7ebd6c4bd23e2722f70f692ddc85f0757254c",
+			"time": 0.32,
+			"used_rect": [
+				24,
+				190,
+				752,
+				287
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "7a1798a82627c3bfb5a6afd3367728011b5ecb2fd85f3a53ac60ffe8126a348b",
+			"time": 0.32,
+			"used_rect": [
+				24,
+				260,
+				752,
+				217
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "ca849ca5b4a71978c4f2b1945224cbcc01c34aba9c99da511264ec057de997d7",
+			"time": 0.4,
+			"used_rect": [
+				24,
+				179,
+				752,
+				298
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "3d1e49a0d07967cceafa8900084e3adde0d4fbddb4b1872b8f76b587ee9b6429",
+			"time": 0.4,
+			"used_rect": [
+				24,
+				251,
+				752,
+				226
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "ee003e7a66430bf0d303f260ec211e1efde197543dd3e51c91e73c95921a2711",
+			"time": 0.48,
+			"used_rect": [
+				24,
+				151,
+				752,
+				326
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "cb0f6db4a9b00eaefdf7d0815f9704c24ca28b010d761b3d413e8c70f0cdeab3",
+			"time": 0.48,
+			"used_rect": [
+				24,
+				231,
+				752,
+				246
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "985642ce91b716bef91edb2d5befbdd2f379417dbc0cf1060be7c422aa5b0c09",
+			"time": 0.56,
+			"used_rect": [
+				24,
+				120,
+				752,
+				357
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "dd5d8df918e3b3e65f98a4de2ecdf486519e478c2750981f35f93b805c521bc4",
+			"time": 0.56,
+			"used_rect": [
+				24,
+				207,
+				752,
+				270
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "994cb4f1fa7e72174eaee9a1e06413d9ded3441ef59658ac134c0415fa3a00e0",
+			"time": 0.64,
+			"used_rect": [
+				24,
+				120,
+				752,
+				357
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "88108d78e1fc7f180c2e5dfb2a60ecf86859ed2d9f490bfe9f83c4fd795b24b0",
+			"time": 0.64,
+			"used_rect": [
+				24,
+				207,
+				752,
+				270
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "caed666122f45b1aa63c48193051d3f486605b69d324e3b1d78a32d64118b5f0",
+			"time": 0.72,
+			"used_rect": [
+				24,
+				120,
+				752,
+				357
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "a99bc5f3ed1fd63ab490064739945a3480db2038d15280ef34f740de3a3e5cd4",
+			"time": 0.72,
+			"used_rect": [
+				24,
+				207,
+				752,
+				270
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "caed666122f45b1aa63c48193051d3f486605b69d324e3b1d78a32d64118b5f0",
+			"time": 0.8,
+			"used_rect": [
+				24,
+				120,
+				752,
+				357
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "a99bc5f3ed1fd63ab490064739945a3480db2038d15280ef34f740de3a3e5cd4",
+			"time": 0.8,
+			"used_rect": [
+				24,
+				207,
+				752,
+				270
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "c7483ff735dd80acb425931ea84f042d03c861e9a135279b071e8ad6de27fb4f",
+			"time": 0.88,
+			"used_rect": [
+				24,
+				121,
+				752,
+				356
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "42b176ad895570e7c57db3017b2a380fddf10bbb9e8f4d80e39c73819c34cc0f",
+			"time": 0.88,
+			"used_rect": [
+				24,
+				208,
+				752,
+				269
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4946640d7a00d711cb7f0203e4968d92f44875548d9ab64f23a5039d669b2c9f",
+			"time": 0.96,
+			"used_rect": [
+				24,
+				142,
+				752,
+				335
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "ea9268fb6c0f87562f05c7e4bd4f48e7cef37d7e3515ae5c79d69fc00212f7ed",
+			"time": 0.96,
+			"used_rect": [
+				24,
+				224,
+				752,
+				253
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "3a4a5757bfa5ff1e38bf04baf796b0aa81eb980d20d8bf661a0e6b69d6d6f302",
+			"time": 1.04,
+			"used_rect": [
+				24,
+				176,
+				752,
+				301
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "72fa8cb4f0d630d0fa70f69a4b5d9f8ce11ec29d6060e6fbee319e378b8380f6",
+			"time": 1.04,
+			"used_rect": [
+				24,
+				249,
+				752,
+				228
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "69517015ea2dfa68ad5e5a266d450155960be90bc42aef6394504b0a522c0663",
+			"time": 1.12,
+			"used_rect": [
+				24,
+				188,
+				752,
+				289
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "71f3892bbb557f24032c8bc089fd9b3e204e13be7efa759b8b2a5a44081febe2",
+			"time": 1.12,
+			"used_rect": [
+				24,
+				259,
+				752,
+				218
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/attack_01_256_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4e193b485fd54b2570e0f61050fe5e042dd630baa0bc96bb89fa16e59fce8968",
+			"time": 1.2,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "attack_01",
+			"clipped": false,
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/attack_01_192_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9b034f39b506b43baa0883e766c6820ac40cfe9eb3adad1743e4ca0899b1fe4e",
+			"time": 1.2,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4e193b485fd54b2570e0f61050fe5e042dd630baa0bc96bb89fa16e59fce8968",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9b034f39b506b43baa0883e766c6820ac40cfe9eb3adad1743e4ca0899b1fe4e",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "bbcac2a405373a98bc47a43dd5824c5178b8be7f3bf6a6a51b33941c97113d69",
+			"time": 0.02,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "eb78d3cba3383fc1a9c73c7b11287c6778dbfa095791b397ec47282ede7166bc",
+			"time": 0.02,
+			"used_rect": [
+				24,
+				264,
+				752,
+				213
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "10c225e0cd27da21505c5020e8e925b8bacce4604631092a9fa3f1b3fe4f8c76",
+			"time": 0.04,
+			"used_rect": [
+				24,
+				195,
+				752,
+				282
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "e4c20c94958f510d98a61063f7c72c2dcb7cc14f975ad5e289d2e27cd338caca",
+			"time": 0.04,
+			"used_rect": [
+				24,
+				264,
+				752,
+				213
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "aae90be3dd09a5b6ccdecdead9a62ae6826e19eaa1364bbfed288fe0e2695cbc",
+			"time": 0.06,
+			"used_rect": [
+				24,
+				194,
+				752,
+				283
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "abd2ac6a6b8e250dd16391ce1b1604ef13ec56eb24c3aaf7aa9078b5e234ab8c",
+			"time": 0.06,
+			"used_rect": [
+				24,
+				263,
+				752,
+				214
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "95fcd1ea57da0a21c3b9883e2ba4cd0cec4b1d8e34638769562390a600d02dae",
+			"time": 0.08,
+			"used_rect": [
+				24,
+				194,
+				752,
+				283
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "3e82ef3633e9c2d2e09db9d107113e783225d0dbacd0c22cf1cc8b855a42de3b",
+			"time": 0.08,
+			"used_rect": [
+				24,
+				263,
+				752,
+				214
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "54f8b7defe3c45b3ba531eec402f3264a97e31a7c2feddc1b3f74ea77a88c5b1",
+			"time": 0.1,
+			"used_rect": [
+				24,
+				195,
+				752,
+				282
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "1adf4d06c557d5f8e412b166621edf07f950a5d137f909dd47fcc422ea9aeb7e",
+			"time": 0.1,
+			"used_rect": [
+				24,
+				264,
+				752,
+				213
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "6a3cc63f46b8ae02bacb1d757e2105238d8b26c8f012a33beee7c05980951eef",
+			"time": 0.12,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "7b353af995b3f591fd61cab12d70df21556722e038d2e3147f7d7a01e21e62b4",
+			"time": 0.12,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "79597428a533bd4c39e47528e870997e7403a96d25f79d4cb0a6dcb22ad8f847",
+			"time": 0.14,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "22d737e57b7bb964aa98c50e2bb7bb10ebe9412592e730daf93e57b488046628",
+			"time": 0.14,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "776a11bf2a786eca0026a37235f2cb9c4f2b4e757fc8958bfeca01018ed2eeab",
+			"time": 0.16,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "ca9fe1339c47e5c4f2b33a71b3c96fdcad983da0240d9edf750f205ad7d786a9",
+			"time": 0.16,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "ef854d7cb898c8ac287153d38e08f146431c5ffbf437a6779249516a2fda3bd0",
+			"time": 0.18,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "e8bd9b406fb3a10b5695dc616943c7ec76ffaef306e0f1a0b48c2b15334a90c8",
+			"time": 0.18,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "2bee9969258aec4b69c4b6ecb73689521b1df73aeed1523879fe96043a8337f1",
+			"time": 0.2,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "45e1aaa95c0b0570d9885d79551f5a2cc5d9cfb584b10ca8f3534f17cf76a22c",
+			"time": 0.2,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "22687a57235d7dc5411d8c6282e6049eee66186c6bc7ed724ce6fd7e3723a795",
+			"time": 0.22,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "e870c7619635cd35074b10f4033ab385623278514840c4713d4f869bce3ce9cb",
+			"time": 0.22,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "8eff3db9c72538790eeb521e6418aee8ad7ee299e3dda0ced7181f1fd09b21e3",
+			"time": 0.24,
+			"used_rect": [
+				24,
+				196,
+				752,
+				281
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "184b2692af4d13acfeafc5998426b353b2546948417031aa0c368347e8cb61c9",
+			"time": 0.24,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "7846678ca99981901f1c9ce26bca4186cadb0a795a915654daccc45f2650e3fc",
+			"time": 0.26,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "203f05fcb61334cbaec48fc8aef14c721c5c80a892d972cefce504bc4bdad7c6",
+			"time": 0.26,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "97302367a9108b4753c60c640e0e23c0d0829532c7d73762b1b8f77628500e62",
+			"time": 0.28,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "bc657f5c4431ef863e4ab6d9cda3a213ee8c665ddde4953ff2dc7e060bcd6f0e",
+			"time": 0.28,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/hit_256_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4e193b485fd54b2570e0f61050fe5e042dd630baa0bc96bb89fa16e59fce8968",
+			"time": 0.3,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "hit",
+			"clipped": false,
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/hit_192_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9b034f39b506b43baa0883e766c6820ac40cfe9eb3adad1743e4ca0899b1fe4e",
+			"time": 0.3,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4e193b485fd54b2570e0f61050fe5e042dd630baa0bc96bb89fa16e59fce8968",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				197,
+				752,
+				280
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_000.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9b034f39b506b43baa0883e766c6820ac40cfe9eb3adad1743e4ca0899b1fe4e",
+			"time": 0.0,
+			"used_rect": [
+				24,
+				265,
+				752,
+				212
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "8ec45ef8a99f148f2c44593a509c36c9edd582c2c2d6c0c7e4b114c564006f99",
+			"time": 0.103333333333333,
+			"used_rect": [
+				24,
+				191,
+				752,
+				286
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_001.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "8dc5c91df7ccde87fc080868be5075cfff32b3d058de517f7cea1ad823a71247",
+			"time": 0.103333333333333,
+			"used_rect": [
+				24,
+				261,
+				752,
+				216
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "e6efe746c90bc5935eada3f5b19c20c3cb68e58b21c2e514c740459d65a271f7",
+			"time": 0.206666666666667,
+			"used_rect": [
+				24,
+				190,
+				752,
+				287
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_002.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "dd4efd3f9efb5b8bdc0a5b7079088ffbfc2712b8fb87ed3f896d35b1713cdf7c",
+			"time": 0.206666666666667,
+			"used_rect": [
+				24,
+				260,
+				752,
+				217
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "0ef8154c43f6a70aaa4f259ccdc0c6dce9a381ae9cec2a2007cc542fe11c6cb0",
+			"time": 0.31,
+			"used_rect": [
+				24,
+				199,
+				752,
+				278
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_003.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "3c36327b4880c2361b77d53cc3e4f9b851ba59e00dd6ae81ffdea1dd573624c0",
+			"time": 0.31,
+			"used_rect": [
+				24,
+				267,
+				752,
+				210
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "a4b2b95784ef3889e7a35ed0e22220b62d549f1b0d12109bdb0b814527fc1342",
+			"time": 0.413333333333333,
+			"used_rect": [
+				24,
+				250,
+				752,
+				227
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_004.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "58b80495ba577aca529484628b01e6e8be920db81d52729eb135091a18b1e35b",
+			"time": 0.413333333333333,
+			"used_rect": [
+				24,
+				305,
+				752,
+				172
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "3afe5d17afaa4aeaf295bf7dc3f49189c9b98d8ea52935b2d9f8c6cf75439ce1",
+			"time": 0.516666666666667,
+			"used_rect": [
+				24,
+				282,
+				752,
+				195
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_005.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "e0bd9f846ad0137683632f871292f68f1c10ee19aa1fbd234efccd35e7f7b36b",
+			"time": 0.516666666666667,
+			"used_rect": [
+				24,
+				329,
+				752,
+				148
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "aa2432a062c7a7a0c100825dbfbce40c8b4cf1f91c02e04e557ca5c6ce1ee1de",
+			"time": 0.62,
+			"used_rect": [
+				24,
+				285,
+				752,
+				192
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_006.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "83aec0bdc7b2ecc59ad202b15a5c008e4a6a3dd4cf63d91944b096646162d12e",
+			"time": 0.62,
+			"used_rect": [
+				24,
+				331,
+				752,
+				146
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "63cb1da80b150d7457703b042a6bf707e367d45afff7902006292b2d45311522",
+			"time": 0.723333333333333,
+			"used_rect": [
+				24,
+				285,
+				752,
+				192
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_007.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "83c21d8d8f9e0c9d8b602bd1c74fbec22dcbdc19d5be20d17f6bed33c9213600",
+			"time": 0.723333333333333,
+			"used_rect": [
+				24,
+				331,
+				752,
+				146
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "ac860edfb17edec684bc4362211e83b3e3df72d719c6130c99c9d6397d164d87",
+			"time": 0.826666666666667,
+			"used_rect": [
+				24,
+				279,
+				752,
+				198
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_008.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "314e09ab4fd8ba35906c01cde151383d324d55ed24ffb30f6c554f02fde2634a",
+			"time": 0.826666666666667,
+			"used_rect": [
+				24,
+				326,
+				752,
+				151
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "8ed593867a6de9f8f0f0f163166c2f9da0628bd093a0d746068403ace2a2fb1b",
+			"time": 0.93,
+			"used_rect": [
+				24,
+				275,
+				752,
+				202
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_009.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "1a2534b77e5747b3219df43c0aec5586ab50e6c6c8a7a25bffdb2d61e264fc6b",
+			"time": 0.93,
+			"used_rect": [
+				24,
+				323,
+				752,
+				154
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "119db02001a400e0d8e91a548f6d6d9f4d49f7d19538fbcf5d20fb6a3c76a56e",
+			"time": 1.03333333333333,
+			"used_rect": [
+				24,
+				301,
+				752,
+				176
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_010.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "4ce4e92928af59f65acce179cbef043cb8300a650e5cfe0f1b5d1aa888a2fece",
+			"time": 1.03333333333333,
+			"used_rect": [
+				24,
+				343,
+				752,
+				134
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "d55470f3e9ab354583bee4c08b8253da7431155802273e5f987573a9bdcf18bc",
+			"time": 1.13666666666667,
+			"used_rect": [
+				24,
+				351,
+				752,
+				126
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_011.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "148aec5b2654aa80796fe28e13ff603def063cdaa6c3f72d40946e2ac46d1fe5",
+			"time": 1.13666666666667,
+			"used_rect": [
+				24,
+				381,
+				752,
+				96
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "672a2588bf3c4a55dafe86c79dfa5b96dd4d6222ef765f5cc4730ed23d67417c",
+			"time": 1.24,
+			"used_rect": [
+				24,
+				386,
+				752,
+				91
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_012.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "0f12c91db206aafeb8eab1266d79aecef58a52035b3ee28d754fc8c09759db62",
+			"time": 1.24,
+			"used_rect": [
+				24,
+				407,
+				752,
+				70
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "03613a3bbdd4e51964ba41736d4dc76a3893f8f4be4a8c859374c53e7ee35f40",
+			"time": 1.34333333333333,
+			"used_rect": [
+				24,
+				388,
+				752,
+				89
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_013.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "05349082b40f4371fe88da77085177931007ee20a90eec826f072ee5c6d0298b",
+			"time": 1.34333333333333,
+			"used_rect": [
+				24,
+				408,
+				752,
+				69
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "05cf13ced8c5fa232cee96468fbc5e1dd91dc8f59814a819b7e4551d50163d34",
+			"time": 1.44666666666667,
+			"used_rect": [
+				24,
+				385,
+				752,
+				92
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_014.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9414b106eb1e49e43788bfead7a50e2d9718df8e2a56af431772480e10e0875e",
+			"time": 1.44666666666667,
+			"used_rect": [
+				24,
+				406,
+				752,
+				71
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/cretan_archer/animations/death_256_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "9f814e12a76d2f81b72863021da34487e78c4c1b895bf9aeae438a95f053adfa",
+			"time": 1.55,
+			"used_rect": [
+				24,
+				384,
+				752,
+				93
+			],
+			"viewport": [
+				800,
+				560
+			]
+		},
+		{
+			"animation": "death",
+			"clipped": false,
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/cretan_archer/animations/death_192_015.png",
+			"root_motion_source_px": 0.0,
+			"root_position": [
+				350.0,
+				470.0
+			],
+			"sha256": "f6fa81f65cb902b6e21727899a884071bd8585f750ae0df7ee8b4610e7aa4c62",
+			"time": 1.55,
+			"used_rect": [
+				24,
+				406,
+				752,
+				71
+			],
+			"viewport": [
+				800,
+				560
+			]
+		}
+	],
+	"frames_per_animation_per_scale": 16,
+	"ground_landmarks": "Fixed world-space floor ticks; Walk root progresses across them, camera remains fixed",
+	"inputs_unchanged_during_capture": true,
+	"renderer": "GeForce GTX 1650",
+	"root_x": 350.0,
+	"source": "Actual GPU SubViewport frames. Python may assemble reports, never synthesize motion.",
+	"status": "PASS",
+	"viewport": [
+		800,
+		560
+	]
+}

@@ -1,0 +1,76 @@
+{
+  "verdict": "CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED",
+  "status": "PASS",
+  "errors": [],
+  "complete_body": "PASS",
+  "parts": "20/20 PASS",
+  "rig_family": "HUMAN_MEDIUM_RIG_V1",
+  "native_bones": 26,
+  "reused_bones": 23,
+  "new_sockets": 3,
+  "animations": {
+    "idle": {
+      "256px": "PASS",
+      "192px": "PASS",
+      "notes": "Stable breathing, minimal head motion; no visible joint separation at256/192."
+    },
+    "walk": {
+      "256px": "PASS",
+      "192px": "PASS",
+      "notes": "Alternating support and swing, calf/ankle coupling, controlled bow. World-material contact tested independently."
+    },
+    "attack_01": {
+      "256px": "PASS",
+      "192px": "PASS",
+      "notes": "Retrieve gesture, nock, face-level aim, one release, follow-through; continuous string and no visible limb disconnection. Compact near-shoulder fold retained as nonblocking."
+    },
+    "hit": {
+      "256px": "PASS",
+      "192px": "PASS",
+      "notes": "Brief readable recoil; no equipment drift or joint break."
+    },
+    "death": {
+      "256px": "PASS",
+      "192px": "PASS",
+      "notes": "One leg gives way while the other flat sole supports, then kneeling, forward fall and grounded head/forearms. Final pose holds; bow released by keyed socket."
+    }
+  },
+  "attack_release_count": 1,
+  "headless": "PASS",
+  "rig_lab": "PASS",
+  "foot_slide": {
+    "far": {
+      "at_192px": 0.00219193363367622,
+      "at_256px": 0.00292257817823495,
+      "expected_contact_error_at_256px": 0.00292746077722578,
+      "expected_contact_error_source_px": 0.0153234275057912,
+      "floor_height_range_source_px": 0.011688232421875,
+      "samples": 225,
+      "source_pixels": 0.0152978701516986,
+      "support_intervals": 9
+    },
+    "near": {
+      "at_192px": 0.00171645910882238,
+      "at_256px": 0.00228861214509651,
+      "expected_contact_error_at_256px": 0.00228801930128638,
+      "expected_contact_error_source_px": 0.0119763510301709,
+      "floor_height_range_source_px": 0.0115432739257813,
+      "samples": 230,
+      "source_pixels": 0.0119794541969895,
+      "support_intervals": 7
+    }
+  },
+  "twenty_unit_smoke": "COMPLETED",
+  "desktop_fps": 80.5251459137137,
+  "renderer": "GeForce GTX 1650",
+  "mobile_performance_claimed": false,
+  "flags": [
+    "NON_BLOCKING_COMBAT_ARTIFACT: approved high-resolution alpha/edge sampling artifacts remain unchanged.",
+    "Near shoulder/upper-arm texture retains a compact rounded fold in the nock/chest pose. No visible hole, detached limb or loss of action readability at256/192.",
+    "Death finishes in a somewhat more extended pose than the reference strip; phase logic and grounded endpoint are retained.",
+    "Retrieve is a hand gesture toward quiver; separate carried-arrow attachment and projectile flight are not part of this Rig implementation."
+  ],
+  "capture_manifest_sha256": "0151c369aff644268b246b7116e5701b76806efc74c2a4c7a95d9605e6e17ba7",
+  "formal_manifest_sha256": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d",
+  "timestamp": "2026-09-13T19:14:02.148148+00:00"
+}

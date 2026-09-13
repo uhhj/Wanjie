@@ -1,0 +1,341 @@
+{
+  "reason": "Exact SHA-bound JSON provenance must survive Git add/checkout. Archer-scoped -text disables line-ending conversion only; actual working files are not rewritten.",
+  "affected_existing_records": [
+    {
+      "file": "art_source/odyssey/cretan_archer/source_manifest.json",
+      "old_committed_sha256": "f3731802b4b6ebeb452e771fb8ce4991c7de6a4473a5b6b5f74cad3c07445648",
+      "current_raw_sha256": "879260d8192ea6108e8a7f42a9fe2361dc6d3bf88d9393df6b42fd1d726babab",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "assets/units/odyssey/cretan_archer/cretan_archer_pivots.json",
+      "old_committed_sha256": "a67cadf788e9e5c6dfb8de7bb06482927ef8bed8ea68022c8eac422e07e5a051",
+      "current_raw_sha256": "1144d2f60bbb5c6dcd484d01a8b574b0542b271a85b6adfda10f3dbb31c0b3d1",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "assets/units/odyssey/cretan_archer/unit_manifest.json",
+      "old_committed_sha256": "c03e7de813bb318134d48d462142f010ea31f51ee157e95e22c0b2f300a6cbf2",
+      "current_raw_sha256": "84badecd6c27aaac874e0d24dedccdb536034db30b0321bf6392ff89840af73e",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/ai_jobs/001_remove_bow.json",
+      "old_committed_sha256": "0058a8aaa1b72fef9873387d78830c96c5c9a88b2248549016e773a505092037",
+      "current_raw_sha256": "417208d9d200128d7665b6f5137d067da08c6fb2aa1cdf29687ed99d483ddd35",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/ai_jobs/002_remove_quiver.json",
+      "old_committed_sha256": "d882bace3a5de4aa8f57e50558b8ff0eca359fd78c0e4d1e0bf634a15df3189e",
+      "current_raw_sha256": "e5c26c0b0a1a9a49431cc174d60454b512ca8449c462caa89f27027740f9d041",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/ai_jobs/003_remove_cloak.json",
+      "old_committed_sha256": "205695d81d25af9f15f036ac38f0b21c18fce35176407d01012d3588b9754c91",
+      "current_raw_sha256": "995a5f3ae03bb723ec9e09dc667401a1262d6dccb69ca1c7aeb7c5a5633222da",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/approved_body_baseline.json",
+      "old_committed_sha256": "edc6217f1ed844749028f7fbc2a7c1b92260631b1c4ffe21dec2751a8dfc2809",
+      "current_raw_sha256": "292f69de03a566a3c639d814c8cecc1a12e3ac8ae7a06b078ec857ce3bbc35fc",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/body_review_request.json",
+      "old_committed_sha256": "0394197493633262dc88e393fceba1d247e550737ff538231f8e46e970040a81",
+      "current_raw_sha256": "e0004c3a224e75fdc063a2d49c6eff006632c105c46e30d9de10b3228121ad43",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/complete_body_gate.json",
+      "old_committed_sha256": "7f0a788d0ae4a14fc77f72969bbd36b090ba8d51883819832f53e54c6b100f56",
+      "current_raw_sha256": "0dbf430a51491dc1c4ea65b2b2b4d6f6bdcd7e5132945e2c2dca6fbc808b2f61",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/external_candidate_001/complete_body_gate.json",
+      "old_committed_sha256": "cb928dcb79801474d6d3ebdae824af80fe872abdfee514e65fb26b8b3914914c",
+      "current_raw_sha256": "a8ab879dd6a55543ad5eb1408d2d329f5feb664ac9f3dd2cd833090c5e25eec1",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/external_candidate_001/metrics.json",
+      "old_committed_sha256": "d96d8ad6378655cfbb60f0545f0821b6d3a1d37f52fc4639c77b91637b0d23d8",
+      "current_raw_sha256": "769cc941602e8034c131fef09bba1e81c5035f0804c26e1d81d4e95c307b1fb2",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/external_candidate_002/review.json",
+      "old_committed_sha256": "2f56343eb99a0a1e9a67ef14a21e350a70331c000ec987ae807b5b5fab0ab648",
+      "current_raw_sha256": "5799aa5204c5b6e9498f303bd643e9a5c8897705b0932d50f9c35ff8ccc82fb0",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/external_candidate_003/complete_body_gate.json",
+      "old_committed_sha256": "df3468c281b5cef7b2bd5d578050975f7bf59af6b9654e982c76956980f43012",
+      "current_raw_sha256": "ee88ffbdcabf69a23ae7a9ffda08ba489c7562158467df3f764d94759da63bd4",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/external_candidate_003/format_review.json",
+      "old_committed_sha256": "47f7663b6f36baaca9f2f0acf99d5a325dae8175b1d8d4bc3f18ccc9c441a134",
+      "current_raw_sha256": "f6241bf2ab671cdd3f913e4a147d8b76ab51a3ecbdb3a41ac404862be5ab0a96",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/image_edit_capabilities.json",
+      "old_committed_sha256": "9fc7064ade5c075ba8b000d76b41a098ca1146a3247d1d4f62fec4888b06c12c",
+      "current_raw_sha256": "22642d9e39198c89748ddeb0365c397de0f374a8d860941aeaa03e7ef0c517f6",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/mask_manifest.json",
+      "old_committed_sha256": "f656f810eb26ce21cab65df4494ce287fb319c0a690850ccfc3f617569558ee2",
+      "current_raw_sha256": "1729839804c4d9005f443bd1992150591158cce5440f55809628e4fd13baa4b3",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/parts_gate.json",
+      "old_committed_sha256": "539f32a4e4c1a86fc0457aeae17fccb47cb4bd81007b9139ab44be7887ab4f3b",
+      "current_raw_sha256": "bd3eccbb8a2a0aea9a8402b9f13d32c17340dfb60a3471ff1a32487ea2a2964f",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/parts_v1/body_mask_definition.json",
+      "old_committed_sha256": "55e5e9635ddc18b7ed4f4bd70bc931ee6b5bb162b85c7b781438e6a3237089c8",
+      "current_raw_sha256": "5bedd8678ee8f7db5d22ac59c049386798858db34be7b17d47380ff062c00dc6",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/parts_v1/extraction_metrics.json",
+      "old_committed_sha256": "4d5eaa165c965be900345d6a4d279349d7553eeed7cf4b26973b7844bda4b3db",
+      "current_raw_sha256": "ba36f00850726a2af58b29bee5af2fcb3aa9464f0ce2716e32578aa394be85a3",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/parts_v1/local_completion_jobs.json",
+      "old_committed_sha256": "2071164553c5369df9f2222462ee90d1ca356311967e918ab76e87404fd9d143",
+      "current_raw_sha256": "238a89551e8f0ce0f52aea308513eeb204e6309d3339c9832642bf1495fca9d2",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/parts_v1/structural_review.json",
+      "old_committed_sha256": "6191c4dddce570c69b284abe05d43b9efccaae3511495ddb476582be962946e0",
+      "current_raw_sha256": "c78d5eb9e75b8d21ccfa82020390c828ace1090cf8a96c7d7ba52c3b72ba7bbc",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/parts_v1/validation.json",
+      "old_committed_sha256": "a384f69dc505acb50b55a4dd28a742b3459b01aade5f551aecf70c7d52ba9992",
+      "current_raw_sha256": "6b9c4003f4c14fb436579744e461078b689453faa0b8e9c0755cffd8a8f6aebb",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/preparation_validation.json",
+      "old_committed_sha256": "5010f94c80bbb0111ae0e51df60db61f44b1a2aca0af895d16da1aff23d148a6",
+      "current_raw_sha256": "7c7a22cd3844ba614fcf3d262489f0da4e78758b2d85911a3b91ec80a06b22d2",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/rig_reuse_plan.json",
+      "old_committed_sha256": "b436e2e763996a673c04b6376ab26f3d00e07bc117448b2a0fb710dac137eaad",
+      "current_raw_sha256": "32ce7944694a6619404b810c0f076f597f0343278501b98252ee13f6502152fb",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/roman_guard_freeze_baseline.json",
+      "old_committed_sha256": "ad85864081a8a829e47689bde16f1da76d890828faf6b7ca22a91b7b81d7f15b",
+      "current_raw_sha256": "c038ddeab6a15bfddfd38ac2bc9361156d8bce67a95258c68629fb67571c7dc9",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/assembled/metrics.json",
+      "old_committed_sha256": "97fdf0f58697c9bf23ba89036454afdc3bbfe350025d92f296b3505e36e9d6f6",
+      "current_raw_sha256": "711cbc22425b3ac2dbc8d599a6a465a359003836b3f4f6b300b5853755806c6e",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/assembled/visual_gate.json",
+      "old_committed_sha256": "dfcd29e2b084ed11b0f73b1d7825b7547c3c6db4465d5d1209fd825c7f747bdb",
+      "current_raw_sha256": "6ce1cf4aefa0c8ced1658c518948f51c766dada4fb47409a3cce70c460d1c2b2",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/body/ai_jobs.json",
+      "old_committed_sha256": "c9399eddbf35b38da469e8ea2e3ab1ee6197e684812c0386821a496b5167f8ad",
+      "current_raw_sha256": "e2d82f995c08d8193f1283d7bc656ba2d07e8793a7be58e7a5326e3cf37a2f93",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/body/pelvis_checker_rgb_donors.json",
+      "old_committed_sha256": "b9947d762140cfbea81f31263a80f4522d2452ecbf3aea75d0a2280a9fae59f0",
+      "current_raw_sha256": "c82cecd0badd820ede1a0cffe6bb8c89c3d7934e9f1436210aaedbca6e4b7dad",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/body/repair_jobs.json",
+      "old_committed_sha256": "de2fda548b41ba8c45fb4890ed34aa42927c662cdc8aae2462d1a1900305e8e8",
+      "current_raw_sha256": "c6f7a920501e77d17d5077900c0c06490f45f01d9f94bbef834af5006cf27169",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/body/torso_checker_rgb_donors.json",
+      "old_committed_sha256": "f1fecb645bc5c2f479a41e484d8318f979411e71b597fc2b779278e3ff4504eb",
+      "current_raw_sha256": "f43dab78b63116d3b6d6ced643b18af21256ffd8ea778e1ad0b949e596b78eab",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/bow_arrow/arrow_single_ai_job.json",
+      "old_committed_sha256": "5be7f46bc15aeaf5e087c95bfe4c3e3608d06482d8aa86e0e4b745a7b32ad935",
+      "current_raw_sha256": "90c3ba28e2877e1ced83266edc03615d63a705698ce1969c77cd573ad0727131",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/bow_arrow/bow_grip_ai_job.json",
+      "old_committed_sha256": "1248fca85431ee2a3ad555840ce556c15c66a4ae6dbf6530046ea4ff0f52f1ea",
+      "current_raw_sha256": "999bd5fce0ab620ef7dcc45f6e8c32deaaf9a78a59a8e9d83ae4898087996189",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/bow_arrow/format_validation.json",
+      "old_committed_sha256": "92fe493d5299a279dddc9814892b304c4de73c7c2b8eb8852a24a4a57066d144",
+      "current_raw_sha256": "75ff7922408cef9057707658fa78c8e624f0260dab419b741cab246f50fcb8e3",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/bow_arrow/preparation.json",
+      "old_committed_sha256": "669789f9de9d7c2b8901a288ff0519067912a6a993c28dc117ef105b7aaa95e7",
+      "current_raw_sha256": "6f57f6df6e39d709799c9913ccda592610758beae1f67ab1bc8b1246a724fcce",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/bow_arrow/weapon_candidates.json",
+      "old_committed_sha256": "2be2616d7fcbdc1cae6bac67b1b9f04a26cfbb3902e8653ef4778ee6eb86eb56",
+      "current_raw_sha256": "92f69c12f1cc5333dea449e5cf56ff10060d6f294f18b00e2a155e3fb59ab00e",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/ownership/metrics.json",
+      "old_committed_sha256": "35f7f123633cd30cd436a9a39c02b2a33eddaa706c54529f89139d09da87a0ba",
+      "current_raw_sha256": "df094a4b1b876cfcfceb31e55d84a4793401eaeba3f6fa93b9d616d6f0ba6537",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/ownership/trace_definition.json",
+      "old_committed_sha256": "389c9757b72711d571861f9090b16144be157232d2567c1908838943807845e5",
+      "current_raw_sha256": "8d66b9046256f526ce95bc2a468d9155d992fb5cb92748eafd0196952c525416",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/quiver_cloak/ai_jobs.json",
+      "old_committed_sha256": "0904a311b52fc1955271a098a766b7332bd8b1e5929fc80835ff1c8ece40408e",
+      "current_raw_sha256": "920f75cd2312bd1bc827da5e984af343f1e541159ed54c4dd4025227341f5f95",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/quiver_cloak/cloak_crop_geometry.json",
+      "old_committed_sha256": "ac30b4da0996bbb3fa9fc9e999c39a81b95fc3d9d28f8c2b2da8c26faa5a0f0a",
+      "current_raw_sha256": "005d13c521c2cda861b092fb8ae93d25e61c07e0eb1c22d319f1319b0d9edb33",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/quiver_cloak/equipment_completion_metrics.json",
+      "old_committed_sha256": "504fd60e69ad1fa550e690f5947ee7a632d44978492e88f536dfdb60005f42ed",
+      "current_raw_sha256": "e2d4f3a25ffc51b2384edb35537dd7634c95d2d6c5a04719766baf868f65b369",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/quiver_cloak/quiver_crop_geometry.json",
+      "old_committed_sha256": "fe1b2c82afc24fbb4a9473271e544d797fddfc4e22d7b8cd1b27bb600aa30438",
+      "current_raw_sha256": "ce323d14406f95510dd6263b821fde755d9c56a2c1c75a1160e6322c67ba61ca",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "reports/cretan_archer/self_repair/quiver_cloak/review_geometry.json",
+      "old_committed_sha256": "ae60cdb6776e7158390f539b03216b07f0d3f9761dcc21d95d25f5773a1131c9",
+      "current_raw_sha256": "dbb226dfd6644e1cf8bbd703d274a0ea3d18f7834df7bf5e2e155d4c9d6e0da0",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "tools/cretan_archer_parts_manifest.json",
+      "old_committed_sha256": "bfde933a5ea2a2fae8bec6e8bc624e69ecb01ccdb70fc551648b6bff4a5985c8",
+      "current_raw_sha256": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "work/cretan_archer/self_repair/body/leg_far_thigh_hidden_hip_crop.json",
+      "old_committed_sha256": "06963cc7c5ceaeb2946648c9b4a98af0417a2d0c56ec4dea09c5f177a29af76d",
+      "current_raw_sha256": "b0ace2f01bafc61cf294327caa8016808dc72fff6e517c298de63d3e533e10a0",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "work/cretan_archer/self_repair/body/leg_near_thigh_hidden_hip_crop.json",
+      "old_committed_sha256": "dfc9954ef6aaf6fc5e6c19e4f5a52c5e48f357842c200522e02c8535c9a8575b",
+      "current_raw_sha256": "b1c66b065135ef56c780bdec6f0d34ea8e32d2a6cf7bdcc86f7fbce987e9fd0a",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "work/cretan_archer/self_repair/body/pelvis_under_near_hand_crop.json",
+      "old_committed_sha256": "a88fcfc566a28e8b9dcc383c7df38693f8072e14551b96c7163b00886eefa55a",
+      "current_raw_sha256": "c2031f4799ec0fb7bd95892ed3de13a3bb9737ad86b6061ffde035a43e16da0c",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    },
+    {
+      "file": "work/cretan_archer/self_repair/body/torso_under_near_arm_crop.json",
+      "old_committed_sha256": "2e188cf42c84725658f28b0066ab7a952fd2f26f78bdf082c6aa5f6cd1e580a1",
+      "current_raw_sha256": "520ee4f1353423c4341bbd60698b9cfd57250639d83b9e9dc075c6c041e10bc7",
+      "change": "preserve current bytes previously normalized by Git",
+      "json_semantics_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+	"desktop_only": true,
+	"display_server": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fps": 131.199691680725,
+	"measured_seconds": 20.000047,
+	"mobile_performance_claimed": false,
+	"mode": "walk",
+	"node_count": 1224,
+	"observed_attack_release_events": 0,
+	"rendered_frames": 2624,
+	"renderer": "GeForce GTX 1650",
+	"samples": [
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.004778,
+			"fps": 109.476919279682,
+			"node_count": 1224,
+			"rendered_frames": 110,
+			"time_seconds": 1.004778
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.006528,
+			"fps": 75.5070897183188,
+			"node_count": 1224,
+			"rendered_frames": 76,
+			"time_seconds": 2.011306
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.004685,
+			"fps": 80.6222845966646,
+			"node_count": 1224,
+			"rendered_frames": 81,
+			"time_seconds": 3.015991
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.008371,
+			"fps": 82.3109748297006,
+			"node_count": 1224,
+			"rendered_frames": 83,
+			"time_seconds": 4.024362
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.0009,
+			"fps": 93.9154760715356,
+			"node_count": 1224,
+			"rendered_frames": 94,
+			"time_seconds": 5.025262
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.010639,
+			"fps": 104.884137659441,
+			"node_count": 1224,
+			"rendered_frames": 106,
+			"time_seconds": 6.035901
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.000508,
+			"fps": 138.929423852683,
+			"node_count": 1224,
+			"rendered_frames": 139,
+			"time_seconds": 7.036409
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.001821,
+			"fps": 150.725528812033,
+			"node_count": 1224,
+			"rendered_frames": 151,
+			"time_seconds": 8.03823
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.006595,
+			"fps": 152.991024195431,
+			"node_count": 1224,
+			"rendered_frames": 154,
+			"time_seconds": 9.044825
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.171988,
+			"fps": 125.427905405175,
+			"node_count": 1224,
+			"rendered_frames": 147,
+			"time_seconds": 10.216813
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.001945,
+			"fps": 152.702992679239,
+			"node_count": 1224,
+			"rendered_frames": 153,
+			"time_seconds": 11.218758
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.003198,
+			"fps": 150.518641384851,
+			"node_count": 1224,
+			"rendered_frames": 151,
+			"time_seconds": 12.221956
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.000163,
+			"fps": 148.975716958136,
+			"node_count": 1224,
+			"rendered_frames": 149,
+			"time_seconds": 13.222119
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.001041,
+			"fps": 151.841932548217,
+			"node_count": 1224,
+			"rendered_frames": 152,
+			"time_seconds": 14.22316
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.000859,
+			"fps": 150.870402324403,
+			"node_count": 1224,
+			"rendered_frames": 151,
+			"time_seconds": 15.224019
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.00098,
+			"fps": 152.850206797339,
+			"node_count": 1224,
+			"rendered_frames": 153,
+			"time_seconds": 16.224999
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.002057,
+			"fps": 150.690030607041,
+			"node_count": 1224,
+			"rendered_frames": 151,
+			"time_seconds": 17.227056
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.002491,
+			"fps": 153.617339208033,
+			"node_count": 1224,
+			"rendered_frames": 154,
+			"time_seconds": 18.229547
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.00035,
+			"fps": 151.946818613485,
+			"node_count": 1224,
+			"rendered_frames": 152,
+			"time_seconds": 19.229897
+		}
+	],
+	"status": "COMPLETED",
+	"unit_height_px": 192,
+	"units": 20,
+	"viewport": [
+		1920.0,
+		1080.0
+	],
+	"vsync": false,
+	"walk_spatial_wrap": "Benchmark only: units wrap after leaving the right viewport boundary; foot validation is tested separately without wraps.",
+	"warmup_seconds": 2.0
+}

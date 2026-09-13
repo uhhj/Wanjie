@@ -1,0 +1,11 @@
+{
+  "status": "SUPERSEDED_REFERENCE_V2_ATTEMPT_02_STRING_REFINEMENT_PENDING",
+  "capture_scene_sha256": "4c0898f0210ad675a4d599e040894d5a22574d6c622a4c91c10f92d92d6f1a26",
+  "headless": "PASS",
+  "capture": "PASS_162_FRAMES_NO_CLIPPING",
+  "remaining_observed_issue": "Ready/recovery bowstring appears dashed at256/192 despite width5 source pixels. Parent increasing native Line2D width; frozen formal textures unchanged.",
+  "death": "Final torso/head/forearms now grounded; kneeling and forward collapse readable.",
+  "final_supported": false,
+  "stress_not_run": true,
+  "source_snapshot": "SHA-bound frames retained; current inputs in motion, no later source copied as former state."
+}

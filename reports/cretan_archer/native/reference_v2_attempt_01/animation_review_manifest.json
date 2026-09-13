@@ -1,0 +1,137 @@
+{
+  "status": "VISUAL_REVIEW_REQUIRED",
+  "renderer": "GeForce GTX 1650",
+  "source_capture_sha256": "7d339d05dfd18d8e523b5d87fedc91200072fd67f9665552c5a9feea94e73700",
+  "actual_gpu_frames_only": true,
+  "native_size_preserved": true,
+  "animations": {
+    "idle": {
+      "status": "VISUAL_REVIEW_REQUIRED",
+      "sheet": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\idle_combat_review.png",
+      "sha256": "9b8ece1e4e1771a48bce9c9e8d6d6e866e21bbce35d76e98a0780b23b08bc6b8",
+      "crop_only_no_resize": [
+        278,
+        178,
+        439,
+        488
+      ],
+      "gifs": [
+        {
+          "height": 256,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\idle_256.gif",
+          "sha256": "a6bf3083b29346b5137efcff7eb0ff06e12ccf85ac0450d0ef4f1855f0c51f48",
+          "frames": 16
+        },
+        {
+          "height": 192,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\idle_192.gif",
+          "sha256": "a6c8ec03324f87a43a80d7fda295a0ff7ed6451e8dd39f147e962f658e5e9f5f",
+          "frames": 16
+        }
+      ]
+    },
+    "walk": {
+      "status": "VISUAL_REVIEW_REQUIRED",
+      "sheet": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\walk_combat_review.png",
+      "sha256": "78f0ef9dd5e7fe54ee53c07475cee5bde6cf5e2dd8c312283c9e3e8ba412efd8",
+      "crop_only_no_resize": [
+        280,
+        178,
+        515,
+        488
+      ],
+      "gifs": [
+        {
+          "height": 256,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\walk_256.gif",
+          "sha256": "15aeec4f41c5aa09486aa2ddd14ac3bf4b29dc6daad2ca18b530ae34d4da1602",
+          "frames": 16
+        },
+        {
+          "height": 192,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\walk_192.gif",
+          "sha256": "6c824d7bd11a26de7e7c518be483fa986659891419f0d03b865713f493f811b7",
+          "frames": 16
+        }
+      ]
+    },
+    "attack_01": {
+      "status": "VISUAL_REVIEW_REQUIRED",
+      "sheet": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_combat_review.png",
+      "sha256": "21bafafd03637c5b30f2e8f438da55e53a392705b15d2ee41c40ebbc0ca6ddcc",
+      "crop_only_no_resize": [
+        271,
+        102,
+        552,
+        488
+      ],
+      "gifs": [
+        {
+          "height": 256,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256.gif",
+          "sha256": "fd8f7b5a01bd8602edbd7b3f4fe8e4e0495f244e369d7e76c7e923c496d0da3d",
+          "frames": 16
+        },
+        {
+          "height": 192,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_192.gif",
+          "sha256": "afa0ddc897b9c8312e3c4c6c14563375abdcd83e5f2e3381dba33832258f4c56",
+          "frames": 16
+        }
+      ]
+    },
+    "hit": {
+      "status": "VISUAL_REVIEW_REQUIRED",
+      "sheet": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\hit_combat_review.png",
+      "sha256": "14602a1aa4bdbc445f00630c41bc720dd4fd7864e2be395a441fb72c3efd4f80",
+      "crop_only_no_resize": [
+        274,
+        176,
+        440,
+        488
+      ],
+      "gifs": [
+        {
+          "height": 256,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\hit_256.gif",
+          "sha256": "5801944f03694ee2e039d0d1003c4d372d59ad9527700f0a72a6bc7a21c0113c",
+          "frames": 16
+        },
+        {
+          "height": 192,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\hit_192.gif",
+          "sha256": "8f51aa914a3c2dbb89c9a925517d1c80083b990d9318a8410ceb6774258961a7",
+          "frames": 16
+        }
+      ]
+    },
+    "death": {
+      "status": "VISUAL_REVIEW_REQUIRED",
+      "sheet": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_combat_review.png",
+      "sha256": "be8e6991562e6296f529dc1266e568a21cb527bad76c093e32604f83c54cb029",
+      "crop_only_no_resize": [
+        262,
+        173,
+        616,
+        488
+      ],
+      "gifs": [
+        {
+          "height": 256,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256.gif",
+          "sha256": "def32d41ac2ef863758e7d8bbaa4c949bed7e25f8f6276a73fa66b11fa4ae46c",
+          "frames": 16
+        },
+        {
+          "height": 192,
+          "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_192.gif",
+          "sha256": "2751744e8d06fe786f3928de0db60a0fd010f5582355b9ff825742efdd583923",
+          "frames": 16
+        }
+      ]
+    }
+  },
+  "walk_reference_comparison": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer_walk_reference_comparison.png",
+  "walk_foot_contact_debug": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\walk_foot_contact_debug.png",
+  "headless_status": "PASS"
+}

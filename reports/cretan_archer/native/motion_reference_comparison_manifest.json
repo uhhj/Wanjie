@@ -1,0 +1,619 @@
+{
+  "status": "COMPARISONS_GENERATED_VISUAL_REVIEW_REQUIRED",
+  "capture_manifest_sha256": "0151c369aff644268b246b7116e5701b76806efc74c2a4c7a95d9605e6e17ba7",
+  "capture_inputs": {
+    "res://assets/units/odyssey/cretan_archer/parts/arm_far_fore.png": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+    "res://assets/units/odyssey/cretan_archer/parts/arm_far_upper.png": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+    "res://assets/units/odyssey/cretan_archer/parts/arm_near_fore.png": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+    "res://assets/units/odyssey/cretan_archer/parts/arm_near_upper.png": "80373ce5152625f821ef7ec7bde7247c6cbd5632bee0423e786e553e0ffce7ea",
+    "res://assets/units/odyssey/cretan_archer/parts/arrow_single.png": "4d64ac7144f75864833725fdd13797d906550de0076ee47a93be54bf285b4501",
+    "res://assets/units/odyssey/cretan_archer/parts/bow.png": "ced07c95fbce1060499dfcd9214537961569dfa67285abfcdcf2a06418edeb2d",
+    "res://assets/units/odyssey/cretan_archer/parts/bow_string.png": "24d99fd06099b09ced3c51120769bd829c6c43b4313327544e13d3a31e42bb5c",
+    "res://assets/units/odyssey/cretan_archer/parts/cloak.png": "d4efc7be6abeac20741e2edd6757136bcc90ec17513e8c065999d49dd18809ed",
+    "res://assets/units/odyssey/cretan_archer/parts/foot_far.png": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+    "res://assets/units/odyssey/cretan_archer/parts/foot_near.png": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+    "res://assets/units/odyssey/cretan_archer/parts/hand_far.png": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+    "res://assets/units/odyssey/cretan_archer/parts/hand_near.png": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+    "res://assets/units/odyssey/cretan_archer/parts/head.png": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+    "res://assets/units/odyssey/cretan_archer/parts/leg_far_shin.png": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+    "res://assets/units/odyssey/cretan_archer/parts/leg_far_thigh.png": "0d01615bea4db1fd59cf1533e2d9900e932ae625ef64c088eda0837da19a94e0",
+    "res://assets/units/odyssey/cretan_archer/parts/leg_near_shin.png": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+    "res://assets/units/odyssey/cretan_archer/parts/leg_near_thigh.png": "da1e55e50832f4a1b5924c44a9989a2ca5d440c2f16a8fab915f3d5fda9cd419",
+    "res://assets/units/odyssey/cretan_archer/parts/pelvis.png": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
+    "res://assets/units/odyssey/cretan_archer/parts/quiver.png": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
+    "res://assets/units/odyssey/cretan_archer/parts/torso.png": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
+    "res://resources/cretan_archer_animations_v1.json": "4c0fb246743b597ad82a70d4e30fbc10e6654358cc60e65168224e6d4d9449a5",
+    "res://resources/cretan_archer_animations_v1.tres": "209aed57ff0f4c8a0bd6130bd642fea8dc5a712cf46b1360b3d2f33a6c1a304a",
+    "res://resources/cretan_archer_local_skinning.json": "ef1ae3fd97f8fac41727d2c0cc4db3036a341d354927fcbd0695799691cf9c45",
+    "res://resources/cretan_archer_rig_v1.json": "f08ca89fe13f5a4af6b621ad8cdacec488e9a70147ba713486272a0ca7b7d59e",
+    "res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "e11dd96c17ca991523712100f701e62ce700484bd1b84a9ec40a772574754d66",
+    "res://scripts/rig/cretan_archer_bow_string.gd": "e3e637b4349a2477ac137510e791912e106c84d84cfd46f96de08b4c47df65db",
+    "res://scripts/rig/cretan_archer_event_relay.gd": "8d4f0f65bb88fca783b122d9e9ad375c08c514d315444db5a50a7da652af2615",
+    "res://scripts/rig/cretan_archer_rig.gd": "547a06582bab36d3810460ab59bea69575955c2da3a5bce443cbacdbef457e12",
+    "res://tools/cretan_archer_parts_manifest.json": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d"
+  },
+  "selected_frame_sha256": {
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_000.png": "b7f7ecc0a22e18094ed917259df979887426e34a5f7fd45fbc491d510ae1c388",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_003.png": "f918172c5bfe3a1c8ccc27097d5dfd8ceaa9f7aef04d2433428d6716ddc86c7b",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_004.png": "447e5ace3af5855ae17b6ff92a2490004514b363b7311458af7fa1bd09d8b69a",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_006.png": "440bf73c67533a6c336c2283b2021644120cdcaf85bae5c71dfd1892aca1d93b",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_009.png": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_010.png": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_011.png": "27721ea40eff664803a9b6c2346fb5da95b5d4d259f6dbe61ea996ec04cb5833",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_013.png": "cb1317234236fc716f4fbf07b72dbf1727d278e403bc3e986a387f821334380d",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256_015.png": "b7f7ecc0a22e18094ed917259df979887426e34a5f7fd45fbc491d510ae1c388",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_001.png": "cbbf2814cd8cdc1181a63c33ac439f40c0c91060e2c8014722391f27e7d66f8d",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_003.png": "a43b47236c90178a317fc5920bb7e515e00e6c6d084ea26f1b0acd9573e0a8cc",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_005.png": "2b7b0b22b02449e06143b51c6fd9a4a4d3bbdf3b6b16f9e302e6c38bf21504dd",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_006.png": "ae8f1c38a6cf6eef6b79214fa6f14c8f009555ffccf56d50c4777d20cf1c4194",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_008.png": "078c709b790f77b6d46f1748dd86461d3855f4b5ce75518c801112fca157ea96",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_010.png": "6141402c2ad6cdecb18e21c5487bd85a58d2f41bd1a070df1116d82c627cdbdd",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_013.png": "8b61f5f8c56eeeeeed6f30fcb8b9ad6a6e079048757a1d3fe38b1ab60622ce38",
+    "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\death_256_015.png": "9b9c635bce3ee789ea77513fa4a17d8e2274926051cf448b507ccc4a4220d825"
+  },
+  "motion_reference_manifest_sha256": "25b4489ac83af0a3176e4dc06e90e3ece852a3ba6313929b86159ca9605a02f8",
+  "reference_sha256": {
+    "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\motion_reference\\OD_UNIT_02_CRETAN_ARCHER_ATTACK_REFERENCE_V1.png": "81d16e28d1b9d3115bcfea5e78862a6353d9cacd5a63d610dedd3a6cb2576784",
+    "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\motion_reference\\OD_UNIT_02_CRETAN_ARCHER_DEATH_REFERENCE_V1.png": "722bf2bfd49bd5f8f8ac0f5faa912c9d62cc02c38c2e91d460bff604bb30724f"
+  },
+  "native_display_height": 256,
+  "native_pixels_resized": false,
+  "frame_synthesis_performed": false,
+  "pixel_similarity_is_gate": false,
+  "outputs": [
+    {
+      "file": "reports/cretan_archer/native/attack_reference_comparison.png",
+      "sha256": "1ae7967e0ffaac1f18ca8a2f9ff3c4f2dd7a6bf7feda477288889adc25939605"
+    },
+    {
+      "file": "reports/cretan_archer/native/death_reference_comparison.png",
+      "sha256": "e79778bb54b800eeedd0631672c9ceae3a45048d1b63b77e188851d3b53b8cb3"
+    }
+  ],
+  "phase_panels": [
+    {
+      "animation": "attack_01",
+      "phase": "ready",
+      "reference_cell": 1,
+      "authored_target_time": 0.0,
+      "selected_actual_time": 0.0,
+      "time_difference": 0.0,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_000.png",
+      "frame_sha256": "b7f7ecc0a22e18094ed917259df979887426e34a5f7fd45fbc491d510ae1c388",
+      "native_crop_box": [
+        277,
+        179,
+        441,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        0,
+        0,
+        237,
+        724
+      ],
+      "reference_trim_box": [
+        1,
+        120,
+        237,
+        643
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "retrieve_from_quiver",
+      "reference_cell": 2,
+      "authored_target_time": 0.2,
+      "selected_actual_time": 0.24,
+      "time_difference": 0.03999999999999998,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_003.png",
+      "frame_sha256": "f918172c5bfe3a1c8ccc27097d5dfd8ceaa9f7aef04d2433428d6716ddc86c7b",
+      "native_crop_box": [
+        276,
+        179,
+        441,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        214,
+        0,
+        446,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        120,
+        232,
+        642
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "bring_arrow_forward",
+      "reference_cell": 3,
+      "authored_target_time": 0.34,
+      "selected_actual_time": 0.32,
+      "time_difference": -0.020000000000000018,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_004.png",
+      "frame_sha256": "447e5ace3af5855ae17b6ff92a2490004514b363b7311458af7fa1bd09d8b69a",
+      "native_crop_box": [
+        277,
+        173,
+        442,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        428,
+        0,
+        654,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        131,
+        226,
+        642
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "nock_and_raise",
+      "reference_cell": 4,
+      "authored_target_time": 0.44,
+      "selected_actual_time": 0.48,
+      "time_difference": 0.03999999999999998,
+      "selection_rule": "at_or_after",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_006.png",
+      "frame_sha256": "440bf73c67533a6c336c2283b2021644120cdcaf85bae5c71dfd1892aca1d93b",
+      "native_crop_box": [
+        279,
+        133,
+        553,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        632,
+        0,
+        896,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        76,
+        264,
+        643
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "draw_to_face_anchor",
+      "reference_cell": 5,
+      "authored_target_time": 0.7,
+      "selected_actual_time": 0.72,
+      "time_difference": 0.020000000000000018,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_009.png",
+      "frame_sha256": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
+      "native_crop_box": [
+        280,
+        102,
+        504,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        870,
+        0,
+        1139,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        52,
+        269,
+        643
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "aim_before_release",
+      "reference_cell": 6,
+      "authored_target_time": 0.7999999999999999,
+      "selected_actual_time": 0.8,
+      "time_difference": 1.1102230246251565e-16,
+      "selection_rule": "before_release",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_010.png",
+      "frame_sha256": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
+      "native_crop_box": [
+        280,
+        102,
+        504,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1118,
+        0,
+        1426,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        50,
+        308,
+        643
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "release_follow_through",
+      "reference_cell": 7,
+      "authored_target_time": 0.82,
+      "selected_actual_time": 0.88,
+      "time_difference": 0.06000000000000005,
+      "selection_rule": "at_or_after",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_011.png",
+      "frame_sha256": "27721ea40eff664803a9b6c2346fb5da95b5d4d259f6dbe61ea996ec04cb5833",
+      "native_crop_box": [
+        280,
+        103,
+        459,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1395,
+        0,
+        1652,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        71,
+        257,
+        643
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "controlled_recovery",
+      "reference_cell": 8,
+      "authored_target_time": 1.06,
+      "selected_actual_time": 1.04,
+      "time_difference": -0.020000000000000018,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_013.png",
+      "frame_sha256": "cb1317234236fc716f4fbf07b72dbf1727d278e403bc3e986a387f821334380d",
+      "native_crop_box": [
+        278,
+        158,
+        446,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1654,
+        0,
+        1935,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        92,
+        281,
+        642
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "attack_01",
+      "phase": "ready_again",
+      "reference_cell": 9,
+      "authored_target_time": 1.2,
+      "selected_actual_time": 1.2,
+      "time_difference": 0.0,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/attack_01_256_015.png",
+      "frame_sha256": "b7f7ecc0a22e18094ed917259df979887426e34a5f7fd45fbc491d510ae1c388",
+      "native_crop_box": [
+        277,
+        179,
+        441,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1941,
+        0,
+        2172,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        129,
+        222,
+        643
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "chest_reaction",
+      "reference_cell": 1,
+      "authored_target_time": 0.12400000000000001,
+      "selected_actual_time": 0.103333333333333,
+      "time_difference": -0.020666666666667013,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_001.png",
+      "frame_sha256": "cbbf2814cd8cdc1181a63c33ac439f40c0c91060e2c8014722391f27e7d66f8d",
+      "native_crop_box": [
+        270,
+        173,
+        443,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        0,
+        0,
+        285,
+        724
+      ],
+      "reference_trim_box": [
+        9,
+        125,
+        285,
+        600
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "loss_of_balance",
+      "reference_cell": 2,
+      "authored_target_time": 0.31000000000000005,
+      "selected_actual_time": 0.31,
+      "time_difference": -5.551115123125783e-17,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_003.png",
+      "frame_sha256": "a43b47236c90178a317fc5920bb7e515e00e6c6d084ea26f1b0acd9573e0a8cc",
+      "native_crop_box": [
+        270,
+        194,
+        476,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        260,
+        0,
+        545,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        125,
+        285,
+        599
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "lower_to_knee",
+      "reference_cell": 3,
+      "authored_target_time": 0.52,
+      "selected_actual_time": 0.516666666666667,
+      "time_difference": -0.0033333333333329662,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_005.png",
+      "frame_sha256": "2b7b0b22b02449e06143b51c6fd9a4a4d3bbdf3b6b16f9e302e6c38bf21504dd",
+      "native_crop_box": [
+        260,
+        241,
+        528,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        505,
+        0,
+        808,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        201,
+        303,
+        598
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "kneeling_support",
+      "reference_cell": 4,
+      "authored_target_time": 0.645,
+      "selected_actual_time": 0.62,
+      "time_difference": -0.025000000000000022,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_006.png",
+      "frame_sha256": "ae8f1c38a6cf6eef6b79214fa6f14c8f009555ffccf56d50c4777d20cf1c4194",
+      "native_crop_box": [
+        262,
+        268,
+        533,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        725,
+        0,
+        1070,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        264,
+        345,
+        604
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "hands_reach_ground",
+      "reference_cell": 5,
+      "authored_target_time": 0.8,
+      "selected_actual_time": 0.826666666666667,
+      "time_difference": 0.02666666666666695,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_008.png",
+      "frame_sha256": "078c709b790f77b6d46f1748dd86461d3855f4b5ce75518c801112fca157ea96",
+      "native_crop_box": [
+        281,
+        262,
+        560,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        970,
+        0,
+        1320,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        312,
+        350,
+        611
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "forward_collapse_bow_release",
+      "reference_cell": 6,
+      "authored_target_time": 1.04,
+      "selected_actual_time": 1.03333333333333,
+      "time_difference": -0.006666666666669929,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_010.png",
+      "frame_sha256": "6141402c2ad6cdecb18e21c5487bd85a58d2f41bd1a070df1116d82c627cdbdd",
+      "native_crop_box": [
+        267,
+        284,
+        619,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1245,
+        0,
+        1655,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        340,
+        410,
+        625
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "folded_settle",
+      "reference_cell": 7,
+      "authored_target_time": 1.35,
+      "selected_actual_time": 1.34333333333333,
+      "time_difference": -0.006666666666670151,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_013.png",
+      "frame_sha256": "8b61f5f8c56eeeeeed6f30fcb8b9ad6a6e079048757a1d3fe38b1ab60622ce38",
+      "native_crop_box": [
+        259,
+        371,
+        604,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1560,
+        0,
+        1920,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        452,
+        360,
+        622
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    },
+    {
+      "animation": "death",
+      "phase": "final_pose_hold",
+      "reference_cell": 8,
+      "authored_target_time": 1.55,
+      "selected_actual_time": 1.55,
+      "time_difference": 0.0,
+      "selection_rule": "nearest",
+      "frame": "res://reports/cretan_archer/animations/death_256_015.png",
+      "frame_sha256": "9b9c635bce3ee789ea77513fa4a17d8e2274926051cf448b507ccc4a4220d825",
+      "native_crop_box": [
+        259,
+        367,
+        604,
+        481
+      ],
+      "native_resize_applied": false,
+      "reference_cell_box": [
+        1840,
+        0,
+        2172,
+        724
+      ],
+      "reference_trim_box": [
+        0,
+        470,
+        327,
+        622
+      ],
+      "reference_window_selection": "visible pose extent, not equal-width cells",
+      "reference_thumbnail_only_normalized": true
+    }
+  ]
+}

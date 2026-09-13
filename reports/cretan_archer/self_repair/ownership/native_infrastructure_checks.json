@@ -1,5 +1,5 @@
 {
-  "status": "PASS_CODE_SYNTAX_ONLY",
+  "status": "HISTORICAL_PREPARATION_SUPERSEDED",
   "engine": "4.7.2.stable.official.ed1daf0bf",
   "checked_with": "Godot --headless --path D:/Wanjie/documents/Wanjie --script <file> --check-only",
   "scripts": [
@@ -9,14 +9,28 @@
     "scripts/rig/cretan_archer_bow_string.gd",
     "scripts/tests/cretan_archer_rig_lab.gd"
   ],
-  "scene_builder_executed": false,
+  "scene_builder_executed": true,
   "required_manifest_status_before_build": "PASS",
   "expected_native_bones": 26,
   "expected_sprite_count": 19,
   "expected_dynamic_bow_string_line_count": 1,
   "expected_animation_count": 5,
   "expected_attack_release_method_keys": 1,
-  "asset_gate": "OWNED_BY_ROOT_PENDING",
+  "asset_gate": "PASS",
   "native_runtime_tests": "NOT_RUN",
-  "combat_animation_review": "NOT_RUN"
+  "combat_animation_review": "NOT_RUN",
+  "editor_import_exit_code": 0,
+  "builder_exit_code": 0,
+  "expected_native_polygon_count": 8,
+  "build_log": "reports/cretan_archer/self_repair/ownership/native_build.log",
+  "scene": {
+    "file": "scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn",
+    "sha256": "43d327d766c0d0ce34cae3fbaf7c2fa035ea62a38a6ac300ef867bec9b2e5185"
+  },
+  "animation_library": {
+    "file": "resources/cretan_archer_animations_v1.tres",
+    "sha256": "4927fbde4631a03422379994503bfa45d1c7d6153a37bdc9254c703161ca5a9d"
+  },
+  "superseded_by": "reports/cretan_archer/native/delivery_gate.json",
+  "note": "This records the initial scene build, before motion-reference refinement. Its scene hashes and NOT_RUN flags are historical, not the current delivery state."
 }

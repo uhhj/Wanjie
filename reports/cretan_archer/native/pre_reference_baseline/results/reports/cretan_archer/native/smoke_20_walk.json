@@ -1,0 +1,196 @@
+{
+	"artifact_inputs": {
+		"res://resources/cretan_archer_animations_v1.json": "15f4359a527a2b27b72d7a8982a46de3d80c11ff3d09fe41f7f370abc0f6e098",
+		"res://resources/cretan_archer_animations_v1.tres": "f071cdf60dfc3a5defb33cd1668669f46a040a2f95202e3555b159c198463d67",
+		"res://resources/cretan_archer_local_skinning.json": "96adea5cdc352e44694e597af832b8e72aa3662588d7eeb7874b46a0411e5aff",
+		"res://resources/cretan_archer_rig_v1.json": "c15071882adf924e4a30102ee185db01a4f786e71665bce9a580e6a72bce85a2",
+		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "c186ac31ef903957f59649dd336351492d6aa2cc81d231165612ae345de005ac",
+		"res://scripts/rig/cretan_archer_rig.gd": "547a06582bab36d3810460ab59bea69575955c2da3a5bce443cbacdbef457e12"
+	},
+	"desktop_only": true,
+	"display_server": "Windows",
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fps": 97.1291463722739,
+	"inputs_unchanged_during_smoke": true,
+	"measured_seconds": 20.004294,
+	"mobile_performance_claimed": false,
+	"mode": "walk",
+	"node_count": 1224,
+	"observed_attack_release_events": 0,
+	"rendered_frames": 1943,
+	"renderer": "GeForce GTX 1650",
+	"samples": [
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.00399,
+			"fps": 137.451568242712,
+			"node_count": 1224,
+			"rendered_frames": 138,
+			"time_seconds": 1.00399
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.009071,
+			"fps": 84.2358961856995,
+			"node_count": 1224,
+			"rendered_frames": 85,
+			"time_seconds": 2.013061
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.006799,
+			"fps": 82.4394938811024,
+			"node_count": 1224,
+			"rendered_frames": 83,
+			"time_seconds": 3.01986
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.004083,
+			"fps": 97.6014931036578,
+			"node_count": 1224,
+			"rendered_frames": 98,
+			"time_seconds": 4.023943
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.00978,
+			"fps": 92.0992691477352,
+			"node_count": 1224,
+			"rendered_frames": 93,
+			"time_seconds": 5.033723
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.005577,
+			"fps": 90.4953076691293,
+			"node_count": 1224,
+			"rendered_frames": 91,
+			"time_seconds": 6.0393
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.002502,
+			"fps": 101.745432926817,
+			"node_count": 1224,
+			"rendered_frames": 102,
+			"time_seconds": 7.041802
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.010169,
+			"fps": 93.0537365529926,
+			"node_count": 1224,
+			"rendered_frames": 94,
+			"time_seconds": 8.051971
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.001411,
+			"fps": 95.8647348591138,
+			"node_count": 1224,
+			"rendered_frames": 96,
+			"time_seconds": 9.053382
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.193846,
+			"fps": 85.4381553399685,
+			"node_count": 1224,
+			"rendered_frames": 102,
+			"time_seconds": 10.247228
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.003754,
+			"fps": 93.6484437421918,
+			"node_count": 1224,
+			"rendered_frames": 94,
+			"time_seconds": 11.250982
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.00605,
+			"fps": 96.4166790914964,
+			"node_count": 1224,
+			"rendered_frames": 97,
+			"time_seconds": 12.257032
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.006221,
+			"fps": 118.264277927016,
+			"node_count": 1224,
+			"rendered_frames": 119,
+			"time_seconds": 13.263253
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.009234,
+			"fps": 95.1216467142407,
+			"node_count": 1224,
+			"rendered_frames": 96,
+			"time_seconds": 14.272487
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.004256,
+			"fps": 73.686390721091,
+			"node_count": 1224,
+			"rendered_frames": 74,
+			"time_seconds": 15.276743
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.010615,
+			"fps": 70.2542511243154,
+			"node_count": 1224,
+			"rendered_frames": 71,
+			"time_seconds": 16.287358
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.000173,
+			"fps": 79.9861623939059,
+			"node_count": 1224,
+			"rendered_frames": 80,
+			"time_seconds": 17.287531
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.007044,
+			"fps": 95.3285060037099,
+			"node_count": 1224,
+			"rendered_frames": 96,
+			"time_seconds": 18.294575
+		},
+		{
+			"draw_calls": 192.0,
+			"elapsed_seconds": 1.001501,
+			"fps": 137.793172448155,
+			"node_count": 1224,
+			"rendered_frames": 138,
+			"time_seconds": 19.296076
+		}
+	],
+	"status": "COMPLETED",
+	"unit_height_px": 192,
+	"units": 20,
+	"viewport": [
+		1920.0,
+		1080.0
+	],
+	"vsync": false,
+	"walk_spatial_wrap": "Benchmark only: units wrap after leaving the right viewport boundary; foot validation is tested separately without wraps.",
+	"warmup_seconds": 2.0
+}

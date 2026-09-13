@@ -1,0 +1,73 @@
+{
+  "status": "VISUAL_REVIEW_REQUIRED",
+  "reference_role": "MOTION_ONLY",
+  "reference_pixels_in_formal_assets": false,
+  "pixel_similarity_metric_used": false,
+  "image": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer_walk_reference_comparison.png",
+  "phases": [
+    {
+      "phase": "contact_near",
+      "target_time": 0.0,
+      "actual_capture_time": 0.0,
+      "capture": "res://reports/cretan_archer/animations/walk_256_000.png",
+      "reference_crop_index": 1,
+      "reference_match": "Approximate motion cue, not exact sprite/frame correspondence"
+    },
+    {
+      "phase": "down_near",
+      "target_time": 0.126,
+      "actual_capture_time": 0.13125,
+      "capture": "res://reports/cretan_archer/animations/walk_256_002.png",
+      "reference_crop_index": 2,
+      "reference_match": "Approximate motion cue, not exact sprite/frame correspondence"
+    },
+    {
+      "phase": "passing_near",
+      "target_time": 0.28875000000000006,
+      "actual_capture_time": 0.2625,
+      "capture": "res://reports/cretan_archer/animations/walk_256_004.png",
+      "reference_crop_index": 3,
+      "reference_match": "Lift cue only: passing crossing is authored and tested, not directly extracted"
+    },
+    {
+      "phase": "up_near",
+      "target_time": 0.42000000000000004,
+      "actual_capture_time": 0.39375,
+      "capture": "res://reports/cretan_archer/animations/walk_256_006.png",
+      "reference_crop_index": 6,
+      "reference_match": "Approximate motion cue, not exact sprite/frame correspondence"
+    },
+    {
+      "phase": "contact_far",
+      "target_time": 0.525,
+      "actual_capture_time": 0.525,
+      "capture": "res://reports/cretan_archer/animations/walk_256_008.png",
+      "reference_crop_index": 1,
+      "reference_match": "Opposite support half-cycle is inferred; Approximate motion cue, not exact sprite/frame correspondence"
+    },
+    {
+      "phase": "down_far",
+      "target_time": 0.651,
+      "actual_capture_time": 0.65625,
+      "capture": "res://reports/cretan_archer/animations/walk_256_010.png",
+      "reference_crop_index": 2,
+      "reference_match": "Opposite support half-cycle is inferred; Approximate motion cue, not exact sprite/frame correspondence"
+    },
+    {
+      "phase": "passing_far",
+      "target_time": 0.8137500000000001,
+      "actual_capture_time": 0.7875,
+      "capture": "res://reports/cretan_archer/animations/walk_256_012.png",
+      "reference_crop_index": 3,
+      "reference_match": "Opposite support half-cycle is inferred; Lift cue only: passing crossing is authored and tested, not directly extracted"
+    },
+    {
+      "phase": "up_far",
+      "target_time": 0.9450000000000001,
+      "actual_capture_time": 0.91875,
+      "capture": "res://reports/cretan_archer/animations/walk_256_014.png",
+      "reference_crop_index": 6,
+      "reference_match": "Opposite support half-cycle is inferred; Approximate motion cue, not exact sprite/frame correspondence"
+    }
+  ]
+}

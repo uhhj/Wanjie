@@ -3,3 +3,72 @@
 *.json text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
+# Archer provenance and runtime evidence use SHA256 of exact file bytes.
+# Keep those JSON bytes unchanged during add/checkout (including CRLF outputs
+# from the existing Windows pipeline); normal text diffs remain available.
+tools/cretan_archer*.json -text
+resources/cretan_archer*.json -text
+art_source/odyssey/cretan_archer/**/*.json -text
+assets/units/odyssey/cretan_archer/**/*.json -text
+work/cretan_archer/**/*.json -text
+reports/cretan_archer/**/*.json -text
+# Native render/test hashes also bind these exact scripts and resources.
+scripts/build/build_cretan_archer*.gd -text
+scripts/rig/cretan_archer*.gd -text
+scripts/tests/*cretan_archer*.gd -text
+scenes/units/odyssey/cretan_archer/*.tscn -text
+scenes/tests/cretan_archer*.tscn -text
+resources/cretan_archer*.tres -text
+scenes/rigs/human_medium_rig_v1.tscn -text
+
+# Persist the already-approved frozen baseline bytes; never rewrite the
+# working files or silently convert their recorded SHA256 on checkout.
+assets/units/odyssey/roman_guard/near_knee_skinning_v1.json -text
+assets/units/odyssey/roman_guard/roman_guard_pivots.json -text
+assets/units/odyssey/roman_guard/parts/.gitkeep -text
+assets/units/odyssey/roman_guard/parts/arm_far_fore.png -text
+assets/units/odyssey/roman_guard/parts/arm_far_upper.png -text
+assets/units/odyssey/roman_guard/parts/arm_near_fore.png -text
+assets/units/odyssey/roman_guard/parts/arm_near_upper.png -text
+assets/units/odyssey/roman_guard/parts/cape.png -text
+assets/units/odyssey/roman_guard/parts/foot_far.png -text
+assets/units/odyssey/roman_guard/parts/foot_near.png -text
+assets/units/odyssey/roman_guard/parts/hand_far.png -text
+assets/units/odyssey/roman_guard/parts/hand_near.png -text
+assets/units/odyssey/roman_guard/parts/head.png -text
+assets/units/odyssey/roman_guard/parts/helmet.png -text
+assets/units/odyssey/roman_guard/parts/knee_near.png -text
+assets/units/odyssey/roman_guard/parts/leg_far_shin.png -text
+assets/units/odyssey/roman_guard/parts/leg_far_thigh.png -text
+assets/units/odyssey/roman_guard/parts/leg_near_shin.png -text
+assets/units/odyssey/roman_guard/parts/leg_near_thigh.png -text
+assets/units/odyssey/roman_guard/parts/pelvis.png -text
+assets/units/odyssey/roman_guard/parts/shield.png -text
+assets/units/odyssey/roman_guard/parts/sword.png -text
+assets/units/odyssey/roman_guard/parts/torso.png -text
+resources/arm_far_upper_local_skinning.json -text
+resources/arm_near_upper_local_skinning.json -text
+resources/foot_far_local_skinning.json -text
+resources/human_medium_rig_v1.json -text
+resources/roman_guard_animations_v1.json -text
+resources/roman_guard_animations_v1.tres -text
+resources/walk_contact_targets.json -text
+resources/masks/cape_back_region.png -text
+resources/masks/cape_front_region.png -text
+scenes/tests/roman_guard_rig_lab.tscn -text
+scenes/tests/roman_guard_stress_test.tscn -text
+scenes/units/odyssey/roman_guard/roman_guard_rig.tscn -text
+scripts/rig/death_blood.gd -text
+scripts/rig/mask_clip.gdshader -text
+scripts/rig/rig_debug.gd -text
+scripts/rig/rig_event_relay.gd -text
+scripts/rig/roman_guard_draw_order.gd -text
+scripts/rig/roman_guard_rig.gd -text
+work/05_complete_body_candidate_v2_rgba_clean.png -text
+reports/walk_chain_v2/walk_reference_follow_256.gif -text
+reports/walk_chain_v2/walk_reference_follow_192.gif -text
+reports/walk_chain_v2/walk_reference_256.gif -text
+reports/walk_chain_v2/walk_reference_192.gif -text
+reports/walk_chain_v2/walk_reference_256_review.png -text
+reports/walk_chain_v2/walk_reference_192_review.png -text
+reports/cretan_archer/** -text
