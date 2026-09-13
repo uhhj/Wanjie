@@ -1,7 +1,7 @@
 {
   "unit_id": "OD_UNIT_02_CRETAN_ARCHER",
   "version": "ART_TO_NATIVE_RIG_V1",
-  "status": "PLANNED_NO_FORMAL_PARTS",
+  "status": "19_VISIBLE_PIXEL_CANDIDATES_NO_FORMAL_APPROVAL",
   "source_id": "OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1",
   "canvas_width": 1024,
   "canvas_height": 1536,
@@ -11,229 +11,320 @@
       "name": "head",
       "file": "assets/units/odyssey/cretan_archer/parts/head.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        538,
-        229
-      ]
+        539,
+        356
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/head.png",
+      "candidate_sha256": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b",
+      "mask": "work/cretan_archer/masks/parts/head.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "torso",
       "file": "assets/units/odyssey/cretan_archer/parts/torso.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        507,
-        555
-      ]
+        523,
+        620
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/torso.png",
+      "candidate_sha256": "69d8d2527a51c7ccb369dad21668fb57e711274f9de9bbe768505da4bbd642b8",
+      "mask": "work/cretan_archer/masks/parts/torso.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "pelvis",
       "file": "assets/units/odyssey/cretan_archer/parts/pelvis.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        507,
-        681
-      ]
+        524,
+        638
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/pelvis.png",
+      "candidate_sha256": "ab15c6e3dffaf63282a7672f5816fac7d6a1c8b6fc4e9224f56eddb77bc025ac",
+      "mask": "work/cretan_archer/masks/parts/pelvis.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "arm_near_upper",
       "file": "assets/units/odyssey/cretan_archer/parts/arm_near_upper.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        404,
-        487
-      ]
+        440,
+        425
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/arm_near_upper.png",
+      "candidate_sha256": "acc09843ae4fcce3b0a05db98ba535546e99e84c6c813e089dc0b8827aa4868a",
+      "mask": "work/cretan_archer/masks/parts/arm_near_upper.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "arm_near_fore",
       "file": "assets/units/odyssey/cretan_archer/parts/arm_near_fore.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        374,
-        644
-      ]
+        382,
+        653
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/arm_near_fore.png",
+      "candidate_sha256": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042",
+      "mask": "work/cretan_archer/masks/parts/arm_near_fore.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "hand_near",
       "file": "assets/units/odyssey/cretan_archer/parts/hand_near.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        385,
-        797
-      ]
+        388,
+        789
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/hand_near.png",
+      "candidate_sha256": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268",
+      "mask": "work/cretan_archer/masks/parts/hand_near.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "arm_far_upper",
       "file": "assets/units/odyssey/cretan_archer/parts/arm_far_upper.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        622,
-        524
-      ]
+        631,
+        473
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/arm_far_upper.png",
+      "candidate_sha256": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641",
+      "mask": "work/cretan_archer/masks/parts/arm_far_upper.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "arm_far_fore",
       "file": "assets/units/odyssey/cretan_archer/parts/arm_far_fore.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        701,
-        649
-      ]
+        704,
+        645
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/arm_far_fore.png",
+      "candidate_sha256": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365",
+      "mask": "work/cretan_archer/masks/parts/arm_far_fore.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "hand_far",
       "file": "assets/units/odyssey/cretan_archer/parts/hand_far.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        808,
-        710
-      ]
+        797,
+        708
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/hand_far.png",
+      "candidate_sha256": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09",
+      "mask": "work/cretan_archer/masks/parts/hand_far.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "leg_near_thigh",
       "file": "assets/units/odyssey/cretan_archer/parts/leg_near_thigh.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        449,
-        936
-      ]
+        455,
+        839
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/leg_near_thigh.png",
+      "candidate_sha256": "2aaf7adcd54ea28e5387c807d4dc701074e852534f69cc8b8fc993903f45d3f4",
+      "mask": "work/cretan_archer/masks/parts/leg_near_thigh.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "leg_near_shin",
       "file": "assets/units/odyssey/cretan_archer/parts/leg_near_shin.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        416,
-        1095
-      ]
+        399,
+        1102
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/leg_near_shin.png",
+      "candidate_sha256": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400",
+      "mask": "work/cretan_archer/masks/parts/leg_near_shin.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "foot_near",
       "file": "assets/units/odyssey/cretan_archer/parts/foot_near.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        379,
-        1345
-      ]
+        368,
+        1347
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/foot_near.png",
+      "candidate_sha256": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96",
+      "mask": "work/cretan_archer/masks/parts/foot_near.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "leg_far_thigh",
       "file": "assets/units/odyssey/cretan_archer/parts/leg_far_thigh.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        565,
-        939
-      ]
+        563,
+        839
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/leg_far_thigh.png",
+      "candidate_sha256": "01c181edf00c59f38bf8921e8fe010fdd4c39cb60455636ef81e2095aa541a54",
+      "mask": "work/cretan_archer/masks/parts/leg_far_thigh.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "leg_far_shin",
       "file": "assets/units/odyssey/cretan_archer/parts/leg_far_shin.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        565,
-        1105
-      ]
+        568,
+        1110
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/leg_far_shin.png",
+      "candidate_sha256": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd",
+      "mask": "work/cretan_archer/masks/parts/leg_far_shin.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "foot_far",
       "file": "assets/units/odyssey/cretan_archer/parts/foot_far.png",
       "source": "work/cretan_archer/04_complete_body_rgba.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        585,
-        1341
-      ]
+        576,
+        1347
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/foot_far.png",
+      "candidate_sha256": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8",
+      "mask": "work/cretan_archer/masks/parts/foot_far.png",
+      "hidden_completion": false,
+      "source_origin": "User-approved external Body; tool/model unspecified. This candidate is direct pixel extraction, no additional AI completion."
     },
     {
       "name": "bow",
       "file": "assets/units/odyssey/cretan_archer/parts/bow.png",
       "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        847,
+        844,
         725
-      ]
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/bow.png",
+      "candidate_sha256": "6fa6f293d418e934b90cee0991fe0084af9c78eb4d334384e685ae846a1615ad",
+      "mask": "work/cretan_archer/masks/parts/bow.png",
+      "hidden_completion": false
     },
     {
       "name": "bow_string",
       "file": "assets/units/odyssey/cretan_archer/parts/bow_string.png",
       "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        796,
-        154
-      ]
+        801,
+        142
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/bow_string.png",
+      "candidate_sha256": "c21674c216f4fa8bbb2617eb47366898fec534cea2c3edccd41b3a6f502101df",
+      "mask": "work/cretan_archer/masks/parts/bow_string.png",
+      "hidden_completion": false
     },
     {
       "name": "quiver",
       "file": "assets/units/odyssey/cretan_archer/parts/quiver.png",
       "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
         325,
-        333
-      ]
+        337
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/quiver.png",
+      "candidate_sha256": "b9d28f6a33d53619660cdb8ec2c1181cddff2e78be3fe6ec508ec90c76c90ed2",
+      "mask": "work/cretan_archer/masks/parts/quiver.png",
+      "hidden_completion": false
     },
     {
       "name": "cloak",
       "file": "assets/units/odyssey/cretan_archer/parts/cloak.png",
       "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
-      "status": "MISSING",
-      "ai_completed": null,
+      "status": "CANDIDATE_NOT_APPROVED",
+      "ai_completed": false,
       "review_required": true,
       "pivot_hint": [
-        500,
-        360
-      ]
+        505,
+        367
+      ],
+      "candidate_file": "work/cretan_archer/candidates/parts/cloak.png",
+      "candidate_sha256": "e95600ecac14005ae8d7699635d6382d9ecdb44dfde7d6415e4aaff56176c53f",
+      "mask": "work/cretan_archer/masks/parts/cloak.png",
+      "hidden_completion": false
     },
     {
       "name": "arrow_single",
@@ -244,5 +335,11 @@
       "review_required": true,
       "pivot_hint": null
     }
-  ]
+  ],
+  "approved_body_source": {
+    "file": "work/cretan_archer/04_complete_body_rgba.png",
+    "sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+    "approval_record": "reports/cretan_archer/approved_body_baseline.json",
+    "status": "PASS"
+  }
 }

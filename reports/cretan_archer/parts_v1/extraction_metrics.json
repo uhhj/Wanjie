@@ -1,0 +1,13 @@
+{
+  "body_source_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "body_candidates": 15,
+  "equipment_visible_candidates": 4,
+  "arrow_single": "MISSING_FULL_ARROW",
+  "formal_parts": 0,
+  "body_rest_max_rgba_difference": 253,
+  "body_rest_changed_pixels": 27085,
+  "unassigned_alpha_gt_16": 212,
+  "partial_equipment": true,
+  "joint_tests": "RENDERED_REVIEW_REQUIRED",
+  "godot_handoff": "NOT_READY"
+}

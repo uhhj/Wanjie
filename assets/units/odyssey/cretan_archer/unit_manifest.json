@@ -26,5 +26,11 @@
     0,
     254
   ],
-  "production_source_policy": "Rig Master and approved local-completion descendants only; Walk and Codex never supply production pixels"
+  "production_source_policy": "Rig Master and approved local-completion descendants only; Walk and Codex never supply production pixels",
+  "approved_body": {
+    "file": "work/cretan_archer/04_complete_body_rgba.png",
+    "sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+    "approval_record": "reports/cretan_archer/approved_body_baseline.json",
+    "status": "PASS"
+  }
 }

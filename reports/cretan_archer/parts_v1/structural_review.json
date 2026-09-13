@@ -1,0 +1,21 @@
+{
+  "body_rest_recomposition_256": "PASS_WITH_NON_BLOCKING_MINOR_EDGE_RESIDUE",
+  "near_elbow_256": "FAIL_REVEALS_PELVIS_HOLE_BEHIND_HAND",
+  "far_elbow_256": "PASS_LIMITED_PLUS_MINUS_20",
+  "near_knee_256": "PASS_LIMITED_PLUS_MINUS_20",
+  "far_knee_256": "PASS_LIMITED_PLUS_MINUS_20",
+  "hip_articulation": "NOT_READY_HIDDEN_THIGH_UPPER_SEGMENTS_MISSING",
+  "shoulder_articulation": "NOT_APPROVED_HIDDEN_TORSO_REQUIRED",
+  "equipment": "INCOMPLETE_VISIBLE_ONLY",
+  "full_arrow": "MISSING",
+  "full_recomposition": "NOT_APPROVED_INCOMPLETE_EQUIPMENT",
+  "native_rig": "NOT_CREATED",
+  "body_rgb_preserved": true,
+  "approved_body_not_to_be_reedited": true,
+  "formal_parts_approved": 0,
+  "note": "Limited elbow/knee previews are not full structural or animation approval. Raw unassigned pixels retained in report; no masking of defects.",
+  "far_elbow_192": "PASS_LIMITED_PLUS_MINUS_20",
+  "near_knee_192": "PASS_LIMITED_PLUS_MINUS_20",
+  "far_knee_192": "PASS_LIMITED_PLUS_MINUS_20",
+  "near_elbow_192": "FAIL_REVEALS_PELVIS_HOLE_BEHIND_HAND"
+}

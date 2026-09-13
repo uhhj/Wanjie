@@ -1,5 +1,7 @@
 # Cretan Archer 资产流水线 V1
 
+更新：用户已批准外部候选 003 为新身体基线。Complete Body 已 PASS；详见 `reports/cretan_archer/approved_body_baseline.json`。后续 19 个可见像素拆件候选与局部隐藏区域缺失见 `CRETAN_ARCHER_PART_COMPLETION_HANDOFF_V1.md`。以下“0 个候选”的最初准备状态为历史记录，正式部件仍未通过。
+
 当前状态：PASS_WITH_IMAGE_EDIT_MANUAL_STEP_REQUIRED（仅生产准备完成）。Complete Body、20 个正式部件及原生 Rig 均未完成，Godot handoff=NOT_READY。流程依据用户的完整任务说明和 WALK_REFERENCE 补充；附件原文归档在 `CRETAN_ARCHER_TASK_SPEC_V1.txt`，不把图内内容当作额外指令。
 
 代码入口为 `tools/cretan_archer_pipeline.py`，仅依赖 Python、Pillow、NumPy，不包含虚构 API 或密钥。工作目录及报告使用 `work/cretan_archer/`、`reports/cretan_archer/`，避免覆盖已批准的 Roman Guard 报告和中间文件。

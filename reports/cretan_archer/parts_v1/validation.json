@@ -1,0 +1,167 @@
+{
+  "status": "CANDIDATE_FORMAT_SOURCE_PIXELS_PASS_NOT_STRUCTURAL_APPROVAL",
+  "candidates_checked": 19,
+  "results": [
+    {
+      "name": "head",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 44729,
+      "sha256": "0a08ae5ed94d9236d078f7a218ef48b1b4b5447f11f52b1e3c7156b5dde1a10b"
+    },
+    {
+      "name": "torso",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 51319,
+      "sha256": "69d8d2527a51c7ccb369dad21668fb57e711274f9de9bbe768505da4bbd642b8"
+    },
+    {
+      "name": "pelvis",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 74460,
+      "sha256": "ab15c6e3dffaf63282a7672f5816fac7d6a1c8b6fc4e9224f56eddb77bc025ac"
+    },
+    {
+      "name": "arm_near_upper",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 33489,
+      "sha256": "acc09843ae4fcce3b0a05db98ba535546e99e84c6c813e089dc0b8827aa4868a"
+    },
+    {
+      "name": "arm_near_fore",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 13143,
+      "sha256": "37e3c361186525acad23d5eaee8d443a6c4d59d016528c78d155e595aa717042"
+    },
+    {
+      "name": "hand_near",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 8423,
+      "sha256": "422b6bd503f6294e2f04b68359c3bc4a2da5d140be23ac048cafaafd210fb268"
+    },
+    {
+      "name": "arm_far_upper",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 14970,
+      "sha256": "e12ed3acacb70a7cdc84049b11dd5ad35ed0b9ffad15939f974f8179aad4f641"
+    },
+    {
+      "name": "arm_far_fore",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 10625,
+      "sha256": "db6bb81ff781643fea97348897c44782d0f1df1934eb3e4a752f024ee6aa8365"
+    },
+    {
+      "name": "hand_far",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 8211,
+      "sha256": "7db8bd321f3a68bfdfdbc1097b11897d346b014cbab0db48ace39c14e6136f09"
+    },
+    {
+      "name": "leg_near_thigh",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 20101,
+      "sha256": "2aaf7adcd54ea28e5387c807d4dc701074e852534f69cc8b8fc993903f45d3f4"
+    },
+    {
+      "name": "leg_near_shin",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 25664,
+      "sha256": "caba5aa558738094c06303f4fc5668cd6706d7d78cbeb0cbb4e2e1857a3c9400"
+    },
+    {
+      "name": "foot_near",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 14444,
+      "sha256": "7a4929e624be499158240445043e1ad20a942b00eb9edcbafb9570537d5e0c96"
+    },
+    {
+      "name": "leg_far_thigh",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 21105,
+      "sha256": "01c181edf00c59f38bf8921e8fe010fdd4c39cb60455636ef81e2095aa541a54"
+    },
+    {
+      "name": "leg_far_shin",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 26696,
+      "sha256": "11aa57518191d8fe025d90dd31fd610d3e58763efa0fd388b85eac08accf37bd"
+    },
+    {
+      "name": "foot_far",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 19232,
+      "sha256": "581feb676c7c79785bbf7a591f280cafad351b9760d51c6f010011b00f1057a8"
+    },
+    {
+      "name": "bow",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 52692,
+      "sha256": "6fa6f293d418e934b90cee0991fe0084af9c78eb4d334384e685ae846a1615ad"
+    },
+    {
+      "name": "bow_string",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 3354,
+      "sha256": "c21674c216f4fa8bbb2617eb47366898fec534cea2c3edccd41b3a6f502101df"
+    },
+    {
+      "name": "quiver",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 27915,
+      "sha256": "b9d28f6a33d53619660cdb8ec2c1181cddff2e78be3fe6ec508ec90c76c90ed2"
+    },
+    {
+      "name": "cloak",
+      "canvas_rgba_pass": true,
+      "source_rgb_changed": 0,
+      "source_alpha_changed": 0,
+      "visible_pixels": 33717,
+      "sha256": "e95600ecac14005ae8d7699635d6382d9ecdb44dfde7d6415e4aaff56176c53f"
+    }
+  ],
+  "body_gate": "PASS",
+  "approved_external_body_digest_valid": true,
+  "roman_guard_49_hashes": "PASS",
+  "source_5_hashes": "PASS",
+  "gate_regression_tests": 10,
+  "gate_regression_test_status": "PASS",
+  "code_compile": "PASS",
+  "godot_parse": "NOT_RUN_NO_ARCHER_SCENE",
+  "formal_parts": 0
+}

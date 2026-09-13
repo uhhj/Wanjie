@@ -1,168 +1,169 @@
 {
-  "status": "DRAFT_LANDMARK_HINTS_NOT_BIND_READY",
+  "status": "BODY_APPROVED_PART_PIVOTS_PENDING_STRUCTURAL_REVIEW",
   "coordinate_space": "source canvas pixels; observed from Rig Master",
   "canvas": [
     1024,
     1536
   ],
-  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "source_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
   "pivots": {
     "head": {
       "xy": [
-        538,
-        229
+        539,
+        356
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "torso": {
       "xy": [
-        507,
-        555
+        523,
+        620
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "pelvis": {
       "xy": [
-        507,
-        681
+        524,
+        638
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "arm_near_upper": {
       "xy": [
-        404,
-        487
+        440,
+        425
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "arm_near_fore": {
       "xy": [
-        374,
-        644
+        382,
+        653
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "hand_near": {
       "xy": [
-        385,
-        797
+        388,
+        789
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "arm_far_upper": {
       "xy": [
-        622,
-        524
+        631,
+        473
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "arm_far_fore": {
       "xy": [
-        701,
-        649
+        704,
+        645
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "hand_far": {
       "xy": [
-        808,
-        710
+        797,
+        708
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "leg_near_thigh": {
       "xy": [
-        449,
-        936
+        455,
+        839
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "leg_near_shin": {
       "xy": [
-        416,
-        1095
+        399,
+        1102
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "foot_near": {
       "xy": [
-        379,
-        1345
+        368,
+        1347
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "leg_far_thigh": {
       "xy": [
-        565,
-        939
+        563,
+        839
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "leg_far_shin": {
       "xy": [
-        565,
-        1105
+        568,
+        1110
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "foot_far": {
       "xy": [
-        585,
-        1341
+        576,
+        1347
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "bow": {
       "xy": [
-        847,
+        844,
         725
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "bow_string": {
       "xy": [
-        796,
-        154
+        801,
+        142
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "quiver": {
       "xy": [
         325,
-        333
+        337
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "cloak": {
       "xy": [
-        500,
-        360
+        505,
+        367
       ],
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     },
     "arrow_single": {
       "xy": null,
       "review_required": true,
-      "reason": "Recalibrate only after approved body/part masks and articulation test"
+      "reason": "Source traced anatomical hint. Hidden hip/shoulder completion and full animation tests pending."
     }
-  }
+  },
+  "source": "work/cretan_archer/04_complete_body_rgba.png"
 }

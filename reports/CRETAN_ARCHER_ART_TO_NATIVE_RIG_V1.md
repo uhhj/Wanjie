@@ -1,5 +1,7 @@
 # Cretan Archer 本轮交付状态
 
+最新：用户明确“接受”候选 003。该身体作为新基线冻结，RGB 不变，仅派生 Alpha 254→255，**Complete Body PASS**。已生成 15 身体 + 4 装备可见像素候选并做零度重组、肘膝 ±20° 预览；近手移开暴露裙布洞，隐藏髋段及完整装备/箭仍待局部补全，正式 20 parts 尚未批准，Godot NOT_READY。续接说明：`docs/CRETAN_ARCHER_PART_COMPLETION_HANDOFF_V1.md`。以下为之前候选审查历史。
+
 最新更新：候选 003 已恢复真实 RGBA，静态战斗尺寸背景审查通过；可见脸部和材质重绘仍需批准，当前 **PENDING_DESIGN_APPROVAL**。见 `reports/cretan_archer/external_candidate_003/review.md`。以下保留候选 002、001 及最初交付历史。
 
 最新更新：候选 002 为 RGB，棋盘格写入图片，没有真实 Alpha；设计细节变化也尚未批准。当前 **BLOCKED_BAKED_CHECKERBOARD_AND_DESIGN_REVIEW**，见 `reports/cretan_archer/external_candidate_002/review.md`。下方保留前次审查与准备记录。

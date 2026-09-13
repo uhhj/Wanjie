@@ -1,14 +1,20 @@
 {
-  "verdict": "ART_REVIEW_REQUIRED",
-  "complete_body": "PENDING_DESIGN_APPROVAL",
+  "verdict": "PASS_WITH_LOCAL_PART_COMPLETION_REQUIRED",
+  "complete_body": "PASS",
   "parts": {
     "required": 20,
+    "candidates": 19,
+    "body_candidates": 15,
+    "visible_equipment_candidates": 4,
     "generated": 0,
     "approved": 0,
-    "status": "NOT_RUN"
+    "missing_candidate": [
+      "arrow_single"
+    ],
+    "status": "STRUCTURAL_COMPLETION_REQUIRED"
   },
-  "recomposition": "NOT_RUN",
-  "joint_tests": "NOT_RUN",
+  "recomposition": "BODY_REST_PASS_FULL_EQUIPMENT_PENDING",
+  "joint_tests": "NEAR_ELBOW_REVEALS_PELVIS_HOLE_OTHER_THREE_LIMITED_TEST_PASS",
   "animations": {
     "idle": "NOT_RUN",
     "walk": "NOT_RUN",
@@ -20,11 +26,5 @@
   "twenty_unit_smoke": "NOT_RUN",
   "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
   "godot_handoff": "NOT_READY",
-  "note": "Candidate 003 solves true transparency and passes static combat-background review. Visible face/material repainting still needs explicit approval as a replacement body baseline. No formal parts or staged body import.",
-  "external_candidate": {
-    "status": "PENDING_DESIGN_APPROVAL",
-    "review": "reports/cretan_archer/external_candidate_003/complete_body_gate.json",
-    "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_003.png",
-    "sha256": "a8257d52983c75656696a4342ca4d11f260ace24a5f3c24e3bf7d4a8baffcbfd"
-  }
+  "note": "User-approved new body is frozen and passed. Continue only local part completion; do not restart body editing."
 }

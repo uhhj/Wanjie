@@ -1,0 +1,870 @@
+{
+  "source": "work/cretan_archer/04_complete_body_rgba.png",
+  "sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "polygons": {
+    "torso": [
+      [
+        400,
+        328
+      ],
+      [
+        484,
+        328
+      ],
+      [
+        626,
+        357
+      ],
+      [
+        657,
+        426
+      ],
+      [
+        638,
+        570
+      ],
+      [
+        646,
+        690
+      ],
+      [
+        419,
+        690
+      ],
+      [
+        414,
+        583
+      ],
+      [
+        431,
+        555
+      ],
+      [
+        442,
+        482
+      ],
+      [
+        411,
+        414
+      ]
+    ],
+    "pelvis": [
+      [
+        440,
+        614
+      ],
+      [
+        630,
+        614
+      ],
+      [
+        673,
+        781
+      ],
+      [
+        675,
+        1005
+      ],
+      [
+        351,
+        1005
+      ],
+      [
+        354,
+        922
+      ],
+      [
+        406,
+        735
+      ]
+    ],
+    "head": [
+      [
+        365,
+        95
+      ],
+      [
+        665,
+        95
+      ],
+      [
+        665,
+        316
+      ],
+      [
+        581,
+        354
+      ],
+      [
+        592,
+        379
+      ],
+      [
+        561,
+        382
+      ],
+      [
+        530,
+        368
+      ],
+      [
+        488,
+        342
+      ],
+      [
+        438,
+        332
+      ],
+      [
+        365,
+        332
+      ]
+    ],
+    "leg_far_thigh": [
+      [
+        523,
+        927
+      ],
+      [
+        657,
+        932
+      ],
+      [
+        655,
+        1077
+      ],
+      [
+        625,
+        1149
+      ],
+      [
+        516,
+        1149
+      ],
+      [
+        502,
+        1061
+      ],
+      [
+        520,
+        1010
+      ]
+    ],
+    "leg_near_thigh": [
+      [
+        401,
+        936
+      ],
+      [
+        523,
+        947
+      ],
+      [
+        527,
+        1002
+      ],
+      [
+        469,
+        1102
+      ],
+      [
+        439,
+        1148
+      ],
+      [
+        337,
+        1148
+      ],
+      [
+        338,
+        1090
+      ],
+      [
+        371,
+        1024
+      ]
+    ],
+    "leg_far_shin": [
+      [
+        510,
+        1092
+      ],
+      [
+        640,
+        1092
+      ],
+      [
+        652,
+        1326
+      ],
+      [
+        622,
+        1361
+      ],
+      [
+        525,
+        1355
+      ],
+      [
+        513,
+        1288
+      ],
+      [
+        489,
+        1190
+      ]
+    ],
+    "leg_near_shin": [
+      [
+        337,
+        1088
+      ],
+      [
+        464,
+        1104
+      ],
+      [
+        441,
+        1198
+      ],
+      [
+        416,
+        1288
+      ],
+      [
+        412,
+        1370
+      ],
+      [
+        319,
+        1370
+      ],
+      [
+        316,
+        1220
+      ],
+      [
+        317,
+        1154
+      ]
+    ],
+    "foot_far": [
+      [
+        517,
+        1327
+      ],
+      [
+        641,
+        1327
+      ],
+      [
+        680,
+        1350
+      ],
+      [
+        771,
+        1385
+      ],
+      [
+        780,
+        1455
+      ],
+      [
+        511,
+        1455
+      ]
+    ],
+    "foot_near": [
+      [
+        317,
+        1328
+      ],
+      [
+        413,
+        1328
+      ],
+      [
+        433,
+        1391
+      ],
+      [
+        462,
+        1420
+      ],
+      [
+        462,
+        1470
+      ],
+      [
+        297,
+        1470
+      ]
+    ],
+    "arm_far_upper": [
+      [
+        609,
+        394
+      ],
+      [
+        639,
+        411
+      ],
+      [
+        676,
+        518
+      ],
+      [
+        671,
+        561
+      ],
+      [
+        716,
+        601
+      ],
+      [
+        733,
+        639
+      ],
+      [
+        698,
+        683
+      ],
+      [
+        637,
+        646
+      ],
+      [
+        614,
+        586
+      ],
+      [
+        612,
+        548
+      ]
+    ],
+    "arm_far_fore": [
+      [
+        692,
+        607
+      ],
+      [
+        718,
+        605
+      ],
+      [
+        746,
+        630
+      ],
+      [
+        796,
+        674
+      ],
+      [
+        809,
+        689
+      ],
+      [
+        803,
+        736
+      ],
+      [
+        768,
+        737
+      ],
+      [
+        704,
+        705
+      ],
+      [
+        648,
+        678
+      ],
+      [
+        675,
+        642
+      ]
+    ],
+    "hand_far": [
+      [
+        798,
+        672
+      ],
+      [
+        846,
+        667
+      ],
+      [
+        905,
+        684
+      ],
+      [
+        907,
+        779
+      ],
+      [
+        797,
+        784
+      ],
+      [
+        774,
+        740
+      ],
+      [
+        782,
+        704
+      ]
+    ],
+    "arm_near_upper": [
+      [
+        397,
+        350
+      ],
+      [
+        436,
+        352
+      ],
+      [
+        466,
+        374
+      ],
+      [
+        495,
+        421
+      ],
+      [
+        491,
+        487
+      ],
+      [
+        471,
+        529
+      ],
+      [
+        441,
+        546
+      ],
+      [
+        430,
+        566
+      ],
+      [
+        414,
+        589
+      ],
+      [
+        424,
+        661
+      ],
+      [
+        397,
+        688
+      ],
+      [
+        329,
+        669
+      ],
+      [
+        324,
+        570
+      ],
+      [
+        346,
+        522
+      ],
+      [
+        331,
+        505
+      ],
+      [
+        341,
+        453
+      ],
+      [
+        361,
+        393
+      ]
+    ],
+    "arm_near_fore": [
+      [
+        332,
+        647
+      ],
+      [
+        426,
+        647
+      ],
+      [
+        426,
+        706
+      ],
+      [
+        425,
+        797
+      ],
+      [
+        348,
+        809
+      ],
+      [
+        328,
+        726
+      ]
+    ],
+    "hand_near": [
+      [
+        350,
+        783
+      ],
+      [
+        412,
+        781
+      ],
+      [
+        421,
+        803
+      ],
+      [
+        427,
+        822
+      ],
+      [
+        429,
+        845
+      ],
+      [
+        444,
+        858
+      ],
+      [
+        445,
+        877
+      ],
+      [
+        438,
+        882
+      ],
+      [
+        432,
+        881
+      ],
+      [
+        432,
+        894
+      ],
+      [
+        423,
+        900
+      ],
+      [
+        412,
+        895
+      ],
+      [
+        400,
+        892
+      ],
+      [
+        392,
+        887
+      ],
+      [
+        380,
+        882
+      ],
+      [
+        366,
+        874
+      ],
+      [
+        359,
+        863
+      ],
+      [
+        352,
+        842
+      ]
+    ]
+  },
+  "pivots": {
+    "pelvis": [
+      524,
+      638
+    ],
+    "torso": [
+      523,
+      620
+    ],
+    "head": [
+      539,
+      356
+    ],
+    "arm_near_upper": [
+      440,
+      425
+    ],
+    "arm_near_fore": [
+      382,
+      653
+    ],
+    "hand_near": [
+      388,
+      789
+    ],
+    "arm_far_upper": [
+      631,
+      473
+    ],
+    "arm_far_fore": [
+      704,
+      645
+    ],
+    "hand_far": [
+      797,
+      708
+    ],
+    "leg_near_thigh": [
+      455,
+      839
+    ],
+    "leg_near_shin": [
+      399,
+      1102
+    ],
+    "foot_near": [
+      368,
+      1347
+    ],
+    "leg_far_thigh": [
+      563,
+      839
+    ],
+    "leg_far_shin": [
+      568,
+      1110
+    ],
+    "foot_far": [
+      576,
+      1347
+    ],
+    "bow": [
+      844,
+      725
+    ],
+    "bow_string": [
+      801,
+      142
+    ],
+    "quiver": [
+      325,
+      337
+    ],
+    "cloak": [
+      505,
+      367
+    ],
+    "arrow_single": null
+  },
+  "overlaps": [
+    {
+      "name": "neck",
+      "parent": "torso",
+      "child": "head",
+      "pivot": [
+        539,
+        356
+      ],
+      "diameter": 70,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1735,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "waist",
+      "parent": "torso",
+      "child": "pelvis",
+      "pivot": [
+        524,
+        638
+      ],
+      "diameter": 145,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 7490,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "near_shoulder",
+      "parent": "torso",
+      "child": "arm_near_upper",
+      "pivot": [
+        440,
+        425
+      ],
+      "diameter": 100,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 3871,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "far_shoulder",
+      "parent": "torso",
+      "child": "arm_far_upper",
+      "pivot": [
+        631,
+        473
+      ],
+      "diameter": 70,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1483,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "near_elbow",
+      "parent": "arm_near_upper",
+      "child": "arm_near_fore",
+      "pivot": [
+        382,
+        653
+      ],
+      "diameter": 80,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1973,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "near_wrist",
+      "parent": "arm_near_fore",
+      "child": "hand_near",
+      "pivot": [
+        388,
+        789
+      ],
+      "diameter": 65,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1390,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "far_elbow",
+      "parent": "arm_far_upper",
+      "child": "arm_far_fore",
+      "pivot": [
+        704,
+        645
+      ],
+      "diameter": 76,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1901,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "far_wrist",
+      "parent": "arm_far_fore",
+      "child": "hand_far",
+      "pivot": [
+        797,
+        708
+      ],
+      "diameter": 60,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1138,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "near_hip",
+      "parent": "pelvis",
+      "child": "leg_near_thigh",
+      "pivot": [
+        455,
+        839
+      ],
+      "diameter": 110,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 0,
+      "hidden_geometry_missing": true,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "far_hip",
+      "parent": "pelvis",
+      "child": "leg_far_thigh",
+      "pivot": [
+        563,
+        839
+      ],
+      "diameter": 100,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 0,
+      "hidden_geometry_missing": true,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "near_knee",
+      "parent": "leg_near_thigh",
+      "child": "leg_near_shin",
+      "pivot": [
+        399,
+        1102
+      ],
+      "diameter": 100,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 3144,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "near_ankle",
+      "parent": "leg_near_shin",
+      "child": "foot_near",
+      "pivot": [
+        368,
+        1347
+      ],
+      "diameter": 76,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 1783,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "far_knee",
+      "parent": "leg_far_thigh",
+      "child": "leg_far_shin",
+      "pivot": [
+        568,
+        1110
+      ],
+      "diameter": 95,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 3173,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    },
+    {
+      "name": "far_ankle",
+      "parent": "leg_far_shin",
+      "child": "foot_far",
+      "pivot": [
+        576,
+        1347
+      ],
+      "diameter": 78,
+      "requested_axial_overlap_percent": 30,
+      "shared_source_pixels": 2081,
+      "hidden_geometry_missing": false,
+      "new_hidden_pixels_created": 0
+    }
+  ],
+  "unassigned_pixels": 502,
+  "unassigned_alpha_gt_16": 212,
+  "unassigned_alpha_max": 253,
+  "status": "CANDIDATES_REVIEW_REQUIRED",
+  "hidden_completion": false
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "pelvis_under_near_hand",
+    "status": "EXTERNAL_LOCAL_PART_COMPLETION_REQUIRED",
+    "input_file": "work/cretan_archer/candidates/parts/pelvis.png",
+    "input_sha256": "ab15c6e3dffaf63282a7672f5816fac7d6a1c8b6fc4e9224f56eddb77bc025ac",
+    "mask": "work/cretan_archer/part_completion/pelvis_under_near_hand_mask.png",
+    "mask_sha256": "43417693fe76ba394b93ac45bd9ebacd64295cebdcfd3bd0b47a2f0b7ff64264",
+    "prompt_file": "work/cretan_archer/part_completion/pelvis_under_near_hand_prompt.txt",
+    "body_reference": "work/cretan_archer/04_complete_body_rgba.png",
+    "body_reference_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+    "pivot_hint": [
+      524,
+      638
+    ],
+    "output_file": "work/cretan_archer/part_completion/pelvis_under_near_hand_result.png",
+    "output_sha256": null,
+    "tool_model": null,
+    "executed": false
+  },
+  {
+    "id": "leg_near_thigh_hidden_hip",
+    "status": "EXTERNAL_LOCAL_PART_COMPLETION_REQUIRED",
+    "input_file": "work/cretan_archer/candidates/parts/leg_near_thigh.png",
+    "input_sha256": "2aaf7adcd54ea28e5387c807d4dc701074e852534f69cc8b8fc993903f45d3f4",
+    "mask": "work/cretan_archer/part_completion/leg_near_thigh_hidden_hip_mask.png",
+    "mask_sha256": "bc5489e43b2872c18757a4f625cdfe0a5df1e421361a6cae50d9c8a252d63d57",
+    "prompt_file": "work/cretan_archer/part_completion/leg_near_thigh_hidden_hip_prompt.txt",
+    "body_reference": "work/cretan_archer/04_complete_body_rgba.png",
+    "body_reference_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+    "pivot_hint": [
+      455,
+      839
+    ],
+    "output_file": "work/cretan_archer/part_completion/leg_near_thigh_hidden_hip_result.png",
+    "output_sha256": null,
+    "tool_model": null,
+    "executed": false
+  },
+  {
+    "id": "leg_far_thigh_hidden_hip",
+    "status": "EXTERNAL_LOCAL_PART_COMPLETION_REQUIRED",
+    "input_file": "work/cretan_archer/candidates/parts/leg_far_thigh.png",
+    "input_sha256": "01c181edf00c59f38bf8921e8fe010fdd4c39cb60455636ef81e2095aa541a54",
+    "mask": "work/cretan_archer/part_completion/leg_far_thigh_hidden_hip_mask.png",
+    "mask_sha256": "035f440fc18d585db094dde2c944aba6b9a9ddc4813404db5909897d82f1db19",
+    "prompt_file": "work/cretan_archer/part_completion/leg_far_thigh_hidden_hip_prompt.txt",
+    "body_reference": "work/cretan_archer/04_complete_body_rgba.png",
+    "body_reference_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+    "pivot_hint": [
+      563,
+      839
+    ],
+    "output_file": "work/cretan_archer/part_completion/leg_far_thigh_hidden_hip_result.png",
+    "output_sha256": null,
+    "tool_model": null,
+    "executed": false
+  },
+  {
+    "id": "torso_under_near_arm",
+    "status": "EXTERNAL_LOCAL_PART_COMPLETION_REQUIRED",
+    "input_file": "work/cretan_archer/candidates/parts/torso.png",
+    "input_sha256": "69d8d2527a51c7ccb369dad21668fb57e711274f9de9bbe768505da4bbd642b8",
+    "mask": "work/cretan_archer/part_completion/torso_under_near_arm_mask.png",
+    "mask_sha256": "0109d4560e52ba343edb073ce331deb4052c04bd2383a14ec5f7a686da3b84e5",
+    "prompt_file": "work/cretan_archer/part_completion/torso_under_near_arm_prompt.txt",
+    "body_reference": "work/cretan_archer/04_complete_body_rgba.png",
+    "body_reference_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+    "pivot_hint": [
+      523,
+      620
+    ],
+    "output_file": "work/cretan_archer/part_completion/torso_under_near_arm_result.png",
+    "output_sha256": null,
+    "tool_model": null,
+    "executed": false
+  }
+]
