@@ -1,5 +1,23 @@
 # ROMAN_GUARD_AI_RIG_ASSET_PIPELINE_V1
 
+## 当前 Native Rig V2
+
+已建立 Godot 4.7.2 Stable Standard 原生 Skeleton2D/Bone2D/AnimationPlayer 工程、五动画、Rig Lab 和桌面压力测试。最新视觉状态与技术证据以 [Native Gate V2](reports/native_rig_v2/native_gate_v2.json) 为准；以下资产报告属于已通过的冻结输入，不代替动画验收。
+
+本轮按用户“将就了吧”的反馈作为可用战斗原型收口，保留动作质感未达到精修成品的说明。SUPPORTED 是原生流水线可行性结论，不应解读为无保留的美术质量认可。
+
+- [通用骨骼、坐标和局部蒙皮](docs/HUMAN_MEDIUM_RIG_V1.md)
+- [动画、支撑脚、事件和运行方式](docs/ROMAN_GUARD_ANIMATION_V1.md)
+- [最新 Walk：前向鞋视图](reports/animations/walk_forward_shoe_v4_256.gif)
+- [最新 Attack：举盾与肩部连接](reports/animations/attack_closed_shoulder_v4_256.gif)
+- [Death](reports/animations/death_256.gif)
+
+在仓库根目录运行 `./tools/run_godot_native.ps1 -Action Lab`。`Validate` 执行原生测试，`Stress` 打开压力实验室，`Benchmark` 运行 20/50 单位五模式实测。引擎位于 `D:/Wanjie/tools/Godot/4.7.2/`，已核对官方版本与发布包校验和。
+
+19 核心件和独立 knee_near 的正式 PNG 没有修改。动作中暴露的两侧肩部与右脚踝用局部原生蒙皮处理；Walk 右鞋使用已批准左鞋像素的前向视图，其他动作保留原鞋。当前分支为 `feature/roman-guard-native-rig-v2`。
+
+## 冻结资产阶段
+
 **当前：近侧膝关节五档运动PASS。19个核心件+独立knee_near，共20件；资产交接READY。**
 
 近侧膝甲固定在独立socket，小腿使用随附的局部双骨权重。thigh/shin重叠仍约32.9%，0°重组逐像素不变；其余关节和装备冻结。当前近膝结果以 [局部修复报告](reports/NEAR_KNEE_ARTICULATION_V1.md)、[256px五档](reports/near_knee_motion_256px_v1.png)、[192px五档](reports/near_knee_motion_192px_v1.png) 为准。旧V3近膝刚性旋转审批已被替代，不得复用于新布局。
@@ -70,10 +88,10 @@ python tools/test_pipeline_safety.py
 
 19个正式部件、masks与pivot均通过当前Combat范围审批；候选和历史版本仍独立保留。
 
-一个 cape PNG 同时包含后摆与前领，重组使用两次互斥 mask 绘制同一核心纹理；它仍是 19 个核心部件之一。这个 draw order 提案也必须在实际重组时审查。没有新增兵种、第三方骨骼插件或自动安装 Godot。
+一个 cape PNG 同时包含后摆与前领，重组使用两次互斥 mask 绘制同一核心纹理；它仍是 19 个核心部件之一。没有新增兵种或第三方骨骼插件。
 
-## Godot 后续
+## 工程来源
 
-用户已确认从零建立仓库，并将仓库名称更正为 `Wanjie`（GitHub 所有者为 `uhhj`）；原有 `ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V1` 和 `HUMAN_MEDIUM_RIG_V1` 工程文件不在本机任务中。只有素材 READY 后，才创建 Godot 4.7.2 Stable 原生 Skeleton2D/Bone2D 场景和 idle、walk、attack_01、hit、death。当前完成资产READY交接，Godot场景和动画尚未创建。
+用户确认从零建立仓库，并将名称更正为 `Wanjie`（GitHub 所有者 `uhhj`）。原有 V1 工程不在本机；本次在资产 READY 后建立新的 Native Rig V2，未引用不存在的旧工程。
 
-API key 不在工程内。`.env`、密钥文件和运行缓存被忽略。`origin` 为 `https://github.com/uhhj/Wanjie.git`，工作分支为 `feature/roman-guard-ai-rig-assets-v1`。AI 调用记录中的旧本地路径保留为调用时的真实历史，不因仓库改名而改写。
+API key 不在工程内。`.env`、密钥文件和运行缓存被忽略。`origin` 为 `https://github.com/uhhj/Wanjie.git`；资产分支 `feature/roman-guard-ai-rig-assets-v1` 保留原历史。AI 调用记录中的旧本地路径保留为调用时的真实历史。本次 Native 动画修复没有生成式 AI 调用。

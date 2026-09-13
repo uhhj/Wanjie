@@ -1,0 +1,190 @@
+{
+  "task": "ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_V2",
+  "verdict": "ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_SUPPORTED",
+  "native_rig_pipeline": "SUPPORTED",
+  "technical_status": "PASS",
+  "errors": [],
+  "assets": {
+    "core": 19,
+    "attachment": 1,
+    "unchanged": true
+  },
+  "rig": {
+    "bones": 23,
+    "sprite_nodes": 20,
+    "polygon_nodes": 4,
+    "active_art_draws": 21
+  },
+  "animations": {
+    "idle": "PASS",
+    "walk": "PASS",
+    "attack_01": "PASS",
+    "hit": "PASS",
+    "death": "PASS"
+  },
+  "attack_hit_count": 1,
+  "walk_support_drift_256px": 0.00302632062692675,
+  "rest": {
+    "status": "PASS",
+    "alpha_threshold": 32,
+    "silhouette_iou": 0.9999970670831408,
+    "rgba_mae_foreground_union": 0.29153816824677564,
+    "reference_sha256": "d4d02329eda2525d6b8bc3956f469db79bdf5bc7b1579c833c1264c910b5f134",
+    "native_sha256": "c96395348ecef0fc93991147cd928bddfcfb7886a68fd7e2ebb89a13e8bb69d5"
+  },
+  "stress": [
+    {
+      "elapsed_seconds": 2.997216,
+      "fps": 231.881853026275,
+      "mode": "idle",
+      "node_count": 1134,
+      "rendered_frames": 695,
+      "renderer": "GeForce GTX 1650",
+      "units": 20,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.007303,
+      "fps": 173.577454616312,
+      "mode": "walk",
+      "node_count": 1134,
+      "rendered_frames": 522,
+      "renderer": "GeForce GTX 1650",
+      "units": 20,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.00291,
+      "fps": 179.825569197878,
+      "mode": "attack_loop",
+      "node_count": 1134,
+      "rendered_frames": 540,
+      "renderer": "GeForce GTX 1650",
+      "units": 20,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.002248,
+      "fps": 232.825536064975,
+      "mode": "hit_loop",
+      "node_count": 1134,
+      "rendered_frames": 699,
+      "renderer": "GeForce GTX 1650",
+      "units": 20,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.001352,
+      "fps": 289.536182360483,
+      "mode": "death_once",
+      "node_count": 1134,
+      "rendered_frames": 869,
+      "renderer": "GeForce GTX 1650",
+      "units": 20,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.002308,
+      "fps": 100.589279980602,
+      "mode": "idle",
+      "node_count": 2784,
+      "rendered_frames": 302,
+      "renderer": "GeForce GTX 1650",
+      "units": 50,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.002652,
+      "fps": 77.2650310458888,
+      "mode": "walk",
+      "node_count": 2784,
+      "rendered_frames": 232,
+      "renderer": "GeForce GTX 1650",
+      "units": 50,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.003577,
+      "fps": 77.907108757325,
+      "mode": "attack_loop",
+      "node_count": 2784,
+      "rendered_frames": 234,
+      "renderer": "GeForce GTX 1650",
+      "units": 50,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.000656,
+      "fps": 100.311398574178,
+      "mode": "hit_loop",
+      "node_count": 2784,
+      "rendered_frames": 301,
+      "renderer": "GeForce GTX 1650",
+      "units": 50,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    },
+    {
+      "elapsed_seconds": 3.004447,
+      "fps": 121.486583055051,
+      "mode": "death_once",
+      "node_count": 2784,
+      "rendered_frames": 365,
+      "renderer": "GeForce GTX 1650",
+      "units": 50,
+      "viewport": [
+        1920.0,
+        1080.0
+      ]
+    }
+  ],
+  "godot": {
+    "version": "4.7.2.stable.official.ed1daf0bf",
+    "path": "D:/Wanjie/tools/Godot/4.7.2/Godot_v4.7.2-stable_win64.exe",
+    "tested_cli": "D:/Wanjie/tools/Godot/4.7.2/Godot_v4.7.2-stable_win64_console.exe",
+    "edition": "Standard",
+    "language": "GDScript",
+    "preferred_path_present": false,
+    "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424",
+    "archive_sha512": "83decd58fdf67b9d657958a1ae6bf1929c20785315a81effe245874cdc57acb709bf868e00778a96984338c1b29dafdb453c6847747694621c6ecf5da2259993",
+    "official_checksum_verified": true,
+    "source": "https://godotengine.org/download/archive/4.7.2-stable/",
+    "cpu": "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"
+  },
+  "source_animation_sha256": "c85bda3235fb835e049050c26f7ea50914f88af341c99e9030a227e9023f23d6",
+  "flags": [
+    "PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation",
+    "NON_BLOCKING_COMBAT_ARTIFACT: five frozen HIRES alpha findings",
+    "Small rigid cape motion; cape_mid/tip reserved, not simulated cloth",
+    "Death stress measurement represents held corpses after warm-up",
+    "Desktop baseline only; GPU GeForce GTX 1650"
+  ],
+  "visual_approval_file": "reports/native_rig_v2/visual_approval.json",
+  "visual_acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS"
+}

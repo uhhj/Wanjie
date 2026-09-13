@@ -1,0 +1,13 @@
+{
+  "version": "4.7.2.stable.official.ed1daf0bf",
+  "path": "D:/Wanjie/tools/Godot/4.7.2/Godot_v4.7.2-stable_win64.exe",
+  "tested_cli": "D:/Wanjie/tools/Godot/4.7.2/Godot_v4.7.2-stable_win64_console.exe",
+  "edition": "Standard",
+  "language": "GDScript",
+  "preferred_path_present": false,
+  "sha256": "ab1824f85bfd8e0e4128182c000c4003a3e042245b2967848d089b2a04b22424",
+  "archive_sha512": "83decd58fdf67b9d657958a1ae6bf1929c20785315a81effe245874cdc57acb709bf868e00778a96984338c1b29dafdb453c6847747694621c6ecf5da2259993",
+  "official_checksum_verified": true,
+  "source": "https://godotengine.org/download/archive/4.7.2-stable/",
+  "cpu": "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"
+}

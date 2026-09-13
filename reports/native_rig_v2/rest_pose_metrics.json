@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "alpha_threshold": 32,
+  "silhouette_iou": 0.9999970670831408,
+  "rgba_mae_foreground_union": 0.29153816824677564,
+  "reference_sha256": "d4d02329eda2525d6b8bc3956f469db79bdf5bc7b1579c833c1264c910b5f134",
+  "native_sha256": "c96395348ecef0fc93991147cd928bddfcfb7886a68fd7e2ebb89a13e8bb69d5"
+}

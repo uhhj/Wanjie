@@ -1,0 +1,32 @@
+{
+  "animation_source_sha256": "c85bda3235fb835e049050c26f7ea50914f88af341c99e9030a227e9023f23d6",
+  "animations": {
+    "idle": {
+      "status": "PASS",
+      "sheet_sha256": "84aaa78a0bedc68c680b208612882d8413dba8335410a40e81173d85c8564c13",
+      "note": "Assistant reviewed actual 256px/192px GPU captures; subtle stable idle."
+    },
+    "walk": {
+      "status": "PASS",
+      "sheet_sha256": "bffae9248128780d798bb48da767b1aed3c3a23e44fc1e7b3e35a22d1e8e5b73",
+      "note": "User provisionally accepted current v4 with explicit quality reservation: 将就了吧. This is usable combat prototype acceptance, not polished final-animation approval."
+    },
+    "attack_01": {
+      "status": "PASS",
+      "sheet_sha256": "36d426aea3055442e60d14f4bf967bad77b9510e159ec4109147b18ce1d9d9e1",
+      "note": "User provisionally accepted current v4 with explicit quality reservation: 将就了吧. This is usable combat prototype acceptance, not polished final-animation approval."
+    },
+    "hit": {
+      "status": "PASS",
+      "sheet_sha256": "09268c38e76e4b654e6e3f697842ae373918f684a8b3a96e73d6baddce233e7b",
+      "note": "Assistant reviewed actual 256px/192px GPU captures; short stable reaction."
+    },
+    "death": {
+      "status": "PASS",
+      "sheet_sha256": "cf262c3a50e3dc7f7aa4d8fe36c4858e25bd15bc2332f5fe5d4a38573e8dad7b",
+      "note": "User accepted: 死亡姿态尚可. Accepted pose retained by bind compensation; actual final captures reviewed."
+    }
+  },
+  "acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS",
+  "user_final_feedback": "将就了吧"
+}

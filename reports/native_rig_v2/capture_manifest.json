@@ -1,0 +1,1124 @@
+{
+	"body_height_source": 1435.0,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"frames": [
+		{
+			"animation": "rest_pose",
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/animations/rest_pose_256_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "rest_pose",
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/animations/rest_pose_192_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "idle",
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "idle",
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "idle",
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_001.png",
+			"time": 0.0666666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_001.png",
+			"time": 0.0666666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_002.png",
+			"time": 0.133333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_002.png",
+			"time": 0.133333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_003.png",
+			"time": 0.2
+		},
+		{
+			"animation": "idle",
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_003.png",
+			"time": 0.2
+		},
+		{
+			"animation": "idle",
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_004.png",
+			"time": 0.266666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_004.png",
+			"time": 0.266666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_005.png",
+			"time": 0.333333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_005.png",
+			"time": 0.333333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_006.png",
+			"time": 0.4
+		},
+		{
+			"animation": "idle",
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_006.png",
+			"time": 0.4
+		},
+		{
+			"animation": "idle",
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_007.png",
+			"time": 0.466666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_007.png",
+			"time": 0.466666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_008.png",
+			"time": 0.533333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_008.png",
+			"time": 0.533333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_009.png",
+			"time": 0.6
+		},
+		{
+			"animation": "idle",
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_009.png",
+			"time": 0.6
+		},
+		{
+			"animation": "idle",
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_010.png",
+			"time": 0.666666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_010.png",
+			"time": 0.666666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_011.png",
+			"time": 0.733333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_011.png",
+			"time": 0.733333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_012.png",
+			"time": 0.8
+		},
+		{
+			"animation": "idle",
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_012.png",
+			"time": 0.8
+		},
+		{
+			"animation": "idle",
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_013.png",
+			"time": 0.866666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_013.png",
+			"time": 0.866666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_014.png",
+			"time": 0.933333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_014.png",
+			"time": 0.933333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_015.png",
+			"time": 1.0
+		},
+		{
+			"animation": "idle",
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_015.png",
+			"time": 1.0
+		},
+		{
+			"animation": "idle",
+			"frame": 16,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_016.png",
+			"time": 1.06666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 16,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_016.png",
+			"time": 1.06666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 17,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_017.png",
+			"time": 1.13333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 17,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_017.png",
+			"time": 1.13333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 18,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_018.png",
+			"time": 1.2
+		},
+		{
+			"animation": "idle",
+			"frame": 18,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_018.png",
+			"time": 1.2
+		},
+		{
+			"animation": "idle",
+			"frame": 19,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_019.png",
+			"time": 1.26666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 19,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_019.png",
+			"time": 1.26666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 20,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_020.png",
+			"time": 1.33333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 20,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_020.png",
+			"time": 1.33333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 21,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_021.png",
+			"time": 1.4
+		},
+		{
+			"animation": "idle",
+			"frame": 21,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_021.png",
+			"time": 1.4
+		},
+		{
+			"animation": "idle",
+			"frame": 22,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_022.png",
+			"time": 1.46666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 22,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_022.png",
+			"time": 1.46666666666667
+		},
+		{
+			"animation": "idle",
+			"frame": 23,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_023.png",
+			"time": 1.53333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 23,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_023.png",
+			"time": 1.53333333333333
+		},
+		{
+			"animation": "idle",
+			"frame": 24,
+			"height": 256,
+			"path": "res://reports/animations/idle_256_024.png",
+			"time": 1.6
+		},
+		{
+			"animation": "idle",
+			"frame": 24,
+			"height": 192,
+			"path": "res://reports/animations/idle_192_024.png",
+			"time": 1.6
+		},
+		{
+			"animation": "walk",
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "walk",
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "walk",
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_001.png",
+			"time": 0.0666666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_001.png",
+			"time": 0.0666666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_002.png",
+			"time": 0.133333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_002.png",
+			"time": 0.133333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_003.png",
+			"time": 0.2
+		},
+		{
+			"animation": "walk",
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_003.png",
+			"time": 0.2
+		},
+		{
+			"animation": "walk",
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_004.png",
+			"time": 0.266666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_004.png",
+			"time": 0.266666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_005.png",
+			"time": 0.333333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_005.png",
+			"time": 0.333333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_006.png",
+			"time": 0.4
+		},
+		{
+			"animation": "walk",
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_006.png",
+			"time": 0.4
+		},
+		{
+			"animation": "walk",
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_007.png",
+			"time": 0.466666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_007.png",
+			"time": 0.466666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_008.png",
+			"time": 0.533333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_008.png",
+			"time": 0.533333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_009.png",
+			"time": 0.6
+		},
+		{
+			"animation": "walk",
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_009.png",
+			"time": 0.6
+		},
+		{
+			"animation": "walk",
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_010.png",
+			"time": 0.666666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_010.png",
+			"time": 0.666666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_011.png",
+			"time": 0.733333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_011.png",
+			"time": 0.733333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_012.png",
+			"time": 0.8
+		},
+		{
+			"animation": "walk",
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_012.png",
+			"time": 0.8
+		},
+		{
+			"animation": "walk",
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_013.png",
+			"time": 0.866666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_013.png",
+			"time": 0.866666666666667
+		},
+		{
+			"animation": "walk",
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_014.png",
+			"time": 0.933333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_014.png",
+			"time": 0.933333333333333
+		},
+		{
+			"animation": "walk",
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/animations/walk_256_015.png",
+			"time": 1.0
+		},
+		{
+			"animation": "walk",
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/animations/walk_192_015.png",
+			"time": 1.0
+		},
+		{
+			"animation": "attack_01",
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "attack_01",
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "attack_01",
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_001.png",
+			"time": 0.0666666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_001.png",
+			"time": 0.0666666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_002.png",
+			"time": 0.133333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_002.png",
+			"time": 0.133333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_003.png",
+			"time": 0.2
+		},
+		{
+			"animation": "attack_01",
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_003.png",
+			"time": 0.2
+		},
+		{
+			"animation": "attack_01",
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_004.png",
+			"time": 0.266666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_004.png",
+			"time": 0.266666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_005.png",
+			"time": 0.333333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_005.png",
+			"time": 0.333333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_006.png",
+			"time": 0.4
+		},
+		{
+			"animation": "attack_01",
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_006.png",
+			"time": 0.4
+		},
+		{
+			"animation": "attack_01",
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_007.png",
+			"time": 0.466666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_007.png",
+			"time": 0.466666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_008.png",
+			"time": 0.533333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_008.png",
+			"time": 0.533333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_009.png",
+			"time": 0.6
+		},
+		{
+			"animation": "attack_01",
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_009.png",
+			"time": 0.6
+		},
+		{
+			"animation": "attack_01",
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_010.png",
+			"time": 0.666666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_010.png",
+			"time": 0.666666666666667
+		},
+		{
+			"animation": "attack_01",
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_011.png",
+			"time": 0.733333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_011.png",
+			"time": 0.733333333333333
+		},
+		{
+			"animation": "attack_01",
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/animations/attack_01_256_012.png",
+			"time": 0.8
+		},
+		{
+			"animation": "attack_01",
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/animations/attack_01_192_012.png",
+			"time": 0.8
+		},
+		{
+			"animation": "hit",
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/animations/hit_256_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "hit",
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/animations/hit_192_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "hit",
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/animations/hit_256_001.png",
+			"time": 0.064
+		},
+		{
+			"animation": "hit",
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/animations/hit_192_001.png",
+			"time": 0.064
+		},
+		{
+			"animation": "hit",
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/animations/hit_256_002.png",
+			"time": 0.128
+		},
+		{
+			"animation": "hit",
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/animations/hit_192_002.png",
+			"time": 0.128
+		},
+		{
+			"animation": "hit",
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/animations/hit_256_003.png",
+			"time": 0.192
+		},
+		{
+			"animation": "hit",
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/animations/hit_192_003.png",
+			"time": 0.192
+		},
+		{
+			"animation": "hit",
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/animations/hit_256_004.png",
+			"time": 0.256
+		},
+		{
+			"animation": "hit",
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/animations/hit_192_004.png",
+			"time": 0.256
+		},
+		{
+			"animation": "hit",
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/animations/hit_256_005.png",
+			"time": 0.32
+		},
+		{
+			"animation": "hit",
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/animations/hit_192_005.png",
+			"time": 0.32
+		},
+		{
+			"animation": "death",
+			"frame": 0,
+			"height": 256,
+			"path": "res://reports/animations/death_256_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "death",
+			"frame": 0,
+			"height": 192,
+			"path": "res://reports/animations/death_192_000.png",
+			"time": 0.0
+		},
+		{
+			"animation": "death",
+			"frame": 1,
+			"height": 256,
+			"path": "res://reports/animations/death_256_001.png",
+			"time": 0.0647058823529412
+		},
+		{
+			"animation": "death",
+			"frame": 1,
+			"height": 192,
+			"path": "res://reports/animations/death_192_001.png",
+			"time": 0.0647058823529412
+		},
+		{
+			"animation": "death",
+			"frame": 2,
+			"height": 256,
+			"path": "res://reports/animations/death_256_002.png",
+			"time": 0.129411764705882
+		},
+		{
+			"animation": "death",
+			"frame": 2,
+			"height": 192,
+			"path": "res://reports/animations/death_192_002.png",
+			"time": 0.129411764705882
+		},
+		{
+			"animation": "death",
+			"frame": 3,
+			"height": 256,
+			"path": "res://reports/animations/death_256_003.png",
+			"time": 0.194117647058824
+		},
+		{
+			"animation": "death",
+			"frame": 3,
+			"height": 192,
+			"path": "res://reports/animations/death_192_003.png",
+			"time": 0.194117647058824
+		},
+		{
+			"animation": "death",
+			"frame": 4,
+			"height": 256,
+			"path": "res://reports/animations/death_256_004.png",
+			"time": 0.258823529411765
+		},
+		{
+			"animation": "death",
+			"frame": 4,
+			"height": 192,
+			"path": "res://reports/animations/death_192_004.png",
+			"time": 0.258823529411765
+		},
+		{
+			"animation": "death",
+			"frame": 5,
+			"height": 256,
+			"path": "res://reports/animations/death_256_005.png",
+			"time": 0.323529411764706
+		},
+		{
+			"animation": "death",
+			"frame": 5,
+			"height": 192,
+			"path": "res://reports/animations/death_192_005.png",
+			"time": 0.323529411764706
+		},
+		{
+			"animation": "death",
+			"frame": 6,
+			"height": 256,
+			"path": "res://reports/animations/death_256_006.png",
+			"time": 0.388235294117647
+		},
+		{
+			"animation": "death",
+			"frame": 6,
+			"height": 192,
+			"path": "res://reports/animations/death_192_006.png",
+			"time": 0.388235294117647
+		},
+		{
+			"animation": "death",
+			"frame": 7,
+			"height": 256,
+			"path": "res://reports/animations/death_256_007.png",
+			"time": 0.452941176470588
+		},
+		{
+			"animation": "death",
+			"frame": 7,
+			"height": 192,
+			"path": "res://reports/animations/death_192_007.png",
+			"time": 0.452941176470588
+		},
+		{
+			"animation": "death",
+			"frame": 8,
+			"height": 256,
+			"path": "res://reports/animations/death_256_008.png",
+			"time": 0.517647058823529
+		},
+		{
+			"animation": "death",
+			"frame": 8,
+			"height": 192,
+			"path": "res://reports/animations/death_192_008.png",
+			"time": 0.517647058823529
+		},
+		{
+			"animation": "death",
+			"frame": 9,
+			"height": 256,
+			"path": "res://reports/animations/death_256_009.png",
+			"time": 0.582352941176471
+		},
+		{
+			"animation": "death",
+			"frame": 9,
+			"height": 192,
+			"path": "res://reports/animations/death_192_009.png",
+			"time": 0.582352941176471
+		},
+		{
+			"animation": "death",
+			"frame": 10,
+			"height": 256,
+			"path": "res://reports/animations/death_256_010.png",
+			"time": 0.647058823529412
+		},
+		{
+			"animation": "death",
+			"frame": 10,
+			"height": 192,
+			"path": "res://reports/animations/death_192_010.png",
+			"time": 0.647058823529412
+		},
+		{
+			"animation": "death",
+			"frame": 11,
+			"height": 256,
+			"path": "res://reports/animations/death_256_011.png",
+			"time": 0.711764705882353
+		},
+		{
+			"animation": "death",
+			"frame": 11,
+			"height": 192,
+			"path": "res://reports/animations/death_192_011.png",
+			"time": 0.711764705882353
+		},
+		{
+			"animation": "death",
+			"frame": 12,
+			"height": 256,
+			"path": "res://reports/animations/death_256_012.png",
+			"time": 0.776470588235294
+		},
+		{
+			"animation": "death",
+			"frame": 12,
+			"height": 192,
+			"path": "res://reports/animations/death_192_012.png",
+			"time": 0.776470588235294
+		},
+		{
+			"animation": "death",
+			"frame": 13,
+			"height": 256,
+			"path": "res://reports/animations/death_256_013.png",
+			"time": 0.841176470588235
+		},
+		{
+			"animation": "death",
+			"frame": 13,
+			"height": 192,
+			"path": "res://reports/animations/death_192_013.png",
+			"time": 0.841176470588235
+		},
+		{
+			"animation": "death",
+			"frame": 14,
+			"height": 256,
+			"path": "res://reports/animations/death_256_014.png",
+			"time": 0.905882352941177
+		},
+		{
+			"animation": "death",
+			"frame": 14,
+			"height": 192,
+			"path": "res://reports/animations/death_192_014.png",
+			"time": 0.905882352941177
+		},
+		{
+			"animation": "death",
+			"frame": 15,
+			"height": 256,
+			"path": "res://reports/animations/death_256_015.png",
+			"time": 0.970588235294118
+		},
+		{
+			"animation": "death",
+			"frame": 15,
+			"height": 192,
+			"path": "res://reports/animations/death_192_015.png",
+			"time": 0.970588235294118
+		},
+		{
+			"animation": "death",
+			"frame": 16,
+			"height": 256,
+			"path": "res://reports/animations/death_256_016.png",
+			"time": 1.03529411764706
+		},
+		{
+			"animation": "death",
+			"frame": 16,
+			"height": 192,
+			"path": "res://reports/animations/death_192_016.png",
+			"time": 1.03529411764706
+		},
+		{
+			"animation": "death",
+			"frame": 17,
+			"height": 256,
+			"path": "res://reports/animations/death_256_017.png",
+			"time": 1.1
+		},
+		{
+			"animation": "death",
+			"frame": 17,
+			"height": 192,
+			"path": "res://reports/animations/death_192_017.png",
+			"time": 1.1
+		}
+	],
+	"renderer": "GeForce GTX 1650",
+	"source": "Actual Godot SubViewport GPU renders, no Python reconstruction"
+}

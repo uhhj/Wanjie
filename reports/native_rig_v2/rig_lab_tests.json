@@ -1,0 +1,14 @@
+{
+	"attack_per_play": 1,
+	"debug_controls": "PASS",
+	"dropdown": 5,
+	"play_pause_restart": "PASS",
+	"status": "PASS",
+	"stress_quantities": [
+		1,
+		10,
+		20,
+		30,
+		50
+	]
+}

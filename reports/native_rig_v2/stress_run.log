@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 462.30 - Compatibility - Using Device: NVIDIA - GeForce GTX 1650
+
+BENCHMARK {"elapsed_seconds":2.997216,"fps":231.881853026275,"mode":"idle","node_count":1134,"rendered_frames":695,"renderer":"GeForce GTX 1650","units":20,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.007303,"fps":173.577454616312,"mode":"walk","node_count":1134,"rendered_frames":522,"renderer":"GeForce GTX 1650","units":20,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.00291,"fps":179.825569197878,"mode":"attack_loop","node_count":1134,"rendered_frames":540,"renderer":"GeForce GTX 1650","units":20,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.002248,"fps":232.825536064975,"mode":"hit_loop","node_count":1134,"rendered_frames":699,"renderer":"GeForce GTX 1650","units":20,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.001352,"fps":289.536182360483,"mode":"death_once","node_count":1134,"rendered_frames":869,"renderer":"GeForce GTX 1650","units":20,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.002308,"fps":100.589279980602,"mode":"idle","node_count":2784,"rendered_frames":302,"renderer":"GeForce GTX 1650","units":50,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.002652,"fps":77.2650310458888,"mode":"walk","node_count":2784,"rendered_frames":232,"renderer":"GeForce GTX 1650","units":50,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.003577,"fps":77.907108757325,"mode":"attack_loop","node_count":2784,"rendered_frames":234,"renderer":"GeForce GTX 1650","units":50,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.000656,"fps":100.311398574178,"mode":"hit_loop","node_count":2784,"rendered_frames":301,"renderer":"GeForce GTX 1650","units":50,"viewport":[1920.0,1080.0]}
+BENCHMARK {"elapsed_seconds":3.004447,"fps":121.486583055051,"mode":"death_once","node_count":2784,"rendered_frames":365,"renderer":"GeForce GTX 1650","units":50,"viewport":[1920.0,1080.0]}
