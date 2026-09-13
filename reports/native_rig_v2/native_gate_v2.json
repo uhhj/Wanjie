@@ -23,7 +23,7 @@
     "death": "PASS"
   },
   "attack_hit_count": 1,
-  "walk_support_drift_256px": 0.00369941365843451,
+  "walk_support_drift_256px": 0.0881627631104366,
   "rest": {
     "status": "PASS",
     "alpha_threshold": 32,
@@ -177,69 +177,64 @@
     "source": "https://godotengine.org/download/archive/4.7.2-stable/",
     "cpu": "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"
   },
-  "source_animation_sha256": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
+  "source_animation_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
   "flags": [
     "PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation",
     "NON_BLOCKING_COMBAT_ARTIFACT: five frozen HIRES alpha findings",
     "Small rigid cape motion; cape_mid/tip reserved, not simulated cloth",
     "Death stress measurement represents held corpses after warm-up",
     "Desktop baseline only; GPU GeForce GTX 1650",
-    "Walk-only keyframe polish verified; FPS table is the prior desktop baseline, not remeasured for this keyframe update"
+    "Walk reference revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline"
   ],
   "visual_approval_file": "reports/native_rig_v2/visual_approval.json",
   "visual_acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS",
-  "walk_keyframe_polish": {
-    "status": "PASS",
+  "walk_reference_review": {
+    "status": "PASS_WITH_QUALITY_RESERVATIONS",
     "other_animations_unchanged": true,
     "rig_outside_walk_resource_unchanged": true,
-    "frozen_files_verified": 67,
+    "frozen_files_verified": 39,
     "near_knee_unchanged": true,
     "gait_structure_unchanged": true,
-    "pelvis_vertical_range_old": [
-      0,
-      4
+    "stride_source_px": 387,
+    "foot_pitch_world_degrees": [
+      -12,
+      28
     ],
-    "pelvis_vertical_range_new": [
-      0,
-      7
-    ],
-    "pelvis_fore_aft_source_px": [
-      -1.5,
-      1.5
-    ],
-    "stride_source_px_old": 360,
-    "stride_source_px_new": 387,
-    "stride_increase_percent": 7.5,
-    "swing_lift_source_px_old": 30,
-    "swing_lift_source_px_new": 34,
-    "sword_upper_arm_added_degrees": 0.8,
-    "shield_forearm_inertia_degrees": 0.3,
-    "support_drift_at_256px": 0.00369941365843451,
-    "support_drift_at_192px": 0.0027745602438258824,
+    "foot_roll": "heel contact / flat support / toe push-off / trailing recovery / passing / forward placement",
+    "contact_method": "Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked",
+    "support_drift_at_256px": 0.0881627631104366,
+    "support_drift_at_192px": 0.06612207233282745,
     "outputs": {
       "256": {
-        "gif": "reports/walk_polish_v1/walk_polish_256.gif",
+        "gif": "reports/walk_reference_v1/walk_reference_256.gif",
         "frames": 16,
         "duration_ms": 1000,
-        "sheet": "reports/walk_polish_v1/walk_polish_256_review.png",
-        "gif_sha256": "6f21b227f382ee8f03e1ff369a49b55153ccf1f1dbd41ceff3eb3498581f7a9d",
-        "sheet_sha256": "eb69f45a5072d2335923ee3f1502192f57d41ebb61516e3c12c95657c2cfd57c"
+        "sheet": "reports/walk_reference_v1/walk_reference_256_review.png",
+        "gif_sha256": "86452d4b5a3cb82bea016c0f88c3450e2ee26dd6aab74d3a39918c93a623e201",
+        "sheet_sha256": "25f3fb25ab481df8f9cf6edbd2d0cbd10e1bef95c915be3de0df3ce79558f5d1",
+        "follow_gif": "reports/walk_reference_v1/walk_reference_follow_256.gif",
+        "follow_gif_sha256": "000b80c947754746fe51e23640ab14eeec153156096e7e60750cb9efacac6b5f"
       },
       "192": {
-        "gif": "reports/walk_polish_v1/walk_polish_192.gif",
+        "gif": "reports/walk_reference_v1/walk_reference_192.gif",
         "frames": 16,
         "duration_ms": 1000,
-        "sheet": "reports/walk_polish_v1/walk_polish_192_review.png",
-        "gif_sha256": "d8ac72594170d05c70660dabf0bb259b809220c8db33ce42f06539f6bd615f18",
-        "sheet_sha256": "4abdf24f0d57db37c9deb5a979661a4c9849b082598e3a8a1cc0b6ab9bc47056"
+        "sheet": "reports/walk_reference_v1/walk_reference_192_review.png",
+        "gif_sha256": "37199555cf18686db525e60291d73027210145ed986cbf7e68a2ce0d2a3905bb",
+        "sheet_sha256": "72606640773d1885eba751bfc4d44545b791f48db330124324e6ddb6d7d3d798",
+        "follow_gif": "reports/walk_reference_v1/walk_reference_follow_192.gif",
+        "follow_gif_sha256": "78a48f1628cf42b8ac990a9e7af8ffc9ec24d23aeeabb2924106873eba4a1ed3"
       }
     },
-    "animation_source_sha256": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
+    "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
     "visual_review": {
       "reviewer": "assistant",
+      "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
       "256px": "PASS",
       "192px": "PASS",
-      "scope": "16 real Godot frames; no new joint breaks or exaggerated head/shield movement; previous prototype quality reservations retained"
+      "scope": "Combat continuity: toe-off visible, alternating support, no newly observed joint break; shield/upper body stable. Actual GPU contact sheets and follow-camera frames inspected.",
+      "naturalness_acceptance": "USER_REVIEW_PENDING",
+      "limitations": "Reference is a mostly side-view pose strip; frozen 3/4-view art and existing knee deformation range retained. Not a new user approval or a claim of exact pose matching."
     }
   }
 }

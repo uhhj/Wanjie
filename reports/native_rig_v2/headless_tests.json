@@ -14,2198 +14,2445 @@
 		"timestamp": 0
 	},
 	"errors": [],
+	"foot_contact_method": "Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked",
 	"foot_samples": [
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": true,
 			"time": 0.0,
 			"world_position": [
-				79.7499923706055,
-				-9.99996948242188
+				31.2315979003906,
+				-2.00001525878906
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0,
 			"world_position": [
-				-58.7499961853027,
-				-7.00001525878906
+				15.2853202819824,
+				1.0
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": true,
 			"time": 0.00833333333333333,
 			"world_position": [
-				79.7566680908203,
-				-9.98043823242188
+				31.2349700927734,
+				-1.98489379882813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.00833333333333333,
 			"world_position": [
-				-57.9844512939453,
-				-8.72772216796875
+				15.8397636413574,
+				-0.971359252929688
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": true,
 			"time": 0.0166666666666667,
 			"world_position": [
-				79.7544097900391,
-				-9.98690795898438
+				31.2338161468506,
+				-1.98988342285156
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0166666666666667,
 			"world_position": [
-				-57.1945762634277,
-				-10.5187149047852
+				16.4466209411621,
+				-3.152587890625
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": true,
 			"time": 0.025,
 			"world_position": [
-				79.754150390625,
-				-9.98703765869141
+				31.2331314086914,
+				-1.98251342773438
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.025,
 			"world_position": [
-				-55.6662483215332,
-				-12.2899169921875
+				17.6195182800293,
+				-5.27886962890625
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": true,
 			"time": 0.0333333333333333,
 			"world_position": [
-				79.7562408447266,
-				-9.98062133789063
+				31.2337646484375,
+				-1.97367095947266
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0333333333333333,
 			"world_position": [
-				-53.4078025817871,
-				-14.0246276855469
+				19.3296356201172,
+				-7.23519897460938
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": true,
 			"time": 0.0416666666666667,
 			"world_position": [
-				79.7500152587891,
-				-9.99998474121094
+				31.2316017150879,
+				-1.99996948242188
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0416666666666667,
 			"world_position": [
-				-51.1354103088379,
-				-15.7998046875
+				21.0563583374023,
+				-9.24684143066406
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.05,
 			"world_position": [
-				79.7557907104492,
-				-9.98074340820313
+				78.7647705078125,
+				-2.16759490966797
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.05,
 			"world_position": [
-				-47.534553527832,
-				-17.4629898071289
+				23.7882232666016,
+				-11.0140838623047
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.0583333333333333,
 			"world_position": [
-				79.7538223266602,
-				-9.98717498779297
+				78.7599334716797,
+				-2.04237365722656
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0583333333333333,
 			"world_position": [
-				-43.9272308349609,
-				-19.1547164916992
+				26.526668548584,
+				-12.8072814941406
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.0666666666666667,
 			"world_position": [
-				79.7535247802734,
-				-9.98725891113281
+				78.7592315673828,
+				-1.97235870361328
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0666666666666667,
 			"world_position": [
-				-39.7148590087891,
-				-20.7963790893555
+				29.8931427001953,
+				-14.5390167236328
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.075,
 			"world_position": [
-				79.7552947998047,
-				-9.98081970214844
+				78.7635650634766,
+				-1.95844268798828
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.075,
 			"world_position": [
-				-34.9003829956055,
-				-22.3855438232422
+				33.8836097717285,
+				-16.2008819580078
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.0833333333333333,
 			"world_position": [
-				79.7499923706055,
-				-10.0000228881836
+				78.75,
+				-2.00004577636719
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0833333333333333,
 			"world_position": [
-				-30.0833282470703,
-				-24.0000305175781
+				37.8754806518555,
+				-17.8774566650391
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.0916666666666667,
 			"world_position": [
-				79.7548675537109,
-				-9.98108673095703
+				78.7577285766602,
+				-1.97174072265625
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.0916666666666667,
 			"world_position": [
-				-24.1945571899414,
-				-25.4577560424805
+				43.1906471252441,
+				-19.4409332275391
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.1,
 			"world_position": [
-				79.7532043457031,
-				-9.98734283447266
+				78.7550659179688,
+				-1.98118591308594
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.1,
 			"world_position": [
-				-18.3039627075195,
-				-26.9440307617188
+				48.5042457580566,
+				-21.0197601318359
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.108333333333333,
 			"world_position": [
-				79.7529373168945,
-				-9.98759460449219
+				78.7522659301758,
+				-1.98928833007813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.108333333333333,
 			"world_position": [
-				-11.9444160461426,
-				-28.3484115600586
+				54.3999404907227,
+				-22.5379180908203
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.116666666666667,
 			"world_position": [
-				79.75439453125,
-				-9.98125457763672
+				78.7533645629883,
+				-1.98400115966797
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.116666666666667,
 			"world_position": [
-				-5.11439514160156,
-				-29.6767120361328
+				60.8765640258789,
+				-24.0015258789063
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.125,
 			"world_position": [
-				79.7500152587891,
-				-10.0000534057617
+				78.7500381469727,
+				-1.99996948242188
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.125,
 			"world_position": [
-				1.71876525878906,
-				-31.0415954589844
+				67.3497619628906,
+				-25.4882202148438
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.133333333333333,
 			"world_position": [
-				79.7540588378906,
-				-9.9813232421875
+				78.7538375854492,
+				-1.98089599609375
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.133333333333333,
 			"world_position": [
-				9.35103607177734,
-				-32.1789169311523
+				74.8267288208008,
+				-26.8194580078125
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.141666666666667,
 			"world_position": [
-				79.7526321411133,
-				-9.98749542236328
+				78.7524719238281,
+				-1.98724365234375
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.141666666666667,
 			"world_position": [
-				16.9896430969238,
-				-33.3637008666992
+				82.2989959716797,
+				-28.1861572265625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.15,
 			"world_position": [
-				79.7523803710938,
-				-9.98762512207031
+				78.7523956298828,
+				-1.98770141601563
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.15,
 			"world_position": [
-				24.9605255126953,
-				-34.4383087158203
+				90.1887664794922,
+				-29.4810638427734
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.158333333333333,
 			"world_position": [
-				79.7536163330078,
-				-9.98155212402344
+				78.7536163330078,
+				-1.98147583007813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.158333333333333,
 			"world_position": [
-				33.2670745849609,
-				-35.4116821289063
+				98.4953002929688,
+				-30.7147369384766
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.166666666666667,
 			"world_position": [
-				79.7499694824219,
-				-10.0000228881836
+				78.7499694824219,
+				-1.99998474121094
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.166666666666667,
 			"world_position": [
-				41.583309173584,
-				-36.4448699951172
+				106.795364379883,
+				-31.9980926513672
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.175,
 			"world_position": [
-				79.7532348632813,
-				-9.98173522949219
+				78.7537078857422,
+				-1.981201171875
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.175,
 			"world_position": [
-				50.4195137023926,
-				-37.1777954101563
+				115.769943237305,
+				-33.0868072509766
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.183333333333333,
 			"world_position": [
-				79.7521514892578,
-				-9.98781585693359
+				78.75244140625,
+				-1.98748779296875
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.183333333333333,
 			"world_position": [
-				59.2694473266602,
-				-37.9825668334961
+				124.736289978027,
+				-34.2393646240234
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.191666666666667,
 			"world_position": [
-				79.7519226074219,
-				-9.98788452148438
+				78.7525024414063,
+				-1.98692321777344
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.191666666666667,
 			"world_position": [
-				68.3155670166016,
-				-38.6563873291016
+				133.953063964844,
+				-35.3160705566406
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.2,
 			"world_position": [
-				79.7528228759766,
-				-9.98183441162109
+				78.7536773681641,
+				-1.98030090332031
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.2,
 			"world_position": [
-				77.5611419677734,
-				-39.2074356079102
+				143.418960571289,
+				-36.326416015625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.208333333333333,
 			"world_position": [
-				79.7500152587891,
-				-10.0000610351563
+				78.7500305175781,
+				-2.0
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.208333333333333,
 			"world_position": [
-				86.8229522705078,
-				-39.8415222167969
+				152.873153686523,
+				-37.4130401611328
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.216666666666667,
 			"world_position": [
-				79.7525482177734,
-				-9.98199462890625
+				78.7535858154297,
+				-1.97952270507813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.216666666666667,
 			"world_position": [
-				96.3272552490234,
-				-40.1194305419922
+				162.673278808594,
+				-38.2704467773438
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.225,
 			"world_position": [
-				79.7516860961914,
-				-9.98804473876953
+				78.7523498535156,
+				-1.98634338378906
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.225,
 			"world_position": [
-				105.850372314453,
-				-40.4895095825195
+				172.458465576172,
+				-39.2142181396484
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.233333333333333,
 			"world_position": [
-				79.7514343261719,
-				-9.98813629150391
+				78.7521057128906,
+				-1.98628234863281
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 0.233333333333333,
 			"world_position": [
-				115.434936523438,
-				-40.7179794311523
+				182.328353881836,
+				-40.0776062011719
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.241666666666667,
 			"world_position": [
-				79.7521133422852,
-				-9.98220062255859
+				78.7530746459961,
+				-1.9794921875
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.241666666666667,
 			"world_position": [
-				125.083015441895,
-				-40.8095550537109
+				163.422576904297,
+				-40.4258422851563
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.25,
 			"world_position": [
-				79.75,
-				-10.0000381469727
+				78.75,
+				-2.00003051757813
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.25,
 			"world_position": [
-				134.750015258789,
-				-41.0000305175781
+				173.369125366211,
+				-40.7539520263672
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.258333333333333,
 			"world_position": [
-				79.7517929077148,
-				-9.98236846923828
+				78.7524719238281,
+				-1.98030090332031
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.258333333333333,
 			"world_position": [
-				144.388244628906,
-				-40.8068237304688
+				183.354064941406,
+				-40.8079833984375
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.266666666666667,
 			"world_position": [
-				79.7512130737305,
-				-9.98826599121094
+				78.7516250610352,
+				-1.98686218261719
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.266666666666667,
 			"world_position": [
-				154.045928955078,
-				-40.7160720825195
+				193.326782226563,
+				-40.9575653076172
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.275,
 			"world_position": [
-				79.7510223388672,
-				-9.98829650878906
+				78.7512512207031,
+				-1.9876708984375
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.275,
 			"world_position": [
-				163.631591796875,
-				-40.4840698242188
+				203.235458374023,
+				-41.0163421630859
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.283333333333333,
 			"world_position": [
-				79.7514801025391,
-				-9.98247528076172
+				78.7517852783203,
+				-1.98153686523438
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.283333333333333,
 			"world_position": [
-				173.145721435547,
-				-40.1111526489258
+				213.078735351563,
+				-40.9838562011719
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.291666666666667,
 			"world_position": [
-				79.7500152587891,
-				-10.0000686645508
+				78.7500152587891,
+				-1.99999237060547
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.291666666666667,
 			"world_position": [
-				182.677124023438,
-				-39.8414764404297
+				222.905426025391,
+				-41.0457611083984
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.3,
 			"world_position": [
-				79.7510986328125,
-				-9.98262786865234
+				78.7512054443359,
+				-1.982421875
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": false,
 			"time": 0.3,
 			"world_position": [
-				191.914794921875,
-				-39.1942520141602
+				232.46696472168,
+				-40.8284301757813
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.308333333333333,
 			"world_position": [
-				79.750732421875,
-				-9.98844146728516
+				78.7507934570313,
+				-1.98834991455078
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.308333333333333,
 			"world_position": [
-				201.168472290039,
-				-38.6474685668945
+				195.84065246582,
+				-40.05029296875
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.316666666666667,
 			"world_position": [
-				79.7505493164063,
-				-9.98849487304688
+				78.7509994506836,
+				-1.99095153808594
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.316666666666667,
 			"world_position": [
-				210.217361450195,
-				-37.9710006713867
+				205.188827514648,
+				-38.9354705810547
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.325,
 			"world_position": [
-				79.7507781982422,
-				-9.98278045654297
+				78.7514724731445,
+				-1.98638153076172
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.325,
 			"world_position": [
-				219.060745239258,
-				-37.1603851318359
+				214.337509155273,
+				-37.7337493896484
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.333333333333333,
 			"world_position": [
-				79.7499694824219,
-				-10.0
+				78.7499694824219,
+				-2.00001525878906
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.333333333333333,
 			"world_position": [
-				227.916625976563,
-				-36.44482421875
+				223.481414794922,
+				-36.614128112793
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.341666666666667,
 			"world_position": [
-				79.7505035400391,
-				-9.98281860351563
+				78.7566375732422,
+				-1.96766662597656
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.341666666666667,
 			"world_position": [
-				236.218078613281,
-				-35.3914108276367
+				232.084457397461,
+				-35.2569961547852
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.35,
 			"world_position": [
-				79.7502746582031,
-				-9.98856353759766
+				78.7542724609375,
+				-1.97842407226563
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.35,
 			"world_position": [
-				244.52961730957,
-				-34.4247589111328
+				240.680953979492,
+				-33.9719085693359
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": true,
 			"time": 0.358333333333333,
 			"world_position": [
-				79.7500762939453,
-				-9.98855590820313
+				78.7643508911133,
+				-2.32513427734375
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.358333333333333,
 			"world_position": [
-				252.503723144531,
-				-33.3493423461914
+				248.931304931641,
+				-32.6140670776367
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": true,
 			"time": 0.366666666666667,
 			"world_position": [
-				79.7501678466797,
-				-9.98292541503906
+				124.951171875,
+				-2.39688110351563
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.366666666666667,
 			"world_position": [
-				260.139282226563,
-				-32.1572723388672
+				256.835418701172,
+				-31.1744689941406
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": true,
 			"time": 0.375,
 			"world_position": [
-				79.7500152587891,
-				-10.0000076293945
+				124.923583984375,
+				-1.99998474121094
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.375,
 			"world_position": [
-				267.78125,
-				-31.041633605957
+				264.731231689453,
+				-29.7946395874023
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": true,
 			"time": 0.383333333333333,
 			"world_position": [
-				79.7498779296875,
-				-9.98303985595703
+				124.964324951172,
+				-1.90286254882813
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.383333333333333,
 			"world_position": [
-				274.609008789063,
-				-29.6556930541992
+				271.800140380859,
+				-28.2113265991211
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": true,
 			"time": 0.391666666666667,
 			"world_position": [
-				79.7498931884766,
-				-9.98870849609375
+				124.950073242188,
+				-1.93499755859375
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.391666666666667,
 			"world_position": [
-				281.440856933594,
-				-28.3343048095703
+				278.86083984375,
+				-26.6751861572266
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": true,
 			"time": 0.4,
 			"world_position": [
-				79.7497024536133,
-				-9.98871612548828
+				124.953018188477,
+				-2.15582275390625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.4,
 			"world_position": [
-				287.802368164063,
-				-26.9321212768555
+				285.433654785156,
+				-25.0704193115234
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.408333333333333,
 			"world_position": [
-				79.7495422363281,
-				-9.98310089111328
+				153.834411621094,
+				-2.36312866210938
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.408333333333333,
 			"world_position": [
-				293.692321777344,
-				-25.4398498535156
+				291.519561767578,
+				-23.3880157470703
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.416666666666667,
 			"world_position": [
-				79.7499847412109,
-				-10.0000381469727
+				153.785308837891,
+				-1.99993896484375
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": false,
 			"time": 0.416666666666667,
 			"world_position": [
-				299.583374023438,
-				-23.9999694824219
+				297.597595214844,
+				-21.7402267456055
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.425,
 			"world_position": [
-				79.7492980957031,
-				-9.98304748535156
+				153.831130981445,
+				-1.89492797851563
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.425,
 			"world_position": [
-				304.399291992188,
-				-22.3733596801758
+				255.053436279297,
+				-19.5930023193359
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.433333333333333,
 			"world_position": [
-				79.7495346069336,
-				-9.98869323730469
+				153.815170288086,
+				-1.92964172363281
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.433333333333333,
 			"world_position": [
-				309.214172363281,
-				-20.7882461547852
+				260.026428222656,
+				-17.2778701782227
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.441666666666667,
 			"world_position": [
-				79.7493133544922,
-				-9.98871612548828
+				153.803680419922,
+				-1.94960021972656
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.441666666666667,
 			"world_position": [
-				313.425659179688,
-				-19.1522521972656
+				264.378814697266,
+				-14.9608001708984
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.45,
 			"world_position": [
-				79.7489929199219,
-				-9.98312377929688
+				153.812255859375,
+				-1.924072265625
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.45,
 			"world_position": [
-				317.032287597656,
-				-17.4593505859375
+				268.109893798828,
+				-12.637092590332
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.458333333333333,
 			"world_position": [
-				79.7500228881836,
-				-10.0
+				153.785339355469,
+				-2.0
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.458333333333333,
 			"world_position": [
-				320.635437011719,
-				-15.7998046875
+				271.838897705078,
+				-10.3317337036133
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.466666666666667,
 			"world_position": [
-				79.7487106323242,
-				-9.98319244384766
+				153.796356201172,
+				-1.96331787109375
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.466666666666667,
 			"world_position": [
-				322.901824951172,
-				-14.0321197509766
+				274.184997558594,
+				-8.02455902099609
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.475,
 			"world_position": [
-				79.7491455078125,
-				-9.98869323730469
+				153.792556762695,
+				-1.97549438476563
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.475,
 			"world_position": [
-				325.162322998047,
-				-12.2949295043945
+				276.528015136719,
+				-5.73519134521484
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.483333333333333,
 			"world_position": [
-				79.7488861083984,
-				-9.98877716064453
+				153.786483764648,
+				-1.99148559570313
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.483333333333333,
 			"world_position": [
-				326.686462402344,
-				-10.5325164794922
+				278.107025146484,
+				-3.46517944335938
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": true,
 			"time": 0.491666666666667,
 			"world_position": [
-				79.7483215332031,
-				-9.98311614990234
+				153.787078857422,
+				-1.98715209960938
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": false,
 			"time": 0.491666666666667,
 			"world_position": [
-				327.472381591797,
-				-8.74839782714844
+				278.921295166016,
+				-1.22001647949219
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.5,
 			"world_position": [
-				79.7499847412109,
-				-10.0000381469727
+				153.785308837891,
+				-1.99996948242188
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": true,
 			"time": 0.5,
 			"world_position": [
-				328.25,
-				-7.00003814697266
+				279.731567382813,
+				0.999992370605469
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.508333333333333,
 			"world_position": [
-				80.5305557250977,
-				-11.7303619384766
+				154.384338378906,
+				-3.96609497070313
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": true,
 			"time": 0.508333333333333,
 			"world_position": [
-				328.25146484375,
-				-6.98260498046875
+				279.731903076172,
+				1.01370239257813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.516666666666667,
 			"world_position": [
-				81.3154220581055,
-				-13.5205154418945
+				154.97639465332,
+				-6.14897155761719
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": true,
 			"time": 0.516666666666667,
 			"world_position": [
-				328.2509765625,
-				-6.98841857910156
+				279.731781005859,
+				1.00912475585938
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.525,
 			"world_position": [
-				82.8395080566406,
-				-15.2902679443359
+				156.127807617188,
+				-8.27824401855469
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": true,
 			"time": 0.525,
 			"world_position": [
-				328.250732421875,
-				-6.98835754394531
+				279.732147216797,
+				1.01708221435547
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.533333333333333,
 			"world_position": [
-				85.1009140014648,
-				-17.0250930786133
+				157.842163085938,
+				-10.2341918945313
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": true,
 			"time": 0.533333333333333,
 			"world_position": [
-				328.251098632813,
-				-6.98263549804688
+				279.732360839844,
+				1.02555847167969
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.541666666666667,
 			"world_position": [
-				87.3645553588867,
-				-18.7998428344727
+				159.55632019043,
+				-12.2468719482422
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "far",
 			"support": true,
 			"time": 0.541666666666667,
 			"world_position": [
-				328.25,
-				-6.99996948242188
+				279.731567382813,
+				1.00000762939453
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.55,
 			"world_position": [
-				90.9701843261719,
-				-20.4619598388672
+				162.29377746582,
+				-14.0132446289063
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.55,
 			"world_position": [
-				328.250793457031,
-				-6.98261260986328
+				327.263793945313,
+				0.832054138183594
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.558333333333333,
 			"world_position": [
-				94.5759887695313,
-				-22.1539688110352
+				165.030456542969,
+				-15.8067779541016
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.558333333333333,
 			"world_position": [
-				328.250549316406,
-				-6.98846435546875
+				327.259307861328,
+				0.9573974609375
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.566666666666667,
 			"world_position": [
-				98.7870788574219,
-				-23.7953567504883
+				168.394729614258,
+				-17.5384979248047
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.566666666666667,
 			"world_position": [
-				328.250305175781,
-				-6.98838806152344
+				327.258483886719,
+				1.02745056152344
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.575,
 			"world_position": [
-				103.602584838867,
-				-25.3839645385742
+				172.386123657227,
+				-19.2001190185547
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.575,
 			"world_position": [
-				328.250457763672,
-				-6.98257446289063
+				327.262512207031,
+				1.04119873046875
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.583333333333333,
 			"world_position": [
-				108.416679382324,
-				-26.9999618530273
+				176.37548828125,
+				-20.8774261474609
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.583333333333333,
 			"world_position": [
-				328.249969482422,
-				-7.0
+				327.249969482422,
+				0.999992370605469
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.591666666666667,
 			"world_position": [
-				114.308441162109,
-				-28.4564208984375
+				181.692153930664,
+				-22.4402923583984
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.591666666666667,
 			"world_position": [
-				328.250213623047,
-				-6.98249816894531
+				327.256103515625,
+				1.02763366699219
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.6,
 			"world_position": [
-				120.198059082031,
-				-29.9431533813477
+				187.005264282227,
+				-24.0193023681641
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.6,
 			"world_position": [
-				328.250122070313,
-				-6.98834228515625
+				327.254028320313,
+				1.01840972900391
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.608333333333333,
 			"world_position": [
-				126.558517456055,
-				-31.3479614257813
+				192.901138305664,
+				-25.5375366210938
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.608333333333333,
 			"world_position": [
-				328.249938964844,
-				-6.98834228515625
+				327.249969482422,
+				1.01004791259766
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.616666666666667,
 			"world_position": [
-				133.389953613281,
-				-32.6762161254883
+				199.378265380859,
+				-27.0009307861328
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.616666666666667,
 			"world_position": [
-				328.249847412109,
-				-6.98252105712891
+				327.249908447266,
+				1.01506805419922
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.625,
 			"world_position": [
-				140.218734741211,
-				-34.0416793823242
+				205.849731445313,
+				-28.4882202148438
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.625,
 			"world_position": [
-				328.249969482422,
-				-7.00001525878906
+				327.25,
+				1.0
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.633333333333333,
 			"world_position": [
-				147.857650756836,
-				-35.1795043945313
+				213.329452514648,
+				-29.8192138671875
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.633333333333333,
 			"world_position": [
-				328.24951171875,
-				-6.9822998046875
+				327.248779296875,
+				1.01806640625
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.641666666666667,
 			"world_position": [
-				155.494155883789,
-				-36.3640823364258
+				220.800903320313,
+				-31.1860656738281
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.641666666666667,
 			"world_position": [
-				328.249694824219,
-				-6.98822021484375
+				327.249206542969,
+				1.01213073730469
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.65,
 			"world_position": [
-				163.466888427734,
-				-37.4394989013672
+				228.691619873047,
+				-32.4810028076172
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.65,
 			"world_position": [
-				328.24951171875,
-				-6.98814392089844
+				327.24951171875,
+				1.01181793212891
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.658333333333333,
 			"world_position": [
-				171.776489257813,
-				-38.4134063720703
+				236.999450683594,
+				-33.7146911621094
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.658333333333333,
 			"world_position": [
-				328.249176025391,
-				-6.98226928710938
+				327.249145507813,
+				1.01783752441406
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.666666666666667,
 			"world_position": [
-				180.083358764648,
-				-39.4448013305664
+				245.29541015625,
+				-34.9980621337891
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.666666666666667,
 			"world_position": [
-				328.25,
-				-7.0
+				327.250030517578,
+				1.0
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.675,
 			"world_position": [
-				188.931823730469,
-				-40.1804351806641
+				254.275665283203,
+				-36.0870819091797
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.675,
 			"world_position": [
-				328.248901367188,
-				-6.98224639892578
+				327.249633789063,
+				1.01832580566406
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.683333333333333,
 			"world_position": [
-				197.777618408203,
-				-40.9843978881836
+				263.240020751953,
+				-37.2395935058594
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.683333333333333,
 			"world_position": [
-				328.249206542969,
-				-6.98813629150391
+				327.249725341797,
+				1.01223754882813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.691666666666667,
 			"world_position": [
-				206.825561523438,
-				-41.6586608886719
+				272.457794189453,
+				-38.3163757324219
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.691666666666667,
 			"world_position": [
-				328.2490234375,
-				-6.988037109375
+				327.249877929688,
+				1.01301574707031
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.7,
 			"world_position": [
-				216.076141357422,
-				-42.2109069824219
+				281.926086425781,
+				-39.3268585205078
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.7,
 			"world_position": [
-				328.248504638672,
-				-6.98202514648438
+				327.249816894531,
+				1.01947021484375
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.708333333333333,
 			"world_position": [
-				225.322937011719,
-				-42.8414840698242
+				291.373107910156,
+				-40.4129486083984
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.708333333333333,
 			"world_position": [
-				328.249969482422,
-				-7.00003051757813
+				327.249969482422,
+				1.00003051757813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.716666666666667,
 			"world_position": [
-				234.844451904297,
-				-43.1234283447266
+				301.181488037109,
+				-41.2711181640625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.716666666666667,
 			"world_position": [
-				328.248138427734,
-				-6.98182678222656
+				327.249664306641,
+				1.02053833007813
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.725,
 			"world_position": [
-				244.361770629883,
-				-43.4922180175781
+				310.963897705078,
+				-42.2146453857422
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.725,
 			"world_position": [
-				328.248718261719,
-				-6.98793029785156
+				327.249755859375,
+				1.013671875
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "near",
 			"support": false,
 			"time": 0.733333333333333,
 			"world_position": [
-				253.947570800781,
-				-43.7206802368164
+				320.834350585938,
+				-43.078125
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.733333333333333,
 			"world_position": [
-				328.24853515625,
-				-6.98781585693359
+				327.24951171875,
+				1.01397705078125
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.741666666666667,
 			"world_position": [
-				263.601989746094,
-				-43.8137664794922
+				301.931579589844,
+				-43.4267120361328
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.741666666666667,
 			"world_position": [
-				328.247772216797,
-				-6.98173522949219
+				327.249206542969,
+				1.02088928222656
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.75,
 			"world_position": [
-				273.25,
-				-44.0000305175781
+				311.869140625,
+				-43.7539520263672
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.75,
 			"world_position": [
-				328.25,
-				-7.00001525878906
+				327.249969482422,
+				0.999984741210938
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.758333333333333,
 			"world_position": [
-				282.908355712891,
-				-43.8108215332031
+				321.863464355469,
+				-43.8088684082031
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.758333333333333,
 			"world_position": [
-				328.247436523438,
-				-6.98155212402344
+				327.248626708984,
+				1.02040100097656
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.766666666666667,
 			"world_position": [
-				292.559295654297,
-				-43.7187881469727
+				331.8330078125,
+				-43.9581756591797
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.766666666666667,
 			"world_position": [
-				328.248260498047,
-				-6.98771667480469
+				327.2490234375,
+				1.01350402832031
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.775,
 			"world_position": [
-				302.145294189453,
-				-43.4864807128906
+				341.741638183594,
+				-44.0169525146484
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.775,
 			"world_position": [
-				328.247985839844,
-				-6.98759460449219
+				327.24853515625,
+				1.01300048828125
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.783333333333333,
 			"world_position": [
-				311.666229248047,
-				-43.1148986816406
+				351.588012695313,
+				-43.9847412109375
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.783333333333333,
 			"world_position": [
-				328.246948242188,
-				-6.98146057128906
+				327.247772216797,
+				1.01946258544922
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.791666666666667,
 			"world_position": [
-				321.177062988281,
-				-42.8415222167969
+				361.405364990234,
+				-44.0457000732422
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.791666666666667,
 			"world_position": [
-				328.25,
-				-7.00001525878906
+				327.249969482422,
+				1.00001525878906
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "near",
 			"support": false,
 			"time": 0.8,
 			"world_position": [
-				330.435241699219,
-				-42.1974258422852
+				370.975860595703,
+				-43.8294219970703
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.8,
 			"world_position": [
-				328.246673583984,
-				-6.98127746582031
+				327.246948242188,
+				1.01889801025391
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.808333333333333,
 			"world_position": [
-				339.682098388672,
-				-41.6497650146484
+				334.346588134766,
+				-43.0510406494141
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.808333333333333,
 			"world_position": [
-				328.247741699219,
-				-6.98751068115234
+				327.247924804688,
+				1.01255798339844
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.816666666666667,
 			"world_position": [
-				348.730377197266,
-				-40.9728317260742
+				343.694152832031,
+				-41.9361572265625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.816666666666667,
 			"world_position": [
-				328.247497558594,
-				-6.98736572265625
+				327.249328613281,
+				1.00972747802734
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.825,
 			"world_position": [
-				357.580352783203,
-				-40.1632080078125
+				352.845581054688,
+				-40.7347564697266
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.825,
 			"world_position": [
-				328.246215820313,
-				-6.98109436035156
+				327.2490234375,
+				1.01469421386719
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.833333333333333,
 			"world_position": [
-				366.416687011719,
-				-39.4447784423828
+				361.981506347656,
+				-39.6140823364258
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.833333333333333,
 			"world_position": [
-				328.25,
-				-7.00002288818359
+				327.250030517578,
+				1.00003814697266
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.841666666666667,
 			"world_position": [
-				374.736145019531,
-				-38.3937149047852
+				370.591400146484,
+				-38.2580413818359
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.841666666666667,
 			"world_position": [
-				328.245788574219,
-				-6.98086547851563
+				327.256256103516,
+				1.03262329101563
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.85,
 			"world_position": [
-				383.041687011719,
-				-37.4263076782227
+				379.185607910156,
+				-36.9725646972656
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.85,
 			"world_position": [
-				328.247222900391,
-				-6.98721313476563
+				327.254089355469,
+				1.02180480957031
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.858333333333333,
 			"world_position": [
-				391.014434814453,
-				-36.3506088256836
+				387.43505859375,
+				-35.6146697998047
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "far",
 			"support": true,
 			"time": 0.858333333333333,
 			"world_position": [
-				328.246948242188,
-				-6.98709106445313
+				327.264434814453,
+				0.674835205078125
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.866666666666667,
 			"world_position": [
-				398.655120849609,
-				-35.1592788696289
+				395.340911865234,
+				-34.1753540039063
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": true,
 			"time": 0.866666666666667,
 			"world_position": [
-				328.245330810547,
-				-6.98065185546875
+				373.451141357422,
+				0.60308837890625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.875,
 			"world_position": [
-				406.28125,
-				-34.041633605957
+				403.231231689453,
+				-32.7947006225586
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": true,
 			"time": 0.875,
 			"world_position": [
-				328.25,
-				-7.0
+				373.423522949219,
+				1.00001525878906
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.883333333333333,
 			"world_position": [
-				413.122406005859,
-				-32.657470703125
+				410.304290771484,
+				-31.2121963500977
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": true,
 			"time": 0.883333333333333,
 			"world_position": [
-				328.244934082031,
-				-6.98048400878906
+				373.463989257813,
+				1.09684753417969
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.891666666666667,
 			"world_position": [
-				419.949768066406,
-				-31.3355255126953
+				417.363708496094,
+				-29.6757202148438
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": true,
 			"time": 0.891666666666667,
 			"world_position": [
-				328.246612548828,
-				-6.98704528808594
+				373.449890136719,
+				1.06483459472656
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.9,
 			"world_position": [
-				426.309417724609,
-				-29.9330368041992
+				423.935668945313,
+				-28.0707473754883
 			]
 		},
 		{
+			"contact_index": 3,
 			"side": "far",
 			"support": true,
 			"time": 0.9,
 			"world_position": [
-				328.246337890625,
-				-6.98689270019531
+				373.452606201172,
+				0.843902587890625
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.908333333333333,
 			"world_position": [
-				432.202819824219,
-				-28.4413909912109
+				430.0224609375,
+				-26.3886413574219
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.908333333333333,
 			"world_position": [
-				328.244415283203,
-				-6.98030090332031
+				402.333740234375,
+				0.636428833007813
 			]
 		},
 		{
+			"contact_index": 2,
 			"side": "near",
 			"support": false,
 			"time": 0.916666666666667,
 			"world_position": [
-				438.083374023438,
-				-27.0000152587891
+				436.097534179688,
+				-24.7402801513672
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.916666666666667,
 			"world_position": [
-				328.25,
-				-7.0
+				402.285339355469,
+				1.00001525878906
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.925,
 			"world_position": [
-				442.906951904297,
-				-25.3746643066406
+				393.555358886719,
+				-22.5932922363281
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.925,
 			"world_position": [
-				328.243957519531,
-				-6.98013305664063
+				402.330505371094,
+				1.10467529296875
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.933333333333333,
 			"world_position": [
-				447.719207763672,
-				-23.7891311645508
+				398.527709960938,
+				-20.2780532836914
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.933333333333333,
 			"world_position": [
-				328.245941162109,
-				-6.98677062988281
+				402.314727783203,
+				1.07008361816406
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.941666666666667,
 			"world_position": [
-				451.929168701172,
-				-22.1528244018555
+				402.879913330078,
+				-17.9606628417969
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.941666666666667,
 			"world_position": [
-				328.245635986328,
-				-6.98663330078125
+				402.303558349609,
+				1.05020141601563
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.95,
 			"world_position": [
-				455.537536621094,
-				-20.460205078125
+				406.611450195313,
+				-15.6368713378906
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.95,
 			"world_position": [
-				328.243408203125,
-				-6.98002624511719
+				402.312042236328,
+				1.07563781738281
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.958333333333333,
 			"world_position": [
-				459.135437011719,
-				-18.7998428344727
+				410.3388671875,
+				-13.3317413330078
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.958333333333333,
 			"world_position": [
-				328.249969482422,
-				-6.99995422363281
+				402.285308837891,
+				1.00006103515625
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.966666666666667,
 			"world_position": [
-				461.405517578125,
-				-17.0324554443359
+				412.687072753906,
+				-11.0237731933594
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.966666666666667,
 			"world_position": [
-				328.242919921875,
-				-6.97981262207031
+				402.296142578125,
+				1.03706359863281
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.975,
 			"world_position": [
-				463.664764404297,
-				-15.295166015625
+				415.029357910156,
+				-8.734619140625
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.975,
 			"world_position": [
-				328.245239257813,
-				-6.98649597167969
+				402.292358398438,
+				1.02473449707031
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.983333333333333,
 			"world_position": [
-				465.189056396484,
-				-13.5321655273438
+				416.609466552734,
+				-6.46414947509766
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.983333333333333,
 			"world_position": [
-				328.244964599609,
-				-6.98645782470703
+				402.285064697266,
+				1.00956726074219
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 0.991666666666667,
 			"world_position": [
-				465.976165771484,
-				-11.7478713989258
+				417.424926757813,
+				-4.21842193603516
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": true,
 			"time": 0.991666666666667,
 			"world_position": [
-				328.242401123047,
-				-6.97959899902344
+				402.284820556641,
+				1.01438903808594
 			]
 		},
 		{
+			"contact_index": 1,
 			"side": "near",
 			"support": false,
 			"time": 1.0,
 			"world_position": [
-				466.75,
-				-9.99996948242188
+				418.231597900391,
+				-2.00001525878906
 			]
 		},
 		{
+			"contact_index": 4,
 			"side": "far",
 			"support": false,
 			"time": 1.0,
 			"world_position": [
-				328.25,
-				-7.00001525878906
+				402.285339355469,
+				1.0
 			]
 		}
 	],
 	"foot_slide": {
 		"far": {
-			"at_256px": 0.00389012991343641,
-			"source_pixels": 0.021806001663208
+			"at_256px": 0.0881150727488023,
+			"contact_regions_tested": 4,
+			"floor_height_range_source_px": 0.5015869140625,
+			"source_pixels": 0.493926286697388
 		},
 		"near": {
-			"at_256px": 0.00368222824787844,
-			"source_pixels": 0.0206406153738499
+			"at_256px": 0.0881627631104366,
+			"contact_regions_tested": 4,
+			"floor_height_range_source_px": 0.501953125,
+			"source_pixels": 0.494193613529205
 		}
 	},
 	"polygon_count": 4,
-	"runtime_support_drift_at_256px": 0.00369941365843451,
+	"runtime_support_drift_at_256px": 0.0881627631104366,
 	"runtime_walk_distance_two_cycles": 773.998657226563,
 	"sprite_count": 20,
 	"status": "PASS",

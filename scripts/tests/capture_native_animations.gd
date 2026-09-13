@@ -7,6 +7,8 @@ func capture() -> void:
 	var data: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://resources/human_medium_rig_v1.json"))
 	var viewports: Array = []
 	var units: Array = []
+	var cameras: Array = []
+	var follow := "--walk-reference-follow" in OS.get_cmdline_user_args()
 	var heights = [256,192]
 	for height in heights:
 		var viewport = SubViewport.new()
@@ -23,6 +25,25 @@ func capture() -> void:
 		unit.position = Vector2(300,306)
 		unit.scale = Vector2.ONE * height / float(data.body_height)
 		viewport.add_child(unit)
+		if follow:
+			var ground = Line2D.new()
+			ground.points = PackedVector2Array([Vector2(-512,306),Vector2(1536,306)])
+			ground.width = 1.0
+			ground.default_color = Color(.66,.68,.70)
+			viewport.add_child(ground)
+			var spacing: float = unit.walk_stride*unit.scale.x/2.0
+			for tick in range(-20,45):
+				var marker = Line2D.new()
+				marker.points = PackedVector2Array([Vector2(tick*spacing,307),Vector2(tick*spacing,311)])
+				marker.width = 1.0
+				marker.default_color = Color(.72,.74,.76)
+				viewport.add_child(marker)
+			var camera = Camera2D.new()
+			camera.position = Vector2(256,210)
+			viewport.add_child(camera)
+			cameras.append(camera)
+			background.position.x = -512
+			background.size.x = 2048
 		unit.animation_player.callback_mode_process = AnimationMixer.ANIMATION_CALLBACK_MODE_PROCESS_MANUAL
 		viewports.append(viewport)
 		units.append(unit)
@@ -42,7 +63,11 @@ func capture() -> void:
 		quit()
 		return
 	var records: Array = []
-	var walk_polish := "--walk-polish" in OS.get_cmdline_user_args()
+	var walk_reference := "--walk-reference" in OS.get_cmdline_user_args() or follow
+	var walk_folder := "reports/walk_reference_v1" if walk_reference else "reports/walk_polish_v1"
+	if follow:
+		walk_folder += "/follow"
+	var walk_polish := "--walk-polish" in OS.get_cmdline_user_args() or walk_reference
 	var names: Array = ["walk"] if walk_polish else ["rest_pose","idle","walk","attack_01","hit","death"]
 	for name in names:
 		var length = 0.0 if name=="rest_pose" else units[0].animation_player.get_animation(name).length
@@ -56,16 +81,19 @@ func capture() -> void:
 				else:
 					unit.play_animation(name)
 					unit.animation_player.seek(time,true)
+			if follow:
+				for index in range(cameras.size()):
+					cameras[index].position.x = 256+units[index].walk_stride*time*units[index].scale.x
 			await process_frame
 			await RenderingServer.frame_post_draw
 			for index in range(heights.size()):
-				var folder = "reports/walk_polish_v1" if walk_polish else "reports/animations"
+				var folder = walk_folder if walk_polish else "reports/animations"
 				var path = "res://%s/%s_%d_%03d.png" % [folder,name,heights[index],frame]
 				var result = viewports[index].get_texture().get_image().save_png(path)
 				assert(result==OK)
 				records.append({"animation":name,"height":heights[index],"time":time,"frame":frame,"path":path})
 		print("CAPTURED ",name," ",frame_count," frames at each scale")
-	var file = FileAccess.open("res://reports/walk_polish_v1/capture_manifest.json" if walk_polish else "res://reports/native_rig_v2/capture_manifest.json",FileAccess.WRITE)
+	var file = FileAccess.open("res://"+walk_folder+"/capture_manifest.json" if walk_polish else "res://reports/native_rig_v2/capture_manifest.json",FileAccess.WRITE)
 	file.store_string(JSON.stringify({"engine":Engine.get_version_info(),"renderer":RenderingServer.get_video_adapter_name(),"source":"Actual Godot SubViewport GPU renders, no Python reconstruction","body_height_source":data.body_height,"frames":records},"\t"))
 	for viewport in viewports:
 		viewport.free()

@@ -2,6 +2,7 @@
 import math,json,shutil
 from pathlib import Path
 from rg_common import ROOT,read,write,sha,rgba,mask,np
+from walk_reference_trajectory import target as walk_foot_target, SOLE
 
 BONES={
  'pelvis':('',(530,701)), 'torso':('pelvis',(533,695)),
@@ -54,7 +55,7 @@ def main():
     a=new('walk',1.0,[i/48 for i in range(49)],True);contacts=[]
     a['root_motion_source_px_per_cycle']=387 # +7.5%; cadence and contact structure unchanged.
     for i,p in enumerate(a['poses']):
-        phase=i/48;bob=3.5*(1-math.cos(phase*4*math.pi));weight_shift=1.5*math.sin(phase*2*math.pi);p['pelvis_offset']=[weight_shift,bob]
+        phase=i/48;bob=3.5*(1-math.cos((phase+.125)*4*math.pi));weight_shift=1.5*math.sin(phase*2*math.pi);p['pelvis_offset']=[weight_shift,bob]
         sway=math.cos(phase*2*math.pi)
         counter=1.2*sway-.2*math.sin(phase*2*math.pi)
         inertia=.3*math.sin(phase*4*math.pi-.35)
@@ -63,21 +64,22 @@ def main():
             u=(phase+offset)%1;support=u<.5
             swing=math.sin((u-.5)*2*math.pi) if not support else 0
             hip=BONES['leg_'+side+'_thigh'][1];knee=BONES['knee_'+side][1];ankle=BONES['foot_'+side][1]
-            # Stance local X travels backwards at exactly the forward root speed.
-            # Swing uses a Hermite curve with matching lift-off/landing velocity.
-            q=(u-.5)*2
+            # Reference gait: heel contact -> flat support -> raised heel/toe-off.
+            # Swing trails the lower leg before passing and forward placement.
             center=480 if side=='near' else 535
-            x=center+96.75-387*u if support else center-96.75+193.5*(-2*q**3+3*q**2)-193.5*(2*q**3-3*q**2+q)
-            pitch=-10*swing
-            sole=np.array([33,119])
-            angle=math.radians(pitch);rotation=np.array([[math.cos(angle),-math.sin(angle)],[math.sin(angle),math.cos(angle)]])
-            target=np.array([x,ankle[1]-34*swing])+sole-rotation@sole
+            target,pitch=walk_foot_target(u,center,ankle[1])
             v0=(knee[0]-hip[0],knee[1]-hip[1]);v1=(ankle[0]-knee[0],ankle[1]-knee[1]);l0=math.hypot(*v0);l1=math.hypot(*v1)
             rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0])
             # Keep the approved knee deformation range; projected hip translation
             # beneath the skirt supplies the pelvis/leg depth change, without scaling.
             # Both knees flex toward the facing direction, never backwards.
-            bend=math.radians((3 if side=='near' else 12)+16*swing)
+            # Weight acceptance softens the planted knee; peak swing flexion
+            # occurs while the lower leg is still trailing, before passing.
+            if support:
+                flex=4*math.sin(math.pi*min(u/.3125,1))**2
+            else:
+                flex=16*math.sin(math.pi*((u-.5)*2)**.65)
+            bend=math.radians((3 if side=='near' else 12)+flex)
             reach2=l0*l0+l1*l1+2*l0*l1*math.cos(bend)
             hx=hip[0]+weight_shift
             hy=target[1]-math.sqrt(reach2-(target[0]-hx)**2)
@@ -88,7 +90,7 @@ def main():
             bend=sign*math.acos(cosk);upper=math.atan2(dy,dx)-math.atan2(l1*math.sin(bend),l0+l1*math.cos(bend))
             thigh=math.degrees(upper-rest0);shin=math.degrees(upper+bend-rest1)-thigh
             p['rotations']['leg_'+side+'_thigh']=thigh;p['rotations']['leg_'+side+'_shin']=shin;p['rotations']['foot_'+side]=pitch-thigh-shin
-            contacts.append({'time':phase,'side':side,'support':support,'target_ankle':list(target)})
+            contacts.append({'time':phase,'side':side,'support':support,'target_ankle':list(target),'world_foot_pitch':pitch,'sole_profile':SOLE.tolist()})
     a['poses'][-1]=json.loads(json.dumps(a['poses'][0]));a['support_intervals']={'near':[[0,.5]],'far':[[.5,1.0]]}
     write('resources/walk_contact_targets.json',contacts)
     a=new('attack_01',.8,[0,.15,.28,.36,.4,.5,.62,.8])

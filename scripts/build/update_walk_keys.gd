@@ -30,7 +30,8 @@ func _initialize() -> void:
 		assert(walk.track_get_key_count(track)==entry.times.size())
 		for i in range(entry.times.size()):
 			walk.track_set_key_value(track,i,values[path][i])
-	assert(ResourceSaver.save(walk,"res://reports/walk_polish_v1/walk_animation.tres")==OK)
+	var output = "res://reports/walk_reference_v1/walk_animation.tres" if "--walk-reference" in OS.get_cmdline_user_args() else "res://reports/walk_polish_v1/walk_animation.tres"
+	assert(ResourceSaver.save(walk,output)==OK)
 	print("WALK KEY VALUES EXPORTED; existing tracks and all other animations retained")
 	quit()
 

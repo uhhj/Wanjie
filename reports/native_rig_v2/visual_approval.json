@@ -1,5 +1,5 @@
 {
-  "animation_source_sha256": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
+  "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
   "animations": {
     "idle": {
       "status": "PASS",
@@ -8,9 +8,9 @@
     },
     "walk": {
       "status": "PASS",
-      "sheet_sha256": "eb69f45a5072d2335923ee3f1502192f57d41ebb61516e3c12c95657c2cfd57c",
-      "note": "Walk-only keyframe polish: assistant inspected 16 real GPU frames at 256px and 192px, other four animations and rig/parts verified unchanged. Prior user prototype-quality reservation retained; no new user approval implied.",
-      "additional_192px_sheet": "reports/walk_polish_v1/walk_polish_192_review.png"
+      "sheet_sha256": "25f3fb25ab481df8f9cf6edbd2d0cbd10e1bef95c915be3de0df3ce79558f5d1",
+      "note": "Assistant reviewed reference-based foot roll and weight timing in 16 native GPU frames at both scales. Combat continuity passed; naturalness remains subject to user review. Other four animation data and frozen rig/assets verified unchanged. Prior prototype-quality reservation retained.",
+      "additional_192px_sheet": "reports/walk_reference_v1/walk_reference_192_review.png"
     },
     "attack_01": {
       "status": "PASS",

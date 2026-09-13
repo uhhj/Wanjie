@@ -1,11 +1,15 @@
 {
-  "purpose": "Current evidence snapshot after Walk-only keyframe polish; other animations and rig frozen; stress FPS remains prior desktop baseline",
+  "purpose": "Current Walk reference gait evidence; frozen rig and other animations retained. New naturalness awaits user review. Stress FPS is an older desktop baseline.",
   "sha256": {
-    "resources/roman_guard_animations_v1.json": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
-    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "d1932f33ee0e86e3e0f01a243f7c488da55780fb92ca1beb240acccfbb6c0cb1",
+    "resources/roman_guard_animations_v1.json": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
+    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "669a7915046bdd16b08709466398cd155b3eb6db968e5f75c6395959c98af48a",
     "reports/native_rig_v2/capture_manifest.json": "e8c43ea9855e3b16bfb2fbb9035b92a4aab89be87ab36fe65701ed4b7cc67512",
     "reports/native_rig_v2/stress_results.json": "fffb5c49c3204225a8fe97919953c8a4ceed9264ac2e75ccdd9a1ade5d18bee4",
-    "reports/native_rig_v2/headless_tests.json": "1ec2876060dd6f5199ecaf32b07e117afc455caaa906689103c50110c896f36e",
-    "reports/native_rig_v2/visual_approval.json": "636c51b3b3e3b3920257d7860e0115522dc452b7e3f63834934b2a5e096ee096"
+    "reports/native_rig_v2/headless_tests.json": "9b9339c2763528d355d40b002539c936159063d6b0824dbf8990c170086bfd8a",
+    "reports/native_rig_v2/visual_approval.json": "45b4bbb526883c6c3ae815160ac234e586d53b082102abe615361de27ac114c2",
+    "reports/walk_reference_v1/walk_reference_metrics.json": "eb9750790f4abb9b9991c29ce512cc6121380a28c2185d8bbe5d623ebe1fb63f",
+    "reports/walk_reference_v1/visual_review.json": "d6948a8088f6f6c3045ac370704748fb015f74f89b7fee540eed16dad7f72642",
+    "reports/walk_reference_v1/capture_manifest.json": "b71f93a4ec0de35e72723e5717fe74443454858aebc05980538c7374033dcbe1",
+    "reports/walk_reference_v1/follow/capture_manifest.json": "932402a235973a7114541f5ed770eba9e4f77098b6f30527ae5dbd94eeb2ed87"
   }
 }

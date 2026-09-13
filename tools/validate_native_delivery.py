@@ -62,6 +62,12 @@ def main():
             gate['flags'].append('Walk-only keyframe polish verified; FPS table is the prior desktop baseline, not remeasured for this keyframe update')
     if review.get('acceptance_level')=='PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS':
         gate['flags'].insert(0,'PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation')
+    reference_path=ROOT/'reports/walk_reference_v1/walk_reference_metrics.json'
+    if reference_path.exists():
+        reference=read(str(reference_path))
+        if reference.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json'):
+            gate['walk_reference_review']=reference
+            gate['flags'].append('Walk reference revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline')
     write('reports/native_rig_v2/native_gate_v2.json',gate)
     print(gate['verdict'],technical,statuses)
     for e in errors:print('ERROR',e)

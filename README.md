@@ -10,7 +10,7 @@ Walk 最新小幅关键帧调整：[256px 16帧GIF](reports/walk_polish_v1/walk_
 
 - [通用骨骼、坐标和局部蒙皮](docs/HUMAN_MEDIUM_RIG_V1.md)
 - [动画、支撑脚、事件和运行方式](docs/ROMAN_GUARD_ANIMATION_V1.md)
-- [最新 Walk：16帧关键帧微调](reports/walk_polish_v1/walk_polish_256.gif)
+- [最新 Walk：参考步态、抬跟蹬地，16帧跟随视角](reports/walk_reference_v1/walk_reference_follow_256.gif)
 - [最新 Attack：举盾与肩部连接](reports/animations/attack_closed_shoulder_v4_256.gif)
 - [Death](reports/animations/death_256.gif)
 

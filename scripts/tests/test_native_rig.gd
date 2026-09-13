@@ -6,6 +6,16 @@ func check(condition: bool, message: String) -> void:
 		errors.append(message)
 		push_error(message)
 
+# Measured frozen shoe lower profile; validate whichever material point touches
+# the floor while the foot rolls, rather than treating a raised heel as sliding.
+const SOLE = [Vector2(-65,104),Vector2(-15,120),Vector2(32,127),Vector2(78,123),Vector2(106,116)]
+func contact_index(foot: Bone2D) -> int:
+	var index := 0
+	for i in range(1,SOLE.size()):
+		if foot.to_global(SOLE[i]).y>foot.to_global(SOLE[index]).y:
+			index = i
+	return index
+
 func _initialize() -> void:
 	call_deferred("run")
 
@@ -77,18 +87,25 @@ func run() -> void:
 		for side in ["near","far"]:
 			var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
 			var support = t<.5 if side=="near" else t>=.5 and t<1.0
-			var point = foot.to_global(Vector2(33,119))
-			foot_rows.append({"time":t,"side":side,"support":support,"world_position":[point.x,point.y]})
+			var contact := contact_index(foot)
+			var point = foot.to_global(SOLE[contact])
+			foot_rows.append({"time":t,"side":side,"support":support,"contact_index":contact,"world_position":[point.x,point.y]})
 	var maxima: Dictionary = {}
 	for side in ["near","far"]:
-		var positions: Array = []
+		var anchors: Dictionary = {}
+		var maximum := 0.0
+		var floor_min := INF
+		var floor_max := -INF
 		for row in foot_rows:
 			if row.side==side and row.support:
-				positions.append(Vector2(row.world_position[0],row.world_position[1]))
-		var maximum := 0.0
-		for p in positions:
-			maximum = max(maximum,p.distance_to(positions[0]))
-		maxima[side] = {"source_pixels":maximum,"at_256px":maximum*256.0/float(data.body_height)}
+				var point := Vector2(row.world_position[0],row.world_position[1])
+				if not anchors.has(row.contact_index):
+					anchors[row.contact_index] = point
+				maximum = maxf(maximum,point.distance_to(anchors[row.contact_index]))
+				floor_min = minf(floor_min,point.y)
+				floor_max = maxf(floor_max,point.y)
+		check((floor_max-floor_min)*256.0/float(data.body_height)<1.0,"Rolling foot must stay on floor: "+side)
+		maxima[side] = {"source_pixels":maximum,"at_256px":maximum*256.0/float(data.body_height),"floor_height_range_source_px":floor_max-floor_min,"contact_regions_tested":anchors.size()}
 		check(maxima[side].at_256px<1.0,"FAIL_WALK_FOOT_SLIDE: "+side)
 	# Exercise the actual runtime root-motion consumer across two loop boundaries,
 	# independently of the direct-seek pose measurements above.
@@ -106,9 +123,10 @@ func run() -> void:
 		# Exclude the instant of contact exchange from the previous support block.
 		if is_zero_approx(fmod(t,.5)):
 			continue
-		var key := str(int(t*2.0))
 		var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
-		var point := foot.to_global(Vector2(33,119))
+		var contact := contact_index(foot)
+		var key := str(int(t*2.0))+":"+str(contact)
+		var point := foot.to_global(SOLE[contact])
 		if not planted.has(key):
 			planted[key] = point
 		runtime_max = maxf(runtime_max,point.distance_to(planted[key]))
@@ -119,7 +137,7 @@ func run() -> void:
 	unit._process(.5)
 	check(unit.position==paused_position,"Paused walk must not translate")
 	var file = FileAccess.open("res://reports/native_rig_v2/headless_tests.json",FileAccess.WRITE)
-	file.store_string(JSON.stringify({"status":"PASS" if errors.is_empty() else "FAIL","engine":Engine.get_version_info(),"errors":errors,"bone_count":23,"sprite_count":unit.find_children("*","Sprite2D",true,false).size(),"polygon_count":unit.find_children("*","Polygon2D",true,false).size(),"animation_tracks":track_count,"attack_hit_count":unit.attack_hit_count,"sword_grip_max_drift_source_px":sword_drift,"runtime_walk_distance_two_cycles":unit.position.x,"runtime_support_drift_at_256px":runtime_max*256.0/float(data.body_height),"foot_slide":maxima,"foot_samples":foot_rows},"\t"))
+	file.store_string(JSON.stringify({"status":"PASS" if errors.is_empty() else "FAIL","engine":Engine.get_version_info(),"errors":errors,"bone_count":23,"sprite_count":unit.find_children("*","Sprite2D",true,false).size(),"polygon_count":unit.find_children("*","Polygon2D",true,false).size(),"animation_tracks":track_count,"attack_hit_count":unit.attack_hit_count,"sword_grip_max_drift_source_px":sword_drift,"runtime_walk_distance_two_cycles":unit.position.x,"runtime_support_drift_at_256px":runtime_max*256.0/float(data.body_height),"foot_contact_method":"Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked","foot_slide":maxima,"foot_samples":foot_rows},"\t"))
 	print("NATIVE_TESTS ","PASS" if errors.is_empty() else "FAIL", " event=",unit.attack_hit_count," foot=",maxima)
 	unit.free()
 	quit(0 if errors.is_empty() else 2)
