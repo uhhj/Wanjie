@@ -17,7 +17,7 @@ def main():
         values=[next(r['fps'] for r in g['stress'] if r['units']==n and r['mode']==mode) for n in [20,50]]
         lines.append(f'| {mode} | {values[0]:.2f} | {values[1]:.2f} |')
     if any(k in g for k in ['walk_chain_review']):
-        lines+=['','后续[Walk关键帧微调](WALK_KEYFRAME_POLISH_V1.md)已单独通过；上表保留微调前的桌面基线，本次没有重跑压力测试。']
+        lines+=['','[当前 Walk 联动版](WALK_CHAIN_COUPLING_V2.md)已获用户确认；上表保留此前的桌面基线，本次没有重跑压力测试。']
     lines+=['','death_once 数据为预热后停止的尸体；不代表倒地过程峰值，不是手机性能结论。[完整数据](native_rig_v2/stress_results.json)、[20单位截图](native_rig_v2/stress_20_units.png)、[50单位截图](native_rig_v2/stress_50_units.png)。', '', '## 文件与运行', '', '- `scenes/rigs/human_medium_rig_v1.tscn`','- `scenes/units/odyssey/roman_guard/roman_guard_rig.tscn`','- `scenes/tests/roman_guard_rig_lab.tscn`','- `scenes/tests/roman_guard_stress_test.tscn`','- [骨骼说明](../docs/HUMAN_MEDIUM_RIG_V1.md) / [动画说明](../docs/ROMAN_GUARD_ANIMATION_V1.md)', '', '```powershell','./tools/run_godot_native.ps1 -Action Lab','./tools/run_godot_native.ps1 -Action Validate','./tools/run_godot_native.ps1 -Action Benchmark','python tools/validate_native_delivery.py','```','', '## Git 与限制', '',f'- 分支：`{branch}`',f'- 本报告依据的代码提交：`{commit}`；报告本身由后续 evidence commit 保存。','- 已先提交并推送近膝修复 d0e56ed，再建立 native 分支；未 reset/rebase/force push。','- 五处 HIRES Alpha 问题仍为 NON_BLOCKING_COMBAT_ARTIFACT。','- 当前披风为原刚性后摆与前领，cape_mid/tip预留；没有虚构复杂布料蒙皮。','- 没有第二兵种、正式 Combat System、敌人AI或第三方Rig插件。','- 历史 cape_trial、attack_gap_* 诊断图不代表当前通过证据。', '', '当前精确状态和审批哈希：[native_gate_v2.json](native_rig_v2/native_gate_v2.json) / [visual_approval.json](native_rig_v2/visual_approval.json)。']
     (ROOT/'reports/NATIVE_RIG_VERTICAL_SLICE_V2.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
 

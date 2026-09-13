@@ -54,7 +54,7 @@ Verdict: **ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_SUPPORTED**
 | hit_loop | 232.83 | 100.31 |
 | death_once | 289.54 | 121.49 |
 
-后续[Walk关键帧微调](WALK_KEYFRAME_POLISH_V1.md)已单独通过；上表保留微调前的桌面基线，本次没有重跑压力测试。
+[当前 Walk 联动版](WALK_CHAIN_COUPLING_V2.md)已获用户确认；上表保留此前的桌面基线，本次没有重跑压力测试。
 
 death_once 数据为预热后停止的尸体；不代表倒地过程峰值，不是手机性能结论。[完整数据](native_rig_v2/stress_results.json)、[20单位截图](native_rig_v2/stress_20_units.png)、[50单位截图](native_rig_v2/stress_50_units.png)。
 
@@ -76,7 +76,7 @@ python tools/validate_native_delivery.py
 ## Git 与限制
 
 - 分支：`feature/roman-guard-native-rig-v2`
-- 本报告依据的代码提交：`840726e64c5d858f3869f53c3d5931e2010ea563`；报告本身由后续 evidence commit 保存。
+- 本报告依据的代码提交：`71062519db296cbfd0eb713f3eacd8aad584fc57`；报告本身由后续 evidence commit 保存。
 - 已先提交并推送近膝修复 d0e56ed，再建立 native 分支；未 reset/rebase/force push。
 - 五处 HIRES Alpha 问题仍为 NON_BLOCKING_COMBAT_ARTIFACT。
 - 当前披风为原刚性后摆与前领，cape_mid/tip预留；没有虚构复杂布料蒙皮。
