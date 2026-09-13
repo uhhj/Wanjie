@@ -1,5 +1,7 @@
 # Cretan Archer 本轮交付状态
 
+最新更新：候选 002 为 RGB，棋盘格写入图片，没有真实 Alpha；设计细节变化也尚未批准。当前 **BLOCKED_BAKED_CHECKERBOARD_AND_DESIGN_REVIEW**，见 `reports/cretan_archer/external_candidate_002/review.md`。下方保留前次审查与准备记录。
+
 更新：用户随后提供外部 Complete Body 候选 001。该图已原样归档并审查；因新增腰剑及头部、裙摆、腿部姿态变化，当前状态为 **BLOCKED_EXTERNAL_BODY_DESIGN_DRIFT**。见 `reports/cretan_archer/external_candidate_001/review.md`。以下为最初准备阶段交付记录，不代表该候选已通过。
 
 **Verdict：PASS_WITH_IMAGE_EDIT_MANUAL_STEP_REQUIRED**。已完成源图冻结及可恢复的局部编辑交接；完整资产与 Native Rig 任务尚未通过。

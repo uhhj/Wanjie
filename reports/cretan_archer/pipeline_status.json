@@ -1,5 +1,5 @@
 {
-  "verdict": "BLOCKED_EXTERNAL_BODY_DESIGN_DRIFT",
+  "verdict": "BLOCKED_BAKED_CHECKERBOARD_AND_DESIGN_REVIEW",
   "complete_body": "NOT_APPROVED",
   "parts": {
     "required": 20,
@@ -20,11 +20,11 @@
   "twenty_unit_smoke": "NOT_RUN",
   "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
   "godot_handoff": "NOT_READY",
-  "note": "External candidate inspected and archived unchanged; structural drift blocks admission under existing frozen-source rules. Canonical staged body has not been produced.",
+  "note": "Candidate 002 archived without editing. Actual RGB PNG contains baked checkerboard and cannot serve as transparent body; frozen-design changes also remain unapproved.",
   "external_candidate": {
     "status": "FAIL",
-    "review": "reports/cretan_archer/external_candidate_001/complete_body_gate.json",
-    "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_001.png",
-    "sha256": "fc890e515a1c68deb73c880269bc86d130d9624eb27af1632cc538fb943e51e7"
+    "review": "reports/cretan_archer/external_candidate_002/review.json",
+    "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_002.png",
+    "sha256": "43dfd619ba9dbe70ddc1e7b12e953bf3798a37981add19c0c5077e036e530c34"
   }
 }

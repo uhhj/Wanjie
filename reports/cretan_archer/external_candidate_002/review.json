@@ -1,0 +1,32 @@
+{
+  "status": "FAIL",
+  "verdict": "BLOCKED_BAKED_CHECKERBOARD_AND_DESIGN_REVIEW",
+  "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_002.png",
+  "candidate_sha256": "43dfd619ba9dbe70ddc1e7b12e953bf3798a37981add19c0c5077e036e530c34",
+  "original_attachment": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-f71c2efd-c6f5-4b6e-befc-47ce130aede7.png",
+  "source_file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "format": "PNG",
+  "mode": "RGB",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "same_canvas": true,
+  "alpha_present": false,
+  "alpha_min": null,
+  "alpha_max": null,
+  "transparent_pixel_count": 0,
+  "baked_checkerboard": true,
+  "visual_findings": [
+    "Bow, quiver and shoulder drape visibly absent.",
+    "Large waist sword from candidate 001 is no longer visible on the near side.",
+    "Chest leather panel/strap details and far shin strap/plate arrangement differ from frozen Rig Master; unchanged design gate not approved."
+  ],
+  "image_modified": false,
+  "generative_calls": 0,
+  "stages_001_003_imported": false,
+  "parts_started": false,
+  "godot_handoff": "NOT_READY",
+  "timestamp": "2026-09-13T11:05:55.417794+00:00"
+}
