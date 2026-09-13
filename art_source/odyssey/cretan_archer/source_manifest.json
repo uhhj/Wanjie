@@ -1,0 +1,87 @@
+{
+  "unit_id": "OD_UNIT_02_CRETAN_ARCHER",
+  "role_mapping_basis": "User attachment order and visible content: design sheet, combat stance, rig stance, codex illustration, walk motion strip",
+  "files": [
+    {
+      "role": "DESIGN",
+      "file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_DESIGN_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\OD_UNIT_02_CRETAN_ARCHER_DESIGN_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-ed1f83cd-e129-4b46-b80a-fe1f8b048039.png",
+      "sha256": "f20f5262d23bb854349048ce16d80feed1cc56919a8438e168fda49845fed71b",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "read_only_source": true,
+      "production_pixels_allowed": false
+    },
+    {
+      "role": "COMBAT_LOOK",
+      "file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_COMBAT_LOOK_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\OD_UNIT_02_CRETAN_ARCHER_COMBAT_LOOK_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-b2abf42f-dc92-4758-9846-fa0ef19fa43c.png",
+      "sha256": "0825f41757fbc5905e6a00ee5228a85df5cb9384cdf8be043dcfab5f4f3cc381",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "read_only_source": true,
+      "production_pixels_allowed": false
+    },
+    {
+      "role": "RIG_MASTER",
+      "file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-40198229-b850-4492-a26f-dd139314c522.png",
+      "sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "read_only_source": true,
+      "production_pixels_allowed": true
+    },
+    {
+      "role": "CODEX",
+      "file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_CODEX_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\OD_UNIT_02_CRETAN_ARCHER_CODEX_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-7f24b763-7f2b-48b6-b50f-84c40a9971d4.png",
+      "sha256": "e2be6541f397e38de468500c10d0106f205caff84df4861a60bf6d92c0d15187",
+      "dimensions": [
+        1214,
+        1295
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "read_only_source": true,
+      "production_pixels_allowed": false
+    },
+    {
+      "role": "WALK_REFERENCE",
+      "file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V1.png",
+      "absolute_path": "D:\\Wanjie\\documents\\Wanjie\\art_source\\odyssey\\cretan_archer\\OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V1.png",
+      "original_attachment_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-a0200205-4cb6-49b8-841e-7869256f0a31.png",
+      "sha256": "61adb8187023f3c37dcc5987cc0ce9501d4c49c5eae1185941495fc90de92d06",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "read_only_source": true,
+      "production_pixels_allowed": false
+    }
+  ]
+}

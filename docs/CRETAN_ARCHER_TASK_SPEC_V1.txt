@@ -1,0 +1,632 @@
+任务名称：
+
+CRETAN_ARCHER_ART_TO_NATIVE_RIG_V1
+
+目标：
+
+基于用户提供的4张标准图，
+完成奥德赛世界兵种：
+
+OD_UNIT_02_CRETAN_ARCHER
+
+的完整“标准化资产 → Godot原生骨骼 → 基础动画 → 战斗尺寸验收”流水线。
+
+本任务是第二兵种生产任务，
+同时也是对既有：
+
+HUMAN_MEDIUM_RIG_V1
+
+的跨兵种复用验证。
+
+==================================================
+0. 输入文件与角色定义优先级
+==================================================
+
+输入目录建议固定为：
+
+art_source/odyssey/cretan_archer/
+
+文件名固定：
+
+OD_UNIT_02_CRETAN_ARCHER_DESIGN_V1.png
+OD_UNIT_02_CRETAN_ARCHER_COMBAT_LOOK_V1.png
+OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png
+OD_UNIT_02_CRETAN_ARCHER_CODEX_V1.png
+
+四张图职责：
+
+1. DESIGN_V1
+   角色身份定义图。
+   决定：
+   - 脸型
+   - 发型
+   - 头巾
+   - 披布/披肩
+   - 皮甲/布甲
+   - 弓样式
+   - 箭袋样式
+   - 配色
+
+2. COMBAT_LOOK_V1
+   战斗外观参考。
+   用于判断游戏中角色应呈现的观感。
+
+3. RIG_MASTER_V1
+   唯一正式Rig生产源图。
+   所有遮挡补全、Complete Body、部件拆分、绑定和动画都以这一张为基础。
+
+4. CODEX_V1
+   万界录收藏原画。
+   只作为收藏图参考，不直接参与Rig拆件。
+
+==================================================
+1. 冲突处理规则（非常重要）
+==================================================
+
+先自动生成：
+
+reports/identity_conflict_review.md
+
+检查四图是否一致。
+
+已知必须记录的冲突：
+
+- CODEX_V1 出现头盔/更重甲外观；
+- DESIGN/COMBAT_LOOK/RIG_MASTER 为头巾轻装弓箭手。
+
+因此本次角色身份冻结规则：
+
+角色身份优先级：
+DESIGN_V1 > COMBAT_LOOK_V1 > RIG_MASTER_V1 >>> CODEX_V1
+
+Rig结构优先级：
+RIG_MASTER_V1 > COMBAT_LOOK_V1 > DESIGN_V1
+
+CODEX_V1 不得用于：
+- 修改头部装备
+- 修改甲胄等级
+- 修改披布结构
+- 修改兵种身份
+
+如果Codex发现CODEX_V1与前3张冲突，
+必须保留冲突记录，但不得自行融合设计。
+
+==================================================
+2. 单位元数据
+==================================================
+
+UNIT_ID:
+OD_UNIT_02_CRETAN_ARCHER
+
+WORLD:
+ODYSSEY
+
+UNIT_CLASS:
+RANGED_LIGHT_INFANTRY
+
+RIG_FAMILY:
+HUMAN_MEDIUM_RIG_V1
+
+COMBAT_ROLE:
+light ranged support
+
+WEAPON_MAIN:
+bow
+
+WEAPON_OFFHAND:
+none
+
+BACK_PROP:
+quiver
+
+SECONDARY_PROP:
+waist short sword / sheath (如在Rig Master可见则保留为服装一部分，不必单独可动画化)
+
+ANIMATION_SET:
+idle
+walk
+attack_01
+hit
+death
+
+COMBAT_EVENT:
+attack_release
+
+==================================================
+3. 总体原则
+==================================================
+
+本次任务必须复用：
+
+HUMAN_MEDIUM_RIG_V1
+
+不要重新发明一套新的人型骨架。
+
+允许因弓箭手需求新增：
+
+- bow_socket
+- arrow_socket
+- release_socket（如需要）
+- quiver socket（如当前结构更适合）
+
+但不得推翻整套人型拓扑。
+
+目标是证明：
+
+Roman Guard 之外，
+同一套原生Godot人型Rig能否快速复用到第二个兵种。
+
+==================================================
+4. 资产冻结与清单
+==================================================
+
+记录4张源图：
+
+- absolute path
+- dimensions
+- image mode
+- SHA256
+
+生成：
+
+art_source/odyssey/cretan_archer/source_manifest.json
+
+所有源图只读，不覆盖。
+
+==================================================
+5. Complete Body 生产
+==================================================
+
+以：
+
+OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png
+
+为唯一生产源图。
+
+目标是得到：
+
+无遮挡完整身体底版
+
+需要分阶段处理：
+
+A. remove bow
+B. remove quiver
+C. remove cloak / shoulder drape（如果遮挡到躯干或手臂）
+D. 保留脸、头巾、头发、主体服装设计一致
+
+输出阶段建议：
+
+work/01_no_bow.png
+work/02_no_bow_no_quiver.png
+work/03_complete_body_base.png
+
+要求：
+
+- 不重设计角色
+- 不改脸
+- 不改头巾
+- 不改发型
+- 不改主色调
+- 不把轻装弓箭手变成头盔重装版本
+- 不把CODEX_V1的头盔/重甲幻觉带入Complete Body
+
+如无可靠局部编辑能力：
+按既有Roman Guard流程，
+输出mask、prompt和handoff文档，
+而不是假装已完成。
+
+==================================================
+6. RGBA 与战斗尺寸门禁
+==================================================
+
+对 Complete Body 执行：
+
+- 真透明RGBA转换
+- 黑底污染去除
+- combat-scale visual gate
+
+战斗尺寸验收标准继续沿用既有规则：
+
+256px
+192px
+128px
+
+背景：
+white
+50% gray
+battlefield if available
+
+如果HIRES下有微小边缘瑕疵，
+但192/256px下不可见，
+标记为：
+
+NON_BLOCKING_COMBAT_ARTIFACT
+
+不要因此阻塞战斗资产。
+
+==================================================
+7. 正式部件拆分
+==================================================
+
+以批准后的Complete Body为基础。
+
+正式部件目标建议为：
+
+head
+torso
+pelvis
+
+arm_near_upper
+arm_near_fore
+hand_near
+
+arm_far_upper
+arm_far_fore
+hand_far
+
+leg_near_thigh
+leg_near_shin
+foot_near
+
+leg_far_thigh
+leg_far_shin
+foot_far
+
+bow
+bow_string
+quiver
+cloak
+arrow_single
+
+说明：
+
+1. 继续复用 HUMAN_MEDIUM_RIG_V1 的骨架拓扑。
+2. 不强求本单位必须拥有独立 knee_near 可见部件；
+   但若测试发现近膝连接不自然，可局部加独立knee部件。
+3. 箭袋与披布允许作为独立附属件。
+4. 弓弦必须是明确可控资产，不要和整张弓完全焊死，至少在攻击动作里要能成立。
+5. arrow_single 用于 attack_01 的拉弓与放箭表现；未来真正投射物由战斗系统生成。
+
+所有正式部件保持：
+
+- RGBA
+- same canvas
+- 统一命名
+- pivot hint
+- manifest记录
+
+==================================================
+8. Recomposition 与关节测试
+==================================================
+
+执行：
+
+- rest pose recomposition
+- elbow tests
+- knee tests
+- bow default pose test
+- quiver stability test
+
+Recomposition门禁采用战斗尺寸标准：
+
+检查：
+- 身份一致
+- 总体轮廓
+- 锚点
+- 身材比例
+- Bow默认位置
+- Quiver默认位置
+- Cloak默认位置
+
+不要求HIRES像素级完全一致。
+
+==================================================
+9. Rig 复用策略
+==================================================
+
+复用：
+
+scenes/rigs/human_medium_rig_v1.tscn
+
+创建本单位场景：
+
+scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn
+
+必须保留或适配：
+- pelvis
+- torso
+- neck
+- head
+- 双臂
+- 双腿
+
+新增或接入：
+- bow_socket
+- arrow_socket
+- quiver attach
+- cloak root / optional secondary motion
+
+如果 Roman Guard 现有Rig层命名过于角色专用，
+应抽出通用人型命名，不要把“shield_socket”硬套给弓箭手。
+
+==================================================
+10. 动画任务
+==================================================
+
+只做这5个：
+
+idle
+walk
+attack_01
+hit
+death
+
+==================================================
+11. Idle
+==================================================
+
+轻装弓箭手待机。
+
+要求：
+- 比 Roman Guard 更轻一点
+- 但不要夸张晃动
+- bow 稳定持握
+- quiver 和 cloak 有很小幅度滞后
+- 头部基本稳定
+
+==================================================
+12. Walk
+==================================================
+
+这是复用验证的重要项。
+
+要求：
+
+- 比 Roman Guard 更轻快
+- 步幅可略大一点
+- 骨盆有轻微上下起伏
+- 躯干有轻微反向补偿
+- bow hand 保持持弓逻辑
+- cloak 有很小延迟
+- quiver 不应明显穿模
+- 192/256px 战斗尺寸下自然
+
+不要做奔跑。
+
+==================================================
+13. Attack_01（弓箭专用）
+==================================================
+
+这是本单位的核心验证项。
+
+推荐阶段：
+
+0.00
+rest / ready
+
+0.10
+开始抬弓
+
+0.22
+另一只手取箭 / 接近弓弦位置
+（如果不做取箭显式动作，也必须视觉上形成拉弓准备）
+
+0.35
+拉弓
+
+0.48
+满弓瞄准
+
+0.52 左右
+ATTACK_RELEASE_EVENT
+
+0.56
+箭离弦，bow_string恢复
+
+0.70
+收势
+
+0.85~0.95
+回到ready
+
+要求：
+
+- 动作方向一眼能看出是射箭
+- bow hand 与 draw hand 关系清楚
+- 不要把近战刺击模板硬改成“像拿弓戳人”
+- bow_string 变化要成立
+- arrow_single 在释放前存在，在释放后消失
+- 释放事件恰好1次
+
+==================================================
+14. attack_release 事件
+==================================================
+
+Rig层需要提供：
+
+signal attack_release
+
+AnimationPlayer method track中恰好调用1次。
+
+禁止：
+- 用timer猜测
+- 多次触发
+- 把箭发射逻辑写死在动画脚本里
+
+Rig层只负责发事件。
+
+未来 Combat System 才负责：
+- 生成投射物
+- 伤害
+- 速度
+- 弹道
+- 命中
+
+==================================================
+15. Hit
+==================================================
+
+短促受击。
+
+要求：
+- 小幅后仰
+- 持弓不完全丢失
+- 不要夸张
+
+==================================================
+16. Death
+==================================================
+
+轻装单位倒地。
+
+可比 Roman Guard 略轻一些，
+但仍保持写实感。
+
+不做ragdoll。
+
+==================================================
+17. Combat-scale 动画验收
+==================================================
+
+对所有动画生成：
+
+256px
+192px
+
+100%显示审查。
+
+重点看：
+
+- walk是否自然
+- attack_01是否一眼看出拉弓放箭
+- bow / bow_string / arrow关系是否正确
+- quiver是否稳定
+- cloak是否过度穿插
+- limbs是否断裂
+- 实际战斗尺寸是否可接受
+
+==================================================
+18. Rig Reuse Smoke Test 结论
+==================================================
+
+本任务的真正结论不是“弓箭手画得好不好”，
+而是：
+
+HUMAN_MEDIUM_RIG_V1_REUSE_SUPPORTED ?
+
+必须回答：
+
+1. 是否基本复用了 Roman Guard 的人型Rig族？
+2. 是否只做了必要的弓箭专用扩展？
+3. 新增工作量主要集中在哪：
+   - bow/bow_string
+   - attack_01
+   - quiver/cloak
+   - walk风格微调
+4. 是否显著低于 Roman Guard 首兵种的生产成本？
+
+==================================================
+19. 测试
+==================================================
+
+至少完成：
+
+- headless parse
+- resource validation
+- 0 syntax error
+- attack_release count = 1
+- combat scale animation review
+- 20-unit smoke test
+
+这次不强制重新跑完整50单位基准，
+除非现有实现明显超出Roman Guard复杂度。
+
+==================================================
+20. 输出文件
+==================================================
+
+至少应产生：
+
+scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn
+scenes/tests/cretan_archer_rig_lab.tscn
+
+docs/CRETAN_ARCHER_ASSET_PIPELINE_V1.md
+docs/CRETAN_ARCHER_ANIMATION_V1.md
+
+reports/identity_conflict_review.md
+reports/combat_scale_visual_review.png
+reports/cretan_archer_recomposition_review.png
+reports/cretan_archer_joint_review.png
+reports/animations/idle_combat_review.png
+reports/animations/walk_combat_review.png
+reports/animations/attack_01_combat_review.png
+reports/animations/hit_combat_review.png
+reports/animations/death_combat_review.png
+
+manifest:
+- parts manifest
+- pivot hints
+- source manifest
+- event validation
+
+==================================================
+21. Git
+==================================================
+
+建议分支：
+
+feature/cretan-archer-native-rig-v1
+
+建议提交：
+
+feat: add cretan archer frozen source set
+feat: add cretan archer complete body pipeline
+feat: add cretan archer articulated parts
+feat: reuse human medium rig for cretan archer
+feat: add cretan archer bow attack animation
+test: add cretan archer rig lab and combat-scale review
+docs: document cretan archer production pipeline
+
+==================================================
+22. 禁止事项
+==================================================
+
+禁止：
+
+- 把CODEX_V1头盔英雄版融合进正式角色身份
+- 重新设计为另一名兵种
+- 重走Roman Guard全部试错路线
+- 因HIRES边缘小问题阻塞战斗资产
+- 使用第三方Rig插件
+- 开始Combat System正式开发
+- 开始第三兵种
+
+==================================================
+23. 成功判据
+==================================================
+
+同时满足以下条件才可判定成功：
+
+1. 4张输入图完成冻结与冲突归档
+2. Complete Body PASS
+3. RGBA / combat-scale visual gate PASS
+4. 正式部件齐全并通过结构检查
+5. Recomposition PASS
+6. idle PASS
+7. walk PASS
+8. attack_01 PASS
+9. hit PASS
+10. death PASS
+11. attack_release 恰好1次
+12. 20单位 smoke PASS
+13. HUMAN_MEDIUM_RIG_V1 复用结论成立
+
+最终输出结论：
+
+CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED
+
+并给出：
+
+- 哪些部分直接复用
+- 哪些部分新增
+- 后续批量化是否推荐继续沿用这条流水线
