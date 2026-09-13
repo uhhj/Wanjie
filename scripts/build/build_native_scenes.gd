@@ -74,6 +74,26 @@ func build() -> void:
 	polygon.add_bone(NodePath(data.bones.knee_near.path), PackedFloat32Array(mesh.stationary_socket_weights))
 	polygon.add_bone(NodePath(data.bones.leg_near_shin.path), PackedFloat32Array(mesh.shin_weights))
 	visual.add_child(polygon)
+	for part in ["arm_near_upper","arm_far_upper","foot_far"]:
+		var local_mesh: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://resources/"+part+"_local_skinning.json"))
+		var skin = Polygon2D.new()
+		skin.name = "Art_"+part+"_skinned"
+		skin.position = -origin
+		var points = PackedVector2Array()
+		for p in local_mesh.vertices:
+			points.append(vector(p))
+		skin.polygon = points
+		skin.uv = points
+		var faces: Array = []
+		for triangle in local_mesh.triangles:
+			faces.append(PackedInt32Array(triangle))
+		skin.polygons = faces
+		skin.texture = load("res://assets/units/odyssey/roman_guard/parts/"+part+".png")
+		skin.skeleton = NodePath("../Skeleton2D")
+		skin.add_bone(NodePath(data.bones[local_mesh.stationary_bone].path),PackedFloat32Array(local_mesh.stationary_weights))
+		skin.add_bone(NodePath(data.bones[local_mesh.moving_bone].path),PackedFloat32Array(local_mesh.moving_weights))
+		skin.visible = false
+		visual.add_child(skin)
 	var player = AnimationPlayer.new()
 	player.name = "AnimationPlayer"
 	player.callback_mode_method = AnimationMixer.ANIMATION_CALLBACK_MODE_METHOD_IMMEDIATE
@@ -82,6 +102,10 @@ func build() -> void:
 	relay.name = "RigEventRelay"
 	relay.set_script(load("res://scripts/rig/rig_event_relay.gd"))
 	unit.add_child(relay)
+	var blood = Node2D.new()
+	blood.name = "DeathBlood"
+	blood.set_script(load("res://scripts/rig/death_blood.gd"))
+	unit.add_child(blood)
 	var ground = Marker2D.new()
 	ground.name = "GroundMarker"
 	unit.add_child(ground)
@@ -114,6 +138,16 @@ func build() -> void:
 			visual_positions.append(vector(pose.visual_offset))
 			helmet_rotations.append(deg_to_rad(float(pose.helmet_rotation)))
 		value_track(anim,"VisualRoot/Skeleton2D/pelvis:position",times,positions)
+		var shoulder_positions: Array = []
+		for pose in entry.poses:
+			shoulder_positions.append(vector(data.bones.arm_near_upper.local_position)+vector(pose.shoulder_offset))
+		value_track(anim,"VisualRoot/Skeleton2D/"+data.bones.arm_near_upper.path+":position",times,shoulder_positions)
+		for part in ["arm_near_upper","arm_far_upper","foot_far"]:
+			var use_skin: bool = animation_name=="walk" or (animation_name=="attack_01" and part!="foot_far")
+			value_track(anim,"VisualRoot/Art_"+part+"_skinned:visible",[0.0],[use_skin])
+			anim.value_track_set_update_mode(anim.get_track_count()-1,Animation.UPDATE_DISCRETE)
+			value_track(anim,"VisualRoot/Skeleton2D/"+data.bones[part].path+"/Art_"+part+":visible",[0.0],[not use_skin])
+			anim.value_track_set_update_mode(anim.get_track_count()-1,Animation.UPDATE_DISCRETE)
 		for side in ["near","far"]:
 			var hip_positions: Array = []
 			var bone_name = "leg_"+side+"_thigh"
@@ -122,6 +156,7 @@ func build() -> void:
 			value_track(anim,"VisualRoot/Skeleton2D/"+data.bones[bone_name].path+":position",times,hip_positions)
 		value_track(anim,"VisualRoot:rotation",times,visual_rotations)
 		value_track(anim,"VisualRoot:position",times,visual_positions)
+		value_track(anim,"DeathBlood:phase",[0.0,0.12,0.65,1.1] if animation_name=="death" else [0.0],[-1.0,0.0,1.0,1.0] if animation_name=="death" else [-1.0])
 		value_track(anim,"VisualRoot/Skeleton2D/"+data.bones.head.path+"/Art_helmet:rotation",times,helmet_rotations)
 		if entry.has("method_events"):
 			var idx = anim.add_track(Animation.TYPE_METHOD)
@@ -137,5 +172,5 @@ func build() -> void:
 	assert(packed.pack(unit)==OK)
 	assert(ResourceSaver.save(packed,"res://scenes/units/odyssey/roman_guard/roman_guard_rig.tscn")==OK)
 	unit.free()
-	print("BUILT: native 23-bone rig, 20 Sprite2D draws + 1 weighted Polygon2D; 5 animations")
+	print("BUILT: native 23-bone rig, 20 Sprite2D + 4 weighted Polygon2D (mode-specific draws); 5 animations")
 	quit()

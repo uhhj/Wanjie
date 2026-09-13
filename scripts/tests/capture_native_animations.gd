@@ -19,6 +19,7 @@ func capture() -> void:
 		viewport.add_child(background)
 		var unit = load("res://scenes/units/odyssey/roman_guard/roman_guard_rig.tscn").instantiate()
 		unit.autoplay = false
+		unit.root_motion_enabled = false
 		unit.position = Vector2(300,306)
 		unit.scale = Vector2.ONE * height / float(data.body_height)
 		viewport.add_child(unit)
@@ -47,6 +48,7 @@ func capture() -> void:
 		for frame in range(frame_count):
 			var time = length*frame/max(1,frame_count-1)
 			for unit in units:
+				unit.position.x = (320.0 if name=="death" else 240.0) + (unit.walk_stride*time*unit.scale.x if name=="walk" else 0.0)
 				if name=="rest_pose":
 					unit.rest_pose()
 				else:

@@ -6,14 +6,14 @@ from rg_common import ROOT,read,write,sha,rgba,mask,np
 BONES={
  'pelvis':('',(530,701)), 'torso':('pelvis',(533,695)),
  'neck':('torso',(526,395)), 'head':('neck',(537,290)),
- 'arm_near_upper':('torso',(457,510)), 'arm_near_fore':('arm_near_upper',(332,671)),
+ 'arm_near_upper':('torso',(375,555)), 'arm_near_fore':('arm_near_upper',(332,671)),
  'hand_near':('arm_near_fore',(329,835)), 'sword_socket':('hand_near',(328,867)),
  'arm_far_upper':('torso',(641,601)), 'arm_far_fore':('arm_far_upper',(680,695)),
  'hand_far':('arm_far_fore',(740,782)), 'shield_socket':('hand_far',(744,821)),
  'cape_root':('torso',(508,415)), 'cape_mid':('cape_root',(250,760)), 'cape_tip':('cape_mid',(150,1040)),
- 'leg_near_thigh':('pelvis',(421,995)), 'knee_near':('leg_near_thigh',(388,1083)),
+ 'leg_near_thigh':('pelvis',(430,900)), 'knee_near':('leg_near_thigh',(388,1083)),
  'leg_near_shin':('knee_near',(388,1083)), 'foot_near':('leg_near_shin',(332,1331)),
- 'leg_far_thigh':('pelvis',(619,1003)), 'knee_far':('leg_far_thigh',(640,1083)),
+ 'leg_far_thigh':('pelvis',(592,910)), 'knee_far':('leg_far_thigh',(640,1083)),
  'leg_far_shin':('knee_far',(640,1083)), 'foot_far':('leg_far_shin',(658,1334))}
 
 def main():
@@ -34,51 +34,97 @@ def main():
     bbox=rgba('work/05_complete_body_candidate_v2_rgba_clean.png').getchannel('A').getbbox()
     write('resources/human_medium_rig_v1.json',{'id':'HUMAN_MEDIUM_RIG_V1','bones':records,'origin':[530,1460],'body_height':bbox[3]-bbox[1],'near_knee_pivot':[388,1083]})
     m=read('tools/roman_guard_parts_manifest.json')
-    write('reports/native_rig_v2/frozen_asset_baseline.json',{'files':{p['file']:sha(p['file']) for p in m['parts']},'body_file':'work/05_complete_body_candidate_v2_rgba_clean.png','body_sha256':sha('work/05_complete_body_candidate_v2_rgba_clean.png'),'near_knee_mesh_sha256':sha('assets/units/odyssey/roman_guard/near_knee_skinning_v1.json')})
+    baseline={'files':{p['file']:sha(p['file']) for p in m['parts']},'body_file':'work/05_complete_body_candidate_v2_rgba_clean.png','body_sha256':sha('work/05_complete_body_candidate_v2_rgba_clean.png'),'near_knee_mesh_sha256':sha('assets/units/odyssey/roman_guard/near_knee_skinning_v1.json')}
+    baseline_path='reports/native_rig_v2/frozen_asset_baseline.json'
+    if (ROOT/baseline_path).exists():
+        assert read(baseline_path)==baseline,'STOP: frozen assets differ from native entry baseline'
+    else:write(baseline_path,baseline)
     # Every animation explicitly keys every bone, preventing state-transition residue.
     anims={}
     def new(name,length,times,loop=False):
         a={'length':length,'loop':loop,'times':times,'poses':[]}
-        for t in times:a['poses'].append({'rotations':{n:0.0 for n in BONES},'pelvis_offset':[0,0],'hip_offsets':{'near':[0,0],'far':[0,0]},'visual_rotation':0.0,'visual_offset':[0,0],'helmet_rotation':0.0})
+        for t in times:a['poses'].append({'rotations':{n:0.0 for n in BONES},'pelvis_offset':[0,0],'hip_offsets':{'near':[0,0],'far':[0,0]},'shoulder_offset':[0,0],'visual_rotation':0.0,'visual_offset':[0,0],'helmet_rotation':0.0})
         anims[name]=a;return a
     a=new('idle',1.6,[0,.4,.8,1.2,1.6],True)
     for i,p in enumerate(a['poses']):
         v=math.sin(i*math.pi/2);p['pelvis_offset']=[0,1.5*v];p['rotations'].update(torso=.12*v,head=-.08*v,shield_socket=.3*v,sword_socket=-.35*v,cape_root=.16*math.sin(i*math.pi/2-.4));p['helmet_rotation']=.08*v
     a['poses'][-1]=json.loads(json.dumps(a['poses'][0]))
-    # Offline two-link construction of key poses. No runtime IK and no root translation.
-    a=new('walk',1.0,[i/12 for i in range(13)],True);contacts=[]
+    # Author matched forward root motion and planted world-space contacts.
+    # 48 poses keep interpolation error below a combat display pixel.
+    a=new('walk',1.0,[i/48 for i in range(49)],True);contacts=[]
+    a['root_motion_source_px_per_cycle']=360
     for i,p in enumerate(a['poses']):
-        phase=i/12;bob=2*(1-math.cos(phase*4*math.pi));p['pelvis_offset']=[0,bob]
-        p['rotations'].update(torso=.45*math.sin(phase*2*math.pi),arm_near_upper=-1.5*math.sin(phase*2*math.pi),arm_far_upper=1.0*math.sin(phase*2*math.pi),cape_root=.45*math.sin(phase*2*math.pi-.5))
+        phase=i/48;bob=2*(1-math.cos(phase*4*math.pi));p['pelvis_offset']=[0,bob]
+        sway=math.cos(phase*2*math.pi)
+        p['rotations'].update(torso=1.2*sway,head=-.8*sway,arm_near_upper=11*sway,arm_near_fore=-3-3*sway,hand_near=-2*sway,arm_far_upper=-1.2*sway,cape_root=-8-3*math.sin(phase*2*math.pi-.5))
         for side,offset in [('near',0),('far',.5)]:
             u=(phase+offset)%1;support=u<.5
             swing=math.sin((u-.5)*2*math.pi) if not support else 0
             hip=BONES['leg_'+side+'_thigh'][1];knee=BONES['knee_'+side][1];ankle=BONES['foot_'+side][1]
-            target=(ankle[0]+36*swing,ankle[1]-22*swing)
-            # Projected hip lift is hidden under the skirt; keyframed, not runtime IK.
-            p['hip_offsets'][side]=[30*swing,-24*swing]
-            h=(hip[0]+30*swing,hip[1]+bob-24*swing);v0=(knee[0]-hip[0],knee[1]-hip[1]);v1=(ankle[0]-knee[0],ankle[1]-knee[1]);l0=math.hypot(*v0);l1=math.hypot(*v1)
+            # Stance local X travels backwards at exactly the forward root speed.
+            # Swing uses a Hermite curve with matching lift-off/landing velocity.
+            q=(u-.5)*2
+            center=480 if side=='near' else 535
+            x=center+90-360*u if support else center-90+180*(-2*q**3+3*q**2)-180*(2*q**3-3*q**2+q)
+            pitch=-10*swing if side=='far' else 0
+            sole=np.array([60,99] if side=='far' else [33,119])
+            angle=math.radians(pitch);rotation=np.array([[math.cos(angle),-math.sin(angle)],[math.sin(angle),math.cos(angle)]])
+            target=np.array([x,ankle[1]-30*swing])+sole-rotation@sole
+            v0=(knee[0]-hip[0],knee[1]-hip[1]);v1=(ankle[0]-knee[0],ankle[1]-knee[1]);l0=math.hypot(*v0);l1=math.hypot(*v1)
+            rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0])
+            # Keep the approved knee deformation range; projected hip translation
+            # beneath the skirt supplies the pelvis/leg depth change, without scaling.
+            # Both knees flex toward the facing direction, never backwards.
+            bend=math.radians((3 if side=='near' else 12)+16*swing)
+            reach2=l0*l0+l1*l1+2*l0*l1*math.cos(bend)
+            hx=hip[0]
+            hy=target[1]-math.sqrt(reach2-(target[0]-hx)**2)
+            p['hip_offsets'][side]=[hx-hip[0],hy-hip[1]-bob]
+            h=(hx,hy)
             dx,dy=target[0]-h[0],target[1]-h[1];dist=math.hypot(dx,dy);cosk=max(-1,min(1,(dist*dist-l0*l0-l1*l1)/(2*l0*l1)))
-            rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0]);sign=-1 if rest1<rest0 else 1
+            rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0]);sign=1
             bend=sign*math.acos(cosk);upper=math.atan2(dy,dx)-math.atan2(l1*math.sin(bend),l0+l1*math.cos(bend))
             thigh=math.degrees(upper-rest0);shin=math.degrees(upper+bend-rest1)-thigh
-            p['rotations']['leg_'+side+'_thigh']=thigh;p['rotations']['leg_'+side+'_shin']=shin;p['rotations']['foot_'+side]=-thigh-shin
+            p['rotations']['leg_'+side+'_thigh']=thigh;p['rotations']['leg_'+side+'_shin']=shin;p['rotations']['foot_'+side]=pitch-thigh-shin
             contacts.append({'time':phase,'side':side,'support':support,'target_ankle':list(target)})
     a['poses'][-1]=json.loads(json.dumps(a['poses'][0]));a['support_intervals']={'near':[[0,.5]],'far':[[.5,1.0]]}
     write('resources/walk_contact_targets.json',contacts)
     a=new('attack_01',.8,[0,.15,.28,.36,.4,.5,.62,.8])
-    for p,f in zip(a['poses'],[0,-.08,.32,.8,.95,1,.48,0]):
-        p['rotations'].update(torso=3*f,arm_near_upper=-30*f,arm_near_fore=-12*f,hand_near=1*f,head=-1*f,arm_far_upper=-1.5*f,cape_root=-8*f)
-        p['pelvis_offset']=[3*f,0]
-    for p,angle in zip(a['poses'],[0,-1,-14,-24,-24,-24,-20,0]):p['rotations']['cape_root']=angle
+    for p,f,lift in zip(a['poses'],[0,-.14,.20,.80,.98,1,.48,0],[0,.8,1,1,1,1,.75,0]):
+        p['rotations'].update(torso=7*f,arm_near_upper=-95*f,arm_near_fore=-14*f,hand_near=63*f,head=-4*f,arm_far_upper=-30*lift,arm_far_fore=-35*lift,hand_far=65*lift-7*f,cape_root=-8*f)
+        p['pelvis_offset']=[20*f,3*f]
+    for p,angle in zip(a['poses'],[0,-1,-18,-30,-30,-30,-25,0]):p['rotations']['cape_root']=angle
     a['method_events']=[{'time':.4,'node':'RigEventRelay','method':'_event_attack_hit'}]
     a=new('hit',.32,[0,.08,.16,.24,.32])
     for p,f in zip(a['poses'],[0,1,-.2,.15,0]):p['rotations'].update(torso=-3*f,head=-1*f,shield_socket=2*f)
-    a=new('death',1.1,[0,.22,.44,.66,.88,1.1])
-    for p,f in zip(a['poses'],[0,.08,.23,.55,.9,1]):
-        p['visual_rotation']=-83*f;p['visual_offset']=[-16*f,-20*f]
-        p['rotations'].update(torso=-5*math.sin(f*math.pi),arm_far_upper=8*f,arm_near_upper=-6*f,leg_near_shin=8*f,leg_far_shin=-6*f)
-        p['pelvis_offset']=[0,35*f]
+    a=new('death',1.1,[0,.12,.25,.42,.62,.82,.98,1.1])
+    # Recoil -> buckling -> folded collapse -> impact -> settled asymmetrical pose.
+    stages=[
+      (0,0,0,0,0,0,0,0,0,0),
+      (-2,-10,7,-8,8,0,2,-2,0,0),
+      (-8,-16,12,-16,20,12,8,-6,5,8),
+      (-23,12,10,-28,30,28,17,-12,12,24),
+      (-48,27,16,-40,42,25,19,-16,24,44),
+      (-82,24,22,-48,48,8,18,-17,34,62),
+      (-102,12,10,-44,44,-18,18,-15,30,68),
+      (-100,14,12,-45,45,-16,18,-15,30,68)]
+    for p,(roll,torso,head,arm,fore,thigh,shin,farshin,fararm,down) in zip(a['poses'],stages):
+        p['visual_rotation']=roll;p['visual_offset']=[roll*.9,0]
+        p['rotations'].update(torso=torso,head=head,arm_near_upper=arm,arm_near_fore=fore,hand_near=-fore*.45,arm_far_upper=fararm,arm_far_fore=-fararm*.35,shield_socket=fararm*.3,leg_near_thigh=thigh,leg_near_shin=shin,foot_near=-thigh*.35,leg_far_thigh=-thigh*.35,leg_far_shin=farshin,foot_far=8 if down else 0,cape_root=-torso*.6)
+        p['pelvis_offset']=[-down*.25,down]
+    for p,angle in zip(a['poses'],[0,0,-4,-8,8,20,26,25]):p['rotations']['leg_far_thigh']=angle
+    for p,angle in zip(a['poses'],[0,-8,-24,-32,-35,-32,-20,-20]):p['rotations']['cape_root']=angle
+    # Preserve the user-accepted death image transforms after correcting hip axes.
+    for p in a['poses']:
+        for side,old in [('near',(421,995)),('far',(619,1003))]:
+            delta=np.array(BONES['leg_'+side+'_thigh'][1])-np.array(old)
+            t=math.radians(p['rotations']['leg_'+side+'_thigh'])
+            rr=np.array([[math.cos(t),-math.sin(t)],[math.sin(t),math.cos(t)]])
+            p['hip_offsets'][side]=((rr-np.eye(2))@delta).tolist()
+        delta=np.array(BONES['arm_near_upper'][1])-np.array([457,510])
+        t=math.radians(p['rotations']['arm_near_upper'])
+        rr=np.array([[math.cos(t),-math.sin(t)],[math.sin(t),math.cos(t)]])
+        p['shoulder_offset']=((rr-np.eye(2))@delta).tolist()
     # Keyframe floor clearance from source alpha points; no runtime ragdoll.
     origin=np.array([530,1460])
     attach={'head':'head','helmet':'head','torso':'torso','pelvis':'pelvis','sword':'sword_socket','shield':'shield_socket','cape':'cape_root'}
@@ -94,6 +140,8 @@ def main():
         for name,(parent,pivot) in BONES.items():
             offset=np.array(records[name]['local_position'],float)
             if name=='pelvis':offset+=pose['pelvis_offset']
+            if name in ['leg_near_thigh','leg_far_thigh']:offset+=pose['hip_offsets']['near' if 'near' in name else 'far']
+            if name=='arm_near_upper':offset+=pose['shoulder_offset']
             pr,pp=transforms[parent] if parent else (np.eye(2),np.zeros(2))
             transforms[name]=(pr@rot(pose['rotations'][name]),pp+pr@offset)
         max_y=-99999
@@ -103,6 +151,25 @@ def main():
             max_y=max(max_y,float(final[:,1].max()))
         pose['visual_offset'][1]=-max_y
     write('resources/roman_guard_animations_v1.json',anims)
+    # Local native skinning, using only existing approved texture pixels.
+    # Shoulder armor stays on torso; boot cuff follows shin while sole follows foot.
+    for name,start,end,stationary,moving in [
+      ('arm_near_upper',550,610,'torso','arm_near_upper'),
+      ('arm_far_upper',605,660,'torso','arm_far_upper'),
+      ('foot_far',1320,1360,'leg_far_shin','foot_far')]:
+        alpha=np.array(rgba(f'assets/units/odyssey/roman_guard/parts/{name}.png'))[:,:,3]
+        ys,xs=np.where(alpha>0);step=6;x0=int(xs.min()//step*step);x1=int(xs.max()//step*step+step);y0=int(ys.min()//step*step);y1=int(ys.max()//step*step+step)
+        vertices=[];triangles=[];lookup={}
+        for y in range(y0,y1,step):
+            for x in range(x0,x1,step):
+                if not alpha[y:y+step+1,x:x+step+1].any():continue
+                ids=[]
+                for point in [(x,y),(x+step,y),(x+step,y+step),(x,y+step)]:
+                    if point not in lookup:lookup[point]=len(vertices);vertices.append(point)
+                    ids.append(lookup[point])
+                triangles.extend([[ids[0],ids[1],ids[2]],[ids[0],ids[2],ids[3]]])
+        t=np.clip((np.array(vertices)[:,1]-start)/(end-start),0,1);weights=t*t*(3-2*t)
+        write(f'resources/{name}_local_skinning.json',{'part':name,'texture_sha256':sha(f'assets/units/odyssey/roman_guard/parts/{name}.png'),'stationary_bone':stationary,'moving_bone':moving,'transition_source_y':[start,end],'vertices':vertices,'triangles':triangles,'moving_weights':weights.tolist(),'stationary_weights':(1-weights).tolist(),'usage':'walk and attack shoulder joints; walk-only far ankle; frozen original draws for other poses'})
     print('Prepared 23 generic bones and exactly five animation key sets')
 
 if __name__=='__main__':main()

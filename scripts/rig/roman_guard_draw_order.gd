@@ -11,3 +11,10 @@ static func apply(root: Node) -> void:
 		assert(item != null, "Missing draw: " + LAYERS[i])
 		item.z_as_relative = false
 		item.z_index = i
+		var skin = root.find_child("Art_"+LAYERS[i]+"_skinned",true,false) as CanvasItem
+		if skin != null:
+			skin.z_as_relative = false
+			skin.z_index = i
+	var blood = root.get_node("DeathBlood") as CanvasItem
+	blood.z_as_relative = false
+	blood.z_index = LAYERS.size()

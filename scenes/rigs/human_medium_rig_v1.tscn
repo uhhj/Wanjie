@@ -52,21 +52,21 @@ bone_angle = 1.5707963267948966
 
 [node name="arm_near_upper" type="Bone2D" parent="pelvis/torso"]
 
-position = Vector2(-76, -185)
+position = Vector2(-158, -140)
 
-rest = Transform2D(1, 0, 0, 1, -76, -185)
+rest = Transform2D(1, 0, 0, 1, -158, -140)
 
 auto_calculate_length_and_angle = false
 
-length = 203.82835916525454
+length = 123.71337841963576
 
-bone_angle = 2.2309789106601006
+bone_angle = 1.925782719955115
 
 [node name="arm_near_fore" type="Bone2D" parent="pelvis/torso/arm_near_upper"]
 
-position = Vector2(-125, 161)
+position = Vector2(-43, 116)
 
-rest = Transform2D(1, 0, 0, 1, -125, 161)
+rest = Transform2D(1, 0, 0, 1, -43, 116)
 
 auto_calculate_length_and_angle = false
 
@@ -184,21 +184,21 @@ bone_angle = 1.5707963267948966
 
 [node name="leg_near_thigh" type="Bone2D" parent="pelvis"]
 
-position = Vector2(-109, 294)
+position = Vector2(-100, 199)
 
-rest = Transform2D(1, 0, 0, 1, -109, 294)
+rest = Transform2D(1, 0, 0, 1, -100, 199)
 
 auto_calculate_length_and_angle = false
 
-length = 93.98404119849285
+length = 187.7578227398262
 
-bone_angle = 1.9295669970654687
+bone_angle = 1.7963975706309205
 
 [node name="knee_near" type="Bone2D" parent="pelvis/leg_near_thigh"]
 
-position = Vector2(-33, 88)
+position = Vector2(-42, 183)
 
-rest = Transform2D(1, 0, 0, 1, -33, 88)
+rest = Transform2D(1, 0, 0, 1, -42, 183)
 
 auto_calculate_length_and_angle = false
 
@@ -232,21 +232,21 @@ bone_angle = 1.5707963267948966
 
 [node name="leg_far_thigh" type="Bone2D" parent="pelvis"]
 
-position = Vector2(89, 302)
+position = Vector2(62, 209)
 
-rest = Transform2D(1, 0, 0, 1, 89, 302)
+rest = Transform2D(1, 0, 0, 1, 62, 209)
 
 auto_calculate_length_and_angle = false
 
-length = 82.71033792700887
+length = 179.53551180755298
 
-bone_angle = 1.3140879963615109
+bone_angle = 1.3001476279085835
 
 [node name="knee_far" type="Bone2D" parent="pelvis/leg_far_thigh"]
 
-position = Vector2(21, 80)
+position = Vector2(48, 173)
 
-rest = Transform2D(1, 0, 0, 1, 21, 80)
+rest = Transform2D(1, 0, 0, 1, 48, 173)
 
 auto_calculate_length_and_angle = false
 

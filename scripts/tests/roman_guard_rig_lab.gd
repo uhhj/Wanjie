@@ -71,4 +71,6 @@ func play_selected() -> void:
 
 func _process(_delta: float) -> void:
 	if is_instance_valid(unit):
+		if unit.position.x > 1750.0:
+			unit.position.x = 650.0 # Lab runway boundary; no change to the gait itself.
 		status_label.text = "Current: %s\nTime: %.3f\nattack_hit counter: %d" % [unit.animation_player.current_animation,unit.animation_player.current_animation_position,unit.attack_hit_count]

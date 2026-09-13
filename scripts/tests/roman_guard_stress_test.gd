@@ -48,7 +48,7 @@ func populate() -> void:
 	for i in range(count):
 		var unit = RIG.instantiate()
 		unit.autoplay = false
-		unit.position = Vector2(100+(i%10)*190,245+(i/10)*195)
+		unit.position = Vector2(120+(i%10)*166,245+(i/10)*195)
 		unit.scale = Vector2.ONE * 192.0 / float(data.body_height)
 		add_child(unit)
 		unit.animation_player.animation_finished.connect(func(n):
@@ -59,6 +59,9 @@ func populate() -> void:
 		units.append(unit)
 
 func _process(_delta: float) -> void:
+	for unit in units:
+		if unit.position.x > 1780.0:
+			unit.position.x -= 1660.0
 	label.text = "  FPS %.1f | Units %d | Nodes %d | %s" % [Engine.get_frames_per_second(),count,get_tree().get_node_count(),mode]
 
 func run_benchmark() -> void:
@@ -80,6 +83,9 @@ func run_benchmark() -> void:
 			var row = {"units":count,"mode":mode,"elapsed_seconds":seconds,"rendered_frames":frames,"fps":frames/seconds,"node_count":get_tree().get_node_count(),"viewport":[size.x,size.y],"renderer":RenderingServer.get_video_adapter_name()}
 			records.append(row)
 			print("BENCHMARK ",JSON.stringify(row))
+			if mode == "walk":
+				await RenderingServer.frame_post_draw
+				get_viewport().get_texture().get_image().save_png("res://reports/native_rig_v2/stress_%d_units.png" % count)
 	var file = FileAccess.open("res://reports/native_rig_v2/stress_results.json",FileAccess.WRITE)
 	file.store_string(JSON.stringify({"status":"COMPLETED","engine":Engine.get_version_info(),"desktop_only":true,"vsync":false,"results":records},"\t"))
 	get_tree().quit()

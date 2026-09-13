@@ -12,6 +12,7 @@ func _initialize() -> void:
 func run() -> void:
 	var unit = load("res://scenes/units/odyssey/roman_guard/roman_guard_rig.tscn").instantiate()
 	unit.autoplay = false
+	unit.root_motion_enabled = false
 	root.add_child(unit)
 	await process_frame
 	var player: AnimationPlayer = unit.animation_player
@@ -32,8 +33,19 @@ func run() -> void:
 				check(name==&"attack_01","Unexpected method event")
 			track_count += 1
 	check(event_count==1,"Attack must contain exactly one method key")
+	var sword_drift := 0.0
+	unit.play_animation("attack_01")
+	for i in range(81):
+		player.seek(i/100.0,true)
+		var hand = unit.get_node("VisualRoot/Skeleton2D/"+data.bones.hand_near.path) as Bone2D
+		var sword = unit.find_child("Art_sword",true,false) as Sprite2D
+		sword_drift = max(sword_drift,hand.to_global(Vector2(-1,32)).distance_to(sword.to_global(Vector2(328,867))))
+	check(sword_drift<0.001,"Sword disconnected from grip")
 	var polygon = unit.find_child("Art_leg_near_shin",true,false) as Polygon2D
 	check(polygon.get_bone_count()==2,"Near shin must use actual two-bone Polygon2D binding")
+	check(unit.find_children("*","Polygon2D",true,false).size()==4,"Near knee, two shoulders and far ankle must have four native meshes")
+	for part in ["arm_near_upper","arm_far_upper"]:
+		check(unit.find_child("Art_"+part+"_skinned",true,false).visible,"Attack shoulder skin must be active")
 	unit.rest_pose()
 	for sprite in unit.find_children("*","Sprite2D",true,false):
 		check(sprite.global_position.distance_to(Vector2(-530,-1460))<0.001,"Rest sprite offset mismatch: "+str(sprite.name))
@@ -50,6 +62,10 @@ func run() -> void:
 	unit.play_animation("idle")
 	check(player.current_animation==&"idle","walk -> idle transition failed")
 	unit.play_animation("death")
+	player.seek(.3,true)
+	check(unit.get_node("DeathBlood").phase > 0.0 and unit.get_node("DeathBlood").phase < 1.0,"Death blood accent must be active mid-burst")
+	print("BLOOD phase=",unit.get_node("DeathBlood").phase," z=",unit.get_node("DeathBlood").z_index)
+	unit.play_animation("death")
 	player.advance(1.2)
 	check(player.assigned_animation==&"death" and not player.is_playing(),"Death must stop and hold")
 	var foot_rows: Array = []
@@ -57,6 +73,7 @@ func run() -> void:
 	for i in range(121):
 		var t = i/120.0
 		player.seek(t,true)
+		unit.position.x = unit.walk_stride*t
 		for side in ["near","far"]:
 			var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
 			var support = t<.5 if side=="near" else t>=.5 and t<1.0
@@ -73,8 +90,36 @@ func run() -> void:
 			maximum = max(maximum,p.distance_to(positions[0]))
 		maxima[side] = {"source_pixels":maximum,"at_256px":maximum*256.0/float(data.body_height)}
 		check(maxima[side].at_256px<1.0,"FAIL_WALK_FOOT_SLIDE: "+side)
+	# Exercise the actual runtime root-motion consumer across two loop boundaries,
+	# independently of the direct-seek pose measurements above.
+	unit.position = Vector2.ZERO
+	unit.root_motion_enabled = true
+	unit.play_animation("walk")
+	var runtime_max := 0.0
+	var planted: Dictionary = {}
+	for i in range(240):
+		player.advance(1.0/120.0)
+		unit._process(1.0/120.0)
+		var t := (i+1)/120.0
+		var phase := fmod(t,1.0)
+		var side := "near" if phase < .5 else "far"
+		# Exclude the instant of contact exchange from the previous support block.
+		if is_zero_approx(fmod(t,.5)):
+			continue
+		var key := str(int(t*2.0))
+		var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
+		var point := foot.to_global(Vector2(33,119) if side=="near" else Vector2(60,99))
+		if not planted.has(key):
+			planted[key] = point
+		runtime_max = maxf(runtime_max,point.distance_to(planted[key]))
+	check(absf(unit.position.x-2.0*unit.walk_stride)<0.01,"Root motion lost distance across walk loop")
+	check(runtime_max*256.0/float(data.body_height)<1.0,"Runtime planted foot drift")
+	player.pause()
+	var paused_position: Vector2 = unit.position
+	unit._process(.5)
+	check(unit.position==paused_position,"Paused walk must not translate")
 	var file = FileAccess.open("res://reports/native_rig_v2/headless_tests.json",FileAccess.WRITE)
-	file.store_string(JSON.stringify({"status":"PASS" if errors.is_empty() else "FAIL","engine":Engine.get_version_info(),"errors":errors,"bone_count":23,"sprite_count":unit.find_children("*","Sprite2D",true,false).size(),"polygon_count":1,"animation_tracks":track_count,"attack_hit_count":unit.attack_hit_count,"foot_slide":maxima,"foot_samples":foot_rows},"\t"))
+	file.store_string(JSON.stringify({"status":"PASS" if errors.is_empty() else "FAIL","engine":Engine.get_version_info(),"errors":errors,"bone_count":23,"sprite_count":unit.find_children("*","Sprite2D",true,false).size(),"polygon_count":unit.find_children("*","Polygon2D",true,false).size(),"animation_tracks":track_count,"attack_hit_count":unit.attack_hit_count,"sword_grip_max_drift_source_px":sword_drift,"runtime_walk_distance_two_cycles":unit.position.x,"runtime_support_drift_at_256px":runtime_max*256.0/float(data.body_height),"foot_slide":maxima,"foot_samples":foot_rows},"\t"))
 	print("NATIVE_TESTS ","PASS" if errors.is_empty() else "FAIL", " event=",unit.attack_hit_count," foot=",maxima)
 	unit.free()
 	quit(0 if errors.is_empty() else 2)
