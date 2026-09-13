@@ -1,0 +1,34 @@
+{
+  "canvas": [
+    1024,
+    1536
+  ],
+  "convention": "L PNG; white=editable; black=protected",
+  "status": "DRAFT_REVIEW_REQUIRED",
+  "masks": [
+    {
+      "file": "work/cretan_archer/masks/001_remove_bow.png",
+      "sha256": "7ee854bc82ad07d8ea8f0d54a6945d6ce652871417f4422220641ac7a3742a15",
+      "editable_pixels": 77497,
+      "review_required": true
+    },
+    {
+      "file": "work/cretan_archer/masks/002_remove_quiver.png",
+      "sha256": "0eb02b9f527e22ac81862883c4b4481e184386b31219265ce63d566bf6848f25",
+      "editable_pixels": 33618,
+      "review_required": true
+    },
+    {
+      "file": "work/cretan_archer/masks/003_remove_cloak.png",
+      "sha256": "13fd0edaf67cb09e8ed1bc6b46d627e4164a8a99ca06b2bdb1f345d4b2abba87",
+      "editable_pixels": 37881,
+      "review_required": true
+    }
+  ],
+  "review_notes": [
+    "Bow mask protects visible gripping fingers; inspect tiny grip/finger islands before external edit.",
+    "Quiver/hair boundary must preserve headband tails.",
+    "Cloak mask protects visible ivory sleeves; inspect sleeve seam and leather chest upper edge.",
+    "Masks B/C are drafts anchored to the unchanged source; recheck against each approved predecessor before use."
+  ]
+}

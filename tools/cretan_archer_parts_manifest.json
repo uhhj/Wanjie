@@ -1,0 +1,248 @@
+{
+  "unit_id": "OD_UNIT_02_CRETAN_ARCHER",
+  "version": "ART_TO_NATIVE_RIG_V1",
+  "status": "PLANNED_NO_FORMAL_PARTS",
+  "source_id": "OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1",
+  "canvas_width": 1024,
+  "canvas_height": 1536,
+  "alpha_required": true,
+  "parts": [
+    {
+      "name": "head",
+      "file": "assets/units/odyssey/cretan_archer/parts/head.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        538,
+        229
+      ]
+    },
+    {
+      "name": "torso",
+      "file": "assets/units/odyssey/cretan_archer/parts/torso.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        507,
+        555
+      ]
+    },
+    {
+      "name": "pelvis",
+      "file": "assets/units/odyssey/cretan_archer/parts/pelvis.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        507,
+        681
+      ]
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "assets/units/odyssey/cretan_archer/parts/arm_near_upper.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        404,
+        487
+      ]
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "assets/units/odyssey/cretan_archer/parts/arm_near_fore.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        374,
+        644
+      ]
+    },
+    {
+      "name": "hand_near",
+      "file": "assets/units/odyssey/cretan_archer/parts/hand_near.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        385,
+        797
+      ]
+    },
+    {
+      "name": "arm_far_upper",
+      "file": "assets/units/odyssey/cretan_archer/parts/arm_far_upper.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        622,
+        524
+      ]
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "assets/units/odyssey/cretan_archer/parts/arm_far_fore.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        701,
+        649
+      ]
+    },
+    {
+      "name": "hand_far",
+      "file": "assets/units/odyssey/cretan_archer/parts/hand_far.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        808,
+        710
+      ]
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "assets/units/odyssey/cretan_archer/parts/leg_near_thigh.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        449,
+        936
+      ]
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "assets/units/odyssey/cretan_archer/parts/leg_near_shin.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        416,
+        1095
+      ]
+    },
+    {
+      "name": "foot_near",
+      "file": "assets/units/odyssey/cretan_archer/parts/foot_near.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        379,
+        1345
+      ]
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "assets/units/odyssey/cretan_archer/parts/leg_far_thigh.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        565,
+        939
+      ]
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "assets/units/odyssey/cretan_archer/parts/leg_far_shin.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        565,
+        1105
+      ]
+    },
+    {
+      "name": "foot_far",
+      "file": "assets/units/odyssey/cretan_archer/parts/foot_far.png",
+      "source": "work/cretan_archer/04_complete_body_rgba.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        585,
+        1341
+      ]
+    },
+    {
+      "name": "bow",
+      "file": "assets/units/odyssey/cretan_archer/parts/bow.png",
+      "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        847,
+        725
+      ]
+    },
+    {
+      "name": "bow_string",
+      "file": "assets/units/odyssey/cretan_archer/parts/bow_string.png",
+      "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        796,
+        154
+      ]
+    },
+    {
+      "name": "quiver",
+      "file": "assets/units/odyssey/cretan_archer/parts/quiver.png",
+      "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        325,
+        333
+      ]
+    },
+    {
+      "name": "cloak",
+      "file": "assets/units/odyssey/cretan_archer/parts/cloak.png",
+      "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": [
+        500,
+        360
+      ]
+    },
+    {
+      "name": "arrow_single",
+      "file": "assets/units/odyssey/cretan_archer/parts/arrow_single.png",
+      "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+      "status": "MISSING",
+      "ai_completed": null,
+      "review_required": true,
+      "pivot_hint": null
+    }
+  ]
+}

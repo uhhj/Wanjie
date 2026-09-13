@@ -1,0 +1,168 @@
+{
+  "status": "DRAFT_LANDMARK_HINTS_NOT_BIND_READY",
+  "coordinate_space": "source canvas pixels; observed from Rig Master",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "pivots": {
+    "head": {
+      "xy": [
+        538,
+        229
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "torso": {
+      "xy": [
+        507,
+        555
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "pelvis": {
+      "xy": [
+        507,
+        681
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "arm_near_upper": {
+      "xy": [
+        404,
+        487
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "arm_near_fore": {
+      "xy": [
+        374,
+        644
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "hand_near": {
+      "xy": [
+        385,
+        797
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "arm_far_upper": {
+      "xy": [
+        622,
+        524
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "arm_far_fore": {
+      "xy": [
+        701,
+        649
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "hand_far": {
+      "xy": [
+        808,
+        710
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "leg_near_thigh": {
+      "xy": [
+        449,
+        936
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "leg_near_shin": {
+      "xy": [
+        416,
+        1095
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "foot_near": {
+      "xy": [
+        379,
+        1345
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "leg_far_thigh": {
+      "xy": [
+        565,
+        939
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "leg_far_shin": {
+      "xy": [
+        565,
+        1105
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "foot_far": {
+      "xy": [
+        585,
+        1341
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "bow": {
+      "xy": [
+        847,
+        725
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "bow_string": {
+      "xy": [
+        796,
+        154
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "quiver": {
+      "xy": [
+        325,
+        333
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "cloak": {
+      "xy": [
+        500,
+        360
+      ],
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    },
+    "arrow_single": {
+      "xy": null,
+      "review_required": true,
+      "reason": "Recalibrate only after approved body/part masks and articulation test"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "unit_id": "OD_UNIT_02_CRETAN_ARCHER",
+  "world": "ODYSSEY",
+  "unit_class": "RANGED_LIGHT_INFANTRY",
+  "rig_family": "HUMAN_MEDIUM_RIG_V1",
+  "combat_role": "light ranged support",
+  "weapon_main": "bow",
+  "weapon_offhand": null,
+  "back_prop": "quiver",
+  "secondary_prop": "No separately visible waist sword in this Rig Master; do not import one from Combat Look/Design",
+  "animations": [
+    "idle",
+    "walk",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "combat_event": "attack_release",
+  "source": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "source_alpha_extrema": [
+    0,
+    254
+  ],
+  "production_source_policy": "Rig Master and approved local-completion descendants only; Walk and Codex never supply production pixels"
+}

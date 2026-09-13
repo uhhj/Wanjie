@@ -1,0 +1,100 @@
+{
+  "status": "AUTHORING_PLAN_NOT_ANIMATION_PASS",
+  "reference_file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_WALK_REFERENCE_V1.png",
+  "reference_sha256": "61adb8187023f3c37dcc5987cc0ce9501d4c49c5eae1185941495fc90de92d06",
+  "role": "MOTION_ONLY",
+  "pixels_in_formal_assets_allowed": false,
+  "observed_strip_frames": 8,
+  "observed_limit": "Strip mainly shows similar leg arrangements and contact/lift cues. A clear passing pose and full opposite-leg support cycle are not supplied; these must be authored and verified.",
+  "phase_assignment": "Reference crops are approximate pose cues; full alternation and timing inferred from walk logic, then tested on real rig.",
+  "cycle_seconds_proposed": 1.0,
+  "stride_character_heights_proposed": 0.3,
+  "roman_guard_stride_character_heights": 0.2696864111498258,
+  "stride_increase_normalized_percent": 11.240310077519378,
+  "pelvis_bob_character_height_proposed": 0.0065,
+  "roman_guard_bob_character_height": 0.004878048780487805,
+  "support_phase_per_leg": [
+    0,
+    0.58
+  ],
+  "far_phase_offset": 0.5,
+  "double_support": true,
+  "head": "Stabilize with small torso counter-rotation",
+  "bow": "Controlled grip, no broad pendulum swing",
+  "quiver_cloak": "Very small delayed secondary rotations",
+  "phases": [
+    {
+      "name": "contact_near",
+      "normalized_time": 0,
+      "approx_reference_crop_index": 1,
+      "support_leg": "near",
+      "intent": "Heel approaches/contacts; trailing far forefoot finishes support",
+      "reference_match": "approximate cue, not exact frame correspondence"
+    },
+    {
+      "name": "down_near",
+      "normalized_time": 0.1,
+      "approx_reference_crop_index": 2,
+      "support_leg": "near",
+      "intent": "Near knee accepts load; pelvis slightly descends",
+      "reference_match": "approximate cue, not exact frame correspondence"
+    },
+    {
+      "name": "passing_near",
+      "normalized_time": 0.27,
+      "approx_reference_crop_index": null,
+      "support_leg": "near",
+      "intent": "Far leg swings clear of floor and passes the supporting leg",
+      "reference_match": "Not clearly shown in supplied strip; authored passing pose, not observed extraction"
+    },
+    {
+      "name": "up_near",
+      "normalized_time": 0.4,
+      "approx_reference_crop_index": 6,
+      "support_leg": "near",
+      "intent": "Near heel begins lifting; swing leg prepares next placement",
+      "reference_match": "approximate cue, not exact frame correspondence"
+    },
+    {
+      "name": "contact_far",
+      "normalized_time": 0.5,
+      "approx_reference_crop_index": 1,
+      "support_leg": "far",
+      "intent": "Opposite-leg contact; inferred half-cycle, not a literal duplicate sprite",
+      "reference_match": "approximate cue; opposite half cycle inferred"
+    },
+    {
+      "name": "down_far",
+      "normalized_time": 0.6,
+      "approx_reference_crop_index": 2,
+      "support_leg": "far",
+      "intent": "Far knee accepts load; pelvis slightly descends",
+      "reference_match": "approximate cue; opposite half cycle inferred"
+    },
+    {
+      "name": "passing_far",
+      "normalized_time": 0.77,
+      "approx_reference_crop_index": null,
+      "support_leg": "far",
+      "intent": "Near leg swings clear and passes",
+      "reference_match": "Not clearly shown in supplied strip; authored passing pose, not observed extraction"
+    },
+    {
+      "name": "up_far",
+      "normalized_time": 0.9,
+      "approx_reference_crop_index": 6,
+      "support_leg": "far",
+      "intent": "Far heel lifts; prepare near contact",
+      "reference_match": "approximate cue; opposite half cycle inferred"
+    }
+  ],
+  "native_comparison_file": "reports/cretan_archer_walk_reference_comparison.png",
+  "native_comparison_status": "NOT_GENERATED_COMPLETE_BODY_GATE_PENDING",
+  "pass_basis": [
+    "Actual 256/192px Godot renders",
+    "Thigh/calf/foot chain coupling",
+    "World-space planted material-point trajectory",
+    "No perceptible foot sliding"
+  ],
+  "pixel_similarity_is_gate": false
+}

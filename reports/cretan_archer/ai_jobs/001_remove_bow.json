@@ -1,0 +1,15 @@
+{
+  "id": "001_remove_bow",
+  "input_file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+  "input_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "mask": "work/cretan_archer/masks/001_remove_bow.png",
+  "mask_sha256": "7ee854bc82ad07d8ea8f0d54a6945d6ce652871417f4422220641ac7a3742a15",
+  "prompt": "work/cretan_archer/prompts/001_remove_bow.txt",
+  "prompt_text": "仅移除该图中木弓、握柄上露出的弓体和弓弦。只在白色mask内局部编辑；保留持弓手已可见的手指、手腕、护腕。弓弦穿过手臂的细区域按周围原有皮革/皮肤补齐，不新增装备。不得改变头部、衣服、姿势、人体比例。\n唯一编辑底图是本阶段input，唯一人体像素来源为RIG_MASTER的派生链。DESIGN用于身份约束；CODEX和WALK_REFERENCE不得用于补人体或提取像素。不能重新生成整个人物。输出1024x1536同画布真实透明RGBA PNG；不能画棋盘格或烘焙黑底；完整保留未编辑区域。只允许局部INPAINT/REMOVE/COMPLETE。\n",
+  "output_file": "work/cretan_archer/01_no_bow.png",
+  "output_sha256": null,
+  "status": "EXTERNAL_LOCAL_INPAINT_REQUIRED",
+  "model_tool_identifier": null,
+  "model_call_executed": false,
+  "timestamp": "2026-09-13T09:25:50.992078+00:00"
+}

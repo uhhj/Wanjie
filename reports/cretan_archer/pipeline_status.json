@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS_WITH_IMAGE_EDIT_MANUAL_STEP_REQUIRED",
+  "complete_body": "NOT_RUN",
+  "parts": {
+    "required": 20,
+    "generated": 0,
+    "approved": 0,
+    "status": "NOT_RUN"
+  },
+  "recomposition": "NOT_RUN",
+  "joint_tests": "NOT_RUN",
+  "animations": {
+    "idle": "NOT_RUN",
+    "walk": "NOT_RUN",
+    "attack_01": "NOT_RUN",
+    "hit": "NOT_RUN",
+    "death": "NOT_RUN"
+  },
+  "attack_release": "NOT_RUN",
+  "twenty_unit_smoke": "NOT_RUN",
+  "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
+  "godot_handoff": "NOT_READY",
+  "note": "Manual-step verdict covers prepared art handoff, not successful native-rig production."
+}

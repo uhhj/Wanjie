@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-09-13T09:28:56.761884+00:00",
+  "available_tool": "image_gen.imagegen",
+  "reference_image_edit_available": true,
+  "dedicated_mask_parameter": false,
+  "model_identifier": "not exposed",
+  "reliable_local_inpaint_verified": false,
+  "tool_calls_executed": 0,
+  "api_endpoint_configured": false,
+  "matching_process_env_names": [],
+  "module_discovery": {
+    "openai": false,
+    "diffusers": false,
+    "torch": false,
+    "comfy": false,
+    "replicate": false,
+    "fal_client": false,
+    "cv2": false,
+    "scipy": false
+  },
+  "repository_checks": [
+    "No configured inpaint/image API key or endpoint found by file-content search (paths only; secrets never printed).",
+    "Existing ai_inpaint_roman_guard.py imports/composites externally produced files; it is not an image-model client.",
+    "No inspected Comfy/InvokeAI/Automatic1111 service process found."
+  ],
+  "command_discovery": "python exists; comfy/magick not found; no new image-edit CLI configured",
+  "decision": "Use user-requested masks/prompts/manual handoff fallback. Do not use reference-guided full-frame editing as evidence of local mask capability.",
+  "limitations": "Inspection of current tools, process environment, project config, known commands and local modules; not a scan of all drives or unrelated browser accounts."
+}

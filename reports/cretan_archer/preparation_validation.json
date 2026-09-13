@@ -1,0 +1,43 @@
+{
+  "status": "PREPARATION_CHECKS_PASS",
+  "timestamp": "2026-09-13T09:54:04.176622+00:00",
+  "source_hashes_pass": 5,
+  "roman_guard_frozen_hashes_pass": 49,
+  "json_files_parsed": 14,
+  "masks": [
+    {
+      "file": "work\\cretan_archer\\masks\\001_remove_bow.png",
+      "canvas_pass": true,
+      "head_protected": true,
+      "editable_pixels": 77497,
+      "status": "DRAFT_VISUAL_REVIEW_REQUIRED"
+    },
+    {
+      "file": "work\\cretan_archer\\masks\\002_remove_quiver.png",
+      "canvas_pass": true,
+      "head_protected": true,
+      "editable_pixels": 33618,
+      "status": "DRAFT_VISUAL_REVIEW_REQUIRED"
+    },
+    {
+      "file": "work\\cretan_archer\\masks\\003_remove_cloak.png",
+      "canvas_pass": true,
+      "head_protected": true,
+      "editable_pixels": 37881,
+      "status": "DRAFT_VISUAL_REVIEW_REQUIRED"
+    }
+  ],
+  "formal_parts_generated": 0,
+  "import_gate_tests": {
+    "command": "python tools/test_cretan_archer_pipeline.py",
+    "tests": 9,
+    "return_code": 0,
+    "test_output": "test_changed_prompt_invalidates_review (__main__.ImportGateTests.test_changed_prompt_invalidates_review) ... ok\ntest_matte_cannot_add_foreground (__main__.ImportGateTests.test_matte_cannot_add_foreground) ... ok\ntest_matte_preserves_rgb_and_does_not_approve_body (__main__.ImportGateTests.test_matte_preserves_rgb_and_does_not_approve_body) ... ok\ntest_missing_body_never_passes (__main__.ImportGateTests.test_missing_body_never_passes) ... ok\ntest_next_stage_requires_actual_review (__main__.ImportGateTests.test_next_stage_requires_actual_review) ... ok\ntest_output_not_overwritten (__main__.ImportGateTests.test_output_not_overwritten) ... ok\ntest_outside_mask_change_rejected (__main__.ImportGateTests.test_outside_mask_change_rejected) ... ok\ntest_review_cannot_approve_unimported_file (__main__.ImportGateTests.test_review_cannot_approve_unimported_file) ... ok\ntest_rgb_rejected (__main__.ImportGateTests.test_rgb_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.855s\n\nOK",
+    "fixture_scope": "isolated temporary work/test_runs only; not production images"
+  },
+  "pipeline_script_sha256": "6e51922d759c1682d245a3a10034d70c54b56a04cd4ea744e3ecca0e357c586d",
+  "godot_version_checked": "4.7.2.stable.official.ed1daf0bf",
+  "archer_headless_parse": "NOT_RUN",
+  "archer_native_rig": "NOT_CREATED",
+  "archer_combat_visual_gate": "NOT_RUN"
+}

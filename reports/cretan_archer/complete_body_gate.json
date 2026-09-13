@@ -1,0 +1,10 @@
+{
+  "status": "NOT_RUN",
+  "input_file": "work/cretan_archer/04_complete_body_rgba.png",
+  "input_sha256": null,
+  "format_checks": {},
+  "visual_pass": false,
+  "remaining_issues": [
+    "Complete Body has not been produced; external local inpaint required"
+  ]
+}
