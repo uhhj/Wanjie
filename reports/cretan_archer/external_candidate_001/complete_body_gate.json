@@ -1,0 +1,57 @@
+{
+  "status": "FAIL",
+  "verdict": "BLOCKED_EXTERNAL_BODY_DESIGN_DRIFT",
+  "input_file": "work/cretan_archer/raw/external_complete_body_candidate_001.png",
+  "input_sha256": "fc890e515a1c68deb73c880269bc86d130d9624eb27af1632cc538fb943e51e7",
+  "checks": {
+    "same_canvas": true,
+    "real_rgba_transparency": true,
+    "no_bow": true,
+    "no_quiver": true,
+    "no_cloak": true,
+    "both_hands_present": true,
+    "both_legs_present": true,
+    "no_codex_helmet_or_high_collar": true,
+    "frozen_equipment_unchanged": false,
+    "frozen_head_anchor_unchanged": false,
+    "frozen_rest_geometry_unchanged": false,
+    "local_edit_chain_verified": false
+  },
+  "remaining_issues": [
+    {
+      "id": "body_001",
+      "region": [
+        345,
+        475,
+        650,
+        775
+      ],
+      "problem": "Waist sword/sheath added where none is visible in frozen Rig Master; exists in other design references but is not approved as a new production addition."
+    },
+    {
+      "id": "body_002",
+      "region": [
+        340,
+        25,
+        665,
+        360
+      ],
+      "problem": "Head/hair top in head-only ROI moved from y=117 to y=46; face/head position is not preserved."
+    },
+    {
+      "id": "body_003",
+      "region": [
+        300,
+        850,
+        815,
+        1460
+      ],
+      "problem": "Hem, exposed thigh lengths, leg alignment and near foot shape/orientation visibly differ from frozen rest pose."
+    }
+  ],
+  "alpha_note": "Actual RGBA, alpha 0..254. Not RGB black background. Final opaque normalization is pending; it is not the reason for structural rejection. No pixel-level edge repair undertaken.",
+  "combat_scale_review": "White/gray 256/192/128 reviewed; structural differences remain visible. No independent approval of candidate as replacement baseline received.",
+  "provenance": "User supplied final candidate only; actual tool/model and sequential edits not supplied. Do not fabricate jobs 001-003.",
+  "formal_parts_started": false,
+  "godot_handoff": "NOT_READY"
+}

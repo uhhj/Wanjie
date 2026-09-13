@@ -1,0 +1,32 @@
+{
+  "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_001.png",
+  "candidate_original_attachment": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-e40c520e-d464-4c4a-9396-48b00fcd7ebf.png",
+  "candidate_sha256": "fc890e515a1c68deb73c880269bc86d130d9624eb27af1632cc538fb943e51e7",
+  "source_file": "art_source/odyssey/cretan_archer/OD_UNIT_02_CRETAN_ARCHER_RIG_MASTER_V1.png",
+  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "transparent_pixels": 1195260,
+  "opaque_pixels": 0,
+  "fractional_pixels": 377604,
+  "changed_rgba_pixels_outside_all_three_masks": 394747,
+  "visible_changed_rgba_pixels_outside_all_three_masks": 394747,
+  "head_roi_x": [
+    400,
+    650
+  ],
+  "head_roi_alpha_gt_128_top_y": {
+    "master": 117,
+    "candidate": 46
+  },
+  "locality_note": "Comparison against union is diagnostic; it does not invent sequential stage provenance. Visual structural changes, not pixel similarity alone, block acceptance.",
+  "tool_model": "NOT_PROVIDED_EXTERNAL_RESULT",
+  "ai_calls_in_this_turn": 0,
+  "image_modified": false,
+  "timestamp": "2026-09-13T10:33:41.640370+00:00"
+}

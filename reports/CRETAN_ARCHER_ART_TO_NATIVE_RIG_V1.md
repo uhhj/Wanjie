@@ -1,5 +1,7 @@
 # Cretan Archer 本轮交付状态
 
+更新：用户随后提供外部 Complete Body 候选 001。该图已原样归档并审查；因新增腰剑及头部、裙摆、腿部姿态变化，当前状态为 **BLOCKED_EXTERNAL_BODY_DESIGN_DRIFT**。见 `reports/cretan_archer/external_candidate_001/review.md`。以下为最初准备阶段交付记录，不代表该候选已通过。
+
 **Verdict：PASS_WITH_IMAGE_EDIT_MANUAL_STEP_REQUIRED**。已完成源图冻结及可恢复的局部编辑交接；完整资产与 Native Rig 任务尚未通过。
 
 | 项目 | 实际状态 |

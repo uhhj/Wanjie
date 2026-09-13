@@ -1,6 +1,6 @@
 {
-  "verdict": "PASS_WITH_IMAGE_EDIT_MANUAL_STEP_REQUIRED",
-  "complete_body": "NOT_RUN",
+  "verdict": "BLOCKED_EXTERNAL_BODY_DESIGN_DRIFT",
+  "complete_body": "NOT_APPROVED",
   "parts": {
     "required": 20,
     "generated": 0,
@@ -20,5 +20,11 @@
   "twenty_unit_smoke": "NOT_RUN",
   "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
   "godot_handoff": "NOT_READY",
-  "note": "Manual-step verdict covers prepared art handoff, not successful native-rig production."
+  "note": "External candidate inspected and archived unchanged; structural drift blocks admission under existing frozen-source rules. Canonical staged body has not been produced.",
+  "external_candidate": {
+    "status": "FAIL",
+    "review": "reports/cretan_archer/external_candidate_001/complete_body_gate.json",
+    "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_001.png",
+    "sha256": "fc890e515a1c68deb73c880269bc86d130d9624eb27af1632cc538fb943e51e7"
+  }
 }
