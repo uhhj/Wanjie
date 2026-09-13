@@ -1,6 +1,6 @@
 {
-  "verdict": "BLOCKED_BAKED_CHECKERBOARD_AND_DESIGN_REVIEW",
-  "complete_body": "NOT_APPROVED",
+  "verdict": "ART_REVIEW_REQUIRED",
+  "complete_body": "PENDING_DESIGN_APPROVAL",
   "parts": {
     "required": 20,
     "generated": 0,
@@ -20,11 +20,11 @@
   "twenty_unit_smoke": "NOT_RUN",
   "human_medium_rig_reuse": "PLANNED_NOT_PROVEN",
   "godot_handoff": "NOT_READY",
-  "note": "Candidate 002 archived without editing. Actual RGB PNG contains baked checkerboard and cannot serve as transparent body; frozen-design changes also remain unapproved.",
+  "note": "Candidate 003 solves true transparency and passes static combat-background review. Visible face/material repainting still needs explicit approval as a replacement body baseline. No formal parts or staged body import.",
   "external_candidate": {
-    "status": "FAIL",
-    "review": "reports/cretan_archer/external_candidate_002/review.json",
-    "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_002.png",
-    "sha256": "43dfd619ba9dbe70ddc1e7b12e953bf3798a37981add19c0c5077e036e530c34"
+    "status": "PENDING_DESIGN_APPROVAL",
+    "review": "reports/cretan_archer/external_candidate_003/complete_body_gate.json",
+    "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_003.png",
+    "sha256": "a8257d52983c75656696a4342ca4d11f260ace24a5f3c24e3bf7d4a8baffcbfd"
   }
 }

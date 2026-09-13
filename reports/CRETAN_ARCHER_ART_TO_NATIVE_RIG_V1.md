@@ -1,5 +1,7 @@
 # Cretan Archer 本轮交付状态
 
+最新更新：候选 003 已恢复真实 RGBA，静态战斗尺寸背景审查通过；可见脸部和材质重绘仍需批准，当前 **PENDING_DESIGN_APPROVAL**。见 `reports/cretan_archer/external_candidate_003/review.md`。以下保留候选 002、001 及最初交付历史。
+
 最新更新：候选 002 为 RGB，棋盘格写入图片，没有真实 Alpha；设计细节变化也尚未批准。当前 **BLOCKED_BAKED_CHECKERBOARD_AND_DESIGN_REVIEW**，见 `reports/cretan_archer/external_candidate_002/review.md`。下方保留前次审查与准备记录。
 
 更新：用户随后提供外部 Complete Body 候选 001。该图已原样归档并审查；因新增腰剑及头部、裙摆、腿部姿态变化，当前状态为 **BLOCKED_EXTERNAL_BODY_DESIGN_DRIFT**。见 `reports/cretan_archer/external_candidate_001/review.md`。以下为最初准备阶段交付记录，不代表该候选已通过。

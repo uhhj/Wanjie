@@ -1,0 +1,20 @@
+{
+  "file": "work/cretan_archer/raw/external_complete_body_candidate_003.png",
+  "sha256": "a8257d52983c75656696a4342ca4d11f260ace24a5f3c24e3bf7d4a8baffcbfd",
+  "format": "PNG",
+  "mode": "RGBA",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "alpha_min": 0,
+  "alpha_max": 254,
+  "transparent_pixel_count": 1216913,
+  "opaque_pixel_count": 0,
+  "real_transparency": true,
+  "checkerboard_baked": false,
+  "source_sha256": "9fcc93f8dabcfc08003932444cfa6801bb808c3cb7f69693672d38a5862f6618",
+  "candidate_modified": false,
+  "model_or_tool": "NOT_PROVIDED",
+  "generative_calls": 0
+}

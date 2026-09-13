@@ -1,0 +1,32 @@
+{
+  "status": "PENDING_DESIGN_APPROVAL",
+  "verdict": "ART_REVIEW_REQUIRED",
+  "candidate_file": "work/cretan_archer/raw/external_complete_body_candidate_003.png",
+  "candidate_sha256": "a8257d52983c75656696a4342ca4d11f260ace24a5f3c24e3bf7d4a8baffcbfd",
+  "checks": {
+    "same_canvas": true,
+    "real_rgba_transparency": true,
+    "no_baked_checkerboard": true,
+    "no_bow": true,
+    "no_quiver": true,
+    "no_cloak": true,
+    "both_hands_present": true,
+    "both_legs_present": true,
+    "no_new_near_waist_sword": true,
+    "no_codex_helmet_or_high_collar": true,
+    "combat_scale_background_256": "PASS",
+    "combat_scale_background_192": "PASS",
+    "combat_scale_background_128": "PASS",
+    "frozen_visible_design_preserved": "REVIEW_REQUIRED",
+    "opaque_alpha_normalized": false
+  },
+  "observed_remaining_issue": "Face rendering and leather/skin material marks differ from the visible frozen Master. Approximate head placement and overall pose are closer than candidate 001; do not claim large new shin-equipment design changes. Accepting visible repainting as a new body baseline needs explicit user approval.",
+  "alpha_note": "RGBA 0..254, like source. True transparency present; future approved derivative may normalize opaque alpha without changing source.",
+  "review_scope": "Background visual pass is limited to static combat-size views. It is not part, recomposition, animation or identity approval.",
+  "local_edit_provenance": "Final external image only; no tool/model or sequential local-edit jobs supplied. No invented provenance.",
+  "formal_parts": {
+    "required": 20,
+    "present": 0
+  },
+  "godot_handoff": "NOT_READY"
+}
