@@ -29,7 +29,7 @@ func capture() -> void:
 	await process_frame
 	await RenderingServer.frame_post_draw
 	if "--cape-trial" in OS.get_cmdline_user_args():
-		for angle in [-8,-16,-24,8,16]:
+		for angle in [-10,-20,-30,-40,-50]:
 			for unit in units:
 				unit.play_animation("attack_01")
 				unit.animation_player.seek(.5,true)

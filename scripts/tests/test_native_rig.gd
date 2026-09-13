@@ -77,7 +77,7 @@ func run() -> void:
 		for side in ["near","far"]:
 			var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
 			var support = t<.5 if side=="near" else t>=.5 and t<1.0
-			var point = foot.to_global(Vector2(33,119) if side=="near" else Vector2(60,99))
+			var point = foot.to_global(Vector2(33,119))
 			foot_rows.append({"time":t,"side":side,"support":support,"world_position":[point.x,point.y]})
 	var maxima: Dictionary = {}
 	for side in ["near","far"]:
@@ -108,7 +108,7 @@ func run() -> void:
 			continue
 		var key := str(int(t*2.0))
 		var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
-		var point := foot.to_global(Vector2(33,119) if side=="near" else Vector2(60,99))
+		var point := foot.to_global(Vector2(33,119))
 		if not planted.has(key):
 			planted[key] = point
 		runtime_max = maxf(runtime_max,point.distance_to(planted[key]))

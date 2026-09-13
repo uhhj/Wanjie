@@ -66,8 +66,8 @@ def main():
             q=(u-.5)*2
             center=480 if side=='near' else 535
             x=center+90-360*u if support else center-90+180*(-2*q**3+3*q**2)-180*(2*q**3-3*q**2+q)
-            pitch=-10*swing if side=='far' else 0
-            sole=np.array([60,99] if side=='far' else [33,119])
+            pitch=-10*swing
+            sole=np.array([33,119])
             angle=math.radians(pitch);rotation=np.array([[math.cos(angle),-math.sin(angle)],[math.sin(angle),math.cos(angle)]])
             target=np.array([x,ankle[1]-30*swing])+sole-rotation@sole
             v0=(knee[0]-hip[0],knee[1]-hip[1]);v1=(ankle[0]-knee[0],ankle[1]-knee[1]);l0=math.hypot(*v0);l1=math.hypot(*v1)
@@ -93,7 +93,7 @@ def main():
     for p,f,lift in zip(a['poses'],[0,-.14,.20,.80,.98,1,.48,0],[0,.8,1,1,1,1,.75,0]):
         p['rotations'].update(torso=7*f,arm_near_upper=-95*f,arm_near_fore=-14*f,hand_near=63*f,head=-4*f,arm_far_upper=-30*lift,arm_far_fore=-35*lift,hand_far=65*lift-7*f,cape_root=-8*f)
         p['pelvis_offset']=[20*f,3*f]
-    for p,angle in zip(a['poses'],[0,-1,-18,-30,-30,-30,-25,0]):p['rotations']['cape_root']=angle
+    for p,angle in zip(a['poses'],[0,-1,-24,-40,-40,-40,-35,0]):p['rotations']['cape_root']=angle
     a['method_events']=[{'time':.4,'node':'RigEventRelay','method':'_event_attack_hit'}]
     a=new('hit',.32,[0,.08,.16,.24,.32])
     for p,f in zip(a['poses'],[0,1,-.2,.15,0]):p['rotations'].update(torso=-3*f,head=-1*f,shield_socket=2*f)
@@ -157,7 +157,9 @@ def main():
       ('arm_near_upper',550,610,'torso','arm_near_upper'),
       ('arm_far_upper',605,660,'torso','arm_far_upper'),
       ('foot_far',1320,1360,'leg_far_shin','foot_far')]:
-        alpha=np.array(rgba(f'assets/units/odyssey/roman_guard/parts/{name}.png'))[:,:,3]
+        texture_part='foot_near' if name=='foot_far' else name
+        texture_file=f'assets/units/odyssey/roman_guard/parts/{texture_part}.png'
+        alpha=np.array(rgba(texture_file))[:,:,3]
         ys,xs=np.where(alpha>0);step=6;x0=int(xs.min()//step*step);x1=int(xs.max()//step*step+step);y0=int(ys.min()//step*step);y1=int(ys.max()//step*step+step)
         vertices=[];triangles=[];lookup={}
         for y in range(y0,y1,step):
@@ -168,8 +170,16 @@ def main():
                     if point not in lookup:lookup[point]=len(vertices);vertices.append(point)
                     ids.append(lookup[point])
                 triangles.extend([[ids[0],ids[1],ids[2]],[ids[0],ids[2],ids[3]]])
-        t=np.clip((np.array(vertices)[:,1]-start)/(end-start),0,1);weights=t*t*(3-2*t)
-        write(f'resources/{name}_local_skinning.json',{'part':name,'texture_sha256':sha(f'assets/units/odyssey/roman_guard/parts/{name}.png'),'stationary_bone':stationary,'moving_bone':moving,'transition_source_y':[start,end],'vertices':vertices,'triangles':triangles,'moving_weights':weights.tolist(),'stationary_weights':(1-weights).tolist(),'usage':'walk and attack shoulder joints; walk-only far ankle; frozen original draws for other poses'})
+        points=np.array(vertices)
+        t=np.clip((points[:,1]-start)/(end-start),0,1);weights=t*t*(3-2*t)
+        # Torso-edge pixels inside each arm extraction stay on the torso.
+        if name=='arm_near_upper':
+            edge=np.clip((points[:,0]-390)/55,0,1);weights*=1-edge*edge*(3-2*edge)
+        if name=='arm_far_upper':
+            edge=np.clip((points[:,0]-620)/33,0,1);weights*=edge*edge*(3-2*edge)
+        geometry=points.copy()
+        if name=='foot_far':geometry+=np.array(BONES['foot_far'][1])-np.array(BONES['foot_near'][1])
+        write(f'resources/{name}_local_skinning.json',{'part':name,'texture_file':texture_file,'texture_sha256':sha(texture_file),'stationary_bone':stationary,'moving_bone':moving,'transition_source_y':[start,end],'vertices':geometry.tolist(),'uv':vertices,'triangles':triangles,'moving_weights':weights.tolist(),'stationary_weights':(1-weights).tolist(),'usage':'walk and attack shoulder joints; walk far shoe uses approved near-shoe pixels for matching forward-facing view; original draws for other poses'})
     print('Prepared 23 generic bones and exactly five animation key sets')
 
 if __name__=='__main__':main()

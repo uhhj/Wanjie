@@ -39,7 +39,7 @@ def main():
     anims=read('resources/roman_guard_animations_v1.json')
     for part in ['arm_near_upper','arm_far_upper','foot_far']:
         mesh=read(f'resources/{part}_local_skinning.json')
-        check(mesh['texture_sha256']==sha(f'assets/units/odyssey/roman_guard/parts/{part}.png'),'Local skinning uses stale pixels')
+        check(mesh['texture_sha256']==sha(mesh['texture_file']),'Local skinning uses stale pixels')
         weights=np.array(mesh['moving_weights'])+np.array(mesh['stationary_weights'])
         check(np.allclose(weights,1),'Non-normalized skinning weights')
     review_path=ROOT/'reports/native_rig_v2/visual_approval.json'
@@ -48,7 +48,7 @@ def main():
     for name in ['idle','walk','attack_01','hit','death']:
         entry=review['animations'].get(name,{})
         sheet=f'reports/animations/{name}_combat_review.png'
-        valid=entry.get('status')=='PASS' and entry.get('sheet_sha256')==sha(sheet)
+        valid=entry.get('status')=='PASS' and entry.get('sheet_sha256')==sha(sheet) and review.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json')
         statuses[name]='PASS' if valid else 'VISUAL_REVIEW_REQUIRED'
     technical='PASS' if not errors else 'FAIL'
     all_pass=technical=='PASS' and all(s=='PASS' for s in statuses.values())

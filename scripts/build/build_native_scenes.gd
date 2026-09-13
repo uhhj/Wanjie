@@ -83,12 +83,15 @@ func build() -> void:
 		for p in local_mesh.vertices:
 			points.append(vector(p))
 		skin.polygon = points
-		skin.uv = points
+		var source_uv = PackedVector2Array()
+		for p in local_mesh.uv:
+			source_uv.append(vector(p))
+		skin.uv = source_uv
 		var faces: Array = []
 		for triangle in local_mesh.triangles:
 			faces.append(PackedInt32Array(triangle))
 		skin.polygons = faces
-		skin.texture = load("res://assets/units/odyssey/roman_guard/parts/"+part+".png")
+		skin.texture = load("res://"+local_mesh.texture_file)
 		skin.skeleton = NodePath("../Skeleton2D")
 		skin.add_bone(NodePath(data.bones[local_mesh.stationary_bone].path),PackedFloat32Array(local_mesh.stationary_weights))
 		skin.add_bone(NodePath(data.bones[local_mesh.moving_bone].path),PackedFloat32Array(local_mesh.moving_weights))
