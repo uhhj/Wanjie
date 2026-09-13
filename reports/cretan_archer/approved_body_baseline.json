@@ -1,0 +1,21 @@
+{
+  "status": "USER_APPROVED",
+  "id": "OD_UNIT_02_CRETAN_ARCHER_COMPLETE_BODY_APPROVED_V1",
+  "input_file": "work/cretan_archer/raw/external_complete_body_candidate_003.png",
+  "input_sha256": "a8257d52983c75656696a4342ca4d11f260ace24a5f3c24e3bf7d4a8baffcbfd",
+  "output_file": "work/cretan_archer/04_complete_body_rgba.png",
+  "output_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "user_acceptance": "接受",
+  "acceptance_context": "User explicitly accepted candidate 003 as the new Complete Body baseline after face/material differences were disclosed.",
+  "timestamp": "2026-09-13T11:51:23.171912+00:00",
+  "accepted_scope": "Candidate 003 body artwork; source Master/equipment/reference files remain frozen. Recomposition must assess approved new body with original equipment; no unapproved return to old body design.",
+  "external_tool_model": null,
+  "local_jobs_001_003_executed": false,
+  "normalization": "Only alpha 254 -> 255, other alpha and all RGB unchanged",
+  "alpha_changed_pixels": 35049,
+  "rgb_changed_pixels": 0,
+  "canvas": [
+    1024,
+    1536
+  ]
+}

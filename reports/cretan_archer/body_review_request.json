@@ -1,0 +1,20 @@
+{
+  "input_file": "work/cretan_archer/04_complete_body_rgba.png",
+  "input_sha256": "f8451c19b04a8d754fb2ebfeb4441324990a5b5d9de6dcc6ccec518550536bc8",
+  "checks": {
+    "no_bow": true,
+    "no_quiver": true,
+    "no_cloak": true,
+    "both_hands_complete": true,
+    "both_legs_complete": true,
+    "garment_continuity": true,
+    "neck_shoulders_consistent": true,
+    "no_unapproved_helmet_or_armor": true,
+    "identity_consistent": true,
+    "no_visible_combat_scale_halo": true,
+    "no_internal_alpha_holes": true,
+    "ground_shadow_excluded": true
+  },
+  "notes": "Candidate 003 static body/white-gray-blue combat scale reviewed previously; visible design changes explicitly accepted by user. Bow, quiver, drape and ground shadow absent; hands and legs present. Derivative only raises alpha254 to255; RGB unchanged.",
+  "instruction": "Record actual visual findings; booleans are never inferred from format checks."
+}

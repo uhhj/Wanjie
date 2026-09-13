@@ -85,6 +85,20 @@ class ImportGateTests(unittest.TestCase):
         self.assertEqual(p.load(p.REPORT+'complete_body_gate.json')['status'],'NOT_RUN')
         self.assertEqual(p.load(p.REPORT+'pipeline_status.json')['godot_handoff'],'NOT_READY')
 
+    def test_explicit_external_baseline_has_no_fake_edit_chain(self):
+        im=np.array(Image.open(self.root/p.MASTER));im[im[:,:,3]==254,3]=255
+        Image.fromarray(im).save(self.root/p.BODY)
+        p.save(p.REPORT+'approved_body_baseline.json',{'status':'USER_APPROVED','user_acceptance':'accepted candidate',
+            'input_file':p.MASTER,'input_sha256':p.sha(p.MASTER),'output_file':p.BODY,
+            'output_sha256':p.sha(p.BODY),'rgb_changed_pixels':0})
+        self.assertTrue(p.valid_external_body())
+        self.assertFalse(p.valid_review(0))
+        # Updating only the record cannot bless changed RGB under alpha-only normalization.
+        im[3,3,0]+=10;Image.fromarray(im).save(self.root/p.BODY)
+        r=p.load(p.REPORT+'approved_body_baseline.json');r['output_sha256']=p.sha(p.BODY)
+        p.save(p.REPORT+'approved_body_baseline.json',r)
+        self.assertFalse(p.valid_external_body())
+
 
 if __name__=='__main__':
     unittest.main(verbosity=2)

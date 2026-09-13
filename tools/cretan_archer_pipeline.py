@@ -70,6 +70,21 @@ def valid_matte():
     job=load(p)
     return valid_review(2) and job.get('input_sha256')==sha(STAGES[2][2]) and job.get('output_sha256')==sha(BODY)
 
+def valid_external_body():
+    """An explicit user-approved replacement has separate provenance, never fake jobs."""
+    try:
+        record=load(REPORT+'approved_body_baseline.json')
+        valid=(record.get('status')=='USER_APPROVED' and bool(record.get('user_acceptance'))
+                and record.get('input_sha256')==sha(record['input_file'])
+                and record.get('output_file')==BODY and record.get('output_sha256')==sha(BODY)
+                and record.get('rgb_changed_pixels')==0)
+        if not valid:return False
+        source=np.array(Image.open(ROOT/record['input_file']))
+        output=np.array(Image.open(ROOT/BODY))
+        expected=source.copy();expected[expected[:,:,3]==254,3]=255
+        return bool(np.array_equal(expected,output))
+    except (KeyError,FileNotFoundError,ValueError):return False
+
 def prepare():
     size=verify_frozen();source=Image.open(ROOT/MASTER).convert('RGBA')
     for folder in [WORK+'masks',WORK+'prompts',WORK+'raw',REPORT+'ai_jobs']:
@@ -214,13 +229,14 @@ def gate(review_file=None):
                 a=np.array(im.getchannel('A'));bbox=im.getchannel('A').getbbox();fmt.update(alpha_min=int(a.min()),alpha_max=int(a.max()),transparent_pixels=int((a==0).sum()),opaque_pixels=int((a==255).sum()),fractional_pixels=int(((a>0)&(a<255)).sum()),bbox=bbox)
                 if a.min()!=0 or a.max()!=255 or (a==0).sum()<100 or (a==255).sum()<100 or not bbox:issues.append('True-alpha/opaque-foreground gate failed; source max254 is not silently promoted')
                 if bbox and (bbox[0]==0 or bbox[1]==0 or bbox[2]==im.width or bbox[3]==im.height):issues.append('Foreground touches canvas boundary')
-        if not all(valid_review(i) for i in range(3)):issues.append('One or more edit stages lack a current PASS review')
-        if not valid_matte():issues.append('Matte derivative provenance missing or stale')
+        if not valid_external_body():
+            if not all(valid_review(i) for i in range(3)):issues.append('One or more edit stages lack a current PASS review')
+            if not valid_matte():issues.append('Matte derivative provenance missing or stale')
         if review_file:
             review=json.loads(Path(review_file).read_text(encoding='utf-8-sig'))
             visual=review.get('input_sha256')==sha(path) and all(review.get('checks',{}).get(k) is True for k in CHECKS) and bool(review.get('notes','').strip())
         if not visual:issues.append('Complete Body/combat-scale visual review missing, stale or incomplete')
-    result={'status':'PASS' if not issues else 'NOT_RUN' if not exists else 'FAIL','input_file':path,'input_sha256':sha(path) if exists else None,'format_checks':fmt,'visual_pass':visual,'remaining_issues':issues}
+    result={'status':'PASS' if not issues else 'NOT_RUN' if not exists else 'FAIL','input_file':path,'input_sha256':sha(path) if exists else None,'provenance':'EXPLICIT_USER_APPROVED_EXTERNAL_BASELINE' if valid_external_body() else 'SEQUENTIAL_LOCAL_EDIT_CHAIN','format_checks':fmt,'visual_pass':visual,'remaining_issues':issues}
     save(REPORT+'complete_body_gate.json',result)
     save(REPORT+'pipeline_status.json',{'verdict':'BODY_PASS_DOWNSTREAM_NOT_RUN' if not issues else 'PASS_WITH_IMAGE_EDIT_MANUAL_STEP_REQUIRED' if not exists else 'BLOCKED_COMPLETE_BODY_REVIEW','complete_body':result['status'],'parts':{'required':len(PARTS),'generated':0,'approved':0,'status':'NOT_RUN'},'recomposition':'NOT_RUN','joint_tests':'NOT_RUN','animations':{n:'NOT_RUN' for n in ['idle','walk','attack_01','hit','death']},'attack_release':'NOT_RUN','twenty_unit_smoke':'NOT_RUN','human_medium_rig_reuse':'PLANNED_NOT_PROVEN','godot_handoff':'NOT_READY','note':'Manual-step verdict covers prepared art handoff, not successful native-rig production.'})
     print(json.dumps(result,ensure_ascii=True));return 0 if not issues else 2
