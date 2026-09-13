@@ -11,5 +11,6 @@
     "reports/walk_reference_v1/visual_review.json": "d6948a8088f6f6c3045ac370704748fb015f74f89b7fee540eed16dad7f72642",
     "reports/walk_reference_v1/capture_manifest.json": "b71f93a4ec0de35e72723e5717fe74443454858aebc05980538c7374033dcbe1",
     "reports/walk_reference_v1/follow/capture_manifest.json": "932402a235973a7114541f5ed770eba9e4f77098b6f30527ae5dbd94eeb2ed87"
-  }
+  },
+  "implementation_commit": "9373c6c5436e747755a59ac4ddcf88a70ee8558e"
 }
