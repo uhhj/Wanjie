@@ -8,7 +8,8 @@ func capture() -> void:
 	var viewports: Array = []
 	var units: Array = []
 	var cameras: Array = []
-	var follow := "--walk-reference-follow" in OS.get_cmdline_user_args()
+	var chain := "--walk-chain-v2" in OS.get_cmdline_user_args() or "--walk-chain-v2-follow" in OS.get_cmdline_user_args()
+	var follow := "--walk-reference-follow" in OS.get_cmdline_user_args() or "--walk-chain-v2-follow" in OS.get_cmdline_user_args()
 	var heights = [256,192]
 	for height in heights:
 		var viewport = SubViewport.new()
@@ -63,8 +64,10 @@ func capture() -> void:
 		quit()
 		return
 	var records: Array = []
-	var walk_reference := "--walk-reference" in OS.get_cmdline_user_args() or follow
+	var walk_reference := "--walk-reference" in OS.get_cmdline_user_args() or follow or chain
 	var walk_folder := "reports/walk_reference_v1" if walk_reference else "reports/walk_polish_v1"
+	if chain:
+		walk_folder = "reports/walk_chain_v2"
 	if follow:
 		walk_folder += "/follow"
 	var walk_polish := "--walk-polish" in OS.get_cmdline_user_args() or walk_reference

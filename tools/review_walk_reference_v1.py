@@ -1,9 +1,10 @@
 """Verify Walk-only changes and arrange the 16 actual Godot frames per size."""
 import re
 from rg_common import *
+import sys
 
 def main():
-    folder='reports/walk_reference_v1/'
+    folder=(sys.argv[1].rstrip('/')+'/' if len(sys.argv)>1 else 'reports/walk_reference_v1/')
     old=read(folder+'before_roman_guard_animations_v1.json')
     new=read('resources/roman_guard_animations_v1.json')
     assert all(old[n]==new[n] for n in old if n!='walk'),'Non-Walk animation changed'
@@ -59,7 +60,7 @@ def main():
         with Image.open(ROOT/path) as verify:assert verify.n_frames==16
         outputs[str(height)]['follow_gif']=path
         outputs[str(height)]['follow_gif_sha256']=sha(path)
-    metrics={'status' :'TECHNICAL_PASS_VISUAL_REVIEW_REQUIRED','other_animations_unchanged':True,'rig_outside_walk_resource_unchanged':True,'frozen_files_verified':len(snapshot)-len(allowed),'near_knee_unchanged':True,'gait_structure_unchanged':True,'stride_source_px':387,'foot_pitch_world_degrees':[-12,28],'foot_roll':'heel contact / flat support / toe push-off / trailing recovery / passing / forward placement','contact_method':native['foot_contact_method'],'support_drift_at_256px':native['runtime_support_drift_at_256px'],'support_drift_at_192px':native['runtime_support_drift_at_256px']*.75,'outputs':outputs,'animation_source_sha256':sha('resources/roman_guard_animations_v1.json')}
+    metrics={'status' :'TECHNICAL_PASS_VISUAL_REVIEW_REQUIRED','other_animations_unchanged':True,'rig_outside_walk_resource_unchanged':True,'frozen_files_verified':len(snapshot)-len(allowed),'near_knee_unchanged':True,'gait_structure_unchanged':True,'stride_source_px':387,'foot_pitch_world_degrees':[min(r['world_foot_pitch'] for r in read('resources/walk_contact_targets.json')),max(r['world_foot_pitch'] for r in read('resources/walk_contact_targets.json'))],'foot_roll':'heel contact / flat support / toe push-off / trailing recovery / passing / forward placement','contact_method':native['foot_contact_method'],'support_drift_at_256px':native['runtime_support_drift_at_256px'],'support_drift_at_192px':native['runtime_support_drift_at_256px']*.75,'outputs':outputs,'animation_source_sha256':sha('resources/roman_guard_animations_v1.json')}
     write(folder+'walk_reference_metrics.json',metrics)
     print(json.dumps(metrics,ensure_ascii=False))
 

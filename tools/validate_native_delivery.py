@@ -68,6 +68,12 @@ def main():
         if reference.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json'):
             gate['walk_reference_review']=reference
             gate['flags'].append('Walk reference revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline')
+    chain_path=ROOT/'reports/walk_chain_v2/walk_reference_metrics.json'
+    if chain_path.exists():
+        chain=read(str(chain_path))
+        if chain.get('animation_source_sha256')==sha('resources/roman_guard_animations_v1.json'):
+            gate['walk_chain_review']=chain
+            gate['flags'].append('Walk calf/foot coupling revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline')
     write('reports/native_rig_v2/native_gate_v2.json',gate)
     print(gate['verdict'],technical,statuses)
     for e in errors:print('ERROR',e)

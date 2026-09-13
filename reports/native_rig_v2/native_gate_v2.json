@@ -23,7 +23,7 @@
     "death": "PASS"
   },
   "attack_hit_count": 1,
-  "walk_support_drift_256px": 0.0881627631104366,
+  "walk_support_drift_256px": 0.0378836229703152,
   "rest": {
     "status": "PASS",
     "alpha_threshold": 32,
@@ -177,18 +177,18 @@
     "source": "https://godotengine.org/download/archive/4.7.2-stable/",
     "cpu": "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"
   },
-  "source_animation_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
+  "source_animation_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
   "flags": [
     "PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation",
     "NON_BLOCKING_COMBAT_ARTIFACT: five frozen HIRES alpha findings",
     "Small rigid cape motion; cape_mid/tip reserved, not simulated cloth",
     "Death stress measurement represents held corpses after warm-up",
     "Desktop baseline only; GPU GeForce GTX 1650",
-    "Walk reference revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline"
+    "Walk calf/foot coupling revision: assistant combat-continuity review complete; naturalness awaits user review; FPS remains prior desktop baseline"
   ],
   "visual_approval_file": "reports/native_rig_v2/visual_approval.json",
   "visual_acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS",
-  "walk_reference_review": {
+  "walk_chain_review": {
     "status": "PASS_WITH_QUALITY_RESERVATIONS",
     "other_animations_unchanged": true,
     "rig_outside_walk_resource_unchanged": true,
@@ -197,44 +197,67 @@
     "gait_structure_unchanged": true,
     "stride_source_px": 387,
     "foot_pitch_world_degrees": [
-      -12,
-      28
+      -12.0,
+      18.0
     ],
     "foot_roll": "heel contact / flat support / toe push-off / trailing recovery / passing / forward placement",
     "contact_method": "Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked",
-    "support_drift_at_256px": 0.0881627631104366,
-    "support_drift_at_192px": 0.06612207233282745,
+    "support_drift_at_256px": 0.0378836229703152,
+    "support_drift_at_192px": 0.028412717227736403,
     "outputs": {
       "256": {
-        "gif": "reports/walk_reference_v1/walk_reference_256.gif",
+        "gif": "reports/walk_chain_v2/walk_reference_256.gif",
         "frames": 16,
         "duration_ms": 1000,
-        "sheet": "reports/walk_reference_v1/walk_reference_256_review.png",
-        "gif_sha256": "86452d4b5a3cb82bea016c0f88c3450e2ee26dd6aab74d3a39918c93a623e201",
-        "sheet_sha256": "25f3fb25ab481df8f9cf6edbd2d0cbd10e1bef95c915be3de0df3ce79558f5d1",
-        "follow_gif": "reports/walk_reference_v1/walk_reference_follow_256.gif",
-        "follow_gif_sha256": "000b80c947754746fe51e23640ab14eeec153156096e7e60750cb9efacac6b5f"
+        "sheet": "reports/walk_chain_v2/walk_reference_256_review.png",
+        "gif_sha256": "2b620ca0b3eb88c3842f468462dc71e26f0629f62f337aa1cc30a883a61b91dc",
+        "sheet_sha256": "7b1f7952bcba6e69a5553f0fdfe52e2d52942f05edd3ddab68997a8e6619c592",
+        "follow_gif": "reports/walk_chain_v2/walk_reference_follow_256.gif",
+        "follow_gif_sha256": "c4f9f7506254bbe5238f56102df5429b817c17bac41a0a9c479bc83e6a41229f"
       },
       "192": {
-        "gif": "reports/walk_reference_v1/walk_reference_192.gif",
+        "gif": "reports/walk_chain_v2/walk_reference_192.gif",
         "frames": 16,
         "duration_ms": 1000,
-        "sheet": "reports/walk_reference_v1/walk_reference_192_review.png",
-        "gif_sha256": "37199555cf18686db525e60291d73027210145ed986cbf7e68a2ce0d2a3905bb",
-        "sheet_sha256": "72606640773d1885eba751bfc4d44545b791f48db330124324e6ddb6d7d3d798",
-        "follow_gif": "reports/walk_reference_v1/walk_reference_follow_192.gif",
-        "follow_gif_sha256": "78a48f1628cf42b8ac990a9e7af8ffc9ec24d23aeeabb2924106873eba4a1ed3"
+        "sheet": "reports/walk_chain_v2/walk_reference_192_review.png",
+        "gif_sha256": "d2e00a26112d3c015afd0905bce5a97339cf5a18c9b345fe54d3d95aff9dba59",
+        "sheet_sha256": "1f7384612cf31053da5daecf08fd70aeb01c88b9580ede7b99b7c9ddc74b1e4d",
+        "follow_gif": "reports/walk_chain_v2/walk_reference_follow_192.gif",
+        "follow_gif_sha256": "ecc6bdae22871d35454fec2d4bd5eab7dbd6f58ff2e9441d89a7df910a169cc1"
       }
     },
-    "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
+    "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
     "visual_review": {
       "reviewer": "assistant",
-      "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
+      "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
       "256px": "PASS",
       "192px": "PASS",
-      "scope": "Combat continuity: toe-off visible, alternating support, no newly observed joint break; shield/upper body stable. Actual GPU contact sheets and follow-camera frames inspected.",
+      "scope": "Assistant inspected 16 native GPU frames per scale and before/after push-off/recovery comparison: calf now inclines during pre-swing knee flexion; reduced ankle-only folding; no new obvious combat-scale joint opening observed. Upper-body keys, knee-plate keys, rig and formal assets verified unchanged.",
       "naturalness_acceptance": "USER_REVIEW_PENDING",
-      "limitations": "Reference is a mostly side-view pose strip; frozen 3/4-view art and existing knee deformation range retained. Not a new user approval or a claim of exact pose matching."
+      "limitations": "Current frozen 3/4-view art and approved knee deformation range retained; technical/continuity review is not user acceptance of final gait quality."
+    },
+    "leg_chain_audit": {
+      "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
+      "measurement": "Animation key values and bind-axis geometry; images are separate real Godot GPU captures",
+      "upper_body_and_knee_plate_keys_unchanged": true,
+      "near_toeoff_before": {
+        "version": "before",
+        "time": 0.5,
+        "side": "near",
+        "shin_axis_from_down_degrees": -1.469483928128902,
+        "foot_world_degrees": 28.0,
+        "ankle_local_degrees": 42.19383961355127,
+        "knee_local_degrees": 3.201643439283748
+      },
+      "near_toeoff_after": {
+        "version": "after",
+        "time": 0.5,
+        "side": "near",
+        "shin_axis_from_down_degrees": 12.619540482368558,
+        "foot_world_degrees": 18.000000000000004,
+        "ankle_local_degrees": 18.104815203053814,
+        "knee_local_degrees": 19.201643439283632
+      }
     }
   }
 }

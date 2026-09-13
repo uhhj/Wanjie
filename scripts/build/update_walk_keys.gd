@@ -31,6 +31,8 @@ func _initialize() -> void:
 		for i in range(entry.times.size()):
 			walk.track_set_key_value(track,i,values[path][i])
 	var output = "res://reports/walk_reference_v1/walk_animation.tres" if "--walk-reference" in OS.get_cmdline_user_args() else "res://reports/walk_polish_v1/walk_animation.tres"
+	if "--walk-chain-v2" in OS.get_cmdline_user_args():
+		output = "res://reports/walk_chain_v2/walk_animation.tres"
 	assert(ResourceSaver.save(walk,output)==OK)
 	print("WALK KEY VALUES EXPORTED; existing tracks and all other animations retained")
 	quit()

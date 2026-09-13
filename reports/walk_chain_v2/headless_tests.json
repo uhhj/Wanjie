@@ -1,0 +1,2460 @@
+{
+  "animation_tracks": 186,
+  "attack_hit_count": 1,
+  "bone_count": 23,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "errors": [],
+  "foot_contact_method": "Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked",
+  "foot_samples": [
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": true,
+      "time": 0.0,
+      "world_position": [
+        1.23158359527588,
+        -2.0
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0,
+      "world_position": [
+        15.2853317260742,
+        1.00001525878906
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": true,
+      "time": 0.00833333333333333,
+      "world_position": [
+        1.2340669631958,
+        -1.98503112792969
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.00833333333333333,
+      "world_position": [
+        15.9279708862305,
+        -1.13389587402344
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": true,
+      "time": 0.0166666666666667,
+      "world_position": [
+        1.23323726654053,
+        -1.99004364013672
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0166666666666667,
+      "world_position": [
+        16.5755996704102,
+        -3.285400390625
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": true,
+      "time": 0.025,
+      "world_position": [
+        1.23290348052979,
+        -1.98249816894531
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.025,
+      "world_position": [
+        17.8332443237305,
+        -5.37690734863281
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": true,
+      "time": 0.0333333333333333,
+      "world_position": [
+        1.23344326019287,
+        -1.97374725341797
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0333333333333333,
+      "world_position": [
+        19.6981887817383,
+        -7.39888000488281
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": true,
+      "time": 0.0416666666666667,
+      "world_position": [
+        1.23159885406494,
+        -1.99999237060547
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0416666666666667,
+      "world_position": [
+        21.5646286010742,
+        -9.42605590820313
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.05,
+      "world_position": [
+        48.7645568847656,
+        -2.16757202148438
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.05,
+      "world_position": [
+        24.5409088134766,
+        -11.2977142333984
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.0583333333333333,
+      "world_position": [
+        48.7597732543945,
+        -2.04227447509766
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0583333333333333,
+      "world_position": [
+        27.5172119140625,
+        -13.1695404052734
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.0666666666666667,
+      "world_position": [
+        48.7590408325195,
+        -1.9722900390625
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0666666666666667,
+      "world_position": [
+        31.1110382080078,
+        -15.0048828125
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.075,
+      "world_position": [
+        48.7633209228516,
+        -1.95836639404297
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.075,
+      "world_position": [
+        35.3224868774414,
+        -16.8043365478516
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.0833333333333333,
+      "world_position": [
+        48.7500038146973,
+        -1.99999237060547
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0833333333333333,
+      "world_position": [
+        39.5340728759766,
+        -18.6053924560547
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.0916666666666667,
+      "world_position": [
+        48.7573280334473,
+        -1.97177124023438
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.0916666666666667,
+      "world_position": [
+        44.9894409179688,
+        -20.3611907958984
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.1,
+      "world_position": [
+        48.7547950744629,
+        -1.98114776611328
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.1,
+      "world_position": [
+        50.4455108642578,
+        -22.1256103515625
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.108333333333333,
+      "world_position": [
+        48.7516555786133,
+        -1.98938751220703
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.108333333333333,
+      "world_position": [
+        56.4461135864258,
+        -23.8480987548828
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.116666666666667,
+      "world_position": [
+        48.7524757385254,
+        -1.98410034179688
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.116666666666667,
+      "world_position": [
+        62.9922485351563,
+        -25.5370330810547
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.125,
+      "world_position": [
+        48.75,
+        -1.99998474121094
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.125,
+      "world_position": [
+        69.540168762207,
+        -27.2457885742188
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.133333333333333,
+      "world_position": [
+        48.7524337768555,
+        -1.98119354248047
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.133333333333333,
+      "world_position": [
+        77.0191497802734,
+        -28.8219604492188
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.141666666666667,
+      "world_position": [
+        48.7515563964844,
+        -1.98738098144531
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.141666666666667,
+      "world_position": [
+        84.5014190673828,
+        -30.4313507080078
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.15,
+      "world_position": [
+        48.7515106201172,
+        -1.98780822753906
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.15,
+      "world_position": [
+        92.3712615966797,
+        -31.9690399169922
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.158333333333333,
+      "world_position": [
+        48.7522811889648,
+        -1.98165893554688
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 0.158333333333333,
+      "world_position": [
+        100.629707336426,
+        -33.4456024169922
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.166666666666667,
+      "world_position": [
+        48.7499656677246,
+        -1.99996948242188
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.166666666666667,
+      "world_position": [
+        80.0313491821289,
+        -34.7328338623047
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.175,
+      "world_position": [
+        48.7523422241211,
+        -1.98143768310547
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.175,
+      "world_position": [
+        88.9127960205078,
+        -35.7111358642578
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.183333333333333,
+      "world_position": [
+        48.7515640258789,
+        -1.98762512207031
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.183333333333333,
+      "world_position": [
+        97.8022155761719,
+        -36.7505340576172
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.191666666666667,
+      "world_position": [
+        48.751579284668,
+        -1.98701477050781
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.191666666666667,
+      "world_position": [
+        106.927101135254,
+        -37.6799926757813
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.2,
+      "world_position": [
+        48.752254486084,
+        -1.98046875
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.2,
+      "world_position": [
+        116.287734985352,
+        -38.5082092285156
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.208333333333333,
+      "world_position": [
+        48.7500305175781,
+        -2.00003051757813
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.208333333333333,
+      "world_position": [
+        125.655395507813,
+        -39.4090118408203
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.216666666666667,
+      "world_position": [
+        48.7521591186523,
+        -1.97969055175781
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.216666666666667,
+      "world_position": [
+        135.334533691406,
+        -40.0107879638672
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.225,
+      "world_position": [
+        48.7514190673828,
+        -1.98637390136719
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.225,
+      "world_position": [
+        145.019287109375,
+        -40.6940155029297
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.233333333333333,
+      "world_position": [
+        48.7511405944824,
+        -1.986328125
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.233333333333333,
+      "world_position": [
+        154.787399291992,
+        -41.2600402832031
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.241666666666667,
+      "world_position": [
+        48.7516288757324,
+        -1.97955322265625
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.241666666666667,
+      "world_position": [
+        164.637878417969,
+        -41.7127532958984
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.25,
+      "world_position": [
+        48.7500076293945,
+        -2.00002288818359
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.25,
+      "world_position": [
+        174.490585327148,
+        -42.2524566650391
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.258333333333333,
+      "world_position": [
+        48.7508773803711,
+        -1.98179626464844
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": false,
+      "time": 0.258333333333333,
+      "world_position": [
+        184.357971191406,
+        -42.4668731689453
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.266666666666667,
+      "world_position": [
+        48.7505722045898,
+        -1.98790740966797
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.266666666666667,
+      "world_position": [
+        148.053802490234,
+        -42.2781677246094
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.275,
+      "world_position": [
+        48.7500839233398,
+        -1.98794555664063
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.275,
+      "world_position": [
+        157.86750793457,
+        -41.7772521972656
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.283333333333333,
+      "world_position": [
+        48.7500457763672,
+        -1.98188781738281
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.283333333333333,
+      "world_position": [
+        167.624404907227,
+        -41.1517028808594
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.291666666666667,
+      "world_position": [
+        48.7500228881836,
+        -1.99999237060547
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.291666666666667,
+      "world_position": [
+        177.38671875,
+        -40.6133117675781
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.3,
+      "world_position": [
+        48.7491836547852,
+        -1.97743225097656
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.3,
+      "world_position": [
+        186.886978149414,
+        -39.7521057128906
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.308333333333333,
+      "world_position": [
+        48.7494354248047,
+        -1.98493957519531
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.308333333333333,
+      "world_position": [
+        196.389862060547,
+        -38.9726638793945
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.316666666666667,
+      "world_position": [
+        48.7493095397949,
+        -1.98378753662109
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.316666666666667,
+      "world_position": [
+        205.691970825195,
+        -38.0825881958008
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.325,
+      "world_position": [
+        48.7489013671875,
+        -1.97560119628906
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.325,
+      "world_position": [
+        214.792053222656,
+        -37.0754928588867
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.333333333333333,
+      "world_position": [
+        48.7499694824219,
+        -1.99996948242188
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.333333333333333,
+      "world_position": [
+        223.891143798828,
+        -36.1414566040039
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.341666666666667,
+      "world_position": [
+        48.7514305114746,
+        -1.96855163574219
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.341666666666667,
+      "world_position": [
+        232.446044921875,
+        -34.9244155883789
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.35,
+      "world_position": [
+        48.7508354187012,
+        -1.97897338867188
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.35,
+      "world_position": [
+        240.998046875,
+        -33.769401550293
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.358333333333333,
+      "world_position": [
+        48.7526359558105,
+        -1.9705810546875
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.358333333333333,
+      "world_position": [
+        249.206237792969,
+        -32.517951965332
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.366666666666667,
+      "world_position": [
+        48.7538414001465,
+        -1.95579528808594
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.366666666666667,
+      "world_position": [
+        257.070251464844,
+        -31.16064453125
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": true,
+      "time": 0.375,
+      "world_position": [
+        48.75,
+        -1.99996948242188
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.375,
+      "world_position": [
+        264.929656982422,
+        -29.8523178100586
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.383333333333333,
+      "world_position": [
+        94.94140625,
+        -2.09205627441406
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.383333333333333,
+      "world_position": [
+        271.965179443359,
+        -28.3140487670898
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.391666666666667,
+      "world_position": [
+        94.9354095458984,
+        -2.01252746582031
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.391666666666667,
+      "world_position": [
+        278.996002197266,
+        -26.8112869262695
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.4,
+      "world_position": [
+        94.9358749389648,
+        -1.96170043945313
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": false,
+      "time": 0.4,
+      "world_position": [
+        285.542663574219,
+        -25.2271728515625
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.408333333333333,
+      "world_position": [
+        94.9417419433594,
+        -1.94241333007813
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.408333333333333,
+      "world_position": [
+        244.08757019043,
+        -23.4385604858398
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.416666666666667,
+      "world_position": [
+        94.9235992431641,
+        -1.99993896484375
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.416666666666667,
+      "world_position": [
+        250.149810791016,
+        -21.3129501342773
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.425,
+      "world_position": [
+        94.9380416870117,
+        -1.94883728027344
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.425,
+      "world_position": [
+        255.113159179688,
+        -19.0974807739258
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.433333333333333,
+      "world_position": [
+        94.9330596923828,
+        -1.96583557128906
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.433333333333333,
+      "world_position": [
+        260.076263427734,
+        -16.8945617675781
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": true,
+      "time": 0.441666666666667,
+      "world_position": [
+        94.9317474365234,
+        -2.14578247070313
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.441666666666667,
+      "world_position": [
+        264.418609619141,
+        -14.6729888916016
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": true,
+      "time": 0.45,
+      "world_position": [
+        123.798873901367,
+        -2.1044921875
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.45,
+      "world_position": [
+        268.140258789063,
+        -12.4281005859375
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": true,
+      "time": 0.458333333333333,
+      "world_position": [
+        123.785331726074,
+        -2.00003051757813
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.458333333333333,
+      "world_position": [
+        271.861297607422,
+        -10.1896133422852
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": true,
+      "time": 0.466666666666667,
+      "world_position": [
+        123.790855407715,
+        -1.97894287109375
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.466666666666667,
+      "world_position": [
+        274.199188232422,
+        -7.93387603759766
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": true,
+      "time": 0.475,
+      "world_position": [
+        123.789001464844,
+        -1.98597717285156
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.475,
+      "world_position": [
+        276.536346435547,
+        -5.6844482421875
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": true,
+      "time": 0.483333333333333,
+      "world_position": [
+        123.78491973877,
+        -1.99116516113281
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.483333333333333,
+      "world_position": [
+        278.110382080078,
+        -3.4422607421875
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": true,
+      "time": 0.491666666666667,
+      "world_position": [
+        123.784729003906,
+        -1.98661804199219
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": false,
+      "time": 0.491666666666667,
+      "world_position": [
+        278.92138671875,
+        -1.21367645263672
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.5,
+      "world_position": [
+        123.785293579102,
+        -1.99998474121094
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": true,
+      "time": 0.5,
+      "world_position": [
+        279.731567382813,
+        0.999992370605469
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.508333333333333,
+      "world_position": [
+        124.430786132813,
+        -4.13629150390625
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": true,
+      "time": 0.508333333333333,
+      "world_position": [
+        279.731903076172,
+        1.01370239257813
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.516666666666667,
+      "world_position": [
+        125.077514648438,
+        -6.2869873046875
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": true,
+      "time": 0.516666666666667,
+      "world_position": [
+        279.731781005859,
+        1.00912475585938
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.525,
+      "world_position": [
+        126.333724975586,
+        -8.37751770019531
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": true,
+      "time": 0.525,
+      "world_position": [
+        279.732147216797,
+        1.01708221435547
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.533333333333333,
+      "world_position": [
+        128.198974609375,
+        -10.3999328613281
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": true,
+      "time": 0.533333333333333,
+      "world_position": [
+        279.732360839844,
+        1.02555847167969
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.541666666666667,
+      "world_position": [
+        130.064575195313,
+        -12.4260711669922
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "far",
+      "support": true,
+      "time": 0.541666666666667,
+      "world_position": [
+        279.731567382813,
+        1.00000762939453
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.55,
+      "world_position": [
+        133.040863037109,
+        -14.2978668212891
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.55,
+      "world_position": [
+        327.263793945313,
+        0.832054138183594
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.558333333333333,
+      "world_position": [
+        136.017242431641,
+        -16.1697235107422
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.558333333333333,
+      "world_position": [
+        327.259307861328,
+        0.9573974609375
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.566666666666667,
+      "world_position": [
+        139.611099243164,
+        -18.0046997070313
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.566666666666667,
+      "world_position": [
+        327.258483886719,
+        1.02745056152344
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.575,
+      "world_position": [
+        143.822570800781,
+        -19.8040008544922
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.575,
+      "world_position": [
+        327.262512207031,
+        1.04119873046875
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.583333333333333,
+      "world_position": [
+        148.034057617188,
+        -21.6054382324219
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.583333333333333,
+      "world_position": [
+        327.249969482422,
+        0.999992370605469
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.591666666666667,
+      "world_position": [
+        153.490356445313,
+        -23.3607482910156
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.591666666666667,
+      "world_position": [
+        327.256103515625,
+        1.02763366699219
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.6,
+      "world_position": [
+        158.946151733398,
+        -25.125244140625
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.6,
+      "world_position": [
+        327.254028320313,
+        1.01840972900391
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.608333333333333,
+      "world_position": [
+        164.947662353516,
+        -26.8479309082031
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.608333333333333,
+      "world_position": [
+        327.249969482422,
+        1.01004791259766
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.616666666666667,
+      "world_position": [
+        171.494537353516,
+        -28.5368194580078
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.616666666666667,
+      "world_position": [
+        327.249908447266,
+        1.01506805419922
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.625,
+      "world_position": [
+        178.040130615234,
+        -30.2457885742188
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.625,
+      "world_position": [
+        327.25,
+        1.0
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.633333333333333,
+      "world_position": [
+        185.523193359375,
+        -31.8220062255859
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.633333333333333,
+      "world_position": [
+        327.248779296875,
+        1.01806640625
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.641666666666667,
+      "world_position": [
+        193.004180908203,
+        -33.4314422607422
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.641666666666667,
+      "world_position": [
+        327.249206542969,
+        1.01213073730469
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.65,
+      "world_position": [
+        200.875289916992,
+        -34.9692687988281
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.65,
+      "world_position": [
+        327.24951171875,
+        1.01181793212891
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "near",
+      "support": false,
+      "time": 0.658333333333333,
+      "world_position": [
+        209.135696411133,
+        -36.4459991455078
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.658333333333333,
+      "world_position": [
+        327.249145507813,
+        1.01783752441406
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.666666666666667,
+      "world_position": [
+        188.531372070313,
+        -37.7327728271484
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.666666666666667,
+      "world_position": [
+        327.250030517578,
+        1.0
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.675,
+      "world_position": [
+        197.420440673828,
+        -38.7117614746094
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.675,
+      "world_position": [
+        327.249633789063,
+        1.01832580566406
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.683333333333333,
+      "world_position": [
+        206.307312011719,
+        -39.7509918212891
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.683333333333333,
+      "world_position": [
+        327.249725341797,
+        1.01223754882813
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.691666666666667,
+      "world_position": [
+        215.433120727539,
+        -40.6806488037109
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.691666666666667,
+      "world_position": [
+        327.249877929688,
+        1.01301574707031
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.7,
+      "world_position": [
+        224.796844482422,
+        -41.5091705322266
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.7,
+      "world_position": [
+        327.249816894531,
+        1.01947021484375
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.708333333333333,
+      "world_position": [
+        234.155364990234,
+        -42.4089813232422
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.708333333333333,
+      "world_position": [
+        327.249969482422,
+        1.00003051757813
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.716666666666667,
+      "world_position": [
+        243.844543457031,
+        -43.0119781494141
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.716666666666667,
+      "world_position": [
+        327.249664306641,
+        1.02053833007813
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.725,
+      "world_position": [
+        253.52587890625,
+        -43.6949005126953
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.725,
+      "world_position": [
+        327.249755859375,
+        1.013671875
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.733333333333333,
+      "world_position": [
+        263.29443359375,
+        -44.2608642578125
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.733333333333333,
+      "world_position": [
+        327.24951171875,
+        1.01397705078125
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.741666666666667,
+      "world_position": [
+        273.1484375,
+        -44.714111328125
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.741666666666667,
+      "world_position": [
+        327.249206542969,
+        1.02088928222656
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.75,
+      "world_position": [
+        282.990539550781,
+        -45.2524719238281
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.75,
+      "world_position": [
+        327.249969482422,
+        0.999984741210938
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "near",
+      "support": false,
+      "time": 0.758333333333333,
+      "world_position": [
+        292.868591308594,
+        -45.4683990478516
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.758333333333333,
+      "world_position": [
+        327.248168945313,
+        1.01902770996094
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.766666666666667,
+      "world_position": [
+        256.560882568359,
+        -45.2792053222656
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.766666666666667,
+      "world_position": [
+        327.248687744141,
+        1.01268005371094
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.775,
+      "world_position": [
+        266.374237060547,
+        -44.7782287597656
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.775,
+      "world_position": [
+        327.247436523438,
+        1.0128173828125
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.783333333333333,
+      "world_position": [
+        276.134521484375,
+        -44.1533050537109
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.783333333333333,
+      "world_position": [
+        327.246154785156,
+        1.01910400390625
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.791666666666667,
+      "world_position": [
+        285.886657714844,
+        -43.6133422851563
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.791666666666667,
+      "world_position": [
+        327.249969482422,
+        0.999984741210938
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.8,
+      "world_position": [
+        295.396362304688,
+        -42.7536697387695
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.8,
+      "world_position": [
+        327.243591308594,
+        1.02375793457031
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.808333333333333,
+      "world_position": [
+        304.896057128906,
+        -41.9737701416016
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.808333333333333,
+      "world_position": [
+        327.245635986328,
+        1.01582336425781
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.816666666666667,
+      "world_position": [
+        314.197387695313,
+        -41.0835342407227
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.816666666666667,
+      "world_position": [
+        327.245391845703,
+        1.01679992675781
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.825,
+      "world_position": [
+        323.300262451172,
+        -40.0770034790039
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.825,
+      "world_position": [
+        327.243011474609,
+        1.025146484375
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.833333333333333,
+      "world_position": [
+        332.391204833984,
+        -39.141487121582
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.833333333333333,
+      "world_position": [
+        327.250030517578,
+        1.00007629394531
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.841666666666667,
+      "world_position": [
+        340.952758789063,
+        -37.9258422851563
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.841666666666667,
+      "world_position": [
+        327.246826171875,
+        1.03164672851563
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.85,
+      "world_position": [
+        349.502593994141,
+        -36.7702331542969
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.85,
+      "world_position": [
+        327.247863769531,
+        1.02113342285156
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.858333333333333,
+      "world_position": [
+        357.709655761719,
+        -35.5188293457031
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.858333333333333,
+      "world_position": [
+        327.250152587891,
+        1.02925109863281
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.866666666666667,
+      "world_position": [
+        365.575256347656,
+        -34.1619338989258
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.866666666666667,
+      "world_position": [
+        327.249938964844,
+        1.04389953613281
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.875,
+      "world_position": [
+        373.429656982422,
+        -32.8523025512695
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "far",
+      "support": true,
+      "time": 0.875,
+      "world_position": [
+        327.249969482422,
+        1.00001525878906
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.883333333333333,
+      "world_position": [
+        380.468566894531,
+        -31.315071105957
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.883333333333333,
+      "world_position": [
+        373.438110351563,
+        0.90740966796875
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.891666666666667,
+      "world_position": [
+        387.498260498047,
+        -29.8119583129883
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.891666666666667,
+      "world_position": [
+        373.433258056641,
+        0.987197875976563
+      ]
+    },
+    {
+      "contact_index": 2,
+      "side": "near",
+      "support": false,
+      "time": 0.9,
+      "world_position": [
+        394.0439453125,
+        -28.2277374267578
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.9,
+      "world_position": [
+        373.434020996094,
+        1.03794860839844
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.908333333333333,
+      "world_position": [
+        352.589416503906,
+        -26.4393157958984
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.908333333333333,
+      "world_position": [
+        373.438903808594,
+        1.05708312988281
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.916666666666667,
+      "world_position": [
+        358.649810791016,
+        -24.3129653930664
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.916666666666667,
+      "world_position": [
+        373.423614501953,
+        1.00001525878906
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.925,
+      "world_position": [
+        363.613830566406,
+        -22.0978698730469
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.925,
+      "world_position": [
+        373.435546875,
+        1.05088806152344
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.933333333333333,
+      "world_position": [
+        368.57666015625,
+        -19.8948287963867
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.933333333333333,
+      "world_position": [
+        373.431335449219,
+        1.03398132324219
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.941666666666667,
+      "world_position": [
+        372.918762207031,
+        -17.6729431152344
+      ]
+    },
+    {
+      "contact_index": 3,
+      "side": "far",
+      "support": true,
+      "time": 0.941666666666667,
+      "world_position": [
+        373.430297851563,
+        0.854293823242188
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.95,
+      "world_position": [
+        376.640380859375,
+        -15.4279022216797
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": true,
+      "time": 0.95,
+      "world_position": [
+        402.296569824219,
+        0.89569091796875
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.958333333333333,
+      "world_position": [
+        380.361267089844,
+        -13.1896438598633
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": true,
+      "time": 0.958333333333333,
+      "world_position": [
+        402.285339355469,
+        0.999984741210938
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.966666666666667,
+      "world_position": [
+        382.69970703125,
+        -10.9331436157227
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": true,
+      "time": 0.966666666666667,
+      "world_position": [
+        402.288452148438,
+        1.02203369140625
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.975,
+      "world_position": [
+        385.036682128906,
+        -8.6839599609375
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": true,
+      "time": 0.975,
+      "world_position": [
+        402.287353515625,
+        1.01470947265625
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.983333333333333,
+      "world_position": [
+        386.611846923828,
+        -6.44134521484375
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": true,
+      "time": 0.983333333333333,
+      "world_position": [
+        402.282775878906,
+        1.01043701171875
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 0.991666666666667,
+      "world_position": [
+        387.423522949219,
+        -4.21233367919922
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": true,
+      "time": 0.991666666666667,
+      "world_position": [
+        402.281433105469,
+        1.01571655273438
+      ]
+    },
+    {
+      "contact_index": 1,
+      "side": "near",
+      "support": false,
+      "time": 1.0,
+      "world_position": [
+        388.231597900391,
+        -2.0
+      ]
+    },
+    {
+      "contact_index": 4,
+      "side": "far",
+      "support": false,
+      "time": 1.0,
+      "world_position": [
+        402.285339355469,
+        1.00001525878906
+      ]
+    }
+  ],
+  "foot_slide": {
+    "far": {
+      "at_256px": 0.0378733671500708,
+      "contact_regions_tested": 4,
+      "floor_height_range_source_px": 0.225028991699219,
+      "source_pixels": 0.212297976016998
+    },
+    "near": {
+      "at_256px": 0.0378287099379696,
+      "contact_regions_tested": 4,
+      "floor_height_range_source_px": 0.22515869140625,
+      "source_pixels": 0.212047651410103
+    }
+  },
+  "polygon_count": 4,
+  "runtime_support_drift_at_256px": 0.0378836229703152,
+  "runtime_walk_distance_two_cycles": 773.998657226563,
+  "sprite_count": 20,
+  "status": "PASS",
+  "sword_grip_max_drift_source_px": 6.82393801980652e-05
+}

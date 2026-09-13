@@ -1,0 +1,1789 @@
+{
+  "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
+  "measurement": "Animation key values and bind-axis geometry; images are separate real Godot GPU captures",
+  "upper_body_and_knee_plate_keys_unchanged": true,
+  "near_toeoff_before": {
+    "version": "before",
+    "time": 0.5,
+    "side": "near",
+    "shin_axis_from_down_degrees": -1.469483928128902,
+    "foot_world_degrees": 28.0,
+    "ankle_local_degrees": 42.19383961355127,
+    "knee_local_degrees": 3.201643439283748
+  },
+  "near_toeoff_after": {
+    "version": "after",
+    "time": 0.5,
+    "side": "near",
+    "shin_axis_from_down_degrees": 12.619540482368558,
+    "foot_world_degrees": 18.000000000000004,
+    "ankle_local_degrees": 18.104815203053814,
+    "knee_local_degrees": 19.201643439283632
+  },
+  "samples": [
+    {
+      "version": "before",
+      "time": 0.0,
+      "side": "near",
+      "shin_axis_from_down_degrees": -14.612803004125945,
+      "foot_world_degrees": -12.0,
+      "ankle_local_degrees": 15.337158689548314,
+      "knee_local_degrees": 3.201643439283746
+    },
+    {
+      "version": "before",
+      "time": 0.0,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.539716793182762,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 7.358444519146399,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "before",
+      "time": 0.020833333333333332,
+      "side": "near",
+      "shin_axis_from_down_degrees": -13.680572853266556,
+      "foot_world_degrees": -11.11111111111111,
+      "ankle_local_degrees": 15.293817427577814,
+      "knee_local_degrees": 3.3745525239987906
+    },
+    {
+      "version": "before",
+      "time": 0.020833333333333332,
+      "side": "far",
+      "shin_axis_from_down_degrees": 20.127309121151512,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 3.7708521911776494,
+      "knee_local_degrees": 6.797768147124138
+    },
+    {
+      "version": "before",
+      "time": 0.041666666666666664,
+      "side": "near",
+      "shin_axis_from_down_degrees": -12.995902058697828,
+      "foot_world_degrees": -8.88888888888889,
+      "ankle_local_degrees": 16.831368855231307,
+      "knee_local_degrees": 3.863382226565289
+    },
+    {
+      "version": "before",
+      "time": 0.041666666666666664,
+      "side": "far",
+      "shin_axis_from_down_degrees": 22.043141467219577,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 1.8550198451095845,
+      "knee_local_degrees": 9.952670911643253
+    },
+    {
+      "version": "before",
+      "time": 0.0625,
+      "side": "near",
+      "shin_axis_from_down_degrees": -12.410987963914225,
+      "foot_world_degrees": -6.0,
+      "ankle_local_degrees": 19.135343649336594,
+      "knee_local_degrees": 4.583609450533334
+    },
+    {
+      "version": "before",
+      "time": 0.0625,
+      "side": "far",
+      "shin_axis_from_down_degrees": 23.227644288656787,
+      "foot_world_degrees": 27.996140707175055,
+      "ankle_local_degrees": 0.6666577308474295,
+      "knee_local_degrees": 12.217495572206975
+    },
+    {
+      "version": "before",
+      "time": 0.08333333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.798557622081463,
+      "foot_world_degrees": -3.1111111111111107,
+      "ankle_local_degrees": 21.41180219639272,
+      "knee_local_degrees": 5.410700365818979
+    },
+    {
+      "version": "before",
+      "time": 0.08333333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 23.83386790195035,
+      "foot_world_degrees": 27.674465036035283,
+      "ankle_local_degrees": -0.2612415535859043,
+      "knee_local_degrees": 13.885291889142147
+    },
+    {
+      "version": "before",
+      "time": 0.10416666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.020147585900743,
+      "foot_world_degrees": -0.8888888888888857,
+      "ankle_local_degrees": 22.855614382434226,
+      "knee_local_degrees": 6.2016434392836
+    },
+    {
+      "version": "before",
+      "time": 0.10416666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 23.95017884826434,
+      "foot_world_degrees": 26.871804412061387,
+      "ankle_local_degrees": -1.1802131238737914,
+      "knee_local_degrees": 15.087822144320079
+    },
+    {
+      "version": "before",
+      "time": 0.125,
+      "side": "near",
+      "shin_axis_from_down_degrees": -9.929235783856837,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 22.653591469279206,
+      "knee_local_degrees": 6.819677428033799
+    },
+    {
+      "version": "before",
+      "time": 0.125,
+      "side": "far",
+      "shin_axis_from_down_degrees": 23.64538873010406,
+      "foot_world_degrees": 25.639110631104433,
+      "ankle_local_degrees": -2.1081167866704646,
+      "knee_local_degrees": 15.904048295041896
+    },
+    {
+      "version": "before",
+      "time": 0.14583333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -8.69945087341665,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 21.42380655883902,
+      "knee_local_degrees": 7.157938640750924
+    },
+    {
+      "version": "before",
+      "time": 0.14583333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 22.980184934382546,
+      "foot_world_degrees": 24.027335489015496,
+      "ankle_local_degrees": -3.0546881330378888,
+      "knee_local_degrees": 16.38930266952644
+    },
+    {
+      "version": "before",
+      "time": 0.16666666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -7.617990318574263,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 20.34234600399663,
+      "knee_local_degrees": 7.157938640751226
+    },
+    {
+      "version": "before",
+      "time": 0.16666666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 22.010905935150408,
+      "foot_world_degrees": 22.087430781645665,
+      "ankle_local_degrees": -4.025313841175583,
+      "knee_local_degrees": 16.586326329550808
+    },
+    {
+      "version": "before",
+      "time": 0.1875,
+      "side": "near",
+      "shin_axis_from_down_degrees": -6.685216213994385,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 19.409571899416754,
+      "knee_local_degrees": 6.819677428033188
+    },
+    {
+      "version": "before",
+      "time": 0.1875,
+      "side": "far",
+      "shin_axis_from_down_degrees": 20.7909048671248,
+      "foot_world_degrees": 19.87034830484598,
+      "ankle_local_degrees": -5.0223952499496605,
+      "knee_local_degrees": 16.53030792914363
+    },
+    {
+      "version": "before",
+      "time": 0.20833333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -5.877072782429108,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 18.601428467851477,
+      "knee_local_degrees": 6.201643439283902
+    },
+    {
+      "version": "before",
+      "time": 0.20833333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 19.37107048402973,
+      "foot_world_degrees": 17.427039854467537,
+      "ankle_local_degrees": -6.045869317233031,
+      "knee_local_degrees": 16.251480785918986
+    },
+    {
+      "version": "before",
+      "time": 0.22916666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -5.148901392881831,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 17.8732570783042,
+      "knee_local_degrees": 5.410700365818979
+    },
+    {
+      "version": "before",
+      "time": 0.22916666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 17.80007655849234,
+      "foot_world_degrees": 14.808457226361412,
+      "ankle_local_degrees": -7.093458019801766,
+      "knee_local_degrees": 15.776581117249943
+    },
+    {
+      "version": "before",
+      "time": 0.25,
+      "side": "near",
+      "shin_axis_from_down_degrees": -4.4429052381026555,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 17.167260923525024,
+      "knee_local_degrees": 4.583609450533345
+    },
+    {
+      "version": "before",
+      "time": 0.25,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.124580042657488,
+      "foot_world_degrees": 12.065552216378663,
+      "ankle_local_degrees": -8.160866513949664,
+      "knee_local_degrees": 15.129720939739522
+    },
+    {
+      "version": "before",
+      "time": 0.2708333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": -3.6980912029756734,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 16.422446888398042,
+      "knee_local_degrees": 3.863382226566383
+    },
+    {
+      "version": "before",
+      "time": 0.2708333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 14.389443840544068,
+      "foot_world_degrees": 9.249276620370377,
+      "ankle_local_degrees": -9.24200590784453,
+      "knee_local_degrees": 14.332937425985882
+    },
+    {
+      "version": "before",
+      "time": 0.2916666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.860929312500403,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 15.585284997922772,
+      "knee_local_degrees": 3.3745525239987924
+    },
+    {
+      "version": "before",
+      "time": 0.2916666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 12.637996062771961,
+      "foot_world_degrees": 6.4105822341875935,
+      "ankle_local_degrees": -10.329252516255206,
+      "knee_local_degrees": 13.406553098519375
+    },
+    {
+      "version": "before",
+      "time": 0.3125,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.8947377551394489,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 14.619093440561818,
+      "knee_local_degrees": 3.201643439283748
+    },
+    {
+      "version": "before",
+      "time": 0.3125,
+      "side": "far",
+      "shin_axis_from_down_degrees": 10.912309737362698,
+      "foot_world_degrees": 3.6004208536814417,
+      "ankle_local_degrees": -11.413727571352094,
+      "knee_local_degrees": 12.369420432152832
+    },
+    {
+      "version": "before",
+      "time": 0.3333333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.1361721443414865,
+      "foot_world_degrees": 0.9602194787379972,
+      "ankle_local_degrees": 14.820747308501852,
+      "knee_local_degrees": 3.201643439283748
+    },
+    {
+      "version": "before",
+      "time": 0.3333333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 9.253476596210252,
+      "foot_world_degrees": 0.8697442747029633,
+      "ankle_local_degrees": -12.485571009178127,
+      "knee_local_degrees": 11.23909329584693
+    },
+    {
+      "version": "before",
+      "time": 0.3541666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": -0.8509408845974882,
+      "foot_world_degrees": 3.533607681755834,
+      "ankle_local_degrees": 17.10890425177569,
+      "knee_local_degrees": 3.201643439283748
+    },
+    {
+      "version": "before",
+      "time": 0.3541666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 7.701847267683231,
+      "foot_world_degrees": -1.7304957068968,
+      "ankle_local_degrees": -13.53418166225087,
+      "knee_local_degrees": 10.031950774113525
+    },
+    {
+      "version": "before",
+      "time": 0.375,
+      "side": "near",
+      "shin_axis_from_down_degrees": -0.9183523848740336,
+      "foot_world_degrees": 7.259259259259258,
+      "ankle_local_degrees": 20.90196732955566,
+      "knee_local_degrees": 3.201643439284359
+    },
+    {
+      "version": "before",
+      "time": 0.375,
+      "side": "far",
+      "shin_axis_from_down_degrees": 6.297214215854387,
+      "foot_world_degrees": -4.149347295266722,
+      "ankle_local_degrees": -14.548400198791947,
+      "knee_local_degrees": 8.763289296571081
+    },
+    {
+      "version": "before",
+      "time": 0.3958333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.233024521060889,
+      "foot_world_degrees": 11.676268861454044,
+      "ankle_local_degrees": 25.633649067937302,
+      "knee_local_degrees": 3.201643439283746
+    },
+    {
+      "version": "before",
+      "time": 0.3958333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 5.078921773618445,
+      "foot_world_degrees": -6.335858694555746,
+      "ankle_local_degrees": -15.51661915584503,
+      "knee_local_degrees": 7.447393309318233
+    },
+    {
+      "version": "before",
+      "time": 0.4166666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.6655501109901412,
+      "foot_world_degrees": 16.32373113854596,
+      "ankle_local_degrees": 30.71363693495847,
+      "knee_local_degrees": 3.201643439283746
+    },
+    {
+      "version": "before",
+      "time": 0.4166666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 4.085899548298482,
+      "foot_world_degrees": -8.239078108912828,
+      "ankle_local_degrees": -16.42681634488215,
+      "knee_local_degrees": 6.097591228605095
+    },
+    {
+      "version": "before",
+      "time": 0.4375,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.0794227289630776,
+      "foot_world_degrees": 20.74074074074074,
+      "ankle_local_degrees": 35.54451915512619,
+      "knee_local_degrees": 3.201643439283009
+    },
+    {
+      "version": "before",
+      "time": 0.4375,
+      "side": "far",
+      "shin_axis_from_down_degrees": 3.3566316298635535,
+      "foot_world_degrees": -9.808053742486848,
+      "ankle_local_degrees": -17.26652406002124,
+      "knee_local_degrees": 4.72630120959904
+    },
+    {
+      "version": "before",
+      "time": 0.4583333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.3047238031635047,
+      "foot_world_degrees": 24.466392318244168,
+      "ankle_local_degrees": 39.49547180683004,
+      "knee_local_degrees": 3.2016434392843554
+    },
+    {
+      "version": "before",
+      "time": 0.4583333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 2.929094411861218,
+      "foot_world_degrees": -10.991833799426772,
+      "ankle_local_degrees": -18.022766898958828,
+      "knee_local_degrees": 3.345069831082832
+    },
+    {
+      "version": "before",
+      "time": 0.4791666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.160583152650201,
+      "foot_world_degrees": 27.039780521261996,
+      "ankle_local_degrees": 41.92471935933457,
+      "knee_local_degrees": 3.201643439283748
+    },
+    {
+      "version": "before",
+      "time": 0.4791666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 2.840719795966712,
+      "foot_world_degrees": -11.739466483881511,
+      "ankle_local_degrees": -18.682024967519062,
+      "knee_local_degrees": 1.9646058467694747
+    },
+    {
+      "version": "before",
+      "time": 0.5,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.469483928128902,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 42.19383961355127,
+      "knee_local_degrees": 3.201643439283748
+    },
+    {
+      "version": "before",
+      "time": 0.5,
+      "side": "far",
+      "shin_axis_from_down_degrees": 3.12846695034004,
+      "foot_world_degrees": -12.0,
+      "ankle_local_degrees": -19.23030563801088,
+      "knee_local_degrees": 0.5948105107781139
+    },
+    {
+      "version": "before",
+      "time": 0.5208333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 1.9868419985572405,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 38.73751368686513,
+      "knee_local_degrees": 9.40460107562938
+    },
+    {
+      "version": "before",
+      "time": 0.5208333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 4.0014518718375705,
+      "foot_world_degrees": -11.1111111111111,
+      "ankle_local_degrees": -19.21440167061951,
+      "knee_local_degrees": 0.7677195954930438
+    },
+    {
+      "version": "before",
+      "time": 0.5416666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 3.7875239448513387,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 36.93683174057103,
+      "knee_local_degrees": 12.559503840148814
+    },
+    {
+      "version": "before",
+      "time": 0.5416666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 4.6299507572033995,
+      "foot_world_degrees": -8.888888888888907,
+      "ankle_local_degrees": -17.620678333763145,
+      "knee_local_degrees": 1.2565492980603805
+    },
+    {
+      "version": "before",
+      "time": 0.5625,
+      "side": "near",
+      "shin_axis_from_down_degrees": 4.8804961291578834,
+      "foot_world_degrees": 27.99614070717506,
+      "ankle_local_degrees": 35.84000026343954,
+      "knee_local_degrees": 14.824328500712303
+    },
+    {
+      "version": "before",
+      "time": 0.5625,
+      "side": "far",
+      "shin_axis_from_down_degrees": 5.160821159158781,
+      "foot_world_degrees": -5.999999999999998,
+      "ankle_local_degrees": -15.262659846829617,
+      "knee_local_degrees": 1.9767765220282607
+    },
+    {
+      "version": "before",
+      "time": 0.5833333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 5.422176425057701,
+      "foot_world_degrees": 27.674465036035286,
+      "ankle_local_degrees": 34.976644296399954,
+      "knee_local_degrees": 16.49212481764755
+    },
+    {
+      "version": "before",
+      "time": 0.5833333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 5.722393913479342,
+      "foot_world_degrees": -3.111111111111091,
+      "ankle_local_degrees": -12.935343712261272,
+      "knee_local_degrees": 2.8038674373132553
+    },
+    {
+      "version": "before",
+      "time": 0.6041666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 5.5010469434204,
+      "foot_world_degrees": 26.871804412061387,
+      "ankle_local_degrees": 34.095113154063355,
+      "knee_local_degrees": 17.694655072825583
+    },
+    {
+      "version": "before",
+      "time": 0.6041666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 6.455214654783408,
+      "foot_world_degrees": -0.8888888888889035,
+      "ankle_local_degrees": -11.44594223134315,
+      "knee_local_degrees": 3.5948105107780277
+    },
+    {
+      "version": "before",
+      "time": 0.625,
+      "side": "near",
+      "shin_axis_from_down_degrees": 5.183765932963622,
+      "foot_world_degrees": 25.639110631104433,
+      "ankle_local_degrees": 33.17970038356318,
+      "knee_local_degrees": 18.510881223547273
+    },
+    {
+      "version": "before",
+      "time": 0.625,
+      "side": "far",
+      "shin_axis_from_down_degrees": 7.509501560715391,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -11.61134024838623,
+      "knee_local_degrees": 4.2128444995279875
+    },
+    {
+      "version": "before",
+      "time": 0.6458333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 4.527388485117255,
+      "foot_world_degrees": 24.027335489015496,
+      "ankle_local_degrees": 32.22430268932061,
+      "knee_local_degrees": 18.99613559803204
+    },
+    {
+      "version": "before",
+      "time": 0.6458333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 8.714801296457189,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -12.816639984128027,
+      "knee_local_degrees": 4.551105712245732
+    },
+    {
+      "version": "before",
+      "time": 0.6666666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 3.583821082530834,
+      "foot_world_degrees": 22.08743078164566,
+      "ankle_local_degrees": 31.227965384537196,
+      "knee_local_degrees": 19.19315925805635
+    },
+    {
+      "version": "before",
+      "time": 0.6666666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 9.782834326399763,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -13.884673014070602,
+      "knee_local_degrees": 4.551105712245734
+    },
+    {
+      "version": "before",
+      "time": 0.6875,
+      "side": "near",
+      "shin_axis_from_down_degrees": 2.401749412433153,
+      "foot_world_degrees": 19.870348304845983,
+      "ankle_local_degrees": 30.1929545778352,
+      "knee_local_degrees": 19.137140857649197
+    },
+    {
+      "version": "before",
+      "time": 0.6875,
+      "side": "far",
+      "shin_axis_from_down_degrees": 10.712955107871231,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -14.81479379554207,
+      "knee_local_degrees": 4.212844499527847
+    },
+    {
+      "version": "before",
+      "time": 0.7083333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 1.0275989661081883,
+      "foot_world_degrees": 17.427039854467537,
+      "ankle_local_degrees": 29.123796573781718,
+      "knee_local_degrees": 18.85831371442439
+    },
+    {
+      "version": "before",
+      "time": 0.7083333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 11.52915091022142,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -15.630989597892258,
+      "knee_local_degrees": 3.594810510777876
+    },
+    {
+      "version": "before",
+      "time": 0.7291666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -0.49389826306870965,
+      "foot_world_degrees": 14.808457226361416,
+      "ankle_local_degrees": 28.026711174852494,
+      "knee_local_degrees": 18.3834140457555
+    },
+    {
+      "version": "before",
+      "time": 0.7291666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 12.2761939150578,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -16.378032602728638,
+      "knee_local_degrees": 2.8038674373135724
+    },
+    {
+      "version": "before",
+      "time": 0.75,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.119297206023605,
+      "foot_world_degrees": 12.065552216378663,
+      "ankle_local_degrees": 26.909205107824636,
+      "knee_local_degrees": 17.73655386824507
+    },
+    {
+      "version": "before",
+      "time": 0.75,
+      "side": "far",
+      "shin_axis_from_down_degrees": 13.012027916252958,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -17.113866603923796,
+      "knee_local_degrees": 1.9767765220279543
+    },
+    {
+      "version": "before",
+      "time": 0.7708333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -3.8060985115981136,
+      "foot_world_degrees": 9.249276620370367,
+      "ankle_local_degrees": 25.77973081739085,
+      "knee_local_degrees": 16.939770354491237
+    },
+    {
+      "version": "before",
+      "time": 0.7708333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 13.79772749266699,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -17.89956618033783,
+      "knee_local_degrees": 1.2565492980606123
+    },
+    {
+      "version": "before",
+      "time": 0.7916666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -5.51244238890971,
+      "foot_world_degrees": 6.410582234187615,
+      "ankle_local_degrees": 24.647380308519693,
+      "knee_local_degrees": 16.013386027024893
+    },
+    {
+      "version": "before",
+      "time": 0.7916666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 14.68688966163985,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -18.788728349310688,
+      "knee_local_degrees": 0.7677195954928919
+    },
+    {
+      "version": "before",
+      "time": 0.8125,
+      "side": "near",
+      "shin_axis_from_down_degrees": -7.196839722864302,
+      "foot_world_degrees": 3.6004208536814417,
+      "ankle_local_degrees": 23.521616261968113,
+      "knee_local_degrees": 14.976253360658482
+    },
+    {
+      "version": "before",
+      "time": 0.8125,
+      "side": "far",
+      "shin_axis_from_down_degrees": 15.716410947604729,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -19.818249635275567,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "before",
+      "time": 0.8333333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -8.81795975244709,
+      "foot_world_degrees": 0.8697442747029456,
+      "ankle_local_degrees": 22.412059712572404,
+      "knee_local_degrees": 13.84592622435245
+    },
+    {
+      "version": "before",
+      "time": 0.8333333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.53559288078388,
+      "foot_world_degrees": 0.9602194787380114,
+      "ankle_local_degrees": -19.677212089716708,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "before",
+      "time": 0.8541666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -10.334501701348374,
+      "foot_world_degrees": -1.7304957068967894,
+      "ankle_local_degrees": 21.328361679873954,
+      "knee_local_degrees": 12.63878370261909
+    },
+    {
+      "version": "before",
+      "time": 0.8541666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.86520185328763,
+      "foot_world_degrees": 3.5336076817558073,
+      "ankle_local_degrees": -17.43343285920266,
+      "knee_local_degrees": 0.5948105107778723
+    },
+    {
+      "version": "before",
+      "time": 0.875,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.705178922471381,
+      "foot_world_degrees": -4.149347295266722,
+      "ankle_local_degrees": 20.280187312627028,
+      "knee_local_degrees": 11.370122225076791
+    },
+    {
+      "version": "before",
+      "time": 0.875,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.829607718787564,
+      "foot_world_degrees": 7.2592592592592595,
+      "ankle_local_degrees": -13.672187147199143,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "before",
+      "time": 0.8958333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -12.88883814135473,
+      "foot_world_degrees": -6.335858694555753,
+      "ankle_local_degrees": 19.277335132221346,
+      "knee_local_degrees": 10.054226237823727
+    },
+    {
+      "version": "before",
+      "time": 0.8958333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.539079823343123,
+      "foot_world_degrees": 11.67626886145408,
+      "ankle_local_degrees": -8.964649649559881,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "before",
+      "time": 0.9166666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -13.84472215871425,
+      "foot_world_degrees": -8.239078108912814,
+      "ankle_local_degrees": 18.329999735223804,
+      "knee_local_degrees": 8.704424157110655
+    },
+    {
+      "version": "before",
+      "time": 0.9166666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.129570939329092,
+      "foot_world_degrees": 16.32373113854592,
+      "ankle_local_degrees": -3.9076784884540103,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "before",
+      "time": 0.9375,
+      "side": "near",
+      "shin_axis_from_down_degrees": -14.532861260710279,
+      "foot_world_degrees": -9.808053742486848,
+      "ankle_local_degrees": 17.4491632036458,
+      "knee_local_degrees": 7.3331341381048
+    },
+    {
+      "version": "before",
+      "time": 0.9375,
+      "side": "far",
+      "shin_axis_from_down_degrees": 15.743828794630218,
+      "foot_world_degrees": 20.74074074074074,
+      "ankle_local_degrees": 0.8950732584396839,
+      "knee_local_degrees": 0.5948105107778687
+    },
+    {
+      "version": "before",
+      "time": 0.9583333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -14.914547811101984,
+      "foot_world_degrees": -10.991833799426779,
+      "ankle_local_degrees": 16.647069697097574,
+      "knee_local_degrees": 5.951902759588354
+    },
+    {
+      "version": "before",
+      "time": 0.9583333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 15.558585632761453,
+      "foot_world_degrees": 24.466392318244196,
+      "ankle_local_degrees": 4.805967997811905,
+      "knee_local_degrees": 0.5948105107778723
+    },
+    {
+      "version": "before",
+      "time": 0.9791666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -14.952814169333875,
+      "foot_world_degrees": -11.739466483881515,
+      "ankle_local_degrees": 15.937703370874729,
+      "knee_local_degrees": 4.571438775274942
+    },
+    {
+      "version": "before",
+      "time": 0.9791666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 15.761734625329016,
+      "foot_world_degrees": 27.03978052126199,
+      "ankle_local_degrees": 7.176207208262134,
+      "knee_local_degrees": 0.5948105107781139
+    },
+    {
+      "version": "before",
+      "time": 1.0,
+      "side": "near",
+      "shin_axis_from_down_degrees": -14.612803004125945,
+      "foot_world_degrees": -12.0,
+      "ankle_local_degrees": 15.337158689548314,
+      "knee_local_degrees": 3.201643439283746
+    },
+    {
+      "version": "before",
+      "time": 1.0,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.539716793182762,
+      "foot_world_degrees": 28.0,
+      "ankle_local_degrees": 7.358444519146399,
+      "knee_local_degrees": 0.5948105107780499
+    },
+    {
+      "version": "after",
+      "time": 0.0,
+      "side": "near",
+      "shin_axis_from_down_degrees": -10.604783571114167,
+      "foot_world_degrees": -12.0,
+      "ankle_local_degrees": 11.329139256536536,
+      "knee_local_degrees": 3.201643439283007
+    },
+    {
+      "version": "after",
+      "time": 0.0,
+      "side": "far",
+      "shin_axis_from_down_degrees": 27.080875964685355,
+      "foot_world_degrees": 18.0,
+      "ankle_local_degrees": -13.182714652356193,
+      "knee_local_degrees": 16.594810510778125
+    },
+    {
+      "version": "after",
+      "time": 0.020833333333333332,
+      "side": "near",
+      "shin_axis_from_down_degrees": -9.686632881565961,
+      "foot_world_degrees": -11.11111111111111,
+      "ankle_local_degrees": 11.299877455877219,
+      "knee_local_degrees": 3.3745525239982186
+    },
+    {
+      "version": "after",
+      "time": 0.020833333333333332,
+      "side": "far",
+      "shin_axis_from_down_degrees": 28.02610405906646,
+      "foot_world_degrees": 18.0,
+      "ankle_local_degrees": -14.127942746737295,
+      "knee_local_degrees": 16.594810510778018
+    },
+    {
+      "version": "after",
+      "time": 0.041666666666666664,
+      "side": "near",
+      "shin_axis_from_down_degrees": -9.00895856536299,
+      "foot_world_degrees": -8.88888888888889,
+      "ankle_local_degrees": 12.84442536189647,
+      "knee_local_degrees": 3.863382226565289
+    },
+    {
+      "version": "after",
+      "time": 0.041666666666666664,
+      "side": "far",
+      "shin_axis_from_down_degrees": 28.539113889079797,
+      "foot_world_degrees": 18.0,
+      "ankle_local_degrees": -14.640952576750635,
+      "knee_local_degrees": 16.594810510778036
+    },
+    {
+      "version": "after",
+      "time": 0.0625,
+      "side": "near",
+      "shin_axis_from_down_degrees": -8.427434346659085,
+      "foot_world_degrees": -6.0,
+      "ankle_local_degrees": 15.151790032081454,
+      "knee_local_degrees": 4.583609450533345
+    },
+    {
+      "version": "after",
+      "time": 0.0625,
+      "side": "far",
+      "shin_axis_from_down_degrees": 28.655679462776643,
+      "foot_world_degrees": 17.997105530381294,
+      "ankle_local_degrees": -14.760412620066187,
+      "knee_local_degrees": 16.594810510778036
+    },
+    {
+      "version": "after",
+      "time": 0.08333333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": -7.817717147354282,
+      "foot_world_degrees": -3.1111111111111107,
+      "ankle_local_degrees": 17.43096172166554,
+      "knee_local_degrees": 5.410700365819334
+    },
+    {
+      "version": "after",
+      "time": 0.08333333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 28.414209077999626,
+      "foot_world_degrees": 17.755848777026458,
+      "ankle_local_degrees": -14.760198988644005,
+      "knee_local_degrees": 16.594810510778032
+    },
+    {
+      "version": "after",
+      "time": 0.10416666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": -7.044378823760846,
+      "foot_world_degrees": -0.8888888888888893,
+      "ankle_local_degrees": 18.879845620294326,
+      "knee_local_degrees": 6.201643439283906
+    },
+    {
+      "version": "after",
+      "time": 0.10416666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 27.852795359066203,
+      "foot_world_degrees": 17.153853309046042,
+      "ankle_local_degrees": -14.800780737691,
+      "knee_local_degrees": 16.589638346426224
+    },
+    {
+      "version": "after",
+      "time": 0.125,
+      "side": "near",
+      "shin_axis_from_down_degrees": -5.963585172747164,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 18.687940858169533,
+      "knee_local_degrees": 6.819677428033799
+    },
+    {
+      "version": "after",
+      "time": 0.125,
+      "side": "far",
+      "shin_axis_from_down_degrees": 26.940063006346673,
+      "foot_world_degrees": 16.229332973328326,
+      "ankle_local_degrees": -14.812568720689187,
+      "knee_local_degrees": 16.415123010778032
+    },
+    {
+      "version": "after",
+      "time": 0.14583333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -4.746577183258401,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 17.47093286868077,
+      "knee_local_degrees": 7.1579386407509205
+    },
+    {
+      "version": "after",
+      "time": 0.14583333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 25.69341978666441,
+      "foot_world_degrees": 15.020501616761624,
+      "ankle_local_degrees": -14.774756857573625,
+      "knee_local_degrees": 16.012743091796587
+    },
+    {
+      "version": "after",
+      "time": 0.16666666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -3.6770410999169574,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 16.401396785339326,
+      "knee_local_degrees": 7.157938640751496
+    },
+    {
+      "version": "after",
+      "time": 0.16666666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 24.16871582973616,
+      "foot_world_degrees": 13.565573086234245,
+      "ankle_local_degrees": -14.704981431172754,
+      "knee_local_degrees": 15.409625325592826
+    },
+    {
+      "version": "after",
+      "time": 0.1875,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.7553686982232293,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 15.479724383645598,
+      "knee_local_degrees": 6.819677428033467
+    },
+    {
+      "version": "after",
+      "time": 0.1875,
+      "side": "far",
+      "shin_axis_from_down_degrees": 22.420954374532826,
+      "foot_world_degrees": 11.902761228634485,
+      "ankle_local_degrees": -14.620031833569179,
+      "knee_local_degrees": 14.632896448277904
+    },
+    {
+      "version": "after",
+      "time": 0.20833333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.9573290102409242,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 14.681684695663293,
+      "knee_local_degrees": 6.2016434392836
+    },
+    {
+      "version": "after",
+      "time": 0.20833333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 20.50369900594727,
+      "foot_world_degrees": 10.070279890850653,
+      "ankle_local_degrees": -14.535257802767454,
+      "knee_local_degrees": 13.709683195963215
+    },
+    {
+      "version": "after",
+      "time": 0.22916666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -1.2379824059101896,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 13.962338091332558,
+      "knee_local_degrees": 5.410700365819334
+    },
+    {
+      "version": "after",
+      "time": 0.22916666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 18.46880921066281,
+      "foot_world_degrees": 8.106342919771059,
+      "ankle_local_degrees": -14.464304978562588,
+      "knee_local_degrees": 12.66711230475937
+    },
+    {
+      "version": "after",
+      "time": 0.25,
+      "side": "near",
+      "shin_axis_from_down_degrees": -0.5392766569452334,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 13.263632342367602,
+      "knee_local_degrees": 4.583609450533755
+    },
+    {
+      "version": "after",
+      "time": 0.25,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.366450494757828,
+      "foot_world_degrees": 6.049164162283997,
+      "ankle_local_degrees": -14.41912502014467,
+      "knee_local_degrees": 11.532310510778094
+    },
+    {
+      "version": "after",
+      "time": 0.2708333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": 0.33350264551910946,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 12.39085303990326,
+      "knee_local_degrees": 4.178197041380251
+    },
+    {
+      "version": "after",
+      "time": 0.2708333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 14.245307477683951,
+      "foot_world_degrees": 3.936957465277784,
+      "ankle_local_degrees": -14.410188700077006,
+      "knee_local_degrees": 10.332404550129903
+    },
+    {
+      "version": "after",
+      "time": 0.2916666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": 1.5364033298399455,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 11.187952355582423,
+      "knee_local_degrees": 4.559737709184027
+    },
+    {
+      "version": "after",
+      "time": 0.2916666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 12.152925784379292,
+      "foot_world_degrees": 1.807936675640697,
+      "ankle_local_degrees": -14.446827796409433,
+      "knee_local_degrees": 9.094521158926144
+    },
+    {
+      "version": "after",
+      "time": 0.3125,
+      "side": "near",
+      "shin_axis_from_down_degrees": 3.059323892467946,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": 9.665031792954423,
+      "knee_local_degrees": 5.701643439283808
+    },
+    {
+      "version": "after",
+      "time": 0.3125,
+      "side": "far",
+      "shin_axis_from_down_degrees": 10.13611412030572,
+      "foot_world_degrees": -0.2996843597389187,
+      "ankle_local_degrees": -14.537637167715477,
+      "knee_local_degrees": 7.845787073278139
+    },
+    {
+      "version": "after",
+      "time": 0.3333333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": 4.61771786612176,
+      "foot_world_degrees": 0.6172839506172814,
+      "ankle_local_degrees": 8.72392176991789,
+      "knee_local_degrees": 7.3497915874318736
+    },
+    {
+      "version": "after",
+      "time": 0.3333333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 8.241346721465927,
+      "foot_world_degrees": -2.3476917939727784,
+      "ankle_local_degrees": -14.690877203109544,
+      "knee_local_degrees": 6.613329029296679
+    },
+    {
+      "version": "after",
+      "time": 0.3541666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": 5.968107854740115,
+      "foot_world_degrees": 2.271604938271606,
+      "ankle_local_degrees": 9.02785276895386,
+      "knee_local_degrees": 9.220161957802286
+    },
+    {
+      "version": "after",
+      "time": 0.3541666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 6.515116066154214,
+      "foot_world_degrees": -4.297871780172599,
+      "ankle_local_degrees": -14.914826533997651,
+      "knee_local_degrees": 5.424273763092999
+    },
+    {
+      "version": "after",
+      "time": 0.375,
+      "side": "near",
+      "shin_axis_from_down_degrees": 7.14463868434059,
+      "foot_world_degrees": 4.666666666666668,
+      "ankle_local_degrees": 10.246383667748447,
+      "knee_local_degrees": 11.201643439283735
+    },
+    {
+      "version": "after",
+      "time": 0.375,
+      "side": "far",
+      "shin_axis_from_down_degrees": 5.004196154303736,
+      "foot_world_degrees": -6.112010471450038,
+      "ankle_local_degrees": -15.218045313424613,
+      "knee_local_degrees": 4.305748010778091
+    },
+    {
+      "version": "after",
+      "time": 0.3958333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": 8.177662748028242,
+      "foot_world_degrees": 7.506172839506171,
+      "ankle_local_degrees": 12.052865776900298,
+      "knee_local_degrees": 13.183124920765167
+    },
+    {
+      "version": "after",
+      "time": 0.3958333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 3.755789208381617,
+      "foot_world_degrees": -7.751894020916809,
+      "ankle_local_degrees": -15.609521916969264,
+      "knee_local_degrees": 3.2848785084631915
+    },
+    {
+      "version": "after",
+      "time": 0.4166666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": 9.096896507876917,
+      "foot_world_degrees": 10.49382716049383,
+      "ankle_local_degrees": 14.121286338039281,
+      "knee_local_degrees": 15.053495291135553
+    },
+    {
+      "version": "after",
+      "time": 0.4166666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 2.8175455776048226,
+      "foot_world_degrees": -9.179308581684623,
+      "ankle_local_degrees": -16.098692846960283,
+      "knee_local_degrees": 2.3887919922593426
+    },
+    {
+      "version": "after",
+      "time": 0.4375,
+      "side": "near",
+      "shin_axis_from_down_degrees": 9.947610551880052,
+      "foot_world_degrees": 13.333333333333332,
+      "ankle_local_degrees": 16.11007846687565,
+      "knee_local_degrees": 16.701643439283643
+    },
+    {
+      "version": "after",
+      "time": 0.4375,
+      "side": "far",
+      "shin_axis_from_down_degrees": 2.2374702147634107,
+      "foot_world_degrees": -10.356040306865138,
+      "ankle_local_degrees": -16.695349209299387,
+      "knee_local_degrees": 1.6446151982781236
+    },
+    {
+      "version": "after",
+      "time": 0.4583333333333333,
+      "side": "near",
+      "shin_axis_from_down_degrees": 10.78075861053278,
+      "foot_world_degrees": 15.728395061728392,
+      "ankle_local_degrees": 17.67199213661798,
+      "knee_local_degrees": 18.016458254098332
+    },
+    {
+      "version": "after",
+      "time": 0.4583333333333333,
+      "side": "far",
+      "shin_axis_from_down_degrees": 2.063760768538282,
+      "foot_world_degrees": -11.243875349570077,
+      "ankle_local_degrees": -17.409474805779197,
+      "knee_local_degrees": 1.0794748626300947
+    },
+    {
+      "version": "after",
+      "time": 0.4791666666666667,
+      "side": "near",
+      "shin_axis_from_down_degrees": 11.651033087036714,
+      "foot_world_degrees": 17.38271604938272,
+      "ankle_local_degrees": 18.456038647768374,
+      "knee_local_degrees": 18.88682862446874
+    },
+    {
+      "version": "after",
+      "time": 0.4791666666666667,
+      "side": "far",
+      "shin_axis_from_down_degrees": 2.344661967963903,
+      "foot_world_degrees": -11.804599862911141,
+      "ankle_local_degrees": -18.251100518545883,
+      "knee_local_degrees": 0.7204977214262618
+    },
+    {
+      "version": "after",
+      "time": 0.5,
+      "side": "near",
+      "shin_axis_from_down_degrees": 12.619540482368558,
+      "foot_world_degrees": 18.000000000000004,
+      "ankle_local_degrees": 18.104815203053814,
+      "knee_local_degrees": 19.201643439283632
+    },
+    {
+      "version": "after",
+      "time": 0.5,
+      "side": "far",
+      "shin_axis_from_down_degrees": 3.12846695034004,
+      "foot_world_degrees": -12.0,
+      "ankle_local_degrees": -19.23030563801088,
+      "knee_local_degrees": 0.5948105107781139
+    },
+    {
+      "version": "after",
+      "time": 0.5208333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 13.443926278966424,
+      "foot_world_degrees": 18.0,
+      "ankle_local_degrees": 17.280429406455944,
+      "knee_local_degrees": 19.20164343928363
+    },
+    {
+      "version": "after",
+      "time": 0.5208333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 4.0014518718375705,
+      "foot_world_degrees": -11.1111111111111,
+      "ankle_local_degrees": -19.21440167061951,
+      "knee_local_degrees": 0.7677195954930438
+    },
+    {
+      "version": "after",
+      "time": 0.5416666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 13.867280038305372,
+      "foot_world_degrees": 18.000000000000004,
+      "ankle_local_degrees": 16.857075647117,
+      "knee_local_degrees": 19.201643439283515
+    },
+    {
+      "version": "after",
+      "time": 0.5416666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 4.6299507572033995,
+      "foot_world_degrees": -8.888888888888907,
+      "ankle_local_degrees": -17.620678333763145,
+      "knee_local_degrees": 1.2565492980603805
+    },
+    {
+      "version": "after",
+      "time": 0.5625,
+      "side": "near",
+      "shin_axis_from_down_degrees": 13.92580806095703,
+      "foot_world_degrees": 17.997105530381294,
+      "ankle_local_degrees": 16.795653154846633,
+      "knee_local_degrees": 19.201643439283515
+    },
+    {
+      "version": "after",
+      "time": 0.5625,
+      "side": "far",
+      "shin_axis_from_down_degrees": 5.160821159158781,
+      "foot_world_degrees": -5.999999999999998,
+      "ankle_local_degrees": -15.262659846829617,
+      "knee_local_degrees": 1.9767765220282607
+    },
+    {
+      "version": "after",
+      "time": 0.5833333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 13.656390908778144,
+      "foot_world_degrees": 17.75584877702646,
+      "ankle_local_degrees": 16.823813553670686,
+      "knee_local_degrees": 19.201643439283632
+    },
+    {
+      "version": "after",
+      "time": 0.5833333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 5.722393913479342,
+      "foot_world_degrees": -3.111111111111091,
+      "ankle_local_degrees": -12.935343712261272,
+      "knee_local_degrees": 2.8038674373132553
+    },
+    {
+      "version": "after",
+      "time": 0.6041666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 13.094185112491706,
+      "foot_world_degrees": 17.153853309046042,
+      "ankle_local_degrees": 16.784023881976704,
+      "knee_local_degrees": 19.196471274931707
+    },
+    {
+      "version": "after",
+      "time": 0.6041666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 6.455214654783408,
+      "foot_world_degrees": -0.8888888888889035,
+      "ankle_local_degrees": -11.44594223134315,
+      "knee_local_degrees": 3.5948105107780277
+    },
+    {
+      "version": "after",
+      "time": 0.625,
+      "side": "near",
+      "shin_axis_from_down_degrees": 12.206400012243089,
+      "foot_world_degrees": 16.229332973328326,
+      "ankle_local_degrees": 16.747288646507606,
+      "knee_local_degrees": 19.021955939283657
+    },
+    {
+      "version": "after",
+      "time": 0.625,
+      "side": "far",
+      "shin_axis_from_down_degrees": 7.509501560715391,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -11.61134024838623,
+      "knee_local_degrees": 4.2128444995279875
+    },
+    {
+      "version": "after",
+      "time": 0.6458333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 11.006253076923484,
+      "foot_world_degrees": 15.020501616761624,
+      "ankle_local_degrees": 16.73860422526051,
+      "knee_local_degrees": 18.619576020302205
+    },
+    {
+      "version": "after",
+      "time": 0.6458333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 8.714801296457189,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -12.816639984128027,
+      "knee_local_degrees": 4.551105712245732
+    },
+    {
+      "version": "after",
+      "time": 0.6666666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 9.543656043679666,
+      "foot_world_degrees": 13.565573086234249,
+      "ankle_local_degrees": 16.74627272797695,
+      "knee_local_degrees": 18.016458254098332
+    },
+    {
+      "version": "after",
+      "time": 0.6666666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 9.782834326399763,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -13.884673014070602,
+      "knee_local_degrees": 4.551105712245734
+    },
+    {
+      "version": "after",
+      "time": 0.6875,
+      "side": "near",
+      "shin_axis_from_down_degrees": 7.867923671887818,
+      "foot_world_degrees": 11.902761228634489,
+      "ankle_local_degrees": 16.75919324216904,
+      "knee_local_degrees": 17.239729376783536
+    },
+    {
+      "version": "after",
+      "time": 0.6875,
+      "side": "far",
+      "shin_axis_from_down_degrees": 10.712955107871231,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -14.81479379554207,
+      "knee_local_degrees": 4.212844499527847
+    },
+    {
+      "version": "after",
+      "time": 0.7083333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": 6.027555603776376,
+      "foot_world_degrees": 10.070279890850657,
+      "ankle_local_degrees": 16.76707997249665,
+      "knee_local_degrees": 16.31651612446866
+    },
+    {
+      "version": "after",
+      "time": 0.7083333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 11.52915091022142,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -15.630989597892258,
+      "knee_local_degrees": 3.594810510777876
+    },
+    {
+      "version": "after",
+      "time": 0.7291666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": 4.070200146597017,
+      "foot_world_degrees": 8.106342919771057,
+      "ankle_local_degrees": 16.76049845859641,
+      "knee_local_degrees": 15.27394523326499
+    },
+    {
+      "version": "after",
+      "time": 0.7291666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 12.2761939150578,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -16.378032602728638,
+      "knee_local_degrees": 2.8038674373135724
+    },
+    {
+      "version": "after",
+      "time": 0.75,
+      "side": "near",
+      "shin_axis_from_down_degrees": 2.0427757854093027,
+      "foot_world_degrees": 6.049164162283997,
+      "ankle_local_degrees": 16.730744062297063,
+      "knee_local_degrees": 14.139143439283842
+    },
+    {
+      "version": "after",
+      "time": 0.75,
+      "side": "far",
+      "shin_axis_from_down_degrees": 13.012027916252958,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -17.113866603923796,
+      "knee_local_degrees": 1.9767765220279543
+    },
+    {
+      "version": "after",
+      "time": 0.7708333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -0.008288509948501499,
+      "foot_world_degrees": 3.936957465277775,
+      "ankle_local_degrees": 16.669601660648645,
+      "knee_local_degrees": 12.939237478635523
+    },
+    {
+      "version": "after",
+      "time": 0.7708333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 13.931065230630526,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -18.032903918301365,
+      "knee_local_degrees": 1.571364112875166
+    },
+    {
+      "version": "after",
+      "time": 0.7916666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -2.0367409617740027,
+      "foot_world_degrees": 1.8079366756407111,
+      "ankle_local_degrees": 16.569033322837083,
+      "knee_local_degrees": 11.701354087431827
+    },
+    {
+      "version": "after",
+      "time": 0.7916666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 15.190099704561742,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -19.29193839223258,
+      "knee_local_degrees": 1.9529047806781392
+    },
+    {
+      "version": "after",
+      "time": 0.8125,
+      "side": "near",
+      "shin_axis_from_down_degrees": -3.9961731717156486,
+      "foot_world_degrees": -0.2996843597389187,
+      "ankle_local_degrees": 16.4208444973991,
+      "knee_local_degrees": 10.452620001783313
+    },
+    {
+      "version": "after",
+      "time": 0.8125,
+      "side": "far",
+      "shin_axis_from_down_degrees": 16.781366699790222,
+      "foot_world_degrees": 0.0,
+      "ankle_local_degrees": -20.88320538746106,
+      "knee_local_degrees": 3.094810510778121
+    },
+    {
+      "version": "after",
+      "time": 0.8333333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -5.839716822024455,
+      "foot_world_degrees": -2.3476917939727926,
+      "ankle_local_degrees": 16.21638071347403,
+      "knee_local_degrees": 9.220161957802084
+    },
+    {
+      "version": "after",
+      "time": 0.8333333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 18.413040863763392,
+      "foot_world_degrees": 0.617283950617292,
+      "ankle_local_degrees": -21.89759560081694,
+      "knee_local_degrees": 4.742958658926188
+    },
+    {
+      "version": "after",
+      "time": 0.8541666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -7.519822489740632,
+      "foot_world_degrees": -4.2978717801725885,
+      "ankle_local_degrees": 15.946306394990412,
+      "knee_local_degrees": 8.031106691598378
+    },
+    {
+      "version": "after",
+      "time": 0.8541666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 19.83311756166707,
+      "foot_world_degrees": 2.27160493827159,
+      "ankle_local_degrees": -21.663351311066318,
+      "knee_local_degrees": 6.613329029296551
+    },
+    {
+      "version": "after",
+      "time": 0.875,
+      "side": "near",
+      "shin_axis_from_down_degrees": -8.988168713953131,
+      "foot_world_degrees": -6.112010471450038,
+      "ankle_local_degrees": 15.600513927925462,
+      "knee_local_degrees": 6.912580939283217
+    },
+    {
+      "version": "after",
+      "time": 0.875,
+      "side": "far",
+      "shin_axis_from_down_degrees": 21.077572632872357,
+      "foot_world_degrees": 4.666666666666664,
+      "ankle_local_degrees": -20.51274465387653,
+      "knee_local_degrees": 8.594810510777975
+    },
+    {
+      "version": "after",
+      "time": 0.8958333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -10.195740396441009,
+      "foot_world_degrees": -7.751894020916815,
+      "ankle_local_degrees": 15.168202060946562,
+      "knee_local_degrees": 5.89171143696861
+    },
+    {
+      "version": "after",
+      "time": 0.8958333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 22.178917537722217,
+      "foot_world_degrees": 7.506172839506192,
+      "ankle_local_degrees": -18.774583385886864,
+      "knee_local_degrees": 10.57629199225956
+    },
+    {
+      "version": "after",
+      "time": 0.9166666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.0930976607641,
+      "foot_world_degrees": -9.179308581684612,
+      "ankle_local_degrees": 14.638144764501856,
+      "knee_local_degrees": 4.995624920764826
+    },
+    {
+      "version": "after",
+      "time": 0.9166666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 23.169188463904867,
+      "foot_world_degrees": 10.493827160493804,
+      "ankle_local_degrees": -16.7771999910819,
+      "knee_local_degrees": 12.446662362629818
+    },
+    {
+      "version": "after",
+      "time": 0.9375,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.630826637281958,
+      "foot_world_degrees": -10.356040306865136,
+      "ankle_local_degrees": 13.99914201583919,
+      "knee_local_degrees": 4.251448126783618
+    },
+    {
+      "version": "after",
+      "time": 0.9375,
+      "side": "far",
+      "shin_axis_from_down_degrees": 24.097049694641548,
+      "foot_world_degrees": 13.333333333333332,
+      "ankle_local_degrees": -14.865555048979054,
+      "knee_local_degrees": 14.09481051077801
+    },
+    {
+      "version": "after",
+      "time": 0.9583333333333334,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.760121746687608,
+      "foot_world_degrees": -11.243875349570082,
+      "ankle_local_degrees": 13.240602082539894,
+      "knee_local_degrees": 3.6863077911354516
+    },
+    {
+      "version": "after",
+      "time": 0.9583333333333334,
+      "side": "far",
+      "shin_axis_from_down_degrees": 25.017392590488996,
+      "foot_world_degrees": 15.72839506172841,
+      "ankle_local_degrees": -13.390836216431424,
+      "knee_local_degrees": 15.409625325592954
+    },
+    {
+      "version": "after",
+      "time": 0.9791666666666666,
+      "side": "near",
+      "shin_axis_from_down_degrees": -11.433398401261842,
+      "foot_world_degrees": -11.804599862911136,
+      "ankle_local_degrees": 12.353154223773075,
+      "knee_local_degrees": 3.327330649932236
+    },
+    {
+      "version": "after",
+      "time": 0.9791666666666666,
+      "side": "far",
+      "shin_axis_from_down_degrees": 25.98956111591293,
+      "foot_world_degrees": 17.382716049382708,
+      "ankle_local_degrees": -12.70868375420106,
+      "knee_local_degrees": 16.279995695963137
+    },
+    {
+      "version": "after",
+      "time": 1.0,
+      "side": "near",
+      "shin_axis_from_down_degrees": -10.604783571114167,
+      "foot_world_degrees": -12.0,
+      "ankle_local_degrees": 11.329139256536536,
+      "knee_local_degrees": 3.201643439283007
+    },
+    {
+      "version": "after",
+      "time": 1.0,
+      "side": "far",
+      "shin_axis_from_down_degrees": 27.080875964685355,
+      "foot_world_degrees": 18.0,
+      "ankle_local_degrees": -13.182714652356193,
+      "knee_local_degrees": 16.594810510778125
+    }
+  ]
+}

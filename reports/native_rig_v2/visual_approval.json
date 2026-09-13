@@ -1,5 +1,5 @@
 {
-  "animation_source_sha256": "7fd81e2ee3f18b2fdf99220f598979bf14269e053e2e8ece74c7fdced301c12f",
+  "animation_source_sha256": "217672f7d052a5ff089475abe64895d98865fc668cb43127e5334975ece6d94b",
   "animations": {
     "idle": {
       "status": "PASS",
@@ -8,9 +8,9 @@
     },
     "walk": {
       "status": "PASS",
-      "sheet_sha256": "25f3fb25ab481df8f9cf6edbd2d0cbd10e1bef95c915be3de0df3ce79558f5d1",
-      "note": "Assistant reviewed reference-based foot roll and weight timing in 16 native GPU frames at both scales. Combat continuity passed; naturalness remains subject to user review. Other four animation data and frozen rig/assets verified unchanged. Prior prototype-quality reservation retained.",
-      "additional_192px_sheet": "reports/walk_reference_v1/walk_reference_192_review.png"
+      "sheet_sha256": "7b1f7952bcba6e69a5553f0fdfe52e2d52942f05edd3ddab68997a8e6619c592",
+      "note": "Assistant inspected 16 native GPU frames per scale and before/after push-off/recovery comparison: calf now inclines during pre-swing knee flexion; reduced ankle-only folding; no new obvious combat-scale joint opening observed. Upper-body keys, knee-plate keys, rig and formal assets verified unchanged. Naturalness remains subject to user review; no new user approval implied.",
+      "additional_192px_sheet": "reports/walk_chain_v2/walk_reference_192_review.png"
     },
     "attack_01": {
       "status": "PASS",

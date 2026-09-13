@@ -2,7 +2,7 @@
 import math,json,shutil
 from pathlib import Path
 from rg_common import ROOT,read,write,sha,rgba,mask,np
-from walk_reference_trajectory import target as walk_foot_target, SOLE
+from walk_reference_trajectory import target as walk_foot_target, smooth as walk_smooth, SOLE
 
 BONES={
  'pelvis':('',(530,701)), 'torso':('pelvis',(533,695)),
@@ -66,7 +66,7 @@ def main():
             hip=BONES['leg_'+side+'_thigh'][1];knee=BONES['knee_'+side][1];ankle=BONES['foot_'+side][1]
             # Reference gait: heel contact -> flat support -> raised heel/toe-off.
             # Swing trails the lower leg before passing and forward placement.
-            center=480 if side=='near' else 535
+            center=450 if side=='near' else 535
             target,pitch=walk_foot_target(u,center,ankle[1])
             v0=(knee[0]-hip[0],knee[1]-hip[1]);v1=(ankle[0]-knee[0],ankle[1]-knee[1]);l0=math.hypot(*v0);l1=math.hypot(*v1)
             rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0])
@@ -74,11 +74,12 @@ def main():
             # beneath the skirt supplies the pelvis/leg depth change, without scaling.
             # Both knees flex toward the facing direction, never backwards.
             # Weight acceptance softens the planted knee; peak swing flexion
-            # occurs while the lower leg is still trailing, before passing.
+            # starts during push-off, continues into trailing recovery, then extends.
+            # Never delay knee flexion until after the ankle has already folded.
             if support:
-                flex=4*math.sin(math.pi*min(u/.3125,1))**2
+                flex=4*math.sin(math.pi*min(u/.3125,1))**2+16*walk_smooth((u-.25)/.25)
             else:
-                flex=16*math.sin(math.pi*((u-.5)*2)**.65)
+                flex=16*(1-walk_smooth((((u-.5)*2)-.2)/.8))
             bend=math.radians((3 if side=='near' else 12)+flex)
             reach2=l0*l0+l1*l1+2*l0*l1*math.cos(bend)
             hx=hip[0]+weight_shift

@@ -10,7 +10,7 @@
     "walk": {
       "status": "PASS",
       "sheet": "reports/animations/walk_combat_review.png",
-      "sha256": "25f3fb25ab481df8f9cf6edbd2d0cbd10e1bef95c915be3de0df3ce79558f5d1"
+      "sha256": "7b1f7952bcba6e69a5553f0fdfe52e2d52942f05edd3ddab68997a8e6619c592"
     },
     "attack_01": {
       "status": "PASS",

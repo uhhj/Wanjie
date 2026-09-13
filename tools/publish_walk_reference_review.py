@@ -1,14 +1,18 @@
 """Publish an explicitly recorded review; do not infer visual approval from tests."""
 import shutil
 from rg_common import *
+import sys
 
 def main():
-    folder='reports/walk_reference_v1/'
+    folder=(sys.argv[1].rstrip('/')+'/' if len(sys.argv)>1 else 'reports/walk_reference_v1/')
     metrics=read(folder+'walk_reference_metrics.json')
     review=read(folder+'visual_review.json')
     assert review['animation_source_sha256']==sha('resources/roman_guard_animations_v1.json')
     assert review['256px']=='PASS' and review['192px']=='PASS'
     metrics.update(status='PASS_WITH_QUALITY_RESERVATIONS',visual_review=review)
+    if (ROOT/folder/'leg_chain_key_audit.json').exists():
+        audit=read(folder+'leg_chain_key_audit.json')
+        metrics['leg_chain_audit']={k:v for k,v in audit.items() if k!='samples'}
     write(folder+'walk_reference_metrics.json',metrics)
     capture=read(folder+'capture_manifest.json')
     current=read('reports/native_rig_v2/capture_manifest.json')
@@ -25,7 +29,7 @@ def main():
         shutil.copy2(ROOT/folder/name,ROOT/'reports/native_rig_v2'/name)
     approval=read('reports/native_rig_v2/visual_approval.json')
     approval['animation_source_sha256']=sha('resources/roman_guard_animations_v1.json')
-    approval['animations']['walk']={'status':'PASS','sheet_sha256':sha('reports/animations/walk_combat_review.png'),'note':'Assistant reviewed reference-based foot roll and weight timing in 16 native GPU frames at both scales. Combat continuity passed; naturalness remains subject to user review. Other four animation data and frozen rig/assets verified unchanged. Prior prototype-quality reservation retained.','additional_192px_sheet':metrics['outputs']['192']['sheet']}
+    approval['animations']['walk']={'status':'PASS','sheet_sha256':sha('reports/animations/walk_combat_review.png'),'note':review['scope']+' Naturalness remains subject to user review; no new user approval implied.','additional_192px_sheet':metrics['outputs']['192']['sheet']}
     write('reports/native_rig_v2/visual_approval.json',approval)
     manifest=read('reports/native_rig_v2/animation_review_manifest.json')
     manifest['animations']['walk']['sha256']=sha('reports/animations/walk_combat_review.png')

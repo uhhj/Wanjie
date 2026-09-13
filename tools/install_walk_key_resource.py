@@ -1,10 +1,11 @@
 """Install exported Walk keys without reserializing the rig or other animations."""
-import re
+import re,sys
 from pathlib import Path
 from rg_common import ROOT
 
 def main():
-    source=(ROOT/'reports/walk_reference_v1/walk_animation.tres').read_text(encoding='utf-8')
+    folder=sys.argv[1] if len(sys.argv)>1 else 'reports/walk_reference_v1'
+    source=(ROOT/folder/'walk_animation.tres').read_text(encoding='utf-8')
     body=source.split('[resource]\n',1)[1].strip()
     pattern=r'\[sub_resource type="Animation" id="[^"]+"\]\r?\nresource_name = "walk".*?(?=\r?\n\[)'
     for name in ['resources/roman_guard_animations_v1.tres','scenes/units/odyssey/roman_guard/roman_guard_rig.tscn']:

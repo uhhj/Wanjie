@@ -20,7 +20,7 @@ def rotation(deg):
 
 def stance_pitch(u):
     if u<.125:return -12*(1-smooth(u/.125))
-    return 28*smooth((u-.3125)/.1875)
+    return 18*smooth((u-.3125)/.1875)
 
 # Fine integration is only for authoring. Godot plays the existing 49 keys.
 U=np.linspace(0,.5,2401)
@@ -46,5 +46,5 @@ def target(u,center,ankle_y):
     x=start[0]*(1-s)+end[0]*s-STRIDE/2*(2*q**3-3*q**2+q)
     y=start[1]*(1-s)+end[1]*s-42*math.sin(math.pi*q)
     # Toe stays down briefly after push-off, then clears for the next landing.
-    pitch=28-40*smooth((q-.12)/.88)
+    pitch=18-30*smooth((q-.12)/.88)
     return np.array([x,y]),pitch
