@@ -16,5 +16,6 @@
     "reports/walk_chain_v2/capture_manifest.json": "455c6573d5915344d096e707d56c6a932ab19a362c312fb8174631aeaa91b956",
     "reports/walk_chain_v2/follow/capture_manifest.json": "0f7e1ae837ceee55d1669f4480aac4c3e92dd1f84b6ed110b56f6f10be111388",
     "reports/walk_chain_v2/leg_chain_key_audit.json": "c927ef430daa7b5ae0fa30e30bd66550f01e5fd76a7193ab483327fb7f6f88c8"
-  }
+  },
+  "implementation_commit": "e349198d825c8810a35850463c6fec269a5c50e8"
 }

@@ -76,7 +76,7 @@ python tools/validate_native_delivery.py
 ## Git 与限制
 
 - 分支：`feature/roman-guard-native-rig-v2`
-- 本报告依据的代码提交：`556584557cd5f25a506810a64467c96cd4673c95`；报告本身由后续 evidence commit 保存。
+- 本报告依据的代码提交：`e349198d825c8810a35850463c6fec269a5c50e8`；报告本身由后续 evidence commit 保存。
 - 已先提交并推送近膝修复 d0e56ed，再建立 native 分支；未 reset/rebase/force push。
 - 五处 HIRES Alpha 问题仍为 NON_BLOCKING_COMBAT_ARTIFACT。
 - 当前披风为原刚性后摆与前领，cape_mid/tip预留；没有虚构复杂布料蒙皮。
