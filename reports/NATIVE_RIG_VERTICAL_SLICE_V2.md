@@ -30,7 +30,7 @@ Verdict: **ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_SUPPORTED**
 - Death：保留用户认可的分阶段倒地和少量血滴；不会自动恢复或循环。
 - Idle / Hit：沿用稳定的小幅动作。
 - attack_hit = **1**；剑柄到握持点最大误差 0.000068 源像素。
-- 实际 runtime 两周期前进 720.000 源像素；支撑脚最大漂移 0.00303px（256px角色高度），192px更小。
+- 实际 runtime 两周期前进 773.999 源像素；支撑脚最大漂移 0.00370px（256px角色高度），192px更小。
 - [脚部世界坐标与支撑区间](walk_foot_contact_debug.png)；[原生测试原始结果](native_rig_v2/headless_tests.json)。
 
 ## Rest 重组与实验室
@@ -52,6 +52,8 @@ Verdict: **ROMAN_GUARD_NATIVE_RIG_VERTICAL_SLICE_SUPPORTED**
 | hit_loop | 232.83 | 100.31 |
 | death_once | 289.54 | 121.49 |
 
+后续[Walk关键帧微调](WALK_KEYFRAME_POLISH_V1.md)已单独通过；上表保留微调前的桌面基线，本次没有重跑压力测试。
+
 death_once 数据为预热后停止的尸体；不代表倒地过程峰值，不是手机性能结论。[完整数据](native_rig_v2/stress_results.json)、[20单位截图](native_rig_v2/stress_20_units.png)、[50单位截图](native_rig_v2/stress_50_units.png)。
 
 ## 文件与运行
@@ -72,7 +74,7 @@ python tools/validate_native_delivery.py
 ## Git 与限制
 
 - 分支：`feature/roman-guard-native-rig-v2`
-- 本报告依据的代码提交：`b98384b84ed13afde6a666c8ec87b20c1e05db97`；报告本身由后续 evidence commit 保存。
+- 本报告依据的代码提交：`52e30d502151235b913406b8997174efbe65df46`；报告本身由后续 evidence commit 保存。
 - 已先提交并推送近膝修复 d0e56ed，再建立 native 分支；未 reset/rebase/force push。
 - 五处 HIRES Alpha 问题仍为 NON_BLOCKING_COMBAT_ARTIFACT。
 - 当前披风为原刚性后摆与前领，cape_mid/tip预留；没有虚构复杂布料蒙皮。

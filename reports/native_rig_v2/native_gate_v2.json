@@ -23,7 +23,7 @@
     "death": "PASS"
   },
   "attack_hit_count": 1,
-  "walk_support_drift_256px": 0.00302632062692675,
+  "walk_support_drift_256px": 0.00369941365843451,
   "rest": {
     "status": "PASS",
     "alpha_threshold": 32,
@@ -177,14 +177,69 @@
     "source": "https://godotengine.org/download/archive/4.7.2-stable/",
     "cpu": "Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz"
   },
-  "source_animation_sha256": "c85bda3235fb835e049050c26f7ea50914f88af341c99e9030a227e9023f23d6",
+  "source_animation_sha256": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
   "flags": [
     "PROVISIONAL_COMBAT_ACCEPTANCE: user accepted with 将就了吧; usable prototype, animation polish remains below final-quality expectation",
     "NON_BLOCKING_COMBAT_ARTIFACT: five frozen HIRES alpha findings",
     "Small rigid cape motion; cape_mid/tip reserved, not simulated cloth",
     "Death stress measurement represents held corpses after warm-up",
-    "Desktop baseline only; GPU GeForce GTX 1650"
+    "Desktop baseline only; GPU GeForce GTX 1650",
+    "Walk-only keyframe polish verified; FPS table is the prior desktop baseline, not remeasured for this keyframe update"
   ],
   "visual_approval_file": "reports/native_rig_v2/visual_approval.json",
-  "visual_acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS"
+  "visual_acceptance_level": "PROVISIONAL_COMBAT_ACCEPTANCE_WITH_QUALITY_RESERVATIONS",
+  "walk_keyframe_polish": {
+    "status": "PASS",
+    "other_animations_unchanged": true,
+    "rig_outside_walk_resource_unchanged": true,
+    "frozen_files_verified": 67,
+    "near_knee_unchanged": true,
+    "gait_structure_unchanged": true,
+    "pelvis_vertical_range_old": [
+      0,
+      4
+    ],
+    "pelvis_vertical_range_new": [
+      0,
+      7
+    ],
+    "pelvis_fore_aft_source_px": [
+      -1.5,
+      1.5
+    ],
+    "stride_source_px_old": 360,
+    "stride_source_px_new": 387,
+    "stride_increase_percent": 7.5,
+    "swing_lift_source_px_old": 30,
+    "swing_lift_source_px_new": 34,
+    "sword_upper_arm_added_degrees": 0.8,
+    "shield_forearm_inertia_degrees": 0.3,
+    "support_drift_at_256px": 0.00369941365843451,
+    "support_drift_at_192px": 0.0027745602438258824,
+    "outputs": {
+      "256": {
+        "gif": "reports/walk_polish_v1/walk_polish_256.gif",
+        "frames": 16,
+        "duration_ms": 1000,
+        "sheet": "reports/walk_polish_v1/walk_polish_256_review.png",
+        "gif_sha256": "6f21b227f382ee8f03e1ff369a49b55153ccf1f1dbd41ceff3eb3498581f7a9d",
+        "sheet_sha256": "eb69f45a5072d2335923ee3f1502192f57d41ebb61516e3c12c95657c2cfd57c"
+      },
+      "192": {
+        "gif": "reports/walk_polish_v1/walk_polish_192.gif",
+        "frames": 16,
+        "duration_ms": 1000,
+        "sheet": "reports/walk_polish_v1/walk_polish_192_review.png",
+        "gif_sha256": "d8ac72594170d05c70660dabf0bb259b809220c8db33ce42f06539f6bd615f18",
+        "sheet_sha256": "4abdf24f0d57db37c9deb5a979661a4c9849b082598e3a8a1cc0b6ab9bc47056"
+      }
+    },
+    "animation_source_sha256": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
+    "visual_review": {
+      "reviewer": "assistant",
+      "256px": "PASS",
+      "192px": "PASS",
+      "scope": "16 real Godot frames; no new joint breaks or exaggerated head/shield movement; previous prototype quality reservations retained"
+    }
+  }
 }

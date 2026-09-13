@@ -2,13 +2,15 @@
 
 ## 当前 Native Rig V2
 
+Walk 最新小幅关键帧调整：[256px 16帧GIF](reports/walk_polish_v1/walk_polish_256.gif) / [192px 16帧GIF](reports/walk_polish_v1/walk_polish_192.gif) / [变更与完整审查](reports/WALK_KEYFRAME_POLISH_V1.md)。Rig和素材保持冻结。
+
 已建立 Godot 4.7.2 Stable Standard 原生 Skeleton2D/Bone2D/AnimationPlayer 工程、五动画、Rig Lab 和桌面压力测试。最新视觉状态与技术证据以 [Native Gate V2](reports/native_rig_v2/native_gate_v2.json) 为准；以下资产报告属于已通过的冻结输入，不代替动画验收。
 
 本轮按用户“将就了吧”的反馈作为可用战斗原型收口，保留动作质感未达到精修成品的说明。SUPPORTED 是原生流水线可行性结论，不应解读为无保留的美术质量认可。
 
 - [通用骨骼、坐标和局部蒙皮](docs/HUMAN_MEDIUM_RIG_V1.md)
 - [动画、支撑脚、事件和运行方式](docs/ROMAN_GUARD_ANIMATION_V1.md)
-- [最新 Walk：前向鞋视图](reports/animations/walk_forward_shoe_v4_256.gif)
+- [最新 Walk：16帧关键帧微调](reports/walk_polish_v1/walk_polish_256.gif)
 - [最新 Attack：举盾与肩部连接](reports/animations/attack_closed_shoulder_v4_256.gif)
 - [Death](reports/animations/death_256.gif)
 

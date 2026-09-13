@@ -42,11 +42,13 @@ func capture() -> void:
 		quit()
 		return
 	var records: Array = []
-	for name in ["rest_pose","idle","walk","attack_01","hit","death"]:
+	var walk_polish := "--walk-polish" in OS.get_cmdline_user_args()
+	var names: Array = ["walk"] if walk_polish else ["rest_pose","idle","walk","attack_01","hit","death"]
+	for name in names:
 		var length = 0.0 if name=="rest_pose" else units[0].animation_player.get_animation(name).length
-		var frame_count = 1 if name=="rest_pose" else int(ceil(length*15))+1
+		var frame_count = 16 if walk_polish else (1 if name=="rest_pose" else int(ceil(length*15))+1)
 		for frame in range(frame_count):
-			var time = length*frame/max(1,frame_count-1)
+			var time = length*frame/(frame_count if walk_polish else max(1,frame_count-1))
 			for unit in units:
 				unit.position.x = (320.0 if name=="death" else 240.0) + (unit.walk_stride*time*unit.scale.x if name=="walk" else 0.0)
 				if name=="rest_pose":
@@ -57,12 +59,13 @@ func capture() -> void:
 			await process_frame
 			await RenderingServer.frame_post_draw
 			for index in range(heights.size()):
-				var path = "res://reports/animations/%s_%d_%03d.png" % [name,heights[index],frame]
+				var folder = "reports/walk_polish_v1" if walk_polish else "reports/animations"
+				var path = "res://%s/%s_%d_%03d.png" % [folder,name,heights[index],frame]
 				var result = viewports[index].get_texture().get_image().save_png(path)
 				assert(result==OK)
 				records.append({"animation":name,"height":heights[index],"time":time,"frame":frame,"path":path})
 		print("CAPTURED ",name," ",frame_count," frames at each scale")
-	var file = FileAccess.open("res://reports/native_rig_v2/capture_manifest.json",FileAccess.WRITE)
+	var file = FileAccess.open("res://reports/walk_polish_v1/capture_manifest.json" if walk_polish else "res://reports/native_rig_v2/capture_manifest.json",FileAccess.WRITE)
 	file.store_string(JSON.stringify({"engine":Engine.get_version_info(),"renderer":RenderingServer.get_video_adapter_name(),"source":"Actual Godot SubViewport GPU renders, no Python reconstruction","body_height_source":data.body_height,"frames":records},"\t"))
 	for viewport in viewports:
 		viewport.free()

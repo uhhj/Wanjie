@@ -1,11 +1,11 @@
 {
-  "purpose": "Final evidence snapshot after actual Godot capture/tests/benchmark and qualified user acceptance",
+  "purpose": "Current evidence snapshot after Walk-only keyframe polish; other animations and rig frozen; stress FPS remains prior desktop baseline",
   "sha256": {
-    "resources/roman_guard_animations_v1.json": "c85bda3235fb835e049050c26f7ea50914f88af341c99e9030a227e9023f23d6",
-    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "3256cd4325d189af7b3d395db4b6ef0fa7ebb428756c4676c0d4a6459924d7a4",
-    "reports/native_rig_v2/capture_manifest.json": "adb740bcf27f3a8d28070b157400abeb0c6c23279fbdc2989161892901fe4fd7",
+    "resources/roman_guard_animations_v1.json": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
+    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "d1932f33ee0e86e3e0f01a243f7c488da55780fb92ca1beb240acccfbb6c0cb1",
+    "reports/native_rig_v2/capture_manifest.json": "e8c43ea9855e3b16bfb2fbb9035b92a4aab89be87ab36fe65701ed4b7cc67512",
     "reports/native_rig_v2/stress_results.json": "fffb5c49c3204225a8fe97919953c8a4ceed9264ac2e75ccdd9a1ade5d18bee4",
-    "reports/native_rig_v2/headless_tests.json": "b1d8933bd0033930407859be835e90efdf66639d5e04b2a0d8291b19fb828a27",
-    "reports/native_rig_v2/visual_approval.json": "470aae1aae9febffa6d758d3cd6f9989cdc9d41f21f7b5742bed19f3836f7691"
+    "reports/native_rig_v2/headless_tests.json": "1ec2876060dd6f5199ecaf32b07e117afc455caaa906689103c50110c896f36e",
+    "reports/native_rig_v2/visual_approval.json": "636c51b3b3e3b3920257d7860e0115522dc452b7e3f63834934b2a5e096ee096"
   }
 }

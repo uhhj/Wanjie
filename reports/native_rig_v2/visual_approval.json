@@ -1,5 +1,5 @@
 {
-  "animation_source_sha256": "c85bda3235fb835e049050c26f7ea50914f88af341c99e9030a227e9023f23d6",
+  "animation_source_sha256": "f28bf55e7768b13edd05edb32f27610566d02d4c93aa13c701ae4f434c01e692",
   "animations": {
     "idle": {
       "status": "PASS",
@@ -8,8 +8,9 @@
     },
     "walk": {
       "status": "PASS",
-      "sheet_sha256": "bffae9248128780d798bb48da767b1aed3c3a23e44fc1e7b3e35a22d1e8e5b73",
-      "note": "User provisionally accepted current v4 with explicit quality reservation: 将就了吧. This is usable combat prototype acceptance, not polished final-animation approval."
+      "sheet_sha256": "eb69f45a5072d2335923ee3f1502192f57d41ebb61516e3c12c95657c2cfd57c",
+      "note": "Walk-only keyframe polish: assistant inspected 16 real GPU frames at 256px and 192px, other four animations and rig/parts verified unchanged. Prior user prototype-quality reservation retained; no new user approval implied.",
+      "additional_192px_sheet": "reports/walk_polish_v1/walk_polish_192_review.png"
     },
     "attack_01": {
       "status": "PASS",

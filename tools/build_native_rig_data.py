@@ -52,11 +52,13 @@ def main():
     # Author matched forward root motion and planted world-space contacts.
     # 48 poses keep interpolation error below a combat display pixel.
     a=new('walk',1.0,[i/48 for i in range(49)],True);contacts=[]
-    a['root_motion_source_px_per_cycle']=360
+    a['root_motion_source_px_per_cycle']=387 # +7.5%; cadence and contact structure unchanged.
     for i,p in enumerate(a['poses']):
-        phase=i/48;bob=2*(1-math.cos(phase*4*math.pi));p['pelvis_offset']=[0,bob]
+        phase=i/48;bob=3.5*(1-math.cos(phase*4*math.pi));weight_shift=1.5*math.sin(phase*2*math.pi);p['pelvis_offset']=[weight_shift,bob]
         sway=math.cos(phase*2*math.pi)
-        p['rotations'].update(torso=1.2*sway,head=-.8*sway,arm_near_upper=11*sway,arm_near_fore=-3-3*sway,hand_near=-2*sway,arm_far_upper=-1.2*sway,cape_root=-8-3*math.sin(phase*2*math.pi-.5))
+        counter=1.2*sway-.2*math.sin(phase*2*math.pi)
+        inertia=.3*math.sin(phase*4*math.pi-.35)
+        p['rotations'].update(torso=counter,head=-.85*counter,arm_near_upper=11.8*sway,arm_near_fore=-3-3.4*sway,hand_near=-2*sway,arm_far_upper=-counter,arm_far_fore=inertia,hand_far=-inertia,cape_root=-8-3*math.sin(phase*2*math.pi-.5))
         for side,offset in [('near',0),('far',.5)]:
             u=(phase+offset)%1;support=u<.5
             swing=math.sin((u-.5)*2*math.pi) if not support else 0
@@ -65,11 +67,11 @@ def main():
             # Swing uses a Hermite curve with matching lift-off/landing velocity.
             q=(u-.5)*2
             center=480 if side=='near' else 535
-            x=center+90-360*u if support else center-90+180*(-2*q**3+3*q**2)-180*(2*q**3-3*q**2+q)
+            x=center+96.75-387*u if support else center-96.75+193.5*(-2*q**3+3*q**2)-193.5*(2*q**3-3*q**2+q)
             pitch=-10*swing
             sole=np.array([33,119])
             angle=math.radians(pitch);rotation=np.array([[math.cos(angle),-math.sin(angle)],[math.sin(angle),math.cos(angle)]])
-            target=np.array([x,ankle[1]-30*swing])+sole-rotation@sole
+            target=np.array([x,ankle[1]-34*swing])+sole-rotation@sole
             v0=(knee[0]-hip[0],knee[1]-hip[1]);v1=(ankle[0]-knee[0],ankle[1]-knee[1]);l0=math.hypot(*v0);l1=math.hypot(*v1)
             rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0])
             # Keep the approved knee deformation range; projected hip translation
@@ -77,9 +79,9 @@ def main():
             # Both knees flex toward the facing direction, never backwards.
             bend=math.radians((3 if side=='near' else 12)+16*swing)
             reach2=l0*l0+l1*l1+2*l0*l1*math.cos(bend)
-            hx=hip[0]
+            hx=hip[0]+weight_shift
             hy=target[1]-math.sqrt(reach2-(target[0]-hx)**2)
-            p['hip_offsets'][side]=[hx-hip[0],hy-hip[1]-bob]
+            p['hip_offsets'][side]=[hx-hip[0]-weight_shift,hy-hip[1]-bob]
             h=(hx,hy)
             dx,dy=target[0]-h[0],target[1]-h[1];dist=math.hypot(dx,dy);cosk=max(-1,min(1,(dist*dist-l0*l0-l1*l1)/(2*l0*l1)))
             rest0=math.atan2(v0[1],v0[0]);rest1=math.atan2(v1[1],v1[0]);sign=1

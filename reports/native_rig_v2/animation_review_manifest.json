@@ -10,7 +10,7 @@
     "walk": {
       "status": "PASS",
       "sheet": "reports/animations/walk_combat_review.png",
-      "sha256": "bffae9248128780d798bb48da767b1aed3c3a23e44fc1e7b3e35a22d1e8e5b73"
+      "sha256": "eb69f45a5072d2335923ee3f1502192f57d41ebb61516e3c12c95657c2cfd57c"
     },
     "attack_01": {
       "status": "PASS",
@@ -29,6 +29,6 @@
     }
   },
   "native_size": true,
-  "source_capture_sha256": "adb740bcf27f3a8d28070b157400abeb0c6c23279fbdc2989161892901fe4fd7",
+  "source_capture_sha256": "e8c43ea9855e3b16bfb2fbb9035b92a4aab89be87ab36fe65701ed4b7cc67512",
   "approval_file": "reports/native_rig_v2/visual_approval.json"
 }
