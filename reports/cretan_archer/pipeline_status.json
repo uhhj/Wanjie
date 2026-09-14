@@ -23,5 +23,7 @@
   "godot_handoff": "NOT_READY",
   "note": "Art and native evidence checked independently against current SHA; desktop-only smoke; no third unit or combat system.",
   "native_gate": "REVIEW_REQUIRED",
-  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW"
+  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW",
+  "status": "REVIEW_REQUIRED",
+  "current_revision": "reports/cretan_archer/native/attack_recovery_v4.json"
 }

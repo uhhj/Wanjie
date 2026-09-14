@@ -1,3 +1,5 @@
+> Current: ATTACK_RECOVERY_REVISED_REVIEW_REQUIRED. See attack_recovery_v4.json and current GIFs. The following is prior delivery evidence, not current art approval.
+
 # Cretan Archer 原生骨骼交付审查
 
 Verdict: **ATTACK_REVISED_ART_REVIEW_REQUIRED**

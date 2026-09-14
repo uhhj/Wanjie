@@ -51,5 +51,8 @@
   ],
   "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW",
   "verdict": "ATTACK_RECOVERY_REVISED_REVIEW_REQUIRED",
-  "superseded_by": "reports/cretan_archer/native/attack_recovery_v4.json"
+  "superseded_by": "reports/cretan_archer/native/attack_recovery_v4.json",
+  "native_gate": "REVIEW_REQUIRED",
+  "godot_handoff": "NOT_READY",
+  "current_revision": "reports/cretan_archer/native/attack_recovery_v4.json"
 }
