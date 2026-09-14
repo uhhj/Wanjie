@@ -1,8 +1,8 @@
 {
   "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW",
   "native_rig_reuse": "SUPPORTED",
-  "verdict": "ATTACK_REVISED_ART_REVIEW_REQUIRED",
-  "status": "PASS",
+  "verdict": "ATTACK_RECOVERY_REVISED_REVIEW_REQUIRED",
+  "status": "REVIEW_REQUIRED",
   "errors": [],
   "complete_body": "PASS",
   "parts": "20/20 PASS",
@@ -74,5 +74,6 @@
   ],
   "capture_manifest_sha256": "6bfa6c5b0a27a67c46d4a01bee528b2271ab2c919a7859a1be521552b4bc5e14",
   "formal_manifest_sha256": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d",
-  "timestamp": "2026-09-14T03:19:17.052676+00:00"
+  "timestamp": "2026-09-14T03:19:17.052676+00:00",
+  "superseded_by": "reports/cretan_archer/native/attack_recovery_v4.json"
 }

@@ -1,5 +1,5 @@
 {
-  "verdict": "ATTACK_REVISED_ART_REVIEW_REQUIRED",
+  "verdict": "ATTACK_RECOVERY_REVISED_REVIEW_REQUIRED",
   "complete_body": "PASS",
   "parts": {
     "required": 20,
@@ -20,8 +20,8 @@
   "attack_release": "PASS_EXACTLY_ONCE",
   "twenty_unit_smoke": "COMPLETED",
   "human_medium_rig_reuse": "SUPPORTED",
-  "godot_handoff": "READY",
+  "godot_handoff": "NOT_READY",
   "note": "Art and native evidence checked independently against current SHA; desktop-only smoke; no third unit or combat system.",
-  "native_gate": "PASS",
+  "native_gate": "REVIEW_REQUIRED",
   "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW"
 }

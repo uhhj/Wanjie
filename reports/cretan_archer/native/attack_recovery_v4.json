@@ -1,0 +1,24 @@
+{
+  "status": "ROTATION_CONTINUITY_PASS_ART_REVIEW_REQUIRED",
+  "recovery_rotation": {
+    "arm_near_upper": {
+      "start": 72.23197330095337,
+      "end": 0.0,
+      "travel_degrees": 72.23197330095337
+    },
+    "arm_near_fore": {
+      "start": 164.47656340749026,
+      "end": 0.0,
+      "travel_degrees": 164.47656340749026
+    },
+    "hand_near": {
+      "start": -335.90853670844365,
+      "end": -360.0,
+      "travel_degrees": 24.09146329155635
+    }
+  },
+  "other_four_animations_unchanged": true,
+  "headless": "PASS",
+  "remaining_visual_issue": "Recovery still opens arm behind the body; final naturalness not approved. Shoulder compression remains.",
+  "capture_sha256": "0f252bfa42f396b431a7ba05a5a52c7dbc1212b9cd136ee74c6904ea93669438"
+}

@@ -1,5 +1,5 @@
 {
-  "status": "PASS",
+  "status": "REVIEW_REQUIRED",
   "scope": "COMBAT_SCALE_STRUCTURAL_QA_NOT_FINAL_AESTHETIC_APPROVAL",
   "reviewer": "Codex primary review of revised attack; other animation data unchanged",
   "timestamp": "2026-09-14T03:09:25.103654+00:00",
@@ -49,5 +49,7 @@
     "Death finishes in a somewhat more extended pose than the reference strip; phase logic and grounded endpoint are retained.",
     "Retrieve is a hand gesture toward quiver; separate carried-arrow attachment and projectile flight are not part of this Rig implementation."
   ],
-  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW"
+  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW",
+  "verdict": "ATTACK_RECOVERY_REVISED_REVIEW_REQUIRED",
+  "superseded_by": "reports/cretan_archer/native/attack_recovery_v4.json"
 }

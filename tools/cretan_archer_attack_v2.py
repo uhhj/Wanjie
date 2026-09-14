@@ -28,7 +28,7 @@ def author_attack(data):
     for name,point in expected.items():
         if not np.allclose(pivots[name],point):
             raise ValueError(f'Attack V2 requires Archer deformation pivot {name}={point}; no shared-rig or art mutation is performed here')
-    length=1.28;nock_time=.40;release_time=.84
+    length=1.50;nock_time=.40;release_time=.84
     anchors=[0,.03,.18,.22,.30,.40,.50,.64,.70,.80,.83999,.84,.87,.94,.98,1.10,1.25,1.28]
     times=sorted(set(round(float(t),5) for t in list(np.linspace(0,length,129))+anchors))
     entry={'length':length,'loop':False,'times':times,'poses':[],
@@ -55,7 +55,7 @@ def author_attack(data):
                  (.87,-98),(.94,-98),(.98,-60),(1.10,-25),(1.25,0),(1.28,0)]
     bow_targets=[(0,rest_grip),(.22,rest_grip),(.30,[875,540]),(.40,[910,380]),(.50,[940,323]),
                  (.84,[940,323]),(.87,[941,324]),(.94,[940,323]),(1.05,[902,460]),(1.20,rest_grip),(1.28,rest_grip)]
-    errors=[];previous=None
+    errors=[];previous=None;recovery_rotations=None
 
     def empty_pose():
         return {'rotations':{name:0. for name in bones},'pelvis_offset':[0.,0.],
@@ -117,10 +117,22 @@ def author_attack(data):
         # occur only at the explicitly almost-straight ready/recovery control.
         branch=-1 if t<=.03 or t>=1.25 else 1
         aim_arm(pose,'near',hand_target,hand_angle,branch)
+        # Lower the upper arm first while the elbow stays bent; then unfold
+        # the forearm and settle the wrist. Avoid changing IK branches during
+        # recovery, which previously made the elbow hook backwards.
+        if t == .94:
+            recovery_rotations={name:pose['rotations'][name]+360*round((previous['rotations'][name]-pose['rotations'][name])/360) for name in
+                                ['arm_near_upper','arm_near_fore','hand_near']}
+        if t > .94:
+            for name,start,end in [('arm_near_upper',.94,1.34),
+                                   ('arm_near_fore',1.01,1.46),
+                                   ('hand_near',1.03,1.50)]:
+                target=360*round(recovery_rotations[name]/360)
+                pose['rotations'][name]=recovery_rotations[name]+(target-recovery_rotations[name])*_smooth((t-start)/(end-start))
         pose['arrow_visible']=nock_time<=t<release_time
         pose['arrow_rotation']=-math.degrees(math.atan2(bow_r[1,0],bow_r[0,0]))
         if t==0 or t==length:pose=empty_pose()
-        if previous is not None and t!=length:
+        if previous is not None:
             for name,value in pose['rotations'].items():
                 pose['rotations'][name]=value+360*round((previous['rotations'][name]-value)/360)
         now=fk(pose)
@@ -133,7 +145,7 @@ def author_attack(data):
     if max(jumps.values())>180:raise ValueError(f'Wrapped angle/spin detected: {jumps}')
     if max(errors,default=0)>1.e-5:raise ValueError('Nock/material FK contact mismatch')
     assert all(value==0 for value in entry['poses'][0]['rotations'].values())
-    assert all(value==0 for value in entry['poses'][-1]['rotations'].values())
+    assert all(abs((value+180)%360-180)<1.e-6 for value in entry['poses'][-1]['rotations'].values())
     entry['offline_contact_validation']={'scope':'FK authoring only; actual GPU visual gate still required',
         'visible_nock_material_max_error_source_px':max(errors,default=0),
         'max_neighbor_rotation_change_degrees':max(jumps.values()),'method_event_count':1,
