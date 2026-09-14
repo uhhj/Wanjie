@@ -28,11 +28,11 @@
 		"res://assets/units/odyssey/cretan_archer/parts/pelvis.png": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
 		"res://assets/units/odyssey/cretan_archer/parts/quiver.png": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
 		"res://assets/units/odyssey/cretan_archer/parts/torso.png": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
-		"res://resources/cretan_archer_animations_v1.json": "bcda9258a7348e12a92687433b8c2f7a7bfa54c1e0f423da0af5a1ca9249bab1",
-		"res://resources/cretan_archer_animations_v1.tres": "86d5d8b4951b95a6c49e4dfe23b9b1c15010c38c4959dc97123ca7a2a02b5117",
+		"res://resources/cretan_archer_animations_v1.json": "fb3c62a4d489a65b7f15834e941d3a3bf5d933dbfa1b1629cce80be0e9ac6bb9",
+		"res://resources/cretan_archer_animations_v1.tres": "0122486cde1d3f28fd1d394b4eae64c8ba68128acda50515c83fbac738bc0e9e",
 		"res://resources/cretan_archer_local_skinning.json": "ef1ae3fd97f8fac41727d2c0cc4db3036a341d354927fcbd0695799691cf9c45",
 		"res://resources/cretan_archer_rig_v1.json": "f08ca89fe13f5a4af6b621ad8cdacec488e9a70147ba713486272a0ca7b7d59e",
-		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "2df76af6d99959e58f655aa777c66d46b6be03f1ea8a71d80280c8f2b92117b1",
+		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "6e99514374e5342b7d2dcdfab0a57af4e489b4c35499335b1ffe5c6fbcab70e5",
 		"res://scripts/rig/cretan_archer_bow_string.gd": "e3e637b4349a2477ac137510e791912e106c84d84cfd46f96de08b4c47df65db",
 		"res://scripts/rig/cretan_archer_event_relay.gd": "8d4f0f65bb88fca783b122d9e9ad375c08c514d315444db5a50a7da652af2615",
 		"res://scripts/rig/cretan_archer_rig.gd": "547a06582bab36d3810460ab59bea69575955c2da3a5bce443cbacdbef457e12",
@@ -2129,7 +2129,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "552bd326406db0cf181642b348b36c732584b846ecf8cb502ae29f4881b6cb0d",
+			"sha256": "4c261dfb8399502c7c5ad2d737d2267c9aeb2596e472137d1033c4bca54006c1",
 			"time": 1.0,
 			"used_rect": [
 				24,
@@ -2153,7 +2153,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "378793a521f1ff8a4064309de49679018c05ab8d5cd726c19b64f28b6173333c",
+			"sha256": "0f0e90ea8b3a3ebaea054d46bfa87412b039265d58067751d63a4d581df863a2",
 			"time": 1.0,
 			"used_rect": [
 				24,
@@ -2177,7 +2177,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "35d68d629e223b094173c29f67a6a5bdf6ac4f5294c29bfdbe1f91b30f55ff67",
+			"sha256": "dc627c641c2140a7162e3dd925e8dca8bdab07065f89ef794c94ce6fc028ec3a",
 			"time": 1.1,
 			"used_rect": [
 				24,
@@ -2201,7 +2201,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "486f6b74b9aecf5be420a82a110c6b9b30b8ca0f3405339b405688c46c17af30",
+			"sha256": "1be7660adcf2956b98a2b57d639218e06ee78ba1be336b298eacdf167e0720c5",
 			"time": 1.1,
 			"used_rect": [
 				24,
@@ -2225,7 +2225,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "1900ebaa89963b9f05e809ae23ee50df8ef690eea3205d41d0f56fb4a760e983",
+			"sha256": "fa4143bcc28a7f666076160c3e1dfad1ce923827419a88e94d67ab9831145648",
 			"time": 1.2,
 			"used_rect": [
 				24,
@@ -2249,7 +2249,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "bbabe914eaa39663b30bbff52d24ab910577df914d986da60d9406b77e1e2ae8",
+			"sha256": "7a7d6d11008a5f9a3dc7a4b3bf2762c8e42e700d4b41a1c063c99b1be263edab",
 			"time": 1.2,
 			"used_rect": [
 				24,
@@ -2273,7 +2273,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "8c33b80adf57881ca0b0573a5faaed0597feb2687ecf3ac338653add00bbdc5b",
+			"sha256": "80707594666e485f9d5839c6cc47e3a0681d11cdcf68659cb2297d76d48f8d96",
 			"time": 1.3,
 			"used_rect": [
 				24,
@@ -2297,7 +2297,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "72e29e534b757131f14046a341d8fc503d02c166bbc208346d73ff78f30dfa5b",
+			"sha256": "c4fbd3ac27ce39cb09d11d8ccdd6cef214936c69b38c1b193f699ff336072e9d",
 			"time": 1.3,
 			"used_rect": [
 				24,
@@ -2321,7 +2321,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "544d518088028dc02264ba2047a9d5948aabe54ad94a852b4ea606b223f8427d",
+			"sha256": "eeaf3d632b8ba0decf89476d5d09304d3a80a06958c6a6d935907e2b146fbc34",
 			"time": 1.4,
 			"used_rect": [
 				24,
@@ -2345,7 +2345,7 @@
 				350.0,
 				470.0
 			],
-			"sha256": "007cb6927a59572fe8128a59ac9bb459a8493231579c2752d18e19a91be37a9c",
+			"sha256": "e42c5c0fca299d2ec2386dbccd401c3452d66375ecec800dfec5279b85729b48",
 			"time": 1.4,
 			"used_rect": [
 				24,

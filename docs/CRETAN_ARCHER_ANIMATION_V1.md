@@ -71,3 +71,5 @@ Death 先明确跪地再前倒；最终地面高度依据真实透明纹理材�
 ## Attack 动作反馈修订
 
 本次仅改Attack关键帧，其余四动画、控制点、蒙皮权重和20张正式PNG不变。取消取箭后的腰侧绕路、放箭后再次向前伸手；增加约40源像素的短促向后收手和停顿。1.28秒，0.40秒搭箭，0.84秒唯一放箭事件。肩袖在抬臂姿态仍有局部压缩，结构测试通过不等于最终美术质感获批，当前GIF交由用户审看。
+
+Recovery V5: after 0.94s control forearm world orientation forward/down while upper arm lowers; local joint interpolation alone incorrectly sent the hand behind the torso. Pre-recovery keys, four other animations and art unchanged. New previews: attack_natural_lower_v5_256/192.gif.

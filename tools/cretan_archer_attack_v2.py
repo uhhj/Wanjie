@@ -124,11 +124,17 @@ def author_attack(data):
             recovery_rotations={name:pose['rotations'][name]+360*round((previous['rotations'][name]-pose['rotations'][name])/360) for name in
                                 ['arm_near_upper','arm_near_fore','hand_near']}
         if t > .94:
-            for name,start,end in [('arm_near_upper',.94,1.34),
-                                   ('arm_near_fore',1.01,1.46),
-                                   ('hand_near',1.03,1.50)]:
-                target=360*round(recovery_rotations[name]/360)
-                pose['rotations'][name]=recovery_rotations[name]+(target-recovery_rotations[name])*_smooth((t-start)/(end-start))
+            # Control forearm WORLD direction: independent local-angle easing
+            # sent the hand behind the elbow. Sweep forward/down instead.
+            u=_smooth((t-.94)/.56)
+            upper=recovery_rotations['arm_near_upper']*(1-u)
+            initial_fore=sum(recovery_rotations[n] for n in ['arm_near_upper','arm_near_fore'])
+            fore_world=initial_fore+(360-initial_fore)*u
+            initial_hand=sum(recovery_rotations.values())
+            hand_world=initial_hand*(1-u)
+            pose['rotations']['arm_near_upper']=upper
+            pose['rotations']['arm_near_fore']=fore_world-upper
+            pose['rotations']['hand_near']=hand_world-fore_world
         pose['arrow_visible']=nock_time<=t<release_time
         pose['arrow_rotation']=-math.degrees(math.atan2(bow_r[1,0],bow_r[0,0]))
         if t==0 or t==length:pose=empty_pose()

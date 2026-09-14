@@ -1,0 +1,9 @@
+{
+  "status": "RENDERED_CANDIDATE_REVIEW_REQUIRED",
+  "scope": "Recovery only after 0.94s; other four animations and pre-release/aim/recoil keys unchanged",
+  "change": "Control forearm world orientation toward forward/down, rather than independent local interpolation toward a backwards elbow pose. Upper arm lowers concurrently.",
+  "headless": "PASS",
+  "attack_release_count": 1,
+  "visual_review": "256/192 recovery hand now descends in front of torso to rest; prior backward arm sweep removed. Shoulder texture compression remains.",
+  "capture_sha256": "4465c9a0df25df5ebc002325a00fb0f99ba7428bb0859ea0ac5fb99da59a7eb1"
+}

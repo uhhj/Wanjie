@@ -1,7 +1,7 @@
 {
   "status": "VISUAL_REVIEW_REQUIRED",
   "renderer": "GeForce GTX 1650",
-  "source_capture_sha256": "0f252bfa42f396b431a7ba05a5a52c7dbc1212b9cd136ee74c6904ea93669438",
+  "source_capture_sha256": "4465c9a0df25df5ebc002325a00fb0f99ba7428bb0859ea0ac5fb99da59a7eb1",
   "actual_gpu_frames_only": true,
   "native_size_preserved": true,
   "animations": {
@@ -58,9 +58,9 @@
     "attack_01": {
       "status": "VISUAL_REVIEW_REQUIRED",
       "sheet": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_combat_review.png",
-      "sha256": "e4235230053058d6add3f48c534f322bb68cf4bc8b0d42f4a4c1321934cf1183",
+      "sha256": "7c25f316f3a9eaaa8cce3df0220373e68d112811a3bd4e707569ce90c9e7f020",
       "crop_only_no_resize": [
-        244,
+        278,
         102,
         554,
         488
@@ -69,13 +69,13 @@
         {
           "height": 256,
           "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_256.gif",
-          "sha256": "3583e1ca4aad45a98b80ed03a8a150ef3edb64a1df5a9ad803b1712906e5791a",
+          "sha256": "fe67b1861e2597d2e5a2ddee1ff27149b4246c0d01498d633479a38bfd36a439",
           "frames": 16
         },
         {
           "height": 192,
           "gif": "D:\\Wanjie\\documents\\Wanjie\\reports\\cretan_archer\\animations\\attack_01_192.gif",
-          "sha256": "989e2684367926679c9ffef3b1f3e7d061c0497a45e79bf48da0f67dbacdc237",
+          "sha256": "5d5a8591e13ff203bec794951c0f529bd38cee8e2aba9342eb1696d3d70899c4",
           "frames": 16
         }
       ]
