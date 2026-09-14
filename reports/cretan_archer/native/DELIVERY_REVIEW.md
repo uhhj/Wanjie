@@ -1,6 +1,8 @@
 # Cretan Archer 原生骨骼交付审查
 
-Verdict: **CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED**
+Verdict: **ATTACK_REVISED_ART_REVIEW_REQUIRED**
+
+2026-09-14 攻击动作修订：取箭后直接送到搭箭位置，删除落回腰侧的绕行；放箭后短促向后收手并停顿，随后沿身体侧后方回位。仅修改攻击关键帧。工程结构检查通过，仍有肩袖压缩感，最终动作美术接受状态待审查。原生骨架复用能力仍为SUPPORTED。
 
 正式美术20/20已通过。此次动作调整没有改变Complete Body或任何正式PNG。最新三张参考图单独冻结，仅用于动作阶段与节奏，不提取人物帧或纹理。
 
@@ -9,12 +11,12 @@ Verdict: **CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED**
 | Godot | 4.7.2 Stable Standard / GDScript |
 | 人型Rig复用 | 原有23 Bone2D + 3弓箭插槽 = 26 |
 | 正式纹理 | 20张；19 Sprite2D引用、8处原生Polygon2D蒙皮替代绘制、1条动态Line2D弓弦 |
-| Idle / Walk / Attack / Hit / Death | 256px与192px均PASS |
+| Idle / Walk / Attack / Hit / Death | 256px与192px结构检查PASS；新版Attack美术待审查 |
 | attack_release | 每次播放恰好1次，两次独立播放合计2次 |
 | Walk支撑漂移（256px） | near 0.00229px / far 0.00292px |
 | 两轮Walk世界位移 | 840源像素，暂停保持 |
 | Headless语法/资源/轨道 | PASS |
-| 20单位桌面smoke | 1920×1080，角色192px，20.006秒，平均80.53FPS |
+| 20单位桌面smoke | 1920×1080，角色192px，20.004秒，平均127.87FPS |
 | GPU | GeForce GTX1650；Windows实际渲染，非headless性能数据 |
 
 Walk：轻装交替步态，膝、踝、脚掌联动；取参考的阶段规律，重新确定整圈关键帧。Attack：取箭准备、搭箭、举弓、脸部锚点瞄准、释放与回收。Death：一腿先失衡、另一脚继续支撑，屈膝跪地后前倒，头/前臂落地，停止保持。

@@ -1,6 +1,6 @@
 {
 	"animation_lengths": {
-		"attack_01": 1.2,
+		"attack_01": 1.28,
 		"death": 1.55,
 		"hit": 0.3,
 		"idle": 1.6,
@@ -28,11 +28,11 @@
 		"res://assets/units/odyssey/cretan_archer/parts/pelvis.png": "c0210195eca928ea6e4c5eb5bc44e08c6672c5d2c7382bf241497d8bcbc8d25f",
 		"res://assets/units/odyssey/cretan_archer/parts/quiver.png": "91ac274ccedb2a964d76fd10dba4891a8438ef58bd077b7df903a96792ba399b",
 		"res://assets/units/odyssey/cretan_archer/parts/torso.png": "7186ed9d1b3b8444066a7613358a36f1cf79aeaa19e4e9834af6a8292e65b197",
-		"res://resources/cretan_archer_animations_v1.json": "4c0fb246743b597ad82a70d4e30fbc10e6654358cc60e65168224e6d4d9449a5",
-		"res://resources/cretan_archer_animations_v1.tres": "209aed57ff0f4c8a0bd6130bd642fea8dc5a712cf46b1360b3d2f33a6c1a304a",
+		"res://resources/cretan_archer_animations_v1.json": "517a63b1ca073711ca37e6fac19b4759aa7505e43ceaa33aa0f2d75dadd7ec00",
+		"res://resources/cretan_archer_animations_v1.tres": "8d87022bbdd82e2c8f59c75319d84ad1de35a9f9b2dc19751962d4fd69dd5314",
 		"res://resources/cretan_archer_local_skinning.json": "ef1ae3fd97f8fac41727d2c0cc4db3036a341d354927fcbd0695799691cf9c45",
 		"res://resources/cretan_archer_rig_v1.json": "f08ca89fe13f5a4af6b621ad8cdacec488e9a70147ba713486272a0ca7b7d59e",
-		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "e11dd96c17ca991523712100f701e62ce700484bd1b84a9ec40a772574754d66",
+		"res://scenes/units/odyssey/cretan_archer/cretan_archer_rig.tscn": "5b855f79ecefde714417f9c8ecd4745b8eebbc7c10634ac1df7ced423c8a7f48",
 		"res://scripts/rig/cretan_archer_bow_string.gd": "e3e637b4349a2477ac137510e791912e106c84d84cfd46f96de08b4c47df65db",
 		"res://scripts/rig/cretan_archer_event_relay.gd": "8d4f0f65bb88fca783b122d9e9ad375c08c514d315444db5a50a7da652af2615",
 		"res://scripts/rig/cretan_archer_rig.gd": "547a06582bab36d3810460ab59bea69575955c2da3a5bce443cbacdbef457e12",
@@ -1697,8 +1697,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "c8b150a275fbf8e8c1862f4ce89b533a526ec3c0b01993a016fc1965ac0974d9",
-			"time": 0.08,
+			"sha256": "42093b97f344725085186deab147863897b52c44b95d4347e714ee4a87710cb8",
+			"time": 0.0853333333333333,
 			"used_rect": [
 				24,
 				197,
@@ -1721,8 +1721,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "1050b90a1950b033647cb642f85e198fec30ef04ec338701f41492365b7240cf",
-			"time": 0.08,
+			"sha256": "856ce3aca254d5e7311ff537f3d9aabef38e8d615b1539cb5a278bfce5e88275",
+			"time": 0.0853333333333333,
 			"used_rect": [
 				24,
 				265,
@@ -1745,8 +1745,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "a5d43eec36c37db381234894912b652a13e97141afd3a9846d9e8d62f9367301",
-			"time": 0.16,
+			"sha256": "318116386017ca4b00bc0c2f68cab3ec1aafd88f5e52b665ff22b2cfc11f1fe5",
+			"time": 0.170666666666667,
 			"used_rect": [
 				24,
 				197,
@@ -1769,8 +1769,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "763c7ac84bc994db9e3d14d26d1eaf522cab54288e5db2941082b206c6f1e69d",
-			"time": 0.16,
+			"sha256": "dda522cb36085d4763e2aba8241a916d6060acaf8bb5150422108718a4bcd0f6",
+			"time": 0.170666666666667,
 			"used_rect": [
 				24,
 				265,
@@ -1793,13 +1793,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "f918172c5bfe3a1c8ccc27097d5dfd8ceaa9f7aef04d2433428d6716ddc86c7b",
-			"time": 0.24,
+			"sha256": "05f9f5377b1b81a32704380b1e82f0505ba86d17fde7ab12ce8f16af13a1c148",
+			"time": 0.256,
 			"used_rect": [
 				24,
-				197,
+				182,
 				752,
-				280
+				295
 			],
 			"viewport": [
 				800,
@@ -1817,13 +1817,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "2d391647ac5f770fdbec957882d26651b697866665df52e965e8d0e18fd90c3a",
-			"time": 0.24,
+			"sha256": "545df5bcdf6439839acc6ccb817ca2ff9a92cba20d8c219af2ae72a4fee14461",
+			"time": 0.256,
 			"used_rect": [
 				24,
-				265,
+				254,
 				752,
-				212
+				223
 			],
 			"viewport": [
 				800,
@@ -1841,13 +1841,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "447e5ace3af5855ae17b6ff92a2490004514b363b7311458af7fa1bd09d8b69a",
-			"time": 0.32,
+			"sha256": "d277b47f9bc5f66d00b5d0c4399c8c2ce22ddac6417bf8d3cc0288ed41d8adc8",
+			"time": 0.341333333333333,
 			"used_rect": [
 				24,
-				190,
+				150,
 				752,
-				287
+				327
 			],
 			"viewport": [
 				800,
@@ -1865,13 +1865,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "002aa9a6531bc7dcc4dd7eddfa516d92c53360f4fa6cce423992e8c2e303f0f2",
-			"time": 0.32,
+			"sha256": "e5003394a0f31a66f829e729f22e35892d0b7dccc7ccbe1d5f2e4ffdd7e4f637",
+			"time": 0.341333333333333,
 			"used_rect": [
 				24,
-				260,
+				230,
 				752,
-				217
+				247
 			],
 			"viewport": [
 				800,
@@ -1889,13 +1889,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "d8321f6c3d6e814bb1621f1ab4ba5f1ecbb155aef2d392d485e628d3a07ee2d3",
-			"time": 0.4,
+			"sha256": "3903c788c857f91260d9a22c9f40412a824d4d2d03265b71dd3911e9b3bc356f",
+			"time": 0.426666666666667,
 			"used_rect": [
 				24,
-				179,
+				129,
 				752,
-				298
+				348
 			],
 			"viewport": [
 				800,
@@ -1913,13 +1913,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "a21e8f35fc6e8b446c95c42acb3e29fe35f16038ab5a2f25c2e8f3da2a6e2378",
-			"time": 0.4,
+			"sha256": "8746548f26cc679dc99e1722af78acd2bcc09ef60c1ee10fc1cb5eea6d2e252b",
+			"time": 0.426666666666667,
 			"used_rect": [
 				24,
-				251,
+				214,
 				752,
-				226
+				263
 			],
 			"viewport": [
 				800,
@@ -1937,13 +1937,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "440bf73c67533a6c336c2283b2021644120cdcaf85bae5c71dfd1892aca1d93b",
-			"time": 0.48,
+			"sha256": "f761ebb03c73d3364b3f4377eb0ac15391e453b61e09dc64beb89763280d2473",
+			"time": 0.512,
 			"used_rect": [
 				24,
-				151,
+				120,
 				752,
-				326
+				357
 			],
 			"viewport": [
 				800,
@@ -1961,13 +1961,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "f6da476e163e31168cbd574b5bad24f9d8deafe18e8b0e76d8f3149809789e71",
-			"time": 0.48,
+			"sha256": "70295464ec3ddd03ad61ece21a2de67944ec35e7052331320f304eddf2de8741",
+			"time": 0.512,
 			"used_rect": [
 				24,
-				231,
+				207,
 				752,
-				246
+				270
 			],
 			"viewport": [
 				800,
@@ -1985,8 +1985,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "e80214d8ba97c7eb1644c81c017b452b0befd43cd81314b5bae42e42c97d5e30",
-			"time": 0.56,
+			"sha256": "36b7f04e3ef7f1c64d6bb1d3d7b39b7797d9947152f9e9aff2afc88d598361a0",
+			"time": 0.597333333333333,
 			"used_rect": [
 				24,
 				120,
@@ -2009,8 +2009,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "c81cf4bdee86e37ffda978877e6814584b4d68f64f7af00d515067d9d6557b13",
-			"time": 0.56,
+			"sha256": "cdeb0dcd9b06fe9190696b6b55c445aba31ed732004f368cdb17b44cebab99f4",
+			"time": 0.597333333333333,
 			"used_rect": [
 				24,
 				207,
@@ -2033,8 +2033,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "de63f280ab994046599c2ca45d405a1aa3a6912d259934599370ab25dbfb72a5",
-			"time": 0.64,
+			"sha256": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
+			"time": 0.682666666666667,
 			"used_rect": [
 				24,
 				120,
@@ -2057,8 +2057,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "7bfb8b0b46ed1ea7de6a09959652b110c1ef6ad95c910a49effaa34100702b14",
-			"time": 0.64,
+			"sha256": "c6c615fb108c3de113318d58a7b648c3bb1ecb87cbee772a23f640b35b0e753f",
+			"time": 0.682666666666667,
 			"used_rect": [
 				24,
 				207,
@@ -2082,7 +2082,7 @@
 				470.0
 			],
 			"sha256": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
-			"time": 0.72,
+			"time": 0.768,
 			"used_rect": [
 				24,
 				120,
@@ -2105,8 +2105,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "e5ce5e1e24d45346a036845ad10d69a205397f8c4f74aa28573422160fcae962",
-			"time": 0.72,
+			"sha256": "c6c615fb108c3de113318d58a7b648c3bb1ecb87cbee772a23f640b35b0e753f",
+			"time": 0.768,
 			"used_rect": [
 				24,
 				207,
@@ -2129,8 +2129,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "eb451092eedd560c6f50bbd7513563ae5327ded17fd5f803ebe648c8fbef0eca",
-			"time": 0.8,
+			"sha256": "510acd8ad6766723e0860892222174f5ab1c5d7d5fe978cd62587fb4fd9264e5",
+			"time": 0.853333333333333,
 			"used_rect": [
 				24,
 				120,
@@ -2153,8 +2153,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "e5ce5e1e24d45346a036845ad10d69a205397f8c4f74aa28573422160fcae962",
-			"time": 0.8,
+			"sha256": "df4731a64c9c3952c20fae9273a61c2d376cd7d8d7cfa1f5217fa6d852d30e1c",
+			"time": 0.853333333333333,
 			"used_rect": [
 				24,
 				207,
@@ -2177,13 +2177,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "27721ea40eff664803a9b6c2346fb5da95b5d4d259f6dbe61ea996ec04cb5833",
-			"time": 0.88,
+			"sha256": "6dc693903f5794e234bac96407534010a2e90ae21c359fe8617a9187717a4390",
+			"time": 0.938666666666667,
 			"used_rect": [
 				24,
-				121,
+				120,
 				752,
-				356
+				357
 			],
 			"viewport": [
 				800,
@@ -2201,13 +2201,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "7c7f2e5cef51f03db00c8d8fceac6c4273ab7b24add9952a0a533c32495aa5c5",
-			"time": 0.88,
+			"sha256": "363d2f8dba9c40a8aaca965338dc02ac042649cd2a107f5d10440cb0f4d3919e",
+			"time": 0.938666666666667,
 			"used_rect": [
 				24,
-				208,
+				207,
 				752,
-				269
+				270
 			],
 			"viewport": [
 				800,
@@ -2225,8 +2225,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "27a65ce7b88d7e010e21f42a1d1df0e23893abf7614bfa1ebe231cac8ef12383",
-			"time": 0.96,
+			"sha256": "97139c438e3741219e8c8b3e72716dc08bf4184141bed0474111a9a0e60d0562",
+			"time": 1.024,
 			"used_rect": [
 				24,
 				142,
@@ -2249,8 +2249,8 @@
 				350.0,
 				470.0
 			],
-			"sha256": "a83d32f2b73256b185b1c312cd1f6abb80d83f91f62b1a24a6f265acf93f23d0",
-			"time": 0.96,
+			"sha256": "5d3d8e7edbda6db53d20c5e90f9ac357a41d899897b8aedb324f117094f3eefd",
+			"time": 1.024,
 			"used_rect": [
 				24,
 				224,
@@ -2273,13 +2273,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "cb1317234236fc716f4fbf07b72dbf1727d278e403bc3e986a387f821334380d",
-			"time": 1.04,
+			"sha256": "cf29c0b5f00a84b3f2ba0f63e53dd23c51f36f3079e51f5bf298a38f05b4246d",
+			"time": 1.10933333333333,
 			"used_rect": [
 				24,
-				176,
+				164,
 				752,
-				301
+				313
 			],
 			"viewport": [
 				800,
@@ -2297,13 +2297,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "059a2c6fc7939e44929042c91ef2bd0825b3db29e37dcdbff7fcab014dc1cd48",
-			"time": 1.04,
+			"sha256": "82f1f1723690c8b839809c84a00cf7a6609601fb46029bcfce57736d8c822174",
+			"time": 1.10933333333333,
 			"used_rect": [
 				24,
-				249,
+				240,
 				752,
-				228
+				237
 			],
 			"viewport": [
 				800,
@@ -2321,13 +2321,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "b561866510dfb4bb69fdd4af27d97f222c7fa12ebbb5700876935ee3bd9596cc",
-			"time": 1.12,
+			"sha256": "3b148dfc7d974f04548b3d0e8a5f9eb8966bfa7a664f68a90360c541240579e8",
+			"time": 1.19466666666667,
 			"used_rect": [
 				24,
-				188,
+				196,
 				752,
-				289
+				281
 			],
 			"viewport": [
 				800,
@@ -2345,13 +2345,13 @@
 				350.0,
 				470.0
 			],
-			"sha256": "41a897b17b574e0cd6a29b854d58f6a7f16b679e14dd497d94f2c7a14c1dfef3",
-			"time": 1.12,
+			"sha256": "973156a130a1048b79c5775297134f9b9454bc9e8fabac5bcb885fd9bdf355c5",
+			"time": 1.19466666666667,
 			"used_rect": [
 				24,
-				259,
+				265,
 				752,
-				218
+				212
 			],
 			"viewport": [
 				800,
@@ -2370,7 +2370,7 @@
 				470.0
 			],
 			"sha256": "b7f7ecc0a22e18094ed917259df979887426e34a5f7fd45fbc491d510ae1c388",
-			"time": 1.2,
+			"time": 1.28,
 			"used_rect": [
 				24,
 				197,
@@ -2394,7 +2394,7 @@
 				470.0
 			],
 			"sha256": "c02f3b5e06b5805794c42455b08705b462910c01776141d05aa484d661c60cbf",
-			"time": 1.2,
+			"time": 1.28,
 			"used_rect": [
 				24,
 				265,

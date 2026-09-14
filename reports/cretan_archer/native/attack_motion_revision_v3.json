@@ -1,0 +1,46 @@
+{
+  "status": "STRUCTURAL_TESTS_PASS_ART_REVIEW_REQUIRED",
+  "baseline_commit": "71bfe1a",
+  "scope": "Attack keyframes only; no Rig topology, weights, pivots or approved texture changes",
+  "unchanged_animations": {
+    "idle": true,
+    "walk": true,
+    "hit": true,
+    "death": true
+  },
+  "duration_seconds": 1.28,
+  "release_time": 0.84,
+  "changes": [
+    "Direct quiver-to-nock path, no waist detour",
+    "Raise and draw overlap instead of separate exaggerated arm sweep",
+    "40 source-pixel short rearward release gesture, brief hold",
+    "Recovery descends behind shoulder, no second forward reach"
+  ],
+  "retrieval_to_nock_max_hand_y": 379.99999999999994,
+  "post_release_max_hand_x": 550.0,
+  "offline_contact": {
+    "scope": "FK authoring only; actual GPU visual gate still required",
+    "visible_nock_material_max_error_source_px": 3.06111178766429e-13,
+    "max_neighbor_rotation_change_degrees": 38.00120759761904,
+    "method_event_count": 1,
+    "near_face_nock_target": [
+      550,
+      310
+    ],
+    "bow_aim_grip_target": [
+      940,
+      323
+    ],
+    "near_draw_branch": "positive after near-straight retrieval transition; elbow back/outward",
+    "far_arm_branch": "negative throughout",
+    "ready_and_recovery_all_rotations_zero": true
+  },
+  "headless": "PASS",
+  "attack_release_observed": 1,
+  "capture_sha256": "6bfa6c5b0a27a67c46d4a01bee528b2271ab2c919a7859a1be521552b4bc5e14",
+  "limitations": [
+    "Shoulder/sleeve retains visible compression at raised poses. Improved motion path is not a claim of final art-quality acceptance.",
+    "Retrieval is still a gesture, not a separately carried arrow attachment."
+  ],
+  "timestamp": "2026-09-14T03:09:25.098949+00:00"
+}

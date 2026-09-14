@@ -45,7 +45,10 @@ def main():
     check(len(data['bones'])==26 and data['new_bones']==['bow_socket','arrow_socket','quiver_socket'],'Unexpected rig replacement or extensions')
     check(test['bone_count']==26,'Native reused bone count wrong')
     verdict='CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED' if not errors else 'BLOCKED_NATIVE_VALIDATION'
-    result={'verdict':verdict,'status':'PASS' if not errors else 'FAIL','errors':errors,'complete_body':'PASS',
+    aesthetic=visual.get('aesthetic_acceptance','NOT_RECORDED')
+    if not errors and aesthetic=='REVISED_ATTACK_REQUIRES_USER_REVIEW':
+        verdict='ATTACK_REVISED_ART_REVIEW_REQUIRED'
+    result={'aesthetic_acceptance':aesthetic,'native_rig_reuse':'SUPPORTED' if not errors else 'VALIDATION_PENDING','verdict':verdict,'status':'PASS' if not errors else 'FAIL','errors':errors,'complete_body':'PASS',
             'parts':'20/20 PASS','rig_family':'HUMAN_MEDIUM_RIG_V1','native_bones':26,'reused_bones':23,'new_sockets':3,
             'animations':visual['animations'],'attack_release_count':test['attack_release_count'],
             'headless':test['status'],'rig_lab':lab['status'],'foot_slide':test['foot_slide'],'twenty_unit_smoke':smoke['status'],
@@ -53,7 +56,7 @@ def main():
             'flags':visual.get('non_blocking_flags',[]),'capture_manifest_sha256':p.sha(N+'capture_manifest.json'),
             'formal_manifest_sha256':p.sha('tools/cretan_archer_parts_manifest.json'),'timestamp':p.now()}
     p.save(N+'delivery_gate.json',result)
-    state=p.load(p.REPORT+'pipeline_status.json');state.update(verdict=verdict,
+    state=p.load(p.REPORT+'pipeline_status.json');state.update(verdict=verdict,aesthetic_acceptance=aesthetic,
           animations={n:'PASS' if not errors else 'SEE_NATIVE_GATE' for n in NAMES},attack_release='PASS_EXACTLY_ONCE' if test['status']=='PASS' else 'FAIL',
           twenty_unit_smoke=smoke['status'],human_medium_rig_reuse='SUPPORTED' if not errors else 'VALIDATION_PENDING',
           godot_handoff='READY' if not errors else 'NOT_READY',native_gate=result['status'],note='Art and native evidence checked independently against current SHA; desktop-only smoke; no third unit or combat system.')

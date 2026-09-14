@@ -1,9 +1,9 @@
 {
   "status": "PASS",
-  "scope": "COMBAT_SCALE_NATIVE_ANIMATION_256_192",
-  "reviewer": "Codex primary visual review with independent agent checks",
-  "timestamp": "2026-09-13T18:40:04.400047+00:00",
-  "capture_manifest_sha256": "0151c369aff644268b246b7116e5701b76806efc74c2a4c7a95d9605e6e17ba7",
+  "scope": "COMBAT_SCALE_STRUCTURAL_QA_NOT_FINAL_AESTHETIC_APPROVAL",
+  "reviewer": "Codex primary review of revised attack; other animation data unchanged",
+  "timestamp": "2026-09-14T03:09:25.103654+00:00",
+  "capture_manifest_sha256": "6bfa6c5b0a27a67c46d4a01bee528b2271ab2c919a7859a1be521552b4bc5e14",
   "animations": {
     "idle": {
       "256px": "PASS",
@@ -18,7 +18,7 @@
     "attack_01": {
       "256px": "PASS",
       "192px": "PASS",
-      "notes": "Retrieve gesture, nock, face-level aim, one release, follow-through; continuous string and no visible limb disconnection. Compact near-shoulder fold retained as nonblocking."
+      "notes": "No observed detachments; direct retrieval and recovery, distinct short release recoil. Shoulder texture compression remains; final aesthetic approval not claimed."
     },
     "hit": {
       "256px": "PASS",
@@ -34,11 +34,11 @@
   "reviewed_files": {
     "reports/cretan_archer/animations/idle_combat_review.png": "c1495c31e3e2027ff43f40723823bcd3554581a5f35eda55f5841119592698d4",
     "reports/cretan_archer/animations/walk_combat_review.png": "3d82c3efbc7ecfb7d70a103048240663cdffc5bcd9a4a2ef8924beef547343da",
-    "reports/cretan_archer/animations/attack_01_combat_review.png": "f20a4eeaf1180291de4132fc379703bf6f12ed3f47333f5c5a445c46345cd813",
+    "reports/cretan_archer/animations/attack_01_combat_review.png": "459eb27ec27105c35d02663b62182c19711b9588e6b1e23bd40b02706fadd5b3",
     "reports/cretan_archer/animations/hit_combat_review.png": "1ea20ee4d0dea278370e2b27852cc22d765bea9420a108a28471bf1aeaf77c8a",
     "reports/cretan_archer/animations/death_combat_review.png": "bd3c696c347d337e66fc2e9cbb57f5908d67da5fcb628573b4bbb104b4eafed5",
     "reports/cretan_archer/animations/death_256_003.png": "a43b47236c90178a317fc5920bb7e515e00e6c6d084ea26f1b0acd9573e0a8cc",
-    "reports/cretan_archer/native/attack_reference_comparison.png": "1ae7967e0ffaac1f18ca8a2f9ff3c4f2dd7a6bf7feda477288889adc25939605",
+    "reports/cretan_archer/native/attack_reference_comparison.png": "3bce3849701fae946693de664965cf7e5ac46702982de54f32f0d181901e1549",
     "reports/cretan_archer/native/death_reference_comparison.png": "e79778bb54b800eeedd0631672c9ceae3a45048d1b63b77e188851d3b53b8cb3"
   },
   "reference_pixels_used_in_formal_assets": false,
@@ -48,5 +48,6 @@
     "Near shoulder/upper-arm texture retains a compact rounded fold in the nock/chest pose. No visible hole, detached limb or loss of action readability at256/192.",
     "Death finishes in a somewhat more extended pose than the reference strip; phase logic and grounded endpoint are retained.",
     "Retrieve is a hand gesture toward quiver; separate carried-arrow attachment and projectile flight are not part of this Rig implementation."
-  ]
+  ],
+  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW"
 }

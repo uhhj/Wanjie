@@ -1,5 +1,7 @@
 {
-  "verdict": "CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED",
+  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW",
+  "native_rig_reuse": "SUPPORTED",
+  "verdict": "ATTACK_REVISED_ART_REVIEW_REQUIRED",
   "status": "PASS",
   "errors": [],
   "complete_body": "PASS",
@@ -22,7 +24,7 @@
     "attack_01": {
       "256px": "PASS",
       "192px": "PASS",
-      "notes": "Retrieve gesture, nock, face-level aim, one release, follow-through; continuous string and no visible limb disconnection. Compact near-shoulder fold retained as nonblocking."
+      "notes": "No observed detachments; direct retrieval and recovery, distinct short release recoil. Shoulder texture compression remains; final aesthetic approval not claimed."
     },
     "hit": {
       "256px": "PASS",
@@ -61,7 +63,7 @@
     }
   },
   "twenty_unit_smoke": "COMPLETED",
-  "desktop_fps": 80.5251459137137,
+  "desktop_fps": 127.874182202613,
   "renderer": "GeForce GTX 1650",
   "mobile_performance_claimed": false,
   "flags": [
@@ -70,7 +72,7 @@
     "Death finishes in a somewhat more extended pose than the reference strip; phase logic and grounded endpoint are retained.",
     "Retrieve is a hand gesture toward quiver; separate carried-arrow attachment and projectile flight are not part of this Rig implementation."
   ],
-  "capture_manifest_sha256": "0151c369aff644268b246b7116e5701b76806efc74c2a4c7a95d9605e6e17ba7",
+  "capture_manifest_sha256": "6bfa6c5b0a27a67c46d4a01bee528b2271ab2c919a7859a1be521552b4bc5e14",
   "formal_manifest_sha256": "540b73ab54aa39499e768484245fedbff27c5e85da6d06777618833fa402be8d",
-  "timestamp": "2026-09-13T19:14:02.148148+00:00"
+  "timestamp": "2026-09-14T03:19:17.052676+00:00"
 }

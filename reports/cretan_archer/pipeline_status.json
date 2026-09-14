@@ -1,5 +1,5 @@
 {
-  "verdict": "CRETAN_ARCHER_NATIVE_RIG_REUSE_SUPPORTED",
+  "verdict": "ATTACK_REVISED_ART_REVIEW_REQUIRED",
   "complete_body": "PASS",
   "parts": {
     "required": 20,
@@ -22,5 +22,6 @@
   "human_medium_rig_reuse": "SUPPORTED",
   "godot_handoff": "READY",
   "note": "Art and native evidence checked independently against current SHA; desktop-only smoke; no third unit or combat system.",
-  "native_gate": "PASS"
+  "native_gate": "PASS",
+  "aesthetic_acceptance": "REVISED_ATTACK_REQUIRES_USER_REVIEW"
 }
