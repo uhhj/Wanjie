@@ -1,0 +1,21 @@
+{
+  "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
+  "status": "BLOCKED_COMPLETE_BODY_ART_GATE",
+  "animations": [
+    "idle",
+    "walk",
+    "attack_01",
+    "hit",
+    "death",
+    "skill_command"
+  ],
+  "skill_event": "command_release",
+  "skill_gameplay": "future nearby ally buff consumer; rig emits signal only",
+  "godot_handoff": "NOT_READY",
+  "complete_body": "FAIL",
+  "parts_generated": 0,
+  "parts_approved": 0,
+  "native_animations": "NOT_STARTED_ART_GATE",
+  "skill_reference": "GENERATED_MOTION_REFERENCE_ONLY",
+  "gate_report": "reports\\roman_centurion\\complete_body_gate.json"
+}

@@ -1,0 +1,54 @@
+{
+  "status": "FAIL",
+  "verdict": "BLOCKED_COMPLETE_BODY_ART_GATE",
+  "input_file": "work\\roman_centurion\\01_complete_body_candidate.png",
+  "input_sha256": "59b91aff94e02c8f9dc9f2eb93e96ee66556e44793c6b4d9c0113b0814603526",
+  "checks": {
+    "no_sword": false,
+    "no_cape": false,
+    "no_unapproved_armor": false,
+    "skirt_continuity": false,
+    "original_face_preserved": true,
+    "original_helmet_preserved": true,
+    "same_canvas": true,
+    "true_rgba": true,
+    "outside_mask_unchanged": true
+  },
+  "remaining_issues": [
+    {
+      "id": "region_001",
+      "bbox": [
+        380,
+        365,
+        785,
+        558
+      ],
+      "problem": "AI新增肩部圆形扣饰和大面积上缘甲片，不在冻结设计中",
+      "action": "仅修复颈肩局部，延续现有肩甲和胸甲，移除新增扣饰"
+    },
+    {
+      "id": "region_002",
+      "bbox": [
+        260,
+        760,
+        645,
+        1155
+      ],
+      "problem": "剑柄/剑刃轮廓残留；裙甲与补全像素有斜向拼接",
+      "action": "重新审查剑mask并精确保护原拳头；补齐剑后裙甲，不动腿与膝甲"
+    },
+    {
+      "id": "region_003",
+      "bbox": [
+        45,
+        500,
+        435,
+        1265
+      ],
+      "problem": "披风残留在后臂旁及左侧背景，局部mask未覆盖完整",
+      "action": "根据源图补齐披风mask，保留真实手臂像素；清除来源明确的披风残片"
+    }
+  ],
+  "parts_promoted": 0,
+  "godot_handoff": "NOT_READY"
+}

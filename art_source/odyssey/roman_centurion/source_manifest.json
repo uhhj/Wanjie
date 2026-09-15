@@ -1,0 +1,54 @@
+{
+  "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
+  "name_zh": "百夫长",
+  "files": [
+    {
+      "role": "DESIGN",
+      "file": "art_source/odyssey/roman_centurion/OD_UNIT_03_ROMAN_CENTURION_DESIGN_V1.png",
+      "input_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-92a7a81f-3507-4f39-bab7-36391e84658e.png",
+      "sha256": "e6ce4fee9fe31172ad5e38d8e30b138a43aff83a8db43dcec6c18d3b81ff30a5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "production_pixels_allowed": false
+    },
+    {
+      "role": "COMBAT_LOOK",
+      "file": "art_source/odyssey/roman_centurion/OD_UNIT_03_ROMAN_CENTURION_COMBAT_LOOK_V1.png",
+      "input_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-30327caf-6879-4f4c-9ad6-685e03500316.png",
+      "sha256": "99a09165071b562c988b55fcb408819a05d596431e541deb9037880a9bdcafdc",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "production_pixels_allowed": false
+    },
+    {
+      "role": "RIG_MASTER",
+      "file": "art_source/odyssey/roman_centurion/OD_UNIT_03_ROMAN_CENTURION_RIG_MASTER_V1.png",
+      "input_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-9e5f06c5-6086-468d-a4ea-ae05a62378ba.png",
+      "sha256": "f4b8e70cd64a501a4ee2efcefdf52986cc1465f32102e5106d0cfb40205bd7d3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "production_pixels_allowed": true
+    },
+    {
+      "role": "CODEX",
+      "file": "art_source/odyssey/roman_centurion/OD_UNIT_03_ROMAN_CENTURION_CODEX_V1.png",
+      "input_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-e768f1b7-f87c-498a-88eb-4a28db57ad90.png",
+      "sha256": "61bebd837b031b3e4edaeb1ea0af1e9ec7f79374cdfc7f89e645bf1b75237ad6",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "production_pixels_allowed": false
+    }
+  ]
+}

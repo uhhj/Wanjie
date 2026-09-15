@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "status": "FAIL_ART_AND_ALPHA",
+  "input_file": "work\\roman_centurion\\00_master_rgba.png",
+  "input_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+  "raw_output": "work\\roman_centurion\\raw\\001_complete_body.png",
+  "output_sha256": "2359a7f6d3f65e4ba0d1ddfbaef3c610e42af19bf8f5bf11f7043605bc3b7dad",
+  "prompt": "work\\roman_centurion\\prompts\\001_complete_body.txt",
+  "observed_issues": [
+    "RGB checkerboard baked into background, not transparent",
+    "New broad shoulder/cuirass structure not supported by frozen design",
+    "Visible armour and body rendering drift in raw output"
+  ],
+  "formal_use_allowed": false
+}

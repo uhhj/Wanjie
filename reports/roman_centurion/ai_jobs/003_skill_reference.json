@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "status": "MOTION_REFERENCE_ONLY",
+  "input_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+  "prompt_file": "work\\roman_centurion\\prompts\\skill_command_reference.txt",
+  "output_file": "reports\\roman_centurion\\skill_command_reference_v1.png",
+  "output_sha256": "f3806397d9e11f61e4f564c79e3d87637d07c87028876004e83d3720d26aced5",
+  "production_pixels_allowed": false,
+  "notes": [
+    "Shout face is expression reference only, not an approved replacement head",
+    "Sword-raising silhouette and stable command hold guide future native keys"
+  ]
+}

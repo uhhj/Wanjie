@@ -1,0 +1,14 @@
+{
+  "input_sha256": "f4b8e70cd64a501a4ee2efcefdf52986cc1465f32102e5106d0cfb40205bd7d3",
+  "output_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+  "rgb_changed_pixels": 0,
+  "method": "Only alpha 254 ->255 on derived copy; original unchanged",
+  "input_alpha_min_max": [
+    0,
+    254
+  ],
+  "output_alpha_min_max": [
+    0,
+    255
+  ]
+}

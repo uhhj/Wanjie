@@ -1,0 +1,24 @@
+{
+  "input_file": "work/roman_centurion/00_master_rgba.png",
+  "input_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+  "mask": "work/roman_centurion/masks/complete_body_edit.png",
+  "mask_sha256": "d07bb4bfa51828054eb08511b76b60756caf5cd06eba22e829cc76b64358ef64",
+  "tool": "built-in image_gen",
+  "raw_output": "work/roman_centurion/raw/002_local_retry_rgba.png",
+  "raw_sha256": "094c70b0e9cacf7e566ed3f43abe86d5727022171369fd2adaf7b7744b6f1e41",
+  "output_file": "work/roman_centurion/01_complete_body_candidate.png",
+  "output_sha256": "59b91aff94e02c8f9dc9f2eb93e96ee66556e44793c6b4d9c0113b0814603526",
+  "protected_pixels_changed": 0,
+  "status": "REJECTED_BY_ART_GATE",
+  "timestamp": "2026-09-15T11:21:45.809282+00:00",
+  "raw_model_output": "work\\roman_centurion\\raw\\002_local_retry.png",
+  "raw_model_output_sha256": "7a0268d8236d2f60e5c6f12d3080d3ee198762067f361697ed120c23d7e94d53",
+  "prompt_file": "work\\roman_centurion\\prompts\\002_local_retry.txt",
+  "prompt_sha256": "55caace8dee7ad506fa25d75a872147d09f7d81589f78792d3c712a8ad86c4ae",
+  "deterministic_matte": {
+    "method": "boundary-connected magenta components, padded Pillow floodfill",
+    "rule": "R>160,B>160,G<100,R-G>70,B-G>70",
+    "characters_rgb_unchanged_by_matte": true,
+    "edge_decontamination": "NOT_PERFORMED; candidate fails structural art gate"
+  }
+}
