@@ -1,0 +1,12 @@
+{
+  "mode": "RGBA",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "alpha_min": 0,
+  "alpha_max": 255,
+  "opaque_pixels": 56742,
+  "transparent_pixels": 1121489,
+  "fractional_pixels": 394633
+}

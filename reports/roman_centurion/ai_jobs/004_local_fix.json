@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "operation": "Local neck/thigh repair, external alpha and deterministic masked compositing",
+  "input_file": "work\\roman_centurion\\02_edit_input_gray.png",
+  "input_sha256": "217ba6d5aac93982128ccbb4ec8399fbe65459a1da85f8150b5132a56a1ee0c3",
+  "prompt_file": "work\\roman_centurion\\prompts\\004_local_neck_thigh.txt",
+  "prompt_sha256": "625a0b94b37c2bed14702e2958dc610535aebe7b6418b27625bff8094950f89c",
+  "raw_output": "work\\roman_centurion\\raw\\004_local_neck_thigh.png",
+  "raw_sha256": "a20b34c860ec778040fe32a79bf0c11bacc674064fcfd21f3c3959001c8456a0",
+  "output_file": "work/roman_centurion/03_complete_body_v2.png",
+  "output_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "masks": {
+    "work\\roman_centurion\\masks\\exterior_cape_cleanup_v2.png": "bfe900959429a5715cab4e75d4828ddbca1d3ac15e8d65a1983738fea7f74f1f",
+    "work\\roman_centurion\\masks\\fix_cape_v2.png": "c1d51f8724f78f1a825e698faab734e3d463c78552a742e686fabd8eeb0d3cc0",
+    "work\\roman_centurion\\masks\\fix_neck_v2.png": "229d5283da0e780b212c7e35d9a89cba8d603582c857a2fd68bdeb0bc19df77a",
+    "work\\roman_centurion\\masks\\fix_sword_v2.png": "9271f6ec08de849f9d03ed381a33832015d711c81448c622b417cb42d5fd9264",
+    "work\\roman_centurion\\masks\\fix_thigh_v2.png": "73829144456a71a00d651b2fd1bfeee4b5f87c700180295b3b04bacbe209d1dd",
+    "work\\roman_centurion\\masks\\protect_face_hand_v2.png": "7ac5e1ceb426194c904d65556c479d58b6023d4f952e46323f4762ec1f42423b"
+  },
+  "composite_script": "tools/finalize_centurion_body_v2.py",
+  "status": "BODY_GATE_PASS",
+  "notes": [
+    "Raw output changed unrequested regions; only localized neck/thigh RGB used",
+    "Cloak/sword mask omissions repaired separately; complete character never replaced by generated raw",
+    "Protected original face/hand mask restored after local blending"
+  ]
+}

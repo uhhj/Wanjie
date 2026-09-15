@@ -22,21 +22,21 @@ def compose(raw):
  Image.fromarray(out).save(ROOT/W/'01_complete_body_candidate.png')
  save(R+'ai_jobs/001_complete_body.json',{'input_file':W+'00_master_rgba.png','input_sha256':sha(W+'00_master_rgba.png'),'mask':W+'masks/complete_body_edit.png','mask_sha256':sha(W+'masks/complete_body_edit.png'),'tool':'built-in image_gen','raw_output':path.relative_to(ROOT).as_posix(),'raw_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'output_file':W+'01_complete_body_candidate.png','output_sha256':sha(W+'01_complete_body_candidate.png'),'protected_pixels_changed':int(np.any(out!=a,axis=2)[~mask].sum()),'status':'VISUAL_REVIEW_REQUIRED','timestamp':datetime.now(timezone.utc).isoformat()})
  review()
-def review():
- im=Image.open(ROOT/W/'01_complete_body_candidate.png');src=Image.open(ROOT/W/'00_master_rgba.png');arr=np.array(im);alpha=arr[:,:,3]
+def review(candidate=W+'01_complete_body_candidate.png',suffix=''):
+ im=Image.open(ROOT/candidate);src=Image.open(ROOT/W/'00_master_rgba.png');arr=np.array(im);alpha=arr[:,:,3]
  metrics={'mode':im.mode,'dimensions':list(im.size),'alpha_min':int(alpha.min()),'alpha_max':int(alpha.max()),'opaque_pixels':int((alpha==255).sum()),'transparent_pixels':int((alpha==0).sum()),'fractional_pixels':int(((alpha>0)&(alpha<255)).sum())}
- save(R+'body_format_metrics.json',metrics)
+ save(R+'body_format_metrics'+suffix+'.json',metrics)
  sheet=Image.new('RGB',(1200,880),'#eee');d=ImageDraw.Draw(sheet)
  for col,(name,image) in enumerate([('RIG MASTER',src),('BODY CANDIDATE',im)]):
   bg=Image.new('RGBA',image.size,'#b0b0b0');bg.alpha_composite(image);bg.thumbnail((550,825));sheet.paste(bg.convert('RGB'),(col*600+20,30));d.text((col*600+20,8),name,fill='black')
- sheet.save(ROOT/R/'complete_body_review.png')
+ sheet.save(ROOT/R/('complete_body_review'+suffix+'.png'))
  combat=Image.new('RGB',(1200,600),'#eeeeee');d=ImageDraw.Draw(combat)
  bounds=im.getbbox();height=bounds[3]-bounds[1]
  for row,h in enumerate([256,192]):
   v=im.resize((round(im.width*h/height),round(im.height*h/height)),Image.Resampling.LANCZOS)
   for col,color in enumerate(['white','#808080','#507596']):
    bg=Image.new('RGBA',v.size,color);bg.alpha_composite(v);combat.paste(bg.convert('RGB'),(col*400+90,row*300+20));d.text((col*400+10,row*300+5),str(h)+'px',fill='black')
- combat.save(ROOT/R/'complete_body_combat_review.png')
+ combat.save(ROOT/R/('complete_body_combat_review'+suffix+'.png'))
  print(json.dumps(metrics))
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('command',choices=['verify','compose','review']);ap.add_argument('--raw');args=ap.parse_args()

@@ -1,6 +1,6 @@
 {
   "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
-  "status": "BLOCKED_COMPLETE_BODY_ART_GATE",
+  "status": "COMPLETE_BODY_GATE_PASS",
   "animations": [
     "idle",
     "walk",
@@ -12,10 +12,13 @@
   "skill_event": "command_release",
   "skill_gameplay": "future nearby ally buff consumer; rig emits signal only",
   "godot_handoff": "NOT_READY",
-  "complete_body": "FAIL",
+  "complete_body": "PASS",
   "parts_generated": 0,
   "parts_approved": 0,
-  "native_animations": "NOT_STARTED_ART_GATE",
+  "native_animations": "NOT_STARTED",
   "skill_reference": "GENERATED_MOTION_REFERENCE_ONLY",
-  "gate_report": "reports\\roman_centurion\\complete_body_gate.json"
+  "gate_report": "reports/roman_centurion/complete_body_gate_v2.json",
+  "body_file": "work/roman_centurion/03_complete_body_v2.png",
+  "body_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "next_stage": "ARTICULATED_PARTS"
 }

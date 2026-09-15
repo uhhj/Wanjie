@@ -14,4 +14,6 @@
 
 工程命令：tools/roman_centurion_pipeline.py verify；compose --raw work/roman_centurion/raw/001_complete_body.png；review。导入的AI结果必须同画布真RGBA，遮罩外逐像素保留。不得把生成式工具描述成原生支持精确mask；mask约束由确定性合成保证，遮罩内仍需视觉检查。
 
-当前停止点：BLOCKED_COMPLETE_BODY_ART_GATE。失败证据见 reports/roman_centurion/complete_body_gate.json 与 complete_body_fix_targets.png。遮罩也有遗漏，不能把问题全部归因于模型。后续从原件与已有mask继续局部修复；不重启源图阶段，不把失败结果标正式。
+历史V1停止点：BLOCKED_COMPLETE_BODY_ART_GATE。失败证据见 reports/roman_centurion/complete_body_gate.json 与 complete_body_fix_targets.png。遮罩也有遗漏，不能把问题全部归因于模型。后续从原件与已有mask继续局部修复；不重启源图阶段，不把失败结果标正式。
+
+当前V2：COMPLETE_BODY_GATE_PASS。使用 work/roman_centurion/03_complete_body_v2.png。三个缺陷已修复并经256/192px审查；复现 tools/finalize_centurion_body_v2.py，证据 reports/roman_centurion/complete_body_gate_v2.json。尚未批准正式拆件或原生动画。
