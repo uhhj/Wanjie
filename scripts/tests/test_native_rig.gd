@@ -43,10 +43,22 @@ func run() -> void:
 				check(name==&"attack_01","Unexpected method event")
 			track_count += 1
 	check(event_count==1,"Attack must contain exactly one method key")
+	var attack_foot_drift := 0.0
+	unit.play_animation("attack_01")
+	var foot_anchors: Dictionary = {}
+	for side in ["near","far"]:
+		var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
+		foot_anchors[side] = foot.to_global(Vector2(0,100))
+	for frame in range(241):
+		player.seek(player.get_animation("attack_01").length*frame/240.0,true)
+		for side in ["near","far"]:
+			var foot: Bone2D = unit.get_node("VisualRoot/Skeleton2D/"+data.bones["foot_"+side].path)
+			attack_foot_drift=maxf(attack_foot_drift,foot.to_global(Vector2(0,100)).distance_to(foot_anchors[side]))
+	check(attack_foot_drift*256.0/float(data.body_height)<1.0,"Attack planted sole drift")
 	var sword_drift := 0.0
 	unit.play_animation("attack_01")
 	for i in range(81):
-		player.seek(i/100.0,true)
+		player.seek(player.get_animation("attack_01").length*i/80.0,true)
 		var hand = unit.get_node("VisualRoot/Skeleton2D/"+data.bones.hand_near.path) as Bone2D
 		var sword = unit.find_child("Art_sword",true,false) as Sprite2D
 		sword_drift = max(sword_drift,hand.to_global(Vector2(-1,32)).distance_to(sword.to_global(Vector2(328,867))))
@@ -60,7 +72,7 @@ func run() -> void:
 	for sprite in unit.find_children("*","Sprite2D",true,false):
 		check(sprite.global_position.distance_to(Vector2(-530,-1460))<0.001,"Rest sprite offset mismatch: "+str(sprite.name))
 	unit.play_animation("attack_01")
-	for i in range(110):
+	for i in range(int(ceil(player.get_animation("attack_01").length*120))+15):
 		player.advance(1.0/120.0)
 	check(unit.attack_hit_count==1,"attack_hit emitted "+str(unit.attack_hit_count)+" times")
 	check(player.current_animation==&"idle","Attack must return to idle")
@@ -137,7 +149,7 @@ func run() -> void:
 	unit._process(.5)
 	check(unit.position==paused_position,"Paused walk must not translate")
 	var file = FileAccess.open("res://reports/native_rig_v2/headless_tests.json",FileAccess.WRITE)
-	file.store_string(JSON.stringify({"status":"PASS" if errors.is_empty() else "FAIL","engine":Engine.get_version_info(),"errors":errors,"bone_count":23,"sprite_count":unit.find_children("*","Sprite2D",true,false).size(),"polygon_count":unit.find_children("*","Polygon2D",true,false).size(),"animation_tracks":track_count,"attack_hit_count":unit.attack_hit_count,"sword_grip_max_drift_source_px":sword_drift,"runtime_walk_distance_two_cycles":unit.position.x,"runtime_support_drift_at_256px":runtime_max*256.0/float(data.body_height),"foot_contact_method":"Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked","foot_slide":maxima,"foot_samples":foot_rows},"\t"))
+	file.store_string(JSON.stringify({"status":"PASS" if errors.is_empty() else "FAIL","engine":Engine.get_version_info(),"errors":errors,"bone_count":23,"sprite_count":unit.find_children("*","Sprite2D",true,false).size(),"polygon_count":unit.find_children("*","Polygon2D",true,false).size(),"animation_tracks":track_count,"attack_hit_count":unit.attack_hit_count,"attack_planted_sole_drift_at_256px":attack_foot_drift*256.0/float(data.body_height),"sword_grip_max_drift_source_px":sword_drift,"runtime_walk_distance_two_cycles":unit.position.x,"runtime_support_drift_at_256px":runtime_max*256.0/float(data.body_height),"foot_contact_method":"Material contact points on frozen shoe lower profile; every support region locked, floor height independently checked","foot_slide":maxima,"foot_samples":foot_rows},"\t"))
 	print("NATIVE_TESTS ","PASS" if errors.is_empty() else "FAIL", " event=",unit.attack_hit_count," foot=",maxima)
 	unit.free()
 	quit(0 if errors.is_empty() else 2)

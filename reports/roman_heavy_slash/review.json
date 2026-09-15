@@ -1,0 +1,25 @@
+{
+  "status": "NATIVE_TESTS_PASS_VISUAL_CANDIDATE",
+  "reference_tool": "built-in image_gen",
+  "reference_use": "Motion reference only; no generated pixels used in formal parts",
+  "reference_sha256": "d4f6e60b468e59408927dd62dead2251dccb18b1ff62d97e51ebcf3a00ac734e",
+  "prompt": "reference_prompt.txt",
+  "attack_length_seconds": 1.2,
+  "hit_event_time_seconds": 0.52,
+  "actual_attack_hit_count": 1,
+  "actual_planted_sole_drift_256px": 0.00581034816515986,
+  "other_four_animations_exactly_unchanged": true,
+  "scene_outside_attack_block_exactly_unchanged": true,
+  "rig_and_parts_unchanged": true,
+  "source_hashes": {
+    "resources/roman_guard_animations_v1.json": "5a1cb64b3e9e2e867c0444fd1d7b16d49afe21017467a6578f1c7dcc68c03cd2",
+    "resources/roman_guard_animations_v1.tres": "199abc835a14fbc84760e9ec187dfee45a9fcc3583c6bbc2b14860120df81789",
+    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "94f326670e906d50472ab366280f4eb0f9aea1e0c3574cece4ca4c21919cff0a"
+  },
+  "visual_notes": [
+    "Removed mirrored rear-knee bending and symmetric deep crouch",
+    "Rear/front weight transfer and forward-facing knee flexion guide native keys",
+    "Native remains a planted-foot variant; does not reproduce reference heel lift or out-of-plane torso twist",
+    "Existing shoulder armour compression remains; user aesthetic acceptance pending"
+  ]
+}
