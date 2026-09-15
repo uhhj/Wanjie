@@ -31,210 +31,210 @@
 			"frame": 1,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_001.png",
-			"time": 0.08
+			"time": 0.088
 		},
 		{
 			"animation": "attack_01",
 			"frame": 1,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_001.png",
-			"time": 0.08
+			"time": 0.088
 		},
 		{
 			"animation": "attack_01",
 			"frame": 2,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_002.png",
-			"time": 0.16
+			"time": 0.176
 		},
 		{
 			"animation": "attack_01",
 			"frame": 2,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_002.png",
-			"time": 0.16
+			"time": 0.176
 		},
 		{
 			"animation": "attack_01",
 			"frame": 3,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_003.png",
-			"time": 0.24
+			"time": 0.264
 		},
 		{
 			"animation": "attack_01",
 			"frame": 3,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_003.png",
-			"time": 0.24
+			"time": 0.264
 		},
 		{
 			"animation": "attack_01",
 			"frame": 4,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_004.png",
-			"time": 0.32
+			"time": 0.352
 		},
 		{
 			"animation": "attack_01",
 			"frame": 4,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_004.png",
-			"time": 0.32
+			"time": 0.352
 		},
 		{
 			"animation": "attack_01",
 			"frame": 5,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_005.png",
-			"time": 0.4
+			"time": 0.44
 		},
 		{
 			"animation": "attack_01",
 			"frame": 5,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_005.png",
-			"time": 0.4
+			"time": 0.44
 		},
 		{
 			"animation": "attack_01",
 			"frame": 6,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_006.png",
-			"time": 0.48
+			"time": 0.528
 		},
 		{
 			"animation": "attack_01",
 			"frame": 6,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_006.png",
-			"time": 0.48
+			"time": 0.528
 		},
 		{
 			"animation": "attack_01",
 			"frame": 7,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_007.png",
-			"time": 0.56
+			"time": 0.616
 		},
 		{
 			"animation": "attack_01",
 			"frame": 7,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_007.png",
-			"time": 0.56
+			"time": 0.616
 		},
 		{
 			"animation": "attack_01",
 			"frame": 8,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_008.png",
-			"time": 0.64
+			"time": 0.704
 		},
 		{
 			"animation": "attack_01",
 			"frame": 8,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_008.png",
-			"time": 0.64
+			"time": 0.704
 		},
 		{
 			"animation": "attack_01",
 			"frame": 9,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_009.png",
-			"time": 0.72
+			"time": 0.792
 		},
 		{
 			"animation": "attack_01",
 			"frame": 9,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_009.png",
-			"time": 0.72
+			"time": 0.792
 		},
 		{
 			"animation": "attack_01",
 			"frame": 10,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_010.png",
-			"time": 0.8
+			"time": 0.88
 		},
 		{
 			"animation": "attack_01",
 			"frame": 10,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_010.png",
-			"time": 0.8
+			"time": 0.88
 		},
 		{
 			"animation": "attack_01",
 			"frame": 11,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_011.png",
-			"time": 0.88
+			"time": 0.968
 		},
 		{
 			"animation": "attack_01",
 			"frame": 11,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_011.png",
-			"time": 0.88
+			"time": 0.968
 		},
 		{
 			"animation": "attack_01",
 			"frame": 12,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_012.png",
-			"time": 0.96
+			"time": 1.056
 		},
 		{
 			"animation": "attack_01",
 			"frame": 12,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_012.png",
-			"time": 0.96
+			"time": 1.056
 		},
 		{
 			"animation": "attack_01",
 			"frame": 13,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_013.png",
-			"time": 1.04
+			"time": 1.144
 		},
 		{
 			"animation": "attack_01",
 			"frame": 13,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_013.png",
-			"time": 1.04
+			"time": 1.144
 		},
 		{
 			"animation": "attack_01",
 			"frame": 14,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_014.png",
-			"time": 1.12
+			"time": 1.232
 		},
 		{
 			"animation": "attack_01",
 			"frame": 14,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_014.png",
-			"time": 1.12
+			"time": 1.232
 		},
 		{
 			"animation": "attack_01",
 			"frame": 15,
 			"height": 256,
 			"path": "res://reports/roman_heavy_slash/attack_01_256_015.png",
-			"time": 1.2
+			"time": 1.32
 		},
 		{
 			"animation": "attack_01",
 			"frame": 15,
 			"height": 192,
 			"path": "res://reports/roman_heavy_slash/attack_01_192_015.png",
-			"time": 1.2
+			"time": 1.32
 		}
 	],
 	"renderer": "GeForce GTX 1650",

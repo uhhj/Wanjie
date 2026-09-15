@@ -4,22 +4,24 @@
   "reference_use": "Motion reference only; no generated pixels used in formal parts",
   "reference_sha256": "d4f6e60b468e59408927dd62dead2251dccb18b1ff62d97e51ebcf3a00ac734e",
   "prompt": "reference_prompt.txt",
-  "attack_length_seconds": 1.2,
-  "hit_event_time_seconds": 0.52,
+  "attack_length_seconds": 1.32,
+  "hit_event_time_seconds": 0.54,
   "actual_attack_hit_count": 1,
-  "actual_planted_sole_drift_256px": 0.00581034816515986,
+  "actual_planted_sole_drift_256px": 0.00749851253389897,
   "other_four_animations_exactly_unchanged": true,
   "scene_outside_attack_block_exactly_unchanged": true,
   "rig_and_parts_unchanged": true,
   "source_hashes": {
-    "resources/roman_guard_animations_v1.json": "5a1cb64b3e9e2e867c0444fd1d7b16d49afe21017467a6578f1c7dcc68c03cd2",
-    "resources/roman_guard_animations_v1.tres": "199abc835a14fbc84760e9ec187dfee45a9fcc3583c6bbc2b14860120df81789",
-    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "94f326670e906d50472ab366280f4eb0f9aea1e0c3574cece4ca4c21919cff0a"
+    "resources/roman_guard_animations_v1.json": "7c202f53f584e09599db1e080004ac13f92afdeee7b74e6b37515b2f216fb0c0",
+    "resources/roman_guard_animations_v1.tres": "f3fb95b541d218f983fe5cf01cb1b592ba1ea1ae1258b855acaaaa6e38f7d7ab",
+    "scenes/units/odyssey/roman_guard/roman_guard_rig.tscn": "6f1304e037a752ffd7556aac1640a0402f59742a1c9ee63a9bbca0035082eccd"
   },
   "visual_notes": [
-    "Removed mirrored rear-knee bending and symmetric deep crouch",
-    "Rear/front weight transfer and forward-facing knee flexion guide native keys",
-    "Native remains a planted-foot variant; does not reproduce reference heel lift or out-of-plane torso twist",
-    "Existing shoulder armour compression remains; user aesthetic acceptance pending"
-  ]
+    "Sword raised higher and behind head; slow preparation then fast downward slash",
+    "Stronger forward hip transfer with rear leg extension; both feet remain planted",
+    "Early raised-arm background gap no longer seen in reviewed 256/192 frames; shoulder compression still exists",
+    "Candidate requires user aesthetic review; not pixel similarity to generated reference"
+  ],
+  "revision": "HEAVY_SLASH_V2",
+  "capture_manifest_sha256": "4ad00d32aed8c63de3d5c75222c45a17d46b5f34b0a31c949b809412d305a26b"
 }
