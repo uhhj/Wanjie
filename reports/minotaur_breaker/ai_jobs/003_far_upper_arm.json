@@ -1,0 +1,29 @@
+{
+  "job": "003",
+  "tool": "built-in image_gen",
+  "status": "CANDIDATE_REVIEW_REQUIRED",
+  "recorded_at_utc": "2026-09-16T06:17:21.883963+00:00",
+  "input": "work\\minotaur_breaker\\01_complete_body_rgba.png",
+  "input_sha256": "f04e62815c9af6c911330f6f583cd3f9ef150ea457913fd09fe8c63ca8854142",
+  "raw_output": "work/minotaur_breaker/raw/003_far_upper_arm.png",
+  "raw_sha256": "6fc6d838632f110e08e915d4f30582ee0fe90118ea48f28abd7c26ecf1fe899f",
+  "output": "work\\minotaur_breaker\\candidates\\parts\\arm_far_upper_completed.png",
+  "output_sha256": "c0031aa1d6a5ffd398ea443742487d41e5761bc8c8235c39898ab36b29479cb4",
+  "prompt_file": "work/minotaur_breaker/prompts/003_far_upper_arm.txt",
+  "registration": {
+    "raw_crop": [
+      550,
+      560,
+      766,
+      930
+    ],
+    "target_box": [
+      568,
+      550,
+      718,
+      800
+    ]
+  },
+  "scope": "Only hidden fur upper arm. Original extracted upper arm remains as evidence.",
+  "alpha_method": "local brown chroma isolation from baked neutral checker; candidate review required"
+}

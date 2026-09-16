@@ -1,0 +1,19 @@
+{
+  "display_height": 288,
+  "fps": 24.3632903935546,
+  "godot": "4.7.2-stable (official)",
+  "mobile_performance_claim": false,
+  "mode": "skill_loop",
+  "node_count": 1313,
+  "occlusion_review": "READABLE_WITH_VERTICAL_OVERLAP_WARNING",
+  "renderer": "GeForce GTX 1650",
+  "scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+  "seconds": 8.003845,
+  "status": "DESKTOP_FORMAL_MEASURED",
+  "units": 20,
+  "viewport": [
+    1920,
+    1080
+  ],
+  "occlusion_findings": "Individuals and weapons distinguishable; row height still overlaps previous row feet/horns"
+}

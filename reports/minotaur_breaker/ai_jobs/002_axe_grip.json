@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "input_file": "work\\minotaur_breaker\\axe_visible_input.png",
+  "input_sha256": "4df3c3ab81b659cda9ecfa24048030126c196d469d6dd4c3d51e51abc0060aed",
+  "mask": "work\\minotaur_breaker\\masks\\axe_grip_completion.png",
+  "prompt_file": "work\\minotaur_breaker\\prompts\\002_axe_grip.txt",
+  "raw_file": "work\\minotaur_breaker\\raw\\002_axe_grip.png",
+  "raw_sha256": "1b0ac439f0526f4de44f1e40cb45f8f13e5202f51e862e60e0e3e319e4f02cba",
+  "output_file": "work\\minotaur_breaker\\candidates\\parts\\axe.png",
+  "output_sha256": "0a635ba55f603600bc8942696bfa6d71f8872753ecbd2f392cf51c7751a4609f",
+  "filled_pixels": 4953,
+  "visible_input_pixels_changed": 0,
+  "status": "CANDIDATE_REVIEW_REQUIRED",
+  "reviewed_forearm_fragment_cleanup_mask": "work/minotaur_breaker/masks/axe_forearm_fragment_cleanup.png"
+}

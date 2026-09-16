@@ -1,0 +1,43 @@
+{
+  "job": "005",
+  "tool": "built-in image_gen",
+  "status": "CANDIDATE_REVIEW_REQUIRED",
+  "recorded_at_utc": "2026-09-16T06:17:33.851792+00:00",
+  "input": "work\\minotaur_breaker\\00_rig_master_rgba.png",
+  "input_sha256": "ed44df21ee4f6847f77c74d372986fce1b6cd1668d5e9ff85c3da10dba2d9e27",
+  "raw_output": "work/minotaur_breaker/raw/005_knee_support.png",
+  "raw_sha256": "662fbb4d3002cc8ec9a5a0f5374b28459ad59fbcc1730cc9082988977bf0c931",
+  "output": "work\\minotaur_breaker\\candidates\\parts\\knee_near_support.png",
+  "output_sha256": "28596c2a973fa3c96d124cfeabeb1237efaf97bcffa73be3b586fc5ba2dabe19",
+  "prompt_file": "work/minotaur_breaker/prompts/005_knee_support.txt",
+  "outputs": [
+    {
+      "file": "work\\minotaur_breaker\\candidates\\parts\\knee_near_support.png",
+      "sha256": "28596c2a973fa3c96d124cfeabeb1237efaf97bcffa73be3b586fc5ba2dabe19",
+      "target_box": [
+        200,
+        1000,
+        430,
+        1190
+      ]
+    },
+    {
+      "file": "work\\minotaur_breaker\\candidates\\parts\\knee_far_support.png",
+      "sha256": "ef369a7c0025f03598d1c45831dd91e3ab2bf065be53674184b3853b95a89cf4",
+      "target_box": [
+        455,
+        1010,
+        685,
+        1200
+      ]
+    }
+  ],
+  "raw_crop": [
+    339,
+    282,
+    936,
+    987
+  ],
+  "scope": "Hidden knee backs exposed by native bend; rendered behind original cape and armor. Not a replacement for knee armor.",
+  "shared_completion": "Both knee support layers use the same generated fur-joint patch with separate registration."
+}

@@ -1,0 +1,1565 @@
+{
+  "artifact_inputs": {
+    "res://resources/minotaur_breaker_animation_candidates.json": "f831b052679788d451e26bf177354d6788c0ba542be9192186791f1e1fe5c5a1",
+    "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
+    "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
+    "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
+    "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
+    "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "031b26c9bfa84aa879623776670b38c95e0bc988d20053a28a043fa705a63d6b"
+  },
+  "engine": "4.7.2-stable (official)",
+  "events_attack_skill": {
+    "attack_01": [
+      1,
+      0
+    ],
+    "skill_01": [
+      0,
+      1
+    ]
+  },
+  "frames": [
+    {
+      "animation": "idle",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_00.png",
+      "sha256": "98bd19bdefbb998346806a70ccdd944842c1b35643868e52ad96c41f00987735",
+      "time": 0.0
+    },
+    {
+      "animation": "idle",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_01.png",
+      "sha256": "e419206fd9b59d5c5c4b1c701fb815267fb81d32c52a9ad577e67fe8cb7fd7f7",
+      "time": 0.125
+    },
+    {
+      "animation": "idle",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_02.png",
+      "sha256": "86a7801575d9530a11e99614911bb921b3ef2958c756ffc5b4eea05168271e24",
+      "time": 0.25
+    },
+    {
+      "animation": "idle",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_03.png",
+      "sha256": "5dada055dc733ebf54e2baba879eb9a70e2f1073e43f332ecb62528692e143a0",
+      "time": 0.375
+    },
+    {
+      "animation": "idle",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_04.png",
+      "sha256": "8fb5d5831c58b0a6d39c420525de35650806f4ceba38d5abedcc5080f0d7fae1",
+      "time": 0.5
+    },
+    {
+      "animation": "idle",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_05.png",
+      "sha256": "b87a0c71a57d5c527a9dd79cdbcf962cb289b55949629036139a1fd5efd06199",
+      "time": 0.625
+    },
+    {
+      "animation": "idle",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_06.png",
+      "sha256": "ea5bb9cfe19e5b21e3b03e8aacf7973676b47b92fcf088c47e3b373b38ebd3ea",
+      "time": 0.75
+    },
+    {
+      "animation": "idle",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_07.png",
+      "sha256": "a7fd7f11cae4183b75fcda8ce0fd7ba3179b4c0e9e435cc2fe74d191ed4e8f53",
+      "time": 0.875
+    },
+    {
+      "animation": "idle",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_08.png",
+      "sha256": "b827820e9cbcfe02f7ad00de81c34b8e7e3d0d73da587b2d258b2d4c6ada9901",
+      "time": 1.0
+    },
+    {
+      "animation": "idle",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_09.png",
+      "sha256": "fe533b249203136fdeac98b2835caaf9572cb4aaf5b9123cf800f386231f119d",
+      "time": 1.125
+    },
+    {
+      "animation": "idle",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_10.png",
+      "sha256": "807abbc9322f9983e1d153b92739455aca0acf606b6c74cb986fd95c9272c5c7",
+      "time": 1.25
+    },
+    {
+      "animation": "idle",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_11.png",
+      "sha256": "9870d70bb6fc60d7ad09c405867c9a28507c9b50449a516835ca5c5b27c55c3e",
+      "time": 1.375
+    },
+    {
+      "animation": "idle",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_12.png",
+      "sha256": "55ecb6cd43d18f8c57ec4d464bdb8fdf945f54311306a44d6befbcd64f784ec7",
+      "time": 1.5
+    },
+    {
+      "animation": "idle",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_13.png",
+      "sha256": "0ee4211db32f3da9823836462f1462a1bd305be5a7e2b186ca87fcd7982ceb28",
+      "time": 1.625
+    },
+    {
+      "animation": "idle",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_14.png",
+      "sha256": "5e1fef44d9045521ee7264cac3730af53b4d7502e229ad1c6b8386bc7e0246ae",
+      "time": 1.75
+    },
+    {
+      "animation": "idle",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/idle_288_15.png",
+      "sha256": "1b7cb388a007af9943565d0eaec57906b44df5094925fded6434aa2967d6df79",
+      "time": 1.875
+    },
+    {
+      "animation": "walk",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_00.png",
+      "sha256": "ae2131c79a7ab839fd87fce5867dc7febe9159e91296fc32c3b2e1bfeb3eae01",
+      "time": 0.0
+    },
+    {
+      "animation": "walk",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_01.png",
+      "sha256": "a255fc6a0cbffcf3121618bc5d30201c1c895c13a755da06c1b610334c2b15dc",
+      "time": 0.0875
+    },
+    {
+      "animation": "walk",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_02.png",
+      "sha256": "dd5576ac8454825f42fc92a105de5ec7965bf085d3e0be85f83f0369152a3177",
+      "time": 0.175
+    },
+    {
+      "animation": "walk",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_03.png",
+      "sha256": "d102db1ce7ae8fe01444d34dc4f75beb0297ade5cb6756d7aa22bf78608b3b07",
+      "time": 0.2625
+    },
+    {
+      "animation": "walk",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_04.png",
+      "sha256": "b92385e79fb4583cd6bfb1b49e34a93befb35f73efcc5fcb064a9aeb731232f2",
+      "time": 0.35
+    },
+    {
+      "animation": "walk",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_05.png",
+      "sha256": "058dad929e50843787db75519840acee3746f72598207f95c787028e14403a2e",
+      "time": 0.4375
+    },
+    {
+      "animation": "walk",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_06.png",
+      "sha256": "0be1eda0637f3d1c543794739dd74085065caa697bf937ffa001150600ba039d",
+      "time": 0.525
+    },
+    {
+      "animation": "walk",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_07.png",
+      "sha256": "e4dfea19f4359006dfbae3abb967c8f29c84d1618c5f670ddf832ea9d9649acf",
+      "time": 0.6125
+    },
+    {
+      "animation": "walk",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_08.png",
+      "sha256": "57fda9037acc8b0a06f7ae1211752ecc8960ea3a0b95c99922bc4ebf73f4b9f2",
+      "time": 0.7
+    },
+    {
+      "animation": "walk",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_09.png",
+      "sha256": "2447f10791959a85b2908ba431be8183efa09b7edffc6ab07242553879338b22",
+      "time": 0.7875
+    },
+    {
+      "animation": "walk",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_10.png",
+      "sha256": "15ecca3eeb83bb010d7ae1f9d247d4694bf4e4a53bcb597098fd44216ada8849",
+      "time": 0.875
+    },
+    {
+      "animation": "walk",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_11.png",
+      "sha256": "091ce716b07c405895837d73f7b40f57f25bc0b52179e5619532f499ccbb3619",
+      "time": 0.9625
+    },
+    {
+      "animation": "walk",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_12.png",
+      "sha256": "cf844f947f0043da724f1c3cc5e501021137f913cefa81022742c1c3c3a431fa",
+      "time": 1.05
+    },
+    {
+      "animation": "walk",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_13.png",
+      "sha256": "4bc902407bf7cd49890b5cb52d7b054b94251703c55ed1cdb4d7241f4bb9e0ff",
+      "time": 1.1375
+    },
+    {
+      "animation": "walk",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_14.png",
+      "sha256": "a5317fd4320cc5a8bce2b55e1ce4eadf707081edfd3ff86e693b5cfe93340e7b",
+      "time": 1.225
+    },
+    {
+      "animation": "walk",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/walk_288_15.png",
+      "sha256": "3a8241692cb1dbbb01541bde0f700cc92e7cce114edd2fa9543f7405dd3229e7",
+      "time": 1.3125
+    },
+    {
+      "animation": "attack_01",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_00.png",
+      "sha256": "51d0db5a152a5fb30fcdd6cf9c67d395d1906e662aa9ac4a01706eb57318e83e",
+      "time": 0.0
+    },
+    {
+      "animation": "attack_01",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_01.png",
+      "sha256": "304b879b1e1bfaa8cf79572853866c11d5c3936d6f4b0a9b18bf7129d2377a3f",
+      "time": 0.09
+    },
+    {
+      "animation": "attack_01",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_02.png",
+      "sha256": "bcc6b172b2f401331a35f5ed467829485e6d91beb62785c6b8874936c875194c",
+      "time": 0.18
+    },
+    {
+      "animation": "attack_01",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_03.png",
+      "sha256": "a1473b216849cc38a2458656c479636a7163b430832721221814301c4ab89671",
+      "time": 0.27
+    },
+    {
+      "animation": "attack_01",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_04.png",
+      "sha256": "7551b2db56105d5c769bfb80006df4f8748e6fa4cd09160fa47571af53472877",
+      "time": 0.36
+    },
+    {
+      "animation": "attack_01",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_05.png",
+      "sha256": "75e408a94478c006096f66edd943a8590f8d680ca53c4bbd12651839ded64064",
+      "time": 0.45
+    },
+    {
+      "animation": "attack_01",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_06.png",
+      "sha256": "b600657ef834a12d48f9d1790d44e1effb8aa0fb95869e52cb9c5ee59c54a543",
+      "time": 0.54
+    },
+    {
+      "animation": "attack_01",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_07.png",
+      "sha256": "793b016d785cf5e4fdf6f02dc7d275d4c11d693f9aa4b672b4feca561c2bdb41",
+      "time": 0.63
+    },
+    {
+      "animation": "attack_01",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_08.png",
+      "sha256": "8ee5a57a90705e131a18f999c053429559ffa3968eefbd79d433efa115c8c41d",
+      "time": 0.72
+    },
+    {
+      "animation": "attack_01",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_09.png",
+      "sha256": "5a132009565c2a9053146834cde6c45f334fc4e4c4154ed4f339b045c52a5be4",
+      "time": 0.81
+    },
+    {
+      "animation": "attack_01",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_10.png",
+      "sha256": "19cf2abb9b2352832e64d4e42e29b7894d31d9857495b5453fb93d67bc536c93",
+      "time": 0.9
+    },
+    {
+      "animation": "attack_01",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_11.png",
+      "sha256": "b5de1b1c64ad7b26b2a91ad124b6ef0a529bffa32662f54b31d88f0579ee75ba",
+      "time": 0.99
+    },
+    {
+      "animation": "attack_01",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_12.png",
+      "sha256": "84b100a864d0c7cfe904e33d385667cbb6cd7bccc7f1ede6aea1a623f3acfd8b",
+      "time": 1.08
+    },
+    {
+      "animation": "attack_01",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_13.png",
+      "sha256": "a1505bfb8c7a9ea8149d28e7ad896417f8e6ede986e9e667460cd76c55e3935b",
+      "time": 1.17
+    },
+    {
+      "animation": "attack_01",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_14.png",
+      "sha256": "4cd7e4cf84b29329780e9efe366f38bf7cd64832028e9547e8036b76b0050a88",
+      "time": 1.26
+    },
+    {
+      "animation": "attack_01",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_288_15.png",
+      "sha256": "51d0db5a152a5fb30fcdd6cf9c67d395d1906e662aa9ac4a01706eb57318e83e",
+      "time": 1.35
+    },
+    {
+      "animation": "skill_01",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_00.png",
+      "sha256": "51d0db5a152a5fb30fcdd6cf9c67d395d1906e662aa9ac4a01706eb57318e83e",
+      "time": 0.0
+    },
+    {
+      "animation": "skill_01",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_01.png",
+      "sha256": "d66250d31b5cada5fa310fb70f95a5a2b62021b38eb5b15465e5ba8bca58c0a0",
+      "time": 0.12
+    },
+    {
+      "animation": "skill_01",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_02.png",
+      "sha256": "277ef4050cc6112355253105e133d47eb48479e4ef4f571366246983a4bd256c",
+      "time": 0.24
+    },
+    {
+      "animation": "skill_01",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_03.png",
+      "sha256": "c44dbc5a15271d08bd495d88f523c70f4df9a34e7c2d4e9600ddc177b6b55967",
+      "time": 0.36
+    },
+    {
+      "animation": "skill_01",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_04.png",
+      "sha256": "51d0330e428ec5bf077cfd080ea91ff7231cf98be8cc596257503c309068d80a",
+      "time": 0.48
+    },
+    {
+      "animation": "skill_01",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_05.png",
+      "sha256": "65338cfd2fb25894a8622d6d5583429d13662534e1466d53bfdebdbf9fb1fa13",
+      "time": 0.6
+    },
+    {
+      "animation": "skill_01",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_06.png",
+      "sha256": "74527c71dba7115fb3f019eb906574287939156db563a512fb329010d3e89640",
+      "time": 0.72
+    },
+    {
+      "animation": "skill_01",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_07.png",
+      "sha256": "c03aab27390e3e89e55d502cd4f4d477fc6638cb948fee019e50f485b3d2e7a6",
+      "time": 0.84
+    },
+    {
+      "animation": "skill_01",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_08.png",
+      "sha256": "4f873430f8e4a3cb509eddd70aa6894e934067ba5e44483310c6a1038d38c7c4",
+      "time": 0.96
+    },
+    {
+      "animation": "skill_01",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_09.png",
+      "sha256": "672c433c8a95e23b8d04c354834bdddaa5e56ee6222dd738edb41fdf151b8709",
+      "time": 1.08
+    },
+    {
+      "animation": "skill_01",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_10.png",
+      "sha256": "e2b252078a79982ea75aad2d2e7c8174f483ae042b80f3e642175223049a9bdb",
+      "time": 1.2
+    },
+    {
+      "animation": "skill_01",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_11.png",
+      "sha256": "fa6e6a2eddaa10556c89fbb17a0317442524e595e46b1d5c4c08967935672457",
+      "time": 1.32
+    },
+    {
+      "animation": "skill_01",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_12.png",
+      "sha256": "654d5fed9e2be06367ea7f9192b8d9f71c6a343b216723b1d565417550c03cea",
+      "time": 1.44
+    },
+    {
+      "animation": "skill_01",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_13.png",
+      "sha256": "7cfdcc6bc2b5e13d62234ad0a311c3afccc6b1b7d5000b8d3524c7bc58815a8b",
+      "time": 1.56
+    },
+    {
+      "animation": "skill_01",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_14.png",
+      "sha256": "bf0f34f4aea39c14554ce71cc04eae16aec843d5223b9a07c9f0dd1f1ea47135",
+      "time": 1.68
+    },
+    {
+      "animation": "skill_01",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_288_15.png",
+      "sha256": "b0f50e93e5a153c76d9996fea1f52124722c78b96ad24caed112d628e0f1033b",
+      "time": 1.8
+    },
+    {
+      "animation": "hit",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_00.png",
+      "sha256": "51d0db5a152a5fb30fcdd6cf9c67d395d1906e662aa9ac4a01706eb57318e83e",
+      "time": 0.0
+    },
+    {
+      "animation": "hit",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_01.png",
+      "sha256": "5868f38451aa9eac09f735eb897f46e4e355ce5cd7ea94ba30f630d753a21b26",
+      "time": 0.0266666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_02.png",
+      "sha256": "91de288eb296e68e4896e760ea8a50048c536ce617ae3a716099c7c521182004",
+      "time": 0.0533333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_03.png",
+      "sha256": "408a890d631ab1923e9924e0e3a6a508ce963bdf3ed8decbf7b3fe9338a6aec6",
+      "time": 0.08
+    },
+    {
+      "animation": "hit",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_04.png",
+      "sha256": "d993093a1142396786a3a83b2f326b0a66c43b4b23014fce2202749100153399",
+      "time": 0.106666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_05.png",
+      "sha256": "76031454bff69d446b072e83ad710925fe8988c454c944307f288c24dde4c2cf",
+      "time": 0.133333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_06.png",
+      "sha256": "21d83734d0f90f54fc1502a829ef6fe21fdbb5d7e4c13f859bc6870f1d6da97f",
+      "time": 0.16
+    },
+    {
+      "animation": "hit",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_07.png",
+      "sha256": "5ff1c671fddeda8f3582786ae94250d8351c0872b4a2eb18d21951683afdebd0",
+      "time": 0.186666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_08.png",
+      "sha256": "4a72509bd264a7789998282b71db76b2591fa2b581dc32ed590fbba647ab9a9a",
+      "time": 0.213333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_09.png",
+      "sha256": "4e795c48bf722d11f852cf7ee6b4a5cdea4a3289a54207f2711546b3fe294a4d",
+      "time": 0.24
+    },
+    {
+      "animation": "hit",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_10.png",
+      "sha256": "ddc84445f7ad49676c7f922a114be5d9c04fbecbc5530c5644b4208e79573348",
+      "time": 0.266666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_11.png",
+      "sha256": "31a986b40841635b5a876d18f8c4ddacd136f9ef0f56de0ff3c8b234d9011cd1",
+      "time": 0.293333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_12.png",
+      "sha256": "15266b1d3f458583884141b2ef7cdd0ca5e3084d03bdc20c5bc6aff47072a96c",
+      "time": 0.32
+    },
+    {
+      "animation": "hit",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_13.png",
+      "sha256": "776ce54650b8040df8681f1d49d748280dee8207f59435546532b2ad4501de49",
+      "time": 0.346666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_14.png",
+      "sha256": "6bf62ec647a43f54e113bac85d3f3e22a22b2442ec9fda48779f5d570beff262",
+      "time": 0.373333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/hit_288_15.png",
+      "sha256": "51d0db5a152a5fb30fcdd6cf9c67d395d1906e662aa9ac4a01706eb57318e83e",
+      "time": 0.4
+    },
+    {
+      "animation": "death",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_00.png",
+      "sha256": "51d0db5a152a5fb30fcdd6cf9c67d395d1906e662aa9ac4a01706eb57318e83e",
+      "time": 0.0
+    },
+    {
+      "animation": "death",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_01.png",
+      "sha256": "49d490c2ff2bbbbe93351cb7ef58cee6c30fea9ba5c7fe52d4c524661b73568b",
+      "time": 0.113333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_02.png",
+      "sha256": "4273344a12b2ed12ac1dc1ccf3d92ac65792dcb223b7a3d8fdfa04d6d4c92576",
+      "time": 0.226666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_03.png",
+      "sha256": "0dad2bffa623171ef0e0160046b22d762e28e5d44de2d433203b8f4a7a837d38",
+      "time": 0.34
+    },
+    {
+      "animation": "death",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_04.png",
+      "sha256": "8f849147ff362d07eff708751b6f1894480cc1ae51f58f8ed72eef494e3920d5",
+      "time": 0.453333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_05.png",
+      "sha256": "7ca7c665b3e2e0ceb026920d0f81128de30da7124e8c9e3b278182ca404b6070",
+      "time": 0.566666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_06.png",
+      "sha256": "e8c99b96ba89aba773bf1582b257a0f357d42567138f636705850381c23d6d23",
+      "time": 0.68
+    },
+    {
+      "animation": "death",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_07.png",
+      "sha256": "f6e999f90aba7aa7cae0f06fbb3d1def0f1973474d7f6091ffcdc3e07c0e0ab9",
+      "time": 0.793333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_08.png",
+      "sha256": "57242d4c5540ec725aa16316af8216494b207b179761648968cc66614b3b73a7",
+      "time": 0.906666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_09.png",
+      "sha256": "b827ee98fb49fa960109e2c51a87ae401c79ea46083ca584b96e16300242a2d4",
+      "time": 1.02
+    },
+    {
+      "animation": "death",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_10.png",
+      "sha256": "a2a85ea6372399b32bf490e2bd1921ab67ac65609a3d851f60379c0001bb0d72",
+      "time": 1.13333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_11.png",
+      "sha256": "c6fcfe8b7859d1f3756e0d0d192c697bb2b0f617f7d122c2c01b78f163009212",
+      "time": 1.24666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_12.png",
+      "sha256": "ea07b572cdfa372a6e65818c8cc19ab66b2adb1bf67aad7abd8aba7f5f226773",
+      "time": 1.36
+    },
+    {
+      "animation": "death",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_13.png",
+      "sha256": "a89bbd681ae696474a1aa719d2dfe078f26d24f8273ab756da89ee012d39329d",
+      "time": 1.47333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_14.png",
+      "sha256": "5bc5fdeec67056fa9d6bf784a54eaab59c5eb8895bfb5bccc9de12d2734dcd6b",
+      "time": 1.58666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/animations/death_288_15.png",
+      "sha256": "9d28872290c80db6a46a785e7603daeb440e5b646c10d2617b3b9c4647e9014b",
+      "time": 1.7
+    },
+    {
+      "animation": "idle",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_00.png",
+      "sha256": "6df160e5905c6046be744fd5e262afc0c99626fe05b128e9a610353af064e938",
+      "time": 0.0
+    },
+    {
+      "animation": "idle",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_01.png",
+      "sha256": "2411f92fc6812f5a35f12062298ee0bbd8afefb4c6ae41a4af745a41c963ff9a",
+      "time": 0.125
+    },
+    {
+      "animation": "idle",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_02.png",
+      "sha256": "53bc1693b3d6105a3033f7272708f4595dc71968ceb12388501770a590d1db48",
+      "time": 0.25
+    },
+    {
+      "animation": "idle",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_03.png",
+      "sha256": "d6c2f55b15aaddb70d2fcb6636d3c5df8020b2c9e18f8af83ce32da78d666cae",
+      "time": 0.375
+    },
+    {
+      "animation": "idle",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_04.png",
+      "sha256": "524ff935b90b5aecab49a99b09e9ed4a45323f7cb71c3820dca980be69ebbc63",
+      "time": 0.5
+    },
+    {
+      "animation": "idle",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_05.png",
+      "sha256": "3e6af2df39409fde19fce35a848c6f25055e1d2260017485e87ffd7159cc5e2e",
+      "time": 0.625
+    },
+    {
+      "animation": "idle",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_06.png",
+      "sha256": "d8c39b9d4247df399f67a1e0c068fddc126da3fded240911d0a6b11e60e1a7e3",
+      "time": 0.75
+    },
+    {
+      "animation": "idle",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_07.png",
+      "sha256": "daa1c1db3a1a790c49bee64ff2c4cff04f261782d335468130c229c438c86414",
+      "time": 0.875
+    },
+    {
+      "animation": "idle",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_08.png",
+      "sha256": "821879ee13667adb6b936ee49015920ecbb2cfafbaecfd1affd773784c968ea2",
+      "time": 1.0
+    },
+    {
+      "animation": "idle",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_09.png",
+      "sha256": "bac2d58f64d6e7aa65aa88ee76267bf6a157f4ee4698eec4ed601913ea55fe0f",
+      "time": 1.125
+    },
+    {
+      "animation": "idle",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_10.png",
+      "sha256": "661d747bb8cbb9e7373b139515a7a255c9faf6a63b26395143f646ae616d12f5",
+      "time": 1.25
+    },
+    {
+      "animation": "idle",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_11.png",
+      "sha256": "a6087acee6a61e47167aa5089466415f1e50989e1c7600071ecc1ade7921e288",
+      "time": 1.375
+    },
+    {
+      "animation": "idle",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_12.png",
+      "sha256": "f04ca8b8586fec2c802012bbbc3da4f593891584f52d2ad235efb3191c4d29ff",
+      "time": 1.5
+    },
+    {
+      "animation": "idle",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_13.png",
+      "sha256": "26f156f991241544a8bcf03baabd28c8490491a00bf1f396ed833300c91e4bdf",
+      "time": 1.625
+    },
+    {
+      "animation": "idle",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_14.png",
+      "sha256": "a0da4a6957c11f7c7375f3892bc3b35efd081d8df10f068ab0c2d2de8688ebdf",
+      "time": 1.75
+    },
+    {
+      "animation": "idle",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/idle_360_15.png",
+      "sha256": "0eb75847310bf0a90bb087961b6c1cfac13ec5d6f05fe4991b33ac345c38df4b",
+      "time": 1.875
+    },
+    {
+      "animation": "walk",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_00.png",
+      "sha256": "4a603485b8ac65af3451a76bc1d9fc354d05f12e43be2a225b8efe9c07d1fbea",
+      "time": 0.0
+    },
+    {
+      "animation": "walk",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_01.png",
+      "sha256": "b6ef0efd9769b06169d7a374bc2ccbb08a22bd61c68a3113d1f1a59b482f6829",
+      "time": 0.0875
+    },
+    {
+      "animation": "walk",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_02.png",
+      "sha256": "e837573eed07eb3f5617867a87cf5684ba84ac76e62508611b664a4d6fa33d83",
+      "time": 0.175
+    },
+    {
+      "animation": "walk",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_03.png",
+      "sha256": "3b15a8ef3ae4728016fdd6b3172d1e1c9b6bee5c710aae1597fe6f0d49a82046",
+      "time": 0.2625
+    },
+    {
+      "animation": "walk",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_04.png",
+      "sha256": "0cd5256668210e714c58af67d019828f2f6c3aa7efeb2f0779f76a3b4d1b3c32",
+      "time": 0.35
+    },
+    {
+      "animation": "walk",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_05.png",
+      "sha256": "122b538daf78998da7d734e40d6ca8709835fe130dc2a04fdd8fee683b19010c",
+      "time": 0.4375
+    },
+    {
+      "animation": "walk",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_06.png",
+      "sha256": "bf9e2cf762b8fc3bc0ad5102802de751cccdcb981ea09eab07a56c558e7779ce",
+      "time": 0.525
+    },
+    {
+      "animation": "walk",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_07.png",
+      "sha256": "9d74d68f4ef0525cbf4e49ce4a45ab84e0dc417494bfb06c7d82a0780346c66f",
+      "time": 0.6125
+    },
+    {
+      "animation": "walk",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_08.png",
+      "sha256": "5913e04b470b538c99860ba28a83b32c5b84204dbd8d8c7fa1aa7cdbe89e6044",
+      "time": 0.7
+    },
+    {
+      "animation": "walk",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_09.png",
+      "sha256": "e2f21f86c8c7b75f98af9eb9a868fa05ddc9e0d72323bcfc49ff02c17b6b5029",
+      "time": 0.7875
+    },
+    {
+      "animation": "walk",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_10.png",
+      "sha256": "5270ce6cbe8b76648b9732cfece6efef74763c5eb6b4fdf69f399d8831384f1b",
+      "time": 0.875
+    },
+    {
+      "animation": "walk",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_11.png",
+      "sha256": "46ec334c99ab677ee39326b5ca908ccdc9fd16eed97ff7ba8846dd0e53ba2f3e",
+      "time": 0.9625
+    },
+    {
+      "animation": "walk",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_12.png",
+      "sha256": "cbbd4b4a59d1294eff3223fff903becaec526cddceeee9c18417ca92c8b91128",
+      "time": 1.05
+    },
+    {
+      "animation": "walk",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_13.png",
+      "sha256": "69cd65fa622d0fc9f781d32905d65d72aebbfaaa62f6b5cc6cd58e3efbf34665",
+      "time": 1.1375
+    },
+    {
+      "animation": "walk",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_14.png",
+      "sha256": "a3dadb020e204cf751ebdfe8b53ede7220d0961735017044afe4c3a52e8aa656",
+      "time": 1.225
+    },
+    {
+      "animation": "walk",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/walk_360_15.png",
+      "sha256": "b1d203df57b590bdee5a0f1f0dfa821d96d0a74291ce891fb61b0bb30fc151d9",
+      "time": 1.3125
+    },
+    {
+      "animation": "attack_01",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_00.png",
+      "sha256": "c2228e964882ed3de95049304260c7617b406ba5b06b7d14d8d26f44d8a2cf6d",
+      "time": 0.0
+    },
+    {
+      "animation": "attack_01",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_01.png",
+      "sha256": "43c4ecbc11af4b485f1c9f7b37010a73105b738ff60ebad6c1a5f1287f4a2dc2",
+      "time": 0.09
+    },
+    {
+      "animation": "attack_01",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_02.png",
+      "sha256": "54e52000d4beeac1b7fe0ef04f037252033a8fbdd1bb84ad7ffadd4d8a645cd4",
+      "time": 0.18
+    },
+    {
+      "animation": "attack_01",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_03.png",
+      "sha256": "d83242b1a93fe7b7ce2a9e58516a69653f30ac47cfd02a90b35edaf8ace54b75",
+      "time": 0.27
+    },
+    {
+      "animation": "attack_01",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_04.png",
+      "sha256": "92b4c0c34fee9bacb32562f4f8ec199a5e11da8c536b3bcc76bdeb194235becd",
+      "time": 0.36
+    },
+    {
+      "animation": "attack_01",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_05.png",
+      "sha256": "c2f40793284b3a4e8109e78d9008824a2e0ea83dcede57fae55acc48be46d8cc",
+      "time": 0.45
+    },
+    {
+      "animation": "attack_01",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_06.png",
+      "sha256": "4266598233049499b0cd18bd9a197a6f51fadebcbe36fdc50d6dc75df5fdf7c2",
+      "time": 0.54
+    },
+    {
+      "animation": "attack_01",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_07.png",
+      "sha256": "6ec73136d4e8fdded1b04447f4c753234ac93083adff22bf74db33a57cf6fc2f",
+      "time": 0.63
+    },
+    {
+      "animation": "attack_01",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_08.png",
+      "sha256": "fa1714d7e6f3f71e6b136d573092d5f732cc011b6f517c242f31e3c7e4b714a7",
+      "time": 0.72
+    },
+    {
+      "animation": "attack_01",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_09.png",
+      "sha256": "243f87c619889e5a6fed39769430e0f4310250001b0f53ce358dd7817357d81e",
+      "time": 0.81
+    },
+    {
+      "animation": "attack_01",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_10.png",
+      "sha256": "8f04c5baabb67027509d388e214eaa63b0dac9de236e0a2a8deeaefd92ac419c",
+      "time": 0.9
+    },
+    {
+      "animation": "attack_01",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_11.png",
+      "sha256": "5c270a6895666bd12aff8971e2bb760e1a3adb8b1a1c95ed8169b7c8860cec6a",
+      "time": 0.99
+    },
+    {
+      "animation": "attack_01",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_12.png",
+      "sha256": "cae1cb62718593e39c723b589bbcad0956a3992f7930a19cfc7fbe3773443893",
+      "time": 1.08
+    },
+    {
+      "animation": "attack_01",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_13.png",
+      "sha256": "cc10cb6313082ab05909b31b8a32151695bd97bf69cb3aa9bb4b4f177bd2ad59",
+      "time": 1.17
+    },
+    {
+      "animation": "attack_01",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_14.png",
+      "sha256": "da6aeebd746465b5867d9dd07bb619d81e6954998bd24f277a77f3309c8c07f0",
+      "time": 1.26
+    },
+    {
+      "animation": "attack_01",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/attack_01_360_15.png",
+      "sha256": "c2228e964882ed3de95049304260c7617b406ba5b06b7d14d8d26f44d8a2cf6d",
+      "time": 1.35
+    },
+    {
+      "animation": "skill_01",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_00.png",
+      "sha256": "c2228e964882ed3de95049304260c7617b406ba5b06b7d14d8d26f44d8a2cf6d",
+      "time": 0.0
+    },
+    {
+      "animation": "skill_01",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_01.png",
+      "sha256": "f4ff4fd119f0082aef9e02d8d42d9c37c6dda91055d727b0a31de68dbecc1f63",
+      "time": 0.12
+    },
+    {
+      "animation": "skill_01",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_02.png",
+      "sha256": "834c78f6b17b53157765bf18755747d65192319fc4324a66ea4d448b219d8a49",
+      "time": 0.24
+    },
+    {
+      "animation": "skill_01",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_03.png",
+      "sha256": "00b32910720caca007d7d4249cb0ff16b9774a06db70ae3b65589194dbdb6b80",
+      "time": 0.36
+    },
+    {
+      "animation": "skill_01",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_04.png",
+      "sha256": "ac07e00013a941db20e8ba7ec8bf5204dda344245234d3fb43047db4b67b1a24",
+      "time": 0.48
+    },
+    {
+      "animation": "skill_01",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_05.png",
+      "sha256": "297586d15ec52a19fb51ac3eec2b0fe918fdbdd8bd08c5a9c500c4905b6dd58d",
+      "time": 0.6
+    },
+    {
+      "animation": "skill_01",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_06.png",
+      "sha256": "e9d5d1669957a17f1e667cb5d24ee07e04d7620ec0ac37ca8f4abe7e95891348",
+      "time": 0.72
+    },
+    {
+      "animation": "skill_01",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_07.png",
+      "sha256": "57be6f772288b2c80a5f34ef3d598b6af7bea7ae843941c7ba67d6683a782a26",
+      "time": 0.84
+    },
+    {
+      "animation": "skill_01",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_08.png",
+      "sha256": "f1af3ee5c067a6a48ee5ed1aeda6b58c5ba072f96913b49ee2bd47372e628df5",
+      "time": 0.96
+    },
+    {
+      "animation": "skill_01",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_09.png",
+      "sha256": "ca992d11b0182cfb3129a192ffa86a40fa1507d7106d22272f4053f899f57406",
+      "time": 1.08
+    },
+    {
+      "animation": "skill_01",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_10.png",
+      "sha256": "627d257cb90f4458ae41636ee46048c6bdf7ed36a2a7cfeb230fd513f81b4848",
+      "time": 1.2
+    },
+    {
+      "animation": "skill_01",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_11.png",
+      "sha256": "4da3d8091d0a9ebaae5d0a0cc4d53d4752f229aa6b3736f2755b58965485a890",
+      "time": 1.32
+    },
+    {
+      "animation": "skill_01",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_12.png",
+      "sha256": "264324f2f16b385d02113bd16ab0d42baa3f77e70a20d92f03b18c0a4c6d9fd8",
+      "time": 1.44
+    },
+    {
+      "animation": "skill_01",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_13.png",
+      "sha256": "f86fcb4b0558710625408a4ab3cb198b736d3bfca0675f7181703e55f8b75732",
+      "time": 1.56
+    },
+    {
+      "animation": "skill_01",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_14.png",
+      "sha256": "051a9237a579f0a2e7b0a8002292864c86e8e53aa5757308818a691ea1a8ac09",
+      "time": 1.68
+    },
+    {
+      "animation": "skill_01",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/skill_01_360_15.png",
+      "sha256": "ef15b78aaf0cde8fd4c7f539ef180aa5c27b6bd2e6c914cd4d97586d0aedf886",
+      "time": 1.8
+    },
+    {
+      "animation": "hit",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_00.png",
+      "sha256": "c2228e964882ed3de95049304260c7617b406ba5b06b7d14d8d26f44d8a2cf6d",
+      "time": 0.0
+    },
+    {
+      "animation": "hit",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_01.png",
+      "sha256": "d98f7431d1fd583576fe79d3548e5d1a57b3b271063f0afe392b7c60c4447bb6",
+      "time": 0.0266666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_02.png",
+      "sha256": "e54c4465783926a47dfc3c8fc3241f68daf20615a57f0683af637a5edb5f7d9c",
+      "time": 0.0533333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_03.png",
+      "sha256": "5514a01aea36db12ea79c446e416f25c3d4499fc447113c89a8460393dc51a8c",
+      "time": 0.08
+    },
+    {
+      "animation": "hit",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_04.png",
+      "sha256": "619f5bd557331c2933f5e12553f429f2a6ab44ebe0d5de1ade7b2f55be1c1c00",
+      "time": 0.106666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_05.png",
+      "sha256": "ee4c24d0f67b3898084e049e4eb822980def6f60a3ab7065b86cd506ef1b62b4",
+      "time": 0.133333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_06.png",
+      "sha256": "5f0b0b69519c98b216ebbdeec5071eb2bfd6c0092aa52e016474a6c06d7be2c5",
+      "time": 0.16
+    },
+    {
+      "animation": "hit",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_07.png",
+      "sha256": "23682f446c33b0dad9f4b81b037945ab256e6f6b571163f6709695686ee349c5",
+      "time": 0.186666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_08.png",
+      "sha256": "1d4ca19284870620968bc27b78e433489e816733671b1411aaf4b25cea76b7b2",
+      "time": 0.213333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_09.png",
+      "sha256": "8d46e774151cc47fa51d3be00fae2a9cc93819055ca8394ef61b85dfa7195955",
+      "time": 0.24
+    },
+    {
+      "animation": "hit",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_10.png",
+      "sha256": "9e1edca28f19145ea24591294ab7a6ca94cc456cf1ea3bbcedaa4beeef7f1bae",
+      "time": 0.266666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_11.png",
+      "sha256": "67e75369985731ce8524eeaae09d714f642d583fc498f33dfaa7b3c415d1b67c",
+      "time": 0.293333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_12.png",
+      "sha256": "f11b3b55a39f11b2c0a6466f09acd45024b04d2b2f89347e8659eb87f2f0e220",
+      "time": 0.32
+    },
+    {
+      "animation": "hit",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_13.png",
+      "sha256": "bfba7a6b54ec9c2e7222f360173fd16009c8457c357d4121087bd9afc0340b99",
+      "time": 0.346666666666667
+    },
+    {
+      "animation": "hit",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_14.png",
+      "sha256": "95b154a1514cc2733ea5d87a13b9467d1cbd2cfd89f52a4a81c467fc1f50f18f",
+      "time": 0.373333333333333
+    },
+    {
+      "animation": "hit",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/hit_360_15.png",
+      "sha256": "c2228e964882ed3de95049304260c7617b406ba5b06b7d14d8d26f44d8a2cf6d",
+      "time": 0.4
+    },
+    {
+      "animation": "death",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_00.png",
+      "sha256": "c2228e964882ed3de95049304260c7617b406ba5b06b7d14d8d26f44d8a2cf6d",
+      "time": 0.0
+    },
+    {
+      "animation": "death",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_01.png",
+      "sha256": "2872785c871a236199980ac49abee407c05fef82e1bf3ea63e71b6a0f65f29ac",
+      "time": 0.113333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_02.png",
+      "sha256": "b5e273d7cd5c3b83c95ef4f5afa7046a7a10eb453d696d5b40d132adfeb425d1",
+      "time": 0.226666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_03.png",
+      "sha256": "262b7d6d5339207fd065ce6947f5a0ac1e70bcc9fe02d16e7b72dd7b6c2675b2",
+      "time": 0.34
+    },
+    {
+      "animation": "death",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_04.png",
+      "sha256": "5145f83454a1fe39b962eb49f3ff6f66a34ebc3cf3189591bfdcb07e1ca9c2fd",
+      "time": 0.453333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_05.png",
+      "sha256": "a38944331c013006ef842a9cb7aa69b0475e9a6961b6c02d6c9396829a005ea5",
+      "time": 0.566666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_06.png",
+      "sha256": "a92b2f5063127c8915abf783e861edbadba26ae3e00275611f3da252d630106f",
+      "time": 0.68
+    },
+    {
+      "animation": "death",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_07.png",
+      "sha256": "0cb8dcba0d5f2393edc12c00fc469ad22ec27a61e3620af4ee622d8adb6f9b7d",
+      "time": 0.793333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_08.png",
+      "sha256": "3faf691af387d538264468d9d07fe2b46e44665d8762d2e482a27787affc2475",
+      "time": 0.906666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_09.png",
+      "sha256": "e8b8542d6cd2e022097102eb4b1fd67fa887f572b694ade3b4387ad52016d772",
+      "time": 1.02
+    },
+    {
+      "animation": "death",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_10.png",
+      "sha256": "0f95037fb813d57223acbe2109106a202ba5c9f881d633872a70e22577ecb4a2",
+      "time": 1.13333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_11.png",
+      "sha256": "a4d8d3ca868bde6c390da9a82860e1369e987b3dbe028a2f705e8be1bce36dad",
+      "time": 1.24666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_12.png",
+      "sha256": "bc96a2316eb79ff602644535e8f69a75da3e103b233fbefd5307b69bd2124bf9",
+      "time": 1.36
+    },
+    {
+      "animation": "death",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_13.png",
+      "sha256": "d2949e6a69591d0be1fe265a790b056eb4ce5ad8fa6742cb58fac143ddc66d2a",
+      "time": 1.47333333333333
+    },
+    {
+      "animation": "death",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_14.png",
+      "sha256": "1babcb5fb93c09e40c8b17bc1b720e8eebb38a9ffef5d3ca10e576dd55eb806a",
+      "time": 1.58666666666667
+    },
+    {
+      "animation": "death",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/animations/death_360_15.png",
+      "sha256": "e0e58b416d24b52757b5d44223133bc06aef6fa941d2fb93d8b5594962935bf1",
+      "time": 1.7
+    }
+  ],
+  "inputs_unchanged_during_capture": true,
+  "renderer": "GeForce GTX 1650",
+  "scene_sha256": "031b26c9bfa84aa879623776670b38c95e0bc988d20053a28a043fa705a63d6b",
+  "source": "Actual Godot GPU SubViewport frames; heights may be captured sequentially to limit memory",
+  "status": "CAPTURED_NOT_VISUALLY_APPROVED"
+}

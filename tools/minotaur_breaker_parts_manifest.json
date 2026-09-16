@@ -1,0 +1,395 @@
+{
+  "unit_id": "OD_UNIT_04_MINOTAUR_BREAKER",
+  "version": "RIG_ASSET_V1",
+  "status": "PASS",
+  "core_parts": 19,
+  "hidden_joint_supports": 2,
+  "canvas_width": 1024,
+  "canvas_height": 1536,
+  "alpha_required": true,
+  "parts": [
+    {
+      "name": "knee_far_support",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/knee_far_support.png",
+      "sha256": "ef369a7c0025f03598d1c45831dd91e3ab2bf065be53674184b3853b95a89cf4",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/raw/005_knee_support.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        618,
+        1103
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/knee_far_support.res",
+      "compiled_sha256": "92021c59657d333b2dd7647f79249ffb4a3376e328fb1b7c98e2fce5de6bd82a"
+    },
+    {
+      "name": "knee_near_support",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/knee_near_support.png",
+      "sha256": "28596c2a973fa3c96d124cfeabeb1237efaf97bcffa73be3b586fc5ba2dabe19",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/raw/005_knee_support.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        375,
+        1085
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/knee_near_support.res",
+      "compiled_sha256": "b5c3bef31fc3de1d5945498d41af2b9bbf522690c00a5807c45f3ba40cc7875a"
+    },
+    {
+      "name": "cape",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/cape.png",
+      "sha256": "7d18f609161f173a8d9c0105801af79d2cd024f860dbc53522e3a40ed5c26aa7",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/00_rig_master_rgba.png",
+        "work/minotaur_breaker/raw/004_cape.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        321,
+        358
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/cape.res",
+      "compiled_sha256": "b4444ee69ffd1ae0dea4dc8f924b300eabfcd64f6dae54c8a585bf46f61a4549"
+    },
+    {
+      "name": "arm_far_upper",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/arm_far_upper.png",
+      "sha256": "c0031aa1d6a5ffd398ea443742487d41e5761bc8c8235c39898ab36b29479cb4",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/raw/003_far_upper_arm.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        621,
+        590
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/arm_far_upper.res",
+      "compiled_sha256": "afc784e741f1b6bdf47dd233741db7c6aacda1b9e5c9d70fe159bf4014c656b0"
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/arm_far_fore.png",
+      "sha256": "16befa1872e4811b5eefa51166a1ef3569de48bf5def36d87734bcddb9c8da6c",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        674,
+        765
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/arm_far_fore.res",
+      "compiled_sha256": "d5035db6fd0ac04fb59c6f567d53cfc02f0c7620f3780bebf4ff97e820921240"
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/leg_far_thigh.png",
+      "sha256": "9c00e0ae53b7e766b756e7dcb836c8c42fcea169f2ff05f7b040e629d640b0bc",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": false,
+      "review_required": false,
+      "pivot_hint": [
+        566,
+        875
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/leg_far_thigh.res",
+      "compiled_sha256": "3cc5dca17cac099ab82e374b1c2fbf21c0710085c5a845118960ecfb4e814cfc"
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/leg_far_shin.png",
+      "sha256": "9c80f7efc24928080f7ff416cd4c88854dad95e81306bb9f09e29d9cbe484bd0",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": false,
+      "review_required": false,
+      "pivot_hint": [
+        618,
+        1103
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/leg_far_shin.res",
+      "compiled_sha256": "902bc165fb190f03ce0e07c40b54f88379466412390551c9c4f38009cd27d962"
+    },
+    {
+      "name": "foot_far",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/foot_far.png",
+      "sha256": "a7ff048a4859319ffab9f549300d3e3c972e0cb74b0c1bccb59c2553dc9689b7",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": false,
+      "review_required": false,
+      "pivot_hint": [
+        614,
+        1365
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/foot_far.res",
+      "compiled_sha256": "8b75708ed4bf6aafd2646cfd8b8facd5c38d1aa8835595036b214e2b4f1ca7dd"
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/leg_near_thigh.png",
+      "sha256": "73830c29abd3e8c96ebb6f8d55bcaf45c59f1a763693ee7a2a9d34fc4dce657f",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        367,
+        870
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/leg_near_thigh.res",
+      "compiled_sha256": "15b1dd46ba50864acfcf5f7fef5877eb335ce648aff390b88aa4f30ca3746139"
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/leg_near_shin.png",
+      "sha256": "b70c07b21d70e05249e93abc86ba2e3a848beac162fe90ea7d62a3da3d7b7a80",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": false,
+      "review_required": false,
+      "pivot_hint": [
+        375,
+        1085
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/leg_near_shin.res",
+      "compiled_sha256": "3c87dd91046002f6a5ce00b6de5dcfb27cd5875a81f3b7aa02f17d8948fe49f2"
+    },
+    {
+      "name": "foot_near",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/foot_near.png",
+      "sha256": "3e417f0918dbbea7e2e373886c0ee5742250e01b7c187154ccfb518f755dde7e",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": false,
+      "review_required": false,
+      "pivot_hint": [
+        296,
+        1360
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/foot_near.res",
+      "compiled_sha256": "92fa18a26c66d33bcd996af750706024f67ba311d34eaf54a5c116dad394cb07"
+    },
+    {
+      "name": "pelvis",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/pelvis.png",
+      "sha256": "0b4c3bc5491c735c72b050bdc061684e320ca3bb0671d38dce4542af8e08f78d",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        474,
+        716
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/pelvis.res",
+      "compiled_sha256": "0e8e71c517ce20f3b9c5300da101d7e414ff2c8349b3a93722622e6760712934"
+    },
+    {
+      "name": "torso",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/torso.png",
+      "sha256": "34ff7f685da05e8ff305f1e17340c6cf2a84888100d9e30c36a7d49089382f53",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        474,
+        640
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/torso.res",
+      "compiled_sha256": "6c0d8daf16cbb55742566a4cb7fa0036646dfa687c09fb44aec26bad4f741546"
+    },
+    {
+      "name": "head",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/head.png",
+      "sha256": "10db42c61c8fa775e64aaaaf9fbe47b23a1ee0ac3517e8a1270d1bdae78ceb78",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": false,
+      "review_required": false,
+      "pivot_hint": [
+        566,
+        321
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/head.res",
+      "compiled_sha256": "3c77bd9eec547bf82f1855318f9a27f9e160009f30809881da608d3207d10057"
+    },
+    {
+      "name": "shoulder_far",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/shoulder_far.png",
+      "sha256": "786190bc12921753c07a811ed6239b807d7acbb65f9b74020a6e9a4eee921f29",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        624,
+        500
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/shoulder_far.res",
+      "compiled_sha256": "d75c44c3b7774e14bf36ff0f5e4f3ebc4cd7dd192ff54f841a012eaf7d35b6a9"
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/arm_near_upper.png",
+      "sha256": "ceda1db30fe9f32328ce2e4d0c1515576eb45f25f4f39fcf5a635d9b7364a5c0",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        298,
+        529
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/arm_near_upper.res",
+      "compiled_sha256": "09f771e575b175021cd3232ccb2bc6725402bbfd464074a3482b9d85a335080b"
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/arm_near_fore.png",
+      "sha256": "f12c94d0b24bf8e57d718cdd8ab782ad64c7ec8b62f7cf630a697ca11d69d681",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        250,
+        666
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/arm_near_fore.res",
+      "compiled_sha256": "ff48b5ab0fc3b7a19f06e9f93aca09c3f48c06ead562fa437604cca360cfaa40"
+    },
+    {
+      "name": "shoulder_near",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/shoulder_near.png",
+      "sha256": "2eeaff0e38b63e7cf4d1f570389fbd20cc49a7305e2c8475e73f8d57263e7d3d",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        328,
+        413
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/shoulder_near.res",
+      "compiled_sha256": "c634ea6ed1f32adcc9b3384130d7c5114234c552c3427b30573dbd12f8bf9e4b"
+    },
+    {
+      "name": "hand_near",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/hand_near.png",
+      "sha256": "b41dfa712b813bcc2367e86ceedb8ebdb0b9b689da24cfe326954f00b232000c",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        275,
+        832
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/hand_near.res",
+      "compiled_sha256": "e9321b4f8d5c23e255e47df885f5e34d93ef1de220d673f42ea8175eef30f13c"
+    },
+    {
+      "name": "axe",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/axe.png",
+      "sha256": "0a635ba55f603600bc8942696bfa6d71f8872753ecbd2f392cf51c7751a4609f",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/00_rig_master_rgba.png",
+        "work/minotaur_breaker/raw/002_axe_grip.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        821,
+        862
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/axe.res",
+      "compiled_sha256": "6de8c856a79fdcf8688654a7133f194f26930304f3ea170061078d4e45aff7df"
+    },
+    {
+      "name": "hand_far",
+      "file": "assets/units/odyssey/minotaur_breaker/parts/hand_far.png",
+      "sha256": "7ca61e3832105868b211a6d3cb7d0f5bae46a088237728a3182756dce01f8ddd",
+      "status": "PASS",
+      "source": [
+        "work/minotaur_breaker/01_complete_body_rgba_v2.png"
+      ],
+      "ai_completed": true,
+      "review_required": false,
+      "pivot_hint": [
+        778,
+        850
+      ],
+      "compiled_texture": "resources/minotaur_breaker_textures/hand_far.res",
+      "compiled_sha256": "7a09a55743b2f06ba974ad54353eda6846bd37555256e0471a52bc4d5b655638"
+    }
+  ],
+  "draw_order": [
+    "knee_far_support",
+    "knee_near_support",
+    "cape",
+    "arm_far_upper",
+    "arm_far_fore",
+    "leg_far_thigh",
+    "leg_far_shin",
+    "foot_far",
+    "leg_near_thigh",
+    "leg_near_shin",
+    "foot_near",
+    "pelvis",
+    "torso",
+    "head",
+    "shoulder_far",
+    "arm_near_upper",
+    "arm_near_fore",
+    "shoulder_near",
+    "hand_near",
+    "axe",
+    "hand_far"
+  ],
+  "review": "reports/minotaur_breaker/production_art_review.json"
+}

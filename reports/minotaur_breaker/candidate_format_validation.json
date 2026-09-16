@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "scope": "Format/provenance only; NOT art or animation approval",
+  "frozen_source_hashes_checked": 4,
+  "body_sha256": "01b6ecbff2e77b8b7a9a14f3f48d302d9e28d4333d2aa59157326509b70a8749",
+  "body_outside_mask_rgba_changes": 0,
+  "parts": [
+    {
+      "name": "knee_far_support",
+      "format_pass": true,
+      "opaque_pixels": 25296,
+      "fractional_pixels": 3906
+    },
+    {
+      "name": "knee_near_support",
+      "format_pass": true,
+      "opaque_pixels": 25296,
+      "fractional_pixels": 3906
+    },
+    {
+      "name": "cape",
+      "format_pass": true,
+      "opaque_pixels": 127642,
+      "fractional_pixels": 77536
+    },
+    {
+      "name": "arm_far_upper",
+      "format_pass": true,
+      "opaque_pixels": 17783,
+      "fractional_pixels": 0
+    },
+    {
+      "name": "arm_far_fore",
+      "format_pass": true,
+      "opaque_pixels": 787,
+      "fractional_pixels": 19916
+    },
+    {
+      "name": "leg_far_thigh",
+      "format_pass": true,
+      "opaque_pixels": 123,
+      "fractional_pixels": 35487
+    },
+    {
+      "name": "leg_far_shin",
+      "format_pass": true,
+      "opaque_pixels": 157,
+      "fractional_pixels": 64704
+    },
+    {
+      "name": "foot_far",
+      "format_pass": true,
+      "opaque_pixels": 48,
+      "fractional_pixels": 29808
+    },
+    {
+      "name": "leg_near_thigh",
+      "format_pass": true,
+      "opaque_pixels": 85,
+      "fractional_pixels": 38084
+    },
+    {
+      "name": "leg_near_shin",
+      "format_pass": true,
+      "opaque_pixels": 207,
+      "fractional_pixels": 66683
+    },
+    {
+      "name": "foot_near",
+      "format_pass": true,
+      "opaque_pixels": 148,
+      "fractional_pixels": 31390
+    },
+    {
+      "name": "pelvis",
+      "format_pass": true,
+      "opaque_pixels": 537,
+      "fractional_pixels": 145403
+    },
+    {
+      "name": "torso",
+      "format_pass": true,
+      "opaque_pixels": 3008,
+      "fractional_pixels": 127633
+    },
+    {
+      "name": "head",
+      "format_pass": true,
+      "opaque_pixels": 315,
+      "fractional_pixels": 74425
+    },
+    {
+      "name": "shoulder_far",
+      "format_pass": true,
+      "opaque_pixels": 621,
+      "fractional_pixels": 9728
+    },
+    {
+      "name": "arm_near_upper",
+      "format_pass": true,
+      "opaque_pixels": 3435,
+      "fractional_pixels": 38049
+    },
+    {
+      "name": "arm_near_fore",
+      "format_pass": true,
+      "opaque_pixels": 1846,
+      "fractional_pixels": 36793
+    },
+    {
+      "name": "shoulder_near",
+      "format_pass": true,
+      "opaque_pixels": 5393,
+      "fractional_pixels": 62237
+    },
+    {
+      "name": "hand_near",
+      "format_pass": true,
+      "opaque_pixels": 90,
+      "fractional_pixels": 21585
+    },
+    {
+      "name": "axe",
+      "format_pass": true,
+      "opaque_pixels": 5152,
+      "fractional_pixels": 93638
+    },
+    {
+      "name": "hand_far",
+      "format_pass": true,
+      "opaque_pixels": 878,
+      "fractional_pixels": 13160
+    }
+  ],
+  "native_meshes": 13,
+  "mesh_vertices": 1783,
+  "errors": []
+}

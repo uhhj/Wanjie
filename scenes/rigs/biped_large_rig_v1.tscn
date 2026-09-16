@@ -1,0 +1,303 @@
+[gd_scene format=3]
+
+[node name="Skeleton2D" type="Skeleton2D"]
+
+[node name="pelvis" type="Bone2D" parent="."]
+
+position = Vector2(474, 716)
+
+rest = Transform2D(1, 0, 0, 1, 474, 716)
+
+auto_calculate_length_and_angle = false
+
+length = 76.0
+
+bone_angle = -1.5707963267948966
+
+[node name="torso" type="Bone2D" parent="pelvis"]
+
+position = Vector2(0, -76)
+
+rest = Transform2D(1, 0, 0, 1, 0, -76)
+
+auto_calculate_length_and_angle = false
+
+length = 281.18677067031444
+
+bone_angle = -1.3008013132145213
+
+[node name="neck" type="Bone2D" parent="pelvis/torso"]
+
+position = Vector2(75, -271)
+
+rest = Transform2D(1, 0, 0, 1, 75, -271)
+
+auto_calculate_length_and_angle = false
+
+length = 50.92150822589606
+
+bone_angle = -1.2304143881529896
+
+[node name="head" type="Bone2D" parent="pelvis/torso/neck"]
+
+position = Vector2(17, -48)
+
+rest = Transform2D(1, 0, 0, 1, 17, -48)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="shoulder_near" type="Bone2D" parent="pelvis/torso"]
+
+position = Vector2(-146, -227)
+
+rest = Transform2D(1, 0, 0, 1, -146, -227)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="arm_near_upper" type="Bone2D" parent="pelvis/torso"]
+
+position = Vector2(-176, -111)
+
+rest = Transform2D(1, 0, 0, 1, -176, -111)
+
+auto_calculate_length_and_angle = false
+
+length = 145.16542288024377
+
+bone_angle = 1.9077962436994296
+
+[node name="arm_near_fore" type="Bone2D" parent="pelvis/torso/arm_near_upper"]
+
+position = Vector2(-48, 137)
+
+rest = Transform2D(1, 0, 0, 1, -48, 137)
+
+auto_calculate_length_and_angle = false
+
+length = 167.87197502859135
+
+bone_angle = 1.4213172776335172
+
+[node name="hand_near" type="Bone2D" parent="pelvis/torso/arm_near_upper/arm_near_fore"]
+
+position = Vector2(25, 166)
+
+rest = Transform2D(1, 0, 0, 1, 25, 166)
+
+auto_calculate_length_and_angle = false
+
+length = 55.14526271584895
+
+bone_angle = 1.498196873064402
+
+[node name="axe_support_socket" type="Bone2D" parent="pelvis/torso/arm_near_upper/arm_near_fore/hand_near"]
+
+position = Vector2(4, 55)
+
+rest = Transform2D(1, 0, 0, 1, 4, 55)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="shoulder_far" type="Bone2D" parent="pelvis/torso"]
+
+position = Vector2(150, -140)
+
+rest = Transform2D(1, 0, 0, 1, 150, -140)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="arm_far_upper" type="Bone2D" parent="pelvis/torso"]
+
+position = Vector2(147, -50)
+
+rest = Transform2D(1, 0, 0, 1, 147, -50)
+
+auto_calculate_length_and_angle = false
+
+length = 182.84966502567076
+
+bone_angle = 1.2767203659646946
+
+[node name="arm_far_fore" type="Bone2D" parent="pelvis/torso/arm_far_upper"]
+
+position = Vector2(53, 175)
+
+rest = Transform2D(1, 0, 0, 1, 53, 175)
+
+auto_calculate_length_and_angle = false
+
+length = 134.31678971744373
+
+bone_angle = 0.6852056764858921
+
+[node name="hand_far" type="Bone2D" parent="pelvis/torso/arm_far_upper/arm_far_fore"]
+
+position = Vector2(104, 85)
+
+rest = Transform2D(1, 0, 0, 1, 104, 85)
+
+auto_calculate_length_and_angle = false
+
+length = 44.64302857109943
+
+bone_angle = 0.2721458905311873
+
+[node name="axe_socket" type="Bone2D" parent="pelvis/torso/arm_far_upper/arm_far_fore/hand_far"]
+
+position = Vector2(43, 12)
+
+rest = Transform2D(1, 0, 0, 1, 43, 12)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="cape_root" type="Bone2D" parent="pelvis/torso"]
+
+position = Vector2(-153, -282)
+
+rest = Transform2D(1, 0, 0, 1, -153, -282)
+
+auto_calculate_length_and_angle = false
+
+length = 389.85253622363416
+
+bone_angle = 1.8381732348639668
+
+[node name="cape_mid" type="Bone2D" parent="pelvis/torso/cape_root"]
+
+position = Vector2(-103, 376)
+
+rest = Transform2D(1, 0, 0, 1, -103, 376)
+
+auto_calculate_length_and_angle = false
+
+length = 383.24013359772226
+
+bone_angle = 1.8537554502876628
+
+[node name="cape_tip" type="Bone2D" parent="pelvis/torso/cape_root/cape_mid"]
+
+position = Vector2(-107, 368)
+
+rest = Transform2D(1, 0, 0, 1, -107, 368)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="leg_near_thigh" type="Bone2D" parent="pelvis"]
+
+position = Vector2(-107, 154)
+
+rest = Transform2D(1, 0, 0, 1, -107, 154)
+
+auto_calculate_length_and_angle = false
+
+length = 215.14878572745886
+
+bone_angle = 1.5336041827100366
+
+[node name="knee_near" type="Bone2D" parent="pelvis/leg_near_thigh"]
+
+position = Vector2(8, 215)
+
+rest = Transform2D(1, 0, 0, 1, 8, 215)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="leg_near_shin" type="Bone2D" parent="pelvis/leg_near_thigh/knee_near"]
+
+position = Vector2(0, 0)
+
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+auto_calculate_length_and_angle = false
+
+length = 286.1223514512629
+
+bone_angle = 1.8505362152410731
+
+[node name="foot_near" type="Bone2D" parent="pelvis/leg_near_thigh/knee_near/leg_near_shin"]
+
+position = Vector2(-79, 275)
+
+rest = Transform2D(1, 0, 0, 1, -79, 275)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="leg_far_thigh" type="Bone2D" parent="pelvis"]
+
+position = Vector2(92, 159)
+
+rest = Transform2D(1, 0, 0, 1, 92, 159)
+
+auto_calculate_length_and_angle = false
+
+length = 233.85465571589546
+
+bone_angle = 1.3465615756858005
+
+[node name="knee_far" type="Bone2D" parent="pelvis/leg_far_thigh"]
+
+position = Vector2(52, 228)
+
+rest = Transform2D(1, 0, 0, 1, 52, 228)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966
+
+[node name="leg_far_shin" type="Bone2D" parent="pelvis/leg_far_thigh/knee_far"]
+
+position = Vector2(0, 0)
+
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+auto_calculate_length_and_angle = false
+
+length = 262.03053257206494
+
+bone_angle = 1.5860623163416765
+
+[node name="foot_far" type="Bone2D" parent="pelvis/leg_far_thigh/knee_far/leg_far_shin"]
+
+position = Vector2(-4, 262)
+
+rest = Transform2D(1, 0, 0, 1, -4, 262)
+
+auto_calculate_length_and_angle = false
+
+length = 30.0
+
+bone_angle = 1.5707963267948966

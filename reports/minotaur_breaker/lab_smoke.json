@@ -1,0 +1,14 @@
+{
+  "attack_events": 4,
+  "checks": [
+    "six choices",
+    "pause",
+    "resume",
+    "four demo normal hits trigger one skill",
+    "death holds"
+  ],
+  "errors": [],
+  "scope": "Lab call/state smoke, no damage or production mana constants",
+  "skill_events": 1,
+  "status": "PASS"
+}

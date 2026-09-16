@@ -1,0 +1,108 @@
+{
+  "verdict": "MINOTAUR_BREAKER_V1_COMPLETE_WITH_STRESS_LIMITATIONS",
+  "unit_asset_status": "PASS",
+  "native_rig_status": "SUPPORTED",
+  "mass_battle_performance_approved": false,
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "bone_count": 25,
+  "core_parts": 19,
+  "hidden_knee_supports": 2,
+  "native_skinned_meshes": 13,
+  "animations": {
+    "idle": "PASS",
+    "walk": "PASS",
+    "attack_01": "PASS",
+    "skill_01": "PASS",
+    "hit": "PASS",
+    "death": "PASS"
+  },
+  "display_heights": [
+    360,
+    288
+  ],
+  "formal_scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+  "events": {
+    "attack_01": [
+      1,
+      0
+    ],
+    "skill_01": [
+      0,
+      1
+    ]
+  },
+  "foot_drift_360px": {
+    "near": 0.00132507632262615,
+    "far": 0.00402125840818425
+  },
+  "stress": [
+    {
+      "display_height": 288,
+      "fps": 31.5668499165974,
+      "godot": "4.7.2-stable (official)",
+      "mobile_performance_claim": false,
+      "mode": "walk",
+      "node_count": 1313,
+      "occlusion_review": "READABLE_WITH_VERTICAL_OVERLAP_WARNING",
+      "renderer": "GeForce GTX 1650",
+      "scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+      "seconds": 8.014737,
+      "status": "DESKTOP_FORMAL_MEASURED",
+      "units": 20,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "occlusion_findings": "Individuals and weapons distinguishable; row height still overlaps previous row feet/horns"
+    },
+    {
+      "display_height": 288,
+      "fps": 12.4887045231862,
+      "godot": "4.7.2-stable (official)",
+      "mobile_performance_claim": false,
+      "mode": "walk",
+      "node_count": 3233,
+      "occlusion_review": "DENSE_LAYOUT_FAIL",
+      "renderer": "GeForce GTX 1650",
+      "scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+      "seconds": 8.087308,
+      "status": "DESKTOP_FORMAL_MEASURED",
+      "units": 50,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "occlusion_findings": "Dense rows overlap horns, capes and weapons; do not use this spacing for production"
+    },
+    {
+      "display_height": 288,
+      "fps": 24.3632903935546,
+      "godot": "4.7.2-stable (official)",
+      "mobile_performance_claim": false,
+      "mode": "skill_loop",
+      "node_count": 1313,
+      "occlusion_review": "READABLE_WITH_VERTICAL_OVERLAP_WARNING",
+      "renderer": "GeForce GTX 1650",
+      "scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+      "seconds": 8.003845,
+      "status": "DESKTOP_FORMAL_MEASURED",
+      "units": 20,
+      "viewport": [
+        1920,
+        1080
+      ],
+      "occlusion_findings": "Individuals and weapons distinguishable; row height still overlaps previous row feet/horns"
+    }
+  ],
+  "flags": [
+    "50-unit dense layout fails readability and measured 12.49 FPS; not approved for dense production battles",
+    "20-unit vertical row overlap remains a layout warning",
+    "Non-blocking source high-resolution edge artifacts retained",
+    "User aesthetic sign-off not claimed"
+  ],
+  "scope_exclusions": [
+    "no damage/mana balance system",
+    "no third-party rig",
+    "no next character"
+  ]
+}

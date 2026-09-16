@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex visual review of actual Godot frames; not a user sign-off",
+  "artifact_inputs": {
+    "res://resources/minotaur_breaker_animation_candidates.json": "f831b052679788d451e26bf177354d6788c0ba542be9192186791f1e1fe5c5a1",
+    "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
+    "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
+    "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
+    "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
+    "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "031b26c9bfa84aa879623776670b38c95e0bc988d20053a28a043fa705a63d6b"
+  },
+  "display_heights": [
+    360,
+    288
+  ],
+  "animations": {
+    "idle": "PASS",
+    "walk": "PASS",
+    "attack_01": "PASS",
+    "skill_01": "PASS",
+    "hit": "PASS",
+    "death": "PASS"
+  },
+  "evidence": [
+    "idle_all16_review.png",
+    "idle_288_all16_review.png",
+    "walk_all16_review.png",
+    "walk_288_all16_review.png",
+    "attack_01_all16_review.png",
+    "attack_01_288_all16_review.png",
+    "skill_01_all16_review.png",
+    "skill_01_288_all16_review.png",
+    "hit_all16_review.png",
+    "hit_288_all16_review.png",
+    "death_all16_review.png",
+    "death_288_all16_review.png"
+  ],
+  "findings": {
+    "identity": "Frozen head/horns/armor/axe retained; localized hidden fur and cape completion only",
+    "walk": "Alternating planted/swing legs; no visible open knee holes after support registration; heavy compact stride",
+    "attack_01": "Two-hand grip engages, axe raises then chops forward; compact heavy strike",
+    "skill_01": "Preparation, advancing steps, forward axe press, recovery; distinct displacement from normal attack",
+    "death": "Crouch, loss of balance, folded fall and stable final hold",
+    "idle_hit": "Low amplitude idle and brief recoil remain connected"
+  },
+  "non_blocking_flags": [
+    "Source high-resolution alpha fringe retained at combat-scale tolerance",
+    "Hidden knee fur uses one generated patch registered twice",
+    "Death retains axe in hand; no physical equipment drop",
+    "V1 restricted side-facing pose range; not a general 3D rotation solution"
+  ],
+  "remaining_blocking_art_issues": []
+}

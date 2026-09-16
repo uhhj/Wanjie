@@ -1,0 +1,110 @@
+{
+  "status": "CANDIDATE_ONLY",
+  "parts": [
+    {
+      "name": "knee_far_support",
+      "file": "work/minotaur_breaker/candidates/native_parts/knee_far_support.png",
+      "sha256": "ef369a7c0025f03598d1c45831dd91e3ab2bf065be53674184b3853b95a89cf4"
+    },
+    {
+      "name": "knee_near_support",
+      "file": "work/minotaur_breaker/candidates/native_parts/knee_near_support.png",
+      "sha256": "28596c2a973fa3c96d124cfeabeb1237efaf97bcffa73be3b586fc5ba2dabe19"
+    },
+    {
+      "name": "cape",
+      "file": "work/minotaur_breaker/candidates/native_parts/cape.png",
+      "sha256": "7d18f609161f173a8d9c0105801af79d2cd024f860dbc53522e3a40ed5c26aa7"
+    },
+    {
+      "name": "arm_far_upper",
+      "file": "work/minotaur_breaker/candidates/native_parts/arm_far_upper.png",
+      "sha256": "c0031aa1d6a5ffd398ea443742487d41e5761bc8c8235c39898ab36b29479cb4"
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "work/minotaur_breaker/candidates/native_parts/arm_far_fore.png",
+      "sha256": "16befa1872e4811b5eefa51166a1ef3569de48bf5def36d87734bcddb9c8da6c"
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "work/minotaur_breaker/candidates/native_parts/leg_far_thigh.png",
+      "sha256": "9c00e0ae53b7e766b756e7dcb836c8c42fcea169f2ff05f7b040e629d640b0bc"
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "work/minotaur_breaker/candidates/native_parts/leg_far_shin.png",
+      "sha256": "9c80f7efc24928080f7ff416cd4c88854dad95e81306bb9f09e29d9cbe484bd0"
+    },
+    {
+      "name": "foot_far",
+      "file": "work/minotaur_breaker/candidates/native_parts/foot_far.png",
+      "sha256": "a7ff048a4859319ffab9f549300d3e3c972e0cb74b0c1bccb59c2553dc9689b7"
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "work/minotaur_breaker/candidates/native_parts/leg_near_thigh.png",
+      "sha256": "73830c29abd3e8c96ebb6f8d55bcaf45c59f1a763693ee7a2a9d34fc4dce657f"
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "work/minotaur_breaker/candidates/native_parts/leg_near_shin.png",
+      "sha256": "b70c07b21d70e05249e93abc86ba2e3a848beac162fe90ea7d62a3da3d7b7a80"
+    },
+    {
+      "name": "foot_near",
+      "file": "work/minotaur_breaker/candidates/native_parts/foot_near.png",
+      "sha256": "3e417f0918dbbea7e2e373886c0ee5742250e01b7c187154ccfb518f755dde7e"
+    },
+    {
+      "name": "pelvis",
+      "file": "work/minotaur_breaker/candidates/native_parts/pelvis.png",
+      "sha256": "0b4c3bc5491c735c72b050bdc061684e320ca3bb0671d38dce4542af8e08f78d"
+    },
+    {
+      "name": "torso",
+      "file": "work/minotaur_breaker/candidates/native_parts/torso.png",
+      "sha256": "34ff7f685da05e8ff305f1e17340c6cf2a84888100d9e30c36a7d49089382f53"
+    },
+    {
+      "name": "head",
+      "file": "work/minotaur_breaker/candidates/native_parts/head.png",
+      "sha256": "10db42c61c8fa775e64aaaaf9fbe47b23a1ee0ac3517e8a1270d1bdae78ceb78"
+    },
+    {
+      "name": "shoulder_far",
+      "file": "work/minotaur_breaker/candidates/native_parts/shoulder_far.png",
+      "sha256": "786190bc12921753c07a811ed6239b807d7acbb65f9b74020a6e9a4eee921f29"
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "work/minotaur_breaker/candidates/native_parts/arm_near_upper.png",
+      "sha256": "ceda1db30fe9f32328ce2e4d0c1515576eb45f25f4f39fcf5a635d9b7364a5c0"
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "work/minotaur_breaker/candidates/native_parts/arm_near_fore.png",
+      "sha256": "f12c94d0b24bf8e57d718cdd8ab782ad64c7ec8b62f7cf630a697ca11d69d681"
+    },
+    {
+      "name": "shoulder_near",
+      "file": "work/minotaur_breaker/candidates/native_parts/shoulder_near.png",
+      "sha256": "2eeaff0e38b63e7cf4d1f570389fbd20cc49a7305e2c8475e73f8d57263e7d3d"
+    },
+    {
+      "name": "hand_near",
+      "file": "work/minotaur_breaker/candidates/native_parts/hand_near.png",
+      "sha256": "b41dfa712b813bcc2367e86ceedb8ebdb0b9b689da24cfe326954f00b232000c"
+    },
+    {
+      "name": "axe",
+      "file": "work/minotaur_breaker/candidates/native_parts/axe.png",
+      "sha256": "0a635ba55f603600bc8942696bfa6d71f8872753ecbd2f392cf51c7751a4609f"
+    },
+    {
+      "name": "hand_far",
+      "file": "work/minotaur_breaker/candidates/native_parts/hand_far.png",
+      "sha256": "7ca61e3832105868b211a6d3cb7d0f5bae46a088237728a3182756dce01f8ddd"
+    }
+  ]
+}

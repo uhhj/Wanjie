@@ -1,0 +1,39 @@
+{
+  "unit_id": "OD_UNIT_04_MINOTAUR_BREAKER",
+  "rig_family": "BIPED_LARGE_RIG_V1",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "display_heights": [
+    360,
+    288
+  ],
+  "compare_human_height": 256,
+  "animations": [
+    "idle",
+    "walk",
+    "attack_01",
+    "skill_01",
+    "hit",
+    "death"
+  ],
+  "events": {
+    "attack_01": "attack_hit",
+    "skill_01": "skill_hit"
+  },
+  "mana_contract": "External combat system accumulates independent blue bar from normal attacks and requests skill_01 when full. Rig exposes hit timings only; lab may demonstrate trigger without damage logic.",
+  "missing_art": [],
+  "parts_status": "PASS_19_CORE_PLUS_2_SUPPORTS",
+  "body_status": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS",
+  "native_status": "READY_WITH_DESKTOP_STRESS_LIMITATIONS",
+  "source_read_only": true,
+  "animations_status": {
+    "idle": "PASS",
+    "walk": "PASS",
+    "attack_01": "PASS",
+    "skill_01": "PASS",
+    "hit": "PASS",
+    "death": "PASS"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "formal_scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+  "candidate_scene_sha256": "031b26c9bfa84aa879623776670b38c95e0bc988d20053a28a043fa705a63d6b",
+  "scene_semantic_parity": true,
+  "parts_checked": 21,
+  "errors": []
+}

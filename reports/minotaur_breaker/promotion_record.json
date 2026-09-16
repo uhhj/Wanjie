@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FORMAL_RUNTIME_REGRESSION",
+  "candidate_scene_sha256": "031b26c9bfa84aa879623776670b38c95e0bc988d20053a28a043fa705a63d6b",
+  "formal_scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+  "candidate_capture": "approved_candidate_capture.json",
+  "changed_semantics": [
+    "root display name",
+    "autoplay enabled by default",
+    "compiled textures relocated without byte changes"
+  ],
+  "damage_constants_added": false,
+  "formal_motion_report": "formal_motion_contract_test.json",
+  "formal_parity_report": "formal_scene_parity.json"
+}

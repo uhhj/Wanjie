@@ -1,0 +1,19 @@
+{
+  "display_height": 288,
+  "fps": 12.4887045231862,
+  "godot": "4.7.2-stable (official)",
+  "mobile_performance_claim": false,
+  "mode": "walk",
+  "node_count": 3233,
+  "occlusion_review": "DENSE_LAYOUT_FAIL",
+  "renderer": "GeForce GTX 1650",
+  "scene_sha256": "9a7869a5b6bfd383de3b26ef1ebe2c441b3b54b8eab2164ae881166c0eea74d5",
+  "seconds": 8.087308,
+  "status": "DESKTOP_FORMAL_MEASURED",
+  "units": 50,
+  "viewport": [
+    1920,
+    1080
+  ],
+  "occlusion_findings": "Dense rows overlap horns, capes and weapons; do not use this spacing for production"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "COMBAT_SCALE_PASS",
+  "silhouette_iou_diagnostic_only": 0.9780957620970243,
+  "pixel_equality_is_not_gate": true,
+  "review": "candidate_recomposition_combat_review.png",
+  "allowed_differences": [
+    "approved hidden anatomy completion",
+    "joint overlap",
+    "non-blocking source edge artifacts"
+  ]
+}

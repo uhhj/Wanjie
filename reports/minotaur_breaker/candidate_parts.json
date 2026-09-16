@@ -1,0 +1,133 @@
+{
+  "status": "CANDIDATE_REVIEW_REQUIRED",
+  "parts": [
+    {
+      "name": "head",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\head.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "shoulder_near",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\shoulder_near.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "shoulder_far",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\shoulder_far.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "torso",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\torso.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "pelvis",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\pelvis.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\arm_near_upper.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\arm_near_fore.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "hand_near",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\hand_near.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "arm_far_upper",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\arm_far_upper.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\arm_far_fore.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "hand_far",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\hand_far.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\leg_near_thigh.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\leg_near_shin.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "foot_near",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\foot_near.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\leg_far_thigh.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\leg_far_shin.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    },
+    {
+      "name": "foot_far",
+      "file": "work\\minotaur_breaker\\candidates\\parts\\foot_far.png",
+      "status": "CANDIDATE_REVIEW_REQUIRED",
+      "source": "work/minotaur_breaker/01_complete_body_rgba.png"
+    }
+  ],
+  "unassigned_body_pixels": 77,
+  "draw_order": [
+    "cape",
+    "arm_far_upper",
+    "arm_far_fore",
+    "leg_far_thigh",
+    "leg_far_shin",
+    "foot_far",
+    "leg_near_thigh",
+    "leg_near_shin",
+    "foot_near",
+    "pelvis",
+    "torso",
+    "head",
+    "shoulder_far",
+    "arm_near_upper",
+    "arm_near_fore",
+    "shoulder_near",
+    "hand_near",
+    "axe",
+    "hand_far"
+  ],
+  "missing_equipment": [
+    "axe",
+    "cape"
+  ]
+}

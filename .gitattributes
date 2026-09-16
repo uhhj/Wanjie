@@ -72,3 +72,18 @@ reports/walk_chain_v2/walk_reference_192.gif -text
 reports/walk_chain_v2/walk_reference_256_review.png -text
 reports/walk_chain_v2/walk_reference_192_review.png -text
 reports/cretan_archer/** -text
+
+# Minotaur review evidence binds exact bytes; preserve hashes across checkout.
+art_source/odyssey/minotaur_breaker/** -text
+assets/units/odyssey/minotaur_breaker/** -text
+work/minotaur_breaker/** -text
+reports/minotaur_breaker/** -text
+resources/minotaur_breaker* -text
+resources/minotaur_breaker_textures/** -text
+scripts/build/*minotaur*.gd -text
+scripts/rig/*minotaur*.gd -text
+scripts/tests/*minotaur*.gd -text
+scenes/rigs/biped_large_rig_v1.tscn -text
+scenes/units/odyssey/minotaur_breaker/** -text
+scenes/tests/minotaur_breaker*.tscn -text
+tools/minotaur_breaker_parts_manifest.json -text

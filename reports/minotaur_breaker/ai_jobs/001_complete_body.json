@@ -1,0 +1,16 @@
+{
+  "job": "001_complete_body",
+  "input_file": "D:\\Wanjie\\documents\\Wanjie-minotaur-breaker\\work\\minotaur_breaker\\00_rig_master_rgba.png",
+  "input_sha256": "ed44df21ee4f6847f77c74d372986fce1b6cd1668d5e9ff85c3da10dba2d9e27",
+  "mask": "D:\\Wanjie\\documents\\Wanjie-minotaur-breaker\\work\\minotaur_breaker\\masks\\body_completion_effective.png",
+  "prompt_file": "D:\\Wanjie\\documents\\Wanjie-minotaur-breaker\\work\\minotaur_breaker\\prompts\\001_complete_body.txt",
+  "tool": "built-in image_gen",
+  "raw_output": "D:\\Wanjie\\documents\\Wanjie-minotaur-breaker\\work\\minotaur_breaker\\raw\\001_complete_body.png",
+  "raw_sha256": "0035ff819d092d91a6670106ec8ba07b9e3ec7efeac1a41c7905b15847a3aecf",
+  "raw_format": "RGB with baked checker; not approved as formal RGBA",
+  "candidate": "D:\\Wanjie\\documents\\Wanjie-minotaur-breaker\\work\\minotaur_breaker\\candidates\\01_body_local_candidate.png",
+  "candidate_sha256": "f04e62815c9af6c911330f6f583cd3f9ef150ea457913fd09fe8c63ca8854142",
+  "outside_mask_rgba_changes": 0,
+  "status": "CANDIDATE_REVIEW_REQUIRED",
+  "note": "Neutral edge-connected checker segmentation only for local AI regions; master pixels protected outside mask. Raw model output NOT formal art."
+}

@@ -1,0 +1,12 @@
+{
+  "bone_count": 25,
+  "errors": [],
+  "godot": "4.7.2-stable (official)",
+  "relay_counts": [
+    1,
+    1
+  ],
+  "rest_pivots_checked": 25,
+  "scope": "Structural scaffold and signal isolation only; not animation approval",
+  "status": "PASS"
+}

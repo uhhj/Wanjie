@@ -1,0 +1,24 @@
+{
+  "status": "PASS_WITH_NON_BLOCKING_HIRES_EDGE_ARTIFACTS",
+  "body_file": "work/minotaur_breaker/01_complete_body_rgba_v2.png",
+  "sha256": "01b6ecbff2e77b8b7a9a14f3f48d302d9e28d4333d2aa59157326509b70a8749",
+  "scope": "Trailing cape removed; approved front red collar retained as costume",
+  "checks": {
+    "identity_source_pixels_preserved": true,
+    "no_axe": true,
+    "no_trailing_cape": true,
+    "both_hands_present": true,
+    "both_legs_present": true,
+    "same_canvas": true,
+    "true_rgba": true,
+    "transparent_background": true,
+    "opaque_body": true,
+    "no_new_neck_armor": true
+  },
+  "review": "complete_body_candidate_review.png",
+  "notes": [
+    "Frozen source outside effective local masks remains byte-identical RGBA",
+    "High-resolution source edges retained; no whole-character repaint accepted"
+  ],
+  "local_cleanup_evidence": "body_local_alpha_fix.json"
+}
