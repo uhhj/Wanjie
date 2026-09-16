@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "body_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "candidate_hashes": {
+    "torso": "d79fca982b1b4621da2932a239aa39b051dff4e596b3d3a76b426276598285c0",
+    "pelvis": "ecd48fc595de95c93637172d5657bc46ef57a80aee63342a2def12af787e9f03",
+    "head": "200e2bbd993d26fea51ecb83c86fc597758589edd023d81e4f6fd98630c77231",
+    "leg_far_thigh": "5d9784d1bfe63fc9f731b64faf3fb181bf5b30dbf6ec7b84214c20a528af9736",
+    "leg_near_thigh": "47e1cbd73d8788f03ef15160784c86d1c13bd8197cdceec1dd8cd23bd773c4e8",
+    "leg_far_shin": "275c7b909cea73d59c97afe9a79eb3e797a4fe9b4bbcce3c4e5929058fc352f1",
+    "leg_near_shin": "158ed0184070d24f93a124c1721a6570e30b58556dcd5f943c27abe9a8aa1841",
+    "foot_far": "9ec59e321d2b723a6ae213685d89e684dda7347f582ccacc569fc9660a5bdbcc",
+    "foot_near": "2568e3447400b8d8ab4bce116e34871c7d027bd9abfbce7e6c58516b602cfa25",
+    "arm_far_upper": "77f7e2ae9eb043b12e467a666ce3a82198218f7ffc39b3de5622443bd5f4df22",
+    "arm_far_fore": "7dcb2d2dffb78bc3709966ab15791faf8656f2639b7497cae87a7d8ecf0f8a0b",
+    "hand_far": "f4e4bbb544a208b45ae6a49a547b8c54df7d16174d83cc888b30c8b2bd2751f0",
+    "arm_near_upper": "443248a5f1b5280d48516ead0e15411fa234d15df6e6d302e97a5740faa273da",
+    "arm_near_fore": "242ea91ba2ccde5406ea9d7a724c7967f509ee92c66d68584f43b221cc7d058a",
+    "hand_near": "c7fc8951f84d92f34ac739b95e7b37bc9faa6a2d2e7c44bad92282d018172646",
+    "helmet": "298b31c71a93401dbf741c03841ffc45ad32a2823f196b1204549dc6f6a8541b",
+    "knee_near": "387b2977c835cc89992e8382ae7c7af7a6527cf861d10af4b58838857b6055d6",
+    "knee_far": "89fe969fd57c9a8e50f5f46c523258d56bcbfd6efae62c50d46018b0f4265442",
+    "sword": "33f36e79c8b60a2065a9cf82ca0b9645a7a940509e2953d49cc2b52047fad7a1",
+    "cape": "f7658ae1383dcbbe0cbbdaa202cb2ae0288f664cde26944343fe3e7e2076c00c",
+    "cape_front": "5d68c8165b37cbf20cb340d4a7ead318bc1782a0f009df0f8eae5fd36ad25e7b"
+  },
+  "reviewer": "primary agent",
+  "scope": "Source-pixel preservation, bounded joint and equipment tests, 256/192 combat recomposition; native motion is a separate gate"
+}

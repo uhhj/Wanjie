@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "input_file": "work/roman_centurion/leg_hidden_edit_input.png",
+  "input_sha256": "14ba381bbab0b10e300ab89522995f81be187453bfe0de360fd29b52e6fd524b",
+  "prompt_file": "work/roman_centurion/prompts/006_hidden_legs.txt",
+  "prompt": "Precise local occlusion completion for a 2D rig. This crop contains the approved centurion lower body. Keep the exact pose, leg lengths, two existing greaves, ankles, existing skin and their relative positions unchanged. Remove ONLY the skirt cloth/strips across the TOP of this crop, revealing the continuous bare upper thighs directly underneath; extend each thigh upward to the top crop edge in the same anatomical direction, without merging the two thighs. Also remove ONLY the two round gold lion-face knee plates, revealing simple underlying natural knee skin and continuation of the EXISTING greave upper rim. Do NOT add new armor, straps, knee ornaments, skirt or clothing. No new kneepads. No repositioning, no pose change, no proportion change, no whole-character output. Background solid neutral grey #808080. Preserve all other crop pixels as closely as possible. Only the previously hidden upper-thigh and kneecap regions are needed, not a redesign.\n",
+  "output_file": "work/roman_centurion/raw/006_hidden_legs.png",
+  "output_sha256": "e2ffdc115547c60b5678f94f79604570d873281577ff07c81d0ac22958fc6a1e",
+  "status": "LOCAL_PIXELS_USED_ONLY",
+  "recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+  "notes": "Raw generator outputs are not formal parts. Deterministic masks preserve visible source pixels. Job 007 retained a gold pommel and was superseded by job 008.",
+  "timestamp": "2026-09-15T13:37:52.964637+00:00"
+}

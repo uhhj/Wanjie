@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "input_file": "work/roman_centurion/sword_grip_edit_input.png",
+  "input_sha256": "031f57d84fd84734f6e0126642c1ff7bce2ddc035adddcb9cfdbced572ba6b57",
+  "prompt_file": "work/roman_centurion/prompts/005_sword_grip.txt",
+  "prompt": "Local missing-grip completion only. This image is a frozen Roman centurion sword extraction on flat grey. Keep the original pommel at upper left and the exact original gold crossguard and silver blade at lower right, their position, scale, angle, shape, colours and painting style unchanged. Complete ONLY the missing brown leather-wrapped straight grip that connects the pommel to the center of the crossguard along the same sword axis. The grip should be a simple dark brown leather handle, no new ornaments, no hand, no arm, no character. Remove the stray red/skin/armor fragments attached along the OUTSIDE of the lower-left blade edge; do not alter any silver blade pixels. Single complete sword in precisely the same placement as input. True transparent RGBA background, no checkerboard. No redesign. No new sword. This is a missing-piece repair, not a repaint.\n",
+  "output_file": "work/roman_centurion/raw/005_sword_grip.png",
+  "output_sha256": "b2749db31919086217b607b8713316800ce337770af84b7b7d1a82e1aab0428d",
+  "status": "LOCAL_PIXELS_USED_ONLY",
+  "recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+  "notes": "Raw generator outputs are not formal parts. Deterministic masks preserve visible source pixels. Job 007 retained a gold pommel and was superseded by job 008.",
+  "timestamp": "2026-09-15T13:37:52.950627+00:00"
+}

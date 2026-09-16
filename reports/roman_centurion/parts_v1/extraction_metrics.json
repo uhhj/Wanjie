@@ -1,0 +1,12 @@
+{
+  "candidate_count": 21,
+  "formal_approved_count": 0,
+  "body_source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "unassigned_visible_pixels": 0,
+  "body_rest_max_rgba_difference": 128,
+  "body_rest_changed_pixels": 20169,
+  "format": "RGBA_SAME_CANVAS",
+  "review": "PENDING",
+  "sword_hidden_grip": "NOT_COMPLETED",
+  "godot_handoff": "NOT_READY"
+}

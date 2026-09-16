@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "input_file": "work/roman_centurion/cape_hidden_edit_input.png",
+  "input_sha256": "5312dd8bce69b4bb0561807a6117d3d97840181e97d3c69acb2a0ee75d70cfc1",
+  "prompt_file": "work/roman_centurion/prompts/007_hidden_cape.txt",
+  "prompt": "Complete ONLY the hidden cut-out region of this existing dark red Roman centurion cape. This is an extracted cape fragment, its large upper-right indentation was occluded by the character's arm, hand and body. Fill that indentation with continuous dark red cloth folds matching the existing visible cape. Also remove the tiny gold sword-pommel fragment on its right edge and replace it with the same dark red cloth. The hidden upper-right region should continue upward behind the shoulder and rightward behind the torso, forming a continuous hanging cape. Keep the existing bottom silhouette, existing torn hem, all visible gold laurel/eagle pattern, existing red colours and painting style EXACTLY as supplied. Do not invent new emblems, decorations or clasps. No person, no hand, no weapon. Do not move, rescale or rotate the cape. Same crop composition. Grey background #808080. Only complete occluded fabric; do not redesign or redraw the visible cape.\n",
+  "output_file": "work/roman_centurion/raw/007_hidden_cape.png",
+  "output_sha256": "78b017beb61cc13a634a28159f89a1360c47fca560562a44de1d2d4c443231ec",
+  "status": "REJECTED_AS_FULL_ASSET",
+  "recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+  "notes": "Raw generator outputs are not formal parts. Deterministic masks preserve visible source pixels. Job 007 retained a gold pommel and was superseded by job 008.",
+  "timestamp": "2026-09-15T13:37:52.992165+00:00"
+}

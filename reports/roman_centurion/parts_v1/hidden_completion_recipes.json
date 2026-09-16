@@ -1,0 +1,79 @@
+{
+  "tool": "built-in image_gen",
+  "timestamp": "2026-09-15T13:22:11.412249+00:00",
+  "source_body_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "recipes": [
+    {
+      "part": "sword",
+      "output_file": "work/roman_centurion/candidates/parts/sword.png",
+      "output_sha256": "33f36e79c8b60a2065a9cf82ca0b9645a7a940509e2953d49cc2b52047fad7a1",
+      "mask": "work/roman_centurion/masks/parts_completion/sword.png",
+      "mask_sha256": "0cabb6c3b1be8c7c554f207627328b08edca3eb5a43fde0d618735894faec744",
+      "raw": "work/roman_centurion/raw/005_sword_grip.png",
+      "raw_sha256": "b2749db31919086217b607b8713316800ce337770af84b7b7d1a82e1aab0428d",
+      "protected_visible_rgb_changed": 0,
+      "trimmed_non_sword_pixels": 2987
+    },
+    {
+      "part": "leg_near_thigh",
+      "output_file": "work/roman_centurion/candidates/parts/leg_near_thigh.png",
+      "output_sha256": "47e1cbd73d8788f03ef15160784c86d1c13bd8197cdceec1dd8cd23bd773c4e8",
+      "mask": "work/roman_centurion/masks/parts_completion/leg_near_thigh.png",
+      "mask_sha256": "1a965a9a0bb6cbe2bb067d089374525b3fbb105c487b8f9da51fa90b10e90306",
+      "raw": "work/roman_centurion/raw/006_hidden_legs.png",
+      "raw_sha256": "e2ffdc115547c60b5678f94f79604570d873281577ff07c81d0ac22958fc6a1e",
+      "protected_visible_rgb_changed": 0
+    },
+    {
+      "part": "leg_far_thigh",
+      "output_file": "work/roman_centurion/candidates/parts/leg_far_thigh.png",
+      "output_sha256": "5d9784d1bfe63fc9f731b64faf3fb181bf5b30dbf6ec7b84214c20a528af9736",
+      "mask": "work/roman_centurion/masks/parts_completion/leg_far_thigh.png",
+      "mask_sha256": "3a2c5a2126042c43084acdf036d79ccb6b64eb1338d442a42389040744dd5b9c",
+      "raw": "work/roman_centurion/raw/006_hidden_legs.png",
+      "raw_sha256": "e2ffdc115547c60b5678f94f79604570d873281577ff07c81d0ac22958fc6a1e",
+      "protected_visible_rgb_changed": 0
+    },
+    {
+      "part": "leg_near_shin",
+      "output_file": "work/roman_centurion/candidates/parts/leg_near_shin.png",
+      "output_sha256": "158ed0184070d24f93a124c1721a6570e30b58556dcd5f943c27abe9a8aa1841",
+      "mask": "work/roman_centurion/masks/parts_completion/leg_near_shin.png",
+      "mask_sha256": "08ae06be3c7e2e05f21eb74cadae070275a12b12d972ffa8b4d46a7e2e7a84b9",
+      "raw": "work/roman_centurion/raw/006_hidden_legs.png",
+      "raw_sha256": "e2ffdc115547c60b5678f94f79604570d873281577ff07c81d0ac22958fc6a1e",
+      "protected_visible_rgb_changed": 0
+    },
+    {
+      "part": "leg_far_shin",
+      "output_file": "work/roman_centurion/candidates/parts/leg_far_shin.png",
+      "output_sha256": "275c7b909cea73d59c97afe9a79eb3e797a4fe9b4bbcce3c4e5929058fc352f1",
+      "mask": "work/roman_centurion/masks/parts_completion/leg_far_shin.png",
+      "mask_sha256": "4450ae3be7acd6b76afbbf3466abb65675f2a1c81f1ae189c8e556c0f0bb42ab",
+      "raw": "work/roman_centurion/raw/006_hidden_legs.png",
+      "raw_sha256": "e2ffdc115547c60b5678f94f79604570d873281577ff07c81d0ac22958fc6a1e",
+      "protected_visible_rgb_changed": 0
+    },
+    {
+      "part": "cape",
+      "output_file": "work/roman_centurion/candidates/parts/cape.png",
+      "output_sha256": "f7658ae1383dcbbe0cbbdaa202cb2ae0288f664cde26944343fe3e7e2076c00c",
+      "mask": "work/roman_centurion/masks/parts_completion/cape.png",
+      "mask_sha256": "cc9da83b41a793905e1b0f2440bc6788a56ef55510bd2509728373c7a7b73f09",
+      "raw": "work/roman_centurion/raw/008_hidden_torso_cape.png",
+      "raw_sha256": "f5786220a19f05f39b2fadda969b5e85a7ab595c7e62a0228d220b1dc19617c0",
+      "protected_visible_rgb_changed": 0
+    },
+    {
+      "part": "torso",
+      "output_file": "work/roman_centurion/candidates/parts/torso.png",
+      "output_sha256": "d79fca982b1b4621da2932a239aa39b051dff4e596b3d3a76b426276598285c0",
+      "mask": "work/roman_centurion/masks/parts_completion/torso.png",
+      "mask_sha256": "310308c26ae3c219a135495516ded33176e9677ce1b98d2e4fa7d09288005eff",
+      "raw": "work/roman_centurion/raw/008_hidden_torso_cape.png",
+      "raw_sha256": "f5786220a19f05f39b2fadda969b5e85a7ab595c7e62a0228d220b1dc19617c0",
+      "protected_visible_rgb_changed": 0
+    }
+  ],
+  "review_required": true
+}

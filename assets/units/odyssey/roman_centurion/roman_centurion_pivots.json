@@ -1,0 +1,117 @@
+{
+  "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "pivots": {
+    "pelvis": [
+      605,
+      690
+    ],
+    "torso": [
+      605,
+      670
+    ],
+    "head": [
+      589,
+      386
+    ],
+    "helmet": [
+      589,
+      386
+    ],
+    "arm_near_upper": [
+      450,
+      501
+    ],
+    "arm_near_fore": [
+      367,
+      687
+    ],
+    "hand_near": [
+      350,
+      815
+    ],
+    "arm_far_upper": [
+      729,
+      555
+    ],
+    "arm_far_fore": [
+      789,
+      652
+    ],
+    "hand_far": [
+      908,
+      615
+    ],
+    "leg_near_thigh": [
+      494,
+      941
+    ],
+    "knee_near": [
+      489,
+      1109
+    ],
+    "leg_near_shin": [
+      489,
+      1109
+    ],
+    "foot_near": [
+      442,
+      1350
+    ],
+    "leg_far_thigh": [
+      691,
+      974
+    ],
+    "knee_far": [
+      728,
+      1112
+    ],
+    "leg_far_shin": [
+      728,
+      1112
+    ],
+    "foot_far": [
+      713,
+      1355
+    ],
+    "sword": [
+      351,
+      857
+    ],
+    "cape": [
+      570,
+      423
+    ],
+    "cape_front": [
+      570,
+      423
+    ]
+  },
+  "independent_knee_plates": true,
+  "draw_order": [
+    "cape",
+    "arm_far_upper",
+    "arm_far_fore",
+    "hand_far",
+    "leg_far_thigh",
+    "leg_far_shin",
+    "foot_far",
+    "knee_far",
+    "leg_near_thigh",
+    "leg_near_shin",
+    "foot_near",
+    "knee_near",
+    "pelvis",
+    "torso",
+    "head",
+    "helmet",
+    "arm_near_upper",
+    "cape_front",
+    "arm_near_fore",
+    "sword",
+    "hand_near"
+  ]
+}

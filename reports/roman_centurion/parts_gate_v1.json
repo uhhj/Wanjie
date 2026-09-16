@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "part_count": 21,
+  "parts": [
+    {
+      "name": "torso",
+      "sha256": "d79fca982b1b4621da2932a239aa39b051dff4e596b3d3a76b426276598285c0",
+      "bbox": [
+        105,
+        35,
+        772,
+        693
+      ]
+    },
+    {
+      "name": "pelvis",
+      "sha256": "ecd48fc595de95c93637172d5657bc46ef57a80aee63342a2def12af787e9f03",
+      "bbox": [
+        391,
+        666,
+        1012,
+        1044
+      ]
+    },
+    {
+      "name": "head",
+      "sha256": "200e2bbd993d26fea51ecb83c86fc597758589edd023d81e4f6fd98630c77231",
+      "bbox": [
+        514,
+        274,
+        686,
+        415
+      ]
+    },
+    {
+      "name": "leg_far_thigh",
+      "sha256": "5d9784d1bfe63fc9f731b64faf3fb181bf5b30dbf6ec7b84214c20a528af9736",
+      "bbox": [
+        609,
+        929,
+        773,
+        1143
+      ]
+    },
+    {
+      "name": "leg_near_thigh",
+      "sha256": "47e1cbd73d8788f03ef15160784c86d1c13bd8197cdceec1dd8cd23bd773c4e8",
+      "bbox": [
+        389,
+        889,
+        576,
+        1161
+      ]
+    },
+    {
+      "name": "leg_far_shin",
+      "sha256": "275c7b909cea73d59c97afe9a79eb3e797a4fe9b4bbcce3c4e5929058fc352f1",
+      "bbox": [
+        622,
+        1049,
+        972,
+        1341
+      ]
+    },
+    {
+      "name": "leg_near_shin",
+      "sha256": "158ed0184070d24f93a124c1721a6570e30b58556dcd5f943c27abe9a8aa1841",
+      "bbox": [
+        81,
+        1047,
+        552,
+        1371
+      ]
+    },
+    {
+      "name": "foot_far",
+      "sha256": "9ec59e321d2b723a6ae213685d89e684dda7347f582ccacc569fc9660a5bdbcc",
+      "bbox": [
+        613,
+        1334,
+        1008,
+        1516
+      ]
+    },
+    {
+      "name": "foot_near",
+      "sha256": "2568e3447400b8d8ab4bce116e34871c7d027bd9abfbce7e6c58516b602cfa25",
+      "bbox": [
+        65,
+        1329,
+        542,
+        1518
+      ]
+    },
+    {
+      "name": "arm_far_upper",
+      "sha256": "77f7e2ae9eb043b12e467a666ce3a82198218f7ffc39b3de5622443bd5f4df22",
+      "bbox": [
+        686,
+        185,
+        968,
+        704
+      ]
+    },
+    {
+      "name": "arm_far_fore",
+      "sha256": "7dcb2d2dffb78bc3709966ab15791faf8656f2639b7497cae87a7d8ecf0f8a0b",
+      "bbox": [
+        737,
+        579,
+        922,
+        704
+      ]
+    },
+    {
+      "name": "hand_far",
+      "sha256": "f4e4bbb544a208b45ae6a49a547b8c54df7d16174d83cc888b30c8b2bd2751f0",
+      "bbox": [
+        889,
+        530,
+        1010,
+        650
+      ]
+    },
+    {
+      "name": "arm_near_upper",
+      "sha256": "443248a5f1b5280d48516ead0e15411fa234d15df6e6d302e97a5740faa273da",
+      "bbox": [
+        326,
+        425,
+        513,
+        720
+      ]
+    },
+    {
+      "name": "arm_near_fore",
+      "sha256": "242ea91ba2ccde5406ea9d7a724c7967f509ee92c66d68584f43b221cc7d058a",
+      "bbox": [
+        316,
+        660,
+        425,
+        840
+      ]
+    },
+    {
+      "name": "hand_near",
+      "sha256": "c7fc8951f84d92f34ac739b95e7b37bc9faa6a2d2e7c44bad92282d018172646",
+      "bbox": [
+        301,
+        802,
+        408,
+        914
+      ]
+    },
+    {
+      "name": "helmet",
+      "sha256": "298b31c71a93401dbf741c03841ffc45ad32a2823f196b1204549dc6f6a8541b",
+      "bbox": [
+        393,
+        50,
+        768,
+        414
+      ]
+    },
+    {
+      "name": "knee_near",
+      "sha256": "387b2977c835cc89992e8382ae7c7af7a6527cf861d10af4b58838857b6055d6",
+      "bbox": [
+        448,
+        1047,
+        538,
+        1162
+      ]
+    },
+    {
+      "name": "knee_far",
+      "sha256": "89fe969fd57c9a8e50f5f46c523258d56bcbfd6efae62c50d46018b0f4265442",
+      "bbox": [
+        695,
+        1049,
+        776,
+        1158
+      ]
+    },
+    {
+      "name": "sword",
+      "sha256": "33f36e79c8b60a2065a9cf82ca0b9645a7a940509e2953d49cc2b52047fad7a1",
+      "bbox": [
+        267,
+        810,
+        610,
+        1128
+      ]
+    },
+    {
+      "name": "cape",
+      "sha256": "f7658ae1383dcbbe0cbbdaa202cb2ae0288f664cde26944343fe3e7e2076c00c",
+      "bbox": [
+        55,
+        429,
+        508,
+        1234
+      ]
+    },
+    {
+      "name": "cape_front",
+      "sha256": "5d68c8165b37cbf20cb340d4a7ead318bc1782a0f009df0f8eae5fd36ad25e7b",
+      "bbox": [
+        351,
+        348,
+        779,
+        543
+      ]
+    }
+  ],
+  "body_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "review_method": "Agent visual review at 256/192 px plus format/provenance checks; not user approval",
+  "reports": {
+    "reports/roman_centurion/parts_v1/completed_recomposition_256.png": "ebc29670a63827b965c33ea6a588243b9bb47bb8447b734bdc310aa4adb94834",
+    "reports/roman_centurion/parts_v1/completed_recomposition_192.png": "8e2886a51852de40055b110317061cf74534b02984f5845d3acb58c7ebdbec76",
+    "reports/roman_centurion/parts_v1/completed_joint_256.png": "09d1f6b49bbace9bcbb56ce1481a3024eee966c518330fc17eb860050e19c743",
+    "reports/roman_centurion/parts_v1/completed_joint_192.png": "c29df4bfbadc8ab6c09867328836ac9679057d8efc9e4b39e1e6a391cb0c1de5",
+    "reports/roman_centurion/parts_v1/equipment_motion_256.png": "b1d8c021273a0f6d0d7c63bfca483e1303356a1432d25c5e31e58a6b525a4640",
+    "reports/roman_centurion/parts_v1/sword_close_review.png": "abba21cbfa634993c7210ab6e1b8d0208abdcbe456d9396231a260fb54e0d177",
+    "reports/roman_centurion/parts_v1/shoulder_motion_256.png": "11e3e675750f1fdf7f6844338ac8ef76f9294b9523ef63c87dffa924ad2fb4e2",
+    "reports/roman_centurion/parts_v1/hip_motion_256.png": "5f1940be339fcc3094fc0304767361a813e3e2c09b4b1081f95d04c66c0ba9cd"
+  },
+  "recomposition": "PASS_COMBAT_SCALE",
+  "elbows_knees": "PASS_PLUS_MINUS_20",
+  "equipment": "PASS",
+  "scope": "Rest and bounded articulation. Six full native animations require separate validation.",
+  "non_blocking": [
+    "Independent cape_front layer makes 21 parts rather than initial 20 estimate",
+    "Original high-resolution edge artifacts remain non-blocking"
+  ],
+  "timestamp": "2026-09-15T13:37:52.935629+00:00"
+}

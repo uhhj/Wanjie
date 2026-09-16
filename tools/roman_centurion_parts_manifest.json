@@ -1,0 +1,417 @@
+{
+  "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
+  "canvas_width": 1024,
+  "canvas_height": 1536,
+  "alpha_required": true,
+  "parts": [
+    {
+      "name": "torso",
+      "file": "assets/units/odyssey/roman_centurion/parts/torso.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/torso.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/torso.png",
+      "mask_sha256": "567f55a89536216e37ef786048b7a35df07114ef5bf75f954eb479c868f4486f",
+      "candidate_sha256": "d79fca982b1b4621da2932a239aa39b051dff4e596b3d3a76b426276598285c0",
+      "pivot_hint": [
+        605,
+        670
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "d79fca982b1b4621da2932a239aa39b051dff4e596b3d3a76b426276598285c0"
+    },
+    {
+      "name": "pelvis",
+      "file": "assets/units/odyssey/roman_centurion/parts/pelvis.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/pelvis.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/pelvis.png",
+      "mask_sha256": "36dbd5af90915570a1c45c8b9609e1f2270196a6b332055460fd18bd24590398",
+      "candidate_sha256": "ecd48fc595de95c93637172d5657bc46ef57a80aee63342a2def12af787e9f03",
+      "pivot_hint": [
+        605,
+        690
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "ecd48fc595de95c93637172d5657bc46ef57a80aee63342a2def12af787e9f03"
+    },
+    {
+      "name": "head",
+      "file": "assets/units/odyssey/roman_centurion/parts/head.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/head.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/head.png",
+      "mask_sha256": "00e3f3edc11fa813752a8783d9b0c88e92543a175ff7a78234d377797eebc354",
+      "candidate_sha256": "200e2bbd993d26fea51ecb83c86fc597758589edd023d81e4f6fd98630c77231",
+      "pivot_hint": [
+        589,
+        386
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "200e2bbd993d26fea51ecb83c86fc597758589edd023d81e4f6fd98630c77231"
+    },
+    {
+      "name": "leg_far_thigh",
+      "file": "assets/units/odyssey/roman_centurion/parts/leg_far_thigh.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/leg_far_thigh.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/leg_far_thigh.png",
+      "mask_sha256": "795b8ca379411f3ba85ac163287e45d08bda9cea6395c9ca88df5c16b7fb1ea0",
+      "candidate_sha256": "5d9784d1bfe63fc9f731b64faf3fb181bf5b30dbf6ec7b84214c20a528af9736",
+      "pivot_hint": [
+        691,
+        974
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "5d9784d1bfe63fc9f731b64faf3fb181bf5b30dbf6ec7b84214c20a528af9736"
+    },
+    {
+      "name": "leg_near_thigh",
+      "file": "assets/units/odyssey/roman_centurion/parts/leg_near_thigh.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/leg_near_thigh.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/leg_near_thigh.png",
+      "mask_sha256": "e4c8d6c757091a4bea174b1825093777f74aca0722d6b9144725e075a94bb1a4",
+      "candidate_sha256": "47e1cbd73d8788f03ef15160784c86d1c13bd8197cdceec1dd8cd23bd773c4e8",
+      "pivot_hint": [
+        494,
+        941
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "47e1cbd73d8788f03ef15160784c86d1c13bd8197cdceec1dd8cd23bd773c4e8"
+    },
+    {
+      "name": "leg_far_shin",
+      "file": "assets/units/odyssey/roman_centurion/parts/leg_far_shin.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/leg_far_shin.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/leg_far_shin.png",
+      "mask_sha256": "c4a0bf20e0e4d9d2ff9961ab257d7b7da205259130d4ce2018fc8a9d5b97d634",
+      "candidate_sha256": "275c7b909cea73d59c97afe9a79eb3e797a4fe9b4bbcce3c4e5929058fc352f1",
+      "pivot_hint": [
+        728,
+        1112
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "275c7b909cea73d59c97afe9a79eb3e797a4fe9b4bbcce3c4e5929058fc352f1"
+    },
+    {
+      "name": "leg_near_shin",
+      "file": "assets/units/odyssey/roman_centurion/parts/leg_near_shin.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/leg_near_shin.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/leg_near_shin.png",
+      "mask_sha256": "9783ee4b3c7aa0c0812629d4258e74cfbdc5c9a3ae42f4e3118e910c011565bc",
+      "candidate_sha256": "158ed0184070d24f93a124c1721a6570e30b58556dcd5f943c27abe9a8aa1841",
+      "pivot_hint": [
+        489,
+        1109
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "158ed0184070d24f93a124c1721a6570e30b58556dcd5f943c27abe9a8aa1841"
+    },
+    {
+      "name": "foot_far",
+      "file": "assets/units/odyssey/roman_centurion/parts/foot_far.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/foot_far.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/foot_far.png",
+      "mask_sha256": "e8684af01ca510fec7f3df0783c433c24bcd94b77175e53728f04dc1989040a1",
+      "candidate_sha256": "9ec59e321d2b723a6ae213685d89e684dda7347f582ccacc569fc9660a5bdbcc",
+      "pivot_hint": [
+        713,
+        1355
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "9ec59e321d2b723a6ae213685d89e684dda7347f582ccacc569fc9660a5bdbcc"
+    },
+    {
+      "name": "foot_near",
+      "file": "assets/units/odyssey/roman_centurion/parts/foot_near.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/foot_near.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/foot_near.png",
+      "mask_sha256": "d2bf3862c07fcb93ed0a4dcf52b78ddd269602763b19503ec39587e1d40dfeef",
+      "candidate_sha256": "2568e3447400b8d8ab4bce116e34871c7d027bd9abfbce7e6c58516b602cfa25",
+      "pivot_hint": [
+        442,
+        1350
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "2568e3447400b8d8ab4bce116e34871c7d027bd9abfbce7e6c58516b602cfa25"
+    },
+    {
+      "name": "arm_far_upper",
+      "file": "assets/units/odyssey/roman_centurion/parts/arm_far_upper.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/arm_far_upper.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/arm_far_upper.png",
+      "mask_sha256": "20f6b2c6f71daed2ffc664313b282f91ef3120a950f9710eb8492a42924bc9ea",
+      "candidate_sha256": "77f7e2ae9eb043b12e467a666ce3a82198218f7ffc39b3de5622443bd5f4df22",
+      "pivot_hint": [
+        729,
+        555
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "77f7e2ae9eb043b12e467a666ce3a82198218f7ffc39b3de5622443bd5f4df22"
+    },
+    {
+      "name": "arm_far_fore",
+      "file": "assets/units/odyssey/roman_centurion/parts/arm_far_fore.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/arm_far_fore.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/arm_far_fore.png",
+      "mask_sha256": "daa55f9b50f1b72bafed7a1ee7353e4a06177ad6db844c0aaa55797814d3a15b",
+      "candidate_sha256": "7dcb2d2dffb78bc3709966ab15791faf8656f2639b7497cae87a7d8ecf0f8a0b",
+      "pivot_hint": [
+        789,
+        652
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "7dcb2d2dffb78bc3709966ab15791faf8656f2639b7497cae87a7d8ecf0f8a0b"
+    },
+    {
+      "name": "hand_far",
+      "file": "assets/units/odyssey/roman_centurion/parts/hand_far.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/hand_far.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/hand_far.png",
+      "mask_sha256": "9d40d0cfa501f09f6b59eb43c7828dca804b9a8d10b0da771d301078dd565409",
+      "candidate_sha256": "f4e4bbb544a208b45ae6a49a547b8c54df7d16174d83cc888b30c8b2bd2751f0",
+      "pivot_hint": [
+        908,
+        615
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "f4e4bbb544a208b45ae6a49a547b8c54df7d16174d83cc888b30c8b2bd2751f0"
+    },
+    {
+      "name": "arm_near_upper",
+      "file": "assets/units/odyssey/roman_centurion/parts/arm_near_upper.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/arm_near_upper.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/arm_near_upper.png",
+      "mask_sha256": "1d5e30a7f17c887fd98baaad9a75018a955c0cee497d8acd29b3b82ebbb470f4",
+      "candidate_sha256": "443248a5f1b5280d48516ead0e15411fa234d15df6e6d302e97a5740faa273da",
+      "pivot_hint": [
+        450,
+        501
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "443248a5f1b5280d48516ead0e15411fa234d15df6e6d302e97a5740faa273da"
+    },
+    {
+      "name": "arm_near_fore",
+      "file": "assets/units/odyssey/roman_centurion/parts/arm_near_fore.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/arm_near_fore.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/arm_near_fore.png",
+      "mask_sha256": "2a7334237ed583395ec6605734d3d1e3cc5e6d0d7f0290691b34999df05a7d42",
+      "candidate_sha256": "242ea91ba2ccde5406ea9d7a724c7967f509ee92c66d68584f43b221cc7d058a",
+      "pivot_hint": [
+        367,
+        687
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "242ea91ba2ccde5406ea9d7a724c7967f509ee92c66d68584f43b221cc7d058a"
+    },
+    {
+      "name": "hand_near",
+      "file": "assets/units/odyssey/roman_centurion/parts/hand_near.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/hand_near.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/hand_near.png",
+      "mask_sha256": "7ea1c8fcc76b479e8dc467592137fa3bd3b79497a6b2d1aa7699dc32ff97b8ca",
+      "candidate_sha256": "c7fc8951f84d92f34ac739b95e7b37bc9faa6a2d2e7c44bad92282d018172646",
+      "pivot_hint": [
+        350,
+        815
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "c7fc8951f84d92f34ac739b95e7b37bc9faa6a2d2e7c44bad92282d018172646"
+    },
+    {
+      "name": "helmet",
+      "file": "assets/units/odyssey/roman_centurion/parts/helmet.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/helmet.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/helmet.png",
+      "mask_sha256": "56cde7d8263b9e1201576be0b8829b89fbefae8e9f6511893b7db4c62939fd1f",
+      "candidate_sha256": "298b31c71a93401dbf741c03841ffc45ad32a2823f196b1204549dc6f6a8541b",
+      "pivot_hint": [
+        589,
+        386
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "298b31c71a93401dbf741c03841ffc45ad32a2823f196b1204549dc6f6a8541b"
+    },
+    {
+      "name": "knee_near",
+      "file": "assets/units/odyssey/roman_centurion/parts/knee_near.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/knee_near.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/knee_near.png",
+      "mask_sha256": "08ae06be3c7e2e05f21eb74cadae070275a12b12d972ffa8b4d46a7e2e7a84b9",
+      "candidate_sha256": "387b2977c835cc89992e8382ae7c7af7a6527cf861d10af4b58838857b6055d6",
+      "pivot_hint": [
+        489,
+        1109
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "387b2977c835cc89992e8382ae7c7af7a6527cf861d10af4b58838857b6055d6"
+    },
+    {
+      "name": "knee_far",
+      "file": "assets/units/odyssey/roman_centurion/parts/knee_far.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/knee_far.png",
+      "source": "work/roman_centurion/03_complete_body_v2.png",
+      "source_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+      "mask": "work/roman_centurion/masks/parts/knee_far.png",
+      "mask_sha256": "9371752733516396efde68a7ce9bdded212aee657ff70afab61c8cf87d981c20",
+      "candidate_sha256": "89fe969fd57c9a8e50f5f46c523258d56bcbfd6efae62c50d46018b0f4265442",
+      "pivot_hint": [
+        728,
+        1112
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "sha256": "89fe969fd57c9a8e50f5f46c523258d56bcbfd6efae62c50d46018b0f4265442"
+    },
+    {
+      "name": "sword",
+      "file": "assets/units/odyssey/roman_centurion/parts/sword.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/sword.png",
+      "source": "work/roman_centurion/00_master_rgba.png",
+      "source_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+      "mask": "work/roman_centurion/masks/parts/sword.png",
+      "mask_sha256": "0910fbf92c1e6faaf9a372dbc7e8e2cbf8aed9b25014166e80b9a775bddaa2b5",
+      "candidate_sha256": "33f36e79c8b60a2065a9cf82ca0b9645a7a940509e2953d49cc2b52047fad7a1",
+      "pivot_hint": [
+        351,
+        857
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "33f36e79c8b60a2065a9cf82ca0b9645a7a940509e2953d49cc2b52047fad7a1"
+    },
+    {
+      "name": "cape",
+      "file": "assets/units/odyssey/roman_centurion/parts/cape.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/cape.png",
+      "source": "work/roman_centurion/00_master_rgba.png",
+      "source_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+      "mask": "work/roman_centurion/masks/parts/cape.png",
+      "mask_sha256": "19fcba6d2536d00b907493b260b40ce2417542ba6c23b55731cd1529fe62bbac",
+      "candidate_sha256": "f7658ae1383dcbbe0cbbdaa202cb2ae0288f664cde26944343fe3e7e2076c00c",
+      "pivot_hint": [
+        570,
+        423
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": true,
+      "completion_recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+      "sha256": "f7658ae1383dcbbe0cbbdaa202cb2ae0288f664cde26944343fe3e7e2076c00c"
+    },
+    {
+      "name": "cape_front",
+      "file": "assets/units/odyssey/roman_centurion/parts/cape_front.png",
+      "candidate_file": "work/roman_centurion/candidates/parts/cape_front.png",
+      "source": "work/roman_centurion/00_master_rgba.png",
+      "source_sha256": "185fbbd45bf7d91bc7b02a46026ba67d221644fd5c4fa83c2c6b49bcdea81a4d",
+      "mask": "work/roman_centurion/masks/parts/cape_front.png",
+      "mask_sha256": "f6ded455a539aea4edd0b677feafb19c11d96aae7db2cbff12a2050c56031af5",
+      "candidate_sha256": "5d68c8165b37cbf20cb340d4a7ead318bc1782a0f009df0f8eae5fd36ad25e7b",
+      "pivot_hint": [
+        570,
+        423
+      ],
+      "status": "PASS",
+      "review_required": false,
+      "ai_completed": false,
+      "sha256": "5d68c8165b37cbf20cb340d4a7ead318bc1782a0f009df0f8eae5fd36ad25e7b"
+    }
+  ],
+  "draw_order": [
+    "cape",
+    "arm_far_upper",
+    "arm_far_fore",
+    "hand_far",
+    "leg_far_thigh",
+    "leg_far_shin",
+    "foot_far",
+    "knee_far",
+    "leg_near_thigh",
+    "leg_near_shin",
+    "foot_near",
+    "knee_near",
+    "pelvis",
+    "torso",
+    "head",
+    "helmet",
+    "arm_near_upper",
+    "cape_front",
+    "arm_near_fore",
+    "sword",
+    "hand_near"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "input_file": "work/roman_centurion/torso_hidden_edit_input.png",
+  "input_sha256": "8d16518b60e08a702a38de8c39dba2f57aa6fe80be0a29a307c5312bc3d904d2",
+  "prompt_file": "work/roman_centurion/prompts/008_hidden_torso_cape.txt",
+  "prompt": "This is a cropped frozen Roman centurion torso with cape. Create a local hidden-layer repair: remove ONLY the near-side entire arm including its shoulder pauldron, upper arm, bracer, hand and all sword/pommel pieces. Complete the chest side behind the removed shoulder by extending exactly the existing iron-grey horizontal cuirass. Complete the dark red cape fabric behind the removed arm/forearm/hand so it hangs continuously from the same shoulder attachment toward the bottom left. Do not leave a grey or transparent arm-shaped indentation inside the cape. No new armor, straps, ornaments, buckles or decorations. Preserve the red cape neck wrap, gold lion clasp and existing gold cape pattern. Preserve the torso, skirt and far-side arm exactly. Keep the same crop dimensions, scale, pose and coordinates. The cape left outer boundary stays at its existing crop edge, hidden red cape may fill the area previously occupied by the removed near arm. Grey #808080 outside the figure. Output only this crop, no head or full character. This is hidden occluded torso/cape completion, not redesign.\n",
+  "output_file": "work/roman_centurion/raw/008_hidden_torso_cape.png",
+  "output_sha256": "f5786220a19f05f39b2fadda969b5e85a7ab595c7e62a0228d220b1dc19617c0",
+  "status": "LOCAL_PIXELS_USED_ONLY",
+  "recipe": "reports/roman_centurion/parts_v1/hidden_completion_recipes.json",
+  "notes": "Raw generator outputs are not formal parts. Deterministic masks preserve visible source pixels. Job 007 retained a gold pommel and was superseded by job 008.",
+  "timestamp": "2026-09-15T13:37:53.010683+00:00"
+}
