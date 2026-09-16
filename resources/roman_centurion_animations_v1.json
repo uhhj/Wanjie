@@ -1,0 +1,4952 @@
+{
+  "idle": {
+    "length": 1.6,
+    "loop": true,
+    "times": [
+      0.0,
+      0.2,
+      0.4,
+      0.6000000000000001,
+      0.8,
+      1.0,
+      1.2000000000000002,
+      1.4000000000000001,
+      1.6
+    ],
+    "poses": [
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.0,
+          "neck": 0.0,
+          "head": -0.0,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.14142135623730953,
+          "neck": 0.0,
+          "head": -0.11313708498984762,
+          "arm_near_upper": 0.28284271247461906,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.1767766952966369,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.1767766952966369,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.28284271247461906,
+          1.2727922061357857
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.2,
+          "neck": 0.0,
+          "head": -0.16,
+          "arm_near_upper": 0.4,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.25,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.25,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.4,
+          1.8
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.14142135623730953,
+          "neck": 0.0,
+          "head": -0.11313708498984762,
+          "arm_near_upper": 0.28284271247461906,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.1767766952966369,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.1767766952966369,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.28284271247461906,
+          1.2727922061357857
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 2.4492935982947065e-17,
+          "neck": 0.0,
+          "head": -1.959434878635765e-17,
+          "arm_near_upper": 4.898587196589413e-17,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -3.061616997868383e-17,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 3.061616997868383e-17,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          4.898587196589413e-17,
+          2.2043642384652358e-16
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.1414213562373095,
+          "neck": 0.0,
+          "head": 0.11313708498984759,
+          "arm_near_upper": -0.282842712474619,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.17677669529663687,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.17677669529663687,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          -0.282842712474619,
+          -1.2727922061357855
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.2,
+          "neck": 0.0,
+          "head": 0.16,
+          "arm_near_upper": -0.4,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.25,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.25,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          -0.4,
+          -1.8
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.14142135623730953,
+          "neck": 0.0,
+          "head": 0.11313708498984763,
+          "arm_near_upper": -0.28284271247461906,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.17677669529663692,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.17677669529663692,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          -0.28284271247461906,
+          -1.272792206135786
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.0,
+          "neck": 0.0,
+          "head": -0.0,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "walk": {
+    "length": 1.05,
+    "loop": true,
+    "times": [
+      0.0,
+      0.01640625,
+      0.0328125,
+      0.049218750000000006,
+      0.065625,
+      0.08203125,
+      0.09843750000000001,
+      0.11484375000000001,
+      0.13125,
+      0.14765625000000002,
+      0.1640625,
+      0.18046875,
+      0.19687500000000002,
+      0.21328125,
+      0.22968750000000002,
+      0.24609375,
+      0.2625,
+      0.27890625,
+      0.29531250000000003,
+      0.31171875,
+      0.328125,
+      0.34453125,
+      0.3609375,
+      0.37734375000000003,
+      0.39375000000000004,
+      0.41015625,
+      0.4265625,
+      0.44296875,
+      0.45937500000000003,
+      0.47578125000000004,
+      0.4921875,
+      0.5085937500000001,
+      0.525,
+      0.54140625,
+      0.5578125,
+      0.57421875,
+      0.5906250000000001,
+      0.60703125,
+      0.6234375,
+      0.63984375,
+      0.65625,
+      0.6726562500000001,
+      0.6890625,
+      0.70546875,
+      0.721875,
+      0.73828125,
+      0.7546875000000001,
+      0.77109375,
+      0.7875000000000001,
+      0.80390625,
+      0.8203125,
+      0.8367187500000001,
+      0.853125,
+      0.8695312500000001,
+      0.8859375,
+      0.90234375,
+      0.9187500000000001,
+      0.93515625,
+      0.9515625000000001,
+      0.96796875,
+      0.984375,
+      1.00078125,
+      1.0171875000000001,
+      1.03359375,
+      1.05
+    ],
+    "poses": [
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.0,
+          "neck": 0.0,
+          "head": -0.0,
+          "arm_near_upper": -0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.34289780745545134,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -41.28280628080166,
+          "knee_near": 0.0,
+          "leg_near_shin": 49.03658192048986,
+          "foot_near": -7.753775639688199,
+          "leg_far_thigh": -29.07946182187387,
+          "knee_far": 0.0,
+          "leg_far_shin": 27.055164296363206,
+          "foot_far": 2.0242975255106663
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.0637111412142144,
+          "neck": 0.0,
+          "head": -0.05390942718125834,
+          "arm_near_upper": -0.44107713148302274,
+          "arm_near_fore": 0.1470257104943409,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.0980171403295606,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.24917203377212735,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -40.71056749342875,
+          "knee_near": 0.0,
+          "leg_near_shin": 49.253347779374586,
+          "foot_near": -8.542780285945838,
+          "leg_far_thigh": -29.017853678932962,
+          "knee_far": 0.0,
+          "leg_far_shin": 28.02551253001512,
+          "foot_far": 0.9923411489178414
+        },
+        "pelvis_offset": [
+          0.11762056839547272,
+          0.048036798991923924
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.12680870931048335,
+          "neck": 0.0,
+          "head": -0.10729967710887055,
+          "arm_near_upper": -0.8779064490725771,
+          "arm_near_fore": 0.2926354830241924,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.19509032201612825,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.1530465971922886,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -40.151730391152654,
+          "knee_near": 0.0,
+          "leg_near_shin": 49.49215514513006,
+          "foot_near": -9.340424753977409,
+          "leg_far_thigh": -28.96442047173027,
+          "knee_far": 0.0,
+          "leg_far_shin": 29.00802627275306,
+          "foot_far": -0.04360580102278839
+        },
+        "pelvis_offset": [
+          0.2341083864193539,
+          0.19030116872178315
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.18868504021540053,
+          "neck": 0.0,
+          "head": -0.1596565724899543,
+          "arm_near_upper": -1.3062810476450806,
+          "arm_near_fore": 0.4354270158816935,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.29028467725446233,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.05544723821770777,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -39.60398608770972,
+          "knee_near": 0.0,
+          "leg_near_shin": 49.749575526195585,
+          "foot_near": -10.145589438485867,
+          "leg_far_thigh": -28.915801797423892,
+          "knee_far": 0.0,
+          "leg_far_shin": 29.99801554802535,
+          "foot_far": -1.0822137506014586
+        },
+        "pelvis_offset": [
+          0.3483416127053548,
+          0.4213259692436369
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.24874423103730836,
+          "neck": 0.0,
+          "head": -0.2104758878007994,
+          "arm_near_upper": -1.722075445642904,
+          "arm_near_fore": 0.5740251485476346,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.3826834323650898,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.042686107971453224,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -39.06382548741547,
+          "knee_near": 0.0,
+          "leg_near_shin": 50.02021980660443,
+          "foot_near": -10.956394319188963,
+          "leg_far_thigh": -28.867063360749423,
+          "knee_far": 0.0,
+          "leg_far_shin": 30.988545942100448,
+          "foot_far": -2.121482581351024
+        },
+        "pelvis_offset": [
+          0.4592201188381077,
+          0.7322330470336311
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.30640787893689847,
+          "neck": 0.0,
+          "head": -0.2592682052542987,
+          "arm_near_upper": -2.1212853157169893,
+          "arm_near_fore": 0.7070951052389964,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.47139673682599764,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.1404083636062489,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -38.52672353065034,
+          "knee_near": 0.0,
+          "leg_near_shin": 50.2969877299875,
+          "foot_near": -11.770264199337161,
+          "leg_far_thigh": -28.81200389839614,
+          "knee_far": 0.0,
+          "leg_far_shin": 31.97086562122703,
+          "foot_far": -3.1588617228308915
+        },
+        "pelvis_offset": [
+          0.5656760841911972,
+          1.1110744174509943
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.3611206514627414,
+          "neck": 0.0,
+          "head": -0.3055636281607812,
+          "arm_near_upper": -2.50006604858821,
+          "arm_near_fore": 0.8333553495294033,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.5555702330196022,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.23677840994449725,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -37.98736115686106,
+          "knee_near": 0.0,
+          "leg_near_shin": 50.571382763518834,
+          "foot_near": -12.58402160665777,
+          "leg_far_thigh": -28.74348853168626,
+          "knee_far": 0.0,
+          "leg_far_shin": 32.93486684503303,
+          "foot_far": -4.191378313346768
+        },
+        "pelvis_offset": [
+          0.6666842796235226,
+          1.5432914190872755
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.4123556347063696,
+          "neck": 0.0,
+          "head": -0.34891630629000503,
+          "arm_near_upper": -2.854769778736405,
+          "arm_near_fore": 0.9515899262454682,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.6343932841636455,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.3308681507587349,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -37.98301692990312,
+          "knee_near": 0.0,
+          "leg_near_shin": 51.36810382801352,
+          "foot_near": -14.118739270387202,
+          "leg_far_thigh": -28.653793043472913,
+          "knee_far": 0.0,
+          "leg_far_shin": 33.86955962255219,
+          "foot_far": -5.215766579079273
+        },
+        "pelvis_offset": [
+          0.7612719409963745,
+          2.012274194959679
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.45961940777125593,
+          "neck": 0.0,
+          "head": -0.3889087296526012,
+          "arm_near_upper": -3.1819805153394642,
+          "arm_near_fore": 1.0606601717798214,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.7071067811865476,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.42177145041023634,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -39.15516247773699,
+          "knee_near": 0.0,
+          "leg_near_shin": 53.50493583777022,
+          "foot_near": -16.263190521858686,
+          "leg_far_thigh": -28.534945430334066,
+          "knee_far": 0.0,
+          "leg_far_shin": 34.76353843237386,
+          "foot_far": -6.228593002039795
+        },
+        "pelvis_offset": [
+          0.848528137423857,
+          2.4999999999999996
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.502456794685779,
+          "neck": 0.0,
+          "head": -0.42515574934950534,
+          "arm_near_upper": -3.478547040132316,
+          "arm_near_fore": 1.1595156800441053,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.7730104533627369,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.5086128604305593,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -40.98347314842305,
+          "knee_near": 0.0,
+          "leg_near_shin": 56.26623347566057,
+          "foot_near": -18.261256849699684,
+          "leg_far_thigh": -28.37905341584428,
+          "knee_far": 0.0,
+          "leg_far_shin": 35.605427025664376,
+          "foot_far": -7.226373609820095
+        },
+        "pelvis_offset": [
+          0.9276125440352843,
+          2.9877258050403204
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.5404552479966545,
+          "neck": 0.0,
+          "head": -0.4573082867663999,
+          "arm_near_upper": -3.7416132553614534,
+          "arm_near_fore": 1.2472044184538178,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.8314696123025452,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.5905560505688645,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -43.293498483786585,
+          "knee_near": 0.0,
+          "leg_near_shin": 59.34152006507573,
+          "foot_near": -19.913073848102833,
+          "leg_far_thigh": -28.178608938483453,
+          "knee_far": 0.0,
+          "leg_far_shin": 36.38429041016523,
+          "foot_far": -8.205681471681775
+        },
+        "pelvis_offset": [
+          0.9977635347630542,
+          3.456708580912724
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.5732488218264308,
+          "neck": 0.0,
+          "head": -0.48505669539159524,
+          "arm_near_upper": -3.9686456895675972,
+          "arm_near_fore": 1.3228818965225324,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.8819212643483549,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.6668118631094155,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -45.968015174143204,
+          "knee_near": 0.0,
+          "leg_near_shin": 62.51640429978761,
+          "foot_near": -21.068335591261626,
+          "leg_far_thigh": -27.926762660099087,
+          "knee_far": 0.0,
+          "leg_far_shin": 37.09000662610417,
+          "foot_far": -9.16324396600508
+        },
+        "pelvis_offset": [
+          1.0583055172180258,
+          3.888925582549005
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6005216961323364,
+          "neck": 0.0,
+          "head": -0.5081337428812077,
+          "arm_near_upper": -4.15745789630079,
+          "arm_near_fore": 1.38581929876693,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9238795325112867,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.7366459128917798,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -48.90773692916222,
+          "knee_near": 0.0,
+          "leg_near_shin": 65.61598961409399,
+          "foot_near": -21.61217908694793,
+          "leg_far_thigh": -27.617563177970705,
+          "knee_far": 0.0,
+          "leg_far_shin": 37.71359361341782,
+          "foot_far": -10.096030435447117
+        },
+        "pelvis_offset": [
+          1.1086554390135441,
+          4.267766952966369
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6220112182259359,
+          "neck": 0.0,
+          "head": -0.5263171846527149,
+          "arm_near_upper": -4.30623151079494,
+          "arm_near_fore": 1.4354105035983133,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9569403357322089,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.7993856598413782,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -52.0156622121771,
+          "knee_near": 0.0,
+          "leg_near_shin": 68.48647989899558,
+          "foot_near": -21.464794967844348,
+          "leg_far_thigh": -27.246156904782733,
+          "knee_far": 0.0,
+          "leg_far_shin": 38.2474883057726,
+          "foot_far": -11.001331400989868
+        },
+        "pelvis_offset": [
+          1.1483284028786507,
+          4.578674030756363
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6375104322620998,
+          "neck": 0.0,
+          "head": -0.5394319042217768,
+          "arm_near_upper": -4.413533761814537,
+          "arm_near_fore": 1.4711779206048456,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9807852804032304,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.8544268858980515,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -55.18828931579917,
+          "knee_near": 0.0,
+          "leg_near_shin": 70.98778812837465,
+          "foot_near": -20.584200491236516,
+          "leg_far_thigh": -26.808945620134093,
+          "knee_far": 0.0,
+          "leg_far_shin": 38.68577618906955,
+          "foot_far": -11.876830568935455
+        },
+        "pelvis_offset": [
+          1.1769423364838765,
+          4.809698831278217
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.646870072336928,
+          "neck": 0.0,
+          "head": -0.5473515996697083,
+          "arm_near_upper": -4.478331270024886,
+          "arm_near_fore": 1.4927770900082953,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9951847266721968,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9012395139662791,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -58.311267764277595,
+          "knee_near": 0.0,
+          "leg_near_shin": 72.99202892623732,
+          "foot_near": -18.96940421196109,
+          "leg_far_thigh": -26.303699622839908,
+          "knee_far": 0.0,
+          "leg_far_shin": 39.02437011699311,
+          "foot_far": -12.720670494153202
+        },
+        "pelvis_offset": [
+          1.194221672006636,
+          4.951963201008076
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.65,
+          "neck": 0.0,
+          "head": -0.55,
+          "arm_near_upper": -4.5,
+          "arm_near_fore": 1.5,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 1.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9393727128473789,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -61.25957620927969,
+          "knee_near": 0.0,
+          "leg_near_shin": 74.38608689555669,
+          "foot_near": -16.662044592209735,
+          "leg_far_thigh": -25.729625323127944,
+          "knee_far": 0.0,
+          "leg_far_shin": 39.26113737904241,
+          "foot_far": -13.531512055914467
+        },
+        "pelvis_offset": [
+          1.2,
+          5.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6468700723369281,
+          "neck": 0.0,
+          "head": -0.5473515996697084,
+          "arm_near_upper": -4.478331270024886,
+          "arm_near_fore": 1.4927770900082953,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9951847266721969,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9684592389903985,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -63.902622682481265,
+          "knee_near": 0.0,
+          "leg_near_shin": 75.07683812389632,
+          "foot_near": -13.74472916238116,
+          "leg_far_thigh": -25.087387051468482,
+          "knee_far": 0.0,
+          "leg_far_shin": 39.395974035331975,
+          "foot_far": -14.308586983863492
+        },
+        "pelvis_offset": [
+          1.1942216720066363,
+          4.951963201008076
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6375104322620998,
+          "neck": 0.0,
+          "head": -0.5394319042217768,
+          "arm_near_upper": -4.413533761814537,
+          "arm_near_fore": 1.4711779206048456,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9807852804032304,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9882189732482681,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -66.11383214465094,
+          "knee_near": 0.0,
+          "leg_near_shin": 74.99728973096221,
+          "foot_near": -10.334880972583571,
+          "leg_far_thigh": -24.37908381219501,
+          "knee_far": 0.0,
+          "leg_far_shin": 39.43082549313875,
+          "foot_far": -15.051741680943737
+        },
+        "pelvis_offset": [
+          1.1769423364838765,
+          4.809698831278217
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6220112182259359,
+          "neck": 0.0,
+          "head": -0.5263171846527149,
+          "arm_near_upper": -4.30623151079494,
+          "arm_near_fore": 1.4354105035983133,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9569403357322089,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9984616185783151,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -67.78279793875082,
+          "knee_near": 0.0,
+          "leg_near_shin": 74.11163165529527,
+          "foot_near": -6.574172088181548,
+          "leg_far_thigh": -23.608182618301683,
+          "knee_far": 0.0,
+          "leg_far_shin": 39.36965228879677,
+          "foot_far": -15.761469670495092
+        },
+        "pelvis_offset": [
+          1.1483284028786507,
+          4.578674030756363
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.6005216961323364,
+          "neck": 0.0,
+          "head": -0.5081337428812077,
+          "arm_near_upper": -4.15745789630079,
+          "arm_near_fore": 1.38581929876693,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.9238795325112867,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9990885327068114,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -68.82680732657056,
+          "knee_near": 0.0,
+          "leg_near_shin": 72.41744146381312,
+          "foot_near": -2.615182527161915,
+          "leg_far_thigh": -22.77941083582896,
+          "knee_far": 0.0,
+          "leg_far_shin": 39.2183401156358,
+          "foot_far": -16.43892927980684
+        },
+        "pelvis_offset": [
+          1.1086554390135441,
+          4.267766952966369
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.5732488218264308,
+          "neck": 0.0,
+          "head": -0.4850566953915953,
+          "arm_near_upper": -3.9686456895675977,
+          "arm_near_fore": 1.3228818965225326,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.881921264348355,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9900936781079936,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -69.19848681656255,
+          "knee_near": 0.0,
+          "leg_near_shin": 69.9441972669601,
+          "foot_near": 1.392065016753862,
+          "leg_far_thigh": -21.898610585198053,
+          "knee_far": 0.0,
+          "leg_far_shin": 38.98455335992385,
+          "foot_far": -17.085942774725797
+        },
+        "pelvis_offset": [
+          1.058305517218026,
+          3.8889255825490054
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.5404552479966545,
+          "neck": 0.0,
+          "head": -0.45730828676639995,
+          "arm_near_upper": -3.741613255361454,
+          "arm_near_fore": 1.247204418453818,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.8314696123025453,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9715636801487362,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -68.8877344594808,
+          "knee_near": 0.0,
+          "leg_near_shin": 66.74852203440061,
+          "foot_near": 5.3111788458984135,
+          "leg_far_thigh": -20.97255868124918,
+          "knee_far": 0.0,
+          "leg_far_shin": 38.67753184429683,
+          "foot_far": -17.70497316304765
+        },
+        "pelvis_offset": [
+          0.9977635347630543,
+          3.456708580912726
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.5024567946857791,
+          "neck": 0.0,
+          "head": -0.42515574934950545,
+          "arm_near_upper": -3.478547040132317,
+          "arm_near_fore": 1.1595156800441058,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.7730104533627371,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9436769928389137,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -67.91826502131104,
+          "knee_near": 0.0,
+          "leg_near_shin": 62.907628627816415,
+          "foot_near": 9.026674050897853,
+          "leg_far_thigh": -20.008755896253245,
+          "knee_far": 0.0,
+          "leg_far_shin": 38.30783123579303,
+          "foot_far": -18.299075339539783
+        },
+        "pelvis_offset": [
+          0.9276125440352845,
+          2.9877258050403217
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.45961940777125593,
+          "neck": 0.0,
+          "head": -0.3889087296526012,
+          "arm_near_upper": -3.1819805153394642,
+          "arm_near_fore": 1.0606601717798214,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.7071067811865476,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.9067021802217339,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -66.34082548357286,
+          "knee_near": 0.0,
+          "leg_near_shin": 58.51287065562987,
+          "foot_near": 12.447352490499417,
+          "leg_far_thigh": -19.015189619604485,
+          "knee_far": 0.0,
+          "leg_far_shin": 37.88700879156138,
+          "foot_far": -18.871819171956894
+        },
+        "pelvis_offset": [
+          0.848528137423857,
+          2.5000000000000004
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.4123556347063696,
+          "neck": 0.0,
+          "head": -0.34891630629000503,
+          "arm_near_upper": -2.854769778736405,
+          "arm_near_fore": 0.9515899262454682,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.6343932841636455,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.8609953299551888,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -64.22579722108486,
+          "knee_near": 0.0,
+          "leg_near_shin": 53.66520716295523,
+          "foot_near": 15.506472607953539,
+          "leg_far_thigh": -18.000074430781673,
+          "knee_far": 0.0,
+          "leg_far_shin": 37.42725794546395,
+          "foot_far": -19.427183514682277
+        },
+        "pelvis_offset": [
+          0.7612719409963745,
+          2.012274194959679
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.3611206514627414,
+          "neck": 0.0,
+          "head": -0.3055636281607812,
+          "arm_near_upper": -2.50006604858821,
+          "arm_near_fore": 0.8333553495294033,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.5555702330196022,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.8069966239932511,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -61.65769389219834,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.4742054833184,
+          "foot_near": 18.159412042240927,
+          "leg_far_thigh": -16.97157587363091,
+          "knee_far": 0.0,
+          "leg_far_shin": 36.94099781651278,
+          "foot_far": -19.969421942881866
+        },
+        "pelvis_offset": [
+          0.6666842796235226,
+          1.5432914190872749
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.3064078789368986,
+          "neck": 0.0,
+          "head": -0.25926820525429883,
+          "arm_near_upper": -2.12128531571699,
+          "arm_near_fore": 0.7070951052389967,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.4713967368259978,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.74522609939303,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -58.733702892415955,
+          "knee_near": 0.0,
+          "leg_near_shin": 43.062512128957046,
+          "foot_near": 20.378911089374014,
+          "leg_far_thigh": -15.937523948013052,
+          "knee_far": 0.0,
+          "leg_far_shin": 36.440427093048854,
+          "foot_far": -20.5029031450358
+        },
+        "pelvis_offset": [
+          0.5656760841911973,
+          1.1110744174509954
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.24874423103730844,
+          "neck": 0.0,
+          "head": -0.21047588780079945,
+          "arm_near_upper": -1.7220754456429046,
+          "arm_near_fore": 0.5740251485476349,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.3826834323650899,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.6762786400736286,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -55.568700747806844,
+          "knee_near": 0.0,
+          "leg_near_shin": 37.57916947599577,
+          "foot_near": 22.1468793333238,
+          "leg_far_thigh": -14.905124536898834,
+          "knee_far": 0.0,
+          "leg_far_shin": 35.93705579986342,
+          "foot_far": -21.031931262964587
+        },
+        "pelvis_offset": [
+          0.45922011883810787,
+          0.7322330470336316
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.18868504021540056,
+          "neck": 0.0,
+          "head": -0.15965657248995432,
+          "arm_near_upper": -1.3062810476450808,
+          "arm_near_fore": 0.4354270158816936,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.2902846772544624,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.6008182477588081,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -52.310926812971616,
+          "knee_near": 0.0,
+          "leg_near_shin": 32.22871001268726,
+          "foot_near": 23.44001157451945,
+          "leg_far_thigh": -13.880679015235623,
+          "knee_far": 0.0,
+          "leg_far_shin": 35.44123284160039,
+          "foot_far": -21.560553826364764
+        },
+        "pelvis_offset": [
+          0.34834161270535485,
+          0.4213259692436369
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.1268087093104836,
+          "neck": 0.0,
+          "head": -0.10729967710887074,
+          "arm_near_upper": -0.8779064490725788,
+          "arm_near_fore": 0.2926354830241929,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.1950903220161286,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.5195716472774072,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.17684575718842,
+          "knee_near": 0.0,
+          "leg_near_shin": 27.330193200442896,
+          "foot_near": 24.20363624087551,
+          "leg_far_thigh": -12.8693243025301,
+          "knee_far": 0.0,
+          "leg_far_shin": 34.9616913234507,
+          "foot_far": -22.0923670209206
+        },
+        "pelvis_offset": [
+          0.23410838641935433,
+          0.1903011687217837
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.06371114121421453,
+          "neck": 0.0,
+          "head": -0.053909427181258456,
+          "arm_near_upper": -0.44107713148302374,
+          "arm_near_fore": 0.14702571049434124,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.09801714032956083,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.4333212878059708,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -46.5237421541879,
+          "knee_near": 0.0,
+          "leg_near_shin": 23.435191682763204,
+          "foot_near": 24.303451370941016,
+          "leg_far_thigh": -11.874807120116916,
+          "knee_far": 0.0,
+          "leg_far_shin": 34.505136646961944,
+          "foot_far": -22.630329526845024
+        },
+        "pelvis_offset": [
+          0.11762056839547298,
+          0.0480367989919242
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 7.960204194457797e-17,
+          "neck": 0.0,
+          "head": -6.735557395310444e-17,
+          "arm_near_upper": -5.51091059616309e-16,
+          "arm_near_fore": 1.8369701987210297e-16,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 1.2246467991473532e-16,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.34289780745545156,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -45.08958430517674,
+          "knee_near": 0.0,
+          "leg_near_shin": 21.69620276500451,
+          "foot_near": 23.393381540172232,
+          "leg_far_thigh": -10.899306618197608,
+          "knee_far": 0.0,
+          "leg_far_shin": 34.075903351365206,
+          "foot_far": -23.176596733167596
+        },
+        "pelvis_offset": [
+          1.4695761589768238e-16,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.06371114121421438,
+          "neck": 0.0,
+          "head": 0.05390942718125833,
+          "arm_near_upper": 0.44107713148302263,
+          "arm_near_fore": -0.14702571049434088,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.09801714032956059,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.24917203377212746,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -45.67575570027645,
+          "knee_near": 0.0,
+          "leg_near_shin": 23.593280979399008,
+          "foot_near": 22.08247472087744,
+          "leg_far_thigh": -9.943318343112814,
+          "knee_far": 0.0,
+          "leg_far_shin": 33.67570485330667,
+          "foot_far": -23.73238651019385
+        },
+        "pelvis_offset": [
+          -0.1176205683954727,
+          0.048036798991923924
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.12680870931048344,
+          "neck": 0.0,
+          "head": 0.1072996771088706,
+          "arm_near_upper": 0.8779064490725776,
+          "arm_near_fore": -0.2926354830241925,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.19509032201612836,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.15304659719228864,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -46.232067463184826,
+          "knee_near": 0.0,
+          "leg_near_shin": 25.437263826336444,
+          "foot_near": 20.794803636848382,
+          "leg_far_thigh": -9.005609463922198,
+          "knee_far": 0.0,
+          "leg_far_shin": 33.30349527417478,
+          "foot_far": -24.297885810252577
+        },
+        "pelvis_offset": [
+          -0.23410838641935403,
+          0.19030116872178315
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.1886850402154004,
+          "neck": 0.0,
+          "head": 0.15965657248995418,
+          "arm_near_upper": 1.3062810476450795,
+          "arm_near_fore": -0.4354270158816932,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.2902846772544621,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.05544723821770811,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -46.760542605351965,
+          "knee_near": 0.0,
+          "leg_near_shin": 27.23275503320456,
+          "foot_near": 19.527787572147407,
+          "leg_far_thigh": -8.083250391327365,
+          "knee_far": 0.0,
+          "leg_far_shin": 32.955454690832596,
+          "foot_far": -24.87220429950523
+        },
+        "pelvis_offset": [
+          -0.3483416127053545,
+          0.4213259692436361
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.2487442310373083,
+          "neck": 0.0,
+          "head": 0.21047588780079934,
+          "arm_near_upper": 1.7220754456429035,
+          "arm_near_fore": -0.5740251485476345,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.38268343236508967,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.04268610797145299,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -47.26062271456294,
+          "knee_near": 0.0,
+          "leg_near_shin": 28.980373414738615,
+          "foot_near": 18.280249299824327,
+          "leg_far_thigh": -7.171721939174323,
+          "knee_far": 0.0,
+          "leg_far_shin": 32.62509931760573,
+          "foot_far": -25.453377378431405
+        },
+        "pelvis_offset": [
+          -0.4592201188381076,
+          0.7322330470336308
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.30640787893689847,
+          "neck": 0.0,
+          "head": 0.2592682052542987,
+          "arm_near_upper": 2.1212853157169893,
+          "arm_near_fore": -0.7070951052389964,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.47139673682599764,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.14040836360624878,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -47.72984514761889,
+          "knee_near": 0.0,
+          "leg_near_shin": 30.677839636574056,
+          "foot_near": 17.052005511044833,
+          "leg_far_thigh": -6.265090857069519,
+          "knee_far": 0.0,
+          "leg_far_shin": 32.30350773665051,
+          "foot_far": -26.03841687958099
+        },
+        "pelvis_offset": [
+          -0.5656760841911972,
+          1.1110744174509943
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.3611206514627413,
+          "neck": 0.0,
+          "head": 0.3055636281607811,
+          "arm_near_upper": 2.500066048588209,
+          "arm_near_fore": -0.8333553495294029,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.555570233019602,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.2367784099444968,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -48.164391412200914,
+          "knee_near": 0.0,
+          "leg_near_shin": 32.32083311895669,
+          "foot_near": 15.84355829324422,
+          "leg_far_thigh": -5.356240872532637,
+          "knee_far": 0.0,
+          "leg_far_shin": 31.979644911810006,
+          "foot_far": -26.623404039277368
+        },
+        "pelvis_offset": [
+          -0.6666842796235223,
+          1.5432914190872737
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.41235563470636943,
+          "neck": 0.0,
+          "head": 0.3489163062900049,
+          "arm_near_upper": 2.8547697787364035,
+          "arm_near_fore": -0.9515899262454679,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.6343932841636453,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.33086815075873455,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -48.55954896215869,
+          "knee_near": 0.0,
+          "leg_near_shin": 33.90369217515875,
+          "foot_near": 14.65585678699994,
+          "leg_far_thigh": -5.127469611489719,
+          "knee_far": 0.0,
+          "leg_far_shin": 32.29924875015385,
+          "foot_far": -27.905431510940943
+        },
+        "pelvis_offset": [
+          -0.7612719409963743,
+          2.0122741949596783
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.4596194077712559,
+          "neck": 0.0,
+          "head": 0.38890872965260115,
+          "arm_near_upper": 3.181980515339464,
+          "arm_near_fore": -1.0606601717798212,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.7071067811865475,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.42177145041023617,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -48.910109782232624,
+          "knee_near": 0.0,
+          "leg_near_shin": 35.41999915998603,
+          "foot_near": 13.490110622246595,
+          "leg_far_thigh": -6.464909105290801,
+          "knee_far": 0.0,
+          "leg_far_shin": 34.535359233704646,
+          "foot_far": -29.983867290239296
+        },
+        "pelvis_offset": [
+          -0.8485281374238569,
+          2.499999999999999
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.5024567946857789,
+          "neck": 0.0,
+          "head": 0.4251557493495052,
+          "arm_near_upper": 3.478547040132315,
+          "arm_near_fore": -1.1595156800441049,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.7730104533627367,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.5086128604305589,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.210719063313235,
+          "knee_near": 0.0,
+          "leg_near_shin": 36.86307595325089,
+          "foot_near": 12.347643110062345,
+          "leg_far_thigh": -8.70031060576595,
+          "knee_far": 0.0,
+          "leg_far_shin": 37.81602401458717,
+          "foot_far": -32.094209931283395
+        },
+        "pelvis_offset": [
+          -0.9276125440352839,
+          2.987725805040318
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.5404552479966545,
+          "neck": 0.0,
+          "head": 0.4573082867663999,
+          "arm_near_upper": 3.7416132553614534,
+          "arm_near_fore": -1.2472044184538178,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.8314696123025452,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.5905560505688645,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.45618154355267,
+          "knee_near": 0.0,
+          "leg_near_shin": 38.2264060116557,
+          "foot_near": 11.229775531896973,
+          "leg_far_thigh": -11.578234205647789,
+          "knee_far": 0.0,
+          "leg_far_shin": 41.70696084632587,
+          "foot_far": -33.993778907491766
+        },
+        "pelvis_offset": [
+          -0.9977635347630542,
+          3.4567085809127245
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.5732488218264308,
+          "neck": 0.0,
+          "head": 0.48505669539159524,
+          "arm_near_upper": 3.9686456895675972,
+          "arm_near_fore": -1.3228818965225324,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.8819212643483549,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.6668118631094153,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.64172958934671,
+          "knee_near": 0.0,
+          "leg_near_shin": 39.50399383415318,
+          "foot_near": 10.13773575519353,
+          "leg_far_thigh": -14.92857177994526,
+          "knee_far": 0.0,
+          "leg_far_shin": 45.91136049838213,
+          "foot_far": -35.50273518405409
+        },
+        "pelvis_offset": [
+          -1.0583055172180258,
+          3.888925582549004
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6005216961323363,
+          "neck": 0.0,
+          "head": 0.5081337428812076,
+          "arm_near_upper": 4.157457896300789,
+          "arm_near_fore": -1.3858192987669298,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9238795325112865,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.7366459128917794,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.76325479097931,
+          "knee_near": 0.0,
+          "leg_near_shin": 40.69066918698034,
+          "foot_near": 9.072585603998975,
+          "leg_far_thigh": -18.62107314233229,
+          "knee_far": 0.0,
+          "leg_far_shin": 50.20057876826688,
+          "foot_far": -36.48343202795075
+        },
+        "pelvis_offset": [
+          -1.1086554390135437,
+          4.267766952966366
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6220112182259357,
+          "neck": 0.0,
+          "head": 0.5263171846527149,
+          "arm_near_upper": 4.30623151079494,
+          "arm_near_fore": -1.4354105035983133,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9569403357322088,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.7993856598413783,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.81750327400721,
+          "knee_near": 0.0,
+          "leg_near_shin": 41.78234092805269,
+          "foot_near": 8.035162345954518,
+          "leg_far_thigh": -22.544969532007215,
+          "knee_far": 0.0,
+          "leg_far_shin": 54.38676227009549,
+          "foot_far": -36.835770019114136
+        },
+        "pelvis_offset": [
+          -1.1483284028786505,
+          4.578674030756363
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6375104322620997,
+          "neck": 0.0,
+          "head": 0.5394319042217767,
+          "arm_near_upper": 4.413533761814536,
+          "arm_near_fore": -1.4711779206048454,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9807852804032303,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.8544268858980514,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.802233872382175,
+          "knee_near": 0.0,
+          "leg_near_shin": 42.77620332497366,
+          "foot_near": 7.02603054740852,
+          "leg_far_thigh": -26.59529850018083,
+          "knee_far": 0.0,
+          "leg_far_shin": 58.30744317628172,
+          "foot_far": -36.49684635476194
+        },
+        "pelvis_offset": [
+          -1.1769423364838763,
+          4.809698831278216
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6468700723369281,
+          "neck": 0.0,
+          "head": 0.5473515996697084,
+          "arm_near_upper": 4.478331270024886,
+          "arm_near_fore": -1.4927770900082953,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9951847266721969,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9012395139662794,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.71633769116101,
+          "knee_near": 0.0,
+          "leg_near_shin": 43.67089618393306,
+          "foot_near": 6.045441507227946,
+          "leg_far_thigh": -30.663175191742752,
+          "knee_far": 0.0,
+          "leg_far_shin": 61.81711764153789,
+          "foot_far": -35.44258549979649
+        },
+        "pelvis_offset": [
+          -1.1942216720066363,
+          4.951963201008076
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.65,
+          "neck": 0.0,
+          "head": 0.55,
+          "arm_near_upper": 4.5,
+          "arm_near_fore": -1.5,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -1.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.939372712847379,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.559917370970155,
+          "knee_near": 0.0,
+          "leg_near_shin": 44.46661882758096,
+          "foot_near": 5.093298543389194,
+          "leg_far_thigh": -34.629835722702744,
+          "knee_far": 0.0,
+          "leg_far_shin": 64.78416380563968,
+          "foot_far": -33.68986198886968
+        },
+        "pelvis_offset": [
+          -1.2,
+          5.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6468700723369281,
+          "neck": 0.0,
+          "head": 0.5473515996697084,
+          "arm_near_upper": 4.478331270024886,
+          "arm_near_fore": -1.4927770900082953,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9951847266721969,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9684592389903984,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.33432452463001,
+          "knee_near": 0.0,
+          "leg_near_shin": 45.165196969922874,
+          "foot_near": 4.169127554707137,
+          "leg_far_thigh": -38.36523393770964,
+          "knee_far": 0.0,
+          "leg_far_shin": 67.09211247286609,
+          "foot_far": -31.29739225612255
+        },
+        "pelvis_offset": [
+          -1.1942216720066363,
+          4.951963201008077
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6375104322620998,
+          "neck": 0.0,
+          "head": 0.5394319042217768,
+          "arm_near_upper": 4.413533761814537,
+          "arm_near_fore": -1.4711779206048456,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9807852804032304,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9882189732482682,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -49.04215430706676,
+          "knee_near": 0.0,
+          "leg_near_shin": 45.77010085857649,
+          "foot_near": 3.2720534484902712,
+          "leg_far_thigh": -41.73213009052775,
+          "knee_far": 0.0,
+          "leg_far_shin": 68.6442090246316,
+          "foot_far": -28.363502320376174
+        },
+        "pelvis_offset": [
+          -1.1769423364838765,
+          4.809698831278217
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6220112182259359,
+          "neck": 0.0,
+          "head": 0.5263171846527149,
+          "arm_near_upper": 4.30623151079494,
+          "arm_near_fore": -1.4354105035983133,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9569403357322089,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9984616185783151,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -48.68719684486513,
+          "knee_near": 0.0,
+          "leg_near_shin": 46.28641272993549,
+          "foot_near": 2.400784114929635,
+          "leg_far_thigh": -44.595733129196546,
+          "knee_far": 0.0,
+          "leg_far_shin": 69.36971902546684,
+          "foot_far": -25.01932426790738
+        },
+        "pelvis_offset": [
+          -1.1483284028786507,
+          4.578674030756364
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.6005216961323363,
+          "neck": 0.0,
+          "head": 0.5081337428812077,
+          "arm_near_upper": 4.15745789630079,
+          "arm_near_fore": -1.38581929876693,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.9238795325112866,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9990885327068114,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -48.274346223646695,
+          "knee_near": 0.0,
+          "leg_near_shin": 46.72074170224434,
+          "foot_near": 1.5536045214023555,
+          "leg_far_thigh": -46.83714975947173,
+          "knee_far": 0.0,
+          "leg_far_shin": 69.22988809027719,
+          "foot_far": -21.41728672072481
+        },
+        "pelvis_offset": [
+          -1.108655439013544,
+          4.267766952966367
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.5732488218264308,
+          "neck": 0.0,
+          "head": 0.4850566953915953,
+          "arm_near_upper": 3.9686456895675977,
+          "arm_near_fore": -1.3228818965225326,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.881921264348355,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9900936781079936,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -47.80946884438069,
+          "knee_near": 0.0,
+          "leg_near_shin": 47.08108477362415,
+          "foot_near": 0.7283840707565429,
+          "leg_far_thigh": -48.367056662654875,
+          "knee_far": 0.0,
+          "leg_far_shin": 68.22139699825013,
+          "foot_far": -17.716564868443847
+        },
+        "pelvis_offset": [
+          -1.058305517218026,
+          3.888925582549006
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.5404552479966546,
+          "neck": 0.0,
+          "head": 0.45730828676640006,
+          "arm_near_upper": 3.7416132553614547,
+          "arm_near_fore": -1.2472044184538182,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.8314696123025455,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9715636801487362,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -47.29923416333838,
+          "knee_near": 0.0,
+          "leg_near_shin": 47.3766336568594,
+          "foot_near": -0.07739949352101147,
+          "leg_far_thigh": -49.13548829334854,
+          "knee_far": 0.0,
+          "leg_far_shin": 66.37593192552559,
+          "foot_far": -14.068477211358829
+        },
+        "pelvis_offset": [
+          -0.9977635347630545,
+          3.4567085809127263
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.502456794685779,
+          "neck": 0.0,
+          "head": 0.42515574934950534,
+          "arm_near_upper": 3.478547040132316,
+          "arm_near_fore": -1.1595156800441053,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.7730104533627369,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9436769928389135,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -46.750912097004495,
+          "knee_near": 0.0,
+          "leg_near_shin": 47.617528822014094,
+          "foot_near": -0.8666167250096026,
+          "leg_far_thigh": -49.135095569757766,
+          "knee_far": 0.0,
+          "leg_far_shin": 63.75594979710024,
+          "foot_far": -10.60481656993925
+        },
+        "pelvis_offset": [
+          -0.9276125440352843,
+          2.98772580504032
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.459619407771256,
+          "neck": 0.0,
+          "head": 0.38890872965260126,
+          "arm_near_upper": 3.1819805153394647,
+          "arm_near_fore": -1.0606601717798214,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.7071067811865477,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.9067021802217338,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -46.17214269570354,
+          "knee_near": 0.0,
+          "leg_near_shin": 47.814564356604514,
+          "foot_near": -1.6424216609009736,
+          "leg_far_thigh": -48.39793423153511,
+          "knee_far": 0.0,
+          "leg_far_shin": 60.448178163732464,
+          "foot_far": -7.430846269640922
+        },
+        "pelvis_offset": [
+          -0.8485281374238572,
+          2.500000000000001
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.4123556347063699,
+          "neck": 0.0,
+          "head": 0.3489163062900053,
+          "arm_near_upper": 2.8547697787364066,
+          "arm_near_fore": -0.9515899262454689,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.6343932841636459,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.8609953299551889,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -45.57068506703757,
+          "knee_near": 0.0,
+          "leg_near_shin": 47.97885006165722,
+          "foot_near": -2.4081649946196455,
+          "leg_far_thigh": -46.98821311978683,
+          "knee_far": 0.0,
+          "leg_far_shin": 56.55719259494894,
+          "foot_far": -4.623096925338203
+        },
+        "pelvis_offset": [
+          -0.7612719409963751,
+          2.012274194959682
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.3611206514627414,
+          "neck": 0.0,
+          "head": 0.3055636281607812,
+          "arm_near_upper": 2.50006604858821,
+          "arm_near_fore": -0.8333553495294033,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.5555702330196022,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.8069966239932509,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -44.95415394293689,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.12144046300436,
+          "foot_near": -3.1672865200674702,
+          "leg_far_thigh": -44.99442370583102,
+          "knee_far": 0.0,
+          "leg_far_shin": 52.20145688299358,
+          "foot_far": -2.2311095438015798
+        },
+        "pelvis_offset": [
+          -0.6666842796235226,
+          1.5432914190872755
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.30640787893689864,
+          "neck": 0.0,
+          "head": 0.2592682052542989,
+          "arm_near_upper": 2.1212853157169906,
+          "arm_near_fore": -0.7070951052389969,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.4713967368259979,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.7452260993930298,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -44.32975366525018,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.25294389364093,
+          "foot_near": -3.92319022839075,
+          "leg_far_thigh": -42.524018493413884,
+          "knee_far": 0.0,
+          "leg_far_shin": 47.51394523405897,
+          "foot_far": -0.282206414729985
+        },
+        "pelvis_offset": [
+          -0.5656760841911975,
+          1.1110744174509959
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.24874423103730878,
+          "neck": 0.0,
+          "head": 0.21047588780079973,
+          "arm_near_upper": 1.7220754456429068,
+          "arm_near_fore": -0.5740251485476355,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.3826834323650904,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.6762786400736287,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -43.70402057787809,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.38312812334901,
+          "foot_near": -4.679107545470924,
+          "leg_far_thigh": -39.70320189923203,
+          "knee_far": 0.0,
+          "leg_far_shin": 42.64954832271177,
+          "foot_far": 1.2110016380329789
+        },
+        "pelvis_offset": [
+          -0.4592201188381084,
+          0.7322330470336336
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.18868504021540064,
+          "neck": 0.0,
+          "head": 0.15965657248995438,
+          "arm_near_upper": 1.3062810476450812,
+          "arm_near_fore": -0.43542701588169375,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.2902846772544625,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.6008182477588079,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -43.08258564952319,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.5205416872951,
+          "foot_near": -5.4379560377719125,
+          "leg_far_thigh": -36.68443160963557,
+          "knee_far": 0.0,
+          "leg_far_shin": 37.802562203342006,
+          "foot_far": 2.2396641805286563
+        },
+        "pelvis_offset": [
+          -0.34834161270535496,
+          0.4213259692436372
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.12680870931048369,
+          "neck": 0.0,
+          "head": 0.10729967710887081,
+          "arm_near_upper": 0.8779064490725792,
+          "arm_near_fore": -0.29263548302419307,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.19509032201612872,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.519571647277407,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -42.46996935455047,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.67217155193254,
+          "foot_near": -6.20220219738207,
+          "leg_far_thigh": -33.666089853198656,
+          "knee_far": 0.0,
+          "leg_far_shin": 33.2409138673908,
+          "foot_far": 2.782159669937841
+        },
+        "pelvis_offset": [
+          -0.23410838641935444,
+          0.190301168721784
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.06371114121421433,
+          "neck": 0.0,
+          "head": 0.05390942718125828,
+          "arm_near_upper": 0.4410771314830223,
+          "arm_near_fore": -0.14702571049434077,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.0980171403295605,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.4333212878059701,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -41.86942016384267,
+          "knee_near": 0.0,
+          "leg_near_shin": 48.84315756143683,
+          "foot_near": -6.973737397594161,
+          "leg_far_thigh": -30.937742578630328,
+          "knee_far": 0.0,
+          "leg_far_shin": 29.37664812970835,
+          "foot_far": 2.7759953484382986
+        },
+        "pelvis_offset": [
+          -0.11762056839547261,
+          0.048036798991923646
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.0,
+          "neck": 0.0,
+          "head": -0.0,
+          "arm_near_upper": -0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.34289780745545134,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -41.28280628080166,
+          "knee_near": 0.0,
+          "leg_near_shin": 49.03658192048986,
+          "foot_near": -7.753775639688199,
+          "leg_far_thigh": -29.07946182187387,
+          "knee_far": 0.0,
+          "leg_far_shin": 27.055164296363206,
+          "foot_far": 2.0242975255106663
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            50.0
+          ],
+          "far": [
+            0.0,
+            65.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "root_motion_source_px_per_cycle": 280.0
+  },
+  "attack_01": {
+    "length": 1.05,
+    "loop": false,
+    "times": [
+      0,
+      0.16,
+      0.3,
+      0.43,
+      0.53,
+      0.65,
+      0.83,
+      1.05
+    ],
+    "poses": [
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0,
+          "neck": 0.0,
+          "head": 0.0,
+          "arm_near_upper": 0,
+          "arm_near_fore": 0,
+          "hand_near": 0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -0.39433160847265586,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.6693741559723682,
+          "foot_near": -0.2750425474997123,
+          "leg_far_thigh": 5.427884546669678,
+          "knee_far": 0.0,
+          "leg_far_shin": -8.541208260549572,
+          "foot_far": 3.113323713879894
+        },
+        "pelvis_offset": [
+          0,
+          0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.1979617944060692
+          ],
+          "far": [
+            0.0,
+            -3.337162371643899
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -6,
+          "neck": 0.0,
+          "head": 3.5999999999999996,
+          "arm_near_upper": -75,
+          "arm_near_fore": 30,
+          "hand_near": -25,
+          "sword_socket": 0.0,
+          "arm_far_upper": -8.399999999999999,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 1.7999999999999998,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -3.916059791595583,
+          "knee_near": 0.0,
+          "leg_near_shin": 4.269374155972373,
+          "foot_near": -0.35331436437678976,
+          "leg_far_thigh": 1.6480026080401362,
+          "knee_far": 0.0,
+          "leg_far_shin": -4.941208260549567,
+          "foot_far": 3.293205652509431
+        },
+        "pelvis_offset": [
+          -10,
+          6
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            -5.654818414144756
+          ],
+          "far": [
+            0.0,
+            -7.467409241517657
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -11,
+          "neck": 0.0,
+          "head": 6.6,
+          "arm_near_upper": -150,
+          "arm_near_fore": 55,
+          "hand_near": -35,
+          "sword_socket": 0.0,
+          "arm_far_upper": -15.399999999999999,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 3.3,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -7.441216000575954,
+          "knee_near": 0.0,
+          "leg_near_shin": 7.869374155972365,
+          "foot_near": -0.4281581553964111,
+          "leg_far_thigh": -2.1535367160577334,
+          "knee_far": 0.0,
+          "leg_far_shin": -1.3412082605495752,
+          "foot_far": 3.4947449766073087
+        },
+        "pelvis_offset": [
+          -20,
+          12
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            -10.874745789387362
+          ],
+          "far": [
+            0.0,
+            -10.974637667052093
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -5,
+          "neck": 0.0,
+          "head": 3.0,
+          "arm_near_upper": -135,
+          "arm_near_fore": 25,
+          "hand_near": -25,
+          "sword_socket": 0.0,
+          "arm_far_upper": -7.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 1.5,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -7.163471865609759,
+          "knee_near": 0.0,
+          "leg_near_shin": 10.269374155972368,
+          "foot_near": -3.105902290362609,
+          "leg_far_thigh": -1.8812604396783068,
+          "knee_far": 0.0,
+          "leg_far_shin": 1.0587917394504283,
+          "foot_far": 0.8224687002278785
+        },
+        "pelvis_offset": [
+          -8,
+          16
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            -12.411618291480409
+          ],
+          "far": [
+            0.0,
+            -14.901250740920432
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 19,
+          "neck": 0.0,
+          "head": -11.4,
+          "arm_near_upper": -85,
+          "arm_near_fore": -5,
+          "hand_near": 30,
+          "sword_socket": 0.0,
+          "arm_far_upper": -26.599999999999998,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -5.7,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -3.3712245479761496,
+          "knee_near": 0.0,
+          "leg_near_shin": 15.069374155972364,
+          "foot_near": -11.698149607996214,
+          "leg_far_thigh": 2.0115698997894635,
+          "knee_far": 0.0,
+          "leg_far_shin": 5.858791739450423,
+          "foot_far": -7.870361639239887
+        },
+        "pelvis_offset": [
+          38,
+          24
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            -9.468058019303726
+          ],
+          "far": [
+            0.0,
+            -20.870769090566
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 22,
+          "neck": 0.0,
+          "head": -13.2,
+          "arm_near_upper": -20,
+          "arm_near_fore": -10,
+          "hand_near": 10,
+          "sword_socket": 0.0,
+          "arm_far_upper": -30.799999999999997,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -6.6,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -0.9769661020040813,
+          "knee_near": 0.0,
+          "leg_near_shin": 12.66937415597236,
+          "foot_near": -11.692408053968279,
+          "leg_far_thigh": 4.584207928815858,
+          "knee_far": 0.0,
+          "leg_far_shin": 3.458791739450432,
+          "foot_far": -8.04299966826629
+        },
+        "pelvis_offset": [
+          45,
+          20
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            -5.535096701677503
+          ],
+          "far": [
+            0.0,
+            -18.02667387201609
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 7,
+          "neck": 0.0,
+          "head": -4.2,
+          "arm_near_upper": -4,
+          "arm_near_fore": -4,
+          "hand_near": 0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -9.799999999999999,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -2.1,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -0.3976040051553532,
+          "knee_near": 0.0,
+          "leg_near_shin": 4.26937415597236,
+          "foot_near": -3.871770150817007,
+          "leg_far_thigh": 5.385598072489822,
+          "knee_far": 0.0,
+          "leg_far_shin": -4.941208260549567,
+          "foot_far": -0.44438981194025473
+        },
+        "pelvis_offset": [
+          15,
+          6
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            -2.3069955146315806
+          ],
+          "far": [
+            0.0,
+            -8.739910788438237
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0,
+          "neck": 0.0,
+          "head": 0.0,
+          "arm_near_upper": 0,
+          "arm_near_fore": 0,
+          "hand_near": 0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -0.39433160847265586,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.6693741559723682,
+          "foot_near": -0.2750425474997123,
+          "leg_far_thigh": 5.427884546669678,
+          "knee_far": 0.0,
+          "leg_far_shin": -8.541208260549572,
+          "foot_far": 3.113323713879894
+        },
+        "pelvis_offset": [
+          0,
+          0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.1979617944060692
+          ],
+          "far": [
+            0.0,
+            -3.337162371643899
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "method_events": [
+      {
+        "time": 0.53,
+        "method": "_event_attack_hit"
+      }
+    ]
+  },
+  "hit": {
+    "length": 0.32,
+    "loop": false,
+    "times": [
+      0,
+      0.08,
+      0.16,
+      0.24,
+      0.32
+    ],
+    "poses": [
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0,
+          "neck": 0.0,
+          "head": 0,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -4,
+          "neck": 0.0,
+          "head": -1,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 3,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 1.5,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0.8,
+          "neck": 0.0,
+          "head": 0.2,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": -0.6000000000000001,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -0.30000000000000004,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.4,
+          "neck": 0.0,
+          "head": -0.1,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.30000000000000004,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.15000000000000002,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0,
+          "neck": 0.0,
+          "head": 0,
+          "arm_near_upper": 0.0,
+          "arm_near_fore": 0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "death": {
+    "length": 1.3,
+    "loop": false,
+    "times": [
+      0,
+      0.14,
+      0.3,
+      0.48,
+      0.67,
+      0.9,
+      1.12,
+      1.3
+    ],
+    "poses": [
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 0,
+          "neck": 0.0,
+          "head": 0.0,
+          "arm_near_upper": -0.0,
+          "arm_near_fore": -0.0,
+          "hand_near": 0.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.0,
+          "arm_far_fore": 0.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": -0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.0,
+          0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0,
+        "visual_offset": [
+          0.0,
+          -3.0
+        ],
+        "bone_scales": {
+          "cape_root": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -4,
+          "neck": 0.0,
+          "head": 0.2962962962962963,
+          "arm_near_upper": -1.1851851851851851,
+          "arm_near_fore": -1.037037037037037,
+          "hand_near": 0.5925925925925926,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0.7407407407407408,
+          "arm_far_fore": 0.5925925925925926,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": 0.8,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -1.1851851851851851,
+          "knee_near": 0.0,
+          "leg_near_shin": 1.5407407407407407,
+          "foot_near": -0.35555555555555557,
+          "leg_far_thigh": -0.7407407407407408,
+          "knee_far": 0.0,
+          "leg_far_shin": 1.4814814814814816,
+          "foot_far": -0.7407407407407408
+        },
+        "pelvis_offset": [
+          0.4444444444444445,
+          8
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0,
+        "visual_offset": [
+          4.444444444444445,
+          -10.771176038577323
+        ],
+        "bone_scales": {
+          "cape_root": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 12,
+          "neck": 0.0,
+          "head": 0.9259259259259258,
+          "arm_near_upper": -3.7037037037037033,
+          "arm_near_fore": -3.2407407407407405,
+          "hand_near": 1.8518518518518516,
+          "sword_socket": 0.0,
+          "arm_far_upper": 2.314814814814815,
+          "arm_far_fore": 1.8518518518518516,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -2.4000000000000004,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -3.7037037037037033,
+          "knee_near": 0.0,
+          "leg_near_shin": 4.814814814814815,
+          "foot_near": -1.1111111111111112,
+          "leg_far_thigh": -2.314814814814815,
+          "knee_far": 0.0,
+          "leg_far_shin": 4.62962962962963,
+          "foot_far": -2.314814814814815
+        },
+        "pelvis_offset": [
+          1.3888888888888888,
+          25
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0,
+        "visual_offset": [
+          13.888888888888888,
+          -27.01539907062329
+        ],
+        "bone_scales": {
+          "cape_root": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 24,
+          "neck": 0.0,
+          "head": 2.6666666666666665,
+          "arm_near_upper": -10.666666666666666,
+          "arm_near_fore": -9.333333333333334,
+          "hand_near": 5.333333333333333,
+          "sword_socket": 0.0,
+          "arm_far_upper": 6.666666666666667,
+          "arm_far_fore": 5.333333333333333,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -4.800000000000001,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -10.666666666666666,
+          "knee_near": 0.0,
+          "leg_near_shin": 13.866666666666667,
+          "foot_near": -11.2,
+          "leg_far_thigh": -6.666666666666667,
+          "knee_far": 0.0,
+          "leg_far_shin": 13.333333333333334,
+          "foot_far": -14.666666666666668
+        },
+        "pelvis_offset": [
+          4.0,
+          72
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 8,
+        "visual_offset": [
+          40.0,
+          -57.817867004040515
+        ],
+        "bone_scales": {
+          "cape_root": [
+            0.9255813953488372,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 35,
+          "neck": 0.0,
+          "head": 5.481481481481482,
+          "arm_near_upper": -21.925925925925927,
+          "arm_near_fore": -19.185185185185187,
+          "hand_near": 10.962962962962964,
+          "sword_socket": 0.0,
+          "arm_far_upper": 13.703703703703704,
+          "arm_far_fore": 10.962962962962964,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -7.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -21.925925925925927,
+          "knee_near": 0.0,
+          "leg_near_shin": 28.503703703703703,
+          "foot_near": -33.577777777777776,
+          "leg_far_thigh": -13.703703703703704,
+          "knee_far": 0.0,
+          "leg_far_shin": 27.40740740740741,
+          "foot_far": -40.7037037037037
+        },
+        "pelvis_offset": [
+          8.222222222222223,
+          148
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 27,
+        "visual_offset": [
+          82.22222222222223,
+          -145.60412221697982
+        ],
+        "bone_scales": {
+          "cape_root": [
+            0.7488372093023256,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 25,
+          "neck": 0.0,
+          "head": 8.518518518518519,
+          "arm_near_upper": -34.074074074074076,
+          "arm_near_fore": -29.814814814814817,
+          "hand_near": 17.037037037037038,
+          "sword_socket": 0.0,
+          "arm_far_upper": 21.296296296296298,
+          "arm_far_fore": 17.037037037037038,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -5.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -34.074074074074076,
+          "knee_near": 0.0,
+          "leg_near_shin": 44.2962962962963,
+          "foot_near": -75.22222222222223,
+          "leg_far_thigh": -21.296296296296298,
+          "knee_far": 0.0,
+          "leg_far_shin": 42.592592592592595,
+          "foot_far": -86.2962962962963
+        },
+        "pelvis_offset": [
+          12.777777777777779,
+          230
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 65,
+        "visual_offset": [
+          127.77777777777779,
+          -201.6269375890255
+        ],
+        "bone_scales": {
+          "cape_root": [
+            0.39534883720930225,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 15,
+          "neck": 0.0,
+          "head": 10.0,
+          "arm_near_upper": -40.0,
+          "arm_near_fore": -35.0,
+          "hand_near": 20.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 25.0,
+          "arm_far_fore": 20.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -3.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -40.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 52.0,
+          "foot_near": -98.0,
+          "leg_far_thigh": -25.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 50.0,
+          "foot_far": -111.0
+        },
+        "pelvis_offset": [
+          15.0,
+          270
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 86,
+        "visual_offset": [
+          150.0,
+          -323.8373945299583
+        ],
+        "bone_scales": {
+          "cape_root": [
+            0.19999999999999996,
+            1.0
+          ]
+        }
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": 15,
+          "neck": 0.0,
+          "head": 10.0,
+          "arm_near_upper": -40.0,
+          "arm_near_fore": -35.0,
+          "hand_near": 20.0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 25.0,
+          "arm_far_fore": 20.0,
+          "hand_far": 0.0,
+          "shield_socket": 0.0,
+          "cape_root": -3.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": -40.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 52.0,
+          "foot_near": -98.0,
+          "leg_far_thigh": -25.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 50.0,
+          "foot_far": -111.0
+        },
+        "pelvis_offset": [
+          15.0,
+          270
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 86,
+        "visual_offset": [
+          150.0,
+          -323.8373945299583
+        ],
+        "bone_scales": {
+          "cape_root": [
+            0.19999999999999996,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  "skill_command": {
+    "length": 1.7,
+    "loop": false,
+    "times": [
+      0,
+      0.18,
+      0.42,
+      0.68,
+      0.9,
+      1.14,
+      1.4,
+      1.7
+    ],
+    "poses": [
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.0,
+          "neck": 0.0,
+          "head": 0,
+          "arm_near_upper": 0,
+          "arm_near_fore": 0,
+          "hand_near": 0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0,
+          "arm_far_fore": 0,
+          "hand_far": 0,
+          "shield_socket": 0.0,
+          "cape_root": -0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0,
+          0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.375,
+          "neck": 0.0,
+          "head": -0.3,
+          "arm_near_upper": 25,
+          "arm_near_fore": 8,
+          "hand_near": 5,
+          "sword_socket": 0.0,
+          "arm_far_upper": -3.75,
+          "arm_far_fore": -1.95,
+          "hand_far": 2.25,
+          "shield_socket": 0.0,
+          "cape_root": -0.22499999999999998,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0.3,
+          -0.6
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -1.625,
+          "neck": 0.0,
+          "head": -1.3,
+          "arm_near_upper": 85,
+          "arm_near_fore": 30,
+          "hand_near": 18,
+          "sword_socket": 0.0,
+          "arm_far_upper": -16.25,
+          "arm_far_fore": -8.450000000000001,
+          "hand_far": 9.75,
+          "shield_socket": 0.0,
+          "cape_root": -0.9750000000000001,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          1.3,
+          -2.6
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -2.5,
+          "neck": 0.0,
+          "head": -2,
+          "arm_near_upper": 125,
+          "arm_near_fore": 65,
+          "hand_near": 35,
+          "sword_socket": 0.0,
+          "arm_far_upper": -25,
+          "arm_far_fore": -13,
+          "hand_far": 15,
+          "shield_socket": 0.0,
+          "cape_root": -1.5,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          2,
+          -4
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -2.5,
+          "neck": 0.0,
+          "head": -2,
+          "arm_near_upper": 125,
+          "arm_near_fore": 65,
+          "hand_near": 35,
+          "sword_socket": 0.0,
+          "arm_far_upper": -25,
+          "arm_far_fore": -13,
+          "hand_far": 15,
+          "shield_socket": 0.0,
+          "cape_root": -1.5,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          2,
+          -4
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -2.5,
+          "neck": 0.0,
+          "head": -2,
+          "arm_near_upper": 125,
+          "arm_near_fore": 65,
+          "hand_near": 35,
+          "sword_socket": 0.0,
+          "arm_far_upper": -25,
+          "arm_far_fore": -13,
+          "hand_far": 15,
+          "shield_socket": 0.0,
+          "cape_root": -1.5,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          2,
+          -4
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -1.25,
+          "neck": 0.0,
+          "head": -1.0,
+          "arm_near_upper": 65,
+          "arm_near_fore": 25,
+          "hand_near": 15,
+          "sword_socket": 0.0,
+          "arm_far_upper": -12.5,
+          "arm_far_fore": -6.5,
+          "hand_far": 7.5,
+          "shield_socket": 0.0,
+          "cape_root": -0.75,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          1.0,
+          -2.0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "rotations": {
+          "pelvis": 0.0,
+          "torso": -0.0,
+          "neck": 0.0,
+          "head": 0,
+          "arm_near_upper": 0,
+          "arm_near_fore": 0,
+          "hand_near": 0,
+          "sword_socket": 0.0,
+          "arm_far_upper": 0,
+          "arm_far_fore": 0,
+          "hand_far": 0,
+          "shield_socket": 0.0,
+          "cape_root": -0.0,
+          "cape_mid": 0.0,
+          "cape_tip": 0.0,
+          "leg_near_thigh": 0.0,
+          "knee_near": 0.0,
+          "leg_near_shin": 0.0,
+          "foot_near": 0.0,
+          "leg_far_thigh": 0.0,
+          "knee_far": 0.0,
+          "leg_far_shin": 0.0,
+          "foot_far": 0.0
+        },
+        "pelvis_offset": [
+          0,
+          0
+        ],
+        "hip_offsets": {
+          "near": [
+            0.0,
+            0.0
+          ],
+          "far": [
+            0.0,
+            0.0
+          ]
+        },
+        "visual_rotation": 0.0,
+        "visual_offset": [
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "method_events": [
+      {
+        "time": 0.82,
+        "method": "_event_command_release"
+      }
+    ]
+  }
+}

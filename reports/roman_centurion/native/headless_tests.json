@@ -1,0 +1,26 @@
+{
+	"animation_count": 6,
+	"attack_hit": 1,
+	"bones": 23,
+	"command_release": 1,
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"errors": [],
+	"interpolated_support_drift_256px": 0.138899129231771,
+	"native_meshes": 10,
+	"scene_sha256": "35211895ed1349d1f8b231b4aaf2b4e24bcc9cd252e1b76a8b740521f8114f51",
+	"sprites": 21,
+	"status": "PASS",
+	"walk_max_source_error": 0.00013647876039613,
+	"walk_max_support_drift_256px": 0.0000109649122807018,
+	"walk_max_support_drift_source": 0.00006103515625
+}

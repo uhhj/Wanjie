@@ -16,4 +16,6 @@
 
 历史V1停止点：BLOCKED_COMPLETE_BODY_ART_GATE。失败证据见 reports/roman_centurion/complete_body_gate.json 与 complete_body_fix_targets.png。遮罩也有遗漏，不能把问题全部归因于模型。后续从原件与已有mask继续局部修复；不重启源图阶段，不把失败结果标正式。
 
-当前V2：COMPLETE_BODY_GATE_PASS。使用 work/roman_centurion/03_complete_body_v2.png。三个缺陷已修复并经256/192px审查；复现 tools/finalize_centurion_body_v2.py，证据 reports/roman_centurion/complete_body_gate_v2.json。尚未批准正式拆件或原生动画。
+V2身体门禁：COMPLETE_BODY_GATE_PASS。使用 work/roman_centurion/03_complete_body_v2.png。三个缺陷已修复并经256/192px审查；复现 tools/finalize_centurion_body_v2.py，证据 reports/roman_centurion/complete_body_gate_v2.json。
+
+当前进度：21件正式部件已通过静态与有限关节运动审查，并接入23骨 HUMAN_MEDIUM_RIG_V1 重定向副本。六个原生动画候选已导出256/192px各16帧，Rig Lab、单次攻击/号令事件、行走支撑脚插值采样、20/50单位桌面测试已完成。技术验证PASS，最终动作美术仍需审查，尤其死亡末态的重量感和手/武器接地；不得将此状态写成全部动画已最终通过。详见 docs/ROMAN_CENTURION_NATIVE_RIG_V1.md 和 reports/roman_centurion/native/animation_visual_gate.json。

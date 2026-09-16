@@ -1,0 +1,53 @@
+{
+  "keys": [
+    {
+      "key": 0,
+      "time": 0,
+      "floor_correction_source_px": -3.0,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 1,
+      "time": 0.14,
+      "floor_correction_source_px": -10.771176038577323,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 2,
+      "time": 0.3,
+      "floor_correction_source_px": -27.01539907062329,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 3,
+      "time": 0.48,
+      "floor_correction_source_px": -57.817867004040515,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 4,
+      "time": 0.67,
+      "floor_correction_source_px": -145.60412221697982,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 5,
+      "time": 0.9,
+      "floor_correction_source_px": -201.6269375890255,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 6,
+      "time": 1.12,
+      "floor_correction_source_px": -323.8373945299583,
+      "method": "Actual alpha material vertices including native weights"
+    },
+    {
+      "key": 7,
+      "time": 1.3,
+      "floor_correction_source_px": -323.8373945299583,
+      "method": "Actual alpha material vertices including native weights"
+    }
+  ],
+  "intermediate_gpu_frames_require_review": true
+}

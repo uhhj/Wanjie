@@ -1,0 +1,38 @@
+{
+  "status": "ART_REVIEW_REQUIRED",
+  "technical_status": "PASS",
+  "scene_sha256": "35211895ed1349d1f8b231b4aaf2b4e24bcc9cd252e1b76a8b740521f8114f51",
+  "review_method": "Agent inspection of actual Godot 256/192px contact sheets; user review has not yet been received",
+  "animations": {
+    "idle": "FIRST_DRAFT_REVIEWED",
+    "walk": "FOOT_CONTACT_PASS_VISUAL_REVIEW_REQUIRED",
+    "attack_01": "EVENT_PASS_VISUAL_REVIEW_REQUIRED",
+    "hit": "FIRST_DRAFT_REVIEWED",
+    "death": "USER_ACCEPTED_RETAINED",
+    "skill_command": "EVENT_PASS_POSE_REVIEW_REQUIRED"
+  },
+  "remaining_review_points": [
+    "Revised walk: fixed hip lane and coordinated thigh/shin/ankle; front-view near-foot art remains frozen.",
+    "Larger attack windup, extension and torso follow-through: user visual review pending.",
+    "Command raises sword from screen-left, distinct from forward attack; user visual review pending.",
+    "Frozen closed-mouth head: no mouth animation or voice."
+  ],
+  "reports": [
+    "reports/roman_centurion/animations/idle_256.gif",
+    "reports/roman_centurion/animations/idle_192.gif",
+    "reports/roman_centurion/animations/walk_256.gif",
+    "reports/roman_centurion/animations/walk_192.gif",
+    "reports/roman_centurion/animations/attack_01_256.gif",
+    "reports/roman_centurion/animations/attack_01_192.gif",
+    "reports/roman_centurion/animations/hit_256.gif",
+    "reports/roman_centurion/animations/hit_192.gif",
+    "reports/roman_centurion/animations/death_256.gif",
+    "reports/roman_centurion/animations/death_192.gif",
+    "reports/roman_centurion/animations/skill_command_256.gif",
+    "reports/roman_centurion/animations/skill_command_192.gif"
+  ],
+  "non_blocking": [
+    "Approved source high-resolution alpha imperfections remain non-blocking at combat scale"
+  ],
+  "final_animation_gate": "NOT_APPROVED"
+}

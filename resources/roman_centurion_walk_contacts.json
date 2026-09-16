@@ -1,0 +1,1796 @@
+{
+  "samples": [
+    {
+      "time": 0.0,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.0,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.01640625,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.01640625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.0328125,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.0328125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.049218750000000006,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.049218750000000006,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.065625,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.065625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.08203125,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.08203125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.09843750000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        535.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.09843750000000001,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.11484375000000001,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        537.8975296020508,
+        1474.9025981601471
+      ]
+    },
+    {
+      "time": 0.11484375000000001,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.13125,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        543.88671875,
+        1471.2606773318314
+      ]
+    },
+    {
+      "time": 0.13125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.14765625000000002,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        551.2217330932617,
+        1466.3373433475
+      ]
+    },
+    {
+      "time": 0.14765625000000002,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.1640625,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        559.7824096679688,
+        1460.6237363774037
+      ]
+    },
+    {
+      "time": 0.1640625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.18046875,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        569.4485855102539,
+        1454.477611608407
+      ]
+    },
+    {
+      "time": 0.18046875,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.19687500000000002,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        580.10009765625,
+        1448.2092316176247
+      ]
+    },
+    {
+      "time": 0.19687500000000002,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.21328125,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        591.6167831420898,
+        1442.1005367747166
+      ]
+    },
+    {
+      "time": 0.21328125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.22968750000000002,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        603.8784790039062,
+        1436.4082819845003
+      ]
+    },
+    {
+      "time": 0.22968750000000002,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.24609375,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        616.765022277832,
+        1431.361797021516
+      ]
+    },
+    {
+      "time": 0.24609375,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.2625,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        630.15625,
+        1427.158869432505
+      ]
+    },
+    {
+      "time": 0.2625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.27890625,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        643.931999206543,
+        1423.9612453431982
+      ]
+    },
+    {
+      "time": 0.27890625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.29531250000000003,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        657.9721069335938,
+        1421.890517375351
+      ]
+    },
+    {
+      "time": 0.29531250000000003,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.31171875,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        672.1564102172852,
+        1421.0248455865717
+      ]
+    },
+    {
+      "time": 0.31171875,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.328125,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        686.36474609375,
+        1421.3967814361183
+      ]
+    },
+    {
+      "time": 0.328125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.34453125,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        700.4769515991211,
+        1422.992347784329
+      ]
+    },
+    {
+      "time": 0.34453125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.3609375,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        714.3728637695312,
+        1425.751434864465
+      ]
+    },
+    {
+      "time": 0.3609375,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.37734375000000003,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        727.9323196411133,
+        1429.569486738651
+      ]
+    },
+    {
+      "time": 0.37734375000000003,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.39375000000000004,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        741.03515625,
+        1434.3003641876012
+      ]
+    },
+    {
+      "time": 0.39375000000000004,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.41015625,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        753.5612106323242,
+        1439.760165280841
+      ]
+    },
+    {
+      "time": 0.41015625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.4265625,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        765.3903198242188,
+        1445.7316389091359
+      ]
+    },
+    {
+      "time": 0.4265625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.44296875,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        776.4023208618164,
+        1451.9685792238279
+      ]
+    },
+    {
+      "time": 0.44296875,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.45937500000000003,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        786.47705078125,
+        1458.1990759473522
+      ]
+    },
+    {
+      "time": 0.45937500000000003,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.47578125000000004,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        795.4943466186523,
+        1464.125195312779
+      ]
+    },
+    {
+      "time": 0.47578125000000004,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.4921875,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        803.3340454101562,
+        1469.4125252522326
+      ]
+    },
+    {
+      "time": 0.4921875,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.5085937500000001,
+      "side": "near",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        809.8759841918945,
+        1473.644453783379
+      ]
+    },
+    {
+      "time": 0.5085937500000001,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.525,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.525,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.54140625,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.54140625,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.5578125,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.5578125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.57421875,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.57421875,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.5906250000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.5906250000000001,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.60703125,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.60703125,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.6234375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.6234375,
+      "side": "far",
+      "support": true,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        829.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.63984375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.63984375,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        831.8975296020508,
+        1474.9025981601471
+      ]
+    },
+    {
+      "time": 0.65625,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.65625,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        837.88671875,
+        1471.2606773318314
+      ]
+    },
+    {
+      "time": 0.6726562500000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.6726562500000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        845.2217330932617,
+        1466.3373433475
+      ]
+    },
+    {
+      "time": 0.6890625,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.6890625,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        853.7824096679688,
+        1460.6237363774037
+      ]
+    },
+    {
+      "time": 0.70546875,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.70546875,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        863.4485855102539,
+        1454.477611608407
+      ]
+    },
+    {
+      "time": 0.721875,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.721875,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        874.10009765625,
+        1448.2092316176247
+      ]
+    },
+    {
+      "time": 0.73828125,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.73828125,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        885.6167831420898,
+        1442.1005367747166
+      ]
+    },
+    {
+      "time": 0.7546875000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.7546875000000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        897.8784790039062,
+        1436.4082819845003
+      ]
+    },
+    {
+      "time": 0.77109375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.77109375,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        910.765022277832,
+        1431.361797021516
+      ]
+    },
+    {
+      "time": 0.7875000000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.7875000000000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        924.15625,
+        1427.158869432505
+      ]
+    },
+    {
+      "time": 0.80390625,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.80390625,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        937.931999206543,
+        1423.9612453431982
+      ]
+    },
+    {
+      "time": 0.8203125,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.8203125,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        951.9721069335938,
+        1421.890517375351
+      ]
+    },
+    {
+      "time": 0.8367187500000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.8367187500000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        966.1564102172852,
+        1421.0248455865717
+      ]
+    },
+    {
+      "time": 0.853125,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.853125,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        980.36474609375,
+        1421.3967814361183
+      ]
+    },
+    {
+      "time": 0.8695312500000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.8695312500000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        994.4769515991211,
+        1422.992347784329
+      ]
+    },
+    {
+      "time": 0.8859375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.8859375,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1008.3728637695312,
+        1425.751434864465
+      ]
+    },
+    {
+      "time": 0.90234375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.90234375,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1021.9323196411133,
+        1429.569486738651
+      ]
+    },
+    {
+      "time": 0.9187500000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.9187500000000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1035.03515625,
+        1434.3003641876012
+      ]
+    },
+    {
+      "time": 0.93515625,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.93515625,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1047.5612106323242,
+        1439.760165280841
+      ]
+    },
+    {
+      "time": 0.9515625000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.9515625000000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1059.3903198242188,
+        1445.7316389091359
+      ]
+    },
+    {
+      "time": 0.96796875,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.96796875,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1070.4023208618164,
+        1451.9685792238279
+      ]
+    },
+    {
+      "time": 0.984375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 0.984375,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1080.47705078125,
+        1458.1990759473522
+      ]
+    },
+    {
+      "time": 1.00078125,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 1.00078125,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1089.4943466186523,
+        1464.125195312779
+      ]
+    },
+    {
+      "time": 1.0171875000000001,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 1.0171875000000001,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1097.3340454101562,
+        1469.4125252522326
+      ]
+    },
+    {
+      "time": 1.03359375,
+      "side": "near",
+      "support": true,
+      "support_id": 1,
+      "contact_local": [
+        13,
+        123
+      ],
+      "expected_world_contact": [
+        815.0,
+        1476.0
+      ]
+    },
+    {
+      "time": 1.03359375,
+      "side": "far",
+      "support": false,
+      "support_id": 0,
+      "contact_local": [
+        45,
+        91
+      ],
+      "expected_world_contact": [
+        1103.8759841918945,
+        1473.644453783379
+      ]
+    }
+  ]
+}

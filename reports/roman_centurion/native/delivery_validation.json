@@ -1,0 +1,88 @@
+{
+  "status": "TECHNICAL_PASS",
+  "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
+  "body_gate": "PASS",
+  "parts_gate": "PASS",
+  "parts_count": 21,
+  "bones": 23,
+  "sprites": 21,
+  "native_polygon_bindings": 10,
+  "animations": 6,
+  "headless": "PASS",
+  "rig_lab": "PASS",
+  "attack_hit": 1,
+  "command_release": 1,
+  "interpolated_foot_drift_256px": 0.138899129231771,
+  "gpu_frames": 192,
+  "clipped_frames": 0,
+  "stress": [
+    {
+      "animation": "idle",
+      "fps": 100.139263440785,
+      "frames": 301,
+      "nodes": 1213,
+      "seconds": 3.005814,
+      "units": 20
+    },
+    {
+      "animation": "walk",
+      "fps": 75.6003147903856,
+      "frames": 227,
+      "nodes": 1213,
+      "seconds": 3.002633,
+      "units": 20
+    },
+    {
+      "animation": "attack_01",
+      "fps": 112.066055790274,
+      "frames": 337,
+      "nodes": 1213,
+      "seconds": 3.007155,
+      "units": 20
+    },
+    {
+      "animation": "skill_command",
+      "fps": 64.887593059623,
+      "frames": 195,
+      "nodes": 1213,
+      "seconds": 3.005197,
+      "units": 20
+    },
+    {
+      "animation": "idle",
+      "fps": 45.3013053104788,
+      "frames": 136,
+      "nodes": 2983,
+      "seconds": 3.002121,
+      "units": 50
+    },
+    {
+      "animation": "walk",
+      "fps": 26.6538905684542,
+      "frames": 80,
+      "nodes": 2983,
+      "seconds": 3.001438,
+      "units": 50
+    },
+    {
+      "animation": "attack_01",
+      "fps": 36.4176428250291,
+      "frames": 110,
+      "nodes": 2983,
+      "seconds": 3.020514,
+      "units": 50
+    },
+    {
+      "animation": "skill_command",
+      "fps": 44.8989474356382,
+      "frames": 135,
+      "nodes": 2983,
+      "seconds": 3.006752,
+      "units": 50
+    }
+  ],
+  "scene_sha256": "35211895ed1349d1f8b231b4aaf2b4e24bcc9cd252e1b76a8b740521f8114f51",
+  "source_body_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
+  "existing_units_and_sources_unchanged": true,
+  "visual_approval": "See animation_visual_gate.json; technical pass does not confer user art approval"
+}

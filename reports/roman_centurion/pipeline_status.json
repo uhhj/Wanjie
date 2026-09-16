@@ -1,6 +1,6 @@
 {
   "unit_id": "OD_UNIT_03_ROMAN_CENTURION",
-  "status": "COMPLETE_BODY_GATE_PASS",
+  "status": "NATIVE_TECHNICAL_PASS_ART_REVIEW_REQUIRED",
   "animations": [
     "idle",
     "walk",
@@ -11,14 +11,18 @@
   ],
   "skill_event": "command_release",
   "skill_gameplay": "future nearby ally buff consumer; rig emits signal only",
-  "godot_handoff": "NOT_READY",
+  "godot_handoff": "ASSET_HANDOFF_COMPLETE",
   "complete_body": "PASS",
-  "parts_generated": 0,
-  "parts_approved": 0,
-  "native_animations": "NOT_STARTED",
+  "parts_generated": 21,
+  "parts_approved": 21,
+  "native_animations": "SIX_CANDIDATES_RENDERED",
   "skill_reference": "GENERATED_MOTION_REFERENCE_ONLY",
   "gate_report": "reports/roman_centurion/complete_body_gate_v2.json",
   "body_file": "work/roman_centurion/03_complete_body_v2.png",
   "body_sha256": "c87fcecc013ca2751a144a1c9cbf40b6bec17150844224c974809bbb84de6bcf",
-  "next_stage": "ARTICULATED_PARTS"
+  "next_stage": "REVIEW_AND_REFINE_NATIVE_ANIMATION_CANDIDATES",
+  "native_rig": "IMPLEMENTED",
+  "production_animation_handoff": "NOT_READY_PENDING_ART_REVIEW",
+  "native_report": "reports/roman_centurion/native/delivery_validation.json",
+  "visual_gate": "reports/roman_centurion/native/animation_visual_gate.json"
 }

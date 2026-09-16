@@ -1,0 +1,16 @@
+{
+  "walk": {
+    "max_adjacent_key_rotation_degrees": 5.4833426529612765,
+    "no_full_turn_or_wrap": true
+  },
+  "attack_01": {
+    "max_adjacent_key_rotation_degrees": 75,
+    "no_full_turn_or_wrap": true
+  },
+  "skill_command": {
+    "max_adjacent_key_rotation_degrees": 65,
+    "no_full_turn_or_wrap": true
+  },
+  "death_unchanged": true,
+  "review_status": "USER_REVIEW_PENDING"
+}

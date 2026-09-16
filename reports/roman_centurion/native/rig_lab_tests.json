@@ -1,0 +1,13 @@
+{
+	"checks": [
+		"six animation choices",
+		"restart",
+		"attack event once",
+		"command event once",
+		"return idle",
+		"pause",
+		"four debug toggles"
+	],
+	"errors": [],
+	"status": "PASS"
+}

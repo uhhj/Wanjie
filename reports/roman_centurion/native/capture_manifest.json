@@ -1,0 +1,2898 @@
+{
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"frames": [
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_00.png",
+			"frame": 0,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 0.0
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_01.png",
+			"frame": 1,
+			"height": 256,
+			"sha256": "48912ea31059f0828ea15bbfa69eb7bb9203021252bdab3fe836a10b867cc9d5",
+			"time": 0.1
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_02.png",
+			"frame": 2,
+			"height": 256,
+			"sha256": "4a5a17292727f1fb0f52b0af95e1fc0329d78e6c5edea658edb9cafe26d87b70",
+			"time": 0.2
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_03.png",
+			"frame": 3,
+			"height": 256,
+			"sha256": "772958666225550e32e0c82c0d0bdb751c4665701efb822b53ee17e3d167bacb",
+			"time": 0.3
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_04.png",
+			"frame": 4,
+			"height": 256,
+			"sha256": "110a81601ebfe531cc32927897fac73437501ab36bf4ef0058ef1f26caa640c1",
+			"time": 0.4
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_05.png",
+			"frame": 5,
+			"height": 256,
+			"sha256": "772958666225550e32e0c82c0d0bdb751c4665701efb822b53ee17e3d167bacb",
+			"time": 0.5
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_06.png",
+			"frame": 6,
+			"height": 256,
+			"sha256": "4a5a17292727f1fb0f52b0af95e1fc0329d78e6c5edea658edb9cafe26d87b70",
+			"time": 0.6
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_07.png",
+			"frame": 7,
+			"height": 256,
+			"sha256": "29c2f29afcd600c1421185b94163aed8a40a740cea4c2c865d1d9add73fa7fde",
+			"time": 0.7
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_08.png",
+			"frame": 8,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 0.8
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_09.png",
+			"frame": 9,
+			"height": 256,
+			"sha256": "0042ce72f333496834a5191c8e4ae93c0384627f3fe71c8e096ace9cbb89efdc",
+			"time": 0.9
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				172,
+				161,
+				171,
+				266
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_10.png",
+			"frame": 10,
+			"height": 256,
+			"sha256": "5cc8dc34c3d5dd50739586748c7e1a05e5e19faa78d195efbe8e0f8f8c43ed25",
+			"time": 1.0
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				172,
+				161,
+				171,
+				266
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_11.png",
+			"frame": 11,
+			"height": 256,
+			"sha256": "8c91d6fc8ba1c88de7add0a07d52df9e708c048c1c03dde45ad7d26a4d28d9f5",
+			"time": 1.1
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				172,
+				161,
+				171,
+				260
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_12.png",
+			"frame": 12,
+			"height": 256,
+			"sha256": "ac67d2219791fa7d8fdc6b19f39ada4c9905547afb649fee5614dade85a9034b",
+			"time": 1.2
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				172,
+				161,
+				171,
+				266
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_13.png",
+			"frame": 13,
+			"height": 256,
+			"sha256": "8c91d6fc8ba1c88de7add0a07d52df9e708c048c1c03dde45ad7d26a4d28d9f5",
+			"time": 1.3
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				172,
+				161,
+				171,
+				266
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_14.png",
+			"frame": 14,
+			"height": 256,
+			"sha256": "5cc8dc34c3d5dd50739586748c7e1a05e5e19faa78d195efbe8e0f8f8c43ed25",
+			"time": 1.4
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				171,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_256_15.png",
+			"frame": 15,
+			"height": 256,
+			"sha256": "0042ce72f333496834a5191c8e4ae93c0384627f3fe71c8e096ace9cbb89efdc",
+			"time": 1.5
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				172,
+				161,
+				171,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_00.png",
+			"frame": 0,
+			"height": 256,
+			"sha256": "2351f16d4489d0efccd996213a53462b83ff180fbe568c0e5a1d363e4515bb69",
+			"time": 0.0
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				174,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_01.png",
+			"frame": 1,
+			"height": 256,
+			"sha256": "1bd56093b943ce3477ca81bd6ecf20532698d484cc08a63fa3fa5260ba66d649",
+			"time": 0.065625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				177,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_02.png",
+			"frame": 2,
+			"height": 256,
+			"sha256": "3fd73606f3b6ba9a415ef1b301e35bc15c835880620f8c4e357b908d23c68229",
+			"time": 0.13125
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				179,
+				165,
+				173,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_03.png",
+			"frame": 3,
+			"height": 256,
+			"sha256": "439f62b804bc4a80bb5e34bf6ab893d08eea48aca059c2f65fb5abb6c193fd0e",
+			"time": 0.196875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				182,
+				165,
+				174,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_04.png",
+			"frame": 4,
+			"height": 256,
+			"sha256": "61860b79837fdce2328c6713527c018e812d13aad6737c8013d02c50b5d4202f",
+			"time": 0.2625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				185,
+				165,
+				173,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_05.png",
+			"frame": 5,
+			"height": 256,
+			"sha256": "778e691e0aaf9ffc420d18f59019c9d03712e297193621b2976618f95a55026a",
+			"time": 0.328125
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				188,
+				164,
+				174,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_06.png",
+			"frame": 6,
+			"height": 256,
+			"sha256": "0d3eefdcd5234eaa8ba4af037126bd709504065d6c52c8ea93b0ae8f7f3837e6",
+			"time": 0.39375
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				192,
+				161,
+				173,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_07.png",
+			"frame": 7,
+			"height": 256,
+			"sha256": "2bdf56f63acd35f65f156fee228bf8fcbfc4b5268567fca8b6987905327041ab",
+			"time": 0.459375
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				196,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_08.png",
+			"frame": 8,
+			"height": 256,
+			"sha256": "433c82bd6da0a7c5c51a54fc2691d244c1d3ac90e1ef6895840d53badc66b89d",
+			"time": 0.525
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				200,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_09.png",
+			"frame": 9,
+			"height": 256,
+			"sha256": "0cef29cceef8b63bbe6062985d6fad52e6e4bf3536e028cd5443841832a64238",
+			"time": 0.590625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				204,
+				164,
+				170,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_10.png",
+			"frame": 10,
+			"height": 256,
+			"sha256": "82a7ee645f93a70cf9503300edf5c24287ee5f9d89abc1eac62f28766dbb98d8",
+			"time": 0.65625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				207,
+				165,
+				170,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_11.png",
+			"frame": 11,
+			"height": 256,
+			"sha256": "222764dd3874012a58ac45c6e68729c0b7adbcda30e74186d6145899125dc900",
+			"time": 0.721875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				211,
+				165,
+				169,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_12.png",
+			"frame": 12,
+			"height": 256,
+			"sha256": "7225ccbf9e41fae7f7fc5fae27f934b1952cdcbeaebf31ed1936d0e56017fde3",
+			"time": 0.7875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				214,
+				165,
+				169,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_13.png",
+			"frame": 13,
+			"height": 256,
+			"sha256": "63565369963e582966b71513537fed04dc22bdf50b6f4b9cf1e57822c3255fcf",
+			"time": 0.853125
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				217,
+				164,
+				169,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_14.png",
+			"frame": 14,
+			"height": 256,
+			"sha256": "9222c5bc7e7cd6392cf3cf7446901076fcfce66e24389edb7051c19cd304eb18",
+			"time": 0.91875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				220,
+				164,
+				170,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_256_15.png",
+			"frame": 15,
+			"height": 256,
+			"sha256": "900e0a73c645396f51b58221c34d7af257a4ccd7e66ae2af790e8d20b8983538",
+			"time": 0.984375
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_00.png",
+			"frame": 0,
+			"height": 256,
+			"sha256": "674a39ff61f22449c232dd7aff99afb8f9d18b68c02db3abab432b2111a086a2",
+			"time": 0.0
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				172,
+				164,
+				169,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_01.png",
+			"frame": 1,
+			"height": 256,
+			"sha256": "58eb108d87da6cba7a27df54902f97a6c980773a50db77439bbb2cdc7854ea16",
+			"time": 0.07
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				172,
+				165,
+				177,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_02.png",
+			"frame": 2,
+			"height": 256,
+			"sha256": "17ac60a25caface55efe3723a49cfc21aa06eb99a7cca072442d83235729a3c3",
+			"time": 0.14
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				172,
+				166,
+				169,
+				256
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_03.png",
+			"frame": 3,
+			"height": 256,
+			"sha256": "369134a515a321718f967e9b6ba5bd9b1d1d6f4197b9050e1ba0658c358eab7e",
+			"time": 0.21
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				173,
+				159,
+				161,
+				263
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_04.png",
+			"frame": 4,
+			"height": 256,
+			"sha256": "22cf8f40b0c38c597d36abd3589f9499e7e5a4c6d38c5fd1ec9813f3c970817e",
+			"time": 0.28
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				173,
+				153,
+				162,
+				269
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_05.png",
+			"frame": 5,
+			"height": 256,
+			"sha256": "fbb6df9635c2965fc820ea0f6ed1a867635e10ec3531bc80fc673aaf87928013",
+			"time": 0.35
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				172,
+				154,
+				167,
+				268
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_06.png",
+			"frame": 6,
+			"height": 256,
+			"sha256": "783376818cbb393b83cc30ecea1da1c28dd74cba17550c06f0f2c10dd1ef2d3a",
+			"time": 0.42
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				168,
+				200,
+				254
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_07.png",
+			"frame": 7,
+			"height": 256,
+			"sha256": "2b5635b6d1f425c60ca415584630011010b2f5392527fdcf4adc47ddcf3f7607",
+			"time": 0.49
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				171,
+				191,
+				251
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_08.png",
+			"frame": 8,
+			"height": 256,
+			"sha256": "07163c7e51089a0dfd157b01b68cc809b9b32a285db8b00924d15937616f2ce1",
+			"time": 0.56
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				151,
+				185,
+				271
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_09.png",
+			"frame": 9,
+			"height": 256,
+			"sha256": "f3edf0c3d503dbe77bc349ab06554587923b0bf4dbb66c1e4a72e3bae5e2cfb6",
+			"time": 0.63
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				169,
+				183,
+				253
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_10.png",
+			"frame": 10,
+			"height": 256,
+			"sha256": "47a01d8bb6afbc8830b241c4bed2d931e75e3a2b21c9ca2c82af5ce8b798022a",
+			"time": 0.7
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				172,
+				160,
+				179,
+				262
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_11.png",
+			"frame": 11,
+			"height": 256,
+			"sha256": "2ca904665b0c386d1c892e1013f68a62f15382b276d618650d32adbf3ef19d7e",
+			"time": 0.77
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				172,
+				165,
+				175,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_12.png",
+			"frame": 12,
+			"height": 256,
+			"sha256": "22b3a4f2ef4ac6517258389c25bccb7aed06e1db7da7b153b9ce3722f32c50db",
+			"time": 0.84
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				165,
+				175,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_13.png",
+			"frame": 13,
+			"height": 256,
+			"sha256": "fde84c6dfb737e0b5e2642225bffaa468f13a38ee8cd5d859467c83ffe230a65",
+			"time": 0.91
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				164,
+				173,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_14.png",
+			"frame": 14,
+			"height": 256,
+			"sha256": "d365d26c585c7e42b0852d0a979ee0483f0d25ff42d07fe3c4d286c793bef5ac",
+			"time": 0.98
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_256_15.png",
+			"frame": 15,
+			"height": 256,
+			"sha256": "674a39ff61f22449c232dd7aff99afb8f9d18b68c02db3abab432b2111a086a2",
+			"time": 1.05
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_00.png",
+			"frame": 0,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 0.0
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_01.png",
+			"frame": 1,
+			"height": 256,
+			"sha256": "9a30f40ebec51d2fb757ea9431aa0d67401ef8387a7fb688fc0ff236e205ef10",
+			"time": 0.0213333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				172,
+				164,
+				170,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_02.png",
+			"frame": 2,
+			"height": 256,
+			"sha256": "defc5c5824e4df9e94436efe51c64f5fc3d1b1ffc0c370ce3860b4bb9580a1f7",
+			"time": 0.0426666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				172,
+				164,
+				169,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_03.png",
+			"frame": 3,
+			"height": 256,
+			"sha256": "ad2956866a3bf13c45b4434befa302e3bc097d64b2d99300988592b60a2f6a81",
+			"time": 0.064
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				172,
+				164,
+				169,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_04.png",
+			"frame": 4,
+			"height": 256,
+			"sha256": "c89f17d7b6da9c485bcbeb831d03a7f80e39a8b8f2797d82f4baedc39f945136",
+			"time": 0.0853333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				172,
+				164,
+				170,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_05.png",
+			"frame": 5,
+			"height": 256,
+			"sha256": "7e52aa8c345bfba83d6f90fcea66401f2140ba64f6a7300937a5f64cdb9aa9cf",
+			"time": 0.106666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_06.png",
+			"frame": 6,
+			"height": 256,
+			"sha256": "f3cf78d14d75220ad05c61f57ec420182c3673a09dc181afcad035ac8f7f5772",
+			"time": 0.128
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_07.png",
+			"frame": 7,
+			"height": 256,
+			"sha256": "a27583d41100b800c5ca65c2abd556b10d93d8a45c6f41a879fdf28c1f6c9419",
+			"time": 0.149333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_08.png",
+			"frame": 8,
+			"height": 256,
+			"sha256": "6f64bfbad5f2af395a031df4c68a41be529c8b4fce0b1843966cca83234b2d3b",
+			"time": 0.170666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_09.png",
+			"frame": 9,
+			"height": 256,
+			"sha256": "7113f8ae5deac1e73b53eca6396009b4da8ac8e4849f468ec8ad236e6257a17b",
+			"time": 0.192
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_10.png",
+			"frame": 10,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 0.213333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_11.png",
+			"frame": 11,
+			"height": 256,
+			"sha256": "1b493811681d7f26829b25ffc47162f86cd9271cc1b7e2b66f34a4a20c64f5b7",
+			"time": 0.234666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				172,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_12.png",
+			"frame": 12,
+			"height": 256,
+			"sha256": "1b493811681d7f26829b25ffc47162f86cd9271cc1b7e2b66f34a4a20c64f5b7",
+			"time": 0.256
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_13.png",
+			"frame": 13,
+			"height": 256,
+			"sha256": "5a6d6c2f7a633e928a8d297617441f8e21c6b2d9c18b623adf1d9bcd44167f2c",
+			"time": 0.277333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				164,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_14.png",
+			"frame": 14,
+			"height": 256,
+			"sha256": "7e1d75163c69fa1c6033ee09fc0ec9b03da6db1d33e99090b015157a39550d45",
+			"time": 0.298666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_256_15.png",
+			"frame": 15,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 0.32
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				171,
+				163,
+				171,
+				264
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_00.png",
+			"frame": 0,
+			"height": 256,
+			"sha256": "3703cfd4fca0d808978e82f3f1c130f690339279cf0e366ebe05e32436c805c7",
+			"time": 0.0
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				173,
+				163,
+				169,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_01.png",
+			"frame": 1,
+			"height": 256,
+			"sha256": "0799eb813e86b37667bda7c6c21e5c8524804b498c0664a6e331d8b8f76b1265",
+			"time": 0.0866666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				173,
+				163,
+				171,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_02.png",
+			"frame": 2,
+			"height": 256,
+			"sha256": "a5bd33dd2d3ce87306dc5de64241833170de0e6a25ec70e97e0656e31b79afd5",
+			"time": 0.173333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				169,
+				164,
+				177,
+				257
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_03.png",
+			"frame": 3,
+			"height": 256,
+			"sha256": "fc8b8793e8d523f16d30bcc7896995005306d7139c4ab5b9b37023929a7a6e61",
+			"time": 0.26
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				172,
+				167,
+				181,
+				254
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_04.png",
+			"frame": 4,
+			"height": 256,
+			"sha256": "3e1c20598cd45a630580d35bcb12340911ad568aab5a4ab861be954392fd81f2",
+			"time": 0.346666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				181,
+				149,
+				181,
+				271
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_05.png",
+			"frame": 5,
+			"height": 256,
+			"sha256": "067204ad26323867876bdcae406450d0a5acb5f28f78aa5cbae3c717b4e25e3c",
+			"time": 0.433333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				189,
+				154,
+				222,
+				267
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_06.png",
+			"frame": 6,
+			"height": 256,
+			"sha256": "94d4c9487ba485f5c31110d1dc54323972c647a66de97bd3d161869914391c1e",
+			"time": 0.52
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				194,
+				203,
+				229,
+				218
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_07.png",
+			"frame": 7,
+			"height": 256,
+			"sha256": "abac86189d501b8e17af94edbdd1dadfbfccbfecdd3aa614e9841da368efa493",
+			"time": 0.606666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				199,
+				190,
+				253,
+				233
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_08.png",
+			"frame": 8,
+			"height": 256,
+			"sha256": "f24ce75c0165b0f350774a742d2e0dfc88b3535869b50b4d4765cbd6e1ccda61",
+			"time": 0.693333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				203,
+				258,
+				275,
+				165
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_09.png",
+			"frame": 9,
+			"height": 256,
+			"sha256": "19ade763a2778631e3b1545312f6c630c14301cee05ac6c38d04ec77d2d2cb08",
+			"time": 0.78
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				207,
+				286,
+				288,
+				141
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_10.png",
+			"frame": 10,
+			"height": 256,
+			"sha256": "813bfd96e05337b7d400a83ad520675186626a8cc199f42197b3f90aa072bca3",
+			"time": 0.866666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				209,
+				302,
+				292,
+				115
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_11.png",
+			"frame": 11,
+			"height": 256,
+			"sha256": "2c0b4848a4301eb3f8b1e8548e29ce66ee82af7fd0610c0fadaec2523e8bbcd5",
+			"time": 0.953333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				210,
+				311,
+				293,
+				114
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_12.png",
+			"frame": 12,
+			"height": 256,
+			"sha256": "4cab89111f74995a88e52e4c2002995948fda12556afd0858084b2455dd4b5ff",
+			"time": 1.04
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				211,
+				319,
+				291,
+				111
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_13.png",
+			"frame": 13,
+			"height": 256,
+			"sha256": "7f04068ee8a8716c250b0e2ba4bade89d62791e4b6df7efb2f3cde6e269c18a7",
+			"time": 1.12666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				211,
+				319,
+				291,
+				111
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_14.png",
+			"frame": 14,
+			"height": 256,
+			"sha256": "7f04068ee8a8716c250b0e2ba4bade89d62791e4b6df7efb2f3cde6e269c18a7",
+			"time": 1.21333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				211,
+				319,
+				291,
+				111
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_256_15.png",
+			"frame": 15,
+			"height": 256,
+			"sha256": "7f04068ee8a8716c250b0e2ba4bade89d62791e4b6df7efb2f3cde6e269c18a7",
+			"time": 1.3
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_00.png",
+			"frame": 0,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 0.0
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				172,
+				164,
+				170,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_01.png",
+			"frame": 1,
+			"height": 256,
+			"sha256": "ec0199bf396685aedb7c8d6a0481fb04dbe976b07231d799557611fe3a380b2c",
+			"time": 0.113333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				171,
+				163,
+				171,
+				259
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_02.png",
+			"frame": 2,
+			"height": 256,
+			"sha256": "c77e9d1df11f5bff55c94dba2719d084f4aeee73a7a72d4d9862e412824de4ff",
+			"time": 0.226666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				119,
+				163,
+				222,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_03.png",
+			"frame": 3,
+			"height": 256,
+			"sha256": "f82bfae8c2597fe3f119037cfe7eb931c3302cc85b59a0616f370a2c0bf903c9",
+			"time": 0.34
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				119,
+				163,
+				223,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_04.png",
+			"frame": 4,
+			"height": 256,
+			"sha256": "ad34034ad3aae633e542271eedc0ca70f4db15629f0a993e7e92bc8c5eb5b0a1",
+			"time": 0.453333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				162,
+				141,
+				176,
+				280
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_05.png",
+			"frame": 5,
+			"height": 256,
+			"sha256": "a9b860cf03ad4cfc97871f8c46fbfda3a8cbe072b9a6ff32fba35909bd53ab4c",
+			"time": 0.566666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				173,
+				119,
+				163,
+				302
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_06.png",
+			"frame": 6,
+			"height": 256,
+			"sha256": "24708b6fa3701b145158fd54e786bccf8a5871b8298ba53e800d6d4899191a6c",
+			"time": 0.68
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				173,
+				119,
+				163,
+				302
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_07.png",
+			"frame": 7,
+			"height": 256,
+			"sha256": "24708b6fa3701b145158fd54e786bccf8a5871b8298ba53e800d6d4899191a6c",
+			"time": 0.793333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				173,
+				119,
+				163,
+				302
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_08.png",
+			"frame": 8,
+			"height": 256,
+			"sha256": "24708b6fa3701b145158fd54e786bccf8a5871b8298ba53e800d6d4899191a6c",
+			"time": 0.906666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				173,
+				119,
+				163,
+				302
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_09.png",
+			"frame": 9,
+			"height": 256,
+			"sha256": "24708b6fa3701b145158fd54e786bccf8a5871b8298ba53e800d6d4899191a6c",
+			"time": 1.02
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				173,
+				119,
+				163,
+				302
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_10.png",
+			"frame": 10,
+			"height": 256,
+			"sha256": "24708b6fa3701b145158fd54e786bccf8a5871b8298ba53e800d6d4899191a6c",
+			"time": 1.13333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				148,
+				154,
+				190,
+				267
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_11.png",
+			"frame": 11,
+			"height": 256,
+			"sha256": "9de88fcd9e5a76f0e42df2a01e16e42749dd9e2ca07b8e1e2e283fc8a47c0538",
+			"time": 1.24666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				112,
+				163,
+				230,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_12.png",
+			"frame": 12,
+			"height": 256,
+			"sha256": "8ea922fef10c22cf7f33853776eadc077f8e19aac354f9108b0d0045b5295f99",
+			"time": 1.36
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				139,
+				163,
+				203,
+				259
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_13.png",
+			"frame": 13,
+			"height": 256,
+			"sha256": "f65d8f75b95ac65c7abc7e81b2e2b5cdff1e5b2bcb742ba266dd337d51a1b746",
+			"time": 1.47333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				172,
+				164,
+				170,
+				258
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_14.png",
+			"frame": 14,
+			"height": 256,
+			"sha256": "a87ce90670cedef71545ab38c1f8e69710de27668ee72f439bdf2b92f602e676",
+			"time": 1.58666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				171,
+				161,
+				172,
+				261
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_256_15.png",
+			"frame": 15,
+			"height": 256,
+			"sha256": "f2eaab01a87c8bf901391cbcf64742945485d9abc5a01bde7ee2cb57f1b0d287",
+			"time": 1.7
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_00.png",
+			"frame": 0,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 0.0
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				226,
+				128,
+				195
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_01.png",
+			"frame": 1,
+			"height": 192,
+			"sha256": "69670a147e6789e26265b337c9ea1bd049281624066b958ab17020be79c8fd19",
+			"time": 0.1
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_02.png",
+			"frame": 2,
+			"height": 192,
+			"sha256": "4544263b39691d43d3f2d5b5fba13eb39cc23bb8b45f8eace163e0981015d15f",
+			"time": 0.2
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_03.png",
+			"frame": 3,
+			"height": 192,
+			"sha256": "4d072db6c6093d154cead2c9608ce942ab3dd2ea82c15246ded3f620aedb729d",
+			"time": 0.3
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_04.png",
+			"frame": 4,
+			"height": 192,
+			"sha256": "87162ac0442263cddc134efd0a5327587fe50f54cd7ddbf857fe6807832805d4",
+			"time": 0.4
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_05.png",
+			"frame": 5,
+			"height": 192,
+			"sha256": "4d072db6c6093d154cead2c9608ce942ab3dd2ea82c15246ded3f620aedb729d",
+			"time": 0.5
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_06.png",
+			"frame": 6,
+			"height": 192,
+			"sha256": "4544263b39691d43d3f2d5b5fba13eb39cc23bb8b45f8eace163e0981015d15f",
+			"time": 0.6
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				226,
+				128,
+				195
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_07.png",
+			"frame": 7,
+			"height": 192,
+			"sha256": "b80b2961ac0f82161597927e5ced96347e3a781295a96cde2cc4d11f4db347c2",
+			"time": 0.7
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_08.png",
+			"frame": 8,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 0.8
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_09.png",
+			"frame": 9,
+			"height": 192,
+			"sha256": "6193340e5f59089f2e93ad9c4bbbf8d96adbd658c26af0acbeb9afd6fef7a5d8",
+			"time": 0.9
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_10.png",
+			"frame": 10,
+			"height": 192,
+			"sha256": "338a503a8b896807e73f24eeddd89983a1a904586b8064ec9331b1a1ebb42f7d",
+			"time": 1.0
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_11.png",
+			"frame": 11,
+			"height": 192,
+			"sha256": "4a57c1f4d7faa7807d8e9d96346ab4f559195f03f660a4d03ba79d4f9f879aa0",
+			"time": 1.1
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_12.png",
+			"frame": 12,
+			"height": 192,
+			"sha256": "2cde51e1a6e41107b1dd434d60193aa35267ff68abadc4e58771226bc3b6079f",
+			"time": 1.2
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_13.png",
+			"frame": 13,
+			"height": 192,
+			"sha256": "4a57c1f4d7faa7807d8e9d96346ab4f559195f03f660a4d03ba79d4f9f879aa0",
+			"time": 1.3
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_14.png",
+			"frame": 14,
+			"height": 192,
+			"sha256": "338a503a8b896807e73f24eeddd89983a1a904586b8064ec9331b1a1ebb42f7d",
+			"time": 1.4
+		},
+		{
+			"animation": "idle",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/idle_192_15.png",
+			"frame": 15,
+			"height": 192,
+			"sha256": "6193340e5f59089f2e93ad9c4bbbf8d96adbd658c26af0acbeb9afd6fef7a5d8",
+			"time": 1.5
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				196,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_00.png",
+			"frame": 0,
+			"height": 192,
+			"sha256": "8269836ad45b6c4cf8a4bb4abc81f50b40b3096b80b1a6da53214a77b7544d16",
+			"time": 0.0
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				198,
+				228,
+				129,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_01.png",
+			"frame": 1,
+			"height": 192,
+			"sha256": "c2edefebedd857f337903b7b95a48143ee325e1c1b4c142932d7e9b48016ca2a",
+			"time": 0.065625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				200,
+				228,
+				129,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_02.png",
+			"frame": 2,
+			"height": 192,
+			"sha256": "f00ac1d74a33dc42f8a0f6ffb29838d53b54715bceecc3f0d302212d64440f19",
+			"time": 0.13125
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				202,
+				226,
+				130,
+				196
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_03.png",
+			"frame": 3,
+			"height": 192,
+			"sha256": "0be63eaba3800633faa56a777e04fe8e7c0b80ce851169a179733d479762d2c9",
+			"time": 0.196875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				204,
+				228,
+				130,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_04.png",
+			"frame": 4,
+			"height": 192,
+			"sha256": "c71b3ba288506b82f6f0ed96c2d7a5fec3c4c18fc22cd0856557403e73d42147",
+			"time": 0.2625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				206,
+				228,
+				131,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_05.png",
+			"frame": 5,
+			"height": 192,
+			"sha256": "9421238b477f73df8521049222702c494b08dc5eebbd82037910b7e51040376c",
+			"time": 0.328125
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				209,
+				228,
+				130,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_06.png",
+			"frame": 6,
+			"height": 192,
+			"sha256": "d582056d18caab69c1f9cf33c31514cde488f13dfab04c84f91a3e0c8c6f992a",
+			"time": 0.39375
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				212,
+				228,
+				129,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_07.png",
+			"frame": 7,
+			"height": 192,
+			"sha256": "41d969efd63bf38e332a2f7f8c6623dcac8c26b06cb1ed5ded7a41990e6877ad",
+			"time": 0.459375
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				214,
+				228,
+				129,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_08.png",
+			"frame": 8,
+			"height": 192,
+			"sha256": "0e7416308be7ffb039c740c442f97029f5ec15de0fc9a252ba86d85d9c4337cd",
+			"time": 0.525
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				217,
+				226,
+				128,
+				196
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_09.png",
+			"frame": 9,
+			"height": 192,
+			"sha256": "f701bc2044fbb7bbb57a34592f9db374816aacc7ed39e46b065df0002ed7e0a4",
+			"time": 0.590625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				220,
+				228,
+				128,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_10.png",
+			"frame": 10,
+			"height": 192,
+			"sha256": "3c754ee3655ecf234cd5e128ed206014c25346e2deb85c920380e27bac54a5b9",
+			"time": 0.65625
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				223,
+				227,
+				127,
+				195
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_11.png",
+			"frame": 11,
+			"height": 192,
+			"sha256": "b565ce95a49b17f2affdaa2c892d7eb8baf3831ee52bcc2b4b4df48b1bf9f136",
+			"time": 0.721875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				226,
+				227,
+				127,
+				195
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_12.png",
+			"frame": 12,
+			"height": 192,
+			"sha256": "d82bef46212905be0c9771893a6526e53d83c48c4be3efd2aa0dd86232c90674",
+			"time": 0.7875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				228,
+				228,
+				127,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_13.png",
+			"frame": 13,
+			"height": 192,
+			"sha256": "b3f94682b586a308ac67716a391c01763d2bb67e9bfc9d544094b3b8ae637686",
+			"time": 0.853125
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				230,
+				228,
+				127,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_14.png",
+			"frame": 14,
+			"height": 192,
+			"sha256": "56bcf42b59b5df8cdd01229314696092b01f4e599f701a3e1351499165dc2860",
+			"time": 0.91875
+		},
+		{
+			"animation": "walk",
+			"bounds": [
+				232,
+				226,
+				128,
+				196
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/walk_192_15.png",
+			"frame": 15,
+			"height": 192,
+			"sha256": "78d89cb1044e16d6ae18c3400fcbf6cb38ef106ec899960cae3b7b5f4cb6a204",
+			"time": 0.984375
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_00.png",
+			"frame": 0,
+			"height": 192,
+			"sha256": "d6d7115bf11c5c4069a713c29c09881f3472eb7797915cb038c9ee9681b25215",
+			"time": 0.0
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_01.png",
+			"frame": 1,
+			"height": 192,
+			"sha256": "edd5b6da5a20419476afdbe10a1254cdac20f4cc1c4ebaaf1d3cec1bca75b2f6",
+			"time": 0.07
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				197,
+				229,
+				131,
+				192
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_02.png",
+			"frame": 2,
+			"height": 192,
+			"sha256": "e5dcd03d929bbafa95df7c1fbc631ec19ca5f429e1793bb42307ed1c1f952240",
+			"time": 0.14
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				197,
+				229,
+				127,
+				192
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_03.png",
+			"frame": 3,
+			"height": 192,
+			"sha256": "a5fe1f6043b148e5bde80213e05672e8dca5b04f211a0762be3c2ea8bbcd870f",
+			"time": 0.21
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				197,
+				225,
+				127,
+				196
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_04.png",
+			"frame": 4,
+			"height": 192,
+			"sha256": "875f9b38a84812ba9850cdf6b698c633a34d2bcd85f0f83d8101622bb31f9365",
+			"time": 0.28
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				197,
+				220,
+				122,
+				201
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_05.png",
+			"frame": 5,
+			"height": 192,
+			"sha256": "c3350b37e58441471e6296ebb6bfe8bec6e34ff008cfa762d72de82181ee2259",
+			"time": 0.35
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				197,
+				222,
+				124,
+				199
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_06.png",
+			"frame": 6,
+			"height": 192,
+			"sha256": "7a9166030964ef8b306db9180a73206c95f103943ec209547613fa06f41e2084",
+			"time": 0.42
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				231,
+				150,
+				190
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_07.png",
+			"frame": 7,
+			"height": 192,
+			"sha256": "b3abcfad474f7aa0f8f60939159fe4a2f122eaf6fff8199462560665db43917b",
+			"time": 0.49
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				233,
+				141,
+				188
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_08.png",
+			"frame": 8,
+			"height": 192,
+			"sha256": "db6efe1b060a41d5db3e6268046d939ca5f06019609ecc7e181076f08f300191",
+			"time": 0.56
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				233,
+				139,
+				188
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_09.png",
+			"frame": 9,
+			"height": 192,
+			"sha256": "d1efc9b9356f55388abe189f1b483bdd1ca51590f246187c1a4f17435be8b994",
+			"time": 0.63
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				232,
+				138,
+				189
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_10.png",
+			"frame": 10,
+			"height": 192,
+			"sha256": "84361db7b2d60d9291ac3f6ab33bae1c15a2a8d69bdf6a063324fcbcadc85117",
+			"time": 0.7
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				230,
+				135,
+				191
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_11.png",
+			"frame": 11,
+			"height": 192,
+			"sha256": "56200b224eef5aa72b5448574ec008fc0d73a375caac6510c0579d3f22a63306",
+			"time": 0.77
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				222,
+				132,
+				199
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_12.png",
+			"frame": 12,
+			"height": 192,
+			"sha256": "589b0091753083cb1b30042fca8be44e8ab9372f84449aad5b6d1d9ac2dd7b74",
+			"time": 0.84
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				228,
+				131,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_13.png",
+			"frame": 13,
+			"height": 192,
+			"sha256": "78e8227e73bc169e8b83c3df0632751db4ea00ed119fdc54630dc05bfe27c1aa",
+			"time": 0.91
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				228,
+				130,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_14.png",
+			"frame": 14,
+			"height": 192,
+			"sha256": "51f23eed39c4ce5c9b32bdb5b17c8308469b255f156848b8c4dc89a4d76103aa",
+			"time": 0.98
+		},
+		{
+			"animation": "attack_01",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/attack_01_192_15.png",
+			"frame": 15,
+			"height": 192,
+			"sha256": "d6d7115bf11c5c4069a713c29c09881f3472eb7797915cb038c9ee9681b25215",
+			"time": 1.05
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_00.png",
+			"frame": 0,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 0.0
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_01.png",
+			"frame": 1,
+			"height": 192,
+			"sha256": "74057551d74084ec5c9b781b236c08e2f9fbe00fa4b9f62b1699099c88eeb7cd",
+			"time": 0.0213333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				197,
+				228,
+				127,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_02.png",
+			"frame": 2,
+			"height": 192,
+			"sha256": "e2647002f8e803374e415b9be3ca3adaa0a12a8544f5b700cb66cafc97fadf2e",
+			"time": 0.0426666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				197,
+				228,
+				127,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_03.png",
+			"frame": 3,
+			"height": 192,
+			"sha256": "e03b0fe0d4e5fb66f79b364037673a9b53a2e9ba238f5915fac1e8725460c6ca",
+			"time": 0.064
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				197,
+				228,
+				127,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_04.png",
+			"frame": 4,
+			"height": 192,
+			"sha256": "c1b37536e360834e64a73522f0af658087617d707b0022e82c3412f440fed130",
+			"time": 0.0853333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_05.png",
+			"frame": 5,
+			"height": 192,
+			"sha256": "5fb316b757f66f9a64721af3df39e19273e89eb417478ccdd3aa1dd67722396f",
+			"time": 0.106666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_06.png",
+			"frame": 6,
+			"height": 192,
+			"sha256": "6fefc036c52b751a137cde0b5b835ac2b73793cb5b6d99ff2a1f0332e1049360",
+			"time": 0.128
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_07.png",
+			"frame": 7,
+			"height": 192,
+			"sha256": "7496f228241325c9eb9db93883120c060ce2dbb9dc9e83676c46a4c223d4c4f4",
+			"time": 0.149333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				129,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_08.png",
+			"frame": 8,
+			"height": 192,
+			"sha256": "d5279eb35c0e19558c164815d43d45eae58368b3cb62e01a1e30d17e908571af",
+			"time": 0.170666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_09.png",
+			"frame": 9,
+			"height": 192,
+			"sha256": "d8bf98d65c99b3d06df04d13e17a83f9a822bb59ee463d03acdad6c537c5fe8f",
+			"time": 0.192
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_10.png",
+			"frame": 10,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 0.213333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_11.png",
+			"frame": 11,
+			"height": 192,
+			"sha256": "ca2229cffb7b73523b5b963c59fee968928a3c6527f09f70a460595e8f353dde",
+			"time": 0.234666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_12.png",
+			"frame": 12,
+			"height": 192,
+			"sha256": "ca2229cffb7b73523b5b963c59fee968928a3c6527f09f70a460595e8f353dde",
+			"time": 0.256
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_13.png",
+			"frame": 13,
+			"height": 192,
+			"sha256": "faf0b7081c0312ef1a8ccdb8df9f57af26f415c9f4c24329937cab4d5659e882",
+			"time": 0.277333333333333
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				226,
+				128,
+				195
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_14.png",
+			"frame": 14,
+			"height": 192,
+			"sha256": "15155f0213ee8fd1cf84b6fd1474279f4848b11f76f493cee334f70cbfec9683",
+			"time": 0.298666666666667
+		},
+		{
+			"animation": "hit",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/hit_192_15.png",
+			"frame": 15,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 0.32
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				196,
+				227,
+				129,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_00.png",
+			"frame": 0,
+			"height": 192,
+			"sha256": "6f68da52c72c39cdcc70a5b52575c3d50fd43c296d2826fe4c052697b8bcb5c1",
+			"time": 0.0
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				197,
+				227,
+				127,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_01.png",
+			"frame": 1,
+			"height": 192,
+			"sha256": "283a1767a28025ec5b0033072133c74c6ec3c3eb05477e71b1e418190271efa8",
+			"time": 0.0866666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				197,
+				227,
+				129,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_02.png",
+			"frame": 2,
+			"height": 192,
+			"sha256": "05690a4e2030c5926ed0bf58f228383355f6aeff11340f99bd0427ba12eecdb9",
+			"time": 0.173333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				195,
+				228,
+				132,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_03.png",
+			"frame": 3,
+			"height": 192,
+			"sha256": "cebec1923a62ae87f426e59e965a4a40af00e200b76e73a6b9ee542ebd1b8440",
+			"time": 0.26
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				197,
+				217,
+				135,
+				204
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_04.png",
+			"frame": 4,
+			"height": 192,
+			"sha256": "7ff02ca64c1e04fc15990ddf44db0dd9f9597906cf978d945cbb2edad56d03d2",
+			"time": 0.346666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				203,
+				236,
+				136,
+				184
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_05.png",
+			"frame": 5,
+			"height": 192,
+			"sha256": "986a9c33106625f110e0579b07795c729acdb6bbe7c044bb4239012c94bbe309",
+			"time": 0.433333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				209,
+				244,
+				151,
+				178
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_06.png",
+			"frame": 6,
+			"height": 192,
+			"sha256": "284a858fec4ef8b86a07cb7b18ccc65c01eac400a36a2e26f82d14066d961473",
+			"time": 0.52
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				233,
+				257,
+				161,
+				164
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_07.png",
+			"frame": 7,
+			"height": 192,
+			"sha256": "a27770254d25afbab2c1c4d88caaac7e2d3d4e1db1fc4da9d3bbeb46aaf1a0e8",
+			"time": 0.606666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				217,
+				248,
+				191,
+				173
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_08.png",
+			"frame": 8,
+			"height": 192,
+			"sha256": "8e26146ec54518d66fef60d209d16e0b815eba9ae293f4c5114e839773561d81",
+			"time": 0.693333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				220,
+				299,
+				206,
+				123
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_09.png",
+			"frame": 9,
+			"height": 192,
+			"sha256": "8ed71b23a5360aa31bc705843daaecb169fd40ba73d7bc3b8493e3742649c2d5",
+			"time": 0.78
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				222,
+				319,
+				216,
+				107
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_10.png",
+			"frame": 10,
+			"height": 192,
+			"sha256": "21b3c6169c74b1048f51ac24b45862f994b274197db412866d2dba7b3eb60b65",
+			"time": 0.866666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				251,
+				332,
+				192,
+				92
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_11.png",
+			"frame": 11,
+			"height": 192,
+			"sha256": "adadba84f09f57bcf13cc6292969de205ba10e7ecfd9002c90095d268a87c8dd",
+			"time": 0.953333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				226,
+				338,
+				219,
+				86
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_12.png",
+			"frame": 12,
+			"height": 192,
+			"sha256": "d0e06c7a3a122cb4abea0f2017518ca7b7036aa3102fe33a7cc73f10fb45a5db",
+			"time": 1.04
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				228,
+				344,
+				216,
+				83
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_13.png",
+			"frame": 13,
+			"height": 192,
+			"sha256": "f326ca3d42e7d721fa6c5f873da1f2da160268a4607116a73509db494029acd1",
+			"time": 1.12666666666667
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				228,
+				344,
+				216,
+				83
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_14.png",
+			"frame": 14,
+			"height": 192,
+			"sha256": "f326ca3d42e7d721fa6c5f873da1f2da160268a4607116a73509db494029acd1",
+			"time": 1.21333333333333
+		},
+		{
+			"animation": "death",
+			"bounds": [
+				228,
+				344,
+				216,
+				83
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/death_192_15.png",
+			"frame": 15,
+			"height": 192,
+			"sha256": "f326ca3d42e7d721fa6c5f873da1f2da160268a4607116a73509db494029acd1",
+			"time": 1.3
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_00.png",
+			"frame": 0,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 0.0
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_01.png",
+			"frame": 1,
+			"height": 192,
+			"sha256": "dba43455a42838b272554f30fcb61a887318578fbb4289b92866062df8698fe6",
+			"time": 0.113333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				195,
+				226,
+				129,
+				200
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_02.png",
+			"frame": 2,
+			"height": 192,
+			"sha256": "9fe72401fe98de753697bf888c9b5f60cf2c85567ffc2bdc66cf881638d75388",
+			"time": 0.226666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				156,
+				227,
+				168,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_03.png",
+			"frame": 3,
+			"height": 192,
+			"sha256": "36bb101dadcb0b0686185e51c05c1ea514dbc34bbd29817d1b8d09d3039a7a2e",
+			"time": 0.34
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				157,
+				227,
+				165,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_04.png",
+			"frame": 4,
+			"height": 192,
+			"sha256": "fdcfbce57be384291cb06564d49aa73c9febf15c19fc61d03013c833c0b68d6b",
+			"time": 0.453333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				189,
+				211,
+				132,
+				210
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_05.png",
+			"frame": 5,
+			"height": 192,
+			"sha256": "c4d2427381ea8cb576b5fb5be6a733a8db8bb363cf2e9eb08d84cc8cd1a9edfa",
+			"time": 0.566666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				198,
+				195,
+				121,
+				226
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_06.png",
+			"frame": 6,
+			"height": 192,
+			"sha256": "ec659f3b719bd9aa000be345ef5ab7ecee80c0f3f21a8df9b315be609ac476e4",
+			"time": 0.68
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				198,
+				195,
+				121,
+				226
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_07.png",
+			"frame": 7,
+			"height": 192,
+			"sha256": "ec659f3b719bd9aa000be345ef5ab7ecee80c0f3f21a8df9b315be609ac476e4",
+			"time": 0.793333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				198,
+				195,
+				121,
+				226
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_08.png",
+			"frame": 8,
+			"height": 192,
+			"sha256": "ec659f3b719bd9aa000be345ef5ab7ecee80c0f3f21a8df9b315be609ac476e4",
+			"time": 0.906666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				198,
+				195,
+				121,
+				226
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_09.png",
+			"frame": 9,
+			"height": 192,
+			"sha256": "ec659f3b719bd9aa000be345ef5ab7ecee80c0f3f21a8df9b315be609ac476e4",
+			"time": 1.02
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				198,
+				195,
+				121,
+				226
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_10.png",
+			"frame": 10,
+			"height": 192,
+			"sha256": "ec659f3b719bd9aa000be345ef5ab7ecee80c0f3f21a8df9b315be609ac476e4",
+			"time": 1.13333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				178,
+				220,
+				143,
+				201
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_11.png",
+			"frame": 11,
+			"height": 192,
+			"sha256": "a440e5ef6087ab47923a7531726181ae49a36abef2a218b09ed1d98e9da801d7",
+			"time": 1.24666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				151,
+				227,
+				172,
+				194
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_12.png",
+			"frame": 12,
+			"height": 192,
+			"sha256": "33e52acaa43f2072d9eb3e73841fc013d1e78a5d42f9f965550744e1815e3d8c",
+			"time": 1.36
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				172,
+				228,
+				152,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_13.png",
+			"frame": 13,
+			"height": 192,
+			"sha256": "295527cff4a25cc4e134b967ea0165e340e1d90c7d698064b75c1165ffa52a6d",
+			"time": 1.47333333333333
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				197,
+				228,
+				127,
+				198
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_14.png",
+			"frame": 14,
+			"height": 192,
+			"sha256": "1b20031bf0cfe395222be94ccaa47c0fb60cb96c1712fbfbae24553a5831d2b8",
+			"time": 1.58666666666667
+		},
+		{
+			"animation": "skill_command",
+			"bounds": [
+				196,
+				228,
+				128,
+				193
+			],
+			"clipped": false,
+			"file": "res://reports/roman_centurion/native/frames/skill_command_192_15.png",
+			"frame": 15,
+			"height": 192,
+			"sha256": "d393b0cadfa91013511424d4c5af1a0abe6af1c39317e685f790a99dc05e9131",
+			"time": 1.7
+		}
+	],
+	"renderer": "GeForce GTX 1650",
+	"scene_sha256": "35211895ed1349d1f8b231b4aaf2b4e24bcc9cd252e1b76a8b740521f8114f51",
+	"source": "Actual Godot GPU SubViewport rendering"
+}
