@@ -1,0 +1,64 @@
+{
+  "unit_id": "OD_UNIT_04_MINOTAUR_BREAKER",
+  "name": "牛头破阵者",
+  "files": [
+    {
+      "role": "DESIGN",
+      "file": "art_source/odyssey/minotaur_breaker/OD_UNIT_04_MINOTAUR_BREAKER_DESIGN_V1.png",
+      "original_absolute_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-87872bae-9f61-4a95-b2c0-e638e61f0380.png",
+      "sha256": "9550a21de9ed573a92748248986c26c6b530041317c1935ef3d4f4744f6074cd",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "use": "frozen_reference"
+    },
+    {
+      "role": "COMBAT_LOOK",
+      "file": "art_source/odyssey/minotaur_breaker/OD_UNIT_04_MINOTAUR_BREAKER_COMBAT_LOOK_V1.png",
+      "original_absolute_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-fdfda5fc-e98d-48e7-9719-4c6e253227ea.png",
+      "sha256": "87ca7910b69dee96c81e9ff5b9beac761cd238ee846d1fb00f5a8de972022577",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "use": "frozen_reference"
+    },
+    {
+      "role": "RIG_MASTER",
+      "file": "art_source/odyssey/minotaur_breaker/OD_UNIT_04_MINOTAUR_BREAKER_RIG_MASTER_V1.png",
+      "original_absolute_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-c63843c1-98ac-4e90-b85f-5057345583b7.png",
+      "sha256": "836e9b5ef238da25e65243d7e22bce9c5c3603d83113ab25b48ca12a2354e976",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "use": "frozen_reference"
+    },
+    {
+      "role": "CODEX",
+      "file": "art_source/odyssey/minotaur_breaker/OD_UNIT_04_MINOTAUR_BREAKER_CODEX_V1.png",
+      "original_absolute_path": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\codex-clipboard-2e261138-b2d0-40cc-9980-4b1691989be8.png",
+      "sha256": "9da223fddece14532d2ec923fe4930ee00a025eea876191171532296ca811847",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null,
+      "use": "collection_only"
+    }
+  ]
+}
