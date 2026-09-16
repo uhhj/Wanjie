@@ -89,6 +89,11 @@ func build() -> void:
 			var values: Array = []
 			for pose in e.poses:values.append(deg_to_rad(float(pose.rotations[bone])))
 			track(a,"VisualRoot/Skeleton2D/"+str(data.bones[bone].path)+":rotation",e.times,values)
+		for bone in ["arm_near_upper","arm_far_upper"]:
+			var positions: Array=[]
+			for pose in e.poses:
+				positions.append(vec(data.bones[bone].local_position)+vec(pose.get("bone_offsets",{}).get(bone,[0.0,0.0])))
+			track(a,"VisualRoot/Skeleton2D/"+str(data.bones[bone].path)+":position",e.times,positions)
 		var pelvis: Array = []
 		var offsets: Array = []
 		var rotations: Array = []

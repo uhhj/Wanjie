@@ -12,6 +12,7 @@ def base():return {'rotations':dict.fromkeys(B,0.0),'pelvis_offset':[0.,0.],'vis
 def fk(p,name):
     b=B[name];parent=b['parent'];pos,ang=fk(p,parent) if parent else (np.zeros(2),0.)
     local=np.array(b['local_position'],float)
+    local+=p.get('bone_offsets',{}).get(name,[0.,0.])
     if name=='pelvis':local+=p['pelvis_offset']
     return pos+rot(local,ang),ang+math.radians(p['rotations'][name])
 ISSUES=[]
@@ -129,6 +130,9 @@ def main():
             for p,v in zip(poses,np.degrees(a)):p['rotations'][bone]=float(v)
         animations[name]={'length':length,'loop':loop,'times':times.tolist(),'poses':poses}
         if name in ['attack_01','skill_01']:animations[name]['method_events']=[{'time':length*(.60 if name=='attack_01' else .73),'method':'_event_attack_hit' if name=='attack_01' else '_event_skill_hit'}]
+    from minotaur_heavy_actions_v2 import build_actions
+    import sys
+    animations.update(build_actions(sys.modules[__name__]))
     (ROOT/'resources/minotaur_breaker_animation_candidates.json').write_text(json.dumps(animations,indent=2)+'\n')
     (R/'candidate_ik_reach.json').write_text(json.dumps({'status':'PASS' if not ISSUES else 'NEEDS_KEYFRAME_REPAIR','scope':'Baked IK reach only; visual motion not approved','issues':ISSUES},indent=2)+'\n')
     DATA['draw_order']=ORDER;DATA['attachments']={'cape':'cape_root','axe':'axe_socket','knee_near_support':'knee_near','knee_far_support':'knee_far'}

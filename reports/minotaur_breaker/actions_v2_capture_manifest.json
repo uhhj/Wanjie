@@ -1,0 +1,1053 @@
+{
+  "artifact_inputs": {
+    "res://resources/minotaur_breaker_animation_candidates.json": "98c7fcc6c267f54bd0b172d3f79e79d263c4cce4c3db1183d74544e7043f37b0",
+    "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
+    "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
+    "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
+    "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
+    "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "6d70a6616366dd6c0332f2b691879f5a7c65a5687e38fcb8e3e878dd9cfa1371"
+  },
+  "engine": "4.7.2-stable (official)",
+  "events_attack_skill": {
+    "attack_01": [
+      1,
+      0
+    ],
+    "skill_01": [
+      0,
+      1
+    ]
+  },
+  "frames": [
+    {
+      "animation": "attack_01",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_00.png",
+      "sha256": "84a333f94c09a53228c1d976ce7edc84b6d78b87a5530c121cea13117781c46c",
+      "time": 0.0
+    },
+    {
+      "animation": "attack_01",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_01.png",
+      "sha256": "4d9d7d6db3a0f7c3ab178af07e27ce18007bc2378ea1dfa89c9149be1e148e0c",
+      "time": 0.0580645161290323
+    },
+    {
+      "animation": "attack_01",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_02.png",
+      "sha256": "a09f00dd68c4fadd7e1e739e83f3fe62287f352371d71f27563856086fab163a",
+      "time": 0.116129032258065
+    },
+    {
+      "animation": "attack_01",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_03.png",
+      "sha256": "e7c4d7e55eddb3475ce7473bef94651ff8840ca78a03ede21b5eb44be0a40d96",
+      "time": 0.174193548387097
+    },
+    {
+      "animation": "attack_01",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_04.png",
+      "sha256": "a328b01fc1e2e2d6107c3287f5841de11ea3881e49132cdc720719c14a7807ba",
+      "time": 0.232258064516129
+    },
+    {
+      "animation": "attack_01",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_05.png",
+      "sha256": "bec7b6df610cd8922f482449d7e2b3f30570743b0f92394eb1f34bdcf1197cd2",
+      "time": 0.290322580645161
+    },
+    {
+      "animation": "attack_01",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_06.png",
+      "sha256": "95c952c3fa19ae60c36d8e5c029b463a590815a1ad1e7ac602be4c56564df2ac",
+      "time": 0.348387096774194
+    },
+    {
+      "animation": "attack_01",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_07.png",
+      "sha256": "cbd848ff49304d992fb0fc86be20997befa656a97c3068e573144233478a7d6c",
+      "time": 0.406451612903226
+    },
+    {
+      "animation": "attack_01",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_08.png",
+      "sha256": "52ce745be86cd5f51874f86310080bf2c171680299a5e0242f4903218be12a5e",
+      "time": 0.464516129032258
+    },
+    {
+      "animation": "attack_01",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_09.png",
+      "sha256": "988b4089693f789e7f664d4ecf59c87ca9da16c3638f2a11291b46b5277fdedf",
+      "time": 0.52258064516129
+    },
+    {
+      "animation": "attack_01",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_10.png",
+      "sha256": "34a366553a4f0a05f139c76a4f58890840920f524877540fa5a9ff6a0897a7cc",
+      "time": 0.580645161290323
+    },
+    {
+      "animation": "attack_01",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_11.png",
+      "sha256": "0cfe97845881936556cca62a2a0530e9cee51f0e9d35c5446bb5d9515f79bcb0",
+      "time": 0.638709677419355
+    },
+    {
+      "animation": "attack_01",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_12.png",
+      "sha256": "999a5c01c599af2a9b978f2bf30979b649284ba8812788f79318658a786d44b7",
+      "time": 0.696774193548387
+    },
+    {
+      "animation": "attack_01",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_13.png",
+      "sha256": "999a5c01c599af2a9b978f2bf30979b649284ba8812788f79318658a786d44b7",
+      "time": 0.754838709677419
+    },
+    {
+      "animation": "attack_01",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_14.png",
+      "sha256": "7e1806b94ce0183379c4206c0c4685ca280f3dcad3e149ae561024cce670bd09",
+      "time": 0.812903225806452
+    },
+    {
+      "animation": "attack_01",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_15.png",
+      "sha256": "a8d2dd51ef792707e6b6788b1ff82bf4ad16a7e0e9db1eab4173eb61589f57e9",
+      "time": 0.870967741935484
+    },
+    {
+      "animation": "attack_01",
+      "frame": 16,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_16.png",
+      "sha256": "e3d01cafc87bd8d32db5cae0aaea95b8c16226659ccb633fb791253355e69995",
+      "time": 0.929032258064516
+    },
+    {
+      "animation": "attack_01",
+      "frame": 17,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_17.png",
+      "sha256": "91827c07e96d4acad1128b35f120919774e22e38bfad335652bca914255bfe5e",
+      "time": 0.987096774193548
+    },
+    {
+      "animation": "attack_01",
+      "frame": 18,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_18.png",
+      "sha256": "892d50915f94c8d818b911905fa423a529df8d83152c60d6d7e62f7fd72c9250",
+      "time": 1.04516129032258
+    },
+    {
+      "animation": "attack_01",
+      "frame": 19,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_19.png",
+      "sha256": "b8213dcc0290b47a797ba3d6c329f4953bc4fd2d0a82edd1c5aec8fb14e45484",
+      "time": 1.10322580645161
+    },
+    {
+      "animation": "attack_01",
+      "frame": 20,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_20.png",
+      "sha256": "faf19901a45c6e7c021c0c641481b989e12ffaf2061b46b1dcc2c85dc25e1dbd",
+      "time": 1.16129032258065
+    },
+    {
+      "animation": "attack_01",
+      "frame": 21,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_21.png",
+      "sha256": "9bb746a248e8f26a51b039fc2da92a0a06d84fafdc1f8378ba9c3677465f0357",
+      "time": 1.21935483870968
+    },
+    {
+      "animation": "attack_01",
+      "frame": 22,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_22.png",
+      "sha256": "fd36800944e76fa04bb19ec21e1457e600611383582ec0969a152b770693d2ec",
+      "time": 1.27741935483871
+    },
+    {
+      "animation": "attack_01",
+      "frame": 23,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_23.png",
+      "sha256": "455c75536c3c641add49c50180d973e9a42d1f1ab237edd7404b24c73a3edbb3",
+      "time": 1.33548387096774
+    },
+    {
+      "animation": "attack_01",
+      "frame": 24,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_24.png",
+      "sha256": "860f11f1b970e2cfe94fae8bbdc31b2966671f728122ae68f0fbf6ee5ed685d0",
+      "time": 1.39354838709677
+    },
+    {
+      "animation": "attack_01",
+      "frame": 25,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_25.png",
+      "sha256": "8bcd09b34c2ce4a6f256f94c7b4d3ff5237997062453a0f6eacb6fe47fcbf1a0",
+      "time": 1.45161290322581
+    },
+    {
+      "animation": "attack_01",
+      "frame": 26,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_26.png",
+      "sha256": "714078c6c60fd0796100268caa403c81dac437e9bd7e1a54cff7cf8d605df1ab",
+      "time": 1.50967741935484
+    },
+    {
+      "animation": "attack_01",
+      "frame": 27,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_27.png",
+      "sha256": "52d2ab4ea9b5058abcaa2eaeb5f8be831f532c709691286338f5c221d6788a74",
+      "time": 1.56774193548387
+    },
+    {
+      "animation": "attack_01",
+      "frame": 28,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_28.png",
+      "sha256": "dbe1a754ece06f79cd4dcc23104add1ed105d5d79fc6bb7e6b292d2f629c2616",
+      "time": 1.6258064516129
+    },
+    {
+      "animation": "attack_01",
+      "frame": 29,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_29.png",
+      "sha256": "fc8ca19e2f6b6cda173671b57ff7eaf7a35e60b753dc4528e7545988ce357ea6",
+      "time": 1.68387096774194
+    },
+    {
+      "animation": "attack_01",
+      "frame": 30,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_30.png",
+      "sha256": "51cbb9480cd37b2e4d06928e01142b074853b4d5f83ae80d7d1c63b822cfd6c1",
+      "time": 1.74193548387097
+    },
+    {
+      "animation": "attack_01",
+      "frame": 31,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_288_31.png",
+      "sha256": "84a333f94c09a53228c1d976ce7edc84b6d78b87a5530c121cea13117781c46c",
+      "time": 1.8
+    },
+    {
+      "animation": "skill_01",
+      "frame": 0,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_00.png",
+      "sha256": "84a333f94c09a53228c1d976ce7edc84b6d78b87a5530c121cea13117781c46c",
+      "time": 0.0
+    },
+    {
+      "animation": "skill_01",
+      "frame": 1,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_01.png",
+      "sha256": "6a93125c97b7d39fa855af013d45b5ae11eaaa04a462a708db0622a734c78b7f",
+      "time": 0.135483870967742
+    },
+    {
+      "animation": "skill_01",
+      "frame": 2,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_02.png",
+      "sha256": "a1569aa4a8ad180a94d35736fe0e35c33505e950b0eafe5f8ba35197493fc8a1",
+      "time": 0.270967741935484
+    },
+    {
+      "animation": "skill_01",
+      "frame": 3,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_03.png",
+      "sha256": "5df0ac4b76c3fbeac584958b0e1025a082bf03ea4c9456589626e7d981af2f8a",
+      "time": 0.406451612903226
+    },
+    {
+      "animation": "skill_01",
+      "frame": 4,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_04.png",
+      "sha256": "a2ee6781f32eddc58c3995b82cf9022bb8968a4dada9eeb9acffe49e0f3566f8",
+      "time": 0.541935483870968
+    },
+    {
+      "animation": "skill_01",
+      "frame": 5,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_05.png",
+      "sha256": "1a95de9eb5f3be5ceafae503321dd95840d2e8c44239cce868ce26b1c1144639",
+      "time": 0.67741935483871
+    },
+    {
+      "animation": "skill_01",
+      "frame": 6,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_06.png",
+      "sha256": "72faf29d50cff2221098dc6a77e2aceae9ef51e193b598dd367785a3eb091101",
+      "time": 0.812903225806452
+    },
+    {
+      "animation": "skill_01",
+      "frame": 7,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_07.png",
+      "sha256": "40d310f6e38f1f18378eb2aff5830b7ea891276ceb53b0ed15c87d9353d3c9a0",
+      "time": 0.948387096774194
+    },
+    {
+      "animation": "skill_01",
+      "frame": 8,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_08.png",
+      "sha256": "c0874b3e7d18c1c715e04db07630836867f154f6ec5f45e571164f4468c1128a",
+      "time": 1.08387096774194
+    },
+    {
+      "animation": "skill_01",
+      "frame": 9,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_09.png",
+      "sha256": "6a264ba966f5695975aa7a5b6277a8b13738ec80ac94a8af24c94f561a492a1e",
+      "time": 1.21935483870968
+    },
+    {
+      "animation": "skill_01",
+      "frame": 10,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_10.png",
+      "sha256": "e2b8e7ee339864292a2243961fed51c9764851b2fd48197a7c3a236e9db9a4db",
+      "time": 1.35483870967742
+    },
+    {
+      "animation": "skill_01",
+      "frame": 11,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_11.png",
+      "sha256": "aa81302e7b6bc328171a8086919eeea186027bb66bdd11060400b9d9b341eacf",
+      "time": 1.49032258064516
+    },
+    {
+      "animation": "skill_01",
+      "frame": 12,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_12.png",
+      "sha256": "3631ff2f5c54a92777fd62e373c7a7389903f573fefe4ea70b391b5c72784b17",
+      "time": 1.6258064516129
+    },
+    {
+      "animation": "skill_01",
+      "frame": 13,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_13.png",
+      "sha256": "b20ce714d4e52b43e173200735fa69232092216aa8e10ca8182780598961ed8a",
+      "time": 1.76129032258065
+    },
+    {
+      "animation": "skill_01",
+      "frame": 14,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_14.png",
+      "sha256": "d4da79034b6d014c9566cec778cfb14be8bf949017f0aaf1a83fb7875ab27345",
+      "time": 1.89677419354839
+    },
+    {
+      "animation": "skill_01",
+      "frame": 15,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_15.png",
+      "sha256": "1238696cca6d0b41466bcaf494f9a1a09467ccbc7f2b828b5cc2cc56fa123470",
+      "time": 2.03225806451613
+    },
+    {
+      "animation": "skill_01",
+      "frame": 16,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_16.png",
+      "sha256": "0c5a2c49ec24cb11a2029be3ad0aa18d1304d8b84da3e9d991daef254a0e00fb",
+      "time": 2.16774193548387
+    },
+    {
+      "animation": "skill_01",
+      "frame": 17,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_17.png",
+      "sha256": "37576ce7acde7ad910c1cda17ff997b703a775ecc354c994236d0e10b630ac63",
+      "time": 2.30322580645161
+    },
+    {
+      "animation": "skill_01",
+      "frame": 18,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_18.png",
+      "sha256": "e5a5999d198159db5dfa76c3be8a68a0f85b47bb89edf312e9c8bc991d7bd4d9",
+      "time": 2.43870967741936
+    },
+    {
+      "animation": "skill_01",
+      "frame": 19,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_19.png",
+      "sha256": "9e7a63ba744ef3b06cc080edd9323c9e80fe1ef82f662ee6e8d25978fe7735b5",
+      "time": 2.5741935483871
+    },
+    {
+      "animation": "skill_01",
+      "frame": 20,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_20.png",
+      "sha256": "e7dfceddc2d222250d90532735048f3a52cb97803fa49120289d33c42f1650be",
+      "time": 2.70967741935484
+    },
+    {
+      "animation": "skill_01",
+      "frame": 21,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_21.png",
+      "sha256": "21347cb2a21030f56f76dc5ac07f1103cdcd663b817a10651b3ad7dcd3cc8c17",
+      "time": 2.84516129032258
+    },
+    {
+      "animation": "skill_01",
+      "frame": 22,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_22.png",
+      "sha256": "f3ee999dcf6ecc502a62da086d5e276ffafaea2d45059fb3f3e91113cf7d481c",
+      "time": 2.98064516129032
+    },
+    {
+      "animation": "skill_01",
+      "frame": 23,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_23.png",
+      "sha256": "a84bee232d962d68c27fea8b30e70e0388cac32564e471f24d9efa24f5e6b8b4",
+      "time": 3.11612903225806
+    },
+    {
+      "animation": "skill_01",
+      "frame": 24,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_24.png",
+      "sha256": "258ff86519f41d73092b32936c2f85466cbad442468a5e83ce515e6b1581ee47",
+      "time": 3.25161290322581
+    },
+    {
+      "animation": "skill_01",
+      "frame": 25,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_25.png",
+      "sha256": "aadee2e72283574691872feb078cd54dba91ecea4bd2d8788de6e3535b490b19",
+      "time": 3.38709677419355
+    },
+    {
+      "animation": "skill_01",
+      "frame": 26,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_26.png",
+      "sha256": "389e881128ff53fbc9564195f699bef0367fa9f0bfe062b4e11ff81b52e5fc1c",
+      "time": 3.52258064516129
+    },
+    {
+      "animation": "skill_01",
+      "frame": 27,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_27.png",
+      "sha256": "95aecd75083d7ad706bdc8b90bfdf0ed6767d4a75dee0201fe3851f9e68cd7f3",
+      "time": 3.65806451612903
+    },
+    {
+      "animation": "skill_01",
+      "frame": 28,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_28.png",
+      "sha256": "f3d67372bdaa2d84f3c5e1a6283e3d0483e7a005ecff0eabbe9bbfd02f9fb88f",
+      "time": 3.79354838709677
+    },
+    {
+      "animation": "skill_01",
+      "frame": 29,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_29.png",
+      "sha256": "8ae428baf5ecdd86d4e77be9441b1076dca4561332ac9e24f431e4a37fa89648",
+      "time": 3.92903225806452
+    },
+    {
+      "animation": "skill_01",
+      "frame": 30,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_30.png",
+      "sha256": "4555a24f6d8ce7f8cad40e222e7696c609f0f4ad2d0abc04356c3b519306cc30",
+      "time": 4.06451612903226
+    },
+    {
+      "animation": "skill_01",
+      "frame": 31,
+      "height": 288,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_288_31.png",
+      "sha256": "2f09e7f91c7495c7460893f9b0c65a0f84564fed2326a23c1a2542361084359a",
+      "time": 4.2
+    },
+    {
+      "animation": "attack_01",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_00.png",
+      "sha256": "8b44fb4500a30b7ecf623f3ca7d8a4da2cad54bd6745e8ac9b3650477598215d",
+      "time": 0.0
+    },
+    {
+      "animation": "attack_01",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_01.png",
+      "sha256": "e38e0f5af43d003869e88ab6ac67c473eb229da64995fc6121090b9a72d31033",
+      "time": 0.0580645161290323
+    },
+    {
+      "animation": "attack_01",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_02.png",
+      "sha256": "ba90298838bcc3bee7a97c94de792a216b8e2d852b5e11d3505f9df668dc2eed",
+      "time": 0.116129032258065
+    },
+    {
+      "animation": "attack_01",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_03.png",
+      "sha256": "683c50da9b338596d95cd556679d4dfcb4702cc0c8dac47d72e31edd9aaca7e0",
+      "time": 0.174193548387097
+    },
+    {
+      "animation": "attack_01",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_04.png",
+      "sha256": "11d9b69050f9d0898bc73aeef3a34cb4fc9112518cdbc74bb81f98aabb1edd5f",
+      "time": 0.232258064516129
+    },
+    {
+      "animation": "attack_01",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_05.png",
+      "sha256": "b0d5f8c56a95e358bb6d8befc38f9bc46011de915756fd2b5dc1c0f894ff41e6",
+      "time": 0.290322580645161
+    },
+    {
+      "animation": "attack_01",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_06.png",
+      "sha256": "567e95b04afa132b1f187349297bc206fc7579137088c2a49c70160be3902510",
+      "time": 0.348387096774194
+    },
+    {
+      "animation": "attack_01",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_07.png",
+      "sha256": "3d5a125dc82c811adaf3fb698abe96708df2f977869c508e7b3720af24117f27",
+      "time": 0.406451612903226
+    },
+    {
+      "animation": "attack_01",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_08.png",
+      "sha256": "e16e088534850c609c65c0c3637438c7c09f3b87a1ebc8f1ce10430ed10178b1",
+      "time": 0.464516129032258
+    },
+    {
+      "animation": "attack_01",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_09.png",
+      "sha256": "29ce8775aadf715c1094795c8a680608bc762e04cc85e275838839f4cb06f445",
+      "time": 0.52258064516129
+    },
+    {
+      "animation": "attack_01",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_10.png",
+      "sha256": "b90ad88d54dc0557da3db153da91d5cead495a8539331882ba6c2a9303181889",
+      "time": 0.580645161290323
+    },
+    {
+      "animation": "attack_01",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_11.png",
+      "sha256": "bdc26edfa04c4f6d5b59882c29b0310ce3c578a95eff729663d69b46de56cd99",
+      "time": 0.638709677419355
+    },
+    {
+      "animation": "attack_01",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_12.png",
+      "sha256": "b6113c7e76dfac75ccfeee4d96150127b1133f24fb8616b0a12ce4aeb4dd3da4",
+      "time": 0.696774193548387
+    },
+    {
+      "animation": "attack_01",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_13.png",
+      "sha256": "b6113c7e76dfac75ccfeee4d96150127b1133f24fb8616b0a12ce4aeb4dd3da4",
+      "time": 0.754838709677419
+    },
+    {
+      "animation": "attack_01",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_14.png",
+      "sha256": "97bef8ac7677a432ec1b5b161f71bf65c721347e375bb9121b0ba9bf8c57cbfd",
+      "time": 0.812903225806452
+    },
+    {
+      "animation": "attack_01",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_15.png",
+      "sha256": "2a6e86600f6c0a667f83bfd2e785b677339212c19bbc45cbe36b7497d2d24051",
+      "time": 0.870967741935484
+    },
+    {
+      "animation": "attack_01",
+      "frame": 16.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_16.png",
+      "sha256": "b7d54667d5314fcac51756273c57b1e9554205d0e35e58e186043db41c5f28db",
+      "time": 0.929032258064516
+    },
+    {
+      "animation": "attack_01",
+      "frame": 17.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_17.png",
+      "sha256": "fd85d0cbaac0962eabc3bcbf334da9c84d9861a26aed74c63b75c9e5864a68fa",
+      "time": 0.987096774193548
+    },
+    {
+      "animation": "attack_01",
+      "frame": 18.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_18.png",
+      "sha256": "45e62008986992be9c60e1ec4a6abbe5332b61ab4d3dd3c2567d03df0481bb48",
+      "time": 1.04516129032258
+    },
+    {
+      "animation": "attack_01",
+      "frame": 19.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_19.png",
+      "sha256": "b310bccea35244afaa821370ca587492122c9605858d4164f7bb2ebb22c97fcf",
+      "time": 1.10322580645161
+    },
+    {
+      "animation": "attack_01",
+      "frame": 20.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_20.png",
+      "sha256": "587912bffddfb6f5b871d911dd749a4761482f530f0686df30fc439a0ed4d8ac",
+      "time": 1.16129032258065
+    },
+    {
+      "animation": "attack_01",
+      "frame": 21.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_21.png",
+      "sha256": "44d0d6a9b5cbb852e53d3b7d4e408131bb17714967c2d1171075648c121d8b52",
+      "time": 1.21935483870968
+    },
+    {
+      "animation": "attack_01",
+      "frame": 22.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_22.png",
+      "sha256": "ee7103b7b946f48ff237d9ea488c8532f54d09590e6f5d78818855f7adf9f90b",
+      "time": 1.27741935483871
+    },
+    {
+      "animation": "attack_01",
+      "frame": 23.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_23.png",
+      "sha256": "5eb149dd40c483bbbd0928a9949535e7f96930c4f7363204c000d12fc04610fe",
+      "time": 1.33548387096774
+    },
+    {
+      "animation": "attack_01",
+      "frame": 24.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_24.png",
+      "sha256": "4724672f55b684774bf339d36ffd00cb5f25e2a66ec9249c133a85cd13ad652d",
+      "time": 1.39354838709677
+    },
+    {
+      "animation": "attack_01",
+      "frame": 25.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_25.png",
+      "sha256": "7d8cd1035ed9dd5fa1a0a637a91cd9858d08a8fef883235b3d5b9f761c306466",
+      "time": 1.45161290322581
+    },
+    {
+      "animation": "attack_01",
+      "frame": 26.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_26.png",
+      "sha256": "fd2d052e99bd4b56ae517e96a0beb12a3f9aff243fef70fbaa194f3d37912258",
+      "time": 1.50967741935484
+    },
+    {
+      "animation": "attack_01",
+      "frame": 27.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_27.png",
+      "sha256": "1f91aac0b706fdbd4faa707f085625801789fdaae5158f45def19c30d9100f2e",
+      "time": 1.56774193548387
+    },
+    {
+      "animation": "attack_01",
+      "frame": 28.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_28.png",
+      "sha256": "143e6c14cdae484c67fc6fa15416233430507ff8079dccced6541bb372070ea8",
+      "time": 1.6258064516129
+    },
+    {
+      "animation": "attack_01",
+      "frame": 29.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_29.png",
+      "sha256": "971be4af0fb07bedf04e3ed38e9a2e25360cacffa45d17c02c8a044f1ddb616a",
+      "time": 1.68387096774194
+    },
+    {
+      "animation": "attack_01",
+      "frame": 30.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_30.png",
+      "sha256": "3a25af8ca48752e5ecbdad7efdc0eea61bb4d1a7bf60cfe3c26ced9a5d46192f",
+      "time": 1.74193548387097
+    },
+    {
+      "animation": "attack_01",
+      "frame": 31.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/attack_01_360_31.png",
+      "sha256": "8b44fb4500a30b7ecf623f3ca7d8a4da2cad54bd6745e8ac9b3650477598215d",
+      "time": 1.8
+    },
+    {
+      "animation": "skill_01",
+      "frame": 0.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_00.png",
+      "sha256": "8b44fb4500a30b7ecf623f3ca7d8a4da2cad54bd6745e8ac9b3650477598215d",
+      "time": 0.0
+    },
+    {
+      "animation": "skill_01",
+      "frame": 1.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_01.png",
+      "sha256": "c0eeb4c2540d3dbf3acb444be682cef96382ce4f00efd0590ddbaf541394aea6",
+      "time": 0.135483870967742
+    },
+    {
+      "animation": "skill_01",
+      "frame": 2.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_02.png",
+      "sha256": "cb4931ef3f8f51326a492286e0e04dbbcb0f083d2a5e9b01908c5cb349877d45",
+      "time": 0.270967741935484
+    },
+    {
+      "animation": "skill_01",
+      "frame": 3.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_03.png",
+      "sha256": "c63084cf3e127f2fc7afc60daa67834b0757b27adebe92cfcc305aff6336a3e9",
+      "time": 0.406451612903226
+    },
+    {
+      "animation": "skill_01",
+      "frame": 4.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_04.png",
+      "sha256": "f0daab81f9378199192353f76e3361ddb330ea82be59247e50d549855f61b143",
+      "time": 0.541935483870968
+    },
+    {
+      "animation": "skill_01",
+      "frame": 5.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_05.png",
+      "sha256": "f31d73d936dc8117c71e4b5f3fe1f5d33bb217541567ea42937c85d886ff60d4",
+      "time": 0.67741935483871
+    },
+    {
+      "animation": "skill_01",
+      "frame": 6.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_06.png",
+      "sha256": "ab4b2c0b002dcbc68fb0f7277de9843a3d4a839511c5ab25d25804114eb25182",
+      "time": 0.812903225806452
+    },
+    {
+      "animation": "skill_01",
+      "frame": 7.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_07.png",
+      "sha256": "33295737cdc4d78903901642c031ea9219d1cbe4a1686a1863ead61c7e1f6d25",
+      "time": 0.948387096774194
+    },
+    {
+      "animation": "skill_01",
+      "frame": 8.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_08.png",
+      "sha256": "1f5a446d5e63b694af1cbe79f245a575d61e205d5e175cf4953076b799d8fa56",
+      "time": 1.08387096774194
+    },
+    {
+      "animation": "skill_01",
+      "frame": 9.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_09.png",
+      "sha256": "01ea3e64a8af8617b55f661bf38733fe149badd94252462a9fab20601bab95ed",
+      "time": 1.21935483870968
+    },
+    {
+      "animation": "skill_01",
+      "frame": 10.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_10.png",
+      "sha256": "5dab38b43efee08429ef9a98bbace114aaed5fa92b2713eff401e559b3c4bd30",
+      "time": 1.35483870967742
+    },
+    {
+      "animation": "skill_01",
+      "frame": 11.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_11.png",
+      "sha256": "7b1dad77570664382543c3da9ff219d9ea4f32cbe335c153c90fe7605f8ec288",
+      "time": 1.49032258064516
+    },
+    {
+      "animation": "skill_01",
+      "frame": 12.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_12.png",
+      "sha256": "d44be6eead779ddbb6b93be36371a5c5a95706f03ff471e3570a5844053dc743",
+      "time": 1.6258064516129
+    },
+    {
+      "animation": "skill_01",
+      "frame": 13.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_13.png",
+      "sha256": "c300d3f71e03cdc0076db23269de17b863df4bc96c6d7b5cbce48e4795c722e8",
+      "time": 1.76129032258065
+    },
+    {
+      "animation": "skill_01",
+      "frame": 14.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_14.png",
+      "sha256": "f2790f07f1f09b3bbd502d73ec7820ca87507817357113cf39aea880867c8d8c",
+      "time": 1.89677419354839
+    },
+    {
+      "animation": "skill_01",
+      "frame": 15.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_15.png",
+      "sha256": "79df5a98d007bc1b653571b2231147bb52cc095be1457e987cf60e9b2d331280",
+      "time": 2.03225806451613
+    },
+    {
+      "animation": "skill_01",
+      "frame": 16.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_16.png",
+      "sha256": "11f4d2471c068233016791796f85f404c643f0bfb47b0251886b4d10fe4d68f6",
+      "time": 2.16774193548387
+    },
+    {
+      "animation": "skill_01",
+      "frame": 17.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_17.png",
+      "sha256": "8c4be7c1d0028b8a9f13509ce915b56a27861ce2d4574274300efd749d7fabaa",
+      "time": 2.30322580645161
+    },
+    {
+      "animation": "skill_01",
+      "frame": 18.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_18.png",
+      "sha256": "1f3f0acc9c6843da040e77463d48b7a5d460726fbb823dae10673728235ec6be",
+      "time": 2.43870967741936
+    },
+    {
+      "animation": "skill_01",
+      "frame": 19.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_19.png",
+      "sha256": "edf55317c4efa4c6e9ed01bc934b1a654e49921626b98e00411b41d746cec307",
+      "time": 2.5741935483871
+    },
+    {
+      "animation": "skill_01",
+      "frame": 20.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_20.png",
+      "sha256": "6a320b9a19608dda6071ca7fec363fc4b42a1e3d66229c789290e9941d1628b7",
+      "time": 2.70967741935484
+    },
+    {
+      "animation": "skill_01",
+      "frame": 21.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_21.png",
+      "sha256": "d8eb33e8bd04a75017c4bf75f408ecb256f5fba5ed34e68fb692e094932fed08",
+      "time": 2.84516129032258
+    },
+    {
+      "animation": "skill_01",
+      "frame": 22.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_22.png",
+      "sha256": "55e704a7f0c0e77fcae9016ab0640256ddd3a88d5eadc08804984fb07cd52561",
+      "time": 2.98064516129032
+    },
+    {
+      "animation": "skill_01",
+      "frame": 23.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_23.png",
+      "sha256": "ac52eea3b0faaadc11e4d91decef695ef92585cfeada75ccff45ffc27d1f58dc",
+      "time": 3.11612903225806
+    },
+    {
+      "animation": "skill_01",
+      "frame": 24.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_24.png",
+      "sha256": "4e245e58a1f4d3e129be2879cdaf8401561e39fc213e6e7e86b10accb6b03dd6",
+      "time": 3.25161290322581
+    },
+    {
+      "animation": "skill_01",
+      "frame": 25.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_25.png",
+      "sha256": "98527d85aa72664340ee2e93596ecbbdf4b2e22ac065c8bdecb17cfdf9408796",
+      "time": 3.38709677419355
+    },
+    {
+      "animation": "skill_01",
+      "frame": 26.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_26.png",
+      "sha256": "379956cd3ef17628a146b605c30e337dad5abf71959b88a2cdd32ef640d6a62b",
+      "time": 3.52258064516129
+    },
+    {
+      "animation": "skill_01",
+      "frame": 27.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_27.png",
+      "sha256": "814e43751d6d96ac68d1c8a0bfbcca897c5342aca63d375e889fae5f69fc9221",
+      "time": 3.65806451612903
+    },
+    {
+      "animation": "skill_01",
+      "frame": 28.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_28.png",
+      "sha256": "f2b23a89d1526b695e79e7fc3965f9cff920113c1c796fd9032e0e6d86c3952a",
+      "time": 3.79354838709677
+    },
+    {
+      "animation": "skill_01",
+      "frame": 29.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_29.png",
+      "sha256": "6c2665c672e45cf1add58c4e641299afce5819be31c2a80015f9ad0d865196a7",
+      "time": 3.92903225806452
+    },
+    {
+      "animation": "skill_01",
+      "frame": 30.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_30.png",
+      "sha256": "890ddbae3f9318c45a83f385f9b0b5c407e8a2bef57a168cb3811acf2e48abeb",
+      "time": 4.06451612903226
+    },
+    {
+      "animation": "skill_01",
+      "frame": 31.0,
+      "height": 360.0,
+      "path": "res://reports/minotaur_breaker/actions_v2/frames/skill_01_360_31.png",
+      "sha256": "7c03a96cfc4e0097a2d68a95ae4669fa90b4f15a7516ad91e968119f23325a00",
+      "time": 4.2
+    }
+  ],
+  "inputs_unchanged_during_capture": true,
+  "renderer": "GeForce GTX 1650",
+  "scene_sha256": "6d70a6616366dd6c0332f2b691879f5a7c65a5687e38fcb8e3e878dd9cfa1371",
+  "source": "Actual Godot GPU SubViewport frames; heights may be captured sequentially to limit memory",
+  "status": "CAPTURED_NOT_VISUALLY_APPROVED"
+}

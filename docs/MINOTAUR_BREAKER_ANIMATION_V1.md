@@ -1,5 +1,7 @@
 # 牛头破阵者原生动画 V1
 
+> 当前普攻和技能已更新为 V2：详见 [MINOTAUR_BREAKER_HEAVY_ACTIONS_V2.md](MINOTAUR_BREAKER_HEAVY_ACTIONS_V2.md)。以下1.35秒攻击和1.8秒技能描述为历史V1；当前正式值为1.8秒过顶劈砍、4.2秒牛角冲锋。其他四动画不变。
+
 六动画：idle 2秒循环；walk 1.4秒循环；attack_01 1.35秒；skill_01 1.8秒；hit 0.4秒；death 1.7秒。数据在 `resources/minotaur_breaker_animation_candidates.json`，原生AnimationPlayer由构建脚本生成。
 
 Walk每周期前进180源像素。双腿相差半周期，支撑相62%、摆动相38%，支撑期间踝点相对身体向后移动，与根位移抵消。行走落脚点收拢到身体下方，避免沿母图宽站姿原地挪步。大腿、小腿通过固定骨长IK联动。头部保持稳定，空手与披风仅小幅滞后。测试记录源像素和两种战斗尺寸的世界脚底漂移。

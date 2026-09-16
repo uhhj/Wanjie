@@ -1,0 +1,24 @@
+{
+  "axe_downward_travel_source_px": 995.270446777344,
+  "both_hands_above_head_anchor": true,
+  "charge_distance_360px": 722.508710801394,
+  "charge_distance_source_px": 2880.0,
+  "charge_support_drift_360px": {
+    "far": 0.0273658720458426,
+    "near": 0.00839416469846453
+  },
+  "errors": [],
+  "events": {
+    "attack_01": [
+      1,
+      0
+    ],
+    "skill_01": [
+      0,
+      1
+    ]
+  },
+  "scene_sha256": "6d70a6616366dd6c0332f2b691879f5a7c65a5687e38fcb8e3e878dd9cfa1371",
+  "status": "PASS",
+  "two_hand_grip_max_source_px": 0.000185631186468527
+}

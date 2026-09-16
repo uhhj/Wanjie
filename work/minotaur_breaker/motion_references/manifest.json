@@ -1,0 +1,20 @@
+{
+  "role": "MOTION_REFERENCE_ONLY_NOT_SPRITE_ART",
+  "tool": "image_gen.imagegen",
+  "references": [
+    {
+      "file": "work/minotaur_breaker/motion_references/attack_overhead_v2.png",
+      "sha256": "7911b92c55ebaf1538b0114a4088c26963bcc0692f818032a7f658d48e0a9a0d",
+      "prompt": "work/minotaur_breaker/motion_references/attack_overhead_v2.txt",
+      "source": "art_source/odyssey/minotaur_breaker/OD_UNIT_04_MINOTAUR_BREAKER_RIG_MASTER_V1.png",
+      "use": "Timing and pose inspiration only; no generated pixels in formal rig"
+    },
+    {
+      "file": "work/minotaur_breaker/motion_references/horn_charge_v2.png",
+      "sha256": "ba88b4253095babc63272aef2e52cdd0fe014b901700f6b559b499fa618a7a9e",
+      "prompt": "work/minotaur_breaker/motion_references/horn_charge_v2.txt",
+      "source": "art_source/odyssey/minotaur_breaker/OD_UNIT_04_MINOTAUR_BREAKER_RIG_MASTER_V1.png",
+      "use": "Timing and pose inspiration only; no generated pixels in formal rig"
+    }
+  ]
+}

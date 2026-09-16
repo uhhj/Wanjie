@@ -1,0 +1,24 @@
+{
+  "status": "PASS_FORMAL_RUNTIME_REGRESSION",
+  "base_commit": "6cffbe2673e1bcbeae61dfd9e275a2adf43be989",
+  "candidate_scene_sha256": "6d70a6616366dd6c0332f2b691879f5a7c65a5687e38fcb8e3e878dd9cfa1371",
+  "formal_scene_sha256": "369429c961409e754531190ffa05b770155123c8a7bf9b6d36937abc56fcf0d2",
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "changed_clips": [
+    "attack_01",
+    "skill_01"
+  ],
+  "regressions": [
+    "formal_actions_v2_test.json",
+    "formal_motion_contract_test.json",
+    "formal_scene_parity.json",
+    "lab_smoke.json"
+  ]
+}

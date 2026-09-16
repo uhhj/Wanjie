@@ -16,16 +16,22 @@ func run() -> void:
 	lab.mana_ticks=0
 	for cycle in 4:
 		lab.unit.play_animation("attack_01")
-		for frame in 121:lab.unit.animation_player.advance(1.35/120.)
+		var attack_length:float=lab.unit.animation_player.get_animation("attack_01").length
+		for frame in 121:lab.unit.animation_player.advance(attack_length/120.)
 		await process_frame
 	if lab.unit.animation_player.assigned_animation!="skill_01":errors.append("Full demo mana did not trigger skill")
-	for frame in 121:lab.unit.animation_player.advance(1.8/120.)
+	var skill_length:float=lab.unit.animation_player.get_animation("skill_01").length
+	for frame in 121:lab.unit.animation_player.advance(skill_length/120.)
 	await process_frame
 	if lab.attacks!=4 or lab.skills!=1:errors.append("Demo event counts incorrect")
 	lab.unit.play_animation("death")
 	for frame in 121:lab.unit.animation_player.advance(1.7/120.)
 	await process_frame
 	if lab.unit.animation_player.assigned_animation!="death":errors.append("Death unexpectedly restored")
+	lab.unit.position.x=1550.
+	lab._process(0)
+	if lab.follow_camera.position.x<=lab.get_viewport_rect().size.x/2.:errors.append("Charge camera did not follow")
+	if lab.unit.position.x!=1550.:errors.append("Camera changed actual world position")
 	var report:={"status":"PASS" if errors.is_empty() else "FAIL","checks":["six choices","pause","resume","four demo normal hits trigger one skill","death holds"],"attack_events":lab.attacks,"skill_events":lab.skills,"scope":"Lab call/state smoke, no damage or production mana constants","errors":errors}
 	var f:=FileAccess.open("res://reports/minotaur_breaker/lab_smoke.json",FileAccess.WRITE)
 	f.store_string(JSON.stringify(report,"  ")+"\n")

@@ -10,6 +10,7 @@ var debug: Node2D
 var mana_demo := false
 var mana_ticks := 0
 var mana_bar: ProgressBar
+var follow_camera: Camera2D
 func _ready() -> void:
 	RenderingServer.set_default_clear_color(Color(.85,.86,.87))
 	unit = load(SCENE).instantiate()
@@ -17,6 +18,9 @@ func _ready() -> void:
 	unit.scale = Vector2.ONE*360./1435.
 	unit.position = Vector2(800,700)
 	add_child(unit)
+	follow_camera=Camera2D.new()
+	add_child(follow_camera)
+	follow_camera.position=get_viewport_rect().size/2.
 	unit.attack_hit.connect(_attack_event)
 	unit.skill_hit.connect(func(): skills+=1)
 	unit.animation_player.animation_finished.connect(_demo_finished)
@@ -35,7 +39,7 @@ func _ready() -> void:
 	var box := VBoxContainer.new()
 	panel.add_child(box)
 	var title := Label.new()
-	title.text = "Minotaur Native Rig Lab V1\nSingle-unit approved; dense stress limits documented"
+	title.text = "Minotaur Native Rig Lab | Heavy Actions V2\nCamera follows long-distance root motion"
 	box.add_child(title)
 	picker = OptionButton.new()
 	for name in NAMES:picker.add_item(name)
@@ -87,5 +91,6 @@ func _control(action: String) -> void:
 		unit.play_animation(picker.get_item_text(picker.selected))
 func _process(_delta:float) -> void:
 	if unit==null:return
+	follow_camera.position=get_viewport_rect().size/2.+Vector2(maxf(0.,unit.position.x-1000.),0.)
 	if mana_bar!=null:mana_bar.value=mana_ticks
 	status.text="Animation: %s\nTime: %.3f\nattack_hit: %d\nskill_hit: %d\nFPS: %d"%[unit.animation_player.assigned_animation,unit.animation_player.current_animation_position,attacks,skills,Engine.get_frames_per_second()]

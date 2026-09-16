@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex visual inspection",
+  "scope": "128 actual Godot GPU frames, two actions at 360px and 288px; 16 native-size contact sheets inspected",
+  "artifact_inputs": {
+    "res://resources/minotaur_breaker_animation_candidates.json": "98c7fcc6c267f54bd0b172d3f79e79d263c4cce4c3db1183d74544e7043f37b0",
+    "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
+    "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
+    "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
+    "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
+    "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "6d70a6616366dd6c0332f2b691879f5a7c65a5687e38fcb8e3e878dd9cfa1371"
+  },
+  "attack_01": {
+    "status": "PASS",
+    "observations": [
+      "Both hands acquire separated shaft grips before lift",
+      "Raised axe above head, strong downward arc and torso follow-through",
+      "Feet remain planted during chop",
+      "No obvious limb disconnection at target size; arms and axe naturally obscure part of face during overhead hold"
+    ]
+  },
+  "skill_01": {
+    "status": "PASS",
+    "observations": [
+      "Low torso and forward horns lead charge",
+      "Six alternating stride cycles with lifted recovery hoof",
+      "Axe head carried behind leading horns",
+      "Recovery settles at new world position"
+    ]
+  },
+  "limitations": [
+    "Rendered 2D artwork has fixed perspective; overhead wrists overlap in projection",
+    "V1 dense crowd performance limitation retained; V2 performance not benchmarked in this revision"
+  ],
+  "approval": "Engineering visual review; user may request further motion direction changes"
+}
