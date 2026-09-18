@@ -1,0 +1,13 @@
+{
+  "arm_extension_ratio": {
+    "far": 0.885616925384709,
+    "near": 0.951075250472576
+  },
+  "attack_hit_count": 1,
+  "blade_forward_reach_source_px": 866.0,
+  "errors": [],
+  "recovery_total_degrees": 139.999999342395,
+  "scene_sha256": "9315657c2f8a5a919d56cc9c88a37abe8fb1e5565e8a825c70761d3bf42bb4ee",
+  "status": "PASS",
+  "two_hand_grip_error_source_px": 0.000185631186468527
+}

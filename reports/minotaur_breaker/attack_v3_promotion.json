@@ -1,0 +1,17 @@
+{
+  "status": "PROMOTED_PENDING_FORMAL_TEST",
+  "base_commit": "0f7f530",
+  "changed_clips": [
+    "attack_01"
+  ],
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "skill_01",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "formal_scene_sha256": "9315657c2f8a5a919d56cc9c88a37abe8fb1e5565e8a825c70761d3bf42bb4ee"
+}

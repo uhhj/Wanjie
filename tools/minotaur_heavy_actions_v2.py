@@ -82,4 +82,6 @@ def build_actions(m):
             for p,v in zip(poses,vals):p['rotations'][bone]=float(v)
         result[name]={'length':length,'loop':False,'times':times.tolist(),'poses':poses,
             'method_events':[{'time':1.06 if name=='attack_01' else 3.24,'method':'_event_attack_hit' if name=='attack_01' else '_event_skill_hit'}]}
+    from minotaur_attack_v3 import build_attack
+    result['attack_01']=build_attack(m)
     return result
