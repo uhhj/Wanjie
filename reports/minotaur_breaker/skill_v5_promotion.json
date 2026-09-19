@@ -1,0 +1,18 @@
+{
+  "status": "PROMOTED_PENDING_FORMAL_TEST",
+  "base_commit": "75acf87",
+  "changed_clips": [
+    "skill_01"
+  ],
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "carry": "Extended forward upright carry; wrist angle derived from the forearm",
+  "formal_scene_sha256": "9b64bdff33e166865459c76c1bc66698f4a786392e61bcce9daa2d9680e9f583"
+}

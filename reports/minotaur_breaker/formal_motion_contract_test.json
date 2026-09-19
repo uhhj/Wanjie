@@ -10,7 +10,7 @@
       1
     ]
   },
-  "scene_sha256": "9cd9a63406f1b0458a9afb66ebd111dd14aa1d4d28d0dc92814b5681a54908c4",
+  "scene_sha256": "9b64bdff33e166865459c76c1bc66698f4a786392e61bcce9daa2d9680e9f583",
   "scope": "Native bone support-foot trajectories and independent event tracks; visual approval separate",
   "status": "PASS",
   "walk_contact": {
