@@ -1,0 +1,18 @@
+{
+  "status": "PROMOTED_PENDING_FORMAL_TEST",
+  "base_commit": "73a332d",
+  "changed_clips": [
+    "skill_01"
+  ],
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "carry": "Small-motion carry with shoulder pin, user-selected option D",
+  "formal_scene_sha256": "620e82a809ba1e0fb995f87ca8569c1885a8cadcc7e43c01e257e63aa139deec"
+}

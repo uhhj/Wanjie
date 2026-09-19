@@ -1,6 +1,6 @@
 # 牛头破阵者原生动画 V1
 
-> 普攻已由 [ATTACK_V4](MINOTAUR_BREAKER_ATTACK_V4.md) 替换（2.3 秒触地重劈+冲击特效），技能已由 [CHARGE_V6](MINOTAUR_BREAKER_CHARGE_V6.md) 替换（前伸直立携斧、举斧过渡与俯身同步）。以下1.35秒攻击和1.8秒技能描述为历史V1；当前正式值为2.3秒触地劈砍、4.2秒牛角冲锋。其他四动画不变。
+> 普攻已由 [ATTACK_V4](MINOTAUR_BREAKER_ATTACK_V4.md) 替换（2.3 秒触地重劈+冲击特效），技能已由 [CHARGE_V7](MINOTAUR_BREAKER_CHARGE_V7.md) 替换（小位移贴身携斧、肩骨钉回护肩）。以下1.35秒攻击和1.8秒技能描述为历史V1；当前正式值为2.3秒触地劈砍、4.2秒牛角冲锋。其他四动画不变。
 
 六动画：idle 2秒循环；walk 1.4秒循环；attack_01 1.35秒；skill_01 1.8秒；hit 0.4秒；death 1.7秒。数据在 `resources/minotaur_breaker_animation_candidates.json`，原生AnimationPlayer由构建脚本生成。
 
