@@ -1,0 +1,58 @@
+{
+  "unit_id": "OD_UNIT_05_GAUSS_RIFLEMAN",
+  "frozen_at": "2026-09-19",
+  "read_only": true,
+  "files": [
+    {
+      "role": "设计三视图+武器细节表",
+      "file": "art_source/odyssey/gauss_rifleman/OD_UNIT_05_GAUSS_RIFLEMAN_DESIGN_V1.png",
+      "sha256": "5d19eabd51e14bf3603ea3ffda681615959f7c9f7873376bf2f0d6552e23ffe3",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null
+    },
+    {
+      "role": "战斗外观 3/4 透明底",
+      "file": "art_source/odyssey/gauss_rifleman/OD_UNIT_05_GAUSS_RIFLEMAN_COMBAT_LOOK_V1.png",
+      "sha256": "b75e132f005da2dcae65c236dbcb7e97c56c34c73e11838577d0826342413fad",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "role": "Rig 母图 侧视 透明底",
+      "file": "art_source/odyssey/gauss_rifleman/OD_UNIT_05_GAUSS_RIFLEMAN_RIG_MASTER_V1.png",
+      "sha256": "ba4926ea98b9d657bce4317effd969b8b638f21c4adbcdae52ea37a747a954ac",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "role": "收藏原画 场景图",
+      "file": "art_source/odyssey/gauss_rifleman/OD_UNIT_05_GAUSS_RIFLEMAN_CODEX_V1.png",
+      "sha256": "8736fc2568caeaa2e249a519b3bfe47f285c8fde82566c12c74b4d4125be3318",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "alpha_extrema": null
+    }
+  ],
+  "notes": "两张 1024x1536 母图 alpha 上限 254（非 255），属于源图自身状态，如实记录； RGBA/alpha 门禁在后续阶段处理。"
+}

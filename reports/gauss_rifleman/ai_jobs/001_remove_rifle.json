@@ -1,0 +1,16 @@
+{
+  "job": "001_remove_rifle",
+  "unit_id": "OD_UNIT_05_GAUSS_RIFLEMAN",
+  "status": "NOT_RUN",
+  "attempted": false,
+  "input_file": "art_source/odyssey/gauss_rifleman/OD_UNIT_05_GAUSS_RIFLEMAN_RIG_MASTER_V1.png",
+  "input_sha256": "ba4926ea98b9d657bce4317effd969b8b638f21c4adbcdae52ea37a747a954ac",
+  "mask": "work/gauss_rifleman/masks/remove_rifle_draft.png",
+  "prompt": "严格参考当前高斯步枪兵设计。移除他手中的高斯步枪，并只补全原本被步枪遮挡的身体与装备：胸前的战术背心与挂具、双手（握把手与前握把手）、前侧小臂被遮挡的部分，以及枪托遮挡的上臂/肩部区域。必须保持角色完全相同：同一头盔与面罩、同一胸甲、同一配色（灰白装甲+深灰作战服+青色能量光效）、同一站姿与朝向、同一人体比例。不要重新设计人物。不要保留步枪的任何部分（枪托、弹匣、脚架、瞄准镜都不许残留）。不要新增任何武器或装备。透明背景。2D手绘半写实游戏美术。\n",
+  "prompt_sha256": "3869ab6aff14175f6471a2fb54940bb85d0f1eae1328bf4562a7858c1ee3a646",
+  "output_file": null,
+  "output_sha256": null,
+  "model": null,
+  "timestamp": null,
+  "note": "等待图像编辑能力或人工 Image 2.5 处理；mask 为草案，编辑前可微调。"
+}
