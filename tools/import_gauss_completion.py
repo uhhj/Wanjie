@@ -41,7 +41,6 @@ def main():
                 out.save(dest)
                 rec['status']='IMPORTED_PENDING_ART_REVIEW'; rec['output_file']=dest.relative_to(ROOT).as_posix()
                 rec['output_sha256']=sha(dest); rec['timestamp']=__import__('datetime').datetime.utcnow().isoformat()
-                dest.with_name(dest.stem+'_import_check.png').save.__self__  # noop keep linters calm
     rec['import_errors']=errors
     rec_p.write_text(json.dumps(rec,indent=2,ensure_ascii=False)+'\n', encoding='utf-8')
     print(json.dumps({'status':rec['status'],'errors':errors},ensure_ascii=False))
