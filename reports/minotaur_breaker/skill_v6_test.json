@@ -1,0 +1,12 @@
+{
+  "blade_min_drop_source_px": -185.97802734375,
+  "blade_min_forward_offset_source_px": 446.930603027344,
+  "errors": [],
+  "far_hand_tracking_error_source_px": 21.5406589508057,
+  "min_charge_lean_deg": 56.0000004199771,
+  "note": "V5: extended forward carry, blade rides above hip by design",
+  "root_distance_source_px": 2880.0,
+  "scene_sha256": "be1afd11db47bd3b890a96ca849d39fece6f59e8693abb1ec94038364dc5bb69",
+  "skill_hit_count": 1,
+  "status": "PASS"
+}

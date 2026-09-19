@@ -83,7 +83,7 @@ def build_actions(m):
         result[name]={'length':length,'loop':False,'times':times.tolist(),'poses':poses,
             'method_events':[{'time':1.06 if name=='attack_01' else 3.24,'method':'_event_attack_hit' if name=='attack_01' else '_event_skill_hit'}]}
     from minotaur_attack_v4 import build_attack
-    from minotaur_skill_v5 import build_skill
+    from minotaur_skill_v6 import build_skill
     result['attack_01']=build_attack(m)
     result['skill_01']=build_skill(m)
     return result

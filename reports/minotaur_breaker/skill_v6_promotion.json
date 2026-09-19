@@ -1,0 +1,18 @@
+{
+  "status": "PROMOTED_PENDING_FORMAL_TEST",
+  "base_commit": "0fc7414",
+  "changed_clips": [
+    "skill_01"
+  ],
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "carry": "Extended forward carry with lean-synced raise transient",
+  "formal_scene_sha256": "710af34cd8add494cf0359a76e44db5de46765cf9d3960ab272e7025541c44b5"
+}
