@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "reviewer": "ZCode (GLM) visual inspection",
+  "scope": "128 actual Godot GPU frames after the V4 charge fix: attack_01 (unchanged data, recaptured) and skill_01 V4 at 360px and 288px; all 16 native-size contact sheets inspected",
+  "artifact_inputs": {
+    "res://resources/minotaur_breaker_animation_candidates.json": "d8418ce1c619be84607e7b33eb9b74795ee6c68f502846636c47d43fb92af874",
+    "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
+    "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
+    "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
+    "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
+    "res://scripts/rig/minotaur_impact_fx.gd": "d2d2709ee1c9f7aaf75d229e39b53c4eef61561f0f34b13ed2b845aa489042f1",
+    "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "fda0d2a0e3078b3a8333aa62c92fd6c8420c1501e40127f4da4cf57ab9b4b302"
+  },
+  "skill_01": {
+    "status": "PASS",
+    "observations": [
+      "User-reported defect fixed: the axe hand no longer rests on the waist; the grip sits outside the front edge of the hip with the blade hanging beside the leading leg",
+      "The lower swing happens entirely in the open air ahead of the chest; shaft, blade and hand never enter the torso or skirt projection",
+      "56-degree lean, six stride cycles and 2880px root motion unchanged from the approved charge",
+      "Settle lifts the axe back to the idle hold; no pose pops, no joint gaps at either size"
+    ]
+  },
+  "attack_01": {
+    "status": "PASS",
+    "observations": [
+      "Recaptured frames are visually identical to the approved V4 ground-slam; impact FX intact"
+    ]
+  },
+  "limitations": [
+    "Rendered 2D artwork has fixed perspective",
+    "V1 dense crowd performance limitation retained"
+  ],
+  "approval": "Engineering visual review by continuation agent; user may request further motion direction changes"
+}

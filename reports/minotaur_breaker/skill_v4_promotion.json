@@ -1,0 +1,18 @@
+{
+  "status": "PROMOTED_PENDING_FORMAL_TEST",
+  "base_commit": "4e70f0f",
+  "changed_clips": [
+    "skill_01"
+  ],
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "attack_01",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "carry": "Front-low axe carry; hand and blade outside the body silhouette",
+  "formal_scene_sha256": "a673ba5cde390f707e8fdbef6876a599e8bb6eea1a505e3468128c8c8be91c3d"
+}
