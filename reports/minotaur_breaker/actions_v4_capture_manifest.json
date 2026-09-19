@@ -1,13 +1,13 @@
 {
   "artifact_inputs": {
-    "res://resources/minotaur_breaker_animation_candidates.json": "d8418ce1c619be84607e7b33eb9b74795ee6c68f502846636c47d43fb92af874",
+    "res://resources/minotaur_breaker_animation_candidates.json": "3c080c5d81ab0b9c34beab9a0e49d4d9235530ac247983564bd264b207d65e1e",
     "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
     "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
     "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
     "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
     "res://scripts/rig/minotaur_impact_fx.gd": "d2d2709ee1c9f7aaf75d229e39b53c4eef61561f0f34b13ed2b845aa489042f1",
     "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
-    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "fda0d2a0e3078b3a8333aa62c92fd6c8420c1501e40127f4da4cf57ab9b4b302"
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "ac68d59985428a984a194d994f09cbb5e0fa1d21a537d6a124d1e9b695630d2c"
   },
   "engine": "4.7.2-stable (official)",
   "events_attack_skill": {
@@ -570,7 +570,7 @@
       "frame": 2,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_02.png",
-      "sha256": "08b362c0429415839d296290e2b96ffa35d11627c37aba5e20bc1d0bf5f7521c",
+      "sha256": "bfd7ad54cfd27032c816af642bffc507cbfd6175763dae35aa2834a4758a2705",
       "time": 0.270967741935484
     },
     {
@@ -578,7 +578,7 @@
       "frame": 2,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_02.png",
-      "sha256": "734069b79b551567d2dae70113bbd2716f63d4d19ef1d07561a4ed93a0eeaa0c",
+      "sha256": "e3bd5304ed6631028441765f3ac3f28721983fce871b87a03e4463d0710d7f8c",
       "time": 0.270967741935484
     },
     {
@@ -586,7 +586,7 @@
       "frame": 3,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_03.png",
-      "sha256": "8d70142a69c24ae629c4285f6f15e3554eebca575c00bfc10526d7187bfe6017",
+      "sha256": "535c7da9336801c246961201ab8d0be6e1b60cd68cef11344a593dbc2d3e604a",
       "time": 0.406451612903226
     },
     {
@@ -594,7 +594,7 @@
       "frame": 3,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_03.png",
-      "sha256": "8a20473c49d7197e1af40a72119ec11b7541228b1b0191c2ee1f2499147e4d19",
+      "sha256": "6a79fcb67dea80bbb395ade21fbe8c6edb21fa8b8be75e882ee33be43630ee4d",
       "time": 0.406451612903226
     },
     {
@@ -602,7 +602,7 @@
       "frame": 4,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_04.png",
-      "sha256": "01dd0a168bad1c0a1625773e7425202df0a96552b715b08f7ab1395540df8003",
+      "sha256": "82d6bfc68b3c1714cf370407c200525f9ee6779008f28786fb9653be80bcbde1",
       "time": 0.541935483870968
     },
     {
@@ -610,7 +610,7 @@
       "frame": 4,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_04.png",
-      "sha256": "2fb06864d978e59f159c7dc384a42ef854af2440a35aceff5cac9d6f53a86bea",
+      "sha256": "efd04f8a7b56f0abc070b8898bcc9697b6bf5b59801e08c3a7c958b3e695f91b",
       "time": 0.541935483870968
     },
     {
@@ -618,7 +618,7 @@
       "frame": 5,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_05.png",
-      "sha256": "c424b1205ba5fbb9fc0929e18d182982f6ce3c811665e573b9f0b870572deb21",
+      "sha256": "c25ad95523db3a4141ad00f440fc1c0b19a3788eb065889178f68e3e6b637484",
       "time": 0.67741935483871
     },
     {
@@ -626,7 +626,7 @@
       "frame": 5,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_05.png",
-      "sha256": "cb8ff2f39226a20365f6225e01f80a97dcdd9965fa955b52671b16aec3fa1f2a",
+      "sha256": "a3e180406c82c47067239df1c17eea5a358d2a3ad4e980b19fbe304a81a7bec5",
       "time": 0.67741935483871
     },
     {
@@ -634,7 +634,7 @@
       "frame": 6,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_06.png",
-      "sha256": "8b49a7aae33d0fe4ea8192691ab931c0421626a8af7c2287a118d1540447b9d1",
+      "sha256": "fb1e111f5cb29a96b5c5de9fad977775228169e777bc8437b11421d9d190dc52",
       "time": 0.812903225806452
     },
     {
@@ -642,7 +642,7 @@
       "frame": 6,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_06.png",
-      "sha256": "e202bef155df996a20ace7ef1caaaf8d2f7f950509855bdd9f0a19c7721afe9e",
+      "sha256": "9880fecba80745ee942e019de339eedd708b3a35942b41e864a7e49c627b70fe",
       "time": 0.812903225806452
     },
     {
@@ -650,7 +650,7 @@
       "frame": 7,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_07.png",
-      "sha256": "70fb4c811d8e8e7ee554b89fddbac2fc6910ebfed90c65c5354d8374b952f2da",
+      "sha256": "5d7d55693e1339411ed6886cdd6ea9b52e299cd84f343ca27689ea4301b35151",
       "time": 0.948387096774194
     },
     {
@@ -658,7 +658,7 @@
       "frame": 7,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_07.png",
-      "sha256": "11e3708cb7f35fa64397b066cc21d29d7221c831b0f8b38f2e8d9b0d50927718",
+      "sha256": "5aed4947abdf4c8df45075c4733f8b9addb74421e74d4435662609ef72bda74a",
       "time": 0.948387096774194
     },
     {
@@ -666,7 +666,7 @@
       "frame": 8,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_08.png",
-      "sha256": "39aa66e0ff0292da72811069fe6b69a34c7db68c63b1fe98691511ddf8af72f7",
+      "sha256": "5859576ff13fd57025803ea12cc030803ff4267bd52c128d7950c265e2fde07a",
       "time": 1.08387096774194
     },
     {
@@ -674,7 +674,7 @@
       "frame": 8,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_08.png",
-      "sha256": "569f8bb727af6d931b4e8d217d9d9286c02421ca7a97485bd94c249e1d46cc23",
+      "sha256": "dd2cfcfd535e631ea52b1de7ee3a0dac3740a997da2854829ef2727f0ce24721",
       "time": 1.08387096774194
     },
     {
@@ -682,7 +682,7 @@
       "frame": 9,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_09.png",
-      "sha256": "ad571724adf3b51842dde4e6dbfc1631481daed29b9f47a0c9e320bbcdbfc2ae",
+      "sha256": "de84b5d7998bdfbc89bb3322d89400a19cff9f5504aa138a52b72fed0443a15f",
       "time": 1.21935483870968
     },
     {
@@ -690,7 +690,7 @@
       "frame": 9,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_09.png",
-      "sha256": "0d5014f16c6c82b8471abd7150e72cbc45caed23d2e9db5f90737e6aa75faa45",
+      "sha256": "2adc62f851e7a95af2a5536ef90e2bccf243936ad7ba4ef9dfee26ab6408edb4",
       "time": 1.21935483870968
     },
     {
@@ -698,7 +698,7 @@
       "frame": 10,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_10.png",
-      "sha256": "40a69a224482c9596531afe635a97754db3acad29340be0a21b260a04abed0a7",
+      "sha256": "2c7e12771ab7abbee3eb8d713f0b0e8bc14655dc0c16f29e20ac7fbfdbe9f214",
       "time": 1.35483870967742
     },
     {
@@ -706,7 +706,7 @@
       "frame": 10,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_10.png",
-      "sha256": "fc91684182d975b715699249eea265102d77bf432aa740b6c7648d100806f6d8",
+      "sha256": "a5802117a119cc1f8600a5c68d576a12eb03cc3cd89fec939bdd56f77511b193",
       "time": 1.35483870967742
     },
     {
@@ -714,7 +714,7 @@
       "frame": 11,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_11.png",
-      "sha256": "cdf2f99a0895c9d61e5a0110717e30b52ddcb015a505661f7b477f176afabaef",
+      "sha256": "04eb2e68c949082612f3539ccb832be0dbbbddeeabb2aa0d3d3e49cc18297798",
       "time": 1.49032258064516
     },
     {
@@ -722,7 +722,7 @@
       "frame": 11,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_11.png",
-      "sha256": "22a87e5e32ea8431661318143877ab5d983be3f80a6563be4f2114fb6513a30e",
+      "sha256": "f738bc72afe55eac0b00e307f3aec3ee45efb4cec670ea1a2ca1b1a9da07a5b1",
       "time": 1.49032258064516
     },
     {
@@ -730,7 +730,7 @@
       "frame": 12,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_12.png",
-      "sha256": "86254437ee408ee6a753a89c5997d09540aa6cbb55d368ee39207e9323069cc7",
+      "sha256": "02bbd3478bc91db79426b8ce36ea879ba83a025f73a505e1b153b1d21be93ef6",
       "time": 1.6258064516129
     },
     {
@@ -738,7 +738,7 @@
       "frame": 12,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_12.png",
-      "sha256": "682e8b9ac9c8924e459aadfe22b6298d799e9a00cf5386a96e6b82b57ff08a3f",
+      "sha256": "abec1a4abadb27055fdb002d6d427330ee52411ca025bc63381bd87e4f82ea54",
       "time": 1.6258064516129
     },
     {
@@ -746,7 +746,7 @@
       "frame": 13,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_13.png",
-      "sha256": "65b10d5d5f0e884edf97416225a615d42daa89b4e4ddeb72c979825035d935e2",
+      "sha256": "5cadbbbd3183c81c9989f27eb4a9352be0bf4ab90fc1167d3f1c2df9a2540c8b",
       "time": 1.76129032258065
     },
     {
@@ -754,7 +754,7 @@
       "frame": 13,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_13.png",
-      "sha256": "cc373fe993a2fa617fd008d83fd0eef2765ddd1d2e4b522986066874006738ff",
+      "sha256": "a089b0333dce3d629499de699ea2cd18589a544eff13ef2ee07744b06a6de645",
       "time": 1.76129032258065
     },
     {
@@ -762,7 +762,7 @@
       "frame": 14,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_14.png",
-      "sha256": "0a48106c2f375579f3cff9ed8e4449d7179c524c7effb2585eb12dc1ff929775",
+      "sha256": "3af3e91ebd3d8dc43347e6f6940246854c9c3b934a2421296cbfe091909b6271",
       "time": 1.89677419354839
     },
     {
@@ -770,7 +770,7 @@
       "frame": 14,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_14.png",
-      "sha256": "2af8528faebf153b00defc30dc77b26aaf3b5cadff1f3ed5d9023ba358077130",
+      "sha256": "79db96dc54b8d5a77262a0767def5f3a53b7ea97fd8391621772257ebc27aa4f",
       "time": 1.89677419354839
     },
     {
@@ -778,7 +778,7 @@
       "frame": 15,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_15.png",
-      "sha256": "da2a5fe8f932fd8d869d63def275c394052cfdc8779f46b71ed6aa182f114de9",
+      "sha256": "dfd342ae3f299333e8d4f2107df9185a13137d060ff2640209dba4b9ba7b432f",
       "time": 2.03225806451613
     },
     {
@@ -786,7 +786,7 @@
       "frame": 15,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_15.png",
-      "sha256": "e3ac2c0678303e050643a77f95b91915c2417074e3d0eaa2f0a9d8419f2b74d4",
+      "sha256": "7fc03da83df40442591d85c6fcf48e4aee34988e8cc0b62e319651fcc2f89838",
       "time": 2.03225806451613
     },
     {
@@ -794,7 +794,7 @@
       "frame": 16,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_16.png",
-      "sha256": "c2b9c0a3a87fe15566a2d61f4cb16b72224129f27006a93fedc59485fd755a2d",
+      "sha256": "e0a3fbf425d265ffbbe84898c3c7ce7a9cef236f0bde668b1b91d54bdf56a5d1",
       "time": 2.16774193548387
     },
     {
@@ -802,7 +802,7 @@
       "frame": 16,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_16.png",
-      "sha256": "ae7b66a3e97f4f2b9d934edc1cd805b3c111b080c8bf7d1fc3a2fa474777fb73",
+      "sha256": "b41afc51e5ae23770aafe0c76eba89f6de21d25dececec4844ca8b680d81d142",
       "time": 2.16774193548387
     },
     {
@@ -810,7 +810,7 @@
       "frame": 17,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_17.png",
-      "sha256": "243af41a10f3a44f5b0127c8933be94ecd145ab883181ad93d9aa23d92014616",
+      "sha256": "bb724562994667f04f40973948a54a9d6563d57cf4db3871cc2b347f2e2b0440",
       "time": 2.30322580645161
     },
     {
@@ -818,7 +818,7 @@
       "frame": 17,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_17.png",
-      "sha256": "4d42863138b015499ff384998b54f541d123835bd01ef353be4908b0a872ec37",
+      "sha256": "fedd1cb467b554adac7ccf9f090ceb24d265d1747182aa34137efece350b1180",
       "time": 2.30322580645161
     },
     {
@@ -826,7 +826,7 @@
       "frame": 18,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_18.png",
-      "sha256": "e43c6f72d013e7e0cc0569b2e8286bc3bc0aa6741dfd7c54bfcaa9d49d652660",
+      "sha256": "93effb6e1cac9f55dea95f2cde402a4b9c97444787e1888bfd8f447ae753a8d4",
       "time": 2.43870967741936
     },
     {
@@ -834,7 +834,7 @@
       "frame": 18,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_18.png",
-      "sha256": "4337abddc1a920f358daf0321c38c4e6ede8b1aeea9f2387330ba87c473ac405",
+      "sha256": "765e90a1542bc8e19ff145fc2292b8df913b632680d86b491da438be11384914",
       "time": 2.43870967741936
     },
     {
@@ -842,7 +842,7 @@
       "frame": 19,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_19.png",
-      "sha256": "85639c30f480362cc11689e472b9f3d65a9261c31a9ee40c3204d378b5c9596b",
+      "sha256": "dece3ce7a08680b734ae2599c0d261fc10feeac0b1afc54716f37e3261c44821",
       "time": 2.5741935483871
     },
     {
@@ -850,7 +850,7 @@
       "frame": 19,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_19.png",
-      "sha256": "44f305f955e36ee12c8b4aadf277c82900f4fe6c020808a8e0de8261ea58dfa3",
+      "sha256": "f9c025195b86514bd7fa9cca766b2c27ae3c6a011ec26e8268343ff231fdfe8b",
       "time": 2.5741935483871
     },
     {
@@ -858,7 +858,7 @@
       "frame": 20,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_20.png",
-      "sha256": "6f2c2faae34e6e553130e627746a41c430193d406ed5fe3e5ba0e74e9e7427d0",
+      "sha256": "d6674f5f84b9404d61bbcaea9d948ef29ab1abf0942b25884325d9ef109490eb",
       "time": 2.70967741935484
     },
     {
@@ -866,7 +866,7 @@
       "frame": 20,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_20.png",
-      "sha256": "79c443a100bfdfde2c76aab67ed2f28af763e7a56761657296c5615edfe47a68",
+      "sha256": "e3759833e551e9124175df827451dc4c661c0026facd5053a8d5629a26ee64da",
       "time": 2.70967741935484
     },
     {
@@ -874,7 +874,7 @@
       "frame": 21,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_21.png",
-      "sha256": "626c9f6ed73ea285e857c5d534392e751d851f1f6660fb58a22ff2913b839bbf",
+      "sha256": "375020486a4ac9a77ed0f9a9c6cb4f201b9be99ac18a4027ec0353b0475fecad",
       "time": 2.84516129032258
     },
     {
@@ -882,7 +882,7 @@
       "frame": 21,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_21.png",
-      "sha256": "7fec0aa2eed0259741bfbd202b037430c1a2b1704be577c7d3c1303da2cabaa7",
+      "sha256": "ca5ce0138dab36bc2d31527aecc079624ac24b10bc16bd457a3393ea0015f0ed",
       "time": 2.84516129032258
     },
     {
@@ -890,7 +890,7 @@
       "frame": 22,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_22.png",
-      "sha256": "dde9ad2a3e3168c3f957a688f3238f7576b9d96dbcaeb7544495c0816d9e847b",
+      "sha256": "fc60c6582ee014259e7936c76777e639073fc860b707495539f4181066d2773e",
       "time": 2.98064516129032
     },
     {
@@ -898,7 +898,7 @@
       "frame": 22,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_22.png",
-      "sha256": "fda42d51f32e892880f3aacd0ee6db5a9d07483f42636b5c21092c73894b5adb",
+      "sha256": "81c5d7148c8c94a152ba26fa27fe03104b88db25c99b615df178f5da0e5d60e5",
       "time": 2.98064516129032
     },
     {
@@ -906,7 +906,7 @@
       "frame": 23,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_23.png",
-      "sha256": "dc72762d113fd443888a459d3b2202e2860a55eb73d087887a507813e71bb83b",
+      "sha256": "0196365814b167c9f1667e2f1ac3b869a7e7e735119d9beb73b48ef5a875839b",
       "time": 3.11612903225806
     },
     {
@@ -914,7 +914,7 @@
       "frame": 23,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_23.png",
-      "sha256": "32a2c600527146d02c71ae48c6c5e3d02988d6a2a7c90672c8bbae307d322754",
+      "sha256": "d9d60bd63bf8e1265c6ce556cec0e494fc237df04e54dd3d6315caab78bbf8ed",
       "time": 3.11612903225806
     },
     {
@@ -922,7 +922,7 @@
       "frame": 24,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_24.png",
-      "sha256": "5e597efb2e1b3dbf71f66524e55bf1ae925f6eb5433db1239e3a2f635c44efba",
+      "sha256": "3e57255bfb509726a7d4c1449ba3e2e904bb5b3254fbbfd5dd9a26ab03ffb2ba",
       "time": 3.25161290322581
     },
     {
@@ -930,7 +930,7 @@
       "frame": 24,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_24.png",
-      "sha256": "0b0124d246ea845db6b874b60ef0d6cf5bdfe10e9d18ce1e1cfcf46a4e874f07",
+      "sha256": "b977706a9a35c080892be62ec3860a403f4dcb59e00dea7fdb240a94c126cc78",
       "time": 3.25161290322581
     },
     {
@@ -938,7 +938,7 @@
       "frame": 25,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_25.png",
-      "sha256": "ca49a2ccbddde7467008d02c8ddcffdc6f4c6ecabb7e8021dd09d973f1d23c41",
+      "sha256": "12dfe6939e369eab22d6bfb77b8d065f92dd806967bc63c42c31d80b7522ef92",
       "time": 3.38709677419355
     },
     {
@@ -946,7 +946,7 @@
       "frame": 25,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_25.png",
-      "sha256": "02b22ebc8fc8ccb545f89b2ab6aed256446348ccc6aa9363543c8cc20839e60c",
+      "sha256": "9d7b7e12c83fb985037d78b565e6f5fd154fd01435ff4632f8756d4f49161072",
       "time": 3.38709677419355
     },
     {
@@ -954,7 +954,7 @@
       "frame": 26,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_26.png",
-      "sha256": "58f31bd8489f0be079df584ffed7e86f6a57d899a67a666ba3eb4bee92f5916c",
+      "sha256": "bf1ca1f4de6509e882594fbd1ef07b6fd0bb2823d390670caaba7d6e0272e26d",
       "time": 3.52258064516129
     },
     {
@@ -962,7 +962,7 @@
       "frame": 26,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_26.png",
-      "sha256": "0954837393cc94b62345e88451156ee6bdf4662d215614a9518ae0f7123289bc",
+      "sha256": "50d343616d0d69c7bcdffe6b2d1a2467f626c09f4cc90d134f8fe9262b45284b",
       "time": 3.52258064516129
     },
     {
@@ -970,7 +970,7 @@
       "frame": 27,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_27.png",
-      "sha256": "bb984c73a942d1d2f561117c83e9f3806b21e2699c8f831b22775d30635ce15a",
+      "sha256": "28d1767c631bc5a140c5e26c091034c5cdc8beb9de81cb8b4fa6e53fe824e507",
       "time": 3.65806451612903
     },
     {
@@ -978,7 +978,7 @@
       "frame": 27,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_27.png",
-      "sha256": "6dd70552c249ae80df44ee16afafa777098240c811ba652d56d2276cdb4b067d",
+      "sha256": "7d5cb9565f7a238d17d5d3a7e76f6ea6b11a3d2019a7c0d28ef56d272b3814fd",
       "time": 3.65806451612903
     },
     {
@@ -986,7 +986,7 @@
       "frame": 28,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_28.png",
-      "sha256": "cd5226842e533a022519d54747b294c58e86671d3243aab82661e7a100daee7a",
+      "sha256": "129ed9397b9a107723d575178139ef2e3f42f15d0abab0a6fed4b7231380ebe9",
       "time": 3.79354838709677
     },
     {
@@ -994,7 +994,7 @@
       "frame": 28,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_28.png",
-      "sha256": "b009f1b7668a802fcfee2be8d51107e761a309660065afd8fa2de2dfe69b1ff4",
+      "sha256": "3957a37a30239c6ad3e35c57aac3f7a024db139d9cd7350b949847f7591e5e71",
       "time": 3.79354838709677
     },
     {
@@ -1002,7 +1002,7 @@
       "frame": 29,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_29.png",
-      "sha256": "a2598f684661345bdacd6b4f1dd642296e3ab4b8f6235054034353fea7587a9e",
+      "sha256": "70d39db7d5a32078567a201e416e27b89f5bb30bcc3b5b6fb4d69de8563f156e",
       "time": 3.92903225806452
     },
     {
@@ -1010,7 +1010,7 @@
       "frame": 29,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_29.png",
-      "sha256": "5013c633bee7ee85b227f0996d40a3ad7ac0bf09f2a29ce9b07c8d3f8871d76a",
+      "sha256": "d80aac0d54000cfa1209cd9723f253c855f3548b23172a7ba9c46c8577ced5d0",
       "time": 3.92903225806452
     },
     {
@@ -1018,7 +1018,7 @@
       "frame": 30,
       "height": 360,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_360_30.png",
-      "sha256": "478055546f27fd89e68c249d00c61be71fd79b02710de74d87b9bd5c43e3573a",
+      "sha256": "3c25e9696d46b77e2cca4abe0baefa6d502743e4d4834f59fdfc612383b3283e",
       "time": 4.06451612903226
     },
     {
@@ -1026,7 +1026,7 @@
       "frame": 30,
       "height": 288,
       "path": "res://reports/minotaur_breaker/actions_v4/frames/skill_01_288_30.png",
-      "sha256": "e553c780508545a48d8c64366ea71001461dbd9bdbcbc23e618636877de1990a",
+      "sha256": "a659c95cc3ff39496b0563c32a55603a43158637050736190e5f286d242e0cdb",
       "time": 4.06451612903226
     },
     {
@@ -1048,7 +1048,7 @@
   ],
   "inputs_unchanged_during_capture": true,
   "renderer": "GeForce GTX 1650",
-  "scene_sha256": "fda0d2a0e3078b3a8333aa62c92fd6c8420c1501e40127f4da4cf57ab9b4b302",
+  "scene_sha256": "ac68d59985428a984a194d994f09cbb5e0fa1d21a537d6a124d1e9b695630d2c",
   "source": "Actual Godot GPU SubViewport frames; heights may be captured sequentially to limit memory",
   "status": "CAPTURED_NOT_VISUALLY_APPROVED"
 }

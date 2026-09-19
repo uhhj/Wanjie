@@ -43,10 +43,16 @@ def build_skill(m):
         grip_y=float(m.lerp_keys(t,[(0,[850]),(.18,[890]),(.42,[935]),(.60,[950]),(3.48,[950]),(3.95,[890]),(4.2,[850])])[0])
         axe_angle=float(m.lerp_keys(t,[(0,[0]),(.18,[45]),(.42,[118]),(.60,[150]),(3.48,[150]),(3.95,[45]),(4.2,[0])])[0])+sway*carry_env
         q=m.base();q['pelvis_offset']=p['pelvis_offset'];q['rotations']['torso']=p['rotations']['torso']
-        m.solve(q,'arm_far_upper','arm_far_fore','hand_far',np.array([grip_x,grip_y]),axe_angle,1,context)
+        # Elbow forward (branch -1) while the axe is carried low in front: the
+        # forearm then points along the shaft and the wrist stays near straight.
+        # Outside the carry window the arm is nearly straight, where both
+        # branches coincide, so switching never pops.
+        branch=-1 if .18<=t<=3.95 else 1
+        m.solve(q,'arm_far_upper','arm_far_fore','hand_far',np.array([grip_x,grip_y]),axe_angle,branch,context)
+        release=float(m.smooth(float(np.clip((t-3.48)/.72,0,1))))
         for bone in ['arm_far_upper','arm_far_fore','hand_far']:
             v=q['rotations'][bone];anchor=previous.get(bone,0.);v=anchor+(v-anchor+180)%360-180;previous[bone]=v
-            p['rotations'][bone]=float(v)
+            p['rotations'][bone]=float(v*(1-release))
         p['rotations']['arm_near_upper']=(26+5*math.sin(phase*2*math.pi))*envelope
         p['rotations']['arm_near_fore']=-18*envelope
         p['rotations']['cape_root']=20*envelope

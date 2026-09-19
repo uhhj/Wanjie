@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "formal_scene_sha256": "a673ba5cde390f707e8fdbef6876a599e8bb6eea1a505e3468128c8c8be91c3d",
-  "candidate_scene_sha256": "fda0d2a0e3078b3a8333aa62c92fd6c8420c1501e40127f4da4cf57ab9b4b302",
+  "formal_scene_sha256": "9cd9a63406f1b0458a9afb66ebd111dd14aa1d4d28d0dc92814b5681a54908c4",
+  "candidate_scene_sha256": "ac68d59985428a984a194d994f09cbb5e0fa1d21a537d6a124d1e9b695630d2c",
   "scene_semantic_parity": true,
   "parts_checked": 21,
   "errors": []

@@ -1,11 +1,11 @@
 {
-  "blade_min_drop_source_px": 304.556213378906,
+  "blade_min_drop_source_px": 304.556274414063,
   "blade_min_forward_offset_source_px": 282.713470458984,
   "errors": [],
-  "far_hand_tracking_error_source_px": 0.00006103515625,
+  "far_hand_tracking_error_source_px": 0.0000682393801980652,
   "min_charge_lean_deg": 56.0000004199771,
   "root_distance_source_px": 2880.0,
-  "scene_sha256": "a673ba5cde390f707e8fdbef6876a599e8bb6eea1a505e3468128c8c8be91c3d",
+  "scene_sha256": "9cd9a63406f1b0458a9afb66ebd111dd14aa1d4d28d0dc92814b5681a54908c4",
   "skill_hit_count": 1,
   "status": "PASS"
 }
