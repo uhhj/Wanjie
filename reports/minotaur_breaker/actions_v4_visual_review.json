@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "reviewer": "ZCode (GLM) visual inspection",
+  "scope": "128 actual Godot GPU frames: attack_01 V4 and skill_01 V3 at 360px and 288px, 32 frames each; all 16 native-size contact sheets inspected page by page",
+  "artifact_inputs": {
+    "res://resources/minotaur_breaker_animation_candidates.json": "ab642283daec0e0318cd7d0c681cd6b43d255ba5761292337c017d1500b9e04f",
+    "res://resources/minotaur_breaker_rig_v1.json": "09912ba90939bdf29a8360eacff161fc6c73bba702ef6f6b4aca007504a5424f",
+    "res://resources/minotaur_breaker_skinning_candidates.json": "70b1b680d479e7bdb950dd15e5c28fe5572f1b062a682a897f0c4c91e4df4ab8",
+    "res://scripts/rig/minotaur_breaker_rig.gd": "0f205ebc2dedea7ff36cb58608289dddfda3791f76937dfcbd944a24c79a37f2",
+    "res://scripts/rig/minotaur_event_relay.gd": "12c70a7f96bee9c4d08ebe921b2f6b3016e26583abda1308872c61a707311b5c",
+    "res://scripts/rig/minotaur_impact_fx.gd": "d2d2709ee1c9f7aaf75d229e39b53c4eef61561f0f34b13ed2b845aa489042f1",
+    "res://work/minotaur_breaker/candidates/manifest.json": "09ce312323b3313575e58d2c72f52471760d59851e3dd2b5060ea42b2811387f",
+    "res://work/minotaur_breaker/candidates/minotaur_breaker_candidate.tscn": "27368726d60dceec09bc84e5eb5d15ae154fb9310e00d420ecd91c46cbbfab9b"
+  },
+  "attack_01": {
+    "status": "PASS",
+    "observations": [
+      "Second hand acquires the lower-shaft grip, windup now holds the axe visibly higher overhead",
+      "Strike extends both arms forward then drives the blade down; the cutting edge rests on the ground line through the hold (numeric check 0.09px deviation)",
+      "Impact FX: ground shockwave arcs, dust puffs and debris chips expand and fade from the contact point; visible at both 360px and 288px",
+      "Feet remain planted; recovery lifts the axe out monotonically and returns to the idle single-hand hold",
+      "No limb disconnection or transparent holes at target size"
+    ]
+  },
+  "skill_01": {
+    "status": "PASS",
+    "observations": [
+      "Hand slides to the pommel before the sweep; the axe swings back outside the body silhouette",
+      "V2 through-body axe defect is gone: blade, shaft and far hand all stay behind the torso plane during the whole charge",
+      "Charge lean is visibly deeper than V2 (56 degrees, horns lead low)",
+      "Six alternating stride cycles preserved with 2880 source px root motion; settle returns to idle"
+    ]
+  },
+  "limitations": [
+    "Rendered 2D artwork has fixed perspective; overhead wrists overlap in projection",
+    "Impact FX is authored procedurally (no new art files); styling can be tuned on request",
+    "V1 dense crowd performance limitation retained; V4 performance not benchmarked in this revision"
+  ],
+  "approval": "Engineering visual review by continuation agent; user may request further motion direction changes"
+}

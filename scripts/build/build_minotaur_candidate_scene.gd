@@ -29,6 +29,13 @@ func build() -> void:
 	skeleton.scene_file_path = ""
 	skeleton.position = -vec(data.origin)
 	visual.add_child(skeleton)
+	# Deterministic impact dust; animated by a progress value track anchored at the attack hit.
+	var impact := Node2D.new()
+	impact.name = "ImpactFx"
+	impact.position = Vector2(384, 6)
+	impact.z_index = 60
+	impact.set_script(load("res://scripts/rig/minotaur_impact_fx.gd"))
+	visual.add_child(impact)
 	for part in manifest.parts:
 		var file := "res://" + str(part.file)
 		assert(FileAccess.get_sha256(file) == part.sha256)
@@ -111,6 +118,11 @@ func build() -> void:
 			var index := a.add_track(Animation.TYPE_METHOD)
 			a.track_set_path(index,NodePath("RigEventRelay"))
 			for event in e.method_events:a.track_insert_key(index,float(event.time),{"method":event.method,"args":[]})
+		if name == "attack_01":
+			var hit_time := 1.14
+			for event in e.get("method_events",[]):
+				if str(event.get("method","")) == "_event_attack_hit": hit_time = float(event.time)
+			track(a,"VisualRoot/ImpactFx:progress",[0.0,hit_time,hit_time+0.40,float(e.length)],[0.0,0.0,1.0,1.0])
 		library.add_animation(name,a)
 	player.add_animation_library("",library)
 	own(unit,unit)

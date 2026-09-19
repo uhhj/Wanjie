@@ -1,0 +1,10 @@
+{
+  "blade_max_forward_offset_source_px": -582.662902832031,
+  "errors": [],
+  "far_hand_tracking_error_source_px": 12.0,
+  "min_charge_lean_deg": 56.0000004199771,
+  "root_distance_source_px": 2880.0,
+  "scene_sha256": "27368726d60dceec09bc84e5eb5d15ae154fb9310e00d420ecd91c46cbbfab9b",
+  "skill_hit_count": 1,
+  "status": "PASS"
+}

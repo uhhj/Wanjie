@@ -1,6 +1,6 @@
 # 牛头破阵者 V1 交付
 
-> 普攻当前版本为 [ATTACK_V3](MINOTAUR_BREAKER_ATTACK_V3.md)：下移握柄、展臂挥砍与单调收斧，2.1秒；技能保持 [HEAVY_ACTIONS_V2](MINOTAUR_BREAKER_HEAVY_ACTIONS_V2.md) 的牛角冲锋。V3普攻预览在 `reports/minotaur_breaker/attack_v3/`，V2技能预览在 `reports/minotaur_breaker/actions_v2/`；本文件中的V1帧图和压力数据作为历史记录保留。
+> 普攻当前版本为 [ATTACK_V4](MINOTAUR_BREAKER_ATTACK_V4.md)：更高蓄力、斧刃触地重劈与程序化冲击特效，2.3 秒；技能当前版本为 [CHARGE_V3](MINOTAUR_BREAKER_CHARGE_V3.md)：柄尾拖斧与 56 度深俯身牛角冲锋，4.2 秒。新预览在 `reports/minotaur_breaker/actions_v4/`；本文件中的V1帧图和压力数据作为历史记录保留。
 
 角色单体资产、六动画和原生Rig已完成；高密度桌面性能与阵列遮挡保留限制，不能把50单位测试完成解释为50单位流畅运行。
 

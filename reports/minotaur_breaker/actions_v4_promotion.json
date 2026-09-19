@@ -1,0 +1,18 @@
+{
+  "status": "PROMOTED_PENDING_FORMAL_TEST",
+  "base_commit": "781b067",
+  "changed_clips": [
+    "attack_01",
+    "skill_01"
+  ],
+  "unchanged_clips": [
+    "idle",
+    "walk",
+    "hit",
+    "death"
+  ],
+  "unchanged_parts": 21,
+  "unchanged_rest_rig": true,
+  "impact_fx": "Deterministic progress-track node, no new art files",
+  "formal_scene_sha256": "3d797aeef66695fa68e81d299098fe3f014d49fc7bd77451e7be0890ddd9f947"
+}

@@ -1,6 +1,6 @@
 # 牛头破阵者：过顶重劈与牛角冲锋 V2
 
-> 普攻已由 [ATTACK_V3](MINOTAUR_BREAKER_ATTACK_V3.md) 修正握柄位置、展臂和收势，以下普攻段落为历史记录；牛角冲锋保持本版本。
+> 普攻已由 [ATTACK_V4](MINOTAUR_BREAKER_ATTACK_V4.md) 替换（触地重劈+冲击特效），技能已由 [CHARGE_V3](MINOTAUR_BREAKER_CHARGE_V3.md) 替换（修复斧身穿体、俯身更深），以下两段均为历史记录。
 
 本次替换 `attack_01` 与 `skill_01`。角色图、21张正式PNG（19核心部件和2膝关节支撑）、绑定权重、静止骨骼、idle/walk/hit/death均与提交 `6cffbe2` 相同。
 
